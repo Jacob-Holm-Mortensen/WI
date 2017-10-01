@@ -8,3 +8,13 @@ C:\Users\User\source\repos\Crawler\Crawler\obj\Debug\Crawler.csprojResolveAssemb
 C:\Users\User\source\repos\Crawler\Crawler\obj\Debug\Crawler.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\Crawler\Crawler\obj\Debug\Crawler.exe
 C:\Users\User\source\repos\Crawler\Crawler\obj\Debug\Crawler.pdb
+C:\GitKrakenRepo\Wi\Crawler\bin\Debug\Crawler.exe.config
+C:\GitKrakenRepo\Wi\Crawler\bin\Debug\Crawler.exe
+C:\GitKrakenRepo\Wi\Crawler\bin\Debug\Crawler.pdb
+C:\GitKrakenRepo\Wi\Crawler\bin\Debug\HtmlAgilityPack.dll
+C:\GitKrakenRepo\Wi\Crawler\bin\Debug\HtmlAgilityPack.pdb
+C:\GitKrakenRepo\Wi\Crawler\bin\Debug\HtmlAgilityPack.xml
+C:\GitKrakenRepo\Wi\Crawler\obj\Debug\Crawler.csprojResolveAssemblyReference.cache
+C:\GitKrakenRepo\Wi\Crawler\obj\Debug\Crawler.csproj.CoreCompileInputs.cache
+C:\GitKrakenRepo\Wi\Crawler\obj\Debug\Crawler.exe
+C:\GitKrakenRepo\Wi\Crawler\obj\Debug\Crawler.pdb

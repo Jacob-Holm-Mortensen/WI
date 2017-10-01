@@ -23,7 +23,7 @@ namespace Crawler
             {
                 Console.WriteLine("type a word:");
                 words = Console.ReadLine();
-                i.PrintPagesWithWords(words, index);
+                i.PrintSearchResult(i.GetPagesWithWords(words, index), words);
             }
         }
 
