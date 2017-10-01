@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en"><head prefix="og: http://ogp.me/ns#"><!-- Fly Version: RELEASE_20170915 4d277b6c7f10b0e8f706642a69c77b86a00f8a95 (cbsnews prod_alt) --><title>The top 10 jobs for Americans without college degrees - CBS News</title><meta charset="UTF-8"><meta name="robots" content="index, follow"><meta name="description" content="The labor market may be changing, valuing workers with college degrees over those with lower education levels.Yet that doesnt mean that good jobs arent"><meta name="keywords" content="The top 10 jobs for Americans without college degrees, cbs news, cbsnews.com, college education, income inequality, jobs, careers, economy, wages, U.S., high school education, community college, business"><link rel="next" href="https://www.cbsnews.com/media/the-top-10-jobs-for-americans-without-college-degrees/2/"><meta name="viewport" content="width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UQIHWFZbGwsEUFhQBgQ="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script><link rel="apple-touch-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/apple-touch-icon.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><meta property="al:web:url" content="https://www.cbsnews.com/media/the-top-10-jobs-for-americans-without-college-degrees/"><meta property="al:ios:app_name" content="CBS News"><meta property="al:ios:app_store_id" content="334256223"><meta property="al:ios:url" content="cbsnewsapp://media/the-top-10-jobs-for-americans-without-college-degrees/"><meta property="al:android:app_name" content="CBS News"><meta property="al:android:package" content="com.treemolabs.apps.cbsnews"><meta property="og:type" content="article"><meta property="og:url" content="https://www.cbsnews.com/media/the-top-10-jobs-for-americans-without-college-degrees/"><meta property="og:title" content="The top 10 jobs for Americans without college degrees"><meta property="og:description" content="Pockets of good jobs are out there for high school grads or those with associate's degrees, but skills are needed"><meta property="og:image" content="https://cbsnews1.cbsistatic.com/hub/i/2017/08/21/a6a99a23-5a51-4b0a-b4d8-86379fb851f7/istock-525002207.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="fb:app_id" content="1536620209892267"><meta property="fb:pages" content="131459315949"><meta name="twitter:app:country" content="US"><meta name="twitter:app:name:iphone" content="CBS News"><meta name="twitter:app:id:iphone" content="334256223"><meta name="twitter:app:url:iphone" content="cbsnewsapp://media/the-top-10-jobs-for-americans-without-college-degrees/"><meta name="twitter:app:name:ipad" content="CBS News"><meta name="twitter:app:id:ipad" content="334256223"><meta name="twitter:app:url:ipad" content="cbsnewsapp://media/the-top-10-jobs-for-americans-without-college-degrees/"><meta name="twitter:app:name:googleplay" content="CBS News"><meta name="twitter:app:id:googleplay" content="com.treemolabs.apps.cbsnews"><meta name="twitter:app:url:googleplay" content="https://www.cbsnews.com/media/the-top-10-jobs-for-americans-without-college-degrees/"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@cbsmoneywatch"><meta name="twitter:title" content="The top 10 jobs for Americans without college degrees"><meta name="twitter:description" content="Pockets of good jobs are out there for high school grads or those with associate's degrees, but skills are needed"><meta name="twitter:image" content="https://cbsnews1.cbsistatic.com/hub/i/2017/08/21/a6a99a23-5a51-4b0a-b4d8-86379fb851f7/istock-525002207.jpg"><script type="application/ld+json">
+      {"@context":"https:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.cbsnews.com\/media\/the-top-10-jobs-for-americans-without-college-degrees\/"},"headline":"The top 10 jobs for Americans without college degrees","description":"Pockets of good jobs are out there for high school grads or those with associate\u0027s degrees, but skills are needed","articleSection":["MoneyWatch","Work"],"image":{"@context":"https:\/\/schema.org","@type":"ImageObject","height":630,"width":1200,"url":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/r\/2017\/08\/21\/a6a99a23-5a51-4b0a-b4d8-86379fb851f7\/thumbnail\/1200x630\/a3e415d4311a2975389d361b9ee7e773\/istock-525002207.jpg"},"keywords":["college education","income inequality","jobs","careers","economy","wages","U.S.","high school education","community college","business"],"datePublished":"2017-08-22T04:00:12-0400","dateModified":"2017-08-22T08:05:54-0400","author":{"@type":"Person","name":"Aimee Picchi"},"publisher":{"@context":"https:\/\/schema.org","@type":"Organization","name":"CBS News","url":"https:\/\/www.cbsnews.com\/","logo":{"@type":"ImageObject","url":"https:\/\/cbsnews4.cbsistatic.com\/fly\/bundles\/cbsnewscore\/images\/standalone\/cbsnews-logo-600x60.png","width":600,"height":60}},"articleBody":{"@context":"https:\/\/schema.org","@type":"Text","@id":"#article-entry"}}
+    </script><script type="application/ld+json">
+      {"@context":"http:\/\/schema.org\/","@type":"WebPage","name":"The top 10 jobs for Americans without college degrees","url":"https:\/\/www.cbsnews.com\/media\/the-top-10-jobs-for-americans-without-college-degrees\/"}
+    </script><script type="application/ld+json">
+      {"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https:\/\/www.cbsnews.com\/moneywatch\/","name":"MoneyWatch"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https:\/\/www.cbsnews.com\/moneywatch\/work\/","name":"Work"}}]}
+    </script><meta property="article:author" content=""><meta property="article:publisher" content="https://www.facebook.com/CBSMoneyWatch"><link rel="alternate" href="android-app://com.treemolabs.apps.cbsnews/http/www.cbsnews.com/media/the-top-10-jobs-for-americans-without-college-degrees/"><link rel="amphtml" href="https://www.cbsnews.com/amp/media/the-top-10-jobs-for-americans-without-college-degrees/"><link rel="preconnect dns-prefetch" href="//cbsnews1.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews2.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews3.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews4.cbsistatic.com"><link rel="canonical" href="https://www.cbsnews.com/media/the-top-10-jobs-for-americans-without-college-degrees/"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-16x16.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" sizes="16x16"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-32x32.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" sizes="32x32"><link rel="shortcut icon" type="image/x-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><link rel="apple-touch-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/apple-touch-icon.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><style>
+      
+@font-face{font-family:'foundation-sans-black';src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.eot");src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.svg#svgFontName") format("svg");font-weight:900;font-style:normal}@font-face{font-family:'foundation-sans-bold';src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.eot");src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.svg#svgFontName") format("svg");font-weight:700;font-style:normal}@font-face{font-family:'foundation-sans-light';src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.eot");src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.svg#svgFontName") format("svg");font-weight:300;font-style:normal}@font-face{font-family:'museo-sans';src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot");src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.svg#svgFontName") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'museo-sans-500';src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.eot");src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.svg#svgFontName") format("svg");font-weight:bold;font-style:normal}@font-face{font-family:'proxima-nova';src:url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.eot");src:url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.woff") format("woff"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.svg#svgFontName") format("svg");font-weight:700;font-style:normal}h1,h2,h3,h4,h5,h6{font-family:"foundation-sans-bold", Helvetica, Roboto, sans-serif;font-weight:700}.site-header{font-family:"Proxima Nova", "proxima-nova", sans-serif;font-weight:700}
+
+
+    </style><link rel="stylesheet" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/css/main.moneywatch.desktop.css?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><!--[if lt IE 9]>
+    <script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js/libs/html5shiv-printshiv.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"></script>
+    <![endif]--></head><body data-cms-edit='{"url":"https:\/\/cms.cbsnews.com\/content\/mediapost\/554da321-4a3f-4c59-9e30-4cede713e8fd"}' class="desktop
+ media-post">
+        
+    
+    <!-- src/CbsNews/CoreBundle/Resources/views/Layout/default.desktop.html.twig -->
+
+                <!-- comscorekw=moneywatchwork -->
+    
+
+    
+    <div id="fb-root"></div>
+                    <div id="intromercial-59be6c8810e83" class="ad-intromercial" data-ad="intromercial" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-59be6c8810e83 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-59be6c8810e83");
+    </script></div>
+
+    	<div class="body-container">
+
+        <!-- src/CbsNews/CoreBundle/Resources/views/Theme/moneywatch/header.desktop.html.twig -->
+
+
+
+<header class="site-header nocontent"><div id="breakingNewsBanner" data-component="ticker">
+        <include src="/feedfiles/breakingnews.desktop.html" onerror="continue"></include></div>
+
+    <div class="supplemental">
+    <div class="container">
+        <div class="col-9">
+            
+        <nav class="site-shows"><ul class="items"><li><a class="module-click-tracking" href="/" data-tracking="site header-show-nav|CBS News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/media/the-top-10-jobs-for-americans-without-college-degrees/ Show-nav|CBS News"}' aria-label="">CBS News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/evening-news/" data-tracking="site header-show-nav|CBS Evening News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/media/the-top-10-jobs-for-americans-without-college-degrees/ Show-nav|CBS Evening News"}' aria-label="">CBS Evening News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbs-this-morning/" data-tracking="site header-show-nav|CBS This Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/media/the-top-10-jobs-for-americans-without-college-degrees/ Show-nav|CBS This Morning"}' aria-label="">CBS This Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/48-hours/" data-tracking="site header-show-nav|48 Hours" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/media/the-top-10-jobs-for-americans-without-college-degrees/ Show-nav|48 Hours"}' aria-label="">48 Hours</a></li>
+                                                                        <li><a class="module-click-tracking" href="/60-minutes/" data-tracking="site header-show-nav|60 Minutes" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/media/the-top-10-jobs-for-americans-without-college-degrees/ Show-nav|60 Minutes"}' aria-label="">60 Minutes</a></li>
+                                                                        <li><a class="module-click-tracking" href="/sunday-morning/" data-tracking="site header-show-nav|Sunday Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/media/the-top-10-jobs-for-americans-without-college-degrees/ Show-nav|Sunday Morning"}' aria-label="">Sunday Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/face-the-nation/" data-tracking="site header-show-nav|Face The Nation" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/media/the-top-10-jobs-for-americans-without-college-degrees/ Show-nav|Face The Nation"}' aria-label="">Face The Nation</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbsn-originals/" data-tracking="site header-show-nav|CBSN Originals" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/media/the-top-10-jobs-for-americans-without-college-degrees/ Show-nav|CBSN Originals"}' aria-label="">CBSN Originals</a></li>
+            </ul></nav></div>
+        
+        <div class="col-3">
+            
+<form class="site-search" method="get" action="/search/">
+    <div class="search-wrapper" data-component="placeholder">
+        <input class="query" type="search" name="q" maxlength="255" placeholder="Search"></div>
+    <button class="submit core-search-header" type="submit">GO</button>
+</form>
+<ul class="login-wrapper logged-in"><li>
+        <!--<li class="site-section-tab"><a href="//secure-fly.cbsnews.com/user/registration/" data-user-show="register"><span>Join</span></a></li>-->
+                     <a class="site-login" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Channel Button"}'><span class="text">Log In</span></a>
+                <div class="menu-wrapper sign-in">
+            <span class="hover-padding"></span>
+            <span class="arrow"></span>
+            <ul class="login"><li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/login/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Login"}'>Log In</a>
+                    </li>
+                    <li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/registration/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Join CBSNews"}'>Join CBSNews.com</a>
+                    </li>
+                                                </ul></div>
+    </li>
+</ul></div>
+    </div>
+</div>
+    <div class="primary">
+        <div class="container">
+            <div class="logo moneywatch-logo" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Branding"}'><a href="/moneywatch/">CBS Moneywatch</a></div>
+
+            <nav class="site-sections"><ul class="items"><li><a href="/moneywatch/markets/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Markets"}'><span>Markets</span></a></li>
+                    <li><a href="/moneywatch/money/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Money"}'><span>Money</span></a></li>
+                    <li><a href="/moneywatch/work/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Work"}'><span>Work</span></a></li>
+                    <li><a href="/moneywatch/small-business/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Small Business"}'><span>Small Business</span></a></li>
+                    <li><a href="/moneywatch/retirement/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Retirement"}'><span>Retirement</span></a></li>
+                    <li><a href="/moneywatch/tech/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Tech"}'><span>Tech</span></a></li>
+                    <li><a href="/moneywatch/trending/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Trending"}'><span>Trending</span></a></li>
+                    <li><a href="/videos/topics/moneywatch/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Video"}'><span>Video</span></a></li>
+                </ul></nav><div id="moneywatch-ticker">
+                <div id="stock-quote" section="stock-quote"> <form section="srch" name="tsearch" class="universalSearch" action="/quote" method="get" onsubmit="window.location.href='//markets.cbsnews.com/'+this.symbol.value+'/quote/'; return false;"> <div class="searchBoxWrap"> <span><input class="input top-input-ticker placeholder" id="search-stock-query" type="text" name="symbol" value="" placeholder="Quote"></span> </div> <input type="hidden" value="Symbol"><button id="search-stock-submit" class="top-search-ticker" type="submit">Get</button> </form> </div>
+            </div>
+        </div>
+    </div>
+
+</header><div id="mantle_skin" class="content-primary media-page">
+                                    <div id="leader-top-59be6c8810e83" class="ad-leader-top" data-ad="leader-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-top-59be6c8810e83 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-top-59be6c8810e83");
+    </script></div>
+
+                <div class="container">
+    <div class="row">
+                    <div class="row">
+    
+                
+    <div class="col-12 ">
+                                        </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                
+            
+                                
+    <div class="col-8 ">
+                                    
+                                    
+                                            
+    <article itemscope itemtype="http://schema.org/Text" itemid="#article-entry" id="media-post" class="article media-post"><div class="byline">
+                    <span class="author"><a href="/search/author/aimee-picchi/">Aimee Picchi</a></span>
+        <span class="source">MoneyWatch</span>
+                        <span class="time">August 22, 2017, 4:00 AM</span>
+            </div>
+
+    <h1 class="title" data-media-title="The top 10 jobs for Americans without college degrees">The top 10 jobs for Americans without college degrees</h1>
+
+    
+    <div class="media-post-object " data-component="mediaPost" data-media-post-options='{"autoplayDelay":0,"updatePagination":true,"hidePreviousOnFirstSlide":true,"currentSlide":0}'>
+                <nav class="pagination"><div class="controls">
+                                <span class="prev" data-to="prev"><a data-omniture-track="trackView">Prev</a></span>
+                				<div class="counter" data-item="image-count">
+											<span class="index">1</span> <span class="divider">/</span> <span class="count">11</span>
+									</div>
+                <span class="next" data-to="next"><a href="/media/the-top-10-jobs-for-americans-without-college-degrees/2/" data-omniture-track="trackView">Next</a></span>
+
+            </div>
+        </nav><div class="viewport" data-item="viewport">
+                            <ul class="canvas" data-item="canvas"><li data-item="slide" class="slide" data-page-location="/media/the-top-10-jobs-for-americans-without-college-degrees/">                                                            
+                            <div class="post" data-use-autolinker="true">
+
+                                                                    
+      <figure class="media-block"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/21/7afaa1c6-4086-4ea3-ac3c-94663892389f/resize/620x465/47e88b2ccf14fc788415d1d695a8dd3a/istock-516606978.jpg#" alt=" " srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/21/7afaa1c6-4086-4ea3-ac3c-94663892389f/resize/620x465/47e88b2ccf14fc788415d1d695a8dd3a/istock-516606978.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/21/7afaa1c6-4086-4ea3-ac3c-94663892389f/resize/1240x930/27afa53e226c86f001a505d3bc3bb74d/istock-516606978.jpg 2x"></span>
+
+      <figcaption class="caption"><span class="image-credit">Getty Images/iStockphoto</span>      </figcaption></figure><p>The labor market may be changing, valuing workers with college degrees over those with lower education levels.</p><p>Yet that doesn't mean that good jobs aren't available for Americans with only a high school degree or some college, such as an associate's degree. The majority of workers fall into the latter category, since just one-third of adults have a bachelor's degree.</p><p>In fact, there are 30 million good jobs for less-educated workers that pay a median annual wage of $55,000, compared with 27 million of such jobs in 1991, <a href="https://www.cbsnews.com/news/good-jobs-for-high-school-grads-30-million/" target="_blank" data-invalid-url-rewritten-http="">a recent study from Georgetown University and JPMorgan Chase found</a>.</p><p>So where are those good jobs? One industry tends to dominate, according to a new study from CareerCast: health care.</p><p>A few other trends jump out among the jobs identified as the best occupations for Americans without college degrees: skills are important, ranging from tech know-how to professions that require vocational training.</p><p>Nevertheless, earning a college degree is a often a better route to higher earnings, given that the Economic Policy Institute estimates workers with a bachelor's degree earn about 56 percent more than those who don't, CareerCast noted.</p><p>Read on to learn about the <a href="https://www.cbsnews.com/media/the-top-10-jobs-for-americans-without-college-degrees/2" data-invalid-url-rewritten-http="">top 10 jobs for workers without a college degree</a>.</p>
+                                                            </div>
+                        </li>
+
+                                            
+                        <li data-item="slide" class="slide" data-page-location="/media/the-top-10-jobs-for-americans-without-college-degrees/2/" style="display:none;">                                                            
+                            <div class="post" data-use-autolinker="true">
+
+                                                                    <h1 class="title" data-page-title="Broadcast technician: $42,550">Broadcast technician: $42,550</h1>
+                                                                                                                
+      <figure class="media-block"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/21/1e03de43-42ad-4ab3-be2d-e7a5adfe044d/resize/620x465/d8b619c7058a0ba7c554ca0ba80122bf/istock-518552409.jpg#" alt=" " srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/21/1e03de43-42ad-4ab3-be2d-e7a5adfe044d/resize/620x465/d8b619c7058a0ba7c554ca0ba80122bf/istock-518552409.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/21/1e03de43-42ad-4ab3-be2d-e7a5adfe044d/resize/1240x930/5e39a19fb0f47296087875cea388e4ac/istock-518552409.jpg 2x"></span>
+
+      <figcaption class="caption"></figcaption></figure><p>Broadcast technicians typically work in radio, television or recording studios, but they can also work in hotels, arenas or other public spaces where electrical equipment is used, according to the Bureau of Labor Statistics.</p><p>Entering the profession requires an associate's degree or postsecondary non-degree award, the BLS noted. The median pay is $42,550, with employment projected to grow by 7 percent through 2024, or about on par with job growth overall.</p>
+                                                            </div>
+                        </li>
+
+                                            
+                        <li data-item="slide" class="slide" data-page-location="/media/the-top-10-jobs-for-americans-without-college-degrees/3/" style="display:none;">                                                            
+                            <div class="post" data-use-autolinker="true">
+
+                                                                    <h1 class="title" data-page-title="Diagnostic medical sonographer: $64,280">Diagnostic medical sonographer: $64,280</h1>
+                                                                                                                
+      <figure class="media-block"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/21/be9cd823-06b0-4a23-8f09-b739547ed8e1/resize/620x465/4fbfeec9b3b4c8c9e8ed7e0bebbc6001/istock-806979404.jpg#" alt=" " srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/21/be9cd823-06b0-4a23-8f09-b739547ed8e1/resize/620x465/4fbfeec9b3b4c8c9e8ed7e0bebbc6001/istock-806979404.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/21/be9cd823-06b0-4a23-8f09-b739547ed8e1/resize/1240x930/4587be38162da23648f3dd9d86441099/istock-806979404.jpg 2x"></span>
+
+      <figcaption class="caption"><span class="image-credit">Getty Images/iStockphoto</span>      </figcaption></figure><p>These technicians operate imaging equipment to conduct tests for physicians. Most of them were employed by hospitals in 2014, although some work in physician's offices and laboratories, the BLS noted.</p><p>While a bachelor's degree isn't necessary, some formal education is required, such as a postsecondary certificate or an associate's degree. New jobs in the field are expected to grow by 24 percent through 2024, or much faster than the typical occupation.</p>
+                                                            </div>
+                        </li>
+
+                                            
+                        <li data-item="slide" class="slide" data-page-location="/media/the-top-10-jobs-for-americans-without-college-degrees/4/" style="display:none;">                                                            
+                            <div class="post" data-use-autolinker="true">
+
+                                                                    <h1 class="title" data-page-title="Electrician: $52,720">Electrician: $52,720</h1>
+                                                                                                                
+      <figure class="media-block"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/21/f52f3c04-4528-436e-a0b2-c642d960fa5d/resize/620x465/1a60b663848f857cdf1512ee0f7bcd0b/istock-528167261.jpg#" alt=" " srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/21/f52f3c04-4528-436e-a0b2-c642d960fa5d/resize/620x465/1a60b663848f857cdf1512ee0f7bcd0b/istock-528167261.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/21/f52f3c04-4528-436e-a0b2-c642d960fa5d/resize/1240x930/df2994c92568f192aa1141defb9eff6b/istock-528167261.jpg 2x"></span>
+
+      <figcaption class="caption"><span class="image-credit">Getty Images/iStockphoto</span>      </figcaption></figure><p>A profession that keeps Americans out of the dark, electricians are projected to see much more demand for their services over the next several years. Employment is expected to grow 14 percent through 2024, or much faster than overall job growth.</p><p>Most electricians learn through either an apprenticeship or attending technical school, although it isn't necessary that they have more than a high school degree or equivalent. Electricians also need to be licensed in most states.</p>
+                                                            </div>
+                        </li>
+
+                                            
+                        <li data-item="slide" class="slide" data-page-location="/media/the-top-10-jobs-for-americans-without-college-degrees/5/" style="display:none;">                                                            
+                            <div class="post" data-use-autolinker="true">
+
+                                                                    <h1 class="title" data-page-title="Executive assistant: $55,860">Executive assistant: $55,860</h1>
+                                                                                                                
+      <figure class="media-block"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/21/94303ba8-8ecd-4204-89b5-38e3d77e6c5f/resize/620x465/a5ebc02891fe60b8ccc73e41c78d7f9e/istock-520618324.jpg#" alt=" " srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/21/94303ba8-8ecd-4204-89b5-38e3d77e6c5f/resize/620x465/a5ebc02891fe60b8ccc73e41c78d7f9e/istock-520618324.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/21/94303ba8-8ecd-4204-89b5-38e3d77e6c5f/resize/1240x930/501fba3061e64f4666f66326470ed9f3/istock-520618324.jpg 2x"></span>
+
+      <figcaption class="caption"><span class="image-credit">Getty Images/iStockphoto</span>      </figcaption></figure><p>High school graduates typically qualify for this role, which requires clerical and administrative duties such as scheduling appointments and organizing files.</p><p>Still, executive secretaries typically have several years of experience under their belts. While it's a good-paying job for high school grads, this one doesn't have much growth ahead of it, with the BLS projecting the occupation will expand by only 3 percent through 2024.</p>
+                                                            </div>
+                        </li>
+
+                                            
+                        <li data-item="slide" class="slide" data-page-location="/media/the-top-10-jobs-for-americans-without-college-degrees/6/" style="display:none;">                                                            
+                            <div class="post" data-use-autolinker="true">
+
+                                                                    <h1 class="title" data-page-title="Industrial machine repairer: $49,100">Industrial machine repairer: $49,100</h1>
+                                                                                                                
+      <figure class="media-block"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/21/52b5cc3f-2ff3-47d6-8d30-a52792c68a2e/resize/620x465/f3a2b424c90eb9920d560b0ad3391c4a/istock-457740707.jpg#" alt=" " srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/21/52b5cc3f-2ff3-47d6-8d30-a52792c68a2e/resize/620x465/f3a2b424c90eb9920d560b0ad3391c4a/istock-457740707.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/21/52b5cc3f-2ff3-47d6-8d30-a52792c68a2e/resize/1240x930/8d52aaa1a5ae3a5ba893b5686a669c1d/istock-457740707.jpg 2x"></span>
+
+      <figcaption class="caption"><span class="image-credit">Getty Images/iStockphoto</span>      </figcaption></figure><p>These workers maintain and repair factory equipment in a job that's expected to grow by 16 percent through 2024, according to the BLS.</p><p>Demand for workers who can fix machinery is expected to grow as more companies automate their offices and factories. A high school degree is required, but most have additional training through a technical school or an apprenticeship, the BLS noted.</p>
+                                                            </div>
+                        </li>
+
+                                            
+                        <li data-item="slide" class="slide" data-page-location="/media/the-top-10-jobs-for-americans-without-college-degrees/7/" style="display:none;">                                                            
+                            <div class="post" data-use-autolinker="true">
+
+                                                                    <h1 class="title" data-page-title="Medical records technician: $38,040">Medical records technician: $38,040</h1>
+                                                                                                                
+      <figure class="media-block"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/21/abdc7f94-0ef3-45ea-9ee5-3a4d26b0ba42/resize/620x465/53d3429c717327cc3b0cc57ab4ac1318/istock-535114873.jpg#" alt=" " srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/21/abdc7f94-0ef3-45ea-9ee5-3a4d26b0ba42/resize/620x465/53d3429c717327cc3b0cc57ab4ac1318/istock-535114873.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/21/abdc7f94-0ef3-45ea-9ee5-3a4d26b0ba42/resize/1240x930/f25ef27e48d8ae9482affe3102cddf38/istock-535114873.jpg 2x"></span>
+
+      <figcaption class="caption"><span class="image-credit">Getty Images/iStockphoto</span>      </figcaption></figure><p>People who work in this profession help organize and manage health data. Employment is expected to grow by 15 percent through 2024, or faster than the typical job growth.</p><p>Most people in this role don't require more than a high school degree, although the BLS notes that some may need an associate's degree.</p>
+                                                            </div>
+                        </li>
+
+                                            
+                        <li data-item="slide" class="slide" data-page-location="/media/the-top-10-jobs-for-americans-without-college-degrees/8/" style="display:none;">                                                            
+                            <div class="post" data-use-autolinker="true">
+
+                                                                    <h1 class="title" data-page-title="Paralegal: $49,500">Paralegal: $49,500</h1>
+                                                                                                                
+      <figure class="media-block"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/21/e48fbc35-2f26-4daa-a3d6-300356e51103/resize/620x465/b1770a4932865babe2160a62bbf22f3a/istock-663458084.jpg#" alt=" " srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/21/e48fbc35-2f26-4daa-a3d6-300356e51103/resize/620x465/b1770a4932865babe2160a62bbf22f3a/istock-663458084.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/21/e48fbc35-2f26-4daa-a3d6-300356e51103/resize/1240x930/c19038c0e428cb947e3e0c2f9d690e63/istock-663458084.jpg 2x"></span>
+
+      <figcaption class="caption"><span class="image-credit">Getty Images/iStockphoto</span>      </figcaption></figure><p>Paralegals help attorneys by handling tasks such as undertaking legal research and organizing files. While a bachelor's degree isn't needed, most in the role have an associate's degree or a certificate in paralegal studies, according to the BLS.</p><p>There is competition from college grads, as some law firms hire workers with a bachelor's degree and train them in the legal field.</p><p>Employment is expected to grow 8 percent through 2024, or about typical for all occupations, the BLS noted.</p>
+                                                            </div>
+                        </li>
+
+                                            
+                        <li data-item="slide" class="slide" data-page-location="/media/the-top-10-jobs-for-americans-without-college-degrees/9/" style="display:none;">                                                            
+                            <div class="post" data-use-autolinker="true">
+
+                                                                    <h1 class="title" data-page-title="Plumber: $51,540">Plumber: $51,540</h1>
+                                                                                                                
+      <figure class="media-block"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/21/431e4c29-d397-440b-ab73-b3b9a790d494/resize/620x465/27f045c463fdb578d63811fe58e5c86a/istock-615603380.jpg#" alt=" " srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/21/431e4c29-d397-440b-ab73-b3b9a790d494/resize/620x465/27f045c463fdb578d63811fe58e5c86a/istock-615603380.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/21/431e4c29-d397-440b-ab73-b3b9a790d494/resize/1240x930/d47d4f7be0b8f97c57d7a5ff2ea48d8b/istock-615603380.jpg 2x"></span>
+
+      <figcaption class="caption"><span class="image-credit">Getty Images/iStockphoto</span>      </figcaption></figure><p>Like electricians, plumbers can earn a solid living without a college degree. Many learn the skill by attending a technical school or through an apprenticeship, the BLS noted.</p><p>The profession is likely to grow by 12 percent thorough 2024 as more buildings are constructed over the next several years.</p>
+                                                            </div>
+                        </li>
+
+                                            
+                        <li data-item="slide" class="slide" data-page-location="/media/the-top-10-jobs-for-americans-without-college-degrees/10/" style="display:none;">                                                            
+                            <div class="post" data-use-autolinker="true">
+
+                                                                    <h1 class="title" data-page-title="Respiratory therapist: $58,670">Respiratory therapist: $58,670</h1>
+                                                                                                                
+      <figure class="media-block"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/21/2155d6e4-0d58-4dc4-89da-12d7976181e1/resize/620x465/2c859ab19f907101f10e3532f9b3a5df/istock-459341733.jpg#" alt=" " srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/21/2155d6e4-0d58-4dc4-89da-12d7976181e1/resize/620x465/2c859ab19f907101f10e3532f9b3a5df/istock-459341733.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/21/2155d6e4-0d58-4dc4-89da-12d7976181e1/resize/1240x930/ca6f7ae6a1615f9c39b1daeb17b5f647/istock-459341733.jpg 2x"></span>
+
+      <figcaption class="caption"><span class="image-credit">Getty Images/iStockphoto</span>      </figcaption></figure><p>Professionals in this role treat patients who have difficulty breathing, such as people with chronic diseases such as asthma or emphysema. Most of them work in hospitals and typically have an associate's degree, although the BLS notes that some have bachelor's degrees.</p><p>The job is expected to grow by 12 percent through 2024, slightly faster than the average for all jobs. The growth will be fueled by America's aging population, which will be in increasing demand for such therapies.</p>
+                                                            </div>
+                        </li>
+
+                                            
+                        <li data-item="slide" class="slide" data-page-location="/media/the-top-10-jobs-for-americans-without-college-degrees/11/" style="display:none;">                                                            
+                            <div class="post" data-use-autolinker="true">
+
+                                                                    <h1 class="title" data-page-title="Web developer: $66,130">Web developer: $66,130</h1>
+                                                                                                                
+      <figure class="media-block"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/21/efcdc0cd-eac1-4386-b3cc-6b5d5c0d2331/resize/620x465/316bf535831453ec23cd83a77bd94f3f/istock-590595028.jpg#" alt=" " srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/21/efcdc0cd-eac1-4386-b3cc-6b5d5c0d2331/resize/620x465/316bf535831453ec23cd83a77bd94f3f/istock-590595028.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/21/efcdc0cd-eac1-4386-b3cc-6b5d5c0d2331/resize/1240x930/bfae0975febac68e250dd7fb7276dc5f/istock-590595028.jpg 2x"></span>
+
+      <figcaption class="caption"><span class="image-credit">Getty Images/iStockphoto</span>      </figcaption></figure><p>Web developers design and create websites, and also oversee technical issues like capacity and speed. A skilled trade, web developers typically need an associate's degree in web design or a related field, although many have higher levels of education.</p><p>The employment of this occupation is expected to surge by 27 percent through 2024, or much faster than the typical occupation, the BLS predicts.</p><p>CareerCast has cited the profession as one of the best jobs for either part-time or freelance work this year, since there's plenty of work available and it can be completed on a contractual basis and on a flexible schedule. About 1 in 7 web developers was self-employed in 2014, according to the BLS.</p>
+                                                            </div>
+                        </li>
+
+                                    </ul></div>
+                <nav class="pagination bottom"><div class="controls">
+                                <span class="prev" data-to="prev"><a data-omniture-track="trackView">Prev</a></span>
+                                <span class="next" data-to="next"><a href="/media/the-top-10-jobs-for-americans-without-college-degrees/2/" data-omniture-track="trackView">Next</a></span>
+
+            </div>
+        </nav><div class="social sharebar_expanded inline-sharebar theme-light  location-top" data-component="sharebar">
+
+
+    <ul data-component="socialCounts" data-social-counts-options='{"title":"The top 10 jobs for Americans without college degrees","description":"Pockets of good jobs are out there for high school grads or those with associate\u0027s degrees, but skills are needed","url":"https:\/\/www.cbsnews.com\/media\/the-top-10-jobs-for-americans-without-college-degrees\/","articleId":"554da321-4a3f-4c59-9e30-4cede713e8fd","showZeros":false}'><li class="std-social std-disqus">
+           <a class="sharebar-disqus toggle-comments" data-item="trigger" href="#comments">
+                <span class="social-icon"></span>
+                
+    <span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"554da321-4a3f-4c59-9e30-4cede713e8fd"}'></span>
+                <span class="social-label">Comment</span>
+            </a>
+        </li>
+
+                
+        <li class="std-social std-facebook">
+           <a class="sharebar-facebook" data-item="trigger" data-counts data-popup="facebook" href="#">
+                <span class="social-icon"></span>
+                <span class="social-count social-count-facebook"></span>
+                <span class="social-label" data-format-one="Share" data-format-other="Shares">Share</span>
+            </a>
+        </li>
+
+        <li class="std-social std-twitter">
+           <a class="sharebar-twitter" data-item="trigger" data-counts data-popup="twitter" href="#">
+                <span class="social-icon"></span>
+                <span class="social-count social-count-twitter"></span>
+                Tweet
+            </a>
+        </li>
+
+        <li class="std-social std-stumble">
+            <a class="sharebar-stumble" data-item="trigger" data-counts data-popup="stumbleupon" href="#">
+                <span class="social-icon"></span>
+                <span class="social-count social-count-stumbleupon"></span>
+                Stumble
+            </a>
+        </li>
+
+        <li class="std-social last std-email">
+            <span class="emailImage btnImage"></span>
+            <a href="#" title="Email" class="sharebar-email" data-popup="email">
+                <span class="social-icon"></span>
+                Email
+            </a>
+        </li>
+    </ul></div>
+    </div>
+
+        
+</article><div id="comments" class="comments  " data-component="comments" data-comments-options='{"deviceType":"desktop","contentType":"content_media_post"}'>
+        <!--
+        <div class="toggle-comments-container" >
+        <a class="toggle-comments" href="#article">
+            show
+            <span class="expand-article"> story </span>
+            <span class="expand-comments"> 
+    <span class="disqus-comment-count comment-count loaded" data-component='disqusCount' data-disqus-count-options='{"disqusIdentifier":"554da321-4a3f-4c59-9e30-4cede713e8fd"}'></span>
+ comments</span>
+            +
+        </a>
+        </div>
+
+      <div id="disqusConversation">
+      
+
+<div class="d-login">
+                        <a class="popup-link d-login__btn" data-component='popups' data-popups-options='{"selector":".popup-link","path":"\/\/secure-fly.cbsnews.com\/user\/login\/?ifmsgr=true","event":"click"}'>
+        
+            <svg xmlns="http://www.w3.org/2000/svg" class="d-login__icon" width="15" height="13">
+                <path fill="#656C7A" fill-rule="evenodd" d="M15 5.357C15 2.394 11.643 0 7.5 0S0 2.402 0 5.357c0 1.7 1.105 3.214 2.83 4.194-.394 1.4-.997 1.9-1.524 2.495-.126.15-.268.276-.226.486v.01c.042.2.217.334.402.317.326-.042.652-.1.954-.184 1.448-.368 2.754-1.055 3.85-2.026.394.042.804.067 1.214.067 4.143 0 7.5-2.394 7.5-5.357z"/>
+            </svg>Log in to comment
+        </a>
+    
+    <a class="d-login__link" href="/news/community-faqs/" target="_blank">Commenting FAQs</a> | <a class="d-login__link" href="/news/commenting-guidelines/" target="_blank">Community Guidelines</a>
+</div>
+
+<div id="postComments">
+    <div id="disqusContainer-554da321-4a3f-4c59-9e30-4cede713e8fd">
+        <a name="comments"></a>
+
+                <div data-component='disqus' data-disqus-options='{"id":"554da321-4a3f-4c59-9e30-4cede713e8fd","title":"The top 10 jobs for Americans without college degrees","url":"http:\/\/www.cbsnews.com\/media\/the-top-10-jobs-for-americans-without-college-degrees\/","loadOnInit":true}' data-id='554da321-4a3f-4c59-9e30-4cede713e8fd' data-title='The top 10 jobs for Americans without college degrees' data-url='http://www.cbsnews.com/media/the-top-10-jobs-for-americans-without-college-degrees/' data-load-on-init='true' ></div>
+    </div>
+</div>
+      </div>
+    -->
+</div>
+
+
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk taboola-thumbs-recirc" id="module-taboola-thumbs-recirc">
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <div data-taboola='{"mode":"thumbnails-a","placement":"Below Article Thumbnails"}'></div></li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                                                        <section class="section module-rem"><div class="row">
+        <div class="col-4">
+            <h2 class="title">Featured in Moneywatch</h2>
+                                                                                            
+
+<div class="listing-full ">
+    <ul class="media-list items"><li class="">
+    <a href="/media/20-coolest-places-to-retire-in-the-world/">
+        <figure class="media-block img-inset" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Media Post-REM Block|Article-1-Large Image"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2016/03/25/f7c9a3d1-a76b-4e79-a8ba-c608818db383/thumbnail/300x175/aa63396a508a18d35060f9f93ef4bd79/istock000039287558medium.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2016/03/25/f7c9a3d1-a76b-4e79-a8ba-c608818db383/thumbnail/300x175/aa63396a508a18d35060f9f93ef4bd79/istock000039287558medium.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2016/03/25/f7c9a3d1-a76b-4e79-a8ba-c608818db383/thumbnail/600x350/64139d952671dcecb364e1ddd53cb66c/istock000039287558medium.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Media Post-REM Block|Article-1-Headline"}'>20 of the coolest places to retire in the world</h3>
+
+        <p class="dek" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Media Post-REM Block|Article-1-Body"}'>
+Find out what activities and attractions make these 20 cities and town some of the best places to retire around the world</p>
+            </a>
+</li>
+
+                            
+                                                
+
+
+
+    
+    
+<li class="">
+    <a href="/media/10-products-you-should-never-buy-generic/">
+        <figure class="media-block img-inset" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Media Post-REM Block|Article-2-Large Image"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/08/31/ab53a5bd-5d7e-42f4-ad01-44cec831537e/thumbnail/300x175/8de128b90f520106a85d8533c02e1b7d/istock-59353704-medium.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/08/31/ab53a5bd-5d7e-42f4-ad01-44cec831537e/thumbnail/300x175/8de128b90f520106a85d8533c02e1b7d/istock-59353704-medium.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2016/08/31/ab53a5bd-5d7e-42f4-ad01-44cec831537e/thumbnail/600x350/c3285adca841267d5af54f5923538698/istock-59353704-medium.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Media Post-REM Block|Article-2-Headline"}'>10 products you should never buy generic</h3>
+
+        <p class="dek" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Media Post-REM Block|Article-2-Body"}'>
+Generics are a great way to save money in lots of cases, but here is a look at some clear exceptions</p>
+            </a>
+</li>
+
+                </ul></div>        </div>
+
+        <div class="col-4">
+            <h2 class="title">Popular</h2>
+
+            <div data-taboola='{"mode":"alternating-thumbnails-e","placement":"Right Rail Below Article"}'></div>
+        </div>
+    </div>
+</section></div>
+        
+            
+            
+    <div class="col-4 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    <div class="module module-listing module-livestream-player" id="fdWrapperCBSN" data-component="stickyPlayer">
+            <h2 class="module-heading title">CBSN Live</h2>
+            <a href="" class="popout-icon">pop-out</a>
+            <div class="livestream-player-wrapper" data-component="smartBanner" data-smart-banner-options='{"url":"https:\/\/www.cbsnews.com\/live\/?ftag=CNMe94798","bannerAnchorSelector":"","bannerVisibleClass":"livestream-player--visible","bannerHiddenClass":"livestream-player--hidden","cookieName":"viewabilityPlayerState","retryDays":0,"hideDays":1,"hideOnZoom":false}'>
+            <a class="smart-banner--close" role="button" aria-controls="livestream-player-wrapper" data-label-hidden="collapse video player" data-label-visible="expand video player">
+                <span class="smart-banner--close-x"></span>
+            </a>
+            <div class="livestream-video-player">
+                <div class="live-text"><span class="live-text-icon"></span></div>
+                <div class="watch-live"><span class="watch-live-icon"></span></div>
+                <div class="fd-video-player" id="cndcVideoPlayer">
+                    <video id="cndcVideoPlayer__video" muted autoplay webkit-playsinline playsinline data-component="hlsWrapper"><source src="/common/video/cbsn_header_prod.m3u8" type="application/vnd.apple.mpegurl"></source></video></div>
+            </div>
+            <div class="cbsnews-live-logo"><span class="cbsn-logo"></span></div>
+        </div>
+        <div id="marquee300-middle-59be6c8810e83" class="ad-marquee300-middle" data-ad="marquee300-middle" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing marquee300-middle-59be6c8810e83 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("marquee300-middle-59be6c8810e83");
+    </script></div>
+
+    </div>
+
+
+
+<script type="text/javascript">
+    var player = document.getElementsByClassName('livestream-video-player')[0];
+    var logo = document.getElementsByClassName('cbsnews-live-logo')[0];
+    var elements = [player, logo];
+    
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].addEventListener("click", function(){
+            om.trackVideoClick({'moduleInfo': 'Right Rail|CBSN LIVE Promo|MainImage'});
+            window.location.href = 'https://www.cbsnews.com/live/?ftag=CNMe94798';
+        }, false);
+    }
+
+    var popouticon = document.getElementsByClassName('popout-icon')[0];
+    popouticon.addEventListener("click", function(e){
+        e.preventDefault();
+        om.trackVideoClick({'moduleInfo': 'Right Rail|CBSN LIVE Promo|PopOutImage'});
+        window.open('https://www.cbsnews.com/live/compact/?ftag=CNMe94798', 'CBSNews Live', 'width=418, height=330');
+    }, false);
+</script><div class="module module-listing module-bulk CBSN Top DVR (RR)" id="module-right-rail-cbsn-top-dvr">
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <figure class="embed embed--type-iframe embed--float-none embed--size-large " data-ads='{"wordCount":50}'>
+  <div class="embed__content-wrapper">
+	<div class="embed__resizer"></div>
+	<iframe class="embed__content lazyload" data-src="https://www.cbsnews.com/cbsn-top-dvr/" data-width="300" data-height="420" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+  </div>
+</figure>
+</li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-market-data-marquee300-top">
+      <h2 class="module-heading title">Market Data</h2>
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <figure class="embed embed--type-iframe embed--float-none embed--size-large " data-ads='{"wordCount":50}'>
+  <div class="embed__content-wrapper">
+	<div class="embed__resizer"></div>
+	<iframe class="embed__content lazyload" data-src="https://markets.cbsnews.com/widgets/markets/market_indices" data-width="100%" data-height="360" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+  </div>
+</figure>
+</li>
+                </ul></div>                                                                                        <div id="marquee300-top-59be6c8810e83" class="ad-marquee300-top" data-ad="marquee300-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing marquee300-top-59be6c8810e83 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("marquee300-top-59be6c8810e83");
+    </script></div>
+
+                </div>
+
+                                                                
+                                    
+                                            
+
+                            <div id="mpu-top-59be6c8810e83" class="ad-mpu-top" data-ad="mpu-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-top-59be6c8810e83 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-top-59be6c8810e83");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+<div class="module module-listing" id="module-right-rail-moneywatch-spotlight">
+    <h2 class="module-heading title">Moneywatch Spotlight</h2>
+
+    
+<div class="listing-mini-sub ">
+    <ul class="media-list items"><li>
+          <a href="/media/hurricane-harvey-irma-flood-damage-8-problems-to-watch-out-for/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/01/5a0032f9-893a-4ad3-ae69-b3aaf2f767f1/thumbnail/60x60/cb7f3e6699446d35eb347257b8bb7096/ap-17244009774082.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/01/5a0032f9-893a-4ad3-ae69-b3aaf2f767f1/thumbnail/60x60/cb7f3e6699446d35eb347257b8bb7096/ap-17244009774082.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/01/5a0032f9-893a-4ad3-ae69-b3aaf2f767f1/thumbnail/120x120/d2d0206960041eb5fda1eab17aa7f4d0/ap-17244009774082.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">Flood damage? 8 problems to watch out for
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/media/6-things-to-avoid-buying-over-labor-day/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/31/87dc8674-882b-42a2-a913-053aab5e174c/thumbnail/60x60/b0259ff60136f20c8fb96149fb717f70/istock-618830336.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/31/87dc8674-882b-42a2-a913-053aab5e174c/thumbnail/60x60/b0259ff60136f20c8fb96149fb717f70/istock-618830336.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/31/87dc8674-882b-42a2-a913-053aab5e174c/thumbnail/120x120/a18a757e85007929ac1559da5c88fe31/istock-618830336.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">6 things to avoid buying over Labor Day
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/media/10-homes-that-will-make-you-want-to-dance/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/24/e2b27116-e9f8-4fce-a5b7-a454925b9e74/thumbnail/60x60/e13ed5f91842bfd3c5cb7ed12958e0b0/01-intro.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/24/e2b27116-e9f8-4fce-a5b7-a454925b9e74/thumbnail/60x60/e13ed5f91842bfd3c5cb7ed12958e0b0/01-intro.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/24/e2b27116-e9f8-4fce-a5b7-a454925b9e74/thumbnail/120x120/3180b832117f7fd38e14a6f98082483a/01-intro.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">10 homes that will make you want to dance
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/media/the-7-us-cities-where-your-money-will-go-the-farthest/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/24/7857d923-e391-4644-b745-907f788c52fa/thumbnail/60x60/01e39271bdc3eabcef8415b02318238a/istock-469334090.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/24/7857d923-e391-4644-b745-907f788c52fa/thumbnail/60x60/01e39271bdc3eabcef8415b02318238a/istock-469334090.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/24/7857d923-e391-4644-b745-907f788c52fa/thumbnail/120x120/a7d9494cc90dcf53854ec12e06f5a305/istock-469334090.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">The 7 U.S. cities where your money will go the farthest
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/media/the-top-10-jobs-for-americans-without-college-degrees/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/21/a6a99a23-5a51-4b0a-b4d8-86379fb851f7/thumbnail/60x60/64529939a1af9d0ad66e0d8130577793/istock-525002207.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/21/a6a99a23-5a51-4b0a-b4d8-86379fb851f7/thumbnail/60x60/64529939a1af9d0ad66e0d8130577793/istock-525002207.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/21/a6a99a23-5a51-4b0a-b4d8-86379fb851f7/thumbnail/120x120/494b23a14049b56e8ca4d36b7185123e/istock-525002207.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">The top 10 jobs for Americans without college degrees
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                        </ul></div></div>
+
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-market-news-button-top">
+      <h2 class="module-heading title">Market News</h2>
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <figure class="embed embed--type-iframe embed--float-none embed--size-large " data-ads='{"wordCount":50}'>
+  <div class="embed__content-wrapper">
+	<div class="embed__resizer"></div>
+	<iframe class="embed__content lazyload" data-src="https://markets.cbsnews.com/widgets/markets/news" data-width="100%" data-height="500" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+  </div>
+</figure>
+</li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-watchlist-button-middle">
+      <h2 class="module-heading title">Stock Watchlist</h2>
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <figure class="embed embed--type-iframe embed--float-none embed--size-large " data-ads='{"wordCount":50}'>
+  <div class="embed__content-wrapper">
+	<div class="embed__resizer"></div>
+	<iframe class="embed__content lazyload" data-src="https://markets.cbsnews.com/widgets/watchlist/overview" data-width="100%" data-height="auto" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+  </div>
+</figure>
+</li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+                            <div id="mpu-bottom-59be6c8810e83" class="ad-mpu-bottom" data-ad="mpu-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-bottom-59be6c8810e83 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-bottom-59be6c8810e83");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-emergency-component">
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <script>var searchNav = document.querySelector('.site-nav__item--sports .site-nav__item-anchor'); searchNav&&searchNav.addEventListener('click', function () {window.location = this.href}, true);</script><style>.site-footer{ z-index:0; } .site-header{ z-index:2; } .content-primary{ z-index:1; } [tabindex]:focus {outline: 0; } .desktop .site-nav__item--shows:hover .site-nav__item-content-icon {top: 113px;right: auto;}.desktop .site-nav__item--shows:hover .site-nav__item-hed {font-size: 16px;max-height: none;float: none;margin: 0px;} .front-door .disqus-comment-count { display: none; } .topic-door .disqus-comment-count { display: none; } .listing-mini-sub .disqus-comment-count { display: none; } .desktop #mantle_skin[class*=cbs-this-morning] .hero-text .title a {color: #e4a21b;font-family: "museo-sans", Helvetica, Roboto, sans-serif;font-size: 30px;font-weight: 700;line-height: 1.1;letter-spacing: -0.05em;}</style></li>
+                </ul></div>                                                        </div>
+
+                                                                    </div>
+                                </div>
+                        </div>
+            </div>
+        </div>
+</div>
+
+    </div>
+
+    
+                            
+<footer class="site-footer content-inverse nocontent"><div class="container">
+                            <div class="disclosure-moneywatch">
+            <p>Quotes delayed at least 15 minutes. Market data provided by <a href="https://www.theice.com/market-data" target="_blank">ICE Data Services</a>.
+            <a href="https://www.theice.com/market-data/disclaimer">ICE Limitations</a>.
+            </p><p>Powered and implemented by <a href="https://www.factset.com/" target="_blank">FactSet</a>.</p>
+            <p><a href="https://www.factset.com/legal-statement" target="_blank">Legal Statement</a>.</p>
+        </div>
+                <div class="row">
+            <div class="col-2 link-block">
+                <h5 class="title">CBSNews.com</h5>
+
+                <ul class="items"><li><a href="https://www.cbsnews.com/sitemap/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Site Map"}' data-invalid-url-rewritten-http="">Site Map</a></li>
+                    <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome2?categories=CBS_Interactive:CBSNews&amp;referer=cbsnews.com/main" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Help"}'>Help</a></li>
+                    <li><a href="http://audienceservices.cbs.com/feedback/feedback.htm" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Contact Us"}'>Contact Us</a></li>
+
+                    <li><a href="https://www.cbsnews.com/team/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|CBS Bios"}' data-invalid-url-rewritten-http="" data-vanity-rewritten="true">CBS Bios</a></li>
+                    <li><a href="https://cbs.avature.net/cbsnewscareers" data-omniture-track-data='{"clickProperty": "Site Footer|Careers"}'>Careers</a></li>
+                    <li><a href="http://www.cbsinteractive.com/careers" data-omniture-track-data='{"clickProperty": "Site Footer|CBSi Careers"}'>CBSi Careers</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-internship-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Internships"}' data-invalid-url-rewritten-http="">Internships</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-associates-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Development Programs"}' data-invalid-url-rewritten-http="">Development Programs</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">CBS Interactive</h5>
+
+                <ul class="items"><li><a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Privacy Policy"}'>Privacy Policy</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/adchoice" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Ad Choice"}'>Ad Choice</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Terms of Use"}'>Terms of Use</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/eula" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Mobile User Agreement"}'>Mobile User Agreement</a></li>
+                    <li><a href="http://www.cbscorporation.com/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|About CBS"}'>About CBS</a></li>
+                    <li><a href="http://www.cbsinteractive.com/advertise/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Advertise"}'>Advertise</a></li>
+                    <li><a href="http://cbsimedia.cbs.com/captioning/info.html" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Closed Captioning"}'>Closed Captioning</a></li>
+                    <li><a href="http://www.cbsstore.com/cbs-news-store-home/index.php?v=cbs-news&amp;ecid=PRF-CBS-300538&amp;pa=PRF-CBS-300538" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|CBS News Store"}'>CBS News Store</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">Follow Us</h5>
+
+                <ul class="items"><li><a href="https://www.facebook.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Facebook"}'>Facebook</a></li>
+                    <li><a href="https://twitter.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Twitter"}'>Twitter</a></li>
+                    <li><a href="/rss/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|RSS"}'>RSS</a></li>
+                    <li><a href="https://www.cbsnews.com/newsletters/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Email Newsletters"}' data-invalid-url-rewritten-http="">Email Newsletters</a></li>
+                    <li><a href="http://www.youtube.com/user/CBSNewsOnline" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|YouTube"}'>YouTube</a></li>
+                    <li><a href="https://www.cbsnews.com/radio/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Radio News"}' data-invalid-url-rewritten-http="">CBS Radio News</a></li>
+                    <li><a href="https://www.cbsnews.com/local/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Local"}' data-invalid-url-rewritten-http="">CBS Local</a></li>
+                </ul></div>
+
+            <div class="col-4 push-2">
+                <div class="site-brand">
+                    <div class="logo core-logo"><a href="/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer-Branding"}'>CBS News</a></div>
+                </div>
+
+                <form class="site-search" action="/search/" method="get" data-component="search" data-search-options='{"path":"https:\/\/www.cbsnews.com\/search\/","param":"q"}'>
+                    <input type="search" class="query" maxlength="255" name="q" placeholder="Search..."><button type="submit" class="submit core-search-footer">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="site-brand">
+                <p class="copyright">Copyright &copy; 2017 CBS Interactive Inc.<br>All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer></div> 
+
+                    
+
+    
+
+<script>
+    var CBSNEWS = CBSNEWS || {};
+        CBSNEWS.ad        = {"gpt":{"targeting":{"device":"desktop","ptype":"media_post","cid":"the-top-10-jobs-for-americans-without-college-degrees","env":"prod_alt"},"adConfig":{"network":{"dev":8264,"qa":8264,"prod":8264},"method":"async-inline","regions":[{"region":"uk","countries":["gb","fr","ie","za","bh","kw","om","qa","sa","ae","iq","eg","ye"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","ph","th","id","vn","hk","in"]}],"adUnits":{"intromercial":{"outOfPage":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"skin"}},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250],[300,1050]],"position":"top"},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"buttonTop":{"sizes":[[88,31]],"position":"top"},"scrollPrestitial":{"sizes":[[980,45]],"position":"top"},"marqueeBottom":{"sizes":[[234,60]],"position":"bottom"},"marquee300Top":{"sizes":[[300,60]],"position":"top"},"marquee300Middle":{"sizes":[[300,60]],"position":"middle"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"leaderBottom":{"sizes":[[728,90],[970,66]],"position":"bottom"},"desktopNativeTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"a832eb3c"}},"nativeShowTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"bf587c26"}},"desktopNativeMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"e0c5ba47"}},"desktopNativeBottom":{"sizes":[[11,11]],"position":"bottom"},"buttonMiddle":{"sizes":[[88,31]],"position":"middle"},"buttonBottom":{"sizes":[[88,31]],"position":"bottom"},"sponsorContentMiddle":{"sizes":[[381,211],[11,11]],"position":"middle","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentMiddle2":{"sizes":[[381,211],[11,11]],"position":"middle2","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentBottom":{"sizes":[[381,211],[11,11]],"position":"bottom","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentTop":{"sizes":[[381,211],[11,11]],"position":"top","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentSmallTop":{"sizes":[[301,151],[11,11]],"position":"top","customTargeting":{"strnativekey":"a2ac4296"}},"sponsorContentTextTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"a6c0ce8b"}},"sponsorBar980Top":{"sizes":[[980,36]],"position":"top"},"sponsorBar620Top":{"sizes":[[620,36]],"position":"top"}},"mobile":{"adUnits":{"intromercial":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileBanner1":{"sizes":[[320,50]],"position":1},"mobileBanner2":{"sizes":[[320,50]],"position":2},"mobileBanner3":{"sizes":[[320,50]],"position":3},"mobileMarquee320Top":{"sizes":[[320,60]],"position":"top"},"mobileSponsorContentTextTop":{"sizes":[[300,250],[11,11],"fluid"],"position":"top","customTargeting":{"strnativekey":"454fd857"}},"mobileSponsorcontentTextMiddle":{"sizes":[[300,250],[320,50],[11,11],"fluid"],"position":"middle","customTargeting":{"strnativekey":"454fd857"}},"mobileInlineFlexPos2":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":2,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexPos3":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":3,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexInc":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":"inc","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileNativeTop":{"sizes":[[11,11]],"position":"top"},"mobileNativeGalleryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"289740d4"}},"mobileSponsorcontentCdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"3c5782bf"}},"mobileSponsorcontentVdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"eba075cc"}}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"amp":{"adUnits":{"ampFlexTop":{"sizes":[[320,50],[300,250]],"position":"top"},"ampFlexBottom":{"sizes":[[320,50],[300,250]],"position":"bottom"},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"ampFlexPos2":{"sizes":[[320,50],[300,250]],"position":2},"ampFlexPos3":{"sizes":[[320,50],[300,250]],"position":3},"ampFlexInc":{"sizes":[[320,50],[300,250]],"position":"inc"},"ampSticky":{"sizes":[[320,50]],"position":"sticky"}}},"siteName":"cbsnews","collapseEmptyDiv":true,"setRefreshUnfilledSlots":false,"setClearUnfilledSlots":true,"disableInitialLoad":false,"disableInitialLoadCompanions":true,"enableHeaderBidding":true,"disableClearTargetingOnInit":true,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["intromercial","leader_top","leader_plus_top","skin","mpu_top","mpu_plus_top","marquee_top","marquee300_top","button_top","sponsor_content_top","sponsor_content_small_top","sponsor_content_text_top","sponsor_bar980_top","sponsor_bar620_top","desktop_native_top","native_show_top","mpu_middle","marquee300_middle","button_middle","desktop_native_middle","sponsor_content_middle","sponsor_content_middle2","desktop_native_bottom","button_bottom","mpu_bottom","leader_bottom","sponsor_content_bottom"],"disableInitialLoadRefresh":"false","disableAdIncrement":false,"enableRepeatedAds":false},"containerId":"59be6c8810e83","slotVars":{"network":"8264","siteName":"cbsnews","collapseEmptyDiv":"1","topics":"moneywatch/work","platform":"desktop"},"adType":"gpt","adDivIds":["marquee300-middle-59be6c8810e83","marquee300-top-59be6c8810e83","mpu-top-59be6c8810e83","mpu-bottom-59be6c8810e83","intromercial-59be6c8810e83","leader-top-59be6c8810e83"]},"cookieName":"cbsnews_ad","cookieServicePath":"/ad/ad-cookie/","session":4,"subSession":4,"useFirstPageTargeting":true};
+        CBSNEWS.bsFreq    = 100;
+        CBSNEWS.device    = 'desktop';
+        CBSNEWS.features  = CBSNEWS.features || {};
+        CBSNEWS.tracking  = {"isEnabled":true,"articleAuthorId":["dec2ab11-adad-4d63-b301-e48cedfce12b"],"articleAuthorName":["aimee picchi"],"articleId":"554da321-4a3f-4c59-9e30-4cede713e8fd","articlePubDate":"2017-08-22 08:00:12","articleTitle":"the top 10 jobs for americans without college degrees","articleType":"content_media_post","deviceType":"desktop","isDev":"2","pageType":"media_post","siteHier":["moneywatch","moneywatch work"],"siteSection":"moneywatch","siteType":"responsive web","topicId":"de4a3b8e-0b9d-4879-a1be-19c0381ef638","topicName":"moneywatch work","bkSiteId":3330,"limit":4,"articleSource":"moneywatch","siteName":"cbsnews","demographicKeys":["jobFunction","jobCategory","industry","computerProficiency","companySize","gender","ageGroup","country"],"tealium":{"profile":"cbsnewssite","env":"prod"}};
+        CBSNEWS.tracking._adData      = CBSNEWS.ad;
+        CBSNEWS.tracking.pageViewGuid = null; // Set in managers/tealium
+        CBSNEWS.user      = {
+            appId:          '1501',
+            environment:    'LIVE',
+            platform:       '',
+            publicHost:     'www.cbsnews.com',
+            secureHost:     'secure-fly.cbsnews.com',
+            ursVersion:     'v2.2',
+            ursClientToken: '9b0514bf29ca49e1',
+        };
+        CBSNEWS.disqus =  {
+            shortname: 'cbsnews-prod',
+            publicKey: '60EUVoZHyaBJqXJUxAKYfJgUh8NhuUyO88gGQ7aIw8HsbFOwAl9hLtoCyvyld2A8',
+            sso: {
+                name: 'CBSNews',
+                authLoginUrl: 'https://www.cbsnews.com/disqus/sso/login/',
+                authLogoutUrl: 'https://www.cbsnews.com/disqus/sso/logout/',
+                button: 'https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/images/core/logo.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95',
+                icon: 'https://cbsnews4.cbsistatic.com/fly/favicon.ico?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95',
+                loginUrl: 'https://secure-fly.cbsnews.com/user/registration/?redirectUrl=%2Fdisqus%2Flogin%2F ',
+                logoutUrl: 'https://www.cbsnews.com/user/logout/'
+            }
+        };
+
+
+    var features = ['beanstockSonobi', 'disqus', 'urs'];
+    features.forEach(function(feature) {
+        if (!CBSNEWS.features.hasOwnProperty(feature)) {
+            CBSNEWS.features[feature] = true;
+        }
+    });
+
+    var utag_data = CBSNEWS.tracking;
+
+    var require = {"baseUrl":"https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build","urlArgs":"v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95","config":{"version":{"fly/libs/base64":"0.3.0","fly/libs/easy-xdm-cbsi":"2.4.19.3","fly/libs/jquery.widget":"1.9.2","fly/libs/jquery.cookie":"1.2","fly/libs/jquery.mobile":"1.3.2","fly/libs/jquery.throttle-debounce":"1.1","fly/libs/lazysizes":"1.4.0","fly/libs/omniture.s-code":"1.0","fly/libs/urs":"1.0","fly/utils/data-prefix":"1.0","fly/utils/data-selector":"1.0","fly/utils/function-natives":"1.0","fly/utils/guid":"1.0","fly/utils/log":"1.0","fly/utils/object-helper":"1.0","fly/utils/string-helper":"1.0","fly/utils/string-vars":"1.0","fly/utils/url-helper":"1.0","fly/managers/components":"1.0","fly/managers/cookie":"1.0","fly/managers/debug":"1.0","fly/managers/ad":"2.0","fly/managers/gpt":"4.2","fly/managers/geo":"1.0","fly/managers/image-resolution":"1.0","fly/managers/recurly":"1.0","fly/managers/recurly-billing":"1.0","fly/managers/social-authentication":"1.0","fly/managers/tracking":"1.0","fly/managers/user":"1.0","fly/components/accordion":"1.0","fly/components/alert":"1.0","fly/components/base":"1.0","fly/components/carousel":"1.0","fly/components/credspark":"1.0","fly/components/dependent-field":"1.0","fly/components/dropdown":"1.0","fly/components/form-validate":"1.0","fly/components/iframe-messenger":"1.1","fly/components/image-gallery":"1.0","fly/components/disqus-count":"1.0","fly/managers/disqus":"1.0","fly/components/disqus":"1.0","fly/components/loading":"1.0","fly/components/load-more":"1.0","fly/components/nrelate":"1.0","fly/components/modal":"1.0","fly/components/modal-async":"1.0","fly/components/modal-iframe":"1.0","fly/components/scrollbar":"1.0","fly/components/social-button":"1.0","fly/components/social-counts":"1.1","fly/components/social-links":"1.0","fly/components/tabs":"1.0","fly/managers/clicktale":"1.0","fly/components/poll":"1.0","fly/managers/history":"1.0","libs/fontfaceobserver":"2.0.7","libs/riot":"2.6.2","mpx/libs/uvp":"2.6.0","mpx/libs/hls":"0.6.18","fly/components/fixate":"1.0","fly/components/image-gallery-thumb":"1.0"}},"shim":{"tealium":["jquery"]},"map":{"*":{"ima":"//imasdk.googleapis.com/js/sdkloader/ima3.js","gpt":"//www.googletagservices.com/tag/js/gpt.js","anvato":"https://w3.cdn.anvato.net/player/prod/scripts/anvload.js","nrelate":"//c7.static.nrcdn.com/common_js/0.52.1/nr_loader.min.js","urs":"//urs.cbsnews.com/sdk/urs.js","recirc":"//ddlmj2furo6f2.cloudfront.net/addontrain/recommendations/53f6c74c1344a01ee2000139.js","tealium":"//tags.tiqcdn.com/utag/cbsi/cbsnewssite/prod/utag.js","twitter":"https://platform.twitter.com/widgets.js","credspark":"//www.credspark.com/embed.js","yad":"https://s.yimg.com/uq/syndication/yad.js","newsgator":"//nmp.newsgator.com/ngbuzz/load.ashx/buzz","recurly":"https://js.recurly.com/v4/recurly.js","taboola":"//cdn.taboola.com/libtrc/cbsinteractive-cbsnews/loader.js","sharethrough":"//native.sharethrough.com/assets/tag.js","uvp":"//vidtech.cbsinteractive.com/uvpjs/2.5.3/CBSI-PLAYER.js","index_exchange":"//js-sec.indexww.com/ht/ls-cbsnews.js","sonobi":"//mtrx.go.sonobi.com/morpheus.cbsnews.9251.js"}}};
+</script><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" as="script"><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.desktop.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" as="script"><script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" data-main="main.desktop" async defer></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8178a7f262","applicationID":"8449215","transactionName":"ZAZXNkNRCkEHBxAMX11MdAFFWQtcSQkBAVlSPEUNQkQ7QQ8KAwlV","queueTime":0,"applicationTime":1111,"atts":"SEFUQAtLGU8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

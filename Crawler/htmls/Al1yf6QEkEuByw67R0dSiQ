@@ -1,0 +1,2267 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://ogp.me/ns/fb#"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwQBWFdXGwsAVFlUBgg="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script><meta content="en" http-equiv="Content-Language"><meta name="google" content="notranslate"><link rel="preconnect dns-prefetch" href="https://sportshub.cbsistatic.com"><link rel="preconnect dns-prefetch" href="https://sportsfly.cbsistatic.com"><link rel="preconnect dns-prefetch" href="https://sports.cbsimg.net"><title>MLB Power Rankings: Dodgers season is truly one for the ages like we've never seen - CBSSports.com</title><meta itemprop="name" content="MLB Power Rankings: Dodgers season is truly one for the ages like we've never seen - CBSSports.com"><meta name="description" content="Good luck with trying to figure out where the Dodgers should be ranked"><meta itemprop="description" content="Good luck with trying to figure out where the Dodgers should be ranked"><link rel="canonical" href="https://www.cbssports.com/mlb/powerrankings/"><link rel="amphtml" href="https://www.cbssports.com/mlb/news/mlb-power-rankings-dodgers-season-is-truly-one-for-the-ages-like-weve-never-seen/amp/"><meta property="og:site_name" content="CBSSports.com"><meta property="og:title" content="MLB Power Rankings: Dodgers season is truly one for the ages like we've never seen"><meta property="og:description" content="Good luck with trying to figure out where the Dodgers should be ranked"><meta property="og:image" content="https://sportshub.cbsistatic.com/i/r/2017/09/13/41436872-14b5-4c31-a5f7-a52b0c0f4730/thumbnail/770x433/669e7857fdc87c18455e5ded0e27a7cf/dodgers-chase-utley.jpg"><meta property="og:type" content="Article"><meta property="og:url" content="https://www.cbssports.com/mlb/powerrankings/"><meta itemprop="speakable" itemscope itemtype="http://schema.org/SpeakableSpecification" itemref="speakable-meta-1 speakable-meta-2"><meta id="speakable-meta-1" itemprop="cssSelector" content=".article-headline"><meta id="speakable-meta-2" itemprop="cssSelector" content=".article-subline"><meta property="fb:pages" content="25902406772"><meta property="fb:app_id" content="297742330311988"><meta property="fb:admins" content="100002967552623"><meta property="article:publisher" content="https://www.facebook.com/cbssports"><meta content="14885860" property="twitter:account_id"><meta content="summary" property="twitter:card"><meta content="https://www.cbssports.com/mlb/powerrankings/" property="twitter:url"><meta content="MLB Power Rankings: Dodgers season is truly one for the ages like we've never seen" property="twitter:title"><meta content="Good luck with trying to figure out where the Dodgers should be ranked" property="twitter:description"><meta content="https://sportshub.cbsistatic.com/i/r/2017/09/13/41436872-14b5-4c31-a5f7-a52b0c0f4730/thumbnail/770x433/669e7857fdc87c18455e5ded0e27a7cf/dodgers-chase-utley.jpg" property="twitter:image"><meta content="@cbssports" property="twitter:site"><meta content="@MattSnyderCBS" property="twitter:creator"><meta content="CBSSports.com features live scoring and news for NFL football, MLB baseball, NBA basketball, NHL hockey, college basketball and football. CBSSports.com is also your source for fantasy sports news." name="msapplication-tooltip"><meta content="https://www.cbssports.com/" name="msapplication-starturl"><meta content="width=1024;height=768" name="msapplication-window"><meta content="#1483b2" name="msapplication-navbutton-color"><link rel="alternate" href="android-app://com.handmark.sportcaster/cbssportsapp/https://www.cbssports.com/mlb/powerrankings/"><meta name="google-site-verification" content="EdjXVFTZ6BgUzS3Void8cMiXXzE6bXDvNg-Yjl3VZj8"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/core/webclips/touch-icon-iphone.png"><link rel="apple-touch-icon" sizes="76x76" href="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/core/webclips/touch-icon-ipad.png"><link rel="apple-touch-icon" sizes="120x120" href="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/core/webclips/touch-icon-iphone-retina.png"><link rel="apple-touch-icon" sizes="152x152" href="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/core/webclips/touch-icon-ipad-retina.png"><link rel="stylesheet" href="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/css/main.desktop.css"><link rel="stylesheet" href="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/css/icon-moon/icon-moon.css"><script type="text/javascript" src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediajs/js-build/libs/require-2.1.22.js"></script><script type="text/javascript">
+    require.config({"baseUrl":"https:\/\/sportsfly.cbsistatic.com\/fly-694\/bundles\/sportsmediajs\/js-build","urlArgs":"","config":{"version":{"fly\/components\/accordion":"1.0","fly\/components\/alert":"1.0","fly\/components\/base":"1.0","fly\/components\/carousel":"1.0","fly\/components\/dropdown":"1.0","fly\/components\/fixate":"1.0","fly\/components\/form-validate":"1.0","fly\/components\/image-gallery":"1.0","fly\/components\/iframe-messenger":"1.0","fly\/components\/load-more":"1.0","fly\/components\/load-more-article":"1.0","fly\/components\/load-more-scroll":"1.0","fly\/components\/loading":"1.0","fly\/components\/marketing-slider":"1.0","fly\/components\/modal":"1.0","fly\/components\/modal-iframe":"1.0","fly\/components\/network-bar":"1.0","fly\/components\/poll":"1.0","fly\/components\/search-player":"1.0","fly\/components\/social-button":"1.0","fly\/components\/social-counts":"1.0","fly\/components\/social-links":"1.0","fly\/components\/tabs":"1.0","fly\/components\/video":"1.0","fly\/libs\/easy-xdm":"2.4.17.1","fly\/libs\/jquery.cookie":"1.2","fly\/libs\/jquery.throttle-debounce":"1.1","fly\/libs\/jquery.widget":"1.9.2","fly\/libs\/omniture.s-code":"1.0","fly\/utils\/jquery-mobile-init":"1.0","fly\/libs\/jquery.mobile":"1.3.2","fly\/libs\/backbone":"1.0.0","fly\/libs\/underscore":"1.5.1","fly\/libs\/jquery.easing":"1.3","fly\/managers\/ad":"2.0","fly\/managers\/components":"1.0","fly\/managers\/cookie":"1.0","fly\/managers\/debug":"1.0","fly\/managers\/geo":"1.0","fly\/managers\/gpt":"4.2","fly\/managers\/history":"2.0","fly\/managers\/madison":"1.0","fly\/managers\/social-authentication":"1.0","fly\/managers\/tealium":"1.0","fly\/utils\/data-prefix":"1.0","fly\/utils\/data-selector":"1.0","fly\/utils\/function-natives":"1.0","fly\/utils\/guid":"1.0","fly\/utils\/log":"1.0","fly\/utils\/object-helper":"1.0","fly\/utils\/string-helper":"1.0","fly\/utils\/string-vars":"1.0","fly\/utils\/url-helper":"1.0","libs\/jshashtable":"2.1","libs\/select2":"3.5.1","libs\/jsonp":"2.4.0","libs\/jquery\/mobile":"1.4.5","libs\/modernizr.custom":"2.6.2","libs\/velocity":"1.2.2","libs\/dataTables":"1.10.6","libs\/dataTables.fixedColumns":"3.0.4","libs\/dataTables.fixedHeader":"2.1.2","libs\/dateformat":"1.0.3","libs\/waypoints\/infinite":"3.1.1","libs\/waypoints\/inview":"3.1.1","libs\/waypoints\/jquery.waypoints":"3.1.1","libs\/waypoints\/sticky":"3.1.1","libs\/jquery\/dotdotdot":"1.6.1","libs\/jquery\/flexslider":"2.1","libs\/jquery\/lazyload":"1.9.3","libs\/jquery\/maskedinput":"1.3.1","libs\/jquery\/marquee":"1.3.1","libs\/jquery\/numberformatter":"1.2.3","libs\/jquery\/placeholder":"0.2.4","libs\/jquery\/scrollbar":"0.1.6","libs\/jquery\/tablesorter":"2.0.5","libs\/jquery\/touchswipe":"1.6.18","libs\/jquery\/ui\/jquery.ui.core":"1.11.4","libs\/jquery\/ui\/jquery.ui.draggable":"1.11.4","libs\/jquery\/ui\/jquery.ui.mouse":"1.11.4","libs\/jquery\/ui\/jquery.ui.position":"1.11.4","libs\/jquery\/ui\/jquery.ui.slider":"1.11.4","libs\/jquery\/ui\/jquery.ui.sortable":"1.11.4","libs\/jquery\/ui\/jquery.ui.touch-punch":"0.2.3","libs\/jquery\/ui\/jquery.ui.autocomplete":"1.11.4","libs\/jquery\/ui\/jquery.ui.accordion":"1.11.4","libs\/jquery\/ui\/jquery.ui.tabs":"1.11.4","libs\/jquery\/ui\/jquery.ui.menu":"1.11.4","libs\/jquery\/ui\/jquery.ui.dialog":"1.11.4","libs\/jquery\/ui\/jquery.ui.resizable":"1.11.4","libs\/jquery\/ui\/jquery.ui.button":"1.11.4","libs\/jquery\/ui\/jquery.ui.tooltip":"1.11.4","libs\/jquery\/ui\/jquery.ui.effects":"1.11.4","libs\/jquery\/ui\/jquery.ui.datepicker":"1.11.4"}},"shim":{"liveconnection\/managers\/connection":{"deps":["liveconnection\/libs\/sockjs-0.3.4"]},"liveconnection\/libs\/sockjs-0.3.4":{"exports":"SockJS"},"libs\/setValueFromArray":{"exports":"set"},"libs\/getValueFromArray":{"exports":"get"},"fly\/libs\/jquery.mobile-1.3.2":["version!fly\/utils\/jquery-mobile-init"],"libs\/backbone.marionette":{"deps":["jquery","version!fly\/libs\/underscore","version!fly\/libs\/backbone"],"exports":"Marionette"},"fly\/libs\/underscore-1.5.1":{"exports":"_"},"fly\/libs\/backbone-1.0.0":{"deps":["version!fly\/libs\/underscore","jquery"],"exports":"Backbone"},"libs\/jquery\/ui\/jquery.ui.tabs-1.11.4":["jquery","version!libs\/jquery\/ui\/jquery.ui.core","version!fly\/libs\/jquery.widget"],"libs\/jquery\/flexslider-2.1":["jquery"],"libs\/dataTables.fixedColumns-3.0.4":["jquery","version!libs\/dataTables"],"libs\/dataTables.fixedHeader-2.1.2":["jquery","version!libs\/dataTables"]},"map":{"*":{"facebook":"https:\/\/connect.facebook.net\/en_US\/sdk.js","facebook-debug":"https:\/\/connect.facebook.net\/en_US\/all\/debug.js","google":"https:\/\/apis.google.com\/js\/plusone.js","google-signin":"https:\/\/apis.google.com\/js\/client:platform.js","google-csa":"https:\/\/www.google.com\/adsense\/search\/async-ads.js","google-javascript-api":"https:\/\/www.google.com\/jsapi","google-client-api":"https:\/\/apis.google.com\/js\/api:client.js","gpt":"https:\/\/www.googletagservices.com\/tag\/js\/gpt.js","recaptcha":"https:\/\/www.google.com\/recaptcha\/api\/js\/recaptcha_ajax.js","twitter":"https:\/\/platform.twitter.com\/widgets.js","mpx":"libs\/tpPdk","tealium":"\/\/tags.tiqcdn.com\/utag\/cbsi\/cbssportssite\/prod\/utag.js","taboola":"https:\/\/cdn.taboola.com\/libtrc\/cbsinteractive-cbssports\/loader.js","sharethrough":"https:\/\/native.sharethrough.com\/assets\/tag.js","newsroom":"https:\/\/c2.taboola.com\/nr\/cbsinteractive-cbssports\/newsroom.js","disqus":"\/\/cbs-sports-prod.disqus.com\/embed.js","disqus-commentcount":"\/\/cbs-sports-prod.disqus.com\/count.js"}}});
+
+        
+</script><script type="text/javascript">
+    //Set doc domain for video embed crossdomain fix
+    document.domain = "cbssports.com";
+
+            if ((top.location != self.location) && (document.referrer.indexOf("cbssports.com") == -1)) {
+            window.open(location.href, '_top');
+        }
+    
+    window.SportsPageVars = {
+        ads: {
+            enabled: true,
+            data: {"gpt":{"targeting":{"device":"desktop","ptype":"stories","cid":"mlb-power-rankings-dodgers-season-is-truly-one-for-the-ages-like-weve-never-seen","env":"prod"},"adConfig":{"network":{"local":7336,"dev":7336,"qa":8264,"stage":8264,"prod":8264},"method":"async-inline","regions":[],"adUnits":{"intromercial":{"outOfPage":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"adSkinCallback"}},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,250],[300,600]],"position":"top"},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom","disableInitialLoad":false},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250],[970,90]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderboardCallback"}},"leaderTop":{"sizes":[[728,90],[970,66],[970,90]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderboardCallback"}},"buttonTop":{"sizes":[[88,31]],"position":"top"},"skyBox":{"sizes":[[980,45]],"position":"top"},"topStrip":{"sizes":[[5,5]],"position":"top","eventCallbacks":{"slotRenderEnded":"skyBoxCallback"}},"nflnetworkBarTop":{"sizes":[[750,50]],"position":"top"},"nflnetworkMarqueeTop":{"sizes":[[170,100]],"position":"top"},"nflnetworkMarquee2Top":{"sizes":[[400,45]],"position":"top"},"mobileNflnetworkTop":{"sizes":[[300,100]],"position":"top"},"leaderPlus2Bottom":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderMiddle":{"sizes":[[728,90],[970,66]],"position":"middle"},"leaderBottom":{"sizes":[[970,66],[728,90]],"position":"bottom"},"mMarqueeTop":{"sizes":[[356,365]],"position":"top"},"mRailTopLeft":{"sizes":[[170,360]],"position":"top"},"mRailBottomLeft":{"sizes":[[170,230]],"position":"bottom"},"mLeaderTop":{"sizes":[[1170,150]],"position":"top"},"mLeaderMiddle":{"sizes":[[1170,150]],"position":"middle"},"mRailTopRight":{"sizes":[[370,345]],"position":"top"},"mStoryInset":{"sizes":[[300,310]],"position":"top"},"mDropdown":{"sizes":[[220,350]],"position":"top"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"mpuTopGametracker":{"sizes":[[300,250]],"position":"top","disableInitialLoad":true,"eventCallbacks":{"slotRenderEnded":"clear20second"}},"sharethroughTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"a749ea2b"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughBottom":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"a749ea2b"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughArticle":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"433f2831"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughScoreboard":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"1KzYzb2nt1prfLivSYMjVJCV"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mpuHomeArenaFlex":{"sizes":[[11,11],[300,250]],"position":"top","customTargeting":{"strnativekey":"pHEZXrGTz8xAczhbvBryALrh"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeArenaMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"rSRFToMHkC84SmYyCbF6LsXG"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryBottom":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryBottom2":{"sizes":[[11,11]],"position":"bottom2","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryInc":{"sizes":[[11,11]],"position":"inc","disableInitialLoad":true,"customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"}},"videoThumbnailTop":{"sizes":[[171,231]],"position":"top"},"videoLiveEventSponsor":{"sizes":[[234,60]],"position":"top"}},"mobile":{"adUnits":{"intromercial":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"topStrip":{"sizes":[[5,5]],"position":"top","eventCallbacks":{"slotRenderEnded":"skyBoxCallback"}},"mobileNflnetworkMarqueeTop":{"sizes":[[300,100]],"position":"top"},"mobileNflnetworkTop":{"sizes":[[300,100]],"position":"top"},"mobileHomeFlexTop":{"sizes":[[11,11],[300,250]],"position":"top","customTargeting":{"strnativekey":"FPbxvZ35anf9AJRvNfe6i5bj"}},"mobileHomeFlexSilentMiddle":{"sizes":[[11,11],[300,250]],"position":"middle","customTargeting":{"strnativekey":"4QaKVuofR1D6XYNp5djXh8m5"}},"mobileHomeFlexBottom":{"sizes":[[11,11],[300,250]],"position":"bottom","customTargeting":{"strnativekey":"FPbxvZ35anf9AJRvNfe6i5bj"}},"mobileHomeFlexSilentBottom2":{"sizes":[[11,11],[300,250]],"position":"bottom2","customTargeting":{"strnativekey":"4QaKVuofR1D6XYNp5djXh8m5"}},"mobileArenaFlexSilentMiddle":{"sizes":[[11,11],[300,250]],"position":"middle","customTargeting":{"strnativekey":"p19egy6FqHCsS251t1yj2EBy"}},"mobileArenaFlexSilent":{"sizes":[[11,11],[300,250]],"position":"middle","customTargeting":{"strnativekey":"p19egy6FqHCsS251t1yj2EBy"}},"mobileArenaFlexSilentBottom2":{"sizes":[[11,11],[300,250]],"position":"bottom2","customTargeting":{"strnativekey":"p19egy6FqHCsS251t1yj2EBy"}},"mobileFlexSilentTop":{"sizes":[[11,11],[300,250]],"position":"top","customTargeting":{"strnativekey":"gubJdWNSqW4KERyShJGTxkGt"}},"mobileFlexTop":{"sizes":[[300,250],[11,11]],"position":"top","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexMiddle":{"sizes":[[320,50],[300,250],[11,11]],"position":"middle","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexMiddle2":{"sizes":[[320,50],[300,250],[11,11]],"position":"middle2","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexBottom":{"sizes":[[320,50],[300,250],[11,11]],"position":"bottom","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexInc":{"sizes":[[320,50],[300,250],[11,11]],"position":"inc","disableInitialLoad":true,"customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileBannerTop2":{"sizes":[[320,51]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileMpuBottom2":{"sizes":[[300,250]],"position":"bottom2"},"mpuMiddle":{"sizes":[[300,50]],"position":"middle"},"mpuTop":{"sizes":[[320,50]],"position":"top"},"mobileMpuTop":{"sizes":[[300,250]],"position":"top"},"mobileMpuMiddle":{"sizes":[[300,250]],"position":"middle"},"mobileMarketingMpuTop":{"sizes":[[320,100]],"position":"top"},"mobileMarketingMpuMiddle":{"sizes":[[320,100]],"position":"middle"},"mobileMarketingMpuBottom":{"sizes":[[320,100]],"position":"bottom"},"mobileNativeTop2":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"nJQjFMCYfivejGXoqNXYEKsY"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeTeamTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"pjJXawoyvqmBkden6uzUT6kQ"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeGtTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"83b0ae49"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeBottom2":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"nJQjFMCYfivejGXoqNXYEKsY"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughPos2":{"sizes":[[11,11]],"position":2,"customTargeting":{"strnativekey":"54ab0589"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryBottom":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryBottom2":{"sizes":[[11,11]],"position":"bottom2","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mMarqueeTop":{"sizes":[[356,365]],"position":"top"},"mobileMpuTopGametracker":{"sizes":[[300,250]],"position":"top","disableInitialLoad":true,"eventCallbacks":{"slotRenderEnded":"clear20second"}}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"siteName":"cbssports","collapseEmptyDiv":true,"setRefreshUnfilledSlots":false,"setClearUnfilledSlots":true,"disableInitialLoad":false,"disableInitialLoadCompanions":true,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["top_strip","leader_plus_top","leader_top","m_leader_top","skin","mpu_plus_top","mpu_top","mpu_top_gametracker","m_marquee_top","m_rail_top_left","m_rail_top_right","sharethrough_top","sharethrough_bottom","native_arena","native_arena_middle","native_arena_silent","leader_middle","m_leader_middle","mpu_middle","m_story_inset","m_dropdown","leader_plus2_bottom","leader_bottom","mpu_bottom","m_rail_bottom_left","native_story_top","native_story_middle","native_story_bottom","native_story_bottom2","video_live_event_sponsor"],"disableInitialLoadRefresh":true,"enableHeaderBidding":true,"disableClearTargetingOnInit":true,"enableRepeatedAds":true,"disableAdIncrement":false},"containerId":"e5dea84412e91","slotVars":{"network":"8264","siteName":"cbssports","collapseEmptyDiv":"1","topics":"mlb\/media\/power_rankings\/powerrankings","platform":"desktop"},"adType":"gpt","adDivIds":["native-story-top-e5dea84412e91","native-story-middle-e5dea84412e91","native-story-bottom-e5dea84412e91","native-story-bottom2-e5dea84412e91","native-story-inc-e5dea84412e91","mpu-plus-top-e5dea84412e91","mpu-middle-e5dea84412e91","leader-bottom-e5dea84412e91","intromercial-e5dea84412e91","top-strip-e5dea84412e91","skin-e5dea84412e91","leader-top-e5dea84412e91","nflnetwork-bar-top-e5dea84412e91"]},"cookieName":"cbssports_ad","cookieServicePath":"\/ad\/ad-cookie\/","session":6,"subSession":4,"useFirstPageTargeting":true}
+        },
+        assetsVersion: {
+            version: 'fly-694'
+        },
+        device: "desktop",
+        environment: 'prod',
+        locale: 'en',
+        tracking: {
+            enabled: true
+        },
+        user: {
+            baseUrl: "https://www.cbssports.com",
+            'urls': {
+                                                                                                                                                                                                }
+        },
+        liveConnection: {
+            enabled: true
+        },
+        taboolaTag: {
+            enabled: true
+        }
+    };
+    // console.log(window.SportsPageVars);
+</script><script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediajs/js-build/fly/libs/guid-1.0.js"></script><script type="text/javascript">
+		    var __tealium_data_guid = null;
+		    if (typeof window.uuid.v1 === 'function'){
+		        __tealium_data_guid=window.uuid.v1();
+		    }
+
+		    var _utag_obj={"isEnabled":true,"articleAuthorId":["6796def6-d6b1-11e3-ab74-f4ce46b921d8"],"articleAuthorName":["matt snyder"],"articleId":"3942dbd2-1ec6-44e9-8eb7-2200330cb21c","articlePubDate":"2017-09-13 14:14:08","articleTitle":"mlb power rankings: dodgers season is truly one for the ages like we\u0027ve never seen","articleType":"content_article_vembed:story","deviceType":"desktop","isDev":"0","pageNum":"1","pageType":"stories","siteHier":["media","mlb","power rankings"],"siteSection":["media","mlb","","","power rankings",""],"siteType":"desktop web","topicId":["5e126dac-b7a4-46b3-a3c2-17f79dbe7432"],"topicName":["mlb"],"userState":"not authenticated","userType":"anon","dwAccount":"cbsicbssportssite","dwHost":"dw.cbsi.com","siteId":175,"reportSuiteId":"cbsicbssportssite","bkSiteId":3344,"limit":4,"pageName":"\/mlb\/news\/mlb-power-rankings-dodgers-season-is-truly-one-for-the-ages-like-weve-never-seen\/","pageTypeId":"6914","pageOntologyId":"22980","contentOrigin":"cbssports.com original","siteName":"cbssports","tealium":{"profile":"cbssportssite","env":"prod"}};    
+		    _utag_obj.pageViewGuid=__tealium_data_guid;
+		    var utag_data=_utag_obj;
+		</script><script>
+    var skyBoxScroll = function() {
+        if ($(window).scrollTop() != 0) {
+            window.scrollTo(window.scrollX, window.scrollY - 1);
+            window.scrollTo(window.scrollX, window.scrollY + 1);
+        }
+    }
+</script><script src="//js-sec.indexww.com/ht/ls-cbssports.js" async></script><script type="text/javascript" src="https://mtrx.go.sonobi.com/morpheus.cbssports.4073.js" async></script></head><body data-cms-edit='{"url":"http://cms.cbssports.com/content/article/3942dbd2-1ec6-44e9-8eb7-2200330cb21c"}' class=" skybox-auto-collapse">
+        <div id="cbs-site-data" style="display: none">
+        site: media | arena: mlb | pageType: stories | 
+        section:  | slug: mlb-power-rankings-dodgers-season-is-truly-one-for-the-ages-like-weve-never-seen | sport: baseball | route: article_single_league_latest | 
+        6-keys: media/spln/mlb/reg/free/powerrankings
+    </div>
+
+    <div class="page-shell     article-page single-block-layout 
+     
+    ">
+        <div id="intromercial-e5dea84412e91" class="ad-intromercial " data-ad="intromercial">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-e5dea84412e91 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-e5dea84412e91");
+    </script></div>
+
+    
+                    
+<link rel="stylesheet" href="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/css/header-footer/header-footer.desktop.css"><div id="skybox-above">
+        <div id="top-strip-e5dea84412e91" class="ad-top-strip " data-ad="top-strip">
+    <script>
+        window.console && console.log && console.log("ADS: queuing top-strip-e5dea84412e91 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("top-strip-e5dea84412e91");
+    </script></div>
+
+    </div>
+<header id="cbs-site-header" class="cbs-site-header" data-component="siteHeader" data-site-header-options='{"currentSportOmnitureName":"MLB"}'><div id="cbs-network-bar" class="nav-network-bar">
+            <ul class="nav-networks"><li class="nav-networks-item is-selected">
+                    <a href="https://www.cbssports.com" om-event="">
+                        CBSSports.com
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="http://247sports.com/" target="_blank" om-event="">
+                        247Sports
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="http://www.maxpreps.com" target="_blank" om-event="">
+                        MaxPreps
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="http://www.scout.com/" target="_blank" om-event="">
+                        Scout
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="http://www.sportsline.com" target="_blank" om-event="">
+                        SportsLine
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="http://shop.cbssports.com/?utm_source=cbssportscom_hp&amp;utm_medium=bm_referral&amp;utm_term=kw--CBS_Sports" target="_blank" om-event="">
+                        Shop
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="https://www.golfbook.com/?utm_source=cbssports&amp;utm_medium=link&amp;utm_campaign=globaldesktop_nav" target="_blank" om-event="">
+                        Golfbook
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="https://www.stubhub.com/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHpdropdown-_-partCBSSports" target="_blank" om-event="">
+                        Tickets
+                    </a>
+                </li>
+                    </ul><div class="nav-follow-us">
+        <div class="nav-follow-us-item nav-follow-us-item-label">
+            Follow CBS Sports 
+        </div>
+
+                    
+
+<ul class="social-icons-bar"><li><a href="https://www.facebook.com/cbssports/" class="button-network icon-moon-facebook" target="_blank" rel="nofollow" aria-label="Facebook" title="Facebook" om-event="Brand Bar|Facebook"></a></li><li><a href="https://twitter.com/cbssports/" class="button-network icon-moon-twitter" target="_blank" rel="nofollow" aria-label="Twitter" title="Twitter" om-event="Brand Bar|Twitter"></a></li><li><a href="https://instagram.com/cbssports/" class="button-network icon-moon-instagram" target="_blank" rel="nofollow" aria-label="Instagram" title="Instagram" om-event="Brand Bar|Instagram"></a></li><li><a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" class="button-network icon-moon-flipboard" target="_blank" rel="nofollow" aria-label="Flipboard" title="Flipboard" om-event="Brand Bar|Flipboard"></a></li></ul></div>
+</div>
+    
+    
+
+
+
+
+                                                                                        
+
+        
+                                                                                                                                                                                                                                                                                                        
+    
+<div id="cbs-site-nav" class="cbs-site-nav">
+    <div class="site-nav-inner">
+
+        <div class="site-nav-logo">
+            <div class="cbs-logo-lockup">
+    
+    <div class="cbs-logo">
+        <a href="/" om-event="Arena Nav|MLB|Logo">
+            <span class="cbs-logo-icon icon-moon-cbs-icon"></span>
+        </a>
+    </div>
+
+    <div id="cbs-logo-section" class="cbs-logo-section has-icon">
+        <div class="cbs-logo-pos">
+            <span class="logo-sport icon-moon-arena-text-mlb"></span>
+            <span class="logo-icon icon-moon-caret-down"></span>
+        </div>
+                <div class="cbs-logo-dropdown">
+                            <ul class="nav-dropdown-col"><li class="nav-dropdown-item">
+                                <span class="icon-sport icon-moon-cbs-icon"></span>
+                                <a href="https://www.cbssports.com" om-event="Arena Nav|MLB|MLB|CBSSports">CBS Sports Home</a>
+                            </li>
+                                                <li class="nav-dropdown-item ">
+                                                            <span class="icon-sport icon-moon-arena-fantasy"></span>
+                                                                                        
+            <a href="/fantasy/" om-event="Arena Nav|MLB|MLB|Fantasy">
+            Fantasy
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                            <span class="icon-sport icon-moon-arena-nfl"></span>
+                                                                                        
+            <a href="/nfl/" om-event="Arena Nav|MLB|MLB|NFL">
+            NFL
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item is-selected">
+                                                            <span class="icon-sport icon-moon-arena-mlb"></span>
+                                                                                        
+            <a href="/mlb/" om-event="Arena Nav|MLB|MLB|MLB">
+            MLB
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                            <span class="icon-sport icon-moon-arena-ncaafb"></span>
+                                                                                        
+            <a href="/college-football/" om-event="Arena Nav|MLB|MLB|NCAA FB">
+            NCAA FB
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                            <span class="icon-sport icon-moon-arena-golf"></span>
+                                                                                        
+            <a href="/golf/" om-event="Arena Nav|MLB|MLB|Golf">
+            Golf
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                            <span class="icon-sport icon-moon-arena-basketball"></span>
+                                                                                        
+            <a href="/nba/" om-event="Arena Nav|MLB|MLB|NBA">
+            NBA
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                            <span class="icon-sport icon-moon-arena-nhl"></span>
+                                                                                        
+            <a href="/nhl/" om-event="Arena Nav|MLB|MLB|NHL">
+            NHL
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                                                    </ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item ">
+                                                                                        
+            <a href="/college-basketball/" om-event="Arena Nav|MLB|MLB|NCAA BB">
+            NCAA BB
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                                                        
+            <a href="/boxing" om-event="Arena Nav|MLB|MLB|Boxing">
+            Boxing
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                                                        
+            <a href="/wwe/" om-event="Arena Nav|MLB|MLB|WWE">
+            WWE
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                                                        
+            <a href="/soccer/" om-event="Arena Nav|MLB|MLB|Soccer">
+            Soccer
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                                                        
+            <a href="/mma/" om-event="Arena Nav|MLB|MLB|MMA">
+            MMA
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                                                        
+            <a href="/tennis/" om-event="Arena Nav|MLB|MLB|Tennis">
+            Tennis
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                                                        
+            <a href="/olympics/" om-event="Arena Nav|MLB|MLB|Olympics">
+            Olympics
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                                                        
+                                    <a href="http://www.maxpreps.com/national/national.htm" target="_blank" class="external-link" om-event="Arena Nav|MLB|MLB|High School">
+            High School 
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                                                    </ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item ">
+                                                                                        
+                                    <a href="http://sports.cbslocal.com/" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|MLB|MLB|CBS Local Sites">
+            CBS Local Sites 
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                                                        
+                                    <a href="http://www.nascar.com/en_us/sprint-cup-series.html?cid=syn_cbs_referrers_navlinks_01112013&amp;synid=syn_cbs_referrers_navlinks_01112013" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|MLB|MLB|NASCAR">
+            NASCAR 
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                                                        
+                                    <a href="https://www.americasbestracing.net/" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|MLB|MLB|Horse Racing">
+            Horse Racing 
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                                                        
+                                    <a href="http://www.pbr.com/" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|MLB|MLB|PBR">
+            PBR 
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                                                        
+                                    <a href="https://toughmudder.com/" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|MLB|MLB|Tough Mudder">
+            Tough Mudder 
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                                                        
+                                    <a href="http://www.bowl.com/" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|MLB|MLB|Bowling">
+            Bowling 
+        </a>
+    
+                        </li>
+                                                                                                                                                                                                
+                        
+                                                                        <li class="nav-dropdown-item ">
+                                                                                        
+                                    <a href="https://www.stubhub.com/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHomepagemodule-_-partCBSSports" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|MLB|MLB|Tickets">
+            Tickets 
+        </a>
+    
+                        </li>
+                                    </ul></div>
+    </div>
+</div>
+        </div>
+
+        
+        <nav class="site-nav-list"><ul><li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/mlb/" om-event="Arena Nav|MLB|Home">
+            Home
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/mlb/scoreboard/" om-event="Arena Nav|MLB|Scores">
+            Scores
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/mlb/standings" om-event="Arena Nav|MLB|Standings">
+            Standings
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/mlb/schedules" om-event="Arena Nav|MLB|Schedule">
+            Schedule
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/mlb/teams" om-event="Arena Nav|MLB|Teams">
+            Teams
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/mlb/expert-picks/" om-event="Arena Nav|MLB|Expert Picks">
+            Expert Picks
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="http://www.sportsline.com/mlb/odds/" om-event="Arena Nav|MLB|Odds">
+            Odds
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                                                                                    
+                                                            
+                                                                                                        <li class="nav-list-item is-selected nav-item-overflow">
+                                                        
+            <a href="/mlb/powerrankings/" om-event="Arena Nav|MLB|Power Rankings">
+            Power Rankings
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/mlb/probable-pitchers" om-event="Arena Nav|MLB|Probables">
+            Probables
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/mlb/stats/" om-event="Arena Nav|MLB|Stats">
+            Stats
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/mlb/injuries" om-event="Arena Nav|MLB|Injuries">
+            Injuries
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/mlb/transactions" om-event="Arena Nav|MLB|Transactions">
+            Transactions
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/mlb/players" om-event="Arena Nav|MLB|Players">
+            Players
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/mlb/video/jonah-keri-show" om-event="Arena Nav|MLB|Jonah Keri">
+            Jonah Keri
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+                                    <a href="https://www.stubhub.com/mlb-tickets/grouping/81/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHpdropdown-_-partCBSSports" target="_blank" rel="nofollow" class="" om-event="Arena Nav|MLB|Tickets">
+            Tickets
+        </a>
+    
+
+                                                                    </li>
+                
+                                                                        
+                    <li class="nav-list-item has-dropdown the-dots total-items-15">
+                        <span class="icon-more icon-moon-nav-more"></span>
+                        <ul class="site-nav-dropdown is-the-dots is-wide"><li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/mlb/" om-event="Arena Nav|MLB|More|Home">
+            Home
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/mlb/scoreboard/" om-event="Arena Nav|MLB|More|Scores">
+            Scores
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/mlb/standings" om-event="Arena Nav|MLB|More|Standings">
+            Standings
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/mlb/schedules" om-event="Arena Nav|MLB|More|Schedule">
+            Schedule
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/mlb/teams" om-event="Arena Nav|MLB|More|Teams">
+            Teams
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/mlb/expert-picks/" om-event="Arena Nav|MLB|More|Expert Picks">
+            Expert Picks
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="http://www.sportsline.com/mlb/odds/" om-event="Arena Nav|MLB|More|Odds">
+            Odds
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/mlb/powerrankings/" om-event="Arena Nav|MLB|More|Power Rankings">
+            Power Rankings
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/mlb/probable-pitchers" om-event="Arena Nav|MLB|More|Probables">
+            Probables
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/mlb/stats/" om-event="Arena Nav|MLB|More|Stats">
+            Stats
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/mlb/injuries" om-event="Arena Nav|MLB|More|Injuries">
+            Injuries
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/mlb/transactions" om-event="Arena Nav|MLB|More|Transactions">
+            Transactions
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/mlb/players" om-event="Arena Nav|MLB|More|Players">
+            Players
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/mlb/video/jonah-keri-show" om-event="Arena Nav|MLB|More|Jonah Keri">
+            Jonah Keri
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+                                    <a href="https://www.stubhub.com/mlb-tickets/grouping/81/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHpdropdown-_-partCBSSports" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|MLB|More|Tickets">
+            Tickets 
+        </a>
+    
+                                </li>
+                                                    </ul></li>
+                            </ul></nav><div class="site-nav-side">
+    <ul class="site-nav-side-inner"><li class="nav-side-item games-item has-dropdown">
+                <span class="narrow-text">Play</span>
+                <span class="narrow-icon icon-item icon-moon-nav-games"></span>
+                                <div class="site-nav-dropdown is-dropdown-games align-right">
+                    <div class="nav-dropdown-inner">
+                                                    <div class="nav-dropdown-game">
+                                                                    <h6 class="nav-dropdown-title">
+                                                                                                                
+            <a href="/fantasy/games/football/?ttag=FFB16_os_drpdwn_feat_lk" om-event="Global Nav|MLB|Play|Games|Text">
+            Games
+        </a>
+    
+                                    </h6>
+                                                                                                    <div class="nav-game-wrap">
+                                                                                                                                                                            <div class="nav-game game-left">
+                                                <div class="nav-game-image">
+                                                    <a href="https://www.cbssports.com/fantasy/games/?ftag=SPM-16-10abd7a" om-event="Global Nav|MLB|Play|Fantasy football|Feature 1">
+                                                                    <figure class=" img"><img class=" is-lazy-image" alt="fantasy-football-180x100.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/06/22/483c2e7e-a8aa-4946-ae4e-579f00ea394b/thumbnail/180x100/e2628a0030a660b41c0cb000330e2f8d/fantasy-football-180x100.jpg" src="" height="100" width="180"></figure><p class="nav-game-text">
+                                                            Play Now
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <p class="nav-game-title">
+                                                                                    
+            <a href="/fantasy/games/?ftag=SPM-16-10abd7a" om-event="Global Nav|MLB|Play|Fantasy football|Feature 1">
+            FANTASY FOOTBALL
+        </a>
+    
+                                                </p>
+                                            </div>
+                                                                                                                                                                            <div class="nav-game game-right">
+                                                <div class="nav-game-image">
+                                                    <a href="https://www.cbssports.com/fantasy/games/football/office-pool-manager/?ftag=SPM-16-10abf7b" om-event="Global Nav|MLB|Play|Game pick'em|Feature 2">
+                                                                    <figure class=" img"><img class=" is-lazy-image" alt="pickemplaydrop180x100.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/08/07/6a27f960-e130-4ca7-8fe8-d1b99263dbc7/thumbnail/180x100/040933e1ebe087a9b1591c4cdf951f40/pickemplaydrop180x100.jpg" src="" height="100" width="180"></figure><p class="nav-game-text">
+                                                            Play Now
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <p class="nav-game-title">
+                                                                                    
+            <a href="/fantasy/games/football/office-pool-manager/?ftag=SPM-16-10abf7b" om-event="Global Nav|MLB|Play|Game pick'em|Feature 2">
+            Game PIck'em
+        </a>
+    
+                                                </p>
+                                            </div>
+                                                                            </div>
+                                                                                                                            </div>
+                                                    <div class="nav-dropdown-game">
+                                                                                                                                                                                                            <div class="nav-game-dropdown-text">
+                                                                                                                                
+            <a href="/fantasy/games/my-teams/" om-event="Global Nav|MLB|Play|View your leagues|Text">
+            View your Leagues
+        </a>
+    
+                                        </div>
+                                                                                                </div>
+                                                    <div class="nav-dropdown-game">
+                                                                    <h6 class="nav-dropdown-title">
+                                                                                                                
+            <a href="/fantasy/games/football?ttag=FF16_os_drpdwn_lk" om-event="Global Nav|MLB|Play|Fantasy football|Text">
+            Fantasy Football
+        </a>
+    
+                                    </h6>
+                                                                                                                                                            </div>
+                                                    <div class="nav-dropdown-game">
+                                                                    <h6 class="nav-dropdown-title">
+                                                                                                                
+            <a href="/fantasy/games/baseball/?ttag=FBB16_os_drpdwn_lk" om-event="Global Nav|MLB|Play|Fantasy baseball|Text">
+            Fantasy Baseball
+        </a>
+    
+                                    </h6>
+                                                                                                                                                            </div>
+                                                    <div class="nav-dropdown-game">
+                                                                    <h6 class="nav-dropdown-title">
+                                                                                                                
+            <a href="/fantasy/games/basketball/?ttag=FBK16_os_drpdwn_lk" om-event="Global Nav|MLB|Play|Fantasy basketball|Text">
+            Fantasy Basketball
+        </a>
+    
+                                    </h6>
+                                                                                                                                                            </div>
+                                                    <div class="nav-dropdown-game">
+                                                                    <h6 class="nav-dropdown-title">
+                                                                                                                
+            <a href="/fantasy/games/hockey/?ttag=FHK16_os_drpdwn_lk" om-event="Global Nav|MLB|Play|Fantasy hockey|Text">
+            Fantasy Hockey
+        </a>
+    
+                                    </h6>
+                                                                                                                                                            </div>
+                                            </div>
+                    <div class="nav-dropdown-bottom">
+                        <div class="nav-dropdown-button">
+                                                                                        
+            <a href="/fantasy/games/" om-event="Global Nav|MLB|Play|See All">
+            See All Sports Games
+        </a>
+    
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+                                <li class="nav-side-item watch-item has-dropdown">
+                <span class="narrow-text">Watch</span>
+                <span class="narrow-icon icon-item icon-moon-nav-watch"></span>
+                                <div class="site-nav-dropdown align-right">
+                    <div class="nav-dropdown-inner">
+                                                                                                                <h6 class="nav-dropdown-title">
+                                                                                                        
+            <a href="/video/player?channel=cbssportsnetwork" om-event="Global Nav|MLB|Watch|Featured Video|Text">
+            Latest from CBS Sports Network
+        </a>
+    
+                                </h6>
+                                <div class="nav-dropdown-top">
+                                                                                                                            
+                                                                                                                        
+                
+            <a href="/video/player?channel=cbssportsnetwork" class="" om-event="Global Nav|MLB|Watch|Featured Video|Image">
+            <div class="image-icon-overlay-wrap     ">
+                                                        <figure class=" img"><img class=" is-lazy-image" alt="sizzle-graphic.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/03/27/4a8a0cfb-8794-4c57-8cfd-53cc0ba8c2cd/thumbnail/270x152/9c9a1fc7cce2635410697bc3d20c71cc/sizzle-graphic.jpg" src="" height="152" width="270"></figure><div class="image-icon-overlay size-small type-video ">
+                </div>
+                            
+            
+                    </div>
+            </a>
+    
+             
+                                                                    </div>
+                                <ul><li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/watch/cbssportsnetwork/" om-event="Global Nav|MLB|Watch|Watch CBS Sports Network">
+            Watch CBS Sports Network
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+                                    <a href="http://www.cbssportsnetwork.com/" target="_blank" rel="nofollow" class="external-link" om-event="Global Nav|MLB|Watch|CBSSN Channel Finder">
+            CBSSN Channel Finder 
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/cbssports" om-event="Global Nav|MLB|Watch|TV Shows &amp; Listings">
+            TV Shows &amp; Listings
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="https://www.cbs.com/all-access/live-tv/?ftag=AAM-00-10ade5c" om-event="Global Nav|MLB|Watch|NFL on All Access">
+            NFL on All Access
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/fantasy/football/show/fantasy-football-today/" om-event="Global Nav|MLB|Watch|Fantasy Football Today">
+            Fantasy Football Today
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/college-football/sec-live/" om-event="Global Nav|MLB|Watch|SEC Live">
+            SEC Live
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/nfl/show/pro-football-rundown/" om-event="Global Nav|MLB|Watch|Pro FB Rundown">
+            Pro FB Rundown
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="http://www.collegesportslive.com/start/?ftag=CSL-01-10aaa6f" om-event="Global Nav|MLB|Watch|College Sports Live">
+            College Sports Live
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/general/video/show/crossfit-games/" om-event="Global Nav|MLB|Watch|CrossFit Games">
+            CrossFit Games
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/general/video/show/the-score/" om-event="Global Nav|MLB|Watch|The Score">
+            The Score
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/video/player/247-sports-live" om-event="Global Nav|MLB|Watch|247Sports Live">
+            247Sports Live
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/general/show/reiter-than-you/" om-event="Global Nav|MLB|Watch|Reiter Than You">
+            Reiter Than You
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/general/video/show/minute-update/" om-event="Global Nav|MLB|Watch|Sports Minute">
+            Sports Minute
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/videos/" om-event="Global Nav|MLB|Watch|All Videos">
+            All Videos
+        </a>
+    
+                                </li>
+                                                                            </ul></div>
+                </div>
+            </li>
+        
+                                <li class="nav-side-item listen-item has-dropdown">
+                <span class="narrow-text">Listen</span>
+                <span class="narrow-icon icon-item icon-moon-nav-listen"></span>
+                                <div class="site-nav-dropdown align-right">
+                    <div class="nav-dropdown-inner">
+                                                                                                                                            <h6 class="nav-dropdown-title">
+                                    CBS Sports Radio
+                                </h6>
+                                <div class="nav-dropdown-top">
+                                                                            <div class="nav-dropdown-image">
+                                            <a href="http://radio.cbssports.com/" target="_blank" om-event="Global Nav|MLB|Listen|Featured Podcast|Image">
+                                                            <figure class=" img"><img class=" is-lazy-image" alt="cbssports-radio.png" data-lazy="https://sportshub.cbsistatic.com/i/r/2016/02/24/fb0619ed-f59a-47ac-ac37-d7f670af79f3/thumbnail/100x100/97e3cd55c0d67234988d134e0d362eeb/cbssports-radio.png" src="" height="100" width="100"></figure></a>
+                                        </div>
+                                                                        <div class="nav-dropdown-top-side">
+                                        <p class="nav-dropdown-top-title">
+                                                                                                                        
+                                    <a href="http://radio.cbssports.com/" target="_blank" class="external-link" om-event="Global Nav|MLB|Listen|Featured Podcast|Text">
+            Listen Live 
+        </a>
+    
+                                        </p>
+                                                                            </div>
+                                </div>
+                                                                                                                                                                                                        <h6 class="nav-dropdown-title">
+                                    Fantasy Football Today
+                                </h6>
+                                <div class="nav-dropdown-top">
+                                                                            <div class="nav-dropdown-image">
+                                            <a href="https://soundcloud.com/cbssportspodcasts/hou-cin-week-2-start-or-sit" target="_blank" om-event="Global Nav|MLB|Listen|Featured Podcast|Image">
+                                                            <figure class=" img"><img class=" is-lazy-image" alt="podcast-fantasyfootball-logo.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/06/20/bea1c43d-f08f-480e-8ad9-e93ad015bcc1/thumbnail/100x100/c78f8ee89ba37f7d572069edbd2eb552/podcast-fantasyfootball-logo.jpg" src="" height="100" width="100"></figure></a>
+                                        </div>
+                                                                        <div class="nav-dropdown-top-side">
+                                        <p class="nav-dropdown-top-title">
+                                                                                                                        
+                                    <a href="https://soundcloud.com/cbssportspodcasts/hou-cin-week-2-start-or-sit" target="_blank" rel="nofollow" class="external-link" om-event="Global Nav|MLB|Listen|Featured Podcast|Text">
+            HOU-CIN Reactions, Start or Sit 
+        </a>
+    
+                                        </p>
+                                                                                    <time class="nav-dropdown-top-date">
+                                                2d ago
+                                            </time></div>
+                                </div>
+                                                                    <ul><li class="nav-dropdown-item">
+                                                                                                        
+                                    <a href="http://sports.cbslocal.com/cbs-sports-radio-roundup/" target="_blank" rel="nofollow" class="external-link" om-event="Global Nav|MLB|Listen|CBS Sports Radio Roundup">
+            CBS Sports Radio Roundup 
+        </a>
+    
+                                </li>
+                                                                                                                                                                        <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/podcasts/jonah-keri/" om-event="Global Nav|MLB|Listen|The Jonah Keri Podcast">
+            The Jonah Keri Podcast
+        </a>
+    
+                                </li>
+                                                                                                                                                                        <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/podcast" om-event="Global Nav|MLB|Listen|Podcasts">
+            Podcasts
+        </a>
+    
+                                </li>
+                                                                                                                                                                        <li class="nav-dropdown-item">
+                                                                                                        
+                                    <a href="http://jimrome.com/" target="_blank" rel="nofollow" class="external-link" om-event="Global Nav|MLB|Listen|The Jim Rome Show">
+            The Jim Rome Show 
+        </a>
+    
+                                </li>
+                                                                            </ul></div>
+                </div>
+            </li>
+        
+                <li class="nav-side-item log-in-item">
+            <a href="https://www.cbssports.com/login?master_product=150&amp;xurl=https%3A%2F%2Fwww.cbssports.com%2Fmlb%2Fpowerrankings%2F" om-event="Global Nav|MLB|Log In">
+                <span class="the-button">Log In</span>
+            </a>
+        </li>
+
+                <li class="nav-side-item user-item has-dropdown">
+            <span class="the-button">
+                <span class="icon-item-button icon-moon-nav-avatar"></span>
+                <span class="icon-item-text">My Teams</span>
+            </span>
+
+                        <div class="site-nav-dropdown is-dropdown-user align-right">
+                <div id="nav-side-my-teams">
+                                            <div class="loader">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+                </div>
+                <div class="my-teams-component-bottom">
+                    <div class="bottom-row">
+                        <a href="/fantasy/games/my-teams/" om-event="Global Nav|MLB|Profile|Organize My Teams">Organize / See All Teams</a>
+                        <a href="http://cbsi.force.com/CBSi/cbssports" om-event="Global Nav|MLB|Profile|Help">Help</a>
+                    </div>
+                    <div class="bottom-row">
+                        <a href="https://www.cbssports.com/settings" om-event="Global Nav|MLB|Profile|Account Settings">Account Settings</a>
+                        <a href="https://www.cbssports.com/logout?end=https%3A%2F%2Fwww.cbssports.com%2Fmlb%2Fpowerrankings%2F" om-event="Global Nav|MLB|Profile|Sign Out">Log Out</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul></div>
+    </div>
+</div>
+</header><div class="page-marquee-container">
+                                </div>
+
+            <div id="mantle_skin" class="mantle-skin" data-component="adsSticky">
+                                                <span id="adSkinLeft" class="ad-skin-left"></span>
+                    <span id="adSkinRight" class="ad-skin-right"></span>
+                    <div id="skin-e5dea84412e91" class="ad-skin " data-ad="skin">
+    <script>
+        window.console && console.log && console.log("ADS: queuing skin-e5dea84412e91 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("skin-e5dea84412e91");
+    </script></div>
+
+                
+    
+                
+                
+                            <div id="leader-top-wrap" class="leaderboard-wrap" data-component="adsLeaderboardCollapse">
+            <div id="leader-top-e5dea84412e91" class="ad-leader-top " data-ad="leader-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-top-e5dea84412e91 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-top-e5dea84412e91");
+    </script></div>
+
+        </div>
+                    
+                <main id="page-content" class="highlander-page-container "><!--[if lt IE 10 ]> 
+                        <div class="upgrade-modal hide-upgrade" data-component='ieUpgradeMessage' > 
+                            <a class="icon-moon-close-x" id="close-upgrade-modal"></a>
+                            <div class="message">
+                                <strong>You are using an unsupported version of Internet Explorer.</strong><br/><br/>
+                                Your version of Internet Explorer is no longer supported by CBS Sports.<br/>
+                                Some features may not work correctly.<br/>
+                                Please upgrade to a modern browser:<br/><br/>
+                                <a href="http://windows.microsoft.com/en-US/internet-explorer/download-ie">1. Internet Explorer 11</a><br/>
+                                <a href="https://www.google.com/intl/en/chrome/browser/desktop/index.html">2. Google Chrome</a><br/>
+                                <a href="https://www.mozilla.org/en-US/firefox/new/">3. Firefox</a>
+                            </div>
+                        </div>
+                    <![endif]--><div class="reading-list-fixate hidden">
+
+	<div id="fantasy-reading-list" class="reading-list-wrapper" data-reading-list="wrapper" data-component="articleFixate" data-article-fixate-options='{"offset":{"top":60,"bottom":0},"guideTop":"#cbs-site-header"}'>
+
+        <div class="reading-list-label">Up next:</div>
+
+        <div class="reading-list">
+
+                                                                            
+                                <div class="item-wrapper" data-reading-list="container" data-component="articleReadingList">
+                                    <div class="item current" data-reading-list="item" section="ReadingList.1">
+
+                                                
+                        <a class="title" data-goto="3942dbd2-1ec6-44e9-8eb7-2200330cb21c" data-url="/mlb/news/mlb-power-rankings-dodgers-season-is-truly-one-for-the-ages-like-weve-never-seen/">
+                            <div>
+                                <h5>MLB Power Rankings: Dodgers season is truly one for the ages like we've never seen</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                                                                        </div>
+                    </div>
+
+        <div class="reading-list-close"><div class="icon-moon-close-x"></div></div>
+
+    </div>
+</div>            <div id="reading-list-items-container" class="reading-list-container" data-container-asset-id="3942dbd2-1ec6-44e9-8eb7-2200330cb21c" data-teads-num="1">
+        
+                <div data-reading-list-item="3942dbd2-1ec6-44e9-8eb7-2200330cb21c" class="data-reading-list-item">
+                    <div class="fixate-top-anchor relative"></div>
+
+                    <div class="container article-content">
+                        <section id="content" class="row"><article itemscope itemtype="http://schema.org/Article" class="col-12"><meta itemprop="mainEntityOfPage" content="https://www.cbssports.com/mlb/powerrankings/"><meta itemprop="headline" content="MLB Power Rankings: Dodgers season is truly one for the ages like we've never seen"><meta itemprop="description" content="Good luck with trying to figure out where the Dodgers should be ranked"><div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+    <meta itemprop="url" content="https://sportshub.cbsistatic.com/i/r/2017/09/13/41436872-14b5-4c31-a5f7-a52b0c0f4730/thumbnail/770x433/669e7857fdc87c18455e5ded0e27a7cf/dodgers-chase-utley.jpg"><meta itemprop="width" content="433"><meta itemprop="height" content="770"></div>
+<meta itemprop="keywords" content="MLB"><meta itemprop="url" content="https://www.cbssports.com/mlb/news/mlb-power-rankings-dodgers-season-is-truly-one-for-the-ages-like-weve-never-seen/"><meta itemprop="datePublished" content="2017-09-13 14:14:00"><meta itemprop="dateModified" content="2017-09-13 16:19:20"><meta itemprop="thumbnailUrl" content="https://sportshub.cbsistatic.com/i/r/2017/09/13/41436872-14b5-4c31-a5f7-a52b0c0f4730/thumbnail/770x433/669e7857fdc87c18455e5ded0e27a7cf/dodgers-chase-utley.jpg"><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+    <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url" content="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/core/cbssports-logo-60x289.png"><meta itemprop="width" content="289"><meta itemprop="height" content="60"></div>
+    <meta itemprop="name" content="CBS Sports"></div>
+                                <div class="row">
+                                    
+                                                                            <div class="article-head">
+                                            <h1 class="article-headline">MLB Power Rankings: Dodgers season is truly one for the ages like we've never seen</h1>
+                                                                                            <h2 class="article-subline">Good luck with trying to figure out where the Dodgers should be ranked</h2>
+                                                                                                                                        
+
+
+    <ul class="article-author row" itemscope itemtype="http://schema.org/Person" itemprop="author" section="author"><li class="headshot"> 
+                                                    <a href="/writers/matt-snyder/" rel="author">
+                                            <figure class=" img"><img class=" is-lazy-image" alt="    Matt Snyder
+ mugshot" data-lazy="https://sportshub.cbsistatic.com/i/r/2016/05/04/69487861-f5f8-469b-b55a-c617fbddaec1/thumbnail/70x70/fe8d594fcde348aff1b9d391bfff363b/mattsnyder.png" src="" height="70" width="70"></figure></a>
+                                            </li>
+                                    
+                                                <li class="author-name article-byline-last-author">
+                                            by
+                     
+                    <span itemprop="name">
+                        <a rel="author" href="/writers/matt-snyder/">
+                            Matt Snyder
+                        </a>
+                    </span>
+                </li>
+            
+                            <li class="twitter-handle">
+                                    <a href="https://twitter.com/intent/user/?screen_name=MattSnyderCBS" target="_blank">
+            <span class="twitter">
+                @MattSnyderCBS
+            </span>
+        </a>
+    
+                </li>
+            
+                    
+        <li class="date-published">
+                                                                   
+            <span class="date-original-reading-time">
+                <time datetime="2017-09-13 14:14:00 UTC">Sep 13, 2017</time>
+                                • 4 min read
+            </span>
+                    </li><li>
+    </li></ul></div>
+                                                                    </div>
+
+                                    <div class="container">
+        <div class="row">
+                                    <div class="row">
+                <div class="col-12">
+                                                            </div>
+                    </div>
+                                    <div class="row">
+                <div class="col-12">
+                                                            <div class="row">
+                                                            <div class="row">
+                <div class="col-12">
+                                                            <div class="row">
+                                                        <div class="col-8">
+                                                                                    <div class="row">
+                <div class="col-8">
+                                
+            
+                    
+    
+            <div class="row article">
+                                        
+            
+
+
+
+                                
+        
+            
+        
+                    
+                    
+        
+        
+        
+            
+    <div id="embedVideoContainer_1045660739546" class="embedVideo embed-video-player  enable-watch-and-read">
+        <iframe id="embedVideo_1045660739546" class="" src="https://www.cbssports.com/video/player/embed?args=player_id%3D1045660739546%26channel%3Dmlb%26pcid%3D1045660739546%26width%3D640%26height%3D360%26comp_ads_enabled%3Dfalse%26lazy_load%3Dfalse%26resizable%3Dtrue%26domain%3Dcbssports.com%26autoplay%3Dtrue%26watchAndRead%3D1%26css%3Dcss%252Fmedia%252Fvideo%252Fplayer%252Fembed%252Fhighlander-min.css%26war_w%3D432%26war_h%3D243%26js%3D" width="640" height="360" name="embedVideo_1045660739546" marginwidth="0" marginheight="0" allowtransparency="true" allowfullscreen="true" scrolling="no" frameborder="0"></iframe>
+    </div>
+
+        </div>
+                                                </div>
+                    </div>
+                                    <div class="row">
+                <div class="col-8">
+                                                            <div class="row">
+                                                        <div class="col-1">
+                                
+            
+                    
+
+        
+    
+
+
+
+
+    
+
+            <div class="fixation sharebar-fixate" id="fantasy-article-sharebar-component" data-component="articleFixate" data-article-fixate-options='{"offset":{"top":110,"bottom":0},"guideTop":"div[data-reading-list-item=3942dbd2-1ec6-44e9-8eb7-2200330cb21c] .fixate-sharebar-top-anchor","guideBottom":"div[data-reading-list-item=3942dbd2-1ec6-44e9-8eb7-2200330cb21c] .fixate-sharebar-bottom-anchor","customParentClass":"sharebar-fixate-col"}'>
+                            <ul class="share-wrapper side is-vertical" data-component="sharebar" data-sharebar-options='{"articleId":"3942dbd2-1ec6-44e9-8eb7-2200330cb21c","contentType":"article-share","description":"Good luck with trying to figure out where the Dodgers should be ranked","title":"MLB Power Rankings: Dodgers season is truly one for the ages like we\u0027ve never seen","rawTitle":"","url":"https:\/\/www.cbssports.com\/mlb\/powerrankings\/","via":"CBSSports","viewPanel":"","buttonsArray":["facebook","twitter","flipboard","email"]}'><li>
+                                            
+    
+    <span data-popup="facebook" class="button-share icon-moon-facebook" aria-label="Facebook" title="Facebook" om-event="Share Bar|Facebook"></span>
+
+                        </li><li>
+                                            
+    
+    <span data-popup="twitter" class="button-share icon-moon-twitter" aria-label="Twitter" title="Twitter" om-event="Share Bar|Twitter"></span>
+
+                        </li><li>
+                                            
+    
+    <span data-popup="flipboard" class="button-share icon-moon-flipboard" aria-label="Flipboard" title="Flipboard" om-event="Share Bar|Flipboard"></span>
+
+                        </li><li>
+                                            
+                        
+    <span data-popup="email" class="button-share icon-moon-envelope" aria-label="Email" title="Email" om-event="Share Bar|Email"></span>
+
+                        </li>                </ul></div>
+                                            </div>
+                                <div class="col-7">
+                                                                                    <div class="row">
+                <div class="col-7">
+                                
+            
+                        
+
+<div class="fixate-sharebar-top-anchor relative"></div>
+
+<div id="article-main-body" class="article article-main-body module" itemprop="articleBody" data-article-dynamic-ads-options='{"adUnitName":"native_story_inc","adContainerDivId":"#native-story-ad-"}' data-component='["warEnabler","articleDynamicAds"]'>
+
+    
+    <div class="row" data-use-autolinker="true">
+        
+        
+                            
+                
+        <div id="article-wrapper" class="article-wrapper" data-component="articleExpand"><p><em>I've never seen anything like this. </em></p><p>Sayings like this are easy and often times lazy. It's a hyperbole/absolute combo and can't really be proven false because it sounds like a feeling instead of fact. I can sit there and watch <a href="http://www.cbssports.com/mlb/players/playerpage/1619074/madison-bumgarner">Madison Bumgarner's</a> run in the 2014 postseason and say "I've never seen anything like this" and it can easily be true without facts to back it up. </p><p>The funny thing is, though, much of the time the trained eye says as much, a good amount of the sentiment is buried in fact. Bumgarner's postseason run actually was statistically one of the greatest in single-season postseason history. Many of us saying we hadn't seen it weren't alive to see things like Sandy Koufax in the World Series, for example. </p><p>On that jumping off point, what the <a href="/mlb/teams/page/LAD/l-a-dodgers-dodgers">Dodgers</a> are doing right now is truly unlike anything we've seen in baseball history. </p><div id="native-story-ad-0">
+	<div id="native-story-top-e5dea84412e91" class="ad-native-story-top " data-ad="native-story-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing native-story-top-e5dea84412e91 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("native-story-top-e5dea84412e91");
+    </script></div>
+</div><p>Doesn't it really sum up how awesomely stupid baseball can be that one of the greatest teams in history can all of a sudden become one of the worst on a dime? </p><p>It bears repeating: The Dodgers were 91-36 just a few weeks ago. That's a full-season pace of an MLB-record tying 116 wins. No, I don't think anyone jumped the gun on talking about this. It wasn't a tiny sample. It wasn't the 2016 <a href="/mlb/teams/page/CHC/chi-cubs-cubs">Cubs</a> starting 25-6. It wasn't the <a href="/mlb/teams/page/HOU/houston-astros">Astros</a> starting this year 42-16. It was 127 games through Aug. 25. Anyone ignoring L.A.'s run at the <a href="/mlb/teams/page/SEA/seattle-mariners">Mariners</a> record was doing a disservice to Dodger fans. </p><p>As for the subject at hand, which are the internet's best and most prestigious MLB Power Rankings, it was the easiest number one ranking, week-in, week-out, ever. Truth be told, it was actually boring. </p><p>Not so much anymore. </p><div id="native-story-ad-1">
+	<div id="native-story-middle-e5dea84412e91" class="ad-native-story-middle " data-ad="native-story-middle">
+    <script>
+        window.console && console.log && console.log("ADS: queuing native-story-middle-e5dea84412e91 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("native-story-middle-e5dea84412e91");
+    </script></div>
+</div><p>Now, to channel Ron Washington's character in the "Moneyball" movie, <em>it's incredibly hard</em>. </p><p>The Dodgers have now lost 16 of their last 18 games, having snapped an 11-game losing streak with Tuesday's win. It was the worst stretch in the history of the Dodgers' long and storied franchise. </p><p>Here's how bad things are: The two wins in that stretch were <a href="http://www.cbssports.com/mlb/players/playerpage/1221725/clayton-kershaw">Clayton Kershaw</a> starts, one against the <a href="/mlb/teams/page/SD/san-diego-padres">Padres</a> and one against the <a href="/mlb/teams/page/SF/san-francisco-giants">Giants</a>. In Tuesday's win, the Dodgers needed a four-out save from <a href="http://www.cbssports.com/mlb/players/playerpage/1208718/kenley-jansen">Kenley Jansen</a> like it was the playoffs or something. </p><p>Think about it. This is no exaggeration. No one has ever seen anything like this. As noted above, one of the best teams in history has morphed into one of the worst. Each night during their insane, extended stretch of winning -- they were 56-11 from June 7 to Aug. 25 -- it didn't seem real. It doesn't seem real now, either. </p><div id="native-story-ad-2">
+	<div id="native-story-bottom-e5dea84412e91" class="ad-native-story-bottom " data-ad="native-story-bottom">
+    <script>
+        window.console && console.log && console.log("ADS: queuing native-story-bottom-e5dea84412e91 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("native-story-bottom-e5dea84412e91");
+    </script></div>
+</div><p>Did you notice the funkiest thing of all? The Dodgers lost 11 in a 67-game stretch and prior to Tuesday had lost 11 in an 11-game stretch. Insanity.  </p><p>To channel Jim Nantz from "Tin Cup," <em>I don't even know what I'm feeling right now</em>. </p><p>[Note: My new goal is to knock out as many sports movie references in the next few weeks that I can get away with a "Varsity Blues" reference -- hoping to work in "Days of Thunder" next time]</p><p>The subject has myriad angles from which to approach, but the one here is obviously how to rank them. The rankings are always a confluence of body of work, personnel and "what have you done for me lately." Earlier in the year, the latter two are pretty much all we have, but as the season progresses, the former takes on more and more weight. We're in mid-September, too. </p><div id="native-story-ad-3">
+	<div id="native-story-bottom2-e5dea84412e91" class="ad-native-story-bottom2 " data-ad="native-story-bottom2">
+    <script>
+        window.console && console.log && console.log("ADS: queuing native-story-bottom2-e5dea84412e91 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("native-story-bottom2-e5dea84412e91");
+    </script></div>
+</div><p>The body of work is still the best in baseball -- though that gap is rapidly closing -- while the personnel is still very good. Obviously on the latter point of judgment, the Dodgers are the worst team in baseball <em>right now</em>. No one has been worse in the past two-and-a-half weeks and there's little debate about that. </p><p>I can't put the Dodgers last, of course, but they sure as hell aren't holding the top spot. I'm kind of chuckling to myself thinking back to two weeks ago when I said they would be No. 1 the rest of the way barring something extreme. Ladies and gents, meet extreme. This season has been as extreme as it gets -- and not just from the Dodgers standpoint (I'm looking at you, Cleveland). </p><p>I sometimes say that there isn't a wrong answer when discussing something subjective here, but putting the team with the best record in baseball No. 1 right now in any power ranking system is definitely wrong. Context matters and the Dodgers clearly aren't the best team in baseball right now. If you strenuously object (damn, "A Few Good Men" isn't a sports movie!), maybe the rankings aren't for you. That's OK. <a href="https://www.cbssports.com/mlb/standings">We have a standings page</a>. </p><p>Think about the above statement again: Putting the team with the best record in baseball No. 1 right now in any power ranking system is definitely wrong. </p><div id="native-story-ad-4">
+	<div id="native-story-inc-e5dea84412e91" class="ad-native-story-inc " data-ad="native-story-inc">
+    <script>
+        window.console && console.log && console.log("ADS: queuing native-story-inc-e5dea84412e91 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("native-story-inc-e5dea84412e91");
+    </script></div>
+</div><p>Oh baseball, you awesomely stupid beast, you. </p><p>As for those wanting Indians love, <span class="link"><a href="https://www.cbssports.com/mlb/news/mlb-power-rankings-red-hot-indians-are-breathing-down-the-necks-of-the-dodgers/">a gentle reminder that last week in this space I fawned all over them</a></span> and they are now No. 1 without a second thought (and <span class="link"><a href="https://www.cbssports.com/mlb/news/2017-mlb-season-cbs-sports-staff-world-series-division-winner-award-predictions/">shout-out to my preseason World Series champ!</a></span>). Such a fun team, too. Enjoy them, Cleveland. </p></div><div class="power-rankings">
+    <div class="power-rankings-heading">
+        Biggest Movers
+    </div>
+    <div class="biggest-movers-teams">
+                    <div class="team-movers" style="background-color: #0E437B">
+                    <span class="team-movers-logo" style="background-image: url(https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/ATL.svg)">
+            </span>
+            <span class="moving-up">
+            </span>
+            <span class="score">
+                4
+            </span>
+            <span class="team">
+                Braves
+            </span>
+        </div>
+                    <div class="team-movers" style="background-color: #D05301">
+                    <span class="team-movers-logo" style="background-image: url(https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/BAL.svg)">
+            </span>
+            <span class="moving-down">
+            </span>
+            <span class="score">
+                7
+            </span>
+            <span class="team">
+                Orioles
+            </span>
+        </div>
+    </div>
+    <div class="table-wrapper">
+        <table class="table-base has-header-bg has-row-hover has-border-full table-power-rankings"><thead><tr><th class="cell-left">
+                        <div>Rk</div>
+                    </th>
+                    <th class="cell-left">
+                        <div>Teams</div>
+                    </th>
+                    <th class="cell-left">
+                         
+                    </th>
+                    <th class="cell-left">
+                        <div>Chg</div>
+                    </th>
+                    <th class="cell-left">
+                        <div>Rcrd</div>
+                    </th>
+                </tr></thead><tbody><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                1
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/CLE/cleveland-indians" om-event="Power Rankings|MLB|Table|Cleveland Indians|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/CLE.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Indians
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            Now go get your city a World Series title, guys. 
+                        </td>
+                        <td class="cell-left change-up">1</td>
+                        <td class="cell-left">92-57</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                2
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/WAS/washington-nationals" om-event="Power Rankings|MLB|Table|Washington Nationals|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/WAS.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Nationals
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            The Nats have a realistic shot at placing three starters (Max Scherzer, Gio Gonzalez and Stephen Strasburg) in the top five of NL Cy Young voting. 
+                        </td>
+                        <td class="cell-left change-up">3</td>
+                        <td class="cell-left">89-59</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                3
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/LAD/los-angeles-dodgers" om-event="Power Rankings|MLB|Table|Los Angeles Dodgers|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/LAD.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Dodgers
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            Normally I'd say something like, "if they win the World Series, this will all be forgotten." Only I don't think it will. I think this awful stretch just makes the story even more memorable if they do get things right and pull it off. 
+                        </td>
+                        <td class="cell-left change-down">2</td>
+                        <td class="cell-left">96-52</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                4
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/HOU/houston-astros" om-event="Power Rankings|MLB|Table|Houston Astros|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/HOU.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Astros
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            Losing their hold on the top AL seed seems like a pretty big deal. The likely postseason opponent becomes the Red Sox instead of possibly someone like the Twins (if they beat the Yankees). 
+
+There's time for the Astros to get the top spot back, though. 
+                        </td>
+                        <td class="cell-left change-down">1</td>
+                        <td class="cell-left">90-58</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                5
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/BOS/boston-red-sox" om-event="Power Rankings|MLB|Table|Boston Red Sox|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/BOS.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Red Sox
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            The AL East title should be elementary now. The Red Sox hold a four-game lead and don't play a team with a winning record until the final series (and it's against the Astros, who will be playing for nothing). 
+                        </td>
+                        <td class="cell-left change-up">1</td>
+                        <td class="cell-left">85-63</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                6
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/ARI/arizona-diamondbacks" om-event="Power Rankings|MLB|Table|Arizona Diamondbacks|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/ARI.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Diamondbacks
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            If the D-Backs get into postseason series play, they will have a rotation of Zack Greinke, Robbie Ray, Taijuan Walker and Zack Godley along with a very potent offense. Dark horse candidate for a deep run here. 
+                        </td>
+                        <td class="cell-left change-down">2</td>
+                        <td class="cell-left">86-62</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                7
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/COL/colorado-rockies" om-event="Power Rankings|MLB|Table|Colorado Rockies|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/COL.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Rockies
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            The Rockies seem to have weathered the bad stretch, now having won six in a row and eight of nine. More importantly, they again have a better record than the Cubs, meaning the cushion in the second wild-card spot is even  more comfortable over the Cardinals and Brewers. 
+                        </td>
+                        <td class="cell-left change-up">2</td>
+                        <td class="cell-left">82-67</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                8
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/NYY/new-york-yankees" om-event="Power Rankings|MLB|Table|New York Yankees|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/NYY.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Yankees
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            In eight starts for the Yankees, Sonny Gray has a 2.66 ERA and a 3-5 record. He's probably all, "man, I thought I left Oakland?!" 
+                        </td>
+                        <td class="cell-left ">--</td>
+                        <td class="cell-left">82-66</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                9
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/MIL/milwaukee-brewers" om-event="Power Rankings|MLB|Table|Milwaukee Brewers|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/MIL.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Brewers
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            One of the biggest series for the Brewers in years had a dark shadow cast over it with the loss of Jimmy Nelson. Really tough break for a fun team, but these guys won't be quitting. 
+                        </td>
+                        <td class="cell-left change-up">1</td>
+                        <td class="cell-left">78-70</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                10
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/CHC/chicago-cubs" om-event="Power Rankings|MLB|Table|Chicago Cubs|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/CHC.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Cubs
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            The Cubs went into last weekend up five games on both the Brewers and Cardinals and could've gone a long way in putting the NL Central to bed. Instead, they were embarrassed and now will have to duke it out until the end just to make the playoffs. 
+                        </td>
+                        <td class="cell-left change-down">3</td>
+                        <td class="cell-left">82-66</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                11
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/STL/st-louis-cardinals" om-event="Power Rankings|MLB|Table|St. Louis Cardinals|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/STL.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Cardinals
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            The Cardinals have won 10 of their last 12. The competition: Giants, Padres, Pirates, Reds. 
+
+Who cares, though? Teams can only win the games in front of them and the Cardinals are doing so. They get a three-game series against the Cubs this weekend, too, and could well come out of it in first place. 
+                        </td>
+                        <td class="cell-left change-up">2</td>
+                        <td class="cell-left">77-71</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                12
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/MIN/minnesota-twins" om-event="Power Rankings|MLB|Table|Minnesota Twins|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/MIN.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Twins
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            The Twins were knocked out of the playoffs in 2003, 2004, 2009 and 2010 by the Yankees. If they make the postseason this time around, it's overwhelmingly likely to be in the AL Wild Card Game against ... the Yankees. 
+
+Time to exorcise some demons, eh?
+                        </td>
+                        <td class="cell-left change-up">2</td>
+                        <td class="cell-left">77-71</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                13
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/LAA/los-angeles-angels" om-event="Power Rankings|MLB|Table|Los Angeles Angels|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/LAA.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Angels
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            Garrett Richards has a 1.38 ERA with 11 strikeouts against two walks in 13 innings since his long-awaited return. Should they be able to land a playoff berth, he's a potential X-factor. 
+                        </td>
+                        <td class="cell-left change-down">1</td>
+                        <td class="cell-left">75-72</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                14
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/KC/kansas-city-royals" om-event="Power Rankings|MLB|Table|Kansas City Royals|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/KC.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Royals
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            After the four-game series against the juggernaut Indians this weekend, the schedule really softens up. The Royals play only losing teams aside from one makeup game against the Yankees and then close against the Diamondbacks, who figure to be playing for nothing at the time.
+                        </td>
+                        <td class="cell-left change-up">3</td>
+                        <td class="cell-left">73-75</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                15
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/TEX/texas-rangers" om-event="Power Rankings|MLB|Table|Texas Rangers|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/TEX.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Rangers
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            Here's a race worth following. Will Yu Darvish lead the team in strikeouts even though he was traded on July 31? 
+
+Actually, no. It's not even a race. He had 148 strikeouts with the Rangers. Martin Perez is second on the team with 102 (in 162 2/3). He doesn't have 46 more in him. 
+                        </td>
+                        <td class="cell-left ">--</td>
+                        <td class="cell-left">72-75</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                16
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/SEA/seattle-mariners" om-event="Power Rankings|MLB|Table|Seattle Mariners|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/SEA.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Mariners
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            Thanks to injuries and general manager Jerry Dipoto's penchant to make moves, the Mariners have used 40 different pitchers this season. That ties an MLB record with the 2014 Rangers. No other teams have ever used more than 37 and only 17 have used more than 32. 
+                        </td>
+                        <td class="cell-left change-up">2</td>
+                        <td class="cell-left">74-75</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                17
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/TB/tampa-bay-rays" om-event="Power Rankings|MLB|Table|Tampa Bay Rays|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/TB.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Rays
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            In a year where power is blowing up all over baseball, Evan Longoria has just 18 homers after clubbing 36 last season. 
+                        </td>
+                        <td class="cell-left change-down">1</td>
+                        <td class="cell-left">72-77</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                18
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/BAL/baltimore-orioles" om-event="Power Rankings|MLB|Table|Baltimore Orioles|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/BAL.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Orioles
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            The six-game losing streak likely seals the fate of the Orioles, but would anyone be surprised if they got red hot now? It's just how things have gone in the AL wild-card race. 
+                        </td>
+                        <td class="cell-left change-down">7</td>
+                        <td class="cell-left">72-77</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                19
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/TOR/toronto-blue-jays" om-event="Power Rankings|MLB|Table|Toronto Blue Jays|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/TOR.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Blue Jays
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            Here's a fun story that friendly reader Phil W. alerted me to a few weeks ago. Reliever Carlos Ramirez has still not allowed an earned run all season. He's done this through Double-A (23 2/3 IP), Triple-A (14 IP) and now the bigs (8 IP). 
+
+Even more fun? Ramirez is a converted outfielder. He spent 2009-13 in the Jays' system before moving to the mound. 
+                        </td>
+                        <td class="cell-left change-up">2</td>
+                        <td class="cell-left">70-79</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                20
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/ATL/atlanta-braves" om-event="Power Rankings|MLB|Table|Atlanta Braves|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/ATL.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Braves
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            I mentioned Dansby Swanson last week and now let's give some love to Ozzie Albies. The 20-year-old second baseman is hitting .293/.354/.469 with seven doubles, five triples and three homers in 165 plate appearances. 
+
+This is a future double-play combo (throwing to Freddie Freeman, too!) to dream on in ATL. 
+                        </td>
+                        <td class="cell-left change-up">4</td>
+                        <td class="cell-left">67-80</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                21
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/PIT/pittsburgh-pirates" om-event="Power Rankings|MLB|Table|Pittsburgh Pirates|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/PIT.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Pirates
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            Here's a good illustration of how much a grind the MLB season is. Remember when the Pirates were red hot and within two games in the NL Central? It seems like ages ago, doesn't it? It was less than two months ago. 
+                        </td>
+                        <td class="cell-left change-down">2</td>
+                        <td class="cell-left">68-81</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                22
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/MIA/miami-marlins" om-event="Power Rankings|MLB|Table|Miami Marlins|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/MIA.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Marlins
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            The Marlins have lost 13 of their last 15 and -- get this -- each of their last four losses have come in walk-off fashion. 
+                        </td>
+                        <td class="cell-left change-down">2</td>
+                        <td class="cell-left">69-79</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                23
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/SD/san-diego-padres" om-event="Power Rankings|MLB|Table|San Diego Padres|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/SD.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Padres
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            Since the beginning of July, the Padres have won series over the Indians, Cardinals, Dodgers and Diamondbacks. They aren't good, but they aren't pushovers. 
+                        </td>
+                        <td class="cell-left ">--</td>
+                        <td class="cell-left">65-83</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                24
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/OAK/oakland-athletics" om-event="Power Rankings|MLB|Table|Oakland Athletics|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/OAK.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Athletics
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            The A's were 3-12 against the mighty Astros this season before this past Friday. They would proceed to outscore the Astros 41-15 over the course of a four-game sweep. This came just a few days after the A's ended an eight-game losing streak. It's this kind of unpredictability that makes the Indians' 20-game winning streak even more impressive. 
+                        </td>
+                        <td class="cell-left change-up">3</td>
+                        <td class="cell-left">65-83</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                25
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/NYM/new-york-mets" om-event="Power Rankings|MLB|Table|New York Mets|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/NYM.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Mets
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            Really holding out hope we see Noah Syndergaard return to form at some point. The game is much more exciting with his electric stuff on the hill. 
+                        </td>
+                        <td class="cell-left ">--</td>
+                        <td class="cell-left">64-84</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                26
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/CIN/cincinnati-reds" om-event="Power Rankings|MLB|Table|Cincinnati Reds|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/CIN.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Reds
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            They've done it. For the first time in franchise history, the Reds have six players with at least 20 home runs in a season. 
+                        </td>
+                        <td class="cell-left change-down">4</td>
+                        <td class="cell-left">65-84</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                27
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/DET/detroit-tigers" om-event="Power Rankings|MLB|Table|Detroit Tigers|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/DET.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Tigers
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            On top of all the other issues, now Michael Fulmer had to have elbow surgery? C'mon! 
+                        </td>
+                        <td class="cell-left change-down">1</td>
+                        <td class="cell-left">61-86</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                28
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/CHW/chicago-white-sox" om-event="Power Rankings|MLB|Table|Chicago White Sox|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/CHW.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    White Sox
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            After getting back all those high-level prospects for their traded veterans, the No. 1 pick would be the cherry on top of the prospect sundae. Fail away, ChiSox! 
+                        </td>
+                        <td class="cell-left change-up">1</td>
+                        <td class="cell-left">60-88</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                29
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/SF/san-francisco-giants" om-event="Power Rankings|MLB|Table|San Francisco Giants|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/SF.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Giants
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            The Johnny Cueto roller coaster continues. He was good through two starts off the DL, but coughed up four runs on six hits and four walks in 3 2/3 innings Tuesday. He sits with a 4.58 ERA through 22 starts this season. He'll be 32 next season and if he doesn't opt out of his deal at season's end, there are four years and $87.33 million left on his deal with the Giants. 
+
+I don't envy his agent. Wait, nevermind. Yes I do! 
+                        </td>
+                        <td class="cell-left change-up">1</td>
+                        <td class="cell-left">57-92</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                30
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/mlb/teams/page/PHI/philadelphia-phillies" om-event="Power Rankings|MLB|Table|Philadelphia Phillies|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediacss/images/team-logos/mlb/PHI.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Phillies
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            Rhys Hoskins just keeps making this incredibly difficult game look easy. That's now 16 homers in 32 career games. 
+                        </td>
+                        <td class="cell-left change-down">2</td>
+                        <td class="cell-left">58-90</td>
+                    </tr></tbody></table></div>
+</div>
+
+            </div>
+
+    
+</div>
+
+    
+<div class="author-bio-box">
+    <div class="author-bio-box-info">
+                                    <a class="author-bio-box-image" href="/writers/matt-snyder/" itemprop="name" rel="author">
+                                <figure class=" img"><img class=" is-lazy-image" alt="    Matt Snyder
+ mugshot" data-lazy="https://sportshub.cbsistatic.com/i/r/2016/05/04/69487861-f5f8-469b-b55a-c617fbddaec1/thumbnail/170x170/02a7deacbcdb9dbfb57cf822175739f9/mattsnyder.png" src="" height="170" width="170"></figure></a>
+                            <div class="author-bio-box-profile">
+            <span class="author-bio-box-name">
+                                    <a href="/writers/matt-snyder/" itemprop="name" rel="author"><strong>    Matt Snyder
+</strong></a>
+                            </span>
+            <div class="author-bio-box-subline">
+                CBS Sports Writer
+            </div>
+        </div>
+    </div>
+            <a href="https://twitter.com/intent/user/?screen_name=MattSnyderCBS" target="_blank"><span class="twitter-follow-capsule">follow</span></a>
+    
+    <div class="author-bio-box-dek">
+        <p>
+            Matt Snyder has been a baseball writer with CBS Sports since 2011. A member of the BBWAA, he's now covered the last six World Series beginning with the epic 2011 Fall Classic. The former Indiana University...
+                            <a href="/writers/matt-snyder/bio/" target="_blank">
+                    Full Bio
+                </a>
+                    </p>
+    </div>
+</div>
+                
+            
+                    
+
+    
+            
+        
+                        <div class="collapsible disqus-wrapper module" data-component="disqusComment" data-disqus-comment-options='{"toggleComment":true,"elementId":"disqusConversation-3942dbd2-1ec6-44e9-8eb7-2200330cb21c","articleId":"3942dbd2-1ec6-44e9-8eb7-2200330cb21c","title":"MLB Power Rankings: Dodgers season is truly one for the ages like we\u0027ve never seen","url":"https:\/\/www.cbssports.com\/mlb\/news\/mlb-power-rankings-dodgers-season-is-truly-one-for-the-ages-like-weve-never-seen\/","contextId":"3942dbd2-1ec6-44e9-8eb7-2200330cb21c"}'>
+    
+<!-- General comments -->
+<div id="article-comment" data-component="disqusComment">
+    <button id="show-article-comment-3942dbd2-1ec6-44e9-8eb7-2200330cb21c" class="disqus-toggle-button" type="button">
+        <span class="disqus-comment-count" data-disqus-identifier="3942dbd2-1ec6-44e9-8eb7-2200330cb21c">
+            Add a Comment
+        </span>
+    </button>
+
+    <div id="disqus-container-3942dbd2-1ec6-44e9-8eb7-2200330cb21c" class="disqusContainer comment" style="display:none;">
+        <div class="fyre-comment-hd">
+            <h4 class="comment-heading">Add a Comment</h4>
+            <div id="close-x-comment-3942dbd2-1ec6-44e9-8eb7-2200330cb21c" class="icon-moon-close-x"></div>
+        </div>
+        <div id="disqus_thread"></div>
+    </div>
+</div>
+    <div class="toggleComments" data-item="trigger">
+        <span class="show-comments">Show Comments</span>
+        <span class="hide-comments">Hide Comments</span>
+    </div>
+</div>    
+    <div class="fixate-sharebar-bottom-anchor relative"></div>
+    <div class="fixate-mpu-top-bottom-anchor relative"></div>
+    <div class="fixate-follow-us-bottom-anchor relative"></div>
+                                            </div>
+                    </div>
+                                    <div class="row">
+                <div class="col-7">
+                                                            </div>
+                    </div>
+                                                </div>
+                                                </div>
+                                    </div>
+                    </div>
+                                                </div>
+                                <div class="col-4">
+                                
+            
+                    
+
+                    <div id="mpu-plus-top-e5dea84412e91" class="ad-mpu-plus-top " data-ad="mpu-plus-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-plus-top-e5dea84412e91 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-plus-top-e5dea84412e91");
+    </script></div>
+                    
+            
+                    
+
+                    <div id="mpu-middle-e5dea84412e91" class="ad-mpu-middle " data-ad="mpu-middle">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-middle-e5dea84412e91 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-middle-e5dea84412e91");
+    </script></div>
+                    
+            
+                    
+    
+                                            </div>
+                                                </div>
+                                    </div>
+                    </div>
+                                    <div class="row">
+                <div class="col-12">
+                                
+            
+                    
+                            
+    
+            <script type="text/javascript">
+            window.SportsPageVars.tracking.taboolaPlacement = "desktop-5x1-article";
+        </script><div class="recommended-recirc taboola-recommends">
+            
+                                    
+    <div class="title-double-underline recommended-title taboola-title is-small">
+        <span class="title-text">
+            Around the Web
+        </span>
+        
+                
+                    <span class="title-text-side">
+                <a href="https://popup.taboola.com/en/" target="_blank" rel="nofollow">Promoted by Taboola<span class="recirc-ad-icon"></span></a>
+            </span>
+            </div>
+
+
+            <div id="taboola-mlb-power-rankings-dodgers-season-is-truly-one-for-the-ages-like-weve-never-seen-bottom-page-thumbnails" data-taboola='{"mode":"alternating-thumbnails-L","container":"taboola-mlb-power-rankings-dodgers-season-is-truly-one-for-the-ages-like-weve-never-seen-bottom-page-thumbnails","placement":"desktop-5x1-article","canonicalUrl":"https:\/\/www.cbssports.com\/mlb\/news\/mlb-power-rankings-dodgers-season-is-truly-one-for-the-ages-like-weve-never-seen\/"}'>
+            </div>
+        </div>
+                    
+            
+                                    
+    
+            <div class="latest-news-box">
+                                    
+    <div class="title-double-underline latest-news-box-title is-small">
+        <span class="title-text">
+            Our Latest Stories
+        </span>
+        
+                
+            </div>
+
+
+                                                                <ul class="latest-news-box-row"><li class="col-4">
+                                                                                
+                                                        
+                
+            <a href="/mlb/news/mlb-saturday-scores-highlights-updates-news-dodgers-maintain-winning-ways/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="cody-bellinger.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/09/17/0465ef20-9c48-4eb7-bcf7-9e9909bbd2cb/thumbnail/368x210/e8a8d233b8a1fa1416638f9c027c2bdc/usatsi-10283537.jpg" src="" height="210" width="368"></figure></a>
+    
+                        <div class="latest-box-item-headlines">
+                            <h3 class="latest-box-item-title">
+                                <a href="/mlb/news/mlb-saturday-scores-highlights-updates-news-dodgers-maintain-winning-ways/">
+                                    MLB Sat.: Bellinger ties rookie HR mark
+                                </a>
+                            </h3>
+                                                            <h4 class="latest-box-item-subline">Plus the Indians clinched their second straight AL Central title. Here's everything you need...</h4>
+                                                    </div>
+                    </li>
+                                                                                                                <li class="col-4">
+                                                                                
+                                                        
+                
+            <a href="/mlb/news/indians-clinch-second-straight-al-central-title/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="MLB: Kansas City Royals at Cleveland Indians" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/09/17/4d0791e1-24a8-47d4-90d2-1de4a45c8ebf/thumbnail/368x210/2144ffeff389b96e89ab9de50e614634/usatsi-10284472.jpg" src="" height="210" width="368"></figure></a>
+    
+                        <div class="latest-box-item-headlines">
+                            <h3 class="latest-box-item-title">
+                                <a href="/mlb/news/indians-clinch-second-straight-al-central-title/">
+                                    Indians clinch AL Central title
+                                </a>
+                            </h3>
+                                                            <h4 class="latest-box-item-subline">Now the Indians will look to clinch the best record in the American League</h4>
+                                                    </div>
+                    </li>
+                                                                                                                <li class="col-4">
+                                                                                
+                                                        
+                
+            <a href="/mlb/news/here-are-22-stats-and-facts-about-the-indians-record-22-game-winning-streak/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="MLB: Kansas City Royals at Cleveland Indians" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/09/15/daa6bce7-5ccb-4308-be0a-56771053c535/thumbnail/368x210/69fb5be7fbcdc78bc813217de442a8c1/usatsi-10280289.jpg" src="" height="210" width="368"></figure></a>
+    
+                        <div class="latest-box-item-headlines">
+                            <h3 class="latest-box-item-title">
+                                <a href="/mlb/news/here-are-22-stats-and-facts-about-the-indians-record-22-game-winning-streak/">
+                                    22 tidbits about Indians' winning streak
+                                </a>
+                            </h3>
+                                                            <h4 class="latest-box-item-subline">The streak came to an end Friday night</h4>
+                                                    </div>
+                    </li>
+                                                    </ul><ul class="latest-news-box-row"><li class="col-4">
+                                                                                
+                                                        
+                
+            <a href="/mlb/news/despite-another-early-exit-for-padres-andy-green-could-be-baseballs-next-it-manager/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="usatsi9497470.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2016/09/16/0145c7bf-792b-43af-956d-2e069fa03df9/thumbnail/368x210/20039a363c2d2ba55436c5b508193f92/usatsi9497470.jpg" src="" height="210" width="368"></figure></a>
+    
+                        <div class="latest-box-item-headlines">
+                            <h3 class="latest-box-item-title">
+                                <a href="/mlb/news/despite-another-early-exit-for-padres-andy-green-could-be-baseballs-next-it-manager/">
+                                    Padres lose in 2017 but Green's a keeper
+                                </a>
+                            </h3>
+                                                            <h4 class="latest-box-item-subline">Green has shown a willingness to be bold and different</h4>
+                                                    </div>
+                    </li>
+                                                                                                                <li class="col-4">
+                                                                                
+                                                        
+                
+            <a href="/mlb/news/the-indians-amazing-22-game-winning-streak-by-the-numbers/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="MLB: Kansas City Royals at Cleveland Indians" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/09/15/a029da8e-0033-4b79-ba7f-ab9d5209f41c/thumbnail/368x210/3fa5c77d8522212a41a8355ff3f213da/indians-23.jpg" src="" height="210" width="368"></figure></a>
+    
+                        <div class="latest-box-item-headlines">
+                            <h3 class="latest-box-item-title">
+                                <a href="/mlb/news/the-indians-amazing-22-game-winning-streak-by-the-numbers/">
+                                    By The Numbers: Indians winning streak
+                                </a>
+                            </h3>
+                                                            <h4 class="latest-box-item-subline">Now that Cleveland's winning streak is no more, let's break it down</h4>
+                                                    </div>
+                    </li>
+                                                                                                                <li class="col-4">
+                                                                                
+                                                        
+                
+            <a href="/mlb/news/watch-kevin-kiermaier-robs-jackie-bradley-jr-is-it-the-best-catch-of-2017/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="MLB: Boston Red Sox at Tampa Bay Rays" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/09/16/1b7239dd-838f-4d93-9c29-7666c4e5d8ed/thumbnail/368x210/7386ddc351c44a5d919ad59714ec5201/usatsi-10282241-kiermaier.jpg" src="" height="210" width="368"></figure></a>
+    
+                        <div class="latest-box-item-headlines">
+                            <h3 class="latest-box-item-title">
+                                <a href="/mlb/news/watch-kevin-kiermaier-robs-jackie-bradley-jr-is-it-the-best-catch-of-2017/">
+                                    Rays' Kiermaier makes spectacular catch
+                                </a>
+                            </h3>
+                                                            <h4 class="latest-box-item-subline">Tampa Bay's defensive wizard might have outdone himself Friday night against Boston</h4>
+                                                    </div>
+                    </li>
+                                                    </ul><ul class="latest-news-box-row"></ul></div>
+                    
+            
+                    
+
+                    <div id="leader-bottom-e5dea84412e91" class="ad-leader-bottom " data-ad="leader-bottom">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-bottom-e5dea84412e91 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-bottom-e5dea84412e91");
+    </script></div>
+                                                </div>
+                    </div>
+                                                </div>
+                                    </div>
+                    </div>
+                    </div>
+    </div>
+
+
+                            </article></section></div>
+                </div>
+            </div>
+                        </main></div>
+
+                            
+
+<footer id="cbs-site-footer" class="cbs-site-footer"><div class="site-footer-row">
+        <div class="site-footer-branding">
+            <span class="site-footer-logo" tabindex="0" role="img" aria-label="CBS Sports Digital" title="CBS Sports Digital"></span>
+        </div>
+    </div>
+
+    <div class="site-footer-row">
+        
+
+<ul class="social-icons-bar"><li><a href="https://www.facebook.com/cbssports/" class="button-social icon-moon-facebook" target="_blank" rel="nofollow" aria-label="Facebook" title="Facebook" om-event="Global Footer|Facebook"></a></li><li><a href="https://twitter.com/cbssports/" class="button-social icon-moon-twitter" target="_blank" rel="nofollow" aria-label="Twitter" title="Twitter" om-event="Global Footer|Twitter"></a></li><li><a href="https://plus.google.com/+CBSSportscom/posts/" class="button-social icon-moon-google-plus2" target="_blank" rel="nofollow" aria-label="Google+" title="Google+" om-event="Global Footer|Google+"></a></li><li><a href="https://www.youtube.com/user/cbssports/" class="button-social icon-moon-youtube-play" target="_blank" rel="nofollow" aria-label="YouTube" title="YouTube" om-event="Global Footer|YouTube"></a></li><li><a href="https://instagram.com/cbssports/" class="button-social icon-moon-instagram" target="_blank" rel="nofollow" aria-label="Instagram" title="Instagram" om-event="Global Footer|Instagram"></a></li><li><a href="https://www.pinterest.com/cbssports/" class="button-social icon-moon-pinterest" target="_blank" rel="nofollow" aria-label="Pinterest" title="Pinterest" om-event="Global Footer|Pinterest"></a></li><li><a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" class="button-social icon-moon-flipboard" target="_blank" rel="nofollow" aria-label="Flipboard" title="Flipboard" om-event="Global Footer|Flipboard"></a></li></ul></div>
+    
+            <div class="site-footer-row">
+            <ul class="site-footer-links"><li>
+                            <a href="https://www.cbssports.com/help" target="_blank" title="Help" om-event="Global Footer|Help">Help</a>
+                        </li>
+                                                                                <li>
+                            <a href="https://www.cbssports.com/info/aboutus" target="_blank" title="About Us" om-event="Global Footer|About Us">About Us</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://www.cbsinteractive.com/careers" target="_blank" title="Careers" om-event="Global Footer|Careers">Careers</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://www.cbsinteractive.com/advertise/" target="_blank" title="Advertise" om-event="Global Footer|Advertise">Advertise</a>
+                        </li>
+                                                                                <li>
+                            <a href="https://www.cbssports.com/sitemap" target="_blank" title="Site Map" om-event="Global Footer|Site Map">Site Map</a>
+                        </li>
+                                                                                <li>
+                            <a href="https://www.cbssports.com/settings/newsletters" target="_blank" title="Newsletters" om-event="Global Footer|Newsletters">Newsletters</a>
+                        </li>
+                                                                                <li>
+                            <a href="https://www.cbssports.com/mobile" target="_blank" title="Mobile Apps" om-event="Global Footer|Mobile Apps">Mobile Apps</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://collegenetwork.cbssports.com/" target="_blank" title="College Network" om-event="Global Footer|College Network">College Network</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://legalterms.cbsinteractive.com/adchoice" target="_blank" title="Ad Choice" om-event="Global Footer|Ad Choice">Ad Choice</a>
+                        </li>
+                                                                                <li>
+                            <a href="https://www.cbssports.com/info/closed-caption" target="_blank" title="Closed Captioning" om-event="Global Footer|Closed Captioning">Closed Captioning</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://legalterms.cbsinteractive.com/privacy" target="_blank" title="Privacy" om-event="Global Footer|Privacy">Privacy</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://legalterms.cbsinteractive.com/terms-of-use" target="_blank" title="Terms" om-event="Global Footer|Terms">Terms</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://legalterms.cbsinteractive.com/eula" target="_blank" title="Mobile User Agreement" om-event="Global Footer|Mobile User Agreement">Mobile User Agreement</a>
+                        </li>
+                                                </ul></div>
+    
+    <div class="site-footer-row">
+        <div class="site-footer-partners">
+            <div class="site-footer-button button1" tabindex="0" role="img" aria-label="Commissioner.com" title="Commissioner.com"></div>
+            <div class="site-footer-button button2" tabindex="0" role="img" aria-label="Commissioner.com" title="Commissioner.com"></div>
+            <div class="site-footer-button button3" tabindex="0" role="img" aria-label="Golfweb.com" title="Golfweb.com"></div>
+        </div>
+    </div>
+
+    <div class="site-footer-copyright">
+        <p class="site-footer-dates">© 2004-2017 CBS Interactive. All Rights Reserved.</p>
+        <p>CBS Sports is a registered trademark of CBS Broadcasting Inc. Commissioner.com is a registered trademark of CBS Interactive Inc.</p>
+        <p>Images by Getty Images and US Presswire</p>
+    </div>
+
+    </footer></div>
+
+    <div id="sticky-leaderboard" class="sticky-leaderboard">
+    <div class="sticky-leaderboard-unit">
+        <div id="nflnetwork-bar-top-e5dea84412e91" class="ad-nflnetwork-bar-top " data-ad="nflnetwork-bar-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing nflnetwork-bar-top-e5dea84412e91 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("nflnetwork-bar-top-e5dea84412e91");
+    </script></div>
+
+    </div>
+</div>
+    
+
+    
+
+
+                                                                                                                                                                                                                <div id="slideout" class="slideout" data-component="marketingSlider">
+            <div id="slideout-inner" class="slideout-inner">
+                                    <a href="https://servedby.flashtalking.com/click/8/58116;2652312;50126;211;0/?ft_width=1&amp;ft_height=1&amp;url=15879914" title="SlingTV" target="_blank" om-event="Marketing Slider|Image">
+                                <img src="https://sportshub.cbsistatic.com/i/2017/08/24/50ab2a05-bcd8-4d73-988f-057b1b306532/bra0233-cbs-directbuy-360x150-mlb-v1.jpg" alt="SlingTV"></a>
+                                <div id="slideout-close" class="icon-moon-close-x slideout-close"></div>
+            </div>
+        </div>
+    
+            
+
+
+
+
+
+    <script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery" src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediajs/js-build/jquery.js">
+    </script><script async type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="main.desktop" src="https://sportsfly.cbsistatic.com/fly-694/bundles/sportsmediajs/js-build/main.desktop.js">
+    </script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0710d28d2a","applicationID":"8008619","transactionName":"MgEHZ0ICW0JZUBYMDgtLJFBEClpfF1IQEQgGCABsQwpbVlRWPQkEBAMQVm8PVEVdQBY=","queueTime":0,"applicationTime":774,"atts":"HkYEEQoYSEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

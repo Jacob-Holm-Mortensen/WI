@@ -1,0 +1,7 @@
+/wp-admin/
+/wp-login.php
+/activate/ # har har
+/cgi-bin/ # MT refugees
+/mshots/v1/
+/next/
+/public.api/

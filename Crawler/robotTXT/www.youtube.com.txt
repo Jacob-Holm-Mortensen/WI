@@ -1,0 +1,15 @@
+/channel/*/community
+/comment
+/get_video
+/get_video_info
+/login
+/results
+/signup
+/t/terms
+/timedtext_video
+/user/*/community
+/verify_age
+/watch_ajax
+/watch_fragments_ajax
+/watch_popup
+/watch_queue_ajax

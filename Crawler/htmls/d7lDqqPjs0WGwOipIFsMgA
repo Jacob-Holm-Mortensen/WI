@@ -1,0 +1,1680 @@
+<!DOCTYPE html>
+<html class="logged_out_user" lang="en"><head prefix="og: http://ogp.me/ns#"><!-- Fly Version: RELEASE_20170915 4d277b6c7f10b0e8f706642a69c77b86a00f8a95 (cbsnews prod_alt) --><title>                          CBS Sunday Morning - Nature - CBS News  
+</title><meta charset="UTF-8"><meta name="robots" content="index, follow"><meta name="description" content="Visit CBS Sunday Morning &amp;#039;Nature&amp;#039; on CBSNews.com. Watch videos, view picture galleries, profiles, and more."><meta name="keywords" content="cbs sunday morning, sunday morning on cbs, cbs sunday news, charles osgood, osgood file, cbs sunday morning video, cbs sunday morning episodes, sunday morning show, cbsnews.com, cbs news"><meta name="viewport" content="width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UQIHWFZbGwsEUFhQBgQ="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script><link rel="preconnect dns-prefetch" href="//cbsnews1.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews2.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews3.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews4.cbsistatic.com"><link rel="canonical" href="https://www.cbsnews.com/sunday-morning/nature/"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-16x16.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" sizes="16x16"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-32x32.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" sizes="32x32"><link rel="shortcut icon" type="image/x-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><link rel="apple-touch-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/apple-touch-icon.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><style>
+      
+@font-face{font-family:'foundation-sans-black';src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.eot");src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.svg#svgFontName") format("svg");font-weight:bold;font-style:normal}@font-face{font-family:'foundation-sans-bold';src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.eot");src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.svg#svgFontName") format("svg");font-weight:bold;font-style:normal}@font-face{font-family:'foundation-sans-light';src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.eot");src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.svg#svgFontName") format("svg");font-weight:lighter;font-style:normal}
+
+
+    </style><link rel="stylesheet" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/css/main.sunday-morning.desktop.css?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><!--[if lt IE 9]>
+    <script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js/libs/html5shiv-printshiv.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"></script>
+    <![endif]--></head><body data-cms-edit='{"url":"https:\/\/cms.cbsnews.com\/content\/page\/create\/topic?pageId=71fb69f6-758d-11e2-9d12-0018fe8a00b0"}' class="desktop">
+        
+    
+    <!-- src/CbsNews/CoreBundle/Resources/views/Layout/default.desktop.html.twig -->
+
+                <!-- comscorekw=sundaymorning -->
+    
+
+    
+    <div id="fb-root"></div>
+                    <div id="intromercial-59be667932109" class="ad-intromercial" data-ad="intromercial" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-59be667932109 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-59be667932109");
+    </script></div>
+
+    	<div class="body-container">
+
+        <!-- src/CbsNews/CoreBundle/Resources/views/Theme/sunday-morning/header.desktop.html.twig -->
+
+<header class="site-header nocontent"><div id="breakingNewsBanner" data-component="ticker">
+        <include src="/feedfiles/breakingnews.desktop.html" onerror="continue"></include></div>
+
+    <div class="supplemental">
+    <div class="container">
+        <div class="col-9">
+            
+        <nav class="site-shows"><ul class="items"><li><a class="module-click-tracking" href="/" data-tracking="site header-show-nav|CBS News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/sunday-morning/nature/ Show-nav|CBS News"}' aria-label="">CBS News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/evening-news/" data-tracking="site header-show-nav|CBS Evening News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/sunday-morning/nature/ Show-nav|CBS Evening News"}' aria-label="">CBS Evening News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbs-this-morning/" data-tracking="site header-show-nav|CBS This Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/sunday-morning/nature/ Show-nav|CBS This Morning"}' aria-label="">CBS This Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/48-hours/" data-tracking="site header-show-nav|48 Hours" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/sunday-morning/nature/ Show-nav|48 Hours"}' aria-label="">48 Hours</a></li>
+                                                                        <li><a class="module-click-tracking" href="/60-minutes/" data-tracking="site header-show-nav|60 Minutes" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/sunday-morning/nature/ Show-nav|60 Minutes"}' aria-label="">60 Minutes</a></li>
+                                                                        <li><a class="selected module-click-tracking" href="/sunday-morning/" data-tracking="site header-show-nav|Sunday Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/sunday-morning/nature/ Show-nav|Sunday Morning"}' aria-label="selected">Sunday Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/face-the-nation/" data-tracking="site header-show-nav|Face The Nation" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/sunday-morning/nature/ Show-nav|Face The Nation"}' aria-label="">Face The Nation</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbsn-originals/" data-tracking="site header-show-nav|CBSN Originals" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/sunday-morning/nature/ Show-nav|CBSN Originals"}' aria-label="">CBSN Originals</a></li>
+            </ul></nav></div>
+        
+        <div class="col-3">
+            
+<form class="site-search" method="get" action="/search/">
+    <div class="search-wrapper" data-component="placeholder">
+        <input class="query" type="search" name="q" maxlength="255" placeholder="Search"></div>
+    <button class="submit core-search-header" type="submit">GO</button>
+</form>
+<ul class="login-wrapper logged-in"><li>
+        <!--<li class="site-section-tab"><a href="//secure-fly.cbsnews.com/user/registration/" data-user-show="register"><span>Join</span></a></li>-->
+                     <a class="site-login" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Channel Button"}'><span class="text">Log In</span></a>
+                <div class="menu-wrapper sign-in">
+            <span class="hover-padding"></span>
+            <span class="arrow"></span>
+            <ul class="login"><li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/login/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Login"}'>Log In</a>
+                    </li>
+                    <li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/registration/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Join CBSNews"}'>Join CBSNews.com</a>
+                    </li>
+                                                </ul></div>
+    </li>
+</ul></div>
+    </div>
+</div>
+    <div class="primary">
+        <div class="container">
+            <div class="arrow-down"></div>
+            <div class="header-bg"></div>
+            <div class="logo">
+                                    <a href="/sunday-morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Sunday Morning-nav|Home"}'>CBS Sunday Morning</a>
+                            </div>
+            <nav class="site-sections"><ul class="items"><li class=""><a href="/sunday-morning/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Sunday Morning-nav|Home"}'><span>Home</span></a></li>
+                                                                                            <li class=""><a href="/sunday-morning/arts/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Sunday Morning-nav|Arts"}'><span>Arts</span></a></li>
+                                                                                            <li class=""><a href="/sunday-morning/books/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Sunday Morning-nav|Books"}'><span>Books</span></a></li>
+                                                                                            <li class=""><a href="/sunday-morning/commentaries/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Sunday Morning-nav|Commentaries"}'><span>Commentaries</span></a></li>
+                                                                                            <li class="selected"><a href="/sunday-morning/nature/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Sunday Morning-nav|Nature"}'><span>Nature</span></a></li>
+                                                                                            <li class=""><a href="/sunday-morning/profiles/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Sunday Morning-nav|Profiles"}'><span>Profiles</span></a></li>
+                                                                                            <li class=""><a href="/sunday-morning/show-notes/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Sunday Morning-nav|Notes"}'><span>Notes</span></a></li>
+                                                                                            <li class=""><a href="/news/about-us-14-09-2013/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Sunday Morning-nav|About"}'><span>About</span></a></li>
+                                    </ul></nav></div>
+    </div>
+
+</header><div id="mantle_skin" class="content-primary show-topic show sunday-morning-nature topic-door ">
+                                                                                                 <div id="leader-plus-top-59be667932109" class="ad-leader-plus-top" data-ad="leader-plus-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-plus-top-59be667932109 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-plus-top-59be667932109");
+    </script></div>
+
+                    
+                    <div class="container">
+    <div class="row">
+                    <div class="row">
+    
+                
+    <div class="col-12 ">
+                                        </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                
+                
+    <div class="col-8 ">
+                                                        <div class="row">
+    
+            
+            
+    <div class="col-8 nocontent">
+                                    
+                                    
+                                            <section class="section section-lead" data-tb-region="Big News Area"><div class="hero-average" data-tb-region-item>
+        <div class="hero-text">
+            <h3 class="title"><a href="/videos/nature-arches-national-park/">Nature: Arches National Park</a></h3>
+                          <p class="dek"><a href="/videos/nature-arches-national-park/">
+    We leave you this Sunday Morning far from America's storm-swept South, at Arches National Park in Utah. Videographer: Mike Hernandez.</a></p>
+                    </div>
+        <a href="/videos/nature-arches-national-park/" class="">
+            <figure class="media-figure img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/10/3c059260-b8cf-4109-84a2-a3916ca91624/thumbnail/620x465/f8d44525ed7c2845fd27d4e0a0b53442/0910-sunmo-utahnationalpark-1393546-640x360.jpg#" alt=" " height="465" width="620" srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/10/3c059260-b8cf-4109-84a2-a3916ca91624/thumbnail/620x465/f8d44525ed7c2845fd27d4e0a0b53442/0910-sunmo-utahnationalpark-1393546-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/10/3c059260-b8cf-4109-84a2-a3916ca91624/thumbnail/1240x930/a5540343a907cc652d0bab7b274b25fa/0910-sunmo-utahnationalpark-1393546-640x360.jpg 2x"></span>
+            </figure></a>
+    </div>
+</section></div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-8 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+            
+            
+    <div class="col-8 nocontent">
+                                    
+                                    
+                                            
+
+            
+                                                <div class="module module-listing">
+    
+<div class="listing-show-category ">
+    <ul class="media-list items left" data-tb-region="Editor's Picks Left"><li class=" show-category-asset" data-tb-region-item>
+    <a href="/news/nature-up-close-merritt-island/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/18/bb7eb35a-9e49-4554-af6e-efcf9bf0d46a/thumbnail/300x175/c579ba66a6c2b109a3bddec18f74d2e9/reddish-egret-hunting-with-canopied-wings-verne-lehmberg-promo.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/18/bb7eb35a-9e49-4554-af6e-efcf9bf0d46a/thumbnail/300x175/c579ba66a6c2b109a3bddec18f74d2e9/reddish-egret-hunting-with-canopied-wings-verne-lehmberg-promo.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/18/bb7eb35a-9e49-4554-af6e-efcf9bf0d46a/thumbnail/600x350/edd046ed101af015f5ef968bf1bc2ced/reddish-egret-hunting-with-canopied-wings-verne-lehmberg-promo.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature up close: Merritt Island</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-arches-national-park/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/10/3c059260-b8cf-4109-84a2-a3916ca91624/thumbnail/300x175/0c1b10c85452a27d48b8ba1030c8e0bb/0910-sunmo-utahnationalpark-1393546-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/10/3c059260-b8cf-4109-84a2-a3916ca91624/thumbnail/300x175/0c1b10c85452a27d48b8ba1030c8e0bb/0910-sunmo-utahnationalpark-1393546-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/10/3c059260-b8cf-4109-84a2-a3916ca91624/thumbnail/600x350/ba03c078188ba474c0ce266b2fb81625/0910-sunmo-utahnationalpark-1393546-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Arches National Park</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-tulips/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/27/bfdae3dd-ee9e-47fe-882a-d115ee2e1acd/thumbnail/300x175/592c0b22a93b23ec50419cc07653cb07/0521-sunmo-naturetulips-1319662-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/27/bfdae3dd-ee9e-47fe-882a-d115ee2e1acd/thumbnail/300x175/592c0b22a93b23ec50419cc07653cb07/0521-sunmo-naturetulips-1319662-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/27/bfdae3dd-ee9e-47fe-882a-d115ee2e1acd/thumbnail/600x350/15c7f411b0132bd41a6911e501b6c31d/0521-sunmo-naturetulips-1319662-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Tulips</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/recording-the-sounds-of-natures-quietest-places/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/04/23/74d8bc1e-03bf-445a-8c3f-e13a8231f025/thumbnail/300x175/f564a0b68ed1563ab4b4fee17157ffc5/gordon-hempton-2-1298169-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/04/23/74d8bc1e-03bf-445a-8c3f-e13a8231f025/thumbnail/300x175/f564a0b68ed1563ab4b4fee17157ffc5/gordon-hempton-2-1298169-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/04/23/74d8bc1e-03bf-445a-8c3f-e13a8231f025/thumbnail/600x350/28f44e6f31fe08dbd831184c09d6ecb7/gordon-hempton-2-1298169-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature&rsquo;s quietest places</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-merritt-island/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/13/d36770c0-97ce-4104-9f09-ee4b931ebd77/thumbnail/300x175/700b2bc241484f92d3701b576666d863/0813-sunmo-nature-1374082-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/13/d36770c0-97ce-4104-9f09-ee4b931ebd77/thumbnail/300x175/700b2bc241484f92d3701b576666d863/0813-sunmo-nature-1374082-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/13/d36770c0-97ce-4104-9f09-ee4b931ebd77/thumbnail/600x350/457e93bf8b4e4abec511ed06410f3d81/0813-sunmo-nature-1374082-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Merritt Island</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/pictures/a-gathering-of-polar-bears/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2016/02/13/0178af86-6ee1-4f88-bc71-ad80800f4244/thumbnail/300x175/4680688fa680561f351550adf762dcce/churchill-manitoba-polar-bear-capital-dustin-stephens-img1848.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2016/02/13/0178af86-6ee1-4f88-bc71-ad80800f4244/thumbnail/300x175/4680688fa680561f351550adf762dcce/churchill-manitoba-polar-bear-capital-dustin-stephens-img1848.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2016/02/13/0178af86-6ee1-4f88-bc71-ad80800f4244/thumbnail/600x350/fce5d5955e9e49f226e5d53194701629/churchill-manitoba-polar-bear-capital-dustin-stephens-img1848.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Gallery: A gathering of polar bears</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/pictures/snow-monkeys-of-japan/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2016/02/19/819ec71b-e140-4f9a-96d8-daba611aaa14/thumbnail/300x175/50a3d81672e5f242618d616b2db0734b/mark-hemmings-snow-monkeys-japan-91a1365.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2016/02/19/819ec71b-e140-4f9a-96d8-daba611aaa14/thumbnail/300x175/50a3d81672e5f242618d616b2db0734b/mark-hemmings-snow-monkeys-japan-91a1365.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2016/02/19/819ec71b-e140-4f9a-96d8-daba611aaa14/thumbnail/600x350/ce0db2eed72c4edbb14bc49a9b47023e/mark-hemmings-snow-monkeys-japan-91a1365.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Gallery: Snow monkeys of Japan</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-mombasa/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/07/16/9f13ae94-3122-4f33-9a59-3c6ece7c4e63/thumbnail/300x175/1bdec93c149e6924029eac0f6df6d579/0716-sunmo-naturepiece-1355870-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/07/16/9f13ae94-3122-4f33-9a59-3c6ece7c4e63/thumbnail/300x175/1bdec93c149e6924029eac0f6df6d579/0716-sunmo-naturepiece-1355870-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/07/16/9f13ae94-3122-4f33-9a59-3c6ece7c4e63/thumbnail/600x350/b667bf31a796d1de652f259873e6676b/0716-sunmo-naturepiece-1355870-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Mombasa</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-grand-canyon/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/07/02/a258e4e7-644f-4e51-b08e-6154f62481be/thumbnail/300x175/2949dac14d2b896c5a25fef20d6111d0/0701-sunmo-nature-1347943-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/07/02/a258e4e7-644f-4e51-b08e-6154f62481be/thumbnail/300x175/2949dac14d2b896c5a25fef20d6111d0/0701-sunmo-nature-1347943-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/07/02/a258e4e7-644f-4e51-b08e-6154f62481be/thumbnail/600x350/b8b079b8167962d9092e378f787b0ca1/0701-sunmo-nature-1347943-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Grand Canyon</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-burros/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/06/18/30cd0fba-d7d0-4ea5-aafb-3b5f83d3903a/thumbnail/300x175/b3eba6fdeae8808a0d6636b4572110c6/0618-sunmo-nature-1338660-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/06/18/30cd0fba-d7d0-4ea5-aafb-3b5f83d3903a/thumbnail/300x175/b3eba6fdeae8808a0d6636b4572110c6/0618-sunmo-nature-1338660-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/06/18/30cd0fba-d7d0-4ea5-aafb-3b5f83d3903a/thumbnail/600x350/ca0f8b7e55e886c72716b314f3aa6b8a/0618-sunmo-nature-1338660-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Burros</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-mount-rainier/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/06/04/5a58f72d-77b9-4156-8586-4dc875066383/thumbnail/300x175/446e6d228fb14c668e1c1b3703c3f9c3/0604-sunmo-nature-1328574-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/06/04/5a58f72d-77b9-4156-8586-4dc875066383/thumbnail/300x175/446e6d228fb14c668e1c1b3703c3f9c3/0604-sunmo-nature-1328574-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/06/04/5a58f72d-77b9-4156-8586-4dc875066383/thumbnail/600x350/cb3c42d587e8b72ef1e03bec3673a1c4/0604-sunmo-nature-1328574-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Mount Rainier</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-horses/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/05/14/8dab0376-b3ac-4fc3-ab18-b72e4bbd27cd/thumbnail/300x175/f07a54cc2b39af5a68c82229428c37fa/0514-sunmo-nature-1315250-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/05/14/8dab0376-b3ac-4fc3-ab18-b72e4bbd27cd/thumbnail/300x175/f07a54cc2b39af5a68c82229428c37fa/0514-sunmo-nature-1315250-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/05/14/8dab0376-b3ac-4fc3-ab18-b72e4bbd27cd/thumbnail/600x350/e58e861e828349a49b770685b0d1aef9/0514-sunmo-nature-1315250-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Horses</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-manatees/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/30/1da3316f-4e85-4ee8-8610-921a21f97635/thumbnail/300x175/aa8af9ca7973adf02bdade73e093091a/0430-sunmo-nature-1305568-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/30/1da3316f-4e85-4ee8-8610-921a21f97635/thumbnail/300x175/aa8af9ca7973adf02bdade73e093091a/0430-sunmo-nature-1305568-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/30/1da3316f-4e85-4ee8-8610-921a21f97635/thumbnail/600x350/c8f2567a761bf50b607372b80fdaab37/0430-sunmo-nature-1305568-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Manatees</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-colorado-rockies/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/16/e70fdf61-d0cc-4274-a45d-8b061c8503ef/thumbnail/300x175/0e4d2c3f6c144c2d4c1bdce11e9a138a/0416-sunmo-coloradorockies-1292432-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/16/e70fdf61-d0cc-4274-a45d-8b061c8503ef/thumbnail/300x175/0e4d2c3f6c144c2d4c1bdce11e9a138a/0416-sunmo-coloradorockies-1292432-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/16/e70fdf61-d0cc-4274-a45d-8b061c8503ef/thumbnail/600x350/b73cde0493e2fa4d0d2c3757c415f25d/0416-sunmo-coloradorockies-1292432-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Colorado Rockies</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-trout/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/03/26/d4811923-eddb-4914-a971-e7bb2044114d/thumbnail/300x175/e41a02166689f1fffa3fe6b32207a9a3/sunmo-nature2-0326-1277670-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/03/26/d4811923-eddb-4914-a971-e7bb2044114d/thumbnail/300x175/e41a02166689f1fffa3fe6b32207a9a3/sunmo-nature2-0326-1277670-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/03/26/d4811923-eddb-4914-a971-e7bb2044114d/thumbnail/600x350/e24e8822b2ea1e902eb58b90d6315f8a/sunmo-nature2-0326-1277670-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Trout</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-sandpipers/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/03/05/b12cad51-d385-4de0-b797-4c90f4a38633/thumbnail/300x175/8e2e2138568c934f0547005a9fbd9703/sunmo-nature-1263292-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/03/05/b12cad51-d385-4de0-b797-4c90f4a38633/thumbnail/300x175/8e2e2138568c934f0547005a9fbd9703/sunmo-nature-1263292-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/03/05/b12cad51-d385-4de0-b797-4c90f4a38633/thumbnail/600x350/c44ca20dc0568f947dc102f180570230/sunmo-nature-1263292-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Sandpipers</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-ice-caves/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/02/19/ab69afb8-9572-4838-9972-9f38570f4a29/thumbnail/300x175/c0b04af7232145e5f78c9804741da193/sunmo-nature-0219-1254376-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/02/19/ab69afb8-9572-4838-9972-9f38570f4a29/thumbnail/300x175/c0b04af7232145e5f78c9804741da193/sunmo-nature-0219-1254376-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/02/19/ab69afb8-9572-4838-9972-9f38570f4a29/thumbnail/600x350/122d10fb7d9d5cb922760113a8f75524/sunmo-nature-0219-1254376-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Ice caves</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-cathedral-caverns/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/02/05/124de928-0b89-405b-99f4-21cf0227dac7/thumbnail/300x175/3fa309d32fe5de23b0f91139a95f9afc/0205-sunmo-nature-1246005-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/02/05/124de928-0b89-405b-99f4-21cf0227dac7/thumbnail/300x175/3fa309d32fe5de23b0f91139a95f9afc/0205-sunmo-nature-1246005-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/02/05/124de928-0b89-405b-99f4-21cf0227dac7/thumbnail/600x350/d6ceb140376f908e8fc3bd1e769a0492/0205-sunmo-nature-1246005-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Cathedral Caverns</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-short-eared-owls/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/01/22/202ca0e9-c5b8-45e6-b769-093da073404a/thumbnail/300x175/d1235a50856735875fb7c3f55983094a/nature-1236414-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/01/22/202ca0e9-c5b8-45e6-b769-093da073404a/thumbnail/300x175/d1235a50856735875fb7c3f55983094a/nature-1236414-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/01/22/202ca0e9-c5b8-45e6-b769-093da073404a/thumbnail/600x350/fb121e673442f5ae2401f108fbb9ac32/nature-1236414-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Short-eared owls</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-pennsylvania-woods/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/01/08/345de22a-9e12-4ef6-9afd-e54cac437884/thumbnail/300x175/65656e08bcc6a46cfdcf2a968c974c85/sunmo-nature-0108-1226138-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/01/08/345de22a-9e12-4ef6-9afd-e54cac437884/thumbnail/300x175/65656e08bcc6a46cfdcf2a968c974c85/sunmo-nature-0108-1226138-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/01/08/345de22a-9e12-4ef6-9afd-e54cac437884/thumbnail/600x350/55af84cc1808a755e71c220315d50786/sunmo-nature-0108-1226138-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Pennsylvania woods</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-penguins/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/12/18/4a9d8775-c325-43b2-9a01-302f94c44b4c/thumbnail/300x175/3eb23b24e42deba8f6ea1abb4d3101de/sunmo-nature-1208328-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/12/18/4a9d8775-c325-43b2-9a01-302f94c44b4c/thumbnail/300x175/3eb23b24e42deba8f6ea1abb4d3101de/sunmo-nature-1208328-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2016/12/18/4a9d8775-c325-43b2-9a01-302f94c44b4c/thumbnail/600x350/2c8548cfb1606f98b84f4d55f28861b2/sunmo-nature-1208328-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Penguins</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-monk-seals-in-hawaii/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2016/12/04/657b4a3a-b8f2-4f3d-8aed-f72c71978aa8/thumbnail/300x175/0de5908ff906617b7616c9d675c4d7eb/sunmo-nature-1191704-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2016/12/04/657b4a3a-b8f2-4f3d-8aed-f72c71978aa8/thumbnail/300x175/0de5908ff906617b7616c9d675c4d7eb/sunmo-nature-1191704-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2016/12/04/657b4a3a-b8f2-4f3d-8aed-f72c71978aa8/thumbnail/600x350/73065c4c0ec66050a4f3ffdae5fc7655/sunmo-nature-1191704-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Monk seals in Hawaii</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-turkeys/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2016/11/20/1147b027-087c-404e-be21-18a3e19c71bb/thumbnail/300x175/c3d4317441b4bd09545d2f6b839ec076/sunmo-1120-turkeynature-1184083-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2016/11/20/1147b027-087c-404e-be21-18a3e19c71bb/thumbnail/300x175/c3d4317441b4bd09545d2f6b839ec076/sunmo-1120-turkeynature-1184083-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2016/11/20/1147b027-087c-404e-be21-18a3e19c71bb/thumbnail/600x350/dee5ceb7c508ff8a6fe3398ef53db4d5/sunmo-1120-turkeynature-1184083-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Turkeys</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-mount-rushmore-3/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2016/11/06/635aa370-02d8-45dc-81a4-f026750bb28a/thumbnail/300x175/9ecfa3c97e323e3f3e9b07a205eabb6b/1106-sunmo-nature-mt-rushmore-1173626-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2016/11/06/635aa370-02d8-45dc-81a4-f026750bb28a/thumbnail/300x175/9ecfa3c97e323e3f3e9b07a205eabb6b/1106-sunmo-nature-mt-rushmore-1173626-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2016/11/06/635aa370-02d8-45dc-81a4-f026750bb28a/thumbnail/600x350/33a85305cc31180dda25ad853f590c0b/1106-sunmo-nature-mt-rushmore-1173626-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Mount Rushmore</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                </ul><ul class="media-list items right" data-tb-region="Editor's Picks Right"><li class=" show-category-asset" data-tb-region-item>
+    <a href="/pictures/world-press-photo-contest-2016-best-nature-photos/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2016/02/19/8e6faac8-77f4-4a61-8d04-1b23a57c6068/thumbnail/300x175/e5aa7f52d016e9b64eaaed4e74153c16/c-rohan-kelly-storm-front-on-bondi-beach.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2016/02/19/8e6faac8-77f4-4a61-8d04-1b23a57c6068/thumbnail/300x175/e5aa7f52d016e9b64eaaed4e74153c16/c-rohan-kelly-storm-front-on-bondi-beach.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2016/02/19/8e6faac8-77f4-4a61-8d04-1b23a57c6068/thumbnail/600x350/fc538714aebaf42a170b13e04c48fa43/c-rohan-kelly-storm-front-on-bondi-beach.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Gallery: World's best nature photos</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-bison-3/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/03/48cc5869-28c2-4d86-b497-f72437811bb8/thumbnail/300x175/9fd5ef8d62065178db6c85780ae19255/09003-sunmo-naturenew-1388943-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/03/48cc5869-28c2-4d86-b497-f72437811bb8/thumbnail/300x175/9fd5ef8d62065178db6c85780ae19255/09003-sunmo-naturenew-1388943-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/03/48cc5869-28c2-4d86-b497-f72437811bb8/thumbnail/600x350/9ee3b1d5294d7165c02b4033dd76e42c/09003-sunmo-naturenew-1388943-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Bison</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-dragonflies/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/20/5e79de8d-f617-4fea-b4f3-364965c49499/thumbnail/300x175/5dc5afd98a3f746735944af1dbd54fae/0820-sunmo-nature-1378743-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/20/5e79de8d-f617-4fea-b4f3-364965c49499/thumbnail/300x175/5dc5afd98a3f746735944af1dbd54fae/0820-sunmo-nature-1378743-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/20/5e79de8d-f617-4fea-b4f3-364965c49499/thumbnail/600x350/745d28a44b7f0aadcb2d51a96804da7e/0820-sunmo-nature-1378743-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Dragonflies</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/from-the-archive-the-sound-tracker/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/04/23/a48c5e21-d9db-44f8-91f0-4191aba7d0f0/thumbnail/300x175/602743a023c331de0bb374ceac262081/0422-sunmo-nature-1297746-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/04/23/a48c5e21-d9db-44f8-91f0-4191aba7d0f0/thumbnail/300x175/602743a023c331de0bb374ceac262081/0422-sunmo-nature-1297746-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/04/23/a48c5e21-d9db-44f8-91f0-4191aba7d0f0/thumbnail/600x350/40661a47391dbe98f002f9786d7abcfb/0422-sunmo-nature-1297746-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">From the archive: The Sound Tracker</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-sharks/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/09/3c674759-b4e8-4ee0-b6fa-3a14149b2f42/thumbnail/300x175/55b4b36abd417b28b5925b20da65bbe8/0409-sunmo-nature-1287006-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/09/3c674759-b4e8-4ee0-b6fa-3a14149b2f42/thumbnail/300x175/55b4b36abd417b28b5925b20da65bbe8/0409-sunmo-nature-1287006-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/04/09/3c674759-b4e8-4ee0-b6fa-3a14149b2f42/thumbnail/600x350/896c5f3de471a3610ee5fdcf14b3b6d9/0409-sunmo-nature-1287006-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Sharks</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-planting-fields-arboretum/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/07/30/8f481117-3771-4493-bc90-8d6bb32f0c20/thumbnail/300x175/e2087dafb64d04fc3c7518d9b501d74f/0730-sunmo-nature-1364083-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/07/30/8f481117-3771-4493-bc90-8d6bb32f0c20/thumbnail/300x175/e2087dafb64d04fc3c7518d9b501d74f/0730-sunmo-nature-1364083-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/07/30/8f481117-3771-4493-bc90-8d6bb32f0c20/thumbnail/600x350/58bebbbe0cbd9b34d741aaf45ffa5f65/0730-sunmo-nature-1364083-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Planting Fields Arboretum</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-kings-canyon-national-park-2/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/07/23/6445489b-ca5d-4392-9272-9141061e8b12/thumbnail/300x175/b4c5c80d46215c9b588a8f2384ebe663/0723-sunmo-nature-1359844-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/07/23/6445489b-ca5d-4392-9272-9141061e8b12/thumbnail/300x175/b4c5c80d46215c9b588a8f2384ebe663/0723-sunmo-nature-1359844-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/07/23/6445489b-ca5d-4392-9272-9141061e8b12/thumbnail/600x350/4d473ee34fc89921d4712fd44ea903f7/0723-sunmo-nature-1359844-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Kings Canyon National Park</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-honeybees/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/07/09/90527e9e-7860-4489-ac75-f2ffcd46e6f8/thumbnail/300x175/3d3df701790f029a0717215ddbc3f7c2/0709-sunmo-nature-bees-1350857-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/07/09/90527e9e-7860-4489-ac75-f2ffcd46e6f8/thumbnail/300x175/3d3df701790f029a0717215ddbc3f7c2/0709-sunmo-nature-bees-1350857-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/07/09/90527e9e-7860-4489-ac75-f2ffcd46e6f8/thumbnail/600x350/b58834c1703ba480dfbade6f1b9e03df/0709-sunmo-nature-bees-1350857-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Honeybees</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-horseshoe-crabs/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/06/25/9141d0ef-d901-4517-b4a9-a941bff66ac6/thumbnail/300x175/c2dff2d80acb1383b6d874d57887fc27/0625-sunmo-nature-1343355-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/06/25/9141d0ef-d901-4517-b4a9-a941bff66ac6/thumbnail/300x175/c2dff2d80acb1383b6d874d57887fc27/0625-sunmo-nature-1343355-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/06/25/9141d0ef-d901-4517-b4a9-a941bff66ac6/thumbnail/600x350/69e42a36d148f2ab59b5deea485f8462/0625-sunmo-nature-1343355-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Horseshoe crabs</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-waterfowl/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/06/11/36c79684-1e50-41e1-81bc-96716fdaa4ac/thumbnail/300x175/8e6ffb33a24cbbdc0e0f3b29d653cdc4/0609-sunmo-nature-1333218-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/06/11/36c79684-1e50-41e1-81bc-96716fdaa4ac/thumbnail/300x175/8e6ffb33a24cbbdc0e0f3b29d653cdc4/0609-sunmo-nature-1333218-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/06/11/36c79684-1e50-41e1-81bc-96716fdaa4ac/thumbnail/600x350/8f9c792780ffb93fb7fed2bc6fce899a/0609-sunmo-nature-1333218-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Waterfowl</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-maine/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/05/28/264f7562-cb42-48e0-a7f5-671739d14edd/thumbnail/300x175/da0934a0a307634dd52f260673b307e5/sunmo-0528-nature-1324197-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/05/28/264f7562-cb42-48e0-a7f5-671739d14edd/thumbnail/300x175/da0934a0a307634dd52f260673b307e5/sunmo-0528-nature-1324197-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/28/264f7562-cb42-48e0-a7f5-671739d14edd/thumbnail/600x350/e92e2b780a128c721948d5241b6f780e/sunmo-0528-nature-1324197-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Maine</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-red-river-gorge/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/07/d18acf24-32f5-402d-9b30-ec35e4e2bf31/thumbnail/300x175/df082636d98d80b96b72ff3bcf699348/0405-sunmo-nature-1310779-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/07/d18acf24-32f5-402d-9b30-ec35e4e2bf31/thumbnail/300x175/df082636d98d80b96b72ff3bcf699348/0405-sunmo-nature-1310779-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/05/07/d18acf24-32f5-402d-9b30-ec35e4e2bf31/thumbnail/600x350/7fa3e6ecfa4a859ffa692011daff98cb/0405-sunmo-nature-1310779-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Red River Gorge</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-redwoods-2/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/23/6f2519b5-90e0-4676-910c-350f2ac05861/thumbnail/300x175/c4d51f60c13bd7feb6000dd06e27b178/sunmo-nature-0423-1298017-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/23/6f2519b5-90e0-4676-910c-350f2ac05861/thumbnail/300x175/c4d51f60c13bd7feb6000dd06e27b178/sunmo-nature-0423-1298017-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/04/23/6f2519b5-90e0-4676-910c-350f2ac05861/thumbnail/600x350/1dd72d5f7dbda5d037af6ba9bfcdd0de/sunmo-nature-0423-1298017-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Redwoods</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-bryce-canyon/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/04/02/5954abf7-4960-47d3-89aa-a3832ce34395/thumbnail/300x175/324b8299bd3e03391d58883413869048/0402-sunmo-nature-1282087-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/04/02/5954abf7-4960-47d3-89aa-a3832ce34395/thumbnail/300x175/324b8299bd3e03391d58883413869048/0402-sunmo-nature-1282087-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/04/02/5954abf7-4960-47d3-89aa-a3832ce34395/thumbnail/600x350/b5ef988dcb11b90d27a77891198cddab/0402-sunmo-nature-1282087-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Bryce Canyon</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-cactus/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/03/19/748c33c6-49d8-4941-9844-2ef74abb394a/thumbnail/300x175/3bc9ff1125d7a9cf5ea1f52d74875a2e/sunmo-nature-0319-1272905-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/03/19/748c33c6-49d8-4941-9844-2ef74abb394a/thumbnail/300x175/3bc9ff1125d7a9cf5ea1f52d74875a2e/sunmo-nature-0319-1272905-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/03/19/748c33c6-49d8-4941-9844-2ef74abb394a/thumbnail/600x350/0d703a1be591b1ec3e08f37361a9a91b/sunmo-nature-0319-1272905-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature:  Cactus</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-starfish/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/02/26/f929c6c5-64f5-4b89-bc71-f3fb03188fb3/thumbnail/300x175/fef041d4d81df8ed5eaf09be2e72b66c/sunmo-nature-0226-1258567-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/02/26/f929c6c5-64f5-4b89-bc71-f3fb03188fb3/thumbnail/300x175/fef041d4d81df8ed5eaf09be2e72b66c/sunmo-nature-0226-1258567-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/02/26/f929c6c5-64f5-4b89-bc71-f3fb03188fb3/thumbnail/600x350/7d7f6ae5a9db881d0a43cc0cdba042c5/sunmo-nature-0226-1258567-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Starfish</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-frogs/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/02/12/ecadfdb6-c14d-4d2f-ac3b-e1811e724b39/thumbnail/300x175/5205dd0de72320166a02ce697b4b9e01/0211-sunmorning-natureforwebborealchorusfrog-1249976-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/02/12/ecadfdb6-c14d-4d2f-ac3b-e1811e724b39/thumbnail/300x175/5205dd0de72320166a02ce697b4b9e01/0211-sunmorning-natureforwebborealchorusfrog-1249976-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/02/12/ecadfdb6-c14d-4d2f-ac3b-e1811e724b39/thumbnail/600x350/3ffe39b413dcb440e0c5d7fbf21ee52f/0211-sunmorning-natureforwebborealchorusfrog-1249976-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Frogs</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-jackson-hole/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/01/29/2ad1ec5c-eafa-4302-9859-3ac941d6f48b/thumbnail/300x175/e6d27195c25e21e292fbf08f434241d0/sunmo-nature-0129-1241022-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/01/29/2ad1ec5c-eafa-4302-9859-3ac941d6f48b/thumbnail/300x175/e6d27195c25e21e292fbf08f434241d0/sunmo-nature-0129-1241022-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/01/29/2ad1ec5c-eafa-4302-9859-3ac941d6f48b/thumbnail/600x350/d736da1afc14e0eef1730ad6e3ec386e/sunmo-nature-0129-1241022-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Jackson Hole</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-swans/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/01/15/7b1229ed-e510-41e5-9560-20d40f91360b/thumbnail/300x175/7c6c4cc64d07835a3c2ae0d8c7edd38c/nature-1231058-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/01/15/7b1229ed-e510-41e5-9560-20d40f91360b/thumbnail/300x175/7c6c4cc64d07835a3c2ae0d8c7edd38c/nature-1231058-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/01/15/7b1229ed-e510-41e5-9560-20d40f91360b/thumbnail/600x350/e7e580954e98be3ea7c858d45a35e5ba/nature-1231058-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Swans</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-monarch-butterflies-2/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/01/01/5309e962-9cdf-414a-9725-86ecef4b4530/thumbnail/300x175/232cf4e5943d34d424fd1fffcfbb8d4e/0101-sunmo-nature-butterflies-1221687-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/01/01/5309e962-9cdf-414a-9725-86ecef4b4530/thumbnail/300x175/232cf4e5943d34d424fd1fffcfbb8d4e/0101-sunmo-nature-butterflies-1221687-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/01/01/5309e962-9cdf-414a-9725-86ecef4b4530/thumbnail/600x350/12e1f3a10bec9ce370299d16f7e11495/0101-sunmo-nature-butterflies-1221687-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Monarch butterflies</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-great-basin-national-park/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/12/11/707b80d3-93a0-4af7-97e8-f3d3cfa50b03/thumbnail/300x175/7cf65a01defc014aae0441124303065a/1211-sundaymorning-naturegreatbasin-1198818-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/12/11/707b80d3-93a0-4af7-97e8-f3d3cfa50b03/thumbnail/300x175/7cf65a01defc014aae0441124303065a/1211-sundaymorning-naturegreatbasin-1198818-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2016/12/11/707b80d3-93a0-4af7-97e8-f3d3cfa50b03/thumbnail/600x350/5387ac45623abd37220514378edffcee/1211-sundaymorning-naturegreatbasin-1198818-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Great Basin National Park</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-yellowstone-national-park-5/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2016/11/27/4140c16e-189b-4cd4-9c97-be1504bd25a8/thumbnail/300x175/d1a225921991964d73d615cfa071288a/1127-sunmo-nature-1187336-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2016/11/27/4140c16e-189b-4cd4-9c97-be1504bd25a8/thumbnail/300x175/d1a225921991964d73d615cfa071288a/1127-sunmo-nature-1187336-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2016/11/27/4140c16e-189b-4cd4-9c97-be1504bd25a8/thumbnail/600x350/f04e5f5ff4884f7bec3777dda9ff2b18/1127-sunmo-nature-1187336-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Yellowstone National Park</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-great-smoky-mountains/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2016/11/13/d2a12803-6260-4820-96de-2ce95843f72c/thumbnail/300x175/d87c78d0916ab613019b4e27bbe874ca/1113-sunmo-nature-replacement-1179643-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2016/11/13/d2a12803-6260-4820-96de-2ce95843f72c/thumbnail/300x175/d87c78d0916ab613019b4e27bbe874ca/1113-sunmo-nature-replacement-1179643-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2016/11/13/d2a12803-6260-4820-96de-2ce95843f72c/thumbnail/600x350/4c435bd71f77d0a81a960c125dfb9951/1113-sunmo-nature-replacement-1179643-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Great Smoky Mountains</h3>
+    </a>
+</li>
+                            
+                                                
+
+
+
+    
+    
+
+    
+                            
+                                                
+
+
+
+    
+    
+
+                
+<li class=" show-category-asset" data-tb-region-item>
+    <a href="/videos/nature-spiders/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2016/10/30/cc7de202-9c46-4ebe-9f5f-aebc839fd92b/thumbnail/300x175/36df9f4fa671e671a50694af550f1c3f/sunmo-nature-1030-1166197-640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2016/10/30/cc7de202-9c46-4ebe-9f5f-aebc839fd92b/thumbnail/300x175/36df9f4fa671e671a50694af550f1c3f/sunmo-nature-1030-1166197-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2016/10/30/cc7de202-9c46-4ebe-9f5f-aebc839fd92b/thumbnail/600x350/50e6ac85f4b6fdcb04f0eb413dbe9824/sunmo-nature-1030-1166197-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Nature: Spiders</h3>
+    </a>
+</li>
+                </ul></div>
+</div>
+
+                                                                                </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-8 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+            
+            
+    <div class="col-8 nocontent">
+                                    
+                                    
+                                                     
+
+<a class="load-more idle" href="https://www.cbsnews.com/latest/sunday-morning/nature/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Sunday Morning Nature|More Headlines|Link"}' data-invalid-url-rewritten-http=""><span class="load-more-text">More in Sunday Morning Nature <span class="load-more-icon"></span></span></a> 
+                                                                    </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-8 ">
+                                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                            </div>
+        
+            
+            
+    <div class="col-4 nocontent">
+                                    
+                                    
+                                            
+
+
+
+<div class="module module-follow-us">
+    <h2 class="module-heading title">Follow Us</h2>
+	    <ul class="items"><li class="facebook"> <a href="https://www.facebook.com/CBSSundayMorning" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail-Follow-us|Facebook"}' target="new">Facebook</a> </li>
+	        							<li class="twitter"> <a href="https://twitter.com/cbssunday" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail-Follow-us|Twitter"}' target="new">Twitter</a> </li>
+	        										<li class="youtube"><a href="https://www.youtube.com/user/CBSSundayMorning" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail-Follow-us|YouTube"}' target="new">YouTube</a></li>
+	        							<li class="rss"><a href="/rss/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail-Follow-us|RSS"}' target="new">RSS</a></li>
+	        							<li class="instagram"> <a href="https://instagram.com/cbssundaymorning" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail-Follow-us|Instagram"}' target="new">Instagram</a> </li>
+										<li class="newsletter last"> <a href="/newsletters/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail-Follow-us|Newsletters"}' target="new">Newsletters</a> </li>
+				    </ul></div>
+                                                                
+                                    
+                                            
+
+                            <div id="mpu-plus-top-59be667932109" class="ad-mpu-plus-top" data-ad="mpu-plus-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-plus-top-59be667932109 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-plus-top-59be667932109");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-sm-contributors">
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <div class="module module-contributors">
+    <h4 class="module-heading title" style="font-size: 26px;">The Team</h4>
+        <div class="one-person-bio"> 
+            <img src="https://cbsnews1.cbsistatic.com/hub/i/2016/10/06/8093a525-adf8-4756-b58d-daaf5a7e4ed0/jane-pauley.png"><p> Jane Pauley, Anchor, "CBS Sunday Morning"</p> 
+            <span class="read-bio"> <a href="https://www.cbsnews.com/team/jane-pauley/" data-invalid-url-rewritten-http=""> Read Bio &raquo; </a> </span> 
+        </div>
+</div></li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+            
+<div class="listing-media-feature" data-component="carousel" data-carousel-options='{"autoplayDelay":0,"transitionDuration":0}'>
+    <div class="viewport" data-item="viewport">
+        <ul class="canvas" data-item="canvas"><li data-item="slide">
+    
+
+
+
+
+
+    
+<div class="media-feature" data-tb-region-item>
+		<a href="/media/the-worlds-best-tv-commercials-2017/" title="The world's best TV commercials 2017">
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/15/11c46c4f-c199-4662-9533-965dd0d74fd8/thumbnail/300x190/e60d66c095bf43d31703565b09648af7/volkswagen-commercial-laughing-horses.jpg#" alt=" " height="190" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/15/11c46c4f-c199-4662-9533-965dd0d74fd8/thumbnail/300x190/e60d66c095bf43d31703565b09648af7/volkswagen-commercial-laughing-horses.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/15/11c46c4f-c199-4662-9533-965dd0d74fd8/thumbnail/600x380/796b41410dc16b62da3097e8660bb372/volkswagen-commercial-laughing-horses.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+            <div class="meta-overlay ">
+                <span class="asset-icon media_post"></span>
+                <div class="meta-label">
+                                    </div>
+
+                <h3 class="title">The world's best TV commercials 2017</h3>
+            </div>
+        </figure></a>
+</div>
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+
+
+    
+<div class="media-feature" data-tb-region-item>
+		<a href="/pictures/notable-deaths-in-2017/" title="Notable deaths in 2017">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Thumbnail-2"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/16/f6b0b964-f8db-4d6b-8b23-32fe309ba504/thumbnail/300x190/ed55e446fcc1e8b524696487970349b4/harry-dean-stanton-paris-texas-20th-century-fox.jpg#" alt=" " height="190" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/16/f6b0b964-f8db-4d6b-8b23-32fe309ba504/thumbnail/300x190/ed55e446fcc1e8b524696487970349b4/harry-dean-stanton-paris-texas-20th-century-fox.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/f6b0b964-f8db-4d6b-8b23-32fe309ba504/thumbnail/600x380/a4e3ba43df509fe08e8616c16366ccb0/harry-dean-stanton-paris-texas-20th-century-fox.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+            <div class="meta-overlay ">
+                <span class="asset-icon gallery" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Button-2"}'></span>
+                <div class="meta-label">
+                                            <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-2"}'>103</span>
+                        <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-2"}'>Photos</span>
+                                    </div>
+
+                <h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Headline-2"}'>Notable deaths in 2017</h3>
+            </div>
+        </figure></a>
+</div>
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+
+
+    
+<div class="media-feature" data-tb-region-item>
+		<a href="/pictures/photos-from-the-early-years-of-blondie/" title="Photos from the early years of Blondie">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Thumbnail-3"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2014/09/24/4526d897-bb34-443b-85d8-b6d48af747eb/thumbnail/300x190/81e31a1191d5ad706a9308907beccff4/chrissteinp002-003.jpg#" alt=" " height="190" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2014/09/24/4526d897-bb34-443b-85d8-b6d48af747eb/thumbnail/300x190/81e31a1191d5ad706a9308907beccff4/chrissteinp002-003.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2014/09/24/4526d897-bb34-443b-85d8-b6d48af747eb/thumbnail/600x380/571837d83f0a988aec80157a5c461dd1/chrissteinp002-003.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+            <div class="meta-overlay ">
+                <span class="asset-icon gallery" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Button-3"}'></span>
+                <div class="meta-label">
+                                            <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-3"}'>8</span>
+                        <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-3"}'>Photos</span>
+                                    </div>
+
+                <h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Headline-3"}'>Photos from the early years of Blondie</h3>
+            </div>
+        </figure></a>
+</div>
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+
+
+    
+<div class="media-feature" data-tb-region-item>
+		<a href="/pictures/wreckage-of-uss-indianapolis-found/" title="Wreckage of USS Indianapolis found">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Thumbnail-4"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/25/4fa6104d-3683-4388-adab-9b596b0d2dd9/thumbnail/300x190/c0e6f6ee212d1a5e1659fa4e9cfc2226/indianapolis-wreck-gun-barrel-610.jpg#" alt=" " height="190" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/25/4fa6104d-3683-4388-adab-9b596b0d2dd9/thumbnail/300x190/c0e6f6ee212d1a5e1659fa4e9cfc2226/indianapolis-wreck-gun-barrel-610.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/25/4fa6104d-3683-4388-adab-9b596b0d2dd9/thumbnail/600x380/629c5edfe286e8de35f623719d396f64/indianapolis-wreck-gun-barrel-610.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+            <div class="meta-overlay ">
+                <span class="asset-icon gallery" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Button-4"}'></span>
+                <div class="meta-label">
+                                            <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-4"}'>17</span>
+                        <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-4"}'>Photos</span>
+                                    </div>
+
+                <h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Headline-4"}'>Wreckage of USS Indianapolis found</h3>
+            </div>
+        </figure></a>
+</div>
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+
+
+    
+<div class="media-feature" data-tb-region-item>
+		<a href="/pictures/inside-the-black-panthers-photographer-stephen-shames/" title="Inside the Black Panther Party">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Thumbnail-5"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/09/20/38256d1d-97bc-4256-815c-cb674d2937ea/thumbnail/300x190g2/b1358b8890d7a99655aa0564dd4e67a8/children-of-panther-party-wm.jpg#" alt=" " height="190" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/09/20/38256d1d-97bc-4256-815c-cb674d2937ea/thumbnail/300x190g2/b1358b8890d7a99655aa0564dd4e67a8/children-of-panther-party-wm.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2016/09/20/38256d1d-97bc-4256-815c-cb674d2937ea/thumbnail/600x380g2/65cfd8d55622baecd2d2b49d509ff0c6/children-of-panther-party-wm.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+            <div class="meta-overlay ">
+                <span class="asset-icon gallery" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Button-5"}'></span>
+                <div class="meta-label">
+                                            <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-5"}'>23</span>
+                        <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-5"}'>Photos</span>
+                                    </div>
+
+                <h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Headline-5"}'>Inside the Black Panther Party</h3>
+            </div>
+        </figure></a>
+</div>
+</li>                    </ul><div class="paging">
+            <a class="prev" data-to="prev" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail|Media Promo|Carousel|Left-4"}'>Previous</a>
+            
+            <a class="next" data-to="next" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail|Media Promo|Carousel|Right-4"}'>Next</a>
+        </div>
+    </div>
+</div>    
+                                                                
+                                    
+                                            
+
+			    
+	<div class="module module-twitter-feed">
+	    <h2 class="module-heading title">On Twitter</h2>
+			<a class="twitter-timeline" href="https://twitter.com/CBSSunday/team" data-widget-id="309038006344491008">Tweets from @CBSSunday/team</a>
+	</div>
+                                                                
+                                    
+                                            
+
+                            <div id="mpu-bottom-59be667932109" class="ad-mpu-bottom" data-ad="mpu-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-bottom-59be667932109 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-bottom-59be667932109");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-taboola-recommended-article">
+      <h2 class="module-heading title">Recommended</h2>
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <div data-taboola='{"mode":"alternating-thumbnails-rr","placement":"Right Rail Thumbnails"}'></div></li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-emergency-component">
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <script>var searchNav = document.querySelector('.site-nav__item--sports .site-nav__item-anchor'); searchNav&&searchNav.addEventListener('click', function () {window.location = this.href}, true);</script><style>.site-footer{ z-index:0; } .site-header{ z-index:2; } .content-primary{ z-index:1; } [tabindex]:focus {outline: 0; } .desktop .site-nav__item--shows:hover .site-nav__item-content-icon {top: 113px;right: auto;}.desktop .site-nav__item--shows:hover .site-nav__item-hed {font-size: 16px;max-height: none;float: none;margin: 0px;} .front-door .disqus-comment-count { display: none; } .topic-door .disqus-comment-count { display: none; } .listing-mini-sub .disqus-comment-count { display: none; } .desktop #mantle_skin[class*=cbs-this-morning] .hero-text .title a {color: #e4a21b;font-family: "museo-sans", Helvetica, Roboto, sans-serif;font-size: 30px;font-weight: 700;line-height: 1.1;letter-spacing: -0.05em;}</style></li>
+                </ul></div>                                                        </div>
+
+                                                                    </div>
+                                </div>
+                        </div>
+            </div>
+        </div>
+</div>
+
+            <div id="leader-bottom-59be667932109" class="ad-leader-bottom" data-ad="leader-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-bottom-59be667932109 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-bottom-59be667932109");
+    </script></div>
+
+        </div>
+
+    
+                    
+<footer class="site-footer content-inverse nocontent"><div class="container">
+                        <div class="row">
+            <div class="col-2 link-block">
+                <h5 class="title">CBSNews.com</h5>
+
+                <ul class="items"><li><a href="https://www.cbsnews.com/sitemap/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Site Map"}' data-invalid-url-rewritten-http="">Site Map</a></li>
+                    <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome2?categories=CBS_Interactive:CBSNews&amp;referer=cbsnews.com/main" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Help"}'>Help</a></li>
+                    <li><a href="http://audienceservices.cbs.com/feedback/feedback.htm" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Contact Us"}'>Contact Us</a></li>
+
+                    <li><a href="https://www.cbsnews.com/team/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|CBS Bios"}' data-invalid-url-rewritten-http="" data-vanity-rewritten="true">CBS Bios</a></li>
+                    <li><a href="https://cbs.avature.net/cbsnewscareers" data-omniture-track-data='{"clickProperty": "Site Footer|Careers"}'>Careers</a></li>
+                    <li><a href="http://www.cbsinteractive.com/careers" data-omniture-track-data='{"clickProperty": "Site Footer|CBSi Careers"}'>CBSi Careers</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-internship-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Internships"}' data-invalid-url-rewritten-http="">Internships</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-associates-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Development Programs"}' data-invalid-url-rewritten-http="">Development Programs</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">CBS Interactive</h5>
+
+                <ul class="items"><li><a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Privacy Policy"}'>Privacy Policy</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/adchoice" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Ad Choice"}'>Ad Choice</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Terms of Use"}'>Terms of Use</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/eula" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Mobile User Agreement"}'>Mobile User Agreement</a></li>
+                    <li><a href="http://www.cbscorporation.com/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|About CBS"}'>About CBS</a></li>
+                    <li><a href="http://www.cbsinteractive.com/advertise/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Advertise"}'>Advertise</a></li>
+                    <li><a href="http://cbsimedia.cbs.com/captioning/info.html" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Closed Captioning"}'>Closed Captioning</a></li>
+                    <li><a href="http://www.cbsstore.com/cbs-news-store-home/index.php?v=cbs-news&amp;ecid=PRF-CBS-300538&amp;pa=PRF-CBS-300538" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|CBS News Store"}'>CBS News Store</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">Follow Us</h5>
+
+                <ul class="items"><li><a href="https://www.facebook.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Facebook"}'>Facebook</a></li>
+                    <li><a href="https://twitter.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Twitter"}'>Twitter</a></li>
+                    <li><a href="/rss/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|RSS"}'>RSS</a></li>
+                    <li><a href="https://www.cbsnews.com/newsletters/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Email Newsletters"}' data-invalid-url-rewritten-http="">Email Newsletters</a></li>
+                    <li><a href="http://www.youtube.com/user/CBSNewsOnline" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|YouTube"}'>YouTube</a></li>
+                    <li><a href="https://www.cbsnews.com/radio/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Radio News"}' data-invalid-url-rewritten-http="">CBS Radio News</a></li>
+                    <li><a href="https://www.cbsnews.com/local/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Local"}' data-invalid-url-rewritten-http="">CBS Local</a></li>
+                </ul></div>
+
+            <div class="col-4 push-2">
+                <div class="site-brand">
+                    <div class="logo core-logo"><a href="/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer-Branding"}'>CBS News</a></div>
+                </div>
+
+                <form class="site-search" action="/search/" method="get" data-component="search" data-search-options='{"path":"https:\/\/www.cbsnews.com\/search\/","param":"q"}'>
+                    <input type="search" class="query" maxlength="255" name="q" placeholder="Search..."><button type="submit" class="submit core-search-footer">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="site-brand">
+                <p class="copyright">Copyright &copy; 2017 CBS Interactive Inc.<br>All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer></div> 
+
+                      
+
+    
+
+<script>
+    var CBSNEWS = CBSNEWS || {};
+        CBSNEWS.ad        = {"gpt":{"targeting":{"device":"desktop","ptype":"category_door","cid":"sunday-morning-nature","env":"prod_alt"},"adConfig":{"network":{"dev":8264,"qa":8264,"prod":8264},"method":"async-inline","regions":[{"region":"uk","countries":["gb","fr","ie","za","bh","kw","om","qa","sa","ae","iq","eg","ye"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","ph","th","id","vn","hk","in"]}],"adUnits":{"intromercial":{"outOfPage":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"skin"}},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250],[300,1050]],"position":"top"},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"buttonTop":{"sizes":[[88,31]],"position":"top"},"scrollPrestitial":{"sizes":[[980,45]],"position":"top"},"marqueeBottom":{"sizes":[[234,60]],"position":"bottom"},"marquee300Top":{"sizes":[[300,60]],"position":"top"},"marquee300Middle":{"sizes":[[300,60]],"position":"middle"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"leaderBottom":{"sizes":[[728,90],[970,66]],"position":"bottom"},"desktopNativeTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"a832eb3c"}},"nativeShowTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"bf587c26"}},"desktopNativeMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"e0c5ba47"}},"desktopNativeBottom":{"sizes":[[11,11]],"position":"bottom"},"buttonMiddle":{"sizes":[[88,31]],"position":"middle"},"buttonBottom":{"sizes":[[88,31]],"position":"bottom"},"sponsorContentMiddle":{"sizes":[[381,211],[11,11]],"position":"middle","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentMiddle2":{"sizes":[[381,211],[11,11]],"position":"middle2","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentBottom":{"sizes":[[381,211],[11,11]],"position":"bottom","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentTop":{"sizes":[[381,211],[11,11]],"position":"top","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentSmallTop":{"sizes":[[301,151],[11,11]],"position":"top","customTargeting":{"strnativekey":"a2ac4296"}},"sponsorContentTextTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"a6c0ce8b"}},"sponsorBar980Top":{"sizes":[[980,36]],"position":"top"},"sponsorBar620Top":{"sizes":[[620,36]],"position":"top"}},"mobile":{"adUnits":{"intromercial":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileBanner1":{"sizes":[[320,50]],"position":1},"mobileBanner2":{"sizes":[[320,50]],"position":2},"mobileBanner3":{"sizes":[[320,50]],"position":3},"mobileMarquee320Top":{"sizes":[[320,60]],"position":"top"},"mobileSponsorContentTextTop":{"sizes":[[300,250],[11,11],"fluid"],"position":"top","customTargeting":{"strnativekey":"454fd857"}},"mobileSponsorcontentTextMiddle":{"sizes":[[300,250],[320,50],[11,11],"fluid"],"position":"middle","customTargeting":{"strnativekey":"454fd857"}},"mobileInlineFlexPos2":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":2,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexPos3":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":3,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexInc":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":"inc","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileNativeTop":{"sizes":[[11,11]],"position":"top"},"mobileNativeGalleryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"289740d4"}},"mobileSponsorcontentCdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"3c5782bf"}},"mobileSponsorcontentVdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"eba075cc"}}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"amp":{"adUnits":{"ampFlexTop":{"sizes":[[320,50],[300,250]],"position":"top"},"ampFlexBottom":{"sizes":[[320,50],[300,250]],"position":"bottom"},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"ampFlexPos2":{"sizes":[[320,50],[300,250]],"position":2},"ampFlexPos3":{"sizes":[[320,50],[300,250]],"position":3},"ampFlexInc":{"sizes":[[320,50],[300,250]],"position":"inc"},"ampSticky":{"sizes":[[320,50]],"position":"sticky"}}},"siteName":"cbsnews","collapseEmptyDiv":true,"setRefreshUnfilledSlots":false,"setClearUnfilledSlots":true,"disableInitialLoad":false,"disableInitialLoadCompanions":true,"enableHeaderBidding":true,"disableClearTargetingOnInit":true,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["intromercial","leader_top","leader_plus_top","skin","mpu_top","mpu_plus_top","marquee_top","marquee300_top","button_top","sponsor_content_top","sponsor_content_small_top","sponsor_content_text_top","sponsor_bar980_top","sponsor_bar620_top","desktop_native_top","native_show_top","mpu_middle","marquee300_middle","button_middle","desktop_native_middle","sponsor_content_middle","sponsor_content_middle2","desktop_native_bottom","button_bottom","mpu_bottom","leader_bottom","sponsor_content_bottom"],"disableInitialLoadRefresh":"false","disableAdIncrement":false,"enableRepeatedAds":false},"containerId":"59be667932109","slotVars":{"network":"8264","siteName":"cbsnews","collapseEmptyDiv":"1","topics":"sunday-morning/nature","platform":"desktop"},"adType":"gpt","adDivIds":["mpu-plus-top-59be667932109","mpu-bottom-59be667932109","intromercial-59be667932109","leader-plus-top-59be667932109","leader-bottom-59be667932109"]},"cookieName":"cbsnews_ad","cookieServicePath":"/ad/ad-cookie/","session":4,"subSession":4,"useFirstPageTargeting":true};
+        CBSNEWS.bsFreq    = 100;
+        CBSNEWS.device    = 'desktop';
+        CBSNEWS.features  = CBSNEWS.features || {};
+        CBSNEWS.tracking  = {"isEnabled":true,"deviceType":"desktop","isDev":"2","pageType":"category_door","siteHier":["sunday morning","sunday morning nature"],"siteSection":"sunday morning","siteType":"responsive web","topicId":["71fb69f6-758d-11e2-9d12-0018fe8a00b0"],"topicName":["sunday morning","sunday morning nature"],"bkSiteId":3330,"limit":4,"siteName":"cbsnews","demographicKeys":["jobFunction","jobCategory","industry","computerProficiency","companySize","gender","ageGroup","country"],"tealium":{"profile":"cbsnewssite","env":"prod"}};
+        CBSNEWS.tracking._adData      = CBSNEWS.ad;
+        CBSNEWS.tracking.pageViewGuid = null; // Set in managers/tealium
+        CBSNEWS.user      = {
+            appId:          '1501',
+            environment:    'LIVE',
+            platform:       '',
+            publicHost:     'www.cbsnews.com',
+            secureHost:     'secure-fly.cbsnews.com',
+            ursVersion:     'v2.2',
+            ursClientToken: '9b0514bf29ca49e1',
+        };
+        CBSNEWS.disqus =  {
+            shortname: 'cbsnews-prod',
+            publicKey: '60EUVoZHyaBJqXJUxAKYfJgUh8NhuUyO88gGQ7aIw8HsbFOwAl9hLtoCyvyld2A8',
+            sso: {
+                name: 'CBSNews',
+                authLoginUrl: 'https://www.cbsnews.com/disqus/sso/login/',
+                authLogoutUrl: 'https://www.cbsnews.com/disqus/sso/logout/',
+                button: 'https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/images/core/logo.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95',
+                icon: 'https://cbsnews4.cbsistatic.com/fly/favicon.ico?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95',
+                loginUrl: 'https://secure-fly.cbsnews.com/user/registration/?redirectUrl=%2Fdisqus%2Flogin%2F ',
+                logoutUrl: 'https://www.cbsnews.com/user/logout/'
+            }
+        };
+
+
+    var features = ['beanstockSonobi', 'disqus', 'urs'];
+    features.forEach(function(feature) {
+        if (!CBSNEWS.features.hasOwnProperty(feature)) {
+            CBSNEWS.features[feature] = true;
+        }
+    });
+
+    var utag_data = CBSNEWS.tracking;
+
+    var require = {"baseUrl":"https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build","urlArgs":"v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95","config":{"version":{"fly/libs/base64":"0.3.0","fly/libs/easy-xdm-cbsi":"2.4.19.3","fly/libs/jquery.widget":"1.9.2","fly/libs/jquery.cookie":"1.2","fly/libs/jquery.mobile":"1.3.2","fly/libs/jquery.throttle-debounce":"1.1","fly/libs/lazysizes":"1.4.0","fly/libs/omniture.s-code":"1.0","fly/libs/urs":"1.0","fly/utils/data-prefix":"1.0","fly/utils/data-selector":"1.0","fly/utils/function-natives":"1.0","fly/utils/guid":"1.0","fly/utils/log":"1.0","fly/utils/object-helper":"1.0","fly/utils/string-helper":"1.0","fly/utils/string-vars":"1.0","fly/utils/url-helper":"1.0","fly/managers/components":"1.0","fly/managers/cookie":"1.0","fly/managers/debug":"1.0","fly/managers/ad":"2.0","fly/managers/gpt":"4.2","fly/managers/geo":"1.0","fly/managers/image-resolution":"1.0","fly/managers/recurly":"1.0","fly/managers/recurly-billing":"1.0","fly/managers/social-authentication":"1.0","fly/managers/tracking":"1.0","fly/managers/user":"1.0","fly/components/accordion":"1.0","fly/components/alert":"1.0","fly/components/base":"1.0","fly/components/carousel":"1.0","fly/components/credspark":"1.0","fly/components/dependent-field":"1.0","fly/components/dropdown":"1.0","fly/components/form-validate":"1.0","fly/components/iframe-messenger":"1.1","fly/components/image-gallery":"1.0","fly/components/disqus-count":"1.0","fly/managers/disqus":"1.0","fly/components/disqus":"1.0","fly/components/loading":"1.0","fly/components/load-more":"1.0","fly/components/nrelate":"1.0","fly/components/modal":"1.0","fly/components/modal-async":"1.0","fly/components/modal-iframe":"1.0","fly/components/scrollbar":"1.0","fly/components/social-button":"1.0","fly/components/social-counts":"1.1","fly/components/social-links":"1.0","fly/components/tabs":"1.0","fly/managers/clicktale":"1.0","fly/components/poll":"1.0","fly/managers/history":"1.0","libs/fontfaceobserver":"2.0.7","libs/riot":"2.6.2","mpx/libs/uvp":"2.6.0","mpx/libs/hls":"0.6.18","fly/components/fixate":"1.0","fly/components/image-gallery-thumb":"1.0"}},"shim":{"tealium":["jquery"]},"map":{"*":{"ima":"//imasdk.googleapis.com/js/sdkloader/ima3.js","gpt":"//www.googletagservices.com/tag/js/gpt.js","anvato":"https://w3.cdn.anvato.net/player/prod/scripts/anvload.js","nrelate":"//c7.static.nrcdn.com/common_js/0.52.1/nr_loader.min.js","urs":"//urs.cbsnews.com/sdk/urs.js","recirc":"//ddlmj2furo6f2.cloudfront.net/addontrain/recommendations/53f6c74c1344a01ee2000139.js","tealium":"//tags.tiqcdn.com/utag/cbsi/cbsnewssite/prod/utag.js","twitter":"https://platform.twitter.com/widgets.js","credspark":"//www.credspark.com/embed.js","yad":"https://s.yimg.com/uq/syndication/yad.js","newsgator":"//nmp.newsgator.com/ngbuzz/load.ashx/buzz","recurly":"https://js.recurly.com/v4/recurly.js","taboola":"//cdn.taboola.com/libtrc/cbsinteractive-cbsnews/loader.js","sharethrough":"//native.sharethrough.com/assets/tag.js","uvp":"//vidtech.cbsinteractive.com/uvpjs/2.5.3/CBSI-PLAYER.js","index_exchange":"//js-sec.indexww.com/ht/ls-cbsnews.js","sonobi":"//mtrx.go.sonobi.com/morpheus.cbsnews.9251.js"}}};
+</script><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" as="script"><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.desktop.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" as="script"><script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" data-main="main.desktop" async defer></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8178a7f262","applicationID":"8449215","transactionName":"ZAZXNkNRCkEHBxAMX11MdAFFWQtcSTsQCkBaAGoOUF4AWwgDOwtfbBBAAGJFBmYJFA0G","queueTime":0,"applicationTime":1838,"atts":"SEFUQAtLGU8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

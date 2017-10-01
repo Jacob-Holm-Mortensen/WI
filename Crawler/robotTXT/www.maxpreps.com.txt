@@ -1,0 +1,17 @@
+/Admin.aspx/
+/*AffiliateID-
+/FanPages/
+/print
+/proxy_fetch.aspx?
+/proxy_fetchxml.aspx?
+/schoolsearch.aspx?
+*.ashx
+/SearchSchoolsFromStateCode.aspx?
+/m/scores/enter_score.aspx
+/m/scores/basketball/enter_score.aspx
+/m/scores/qwixcore_a_game.aspx
+/m/scores/qwixcore_cancellation.aspx
+/m/scores/qwixcore_confirmed.aspx
+/m/scores/report_a_qwixcore_issue.aspx
+/qwixcore/scorercancellation.aspx
+/qwixcore/scorerconfirmation.aspx

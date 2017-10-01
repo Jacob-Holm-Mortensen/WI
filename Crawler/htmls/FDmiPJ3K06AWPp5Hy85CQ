@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en"><head prefix="og: http://ogp.me/ns#"><!-- Fly Version: RELEASE_20170915 4d277b6c7f10b0e8f706642a69c77b86a00f8a95 (cbsnews prod_alt) --><title>Deadliest U.S. hurricanes - What are the deadliest hurricanes in the U. S.? - Pictures - CBS News</title><meta charset="UTF-8"><meta name="robots" content="index, follow"><meta name="description" content="Hurricane Katrina claimed at least 1,200 lives, but it wasn&amp;#039;t the deadliest hurricane in U.S. history"><meta name="keywords" content="louisiana, hurricane katrina, florida, U.S., texas, hurricane harvey, hurricane irma, National Hurricane Center,  ,pictures, photos, cbs news photos, cbs news, cbsnews.com"><link rel="next" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/2/"><meta name="viewport" content="width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UQIHWFZbGwsEUFhQBgQ="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script><link rel="apple-touch-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/apple-touch-icon.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><meta property="al:web:url" content="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/"><meta property="al:ios:app_name" content="CBS News"><meta property="al:ios:app_store_id" content="334256223"><meta property="al:ios:url" content="cbsnewsapp://pictures/deadliest-hurricanes-worst-in-the-us-list/"><meta property="al:android:app_name" content="CBS News"><meta property="al:android:package" content="com.treemolabs.apps.cbsnews"><meta property="og:type" content="article"><meta property="og:url" content="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/"><meta property="og:title" content="Deadliest hurricanes in U.S. history"><meta property="og:description" content="Hurricane Katrina claimed at least 1,200 lives, but it wasn't the deadliest hurricane in U.S. history"><meta property="og:image" content="https://cbsnews1.cbsistatic.com/hub/i/2017/09/05/156eefc5-bff4-4c52-90bf-af6e3020f28e/gettyimages-51618795.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="fb:app_id" content="1536620209892267"><meta property="fb:pages" content="131459315949"><meta name="twitter:app:country" content="US"><meta name="twitter:app:name:iphone" content="CBS News"><meta name="twitter:app:id:iphone" content="334256223"><meta name="twitter:app:url:iphone" content="cbsnewsapp://pictures/deadliest-hurricanes-worst-in-the-us-list/"><meta name="twitter:app:name:ipad" content="CBS News"><meta name="twitter:app:id:ipad" content="334256223"><meta name="twitter:app:url:ipad" content="cbsnewsapp://pictures/deadliest-hurricanes-worst-in-the-us-list/"><meta name="twitter:app:name:googleplay" content="CBS News"><meta name="twitter:app:id:googleplay" content="com.treemolabs.apps.cbsnews"><meta name="twitter:app:url:googleplay" content="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@CBSNews"><meta name="twitter:title" content="Deadliest hurricanes in U.S. history"><meta name="twitter:description" content="Hurricane Katrina claimed at least 1,200 lives, but it wasn't the deadliest hurricane in U.S. history"><meta name="twitter:image" content="https://cbsnews1.cbsistatic.com/hub/i/2017/09/05/156eefc5-bff4-4c52-90bf-af6e3020f28e/gettyimages-51618795.jpg"><script type="application/ld+json">
+      {"@context":"https:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.cbsnews.com\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/"},"headline":"What are the deadliest hurricanes in the U. S.?","description":"Here are the recorded U.S. hurricanes that have claimed the most lives, according to the National Weather Service.  The deadliest hurricane of all time was the Great Galveston Hurricane of 1900, followed by Okeechobee in 1928 and Hurricane Katrina.","articleSection":null,"image":{"@context":"https:\/\/schema.org","@type":"ImageObject","height":630,"width":1200,"url":"https:\/\/cbsnews2.cbsistatic.com\/hub\/i\/r\/2017\/09\/05\/156eefc5-bff4-4c52-90bf-af6e3020f28e\/thumbnail\/1200x630\/1a48bfcad158fa1b0c7faede02272084\/gettyimages-51618795.jpg"},"keywords":["National Hurricane Center","hurricane irma","hurricane harvey","texas","U.S.","florida","hurricane katrina","louisiana"],"datePublished":"2017-09-07T18:34:35-0400","dateModified":"2017-09-09T22:26:16-0400","author":{"@context":"https:\/\/schema.org","@type":"Organization","name":"CBS News","url":"https:\/\/www.cbsnews.com\/","logo":{"@type":"ImageObject","url":"https:\/\/cbsnews4.cbsistatic.com\/fly\/bundles\/cbsnewscore\/images\/standalone\/cbsnews-logo-600x60.png","width":600,"height":60}},"publisher":{"@context":"https:\/\/schema.org","@type":"Organization","name":"CBS News","url":"https:\/\/www.cbsnews.com\/","logo":{"@type":"ImageObject","url":"https:\/\/cbsnews4.cbsistatic.com\/fly\/bundles\/cbsnewscore\/images\/standalone\/cbsnews-logo-600x60.png","width":600,"height":60}},"articleBody":{"@context":"https:\/\/schema.org","@type":"Text","@id":"#article-entry"},"alternativeHeadline":"Deadliest hurricanes in U.S. history"}
+    </script><script type="application/ld+json">
+      {"@context":"http:\/\/schema.org\/","@type":"WebPage","name":"Deadliest hurricanes in U.S. history","url":"https:\/\/www.cbsnews.com\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/","speakable":{"@type":"SpeakableSpecification","cssSelector":[".meta.selected .hed"],"xpath":["\/\/meta[@name=\"description\"]\/@content"]}}
+    </script><script type="application/ld+json">
+      {"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https:\/\/www.cbsnews.com\/us\/","name":"U.S."}}]}
+    </script><meta property="article:author" content=""><meta property="article:publisher" content="https://www.facebook.com/CBSNews"><meta property="article:published_time" content="2017-09-10T02:26:16Z"><link rel="alternate" href="android-app://com.treemolabs.apps.cbsnews/http/www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/"><link rel="preconnect dns-prefetch" href="//cbsnews1.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews2.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews3.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews4.cbsistatic.com"><link rel="canonical" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-16x16.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" sizes="16x16"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-32x32.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" sizes="32x32"><link rel="shortcut icon" type="image/x-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><link rel="apple-touch-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/apple-touch-icon.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><link rel="preload" href="/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.woff2" as="font" type="font/woff2"><link rel="preload" href="/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.woff2" as="font" type="font/woff2"><link rel="preload" href="/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.woff2" as="font" type="font/woff2"><style>
+      
+@font-face{font-family:'foundation-sans-black';src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.eot");src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.svg#svgFontName") format("svg");font-weight:900;font-style:normal}@font-face{font-family:'foundation-sans-bold';src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.eot");src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.svg#svgFontName") format("svg");font-weight:700;font-style:normal}@font-face{font-family:'foundation-sans-light';src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.eot");src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.svg#svgFontName") format("svg");font-weight:300;font-style:normal}@font-face{font-family:'museo-sans';src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot");src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.svg#svgFontName") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'museo-sans-500';src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.eot");src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.svg#svgFontName") format("svg");font-weight:bold;font-style:normal}@font-face{font-family:'proxima-nova';src:url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.eot");src:url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.woff") format("woff"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.svg#svgFontName") format("svg");font-weight:700;font-style:normal}h1,h2,h3,h4,h5,h6{font-family:"foundation-sans-bold", Helvetica, Roboto, sans-serif;font-weight:700}.site-header{font-family:"Proxima Nova", "proxima-nova", sans-serif;font-weight:700}
+
+
+    </style><link rel="stylesheet preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/css/main.desktop.css?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" as="style"><!--[if IE 8]>
+    <link rel="stylesheet" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/css/desktop/ie8.css?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" />
+    <![endif]--><!--[if IE]>
+    <link rel="stylesheet" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/css/desktop/ie.css?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" />
+    <![endif]--><svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;" class="site-header__icon-definitions"><defs><g id="icon-eye"><path d="M16.5 27C9.7 27 4.2 22.4 1.3 17c3-5.6 8.5-10 15.2-10 6.8 0 12.3 4.4 15.2 10-3 5.4-8.3 10-15.2 10m0-27C7.5 0 0 7.6 0 17s7.4 17 16.5 17c9 0 16.5-7.6 16.5-17S25.6 0 16.5 0"></path><path d="M16.5 25.4c4.6 0 8.3-3.8 8.3-8.6S21 8.2 16.5 8.2C11.8 8.2 8 12 8 16.8s3.8 8.6 8.5 8.6"></path></g><g id="icon-logo"><path d="M21.638 2.22c-.757 0-1.566-.33-2.502-.714L19.1 1.49C17.786.946 16.3.327 14.354.327c-2.802 0-6.32 1.913-8.96 4.873-2.304 2.583-5.05 7.112-5.05 14 0 8.913 7.082 15.826 13.173 15.826 2.458 0 3.904-.677 5.18-1.274l.03-.014c.99-.46 1.844-.857 2.993-.857.966 0 1.875.56 2.43 1.5l.375.63V21.12h-.488l-.03.176c-.8 5.204-4.114 12.946-9.964 12.946-5.786 0-6.972-5.863-6.972-14.67 0-8.596.88-18.466 7.67-18.466 6.06 0 8.65 9.216 9.3 12.04l.04.16h.48V.644l-.37.545c-.57.86-1.39 1.03-2.53 1.03m25.8 22.75c0 7.48-1.99 8.74-6.44 8.74h-3.37V16.9h3.52c3.18 0 6.29.622 6.29 8.065zm-5.56-8.92h-4.24V1.64h1.28c5.74 0 7.52.95 7.52 6.888 0 6.36-1.53 7.524-4.56 7.524zm3.95.43c1.97-.57 6.62-2.16 6.62-7.34 0-2.54-1.21-4.68-3.5-6.18C46.85 1.58 43.93.82 40.72.82H25.87v.82h5.16v32.07h-5.17v.818h15.58c7.327 0 12.25-3.953 12.25-9.843 0-4.034-2.573-6.72-7.864-8.204zm22.26-2.45c-3.93-1.35-7.65-2.63-7.65-7.08 0-1.76.51-5.86 5.24-5.86 5.86 0 8.64 9.55 8.64 11.9v.21h.52V.34l-.36.497c-.69.942-2.08 1.015-2.49 1.015-.075 0-.12-.002-.154-.003-.53 0-1.36-.3-2.03-.56-1.13-.44-2.54-.97-4.14-.97-5.54 0-8.97 5.69-8.97 10.96 0 6.43 4.71 8.18 9.265 9.86 3.82 1.41 7.427 2.74 7.427 6.9 0 4.24-3.1 6.14-6.18 6.14-7.53 0-10.28-11.86-10.28-12.86v-.14h-.51V34.6l.36-.435c.877-1.064 1.528-1.148 2.288-1.148 1.035 0 1.933.353 2.973.763l.085.035c1.41.56 3 1.2 5.39 1.2 4.48 0 9.89-5.02 9.89-11.25 0-6.54-4.733-8.17-9.32-9.74M176.82 1.65V.77h-7.497v.88h3.366c-.09.277-7.1 24.088-7.22 24.51l-7.06-24.51h3.64V.77h-12.04v.88h2.16l3.05 10.674c-.02.062-3.96 13.373-4.09 13.79L144.12 1.65h2.853V.77H103.82v.88h3.64v21.388L94.38.768h-9.506v.88h3.64v31.998h-3.64v.88h8.13v-.88H89.36V4.483l17.72 30.043h1.237V1.65h6.473v31.996h-3.64v.88h25.503V23.99h-.71l-.017.088c-1.19 6.08-4.397 9.568-8.8 9.568h-6.383V16.862h2.544c3.605 0 4.742 3.308 5.436 6.883l.017.088h.71V8.963h-.712l-.016.092c-.737 4.158-2.018 6.927-5.87 6.927h-2.11V1.65h6.186c3.547 0 6.098 2.527 7.377 7.313l.02.08h.705V1.65h2.896c.046.156 9.816 34.194 9.816 34.194h1.307l6.6-22.19 6.45 22.19h1.3L173.58 1.65h3.233 M193.34 18.986c-1.7-2.763-4.952-3.88-8.132-4.973-3.926-1.348-7.634-2.622-7.634-7.05 0-1.755.51-5.836 5.22-5.836 5.845 0 8.616 9.53 8.616 11.882v.23h.56l.016-12.97-.207.28-.06-.11-.08-.12-.1.1c-.53.58-1.81 1.29-2.59 1.29-.51 0-1.19-.25-1.97-.53-1.14-.42-2.55-.93-4.14-.93-1.06 0-2.04.2-2.93.58-3.85 1.55-6.13 6.13-6.13 10.43 0 6.44 4.71 8.19 9.28 9.89 3.81 1.4 7.41 2.73 7.41 6.88 0 4.22-3.09 6.11-6.16 6.11-7.517 0-10.26-11.836-10.26-12.83v-.164h-.148c-.036-.04-.076-.05-.114-.05-.037 0-.077.013-.11.054h-.19v13.5l.396-.48c.863-1.052 1.51-1.14 2.263-1.14.606 0 1.164.127 1.73.31.277.095.564.2.86.31l.377.15.09.03c.92.368 1.924.764 3.177.996.757.166 1.55.275 2.38.275 4.444 0 9.81-5.03 9.81-11.27 0-2.06-.473-3.635-1.266-4.873"></path></g><g id="icon-more" stroke-width="2"><circle cx="2" cy="9" r=".5"></circle><circle cx="8" cy="9" r=".5"></circle><circle cx="14" cy="9" r=".5"></circle></g><g id="icon-news" stroke-width="2"><line x1="4" y1="3" x2="15" y2="3"></line><line x1="4" y1="8" x2="15" y2="8"></line><line x1="4" y1="13" x2="15" y2="13"></line><line x1="0" y1="3" x2="2" y2="3"></line><line x1="0" y1="8" x2="2" y2="8"></line><line x1="0" y1="13" x2="2" y2="13"></line></g><g id="icon-search" stroke-width="2"><circle cx="7" cy="7" r="5.5" fill="none"></circle><line x1="11" y1="11" x2="16" y2="16"></line></g><g id="icon-search-large" stroke-width="2"><circle cx="15" cy="15" r="14" fill="none"></circle><line x1="25" y1="25" x2="34" y2="34"></line></g><g id="icon-shows" stroke-width="2"><rect x="1" y="5" width="14" height="10" fill="none"></rect><line x1="4" y1="0" x2="8" y2="4"></line><line x1="12" y1="0" x2="8" y2="4"></line></g><g id="icon-hamburger" stroke-width="2"><rect x="0" y="0" width="15" height="4"></rect><rect x="0" y="7" width="15" height="4"></rect><rect x="0" y="14" width="15" height="4"></rect></g><g id="icon-close" stroke-width="2"><line x1="0" y1="0" x2="22" y2="22"></line><line x1="22" y1="0" x2="0" y2="22"></line></g><g id="icon-video" stroke-width="2"><circle cx="8" cy="8" r="7" fill="none"></circle><polygon points="7.8 7.3 7.8 8.7 8.8 8"></polygon></g><g id="icon-content-video" stroke-width="2"><polygon points="16,4 16,86 84,47" stroke-linejoin="round"></polygon></g><g id="icon-content-gallery"><path d="M75.8 20h-10l-2-6.7c-.6-1.5-1.7-2.7-3-3.7C59 8.6 57.8 8 56 8H33.7c-1.6 0-3 .5-4.6 1.6-1 1-2 2.2-3 3.7L24 20H14c-3 0-6 1-8 3.3-2.3 2.2-3.4 4.8-3.4 8l-.4 40c0 3 1 6 3.4 8 2.2 2.3 5 3.4 8 3.4h62c3 0 5.7-1 8-3.3 2-2.2 3.2-5 3.2-8L87 31c0-3-1-5.6-3.3-8-2.2-2-4.8-3.2-8-3.2zm-31 50.7c-5.5 0-10-2-14-5.8C27 61 25 56 25 51c0-5.5 2-10 5.8-14 4-3.8 8.5-5.8 14-5.8 5.4 0 10 2 14 5.8 3.8 4 5.7 8.5 5.7 14 0 5.4-2 10-5.8 14-3.8 3.7-8.5 5.7-14 5.7zm-9-29c-2.6 2.5-3.8 5.5-3.8 9s1.2 6.5 3.7 9c2.5 2.4 5.5 3.7 9 3.7s6.5-1.3 9-3.8c2.4-2.4 3.7-5.4 3.7-9 0-3.4-1.3-6.4-3.8-9-2.4-2.4-5.4-3.6-9-3.6-3.4 0-6.4 1.2-9 3.7z"></path></g><g id="icon-loading-spinner"><!-- viewBox="0 0 50 50" --><!-- TODO: we need to bring all icons to the same viewBox --><path d="M43.935 25.145c0-10.318-8.364-18.683-18.683-18.683-10.318 0-18.683 8.365-18.683 18.683h4.067c0-8.07 6.543-14.615 14.615-14.615s14.615 6.543 14.615 14.615h4.068z"><!-- removed in CBSNRVLR-8517 to resolve amp errors
+      	<animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="1s" repeatCount="indefinite"/> 
+      --></path></g></defs></svg><!--[if lt IE 9]>
+    <script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js/libs/html5shiv-printshiv.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"></script>
+    <![endif]--></head><body data-cms-edit='{"url":"https:\/\/cms.cbsnews.com\/content\/gallery\/deadliest-hurricanes-worst-in-the-us-list"}' class="desktop
+ gallery">
+        
+    
+    <!-- src/CbsNews/CoreBundle/Resources/views/Layout/default.desktop.html.twig -->
+
+                <!-- comscorekw=us -->
+    
+
+    
+    <div id="fb-root"></div>
+                    <div id="intromercial-59be6ce1a9c05" class="ad-intromercial" data-ad="intromercial" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-59be6ce1a9c05 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-59be6ce1a9c05");
+    </script></div>
+
+    	<div class="body-container">
+
+                                <header id="site-header:28" role="banner" class="site-header nocontent" data-component="stickyHeader" data-sticky-header-options='{"stickyClass":"site-header--is-sticky"}'><a href="#site-header:28" aria-label="Open the site navigation">
+    <svg viewbox="0 0 34 34" class="site-header__nav-toggle--type-open" aria-hidden="true"><use xlink:href="#icon-hamburger"></use></svg></a>
+  <a href="#x" class="site-header__nav-toggle--type-close" aria-label="Close the site navigation"></a>
+  <svg viewbox="20 9.1 8 7.4" width="436" height="450" class="site-header__icon" aria-hidden="true"><use xlink:href="#icon-eye"></use></svg><h1 class="site-logo">
+    <a href="https://www.cbsnews.com/" rel="home" aria-label="Go to CBS News home page" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|Branding"}' data-invalid-url-rewritten-http="">
+      <svg viewbox="0 0 33 34" class="site-logo__icon site-logo__icon--type-eye" aria-hidden="true"><use xlink:href="#icon-eye"></use></svg><svg viewbox="0 0 195 36" class="site-logo__icon site-logo__icon--type-logo" role="img"><title>CBS News Logo</title><use xlink:href="#icon-logo"></use></svg></a>
+  </h1>
+
+  <nav role="navigation" class="site-nav__container"><ul class="site-nav site-nav--level-1" tabindex="1"><li class="site-nav__item site-nav__item--level-1 site-nav__item--news " data-component="dropdown" data-dropdown-options='{"selectorTrigger":"a","classSelected":"is-active","event":"hover","redisplaySelector":null}'>
+      <a href="/" class="site-nav__item-anchor site-nav__item-anchor--level-1 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 1|News"}'>
+      
+              News
+          </a>
+
+            
+  <ul class="site-nav site-nav--level-2" tabindex="2"><li class="site-nav__item site-nav__item--level-2 site-nav__item--latest is-active" data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/latest\/default","classContainer":"site-nav site-nav--level-flyout site-nav--latest","classSelected":"is-active","preload":true,"redisplaySelector":":first"}'>
+      <a href="/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Latest"}'>
+      
+              Latest
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--video ">
+      <a href="/videos/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Video"}'>
+      
+              Video
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+                
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--us " data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/us\/default","classContainer":"site-nav site-nav--level-flyout site-nav--us","classSelected":"is-active","preload":"","redisplaySelector":":first"}'>
+      <a href="/us/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|US"}'>
+      
+              US
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+                
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--world " data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/world\/default","classContainer":"site-nav site-nav--level-flyout site-nav--world","classSelected":"is-active","preload":"","redisplaySelector":":first"}'>
+      <a href="/world/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|World"}'>
+      
+              World
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+                
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--politics " data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/politics\/default","classContainer":"site-nav site-nav--level-flyout site-nav--politics","classSelected":"is-active","preload":"","redisplaySelector":":first"}'>
+      <a href="/politics/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Politics"}'>
+      
+              Politics
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+                
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--entertainment " data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/entertainment\/default","classContainer":"site-nav site-nav--level-flyout site-nav--entertainment","classSelected":"is-active","preload":"","redisplaySelector":":first"}'>
+      <a href="/entertainment/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Entertainment"}'>
+      
+              Entertainment
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+                
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--health " data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/health\/default","classContainer":"site-nav site-nav--level-flyout site-nav--health","classSelected":"is-active","preload":"","redisplaySelector":":first"}'>
+      <a href="/health/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Health"}'>
+      
+              Health
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+                
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--moneywatch " data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/moneywatch\/default","classContainer":"site-nav site-nav--level-flyout site-nav--moneywatch","classSelected":"is-active","preload":"","redisplaySelector":":first"}'>
+      <a href="/moneywatch/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|MoneyWatch"}'>
+      
+              MoneyWatch
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+                
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--tech " data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/tech\/default","classContainer":"site-nav site-nav--level-flyout site-nav--tech","classSelected":"is-active","preload":"","redisplaySelector":":first"}'>
+      <a href="/tech/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|SciTech"}'>
+      
+              SciTech
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+                
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--crime " data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/crime\/default","classContainer":"site-nav site-nav--level-flyout site-nav--crime","classSelected":"is-active","preload":"","redisplaySelector":":first"}'>
+      <a href="/crimesider/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Crime"}'>
+      
+              Crime
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--sports " data-component="dropdown" data-dropdown-options='{"selectorTrigger":"a","classSelected":"is-active","event":"hover","redisplaySelector":":first"}'>
+      <a href="http://www.cbssports.com/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Sports"}'>
+      
+              Sports
+          </a>
+
+      </li>
+
+      </ul></li>
+
+              
+  
+      
+  
+
+
+                
+  
+  
+  <li class="site-nav__item site-nav__item--level-1 site-nav__item--shows " data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/show-promo-fd\/default","classContainer":"site-nav site-nav--level-flyout site-nav--shows","classSelected":"is-active","preload":"","redisplaySelector":null}'>
+      <a href="#" class="site-nav__item-anchor site-nav__item-anchor--level-1 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 1|Shows"}'>
+      
+              Shows
+          </a>
+
+            
+  <ul class="site-nav site-nav--level-2" tabindex="2"><li class="site-nav__item site-nav__item--level-2 site-nav__item--evening_news ">
+      <a href="/evening-news/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|CBS Evening News"}'>
+      
+              CBS Evening News
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--this_morning ">
+      <a href="/cbs-this-morning/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|CBS This Morning"}'>
+      
+              CBS This Morning
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--48_hours ">
+      <a href="/48-hours/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|48 Hours"}'>
+      
+              48 Hours
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--60_minutes ">
+      <a href="/60-minutes/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|60 Minutes"}'>
+      
+              60 Minutes
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--sunday_morning ">
+      <a href="/sunday-morning/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Sunday Morning"}'>
+      
+              Sunday Morning
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--face_the_nation ">
+      <a href="/face-the-nation/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Face The Nation"}'>
+      
+              Face The Nation
+          </a>
+
+      </li>
+
+      </ul></li>
+
+              
+  
+      
+          
+
+
+                
+  
+  
+  <li class="site-nav__item site-nav__item--level-1 site-nav__item--video " data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/video\/default","classContainer":"site-nav site-nav--level-flyout site-nav--video","classSelected":"is-active","preload":"","redisplaySelector":null}'>
+      <a href="/videos/" class="site-nav__item-anchor site-nav__item-anchor--level-1 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 1|Video"}'>
+      
+              Video
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-1 site-nav__item--cbsn " data-component="dropdown" data-dropdown-options='{"selectorTrigger":"a","classSelected":"is-active","event":"hover","redisplaySelector":null}'>
+      <a href="/live/" class="site-nav__item-anchor site-nav__item-anchor--level-1 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 1|CBSN"}' data-vanity-rewritten="true">
+      
+              CBSN
+          </a>
+
+            
+  <ul class="site-nav site-nav--level-2" tabindex="2"><li class="site-nav__item site-nav__item--level-2 site-nav__item--watch-live ">
+      <a href="/live/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Watch Live"}' data-vanity-rewritten="true">
+      
+              Watch Live
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--originals ">
+      <a href="/cbsn-originals/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|CBSN Originals"}'>
+      
+              CBSN Originals
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--assignment ">
+      <a href="/cbsn-on-assignment/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|CBSN On Assignment"}'>
+      
+              CBSN On Assignment
+          </a>
+
+      </li>
+
+      </ul></li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-1 site-nav__item--live ">
+      <a href="/live/" class="site-nav__item-anchor site-nav__item-anchor--level-1 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 1|LIVE"}' data-vanity-rewritten="true">
+      
+              LIVE
+          </a>
+
+      </li>
+
+              
+  
+      
+  
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-1 site-nav__item--more " data-component="dropdown" data-dropdown-options='{"selectorTrigger":"a","classSelected":"is-active","event":"hover","redisplaySelector":null}'>
+      <a href="#" class="site-nav__item-anchor site-nav__item-anchor--level-1 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 1|More"}'>
+      
+              More
+          </a>
+
+            
+  <ul class="site-nav site-nav--level-2" tabindex="2"><li class="site-nav__item site-nav__item--level-2 site-nav__item--in-depth ">
+      <a href="/in-depth/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|In Depth"}'>
+      
+              In Depth
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--photos ">
+      <a href="/pictures/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Photos"}'>
+      
+              Photos
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--more-mobile ">
+      <a href="/mobile/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Mobile"}'>
+      
+              Mobile
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--more-radio ">
+      <a href="/radio/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Radio"}'>
+      
+              Radio
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--more-local ">
+      <a href="/local/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Local"}'>
+      
+              Local
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--more-cbs-store ">
+      <a href="http://www.cbsstore.com/cbs-news-store-home/index.php?v=cbs-news&amp;ecid=PRF-CBS-300538&amp;pa=PRF-CBS-300538" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Shop"}'>
+      
+              Shop
+          </a>
+
+      </li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--more-cbs-alerts ">
+      <a href="/newsletters/" class="site-nav__item-anchor site-nav__item-anchor--level-2 " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Alerts"}'>
+      
+              Alerts
+          </a>
+
+      </li>
+
+              
+  
+      
+                
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--login ">
+      <a href="https://secure-fly.cbsnews.com/user/login/?ifmsgr=true" class="site-nav__item-anchor site-nav__item-anchor--level-2 popup-link" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 2|Log in\/out"}'>
+      
+              Log In
+          </a>
+
+      </li>
+
+      </ul></li>
+
+              
+  
+      
+          
+
+
+          
+  
+  
+  <li class="site-nav__item site-nav__item--level-1 site-nav__item--search ">
+      <a href="#site-nav__search-form:" class="site-nav__item-anchor site-nav__item-anchor--level-1 site-nav__item--search-link" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty":"Site Header|cbsnews:\/pictures\/deadliest-hurricanes-worst-in-the-us-list\/ Flyout-nav|Level 1|Search"}'>
+              <svg viewbox="0 0 16 16" class="site-nav__item-icon site-nav__item-icon--type-search" aria-hidden="true"><use xlink:href="#icon-search"></use></svg></a>
+
+          <form action="/search/" method="get" class="site-nav__search-form" id="site-nav__search-form:" name="siteNavSearch" target="_top"><!-- keep the : it's not a bug! -->
+  <input name="q" type="search" value="" autocomplete="false" placeholder="Type to search CBS News" class="site-nav__search-field" id="site-nav__search-field"><button type="submit" class="site-nav__search-submit" title="Submit search form">
+    <svg viewbox="0 0 34 34" class="site-nav__search-icon--type-search" aria-hidden="true"><use xlink:href="#icon-search-large"></use></svg></button>
+  <a href="#" title="Close search form" aria-label="Close search form" class="site-nav__search-close">
+    <svg viewbox="0 0 22 22" class="site-nav__search-icon--type-close" aria-hidden="true"><use xlink:href="#icon-close"></use></svg></a>
+</form>
+      </li>
+
+      </ul></nav><figure id="smart-banner-cbsn" class="smart-banner-cbsn" data-is="watch-live" data-component="smartBanner" data-smart-banner-options='{"url":"","bannerAnchorSelector":"","bannerVisibleClass":"smart-banner-cbsn--visible","bannerHiddenClass":"smart-banner-cbsn--hidden","cookieName":"SB_cbsn","retryDays":0,"hideDays":0,"hideOnZoom":false}'><figcaption class="smart-banner-cbsn--headline-wrapper"><a href="https://www.cbsnews.com/live/?ftag=CNM-00-10aac7b" class="smart-banner-cbsn--headline" data-component="cbsnLiveHeadline" data-invalid-url-rewritten-http="">CBSN</a>
+  </figcaption><a href="https://www.cbsnews.com/live/?ftag=CNM-00-10aac7b" class="smart-banner-cbsn--video-container" title="Watch CBSN" data-invalid-url-rewritten-http="">
+    <svg viewbox="0 0 50 50" class="smart-banner-cbsn--video-loading"><use xlink:href="#icon-loading-spinner"></use></svg><video class="smart-banner-cbsn--video" muted autoplay webkit-playsinline playsinline data-component="hlsWrapper"><source src="/common/video/cbsn_header_prod.m3u8" type="application/vnd.apple.mpegurl"></source></video><svg viewbox="-45 -45 180 180" class="smart-banner-cbsn--video-play-button"><use xlink:href="#icon-content-video"></use></svg></a>
+  <button class="smart-banner-cbsn--close" type="button" aria-controls="smart-banner-cbsn" data-label-hidden="Toggle video on" data-label-visible="Toggle video off">Toggle video</button>
+</figure></header><div id="mantle_skin" class="content-primary content-primary-inverse pictures-page">
+                                    <div id="leader-top-59be6ce1a9c05" class="ad-leader-top" data-ad="leader-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-top-59be6ce1a9c05 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-top-59be6ce1a9c05");
+    </script></div>
+
+                <div class="container">
+    <div class="row">
+                    <div class="row">
+    
+            
+                                
+    <div class="col-12 ">
+                                    
+                                    
+                                            
+    
+
+                        <div class="image-gallery content-primary-inverse" data-component="imageGallery" data-image-gallery-options='{"count":30,"index":1,"gridSize":24,"countTemplate":"&lt;span class=\u0022index\u0022&gt;{index}&lt;\/span&gt;&lt;span class=\u0022slash no-padding\u0022&gt;\/&lt;\/span&gt;&lt;span class=\u0022count\u0022&gt;{count}&lt;\/span&gt;"}'>
+                                    <header class="row"><div class="col-8 title-container">
+                            <h1 class="title">Deadliest hurricanes in U.S. history</h1>
+                            
+
+
+<div data-component="sharebar" class="social sharebar_condensed
+            theme-dark
+    
+    ">
+    <div class="social-icons social-button-group">
+    
+        <ul><li class="icon">
+                <a data-button="popup" data-popup="facebook" href="https://www.facebook.com/sharer/sharer.php?app_id=79439656165&amp;u=https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list&amp;display=popup&amp;ref=plugin&amp;src=share_button" title="Share on Facebook" target="_blank">
+                    <span class="facebook">Facebook</span>
+                </a>
+            </li>
+            <li class="icon">
+                              <a data-button="popup" data-popup="twitter" data-height="450" href="https://twitter.com/intent/tweet?text=%20Deadliest%20hurricanes%20in%20U.S.%20history%20&amp;url=https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list&amp;via=cbsnews&amp;related=cnet%2Czdnet" title="Share on Twitter" target="_blank">
+                    <span class="twitter">Twitter</span>
+                </a>
+            </li>
+        </ul></div>
+
+</div>
+
+                        </div>
+                        <div class="col-4 tools">
+                                                            <div class="count pagination" data-item="image-count"><span class="index">1</span><span class="slash ">/</span><span class="count">31</span></div>                                                                                        <div class="thumb-control">
+                                    <div class="thumb-icon-wrapper"><div class="thumb-icon" tabindex="0" aria-label="View Thumbnails" role="button" data-to="thumbs"></div></div>
+                                    <div class="controls">
+                                                                                    <a class="prev disabled" tabindex="2" role="button" aria-label="Previous Image" data-to-nav="previous" data-omniture-track="trackView">Back</a>
+                                                                                <a class="next" tabindex="3" aria-label="Next Image" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/2/" data-to-nav="next" data-omniture-track="trackView" data-invalid-url-rewritten-http="">Next</a>
+                                    </div>
+                                                                            <div class="thumbs" data-item="thumb-viewport">
+    <ul class="thumb-grid" data-item="thumb-grid" data-grid-index="1"><li>
+            <a class="selected" aria-label="Deadliest U.S. hurricanes" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="Deadliest U.S. hurricanes" data-to-image="1" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-1"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/07/8e81aad6-1dad-4922-92b4-7aed633e6a03/thumbnail/60x60/eec09cabef54b35f2135725194e70678/gettyimages-841689686.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/07/8e81aad6-1dad-4922-92b4-7aed633e6a03/thumbnail/60x60/eec09cabef54b35f2135725194e70678/gettyimages-841689686.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/07/8e81aad6-1dad-4922-92b4-7aed633e6a03/thumbnail/120x120/46dae5ccb693d623064f4cdec963fd89/gettyimages-841689686.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="29. Hurricane Floyd" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/2/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="29. Hurricane Floyd" data-to-image="2" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-2"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/05/156eefc5-bff4-4c52-90bf-af6e3020f28e/thumbnail/60x60/cba65cc46b295b2f7de73869b8f4bb11/gettyimages-51618795.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/05/156eefc5-bff4-4c52-90bf-af6e3020f28e/thumbnail/60x60/cba65cc46b295b2f7de73869b8f4bb11/gettyimages-51618795.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/05/156eefc5-bff4-4c52-90bf-af6e3020f28e/thumbnail/120x120/4866fa28db966cf5f6b73ddac9f79a42/gettyimages-51618795.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="28. Hurricane Carol" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/3/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="28. Hurricane Carol" data-to-image="3" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-3"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/05/70af7b75-5cae-441d-88bd-ad0f3d5eb808/thumbnail/60x60/4633c757f2cd935ee0840010eaa0975b/ap-540831082.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/05/70af7b75-5cae-441d-88bd-ad0f3d5eb808/thumbnail/60x60/4633c757f2cd935ee0840010eaa0975b/ap-540831082.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/05/70af7b75-5cae-441d-88bd-ad0f3d5eb808/thumbnail/120x120/38f58d2faf0908b9dc6b80db5056b9be/ap-540831082.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="27. Great Atlantic hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/4/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="27. Great Atlantic hurricane" data-to-image="4" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-4"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/05/bf8da690-b793-4f1b-bc67-ed4d32204612/thumbnail/60x60/092257168d39e369bfd71eee8f711486/ap-4409140110.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/05/bf8da690-b793-4f1b-bc67-ed4d32204612/thumbnail/60x60/092257168d39e369bfd71eee8f711486/ap-4409140110.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/05/bf8da690-b793-4f1b-bc67-ed4d32204612/thumbnail/120x120/5e0d505f6b9b1658125192335a9ee7cf/ap-4409140110.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="26. Hurricane Betsy" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/5/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="26. Hurricane Betsy" data-to-image="5" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-5"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/05/020c804e-fdb7-4a54-a524-8464cf3240fb/thumbnail/60x60/c3de3a0e008d5bb6bae2fa41766167b3/ap-650911028.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/05/020c804e-fdb7-4a54-a524-8464cf3240fb/thumbnail/60x60/c3de3a0e008d5bb6bae2fa41766167b3/ap-650911028.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/05/020c804e-fdb7-4a54-a524-8464cf3240fb/thumbnail/120x120/02c303007b1d21668f6b64567b01d9c0/ap-650911028.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="25. Hurricane Hazel" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/6/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="25. Hurricane Hazel" data-to-image="6" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-6"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/05/c003f2b5-56fc-4929-b585-cf5806719d2a/thumbnail/60x60/55d49388de1a32e120ab6b9fe9ac426e/ap-5410150121.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/05/c003f2b5-56fc-4929-b585-cf5806719d2a/thumbnail/60x60/55d49388de1a32e120ab6b9fe9ac426e/ap-5410150121.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/05/c003f2b5-56fc-4929-b585-cf5806719d2a/thumbnail/120x120/09614209f3b7bd2195cb61fbdf10d712/ap-5410150121.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="24. Hurricane Agnes" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/7/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="24. Hurricane Agnes" data-to-image="7" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-7"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/73e1a2ef-d526-41b0-9eb1-4da1ad87e474/thumbnail/60x60/d0983cb8d28466700fb463bc2a486e18/ap-720623028.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/73e1a2ef-d526-41b0-9eb1-4da1ad87e474/thumbnail/60x60/d0983cb8d28466700fb463bc2a486e18/ap-720623028.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/73e1a2ef-d526-41b0-9eb1-4da1ad87e474/thumbnail/120x120/8fed6d1e7fd4fb7f4faf312407b6e2e6/ap-720623028.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="23. Cedar Keys hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/8/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="23. Cedar Keys hurricane" data-to-image="8" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-8"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/c8f4b5e1-c025-4f1f-a812-6b05f96c0806/thumbnail/60x60/ae6d77b978c30e9ae3b80e850e8ce256/after-great-hurricane-of-1896-wdl4032.png#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/c8f4b5e1-c025-4f1f-a812-6b05f96c0806/thumbnail/60x60/ae6d77b978c30e9ae3b80e850e8ce256/after-great-hurricane-of-1896-wdl4032.png 1x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="22. 1906 Mississippi hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/9/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="22. 1906 Mississippi hurricane" data-to-image="9" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-9"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/d996d169-343a-455b-bb0d-bb3c86ef5258/thumbnail/60x60/1acf80cb08fd5682c4a06053566ce084/pensacola-harbor-debris-1906-hurricane.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/d996d169-343a-455b-bb0d-bb3c86ef5258/thumbnail/60x60/1acf80cb08fd5682c4a06053566ce084/pensacola-harbor-debris-1906-hurricane.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/d996d169-343a-455b-bb0d-bb3c86ef5258/thumbnail/120x120/8709d1199966b89b66bce0a0440ecf0b/pensacola-harbor-debris-1906-hurricane.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="21. Indianola hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/10/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="21. Indianola hurricane" data-to-image="10" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-10"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/85a0c6b9-d096-4b34-9672-db33e7467f72/thumbnail/60x60/f61e945bf75dd6594ca0e63b3cfb1548/screen-shot-2017-09-06-at-1-45-45-pm.png#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/85a0c6b9-d096-4b34-9672-db33e7467f72/thumbnail/60x60/f61e945bf75dd6594ca0e63b3cfb1548/screen-shot-2017-09-06-at-1-45-45-pm.png 1x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="20. Florida Keys hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/11/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="20. Florida Keys hurricane" data-to-image="11" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-11"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/c97ee0ab-672d-4040-9f03-2c7e730051ce/thumbnail/60x60/6c125b8a56d1618bd6d29ab6b53508fc/florida-east-coast-railways-overseas-extension-1906.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/c97ee0ab-672d-4040-9f03-2c7e730051ce/thumbnail/60x60/6c125b8a56d1618bd6d29ab6b53508fc/florida-east-coast-railways-overseas-extension-1906.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/c97ee0ab-672d-4040-9f03-2c7e730051ce/thumbnail/120x120/1b95f0eeea705455b6cd8cf13aafc80f/florida-east-coast-railways-overseas-extension-1906.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="19. 1875 Indianola hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/12/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="19. 1875 Indianola hurricane" data-to-image="12" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-12"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/85b6e1b1-60c5-406d-a4c3-124081b72965/thumbnail/60x60/d0eaafa0576d8d89cfcc8055491cd47f/screen-shot-2017-09-06-at-2-30-02-pm.png#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/85b6e1b1-60c5-406d-a4c3-124081b72965/thumbnail/60x60/d0eaafa0576d8d89cfcc8055491cd47f/screen-shot-2017-09-06-at-2-30-02-pm.png 1x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="18. 1898 Georgia hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/13/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="18. 1898 Georgia hurricane" data-to-image="13" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-13"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/d59d8ef7-823a-46aa-b603-35ab895d38ac/thumbnail/60x60/1e879ecaff78b4c31c1a8b887b264f0d/1898-georgia-hurricane-damage-pic.png#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/d59d8ef7-823a-46aa-b603-35ab895d38ac/thumbnail/60x60/1e879ecaff78b4c31c1a8b887b264f0d/1898-georgia-hurricane-damage-pic.png 1x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="17. Hurricane Diane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/14/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="17. Hurricane Diane" data-to-image="14" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-14"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/f8aa394b-7768-4a27-b7d8-e2344d6ea13e/thumbnail/60x60/5b6617cc69c54807a326df013b9a38c6/ap-5508160370.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/f8aa394b-7768-4a27-b7d8-e2344d6ea13e/thumbnail/60x60/5b6617cc69c54807a326df013b9a38c6/ap-5508160370.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/f8aa394b-7768-4a27-b7d8-e2344d6ea13e/thumbnail/120x120/61b4606b20afa6cb9ce9dce9675717e9/ap-5508160370.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="16. 1938 New England hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/15/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="16. 1938 New England hurricane" data-to-image="15" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-15"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/c0fb9f18-d405-4db5-aec2-cd74cc51770b/thumbnail/60x60/b0193f2b1e84f8afdd0d60fa34314be3/gho1938damage.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/c0fb9f18-d405-4db5-aec2-cd74cc51770b/thumbnail/60x60/b0193f2b1e84f8afdd0d60fa34314be3/gho1938damage.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/c0fb9f18-d405-4db5-aec2-cd74cc51770b/thumbnail/120x120/4a9e4fe79c4d3ee2fdb399f414fe9361/gho1938damage.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="15. Hurricane Camille" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/16/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="15. Hurricane Camille" data-to-image="16" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-16"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/09295227-e239-453e-a069-4d2d60aced91/thumbnail/60x60/8adb8c5b4624e1b1e13dae42709c46fd/ap-690819081.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/09295227-e239-453e-a069-4d2d60aced91/thumbnail/60x60/8adb8c5b4624e1b1e13dae42709c46fd/ap-690819081.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/09295227-e239-453e-a069-4d2d60aced91/thumbnail/120x120/ced1dd87c4f49660b42eccdba5255594/ap-690819081.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="14. 1915 Galveston hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/17/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="14. 1915 Galveston hurricane" data-to-image="17" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-17"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/98229dec-a612-4de7-9c13-e806a6b20fce/thumbnail/60x60/42af251c0bbefb5cd614ba6fea08ffbb/wreckage-of-interurban-tracks-at-virginia-point.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/98229dec-a612-4de7-9c13-e806a6b20fce/thumbnail/60x60/42af251c0bbefb5cd614ba6fea08ffbb/wreckage-of-interurban-tracks-at-virginia-point.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/98229dec-a612-4de7-9c13-e806a6b20fce/thumbnail/120x120/6b12237fe53a7f51f2688f82576c3ef2/wreckage-of-interurban-tracks-at-virginia-point.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="13. 1915 New Orleans hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/18/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="13. 1915 New Orleans hurricane" data-to-image="18" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-18"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/ea201242-9a78-4e6d-9b95-6fa686ef65a8/thumbnail/60x60/5d538b9eebb8f3d87062fb551821570e/1915-hurricane-carbarn01.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/ea201242-9a78-4e6d-9b95-6fa686ef65a8/thumbnail/60x60/5d538b9eebb8f3d87062fb551821570e/1915-hurricane-carbarn01.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/ea201242-9a78-4e6d-9b95-6fa686ef65a8/thumbnail/120x120/0f9c340ca7273148e23f576f6ad53011/1915-hurricane-carbarn01.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="12. 1919 Florida Keys hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/19/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="12. 1919 Florida Keys hurricane" data-to-image="19" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-19"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/bdb93293-9c07-4d0a-af70-f14ea8b12d69/thumbnail/60x60/29dce95de6dcd2b6c33bf9f5c3d44811/1919-flkeys-nolaoverflow-pubdomain.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/bdb93293-9c07-4d0a-af70-f14ea8b12d69/thumbnail/60x60/29dce95de6dcd2b6c33bf9f5c3d44811/1919-flkeys-nolaoverflow-pubdomain.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/bdb93293-9c07-4d0a-af70-f14ea8b12d69/thumbnail/120x120/597813b8b2e2e6f02455be3b875d7718/1919-flkeys-nolaoverflow-pubdomain.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="11. 1909 Grand Isle hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/20/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="11. 1909 Grand Isle hurricane" data-to-image="20" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-20"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/ccf86adf-28a1-48c4-8362-9c5f4ded9867/thumbnail/60x60/4912577e14b40a3389a34eece70d1024/800px-biloxinearhowardafter1909hurricane.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/ccf86adf-28a1-48c4-8362-9c5f4ded9867/thumbnail/60x60/4912577e14b40a3389a34eece70d1024/800px-biloxinearhowardafter1909hurricane.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/ccf86adf-28a1-48c4-8362-9c5f4ded9867/thumbnail/120x120/8a717dbd63e0d9a6e1dfb6ea9a5d5fe8/800px-biloxinearhowardafter1909hurricane.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="10. Great Miami hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/21/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="10. Great Miami hurricane" data-to-image="21" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-21"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/7c60fb18-1738-4b0d-9981-61e8f1eed800/thumbnail/60x60/55dcceffa5959d0d3625467f6d9cdb81/n045910.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/7c60fb18-1738-4b0d-9981-61e8f1eed800/thumbnail/60x60/55dcceffa5959d0d3625467f6d9cdb81/n045910.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/7c60fb18-1738-4b0d-9981-61e8f1eed800/thumbnail/120x120/72bf3266ddb722084c838448aeee1da9/n045910.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="9. Last Island hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/22/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="9. Last Island hurricane" data-to-image="22" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-22"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/2d4d8644-5846-43fa-9640-a8ed74dd8078/thumbnail/60x60/a135d83e4e1218a887c3bcb9f817a504/screen-shot-2017-09-06-at-4-07-56-pm.png#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/2d4d8644-5846-43fa-9640-a8ed74dd8078/thumbnail/60x60/a135d83e4e1218a887c3bcb9f817a504/screen-shot-2017-09-06-at-4-07-56-pm.png 1x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="8. Labor Day hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/23/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="8. Labor Day hurricane" data-to-image="23" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-23"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/fb85ff2d-45fe-4f60-9b52-283e39c18882/thumbnail/60x60/926df9e96c485ca9ce2f044f7e3f1b66/rc03829.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/fb85ff2d-45fe-4f60-9b52-283e39c18882/thumbnail/60x60/926df9e96c485ca9ce2f044f7e3f1b66/rc03829.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/fb85ff2d-45fe-4f60-9b52-283e39c18882/thumbnail/120x120/4b9d2b65f132e381a22ad17b4129f49b/rc03829.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="7. Hurricane Audrey" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/24/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="7. Hurricane Audrey" data-to-image="24" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-24"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/1945055e-3d58-4018-89eb-b693ab6d1580/thumbnail/60x60/1588cd7da9387a8d5cdca1616779b025/ap-5706280103.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/1945055e-3d58-4018-89eb-b693ab6d1580/thumbnail/60x60/1588cd7da9387a8d5cdca1616779b025/ap-5706280103.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/1945055e-3d58-4018-89eb-b693ab6d1580/thumbnail/120x120/9aeeb133f5b7b77cddd7353b926f5cc8/ap-5706280103.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="6. Georgia/South Carolina hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/25/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="6. Georgia/South Carolina hurricane" data-to-image="25" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-25"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/3fafc62b-7e5a-4eb1-9369-88773cf663cb/thumbnail/60x60/61671bd2ff76b7b9facccc06659ad121/georgia-hurricane-1881-713x330.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/3fafc62b-7e5a-4eb1-9369-88773cf663cb/thumbnail/60x60/61671bd2ff76b7b9facccc06659ad121/georgia-hurricane-1881-713x330.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/3fafc62b-7e5a-4eb1-9369-88773cf663cb/thumbnail/120x120/570be0ba482c91a14edc4c98cef3b94b/georgia-hurricane-1881-713x330.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="5. Sea Islands hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/26/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="5. Sea Islands hurricane" data-to-image="26" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-26"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/1ed9637c-5d7e-4140-9655-78e5e7f65faf/thumbnail/60x60/f018a5daa22034efc915918b939fee9f/1893-sea-islands-hurricane-damaged-houses.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/1ed9637c-5d7e-4140-9655-78e5e7f65faf/thumbnail/60x60/f018a5daa22034efc915918b939fee9f/1893-sea-islands-hurricane-damaged-houses.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/1ed9637c-5d7e-4140-9655-78e5e7f65faf/thumbnail/120x120/2c0a1798c92c8c284812aeb2ccbc43b9/1893-sea-islands-hurricane-damaged-houses.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="4. Cheni&egrave;re Caminada hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/27/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="4. Cheni&egrave;re Caminada hurricane" data-to-image="27" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-27"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/9f691820-b117-4917-a60f-e43cce3195f7/thumbnail/60x60/3d4d1d2eb0d891376a6fec477765b798/800px-1893-cheniere-caminada-hurricane-damaged-house.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/9f691820-b117-4917-a60f-e43cce3195f7/thumbnail/60x60/3d4d1d2eb0d891376a6fec477765b798/800px-1893-cheniere-caminada-hurricane-damaged-house.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/9f691820-b117-4917-a60f-e43cce3195f7/thumbnail/120x120/45532971859be6239f87a41725504850/800px-1893-cheniere-caminada-hurricane-damaged-house.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="3. Hurricane Katrina" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/28/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="3. Hurricane Katrina" data-to-image="28" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-28"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/a2f390f4-9b54-47af-974d-56719501dd2d/thumbnail/60x60/9c1b5fa722f91b96a87c7b9be4832cf1/gettyimages-55737628.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/a2f390f4-9b54-47af-974d-56719501dd2d/thumbnail/60x60/9c1b5fa722f91b96a87c7b9be4832cf1/gettyimages-55737628.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/a2f390f4-9b54-47af-974d-56719501dd2d/thumbnail/120x120/e8aa1c5326354623d2bea26cf9ec2d37/gettyimages-55737628.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="2. 1928 Okeechobee hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/29/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="2. 1928 Okeechobee hurricane" data-to-image="29" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-29"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/e24f66e7-7a93-4728-b12c-06679d193420/thumbnail/60x60/fe0958a571d2ade30915050d2e0fe282/1928-okeechobee-aftermath-17.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/e24f66e7-7a93-4728-b12c-06679d193420/thumbnail/60x60/fe0958a571d2ade30915050d2e0fe282/1928-okeechobee-aftermath-17.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/e24f66e7-7a93-4728-b12c-06679d193420/thumbnail/120x120/18f9f948ca3fc440a72fa0da69620947/1928-okeechobee-aftermath-17.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="1. Great Galveston Hurricane" href="https://www.cbsnews.com/pictures/deadliest-hurricanes-worst-in-the-us-list/30/" data-gallery-title="What are the deadliest hurricanes in the U. S.?" data-image-title="1. Great Galveston Hurricane" data-to-image="30" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-30"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/f70914cf-db0a-415f-85ba-d5b3f59069df/thumbnail/60x60/8a3e0f6584ff5554644f12263f0e4692/ap-00090101795.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/f70914cf-db0a-415f-85ba-d5b3f59069df/thumbnail/60x60/8a3e0f6584ff5554644f12263f0e4692/ap-00090101795.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/07/f70914cf-db0a-415f-85ba-d5b3f59069df/thumbnail/120x120/45b689df08068a691c8d31363cee30ab/ap-00090101795.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    
+			    
+            </ul><div class="controls" data-item="grid-control">
+        <span class="prev disabled" data-to-grid="previous">Back</span>
+
+        <ul class="dots" data-item="thumb-grid-dots"></ul><span class="next" data-to-grid="next">Next</span>
+    </div>
+</div>
+
+                                                                    </div>
+                                                    </div>
+                    </header><div class="row viewport">
+                        <div class="col-8">
+                            
+
+<ul class="images"><li class="image selected" data-item="image" data-image-index="1">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/07/8e81aad6-1dad-4922-92b4-7aed633e6a03/resize/620x465/5802a78fce30aa98284841ee726d4697/gettyimages-841689686.jpg#" alt="Deadliest hurricanes in U.S. history " srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/07/8e81aad6-1dad-4922-92b4-7aed633e6a03/resize/620x465/5802a78fce30aa98284841ee726d4697/gettyimages-841689686.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/8e81aad6-1dad-4922-92b4-7aed633e6a03/resize/1240x930/b71ac3bdc747a81ccd80888d1c9e0d55/gettyimages-841689686.jpg 2x"></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="2">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/05/156eefc5-bff4-4c52-90bf-af6e3020f28e/resize/620x465/9d509ac63a6cf14ab5db53c007ed4a1b/gettyimages-51618795.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/05/156eefc5-bff4-4c52-90bf-af6e3020f28e/resize/620x465/9d509ac63a6cf14ab5db53c007ed4a1b/gettyimages-51618795.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/05/156eefc5-bff4-4c52-90bf-af6e3020f28e/resize/1240x930/ee755f464d7c08b56d4e18da6fc8936b/gettyimages-51618795.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="3">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/05/70af7b75-5cae-441d-88bd-ad0f3d5eb808/resize/620x465/ca0b62ecf18ebba6c737566082e6fee8/ap-540831082.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/05/70af7b75-5cae-441d-88bd-ad0f3d5eb808/resize/620x465/ca0b62ecf18ebba6c737566082e6fee8/ap-540831082.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/05/70af7b75-5cae-441d-88bd-ad0f3d5eb808/resize/1240x930/13457fc1c5e5be2c905318da120face1/ap-540831082.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="4">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/05/bf8da690-b793-4f1b-bc67-ed4d32204612/resize/620x465/1ab37049877d2e18eabcd7d3bb4e6b51/ap-4409140110.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/05/bf8da690-b793-4f1b-bc67-ed4d32204612/resize/620x465/1ab37049877d2e18eabcd7d3bb4e6b51/ap-4409140110.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/05/bf8da690-b793-4f1b-bc67-ed4d32204612/resize/1240x930/ef094373b456399892827f04b4f5ab6d/ap-4409140110.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="5">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/05/020c804e-fdb7-4a54-a524-8464cf3240fb/resize/620x465/845c1ffecb2b71d1295560eb093b40c1/ap-650911028.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/05/020c804e-fdb7-4a54-a524-8464cf3240fb/resize/620x465/845c1ffecb2b71d1295560eb093b40c1/ap-650911028.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/05/020c804e-fdb7-4a54-a524-8464cf3240fb/resize/1240x930/7bcb20a0fd2b7f2a8ba5f90d02065749/ap-650911028.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="6">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/05/c003f2b5-56fc-4929-b585-cf5806719d2a/resize/620x465/7907d5e3cb5fe608a5f10fa6cb53f24b/ap-5410150121.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/05/c003f2b5-56fc-4929-b585-cf5806719d2a/resize/620x465/7907d5e3cb5fe608a5f10fa6cb53f24b/ap-5410150121.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/05/c003f2b5-56fc-4929-b585-cf5806719d2a/resize/1240x930/bc2ab3344876988247f66820361027a3/ap-5410150121.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="7">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/73e1a2ef-d526-41b0-9eb1-4da1ad87e474/resize/620x465/e36b74c697e723ea49ea3eb854973722/ap-720623028.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/73e1a2ef-d526-41b0-9eb1-4da1ad87e474/resize/620x465/e36b74c697e723ea49ea3eb854973722/ap-720623028.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/73e1a2ef-d526-41b0-9eb1-4da1ad87e474/resize/1240x930/82292a3e41f7b7f0d7d096911c679397/ap-720623028.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="8">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/c8f4b5e1-c025-4f1f-a812-6b05f96c0806/resize/620x465/9b27100438c3b6a31901995a5f99d161/after-great-hurricane-of-1896-wdl4032.png#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/c8f4b5e1-c025-4f1f-a812-6b05f96c0806/resize/620x465/9b27100438c3b6a31901995a5f99d161/after-great-hurricane-of-1896-wdl4032.png 1x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="9">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/d996d169-343a-455b-bb0d-bb3c86ef5258/resize/620x465/1984677659526df30b55ecb7d6f37a96/pensacola-harbor-debris-1906-hurricane.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/d996d169-343a-455b-bb0d-bb3c86ef5258/resize/620x465/1984677659526df30b55ecb7d6f37a96/pensacola-harbor-debris-1906-hurricane.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/d996d169-343a-455b-bb0d-bb3c86ef5258/resize/1240x930/42eaee43304804cd9a786f6924dfe940/pensacola-harbor-debris-1906-hurricane.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="10">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/85a0c6b9-d096-4b34-9672-db33e7467f72/resize/620x465/3ad44abed9515aa7e4185673afe56487/screen-shot-2017-09-06-at-1-45-45-pm.png#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/85a0c6b9-d096-4b34-9672-db33e7467f72/resize/620x465/3ad44abed9515aa7e4185673afe56487/screen-shot-2017-09-06-at-1-45-45-pm.png 1x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="11">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/c97ee0ab-672d-4040-9f03-2c7e730051ce/resize/620x465/aa3ea179bad754c92f23a1a29bdfa967/florida-east-coast-railways-overseas-extension-1906.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/c97ee0ab-672d-4040-9f03-2c7e730051ce/resize/620x465/aa3ea179bad754c92f23a1a29bdfa967/florida-east-coast-railways-overseas-extension-1906.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/c97ee0ab-672d-4040-9f03-2c7e730051ce/resize/1240x930/652e1a2a255c8a60a7df4814eadd9297/florida-east-coast-railways-overseas-extension-1906.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="12">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/85b6e1b1-60c5-406d-a4c3-124081b72965/resize/620x465/f7b025e8a4d010ed1a0a3a501d39dade/screen-shot-2017-09-06-at-2-30-02-pm.png#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/85b6e1b1-60c5-406d-a4c3-124081b72965/resize/620x465/f7b025e8a4d010ed1a0a3a501d39dade/screen-shot-2017-09-06-at-2-30-02-pm.png 1x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="13">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/d59d8ef7-823a-46aa-b603-35ab895d38ac/resize/620x465/7801084fd7de30fd74b4fd9316eb86ac/1898-georgia-hurricane-damage-pic.png#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/d59d8ef7-823a-46aa-b603-35ab895d38ac/resize/620x465/7801084fd7de30fd74b4fd9316eb86ac/1898-georgia-hurricane-damage-pic.png 1x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="14">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/f8aa394b-7768-4a27-b7d8-e2344d6ea13e/resize/620x465/0d6f9ca19a17a443729dba4d55cf8487/ap-5508160370.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/f8aa394b-7768-4a27-b7d8-e2344d6ea13e/resize/620x465/0d6f9ca19a17a443729dba4d55cf8487/ap-5508160370.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/f8aa394b-7768-4a27-b7d8-e2344d6ea13e/resize/1240x930/30b6c32075680429fbecf81e1ba11575/ap-5508160370.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="15">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/c0fb9f18-d405-4db5-aec2-cd74cc51770b/resize/620x465/523d436579ff112ebf78ea6286d1624d/gho1938damage.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/c0fb9f18-d405-4db5-aec2-cd74cc51770b/resize/620x465/523d436579ff112ebf78ea6286d1624d/gho1938damage.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/c0fb9f18-d405-4db5-aec2-cd74cc51770b/resize/1240x930/7285514461487cf7e4bb5aecfbbb1327/gho1938damage.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="16">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/09295227-e239-453e-a069-4d2d60aced91/resize/620x465/48bbe199a5eef3f89f3aea29e2feae9b/ap-690819081.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/09295227-e239-453e-a069-4d2d60aced91/resize/620x465/48bbe199a5eef3f89f3aea29e2feae9b/ap-690819081.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/09295227-e239-453e-a069-4d2d60aced91/resize/1240x930/ea027210219efdfa9a4a63b2d6ed5c45/ap-690819081.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="17">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/98229dec-a612-4de7-9c13-e806a6b20fce/resize/620x465/3194f6ba292f3f989d2cbc03690a6d2d/wreckage-of-interurban-tracks-at-virginia-point.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/98229dec-a612-4de7-9c13-e806a6b20fce/resize/620x465/3194f6ba292f3f989d2cbc03690a6d2d/wreckage-of-interurban-tracks-at-virginia-point.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/98229dec-a612-4de7-9c13-e806a6b20fce/resize/1240x930/d9d960539c83512a6b427e80c3e3bada/wreckage-of-interurban-tracks-at-virginia-point.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="18">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/ea201242-9a78-4e6d-9b95-6fa686ef65a8/resize/620x465/3da0e38c728219015e00dfab0eaa480c/1915-hurricane-carbarn01.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/ea201242-9a78-4e6d-9b95-6fa686ef65a8/resize/620x465/3da0e38c728219015e00dfab0eaa480c/1915-hurricane-carbarn01.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/ea201242-9a78-4e6d-9b95-6fa686ef65a8/resize/1240x930/86f8e7d294f6b269ec610133a121d5da/1915-hurricane-carbarn01.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="19">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/bdb93293-9c07-4d0a-af70-f14ea8b12d69/resize/620x465/c608f7de674e35049e84095b4a888293/1919-flkeys-nolaoverflow-pubdomain.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/bdb93293-9c07-4d0a-af70-f14ea8b12d69/resize/620x465/c608f7de674e35049e84095b4a888293/1919-flkeys-nolaoverflow-pubdomain.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/bdb93293-9c07-4d0a-af70-f14ea8b12d69/resize/1240x930/772327333060cad2e6120edd37748d61/1919-flkeys-nolaoverflow-pubdomain.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="20">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/ccf86adf-28a1-48c4-8362-9c5f4ded9867/resize/620x465/f3a10e5fe4fbfde8d5186fd471a51068/800px-biloxinearhowardafter1909hurricane.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/ccf86adf-28a1-48c4-8362-9c5f4ded9867/resize/620x465/f3a10e5fe4fbfde8d5186fd471a51068/800px-biloxinearhowardafter1909hurricane.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/ccf86adf-28a1-48c4-8362-9c5f4ded9867/resize/1240x930/8bf418a7b21cfdf8b6602df790fdeeb8/800px-biloxinearhowardafter1909hurricane.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="21">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/7c60fb18-1738-4b0d-9981-61e8f1eed800/resize/620x465/0cc352f204af004b17a09c44bede707d/n045910.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/7c60fb18-1738-4b0d-9981-61e8f1eed800/resize/620x465/0cc352f204af004b17a09c44bede707d/n045910.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/7c60fb18-1738-4b0d-9981-61e8f1eed800/resize/1240x930/3390eb37abff1b72e095f02f67e4a42a/n045910.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="22">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/2d4d8644-5846-43fa-9640-a8ed74dd8078/resize/620x465/56e1627dfca6b01cbf0560ca22fa4ff5/screen-shot-2017-09-06-at-4-07-56-pm.png#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/2d4d8644-5846-43fa-9640-a8ed74dd8078/resize/620x465/56e1627dfca6b01cbf0560ca22fa4ff5/screen-shot-2017-09-06-at-4-07-56-pm.png 1x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="23">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/fb85ff2d-45fe-4f60-9b52-283e39c18882/resize/620x465/81569dfb44ab4abac671b6d85c2a131b/rc03829.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/fb85ff2d-45fe-4f60-9b52-283e39c18882/resize/620x465/81569dfb44ab4abac671b6d85c2a131b/rc03829.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/fb85ff2d-45fe-4f60-9b52-283e39c18882/resize/1240x930/0771cedd6a9456e48926a9bc4ca4e815/rc03829.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="24">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/1945055e-3d58-4018-89eb-b693ab6d1580/resize/620x465/59a0ddd90f3445b8301331683f6e9530/ap-5706280103.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/1945055e-3d58-4018-89eb-b693ab6d1580/resize/620x465/59a0ddd90f3445b8301331683f6e9530/ap-5706280103.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/1945055e-3d58-4018-89eb-b693ab6d1580/resize/1240x930/df541fc2e0c344a14a2b42d48cc735e6/ap-5706280103.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="25">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/3fafc62b-7e5a-4eb1-9369-88773cf663cb/resize/620x465/93e41edc52fef09ba7e6052203d82295/georgia-hurricane-1881-713x330.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/3fafc62b-7e5a-4eb1-9369-88773cf663cb/resize/620x465/93e41edc52fef09ba7e6052203d82295/georgia-hurricane-1881-713x330.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/3fafc62b-7e5a-4eb1-9369-88773cf663cb/resize/1240x930/f8c4d5bf65e73f75ad757ba77c2a7730/georgia-hurricane-1881-713x330.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="26">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/1ed9637c-5d7e-4140-9655-78e5e7f65faf/resize/620x465/562b31d4e775ece2957256caefe44b20/1893-sea-islands-hurricane-damaged-houses.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/1ed9637c-5d7e-4140-9655-78e5e7f65faf/resize/620x465/562b31d4e775ece2957256caefe44b20/1893-sea-islands-hurricane-damaged-houses.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/1ed9637c-5d7e-4140-9655-78e5e7f65faf/resize/1240x930/40522e70f38bb7562e109cd2656c6583/1893-sea-islands-hurricane-damaged-houses.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="27">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/9f691820-b117-4917-a60f-e43cce3195f7/resize/620x465/263090a802bf39f19d30badcf9ef1598/800px-1893-cheniere-caminada-hurricane-damaged-house.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/9f691820-b117-4917-a60f-e43cce3195f7/resize/620x465/263090a802bf39f19d30badcf9ef1598/800px-1893-cheniere-caminada-hurricane-damaged-house.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/06/9f691820-b117-4917-a60f-e43cce3195f7/resize/1240x930/c5e4c4978119e35ea1693cc635d1e2cd/800px-1893-cheniere-caminada-hurricane-damaged-house.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="28">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/a2f390f4-9b54-47af-974d-56719501dd2d/resize/620x465/04dff66a9e297c5ccf9c1cd982258ae4/gettyimages-55737628.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/06/a2f390f4-9b54-47af-974d-56719501dd2d/resize/620x465/04dff66a9e297c5ccf9c1cd982258ae4/gettyimages-55737628.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/06/a2f390f4-9b54-47af-974d-56719501dd2d/resize/1240x930/dfcc7d0896a747467c82f48ec5d51342/gettyimages-55737628.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="29">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/07/e24f66e7-7a93-4728-b12c-06679d193420/resize/620x465/682ac75f3b82300745dc68dd7d1fe2af/1928-okeechobee-aftermath-17.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/07/e24f66e7-7a93-4728-b12c-06679d193420/resize/620x465/682ac75f3b82300745dc68dd7d1fe2af/1928-okeechobee-aftermath-17.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/07/e24f66e7-7a93-4728-b12c-06679d193420/resize/1240x930/ccf9e8e1c9717a9d6a4154c286bcd42a/1928-okeechobee-aftermath-17.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="30">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/f70914cf-db0a-415f-85ba-d5b3f59069df/resize/620x465/2fd5080b4adf5c3720ce493be3995983/ap-00090101795.jpg#" alt="Deadliest hurricanes in U.S. history " class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/f70914cf-db0a-415f-85ba-d5b3f59069df/resize/620x465/2fd5080b4adf5c3720ce493be3995983/ap-00090101795.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/f70914cf-db0a-415f-85ba-d5b3f59069df/resize/1240x930/85453ebd00d001f036cceafa0a457541/ap-00090101795.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    </ul><div class="controls">
+                                <a class="prev" data-to-nav="previous" tabindex="4" role="button" aria-label="Previous Image" data-omniture-track="trackView">
+                                    <div class="arrow">
+                                        <div>Back</div>
+                                    </div>
+                                </a>
+                                <a class="next" data-to-nav="next" tabindex="5" role="button" aria-label="Next Image" data-omniture-track="trackView">
+                                    <div class="arrow">
+                                        <div>Next</div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <div class="row popular-recommended">
+                                <div class="ad-recirc" data-taboola='{"mode":"alternating-thumbnails-a","placement":"Below Gallery Thumbnails"}'></div>
+                            </div>
+                        </div>
+                        <div class="col-4 right-rail-modal">
+                            
+<ul class="image-meta"><li class="meta selected" data-item="meta" data-image-index="1" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="Deadliest U.S. hurricanes" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">Deadliest U.S. hurricanes</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>When a hurricane bears down, there's only so much that can be done against the destruction and loss of life that the storm's heavy winds and rains can cause.</p><p>Here are the recorded U.S. hurricanes that have claimed the most lives, according to the <a href="http://www.nhc.noaa.gov/pdf/nws-nhc-6.pdf" target="_blank">National Weather Service</a>.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> Emily Kask/AFP/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="2" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="29. Hurricane Floyd" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">29. Hurricane Floyd</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Hurricane Floyd killed 56 people in September 1999. The storm, which hit North Carolina as a Category 2 before making its way up to New England, led to the third largest evacuation in U.S. history.&nbsp;</p><p>Here, a North Carolina resident walks in the surf next to a beach house that was destroyed.</p></div>                <p class="credits"><span class="label">Credit:</span> Roberto Schmidt/AFP/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="3" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="28. Hurricane Carol" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">28. Hurricane Carol</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Hurricane Carol killed 60 people in August 1954. The storm particularly affected New England as one of its worst storms on record.&nbsp;</p><p>This photo shows houses submerged and boats pushed up on shore in Martha's Vineyard, Massachusetts.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> DCG/AP</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="4" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="27. Great Atlantic hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">27. Great Atlantic hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>This hurricane killed 64 people in September 1944. Here, people struggle to fight its winds in New York City.</p><p>At its peak, the hurricane reached maximum sustained winds of 145 mph.</p><p>The practice of giving major storms a name did not become regular until 1953.</p></div>                <p class="credits"><span class="label">Credit:</span> John Lent/AP</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="5" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="26. Hurricane Betsy" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">26. Hurricane Betsy</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Betsy left 75 people dead in September 1965.&nbsp;</p><p>The storm battered Florida and the Gulf Coast and was the first in the Atlantic basin to cause more than $1 billion in damage.</p><p>Highway 90, between New Orleans and Gulfport, Mississippi, shown here, was blocked by debris.</p></div>                <p class="credits"><span class="label">Credit:</span> Jack Thornell/AP</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="6" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="25. Hurricane Hazel" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">25. Hurricane Hazel</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Hazel killed 95 people in October 1954. The storm made landfall as a Category 4 hurricane on the North Carolina-South Carolina border, shown here.</p><p>It already had left 400 people dead in Haiti and went on to kill 81 in Canada.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> Anonymous/AP</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="7" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="24. Hurricane Agnes" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">24. Hurricane Agnes</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Hurricane Agnes killed 122 people across eight states in the eastern part of the country in June 1972. At the time, Agnes was the costliest hurricane to date.&nbsp;</p><p>Here, people in Pennsylvania flee their flooded homes by boat.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> Paul Vathis/AP</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="8" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="23. Cedar Keys hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">23. Cedar Keys hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The Cedar Keys hurricane killed 130 people in September 1896. It made landfall in Florida, but brought destruction up the entire East Coast.&nbsp;</p><p>This photo shows residents of Fernandina, Florida, a coastal town that was devastated by the storm.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> State Archive of Florida</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="9" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="22. 1906 Mississippi hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">22. 1906 Mississippi hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The 1906 Mississippi hurricane left 134 people dead after it hit Mississippi, Louisiana, Alabama and Florida in September of that year.&nbsp;</p><p>Pensacola, Florida, pictured here, suffered the most damage.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> State Archive of Florida</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="10" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="21. Indianola hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">21. Indianola hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The Indianola hurricane killed 150 people in August 1886.</p><p>It was the second major hurricane to hit the bustling Gulf Coast town of Indianola, Texas, in 11 years. The town was later abandoned.</p></div>                <p class="credits"><span class="label">Credit:</span> Calhoun County Museum</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="11" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="20. Florida Keys hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">20. Florida Keys hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The Florida Keys hurricane left 164 people dead in October 1906.</p><p>The Florida East Coast Railway, pictured, suffered extensive damage and lost dozens of workers.</p></div>                <p class="credits"><span class="label">Credit:</span> State Library and Archives of Florida</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="12" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="19. 1875 Indianola hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">19. 1875 Indianola hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The 1875 hurricane that hit Indianola, Texas, left 176 people dead. The town rebuilt after the storm only to be hit by another major hurricane in 1886, which wiped out all but two of the town's buildings.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> Calhoun County Museum</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="13" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="18. 1898 Georgia hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">18. 1898 Georgia hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The 1898 Georgia hurricane killed 179 people.</p><p>Brunswick, pictured, was most affected; a 16-foot surge was recorded.</p></div>                <p class="credits"><span class="label">Credit:</span> Georgia Emergency Management Agency</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="14" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="17. Hurricane Diane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">17. Hurricane Diane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Diane killed 184 people when it hit the East Coast in August 1955.</p><p>Here, high tide caused by Diane send a high spray into the air as it pounds the jetties at the mouth of St. Johns River in Florida.</p></div>                <p class="credits"><span class="label">Credit:</span> Jim Kerlin/AP</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="15" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="16. 1938 New England hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">16. 1938 New England hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The 1938 New England hurricane left 256 people dead. It is still the most powerful and deadliest hurricane in New England's recorded history.&nbsp;</p><p>Island Park, Rhode Island, pictured here, was destroyed by a massive 30- to 40-foot wave caused by the storm.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> NOAA</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="16" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="15. Hurricane Camille" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">15. Hurricane Camille</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Camille was the second-most intense tropical cyclone on record to make landfall in the U.S. The storm killed 256 people when it barreled through Louisiana and Mississippi.</p><p>Here, survivors of the storm survey the wreckage of their house, in which two other people died.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> Jack Thornell/AP</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="17" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="14. 1915 Galveston hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">14. 1915 Galveston hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The 1915 Galveston hurricane killed 275 people. It made landfall in Texas as what would now be considered&nbsp;a Category 4 storm.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> The University of Houston Digital Library</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="18" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="13. 1915 New Orleans hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">13. 1915 New Orleans hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The 1915 New Orleans hurricane made landfall in September of that year and killed 275 people.&nbsp;</p><p>This photo shows the damage the storm caused to the Poland Station streetcar barn.</p></div>                <p class="credits"><span class="label">Credit:</span> New Orleans photo</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="19" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="12. 1919 Florida Keys hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">12. 1919 Florida Keys hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The 1919 Florida Keys hurricane moved slowly over Florida and South Texas in September, killing 287 people.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> Public domain</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="20" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="11. 1909 Grand Isle hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">11. 1909 Grand Isle hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The 1909 Grand Isle hurricane caused the most damage in Louisiana and Mississippi and left 350 people dead.&nbsp;</p><p>This photo shows what remains of a house in Biloxi, Mississippi.</p></div>                <p class="credits"><span class="label">Credit:</span> New Orleans Daily Picayune</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="21" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="10. Great Miami hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">10. Great Miami hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The Great Miami hurricane&nbsp;killed 372 people and left thousands homeless in September 1926.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> State Archive of Florida</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="22" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="9. Last Island hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">9. Last Island hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The Last Island hurricane killed 400 people when it swept over the Louisiana coast in August 1856.</p><p>The island itself was so badly battered that it was reduced to several sandbars.</p></div>                <p class="credits"><span class="label">Credit:</span> USGS</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="23" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="8. Labor Day hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">8. Labor Day hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The Great Labor Day hurricane killed 208 people when it battered Florida in September 1935.&nbsp;</p><p>The storm was, at the time, the most intense hurricane ever to make landfall in the U.S.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> Public domain</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="24" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="7. Hurricane Audrey" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">7. Hurricane Audrey</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Hurricane Audrey left 416 people dead in Louisiana and Texas in June 1957.</p><p>Many boats were tossed ashore or sunk during the storm.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> Randy Taylor/AP</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="25" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="6. Georgia/South Carolina hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">6. Georgia/South Carolina hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The Georgia/South Carolina hurricane of August 1881 was particularly destructive because it made landfall at high tide. At least 700 people were killed in the storm.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> Public domain</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="26" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="5. Sea Islands hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">5. Sea Islands hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The Sea Islands hurricane killed at least 1,000 people when it struck Savannah, Georgia, with a powerful storm surge in August 1893.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> American Red Cross</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="27" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="4. Cheni&egrave;re Caminada hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">4. Cheni&egrave;re Caminada hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>This hurricane obliterated the island of Cheni&egrave;re Caminada, Louisiana, in October 1893. Only one home was left in its wake. The storm killed at least 1,100 people.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> Public domain</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="28" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="3. Hurricane Katrina" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">3. Hurricane Katrina</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Katrina left at least 1,200 people dead when it hit the Gulf Coast in August 2005.</p><p>The greatest devastation occurred in New Orleans and other Louisiana communities, but Mississippi, Alabama and Florida were also impacted. The destruction was mostly due to flooding from storm surge and levee failures.&nbsp;</p><p>Here, authorities comb through a devastated New Orleans for bodies.</p></div>                <p class="credits"><span class="label">Credit:</span> Menahem Kahana/AFP/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="29" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="2. 1928 Okeechobee hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">2. 1928 Okeechobee hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>At least 2,500 people died when the 1928 Okeechobee hurricane swept over Puerto Rico and the southern United States. A great number of houses and buildings were swept away in the storm.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> Public domain</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="30" data-image-location="/pictures/deadliest-hurricanes-worst-in-the-us-list/" data-image-title="1. Great Galveston Hurricane" data-gallery-title="Deadliest hurricanes in U.S. history">
+            	            <h1 class="hed">1. Great Galveston Hurricane</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>A large part of Galveston, Texas, was reduced to rubble, as shown in this photo, after being hit by a surprise hurricane on September 8, 1900.&nbsp;</p><p>At least 8,000 people were killed, and some estimates range as high as 12,000, making it the deadliest natural disaster in U.S. history. More than 10,000 people were left homeless.&nbsp;</p></div>                <p class="credits"><span class="label">Credit:</span> AP</p>                    </li>
+    </ul><div class="ad-unit">
+                                <div id="desktop-native-top-59be6ce1a9c05" class="ad-desktop-native-top" data-ad="desktop-native-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing desktop-native-top-59be6ce1a9c05 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("desktop-native-top-59be6ce1a9c05");
+    </script></div>
+
+                            </div>
+                            <div class="ad-unit">
+                                <div id="mpu-top-59be6ce1a9c05" class="ad-mpu-top" data-ad="mpu-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-top-59be6ce1a9c05 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-top-59be6ce1a9c05");
+    </script></div>
+
+                            </div>
+                            <div class="ad-unit">
+                                <div id="mpu-bottom-59be6ce1a9c05" class="ad-mpu-bottom" data-ad="mpu-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-bottom-59be6ce1a9c05 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-bottom-59be6ce1a9c05");
+    </script></div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ad-unit"><div id="leader-bottom-59be6ce1a9c05" class="ad-leader-bottom" data-ad="leader-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-bottom-59be6ce1a9c05 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-bottom-59be6ce1a9c05");
+    </script></div>
+</div>
+                            </div>
+            
+
+                                                                    </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                
+                
+    <div class="col-8 ">
+                                        </div>
+        
+            
+            
+    <div class="col-4 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-emergency-component">
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <script>var searchNav = document.querySelector('.site-nav__item--sports .site-nav__item-anchor'); searchNav&&searchNav.addEventListener('click', function () {window.location = this.href}, true);</script><style>.site-footer{ z-index:0; } .site-header{ z-index:2; } .content-primary{ z-index:1; } [tabindex]:focus {outline: 0; } .desktop .site-nav__item--shows:hover .site-nav__item-content-icon {top: 113px;right: auto;}.desktop .site-nav__item--shows:hover .site-nav__item-hed {font-size: 16px;max-height: none;float: none;margin: 0px;} .front-door .disqus-comment-count { display: none; } .topic-door .disqus-comment-count { display: none; } .listing-mini-sub .disqus-comment-count { display: none; } .desktop #mantle_skin[class*=cbs-this-morning] .hero-text .title a {color: #e4a21b;font-family: "museo-sans", Helvetica, Roboto, sans-serif;font-size: 30px;font-weight: 700;line-height: 1.1;letter-spacing: -0.05em;}</style></li>
+                </ul></div>                                                        </div>
+
+                                                                    </div>
+                                </div>
+                        </div>
+            </div>
+        </div>
+</div>
+
+    </div>
+
+    
+                    
+<footer class="site-footer content-inverse nocontent"><div class="container">
+                        <div class="row">
+            <div class="col-2 link-block">
+                <h5 class="title">CBSNews.com</h5>
+
+                <ul class="items"><li><a href="https://www.cbsnews.com/sitemap/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Site Map"}' data-invalid-url-rewritten-http="">Site Map</a></li>
+                    <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome2?categories=CBS_Interactive:CBSNews&amp;referer=cbsnews.com/main" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Help"}'>Help</a></li>
+                    <li><a href="http://audienceservices.cbs.com/feedback/feedback.htm" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Contact Us"}'>Contact Us</a></li>
+
+                    <li><a href="https://www.cbsnews.com/team/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|CBS Bios"}' data-invalid-url-rewritten-http="" data-vanity-rewritten="true">CBS Bios</a></li>
+                    <li><a href="https://cbs.avature.net/cbsnewscareers" data-omniture-track-data='{"clickProperty": "Site Footer|Careers"}'>Careers</a></li>
+                    <li><a href="http://www.cbsinteractive.com/careers" data-omniture-track-data='{"clickProperty": "Site Footer|CBSi Careers"}'>CBSi Careers</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-internship-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Internships"}' data-invalid-url-rewritten-http="">Internships</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-associates-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Development Programs"}' data-invalid-url-rewritten-http="">Development Programs</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">CBS Interactive</h5>
+
+                <ul class="items"><li><a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Privacy Policy"}'>Privacy Policy</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/adchoice" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Ad Choice"}'>Ad Choice</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Terms of Use"}'>Terms of Use</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/eula" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Mobile User Agreement"}'>Mobile User Agreement</a></li>
+                    <li><a href="http://www.cbscorporation.com/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|About CBS"}'>About CBS</a></li>
+                    <li><a href="http://www.cbsinteractive.com/advertise/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Advertise"}'>Advertise</a></li>
+                    <li><a href="http://cbsimedia.cbs.com/captioning/info.html" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Closed Captioning"}'>Closed Captioning</a></li>
+                    <li><a href="http://www.cbsstore.com/cbs-news-store-home/index.php?v=cbs-news&amp;ecid=PRF-CBS-300538&amp;pa=PRF-CBS-300538" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|CBS News Store"}'>CBS News Store</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">Follow Us</h5>
+
+                <ul class="items"><li><a href="https://www.facebook.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Facebook"}'>Facebook</a></li>
+                    <li><a href="https://twitter.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Twitter"}'>Twitter</a></li>
+                    <li><a href="/rss/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|RSS"}'>RSS</a></li>
+                    <li><a href="https://www.cbsnews.com/newsletters/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Email Newsletters"}' data-invalid-url-rewritten-http="">Email Newsletters</a></li>
+                    <li><a href="http://www.youtube.com/user/CBSNewsOnline" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|YouTube"}'>YouTube</a></li>
+                    <li><a href="https://www.cbsnews.com/radio/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Radio News"}' data-invalid-url-rewritten-http="">CBS Radio News</a></li>
+                    <li><a href="https://www.cbsnews.com/local/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Local"}' data-invalid-url-rewritten-http="">CBS Local</a></li>
+                </ul></div>
+
+            <div class="col-4 push-2">
+                <div class="site-brand">
+                    <div class="logo core-logo"><a href="/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer-Branding"}'>CBS News</a></div>
+                </div>
+
+                <form class="site-search" action="/search/" method="get" data-component="search" data-search-options='{"path":"https:\/\/www.cbsnews.com\/search\/","param":"q"}'>
+                    <input type="search" class="query" maxlength="255" name="q" placeholder="Search..."><button type="submit" class="submit core-search-footer">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="site-brand">
+                <p class="copyright">Copyright &copy; 2017 CBS Interactive Inc.<br>All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer></div> 
+
+                    
+
+    
+
+<script>
+    var CBSNEWS = CBSNEWS || {};
+        CBSNEWS.ad        = {"gpt":{"targeting":{"collection":"audience-acquisition","device":"desktop","ptype":"image_gallery","cid":"deadliest-hurricanes-worst-in-the-us-list","env":"prod_alt"},"adConfig":{"network":{"dev":8264,"qa":8264,"prod":8264},"method":"async-inline","regions":[{"region":"uk","countries":["gb","fr","ie","za","bh","kw","om","qa","sa","ae","iq","eg","ye"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","ph","th","id","vn","hk","in"]}],"adUnits":{"intromercial":{"outOfPage":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"skin"}},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250],[300,1050]],"position":"top"},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"buttonTop":{"sizes":[[88,31]],"position":"top"},"scrollPrestitial":{"sizes":[[980,45]],"position":"top"},"marqueeBottom":{"sizes":[[234,60]],"position":"bottom"},"marquee300Top":{"sizes":[[300,60]],"position":"top"},"marquee300Middle":{"sizes":[[300,60]],"position":"middle"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"leaderBottom":{"sizes":[[728,90],[970,66]],"position":"bottom"},"desktopNativeTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"a832eb3c"}},"nativeShowTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"bf587c26"}},"desktopNativeMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"e0c5ba47"}},"desktopNativeBottom":{"sizes":[[11,11]],"position":"bottom"},"buttonMiddle":{"sizes":[[88,31]],"position":"middle"},"buttonBottom":{"sizes":[[88,31]],"position":"bottom"},"sponsorContentMiddle":{"sizes":[[381,211],[11,11]],"position":"middle","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentMiddle2":{"sizes":[[381,211],[11,11]],"position":"middle2","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentBottom":{"sizes":[[381,211],[11,11]],"position":"bottom","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentTop":{"sizes":[[381,211],[11,11]],"position":"top","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentSmallTop":{"sizes":[[301,151],[11,11]],"position":"top","customTargeting":{"strnativekey":"a2ac4296"}},"sponsorContentTextTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"a6c0ce8b"}},"sponsorBar980Top":{"sizes":[[980,36]],"position":"top"},"sponsorBar620Top":{"sizes":[[620,36]],"position":"top"}},"mobile":{"adUnits":{"intromercial":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileBanner1":{"sizes":[[320,50]],"position":1},"mobileBanner2":{"sizes":[[320,50]],"position":2},"mobileBanner3":{"sizes":[[320,50]],"position":3},"mobileMarquee320Top":{"sizes":[[320,60]],"position":"top"},"mobileSponsorContentTextTop":{"sizes":[[300,250],[11,11],"fluid"],"position":"top","customTargeting":{"strnativekey":"454fd857"}},"mobileSponsorcontentTextMiddle":{"sizes":[[300,250],[320,50],[11,11],"fluid"],"position":"middle","customTargeting":{"strnativekey":"454fd857"}},"mobileInlineFlexPos2":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":2,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexPos3":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":3,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexInc":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":"inc","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileNativeTop":{"sizes":[[11,11]],"position":"top"},"mobileNativeGalleryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"289740d4"}},"mobileSponsorcontentCdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"3c5782bf"}},"mobileSponsorcontentVdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"eba075cc"}}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"amp":{"adUnits":{"ampFlexTop":{"sizes":[[320,50],[300,250]],"position":"top"},"ampFlexBottom":{"sizes":[[320,50],[300,250]],"position":"bottom"},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"ampFlexPos2":{"sizes":[[320,50],[300,250]],"position":2},"ampFlexPos3":{"sizes":[[320,50],[300,250]],"position":3},"ampFlexInc":{"sizes":[[320,50],[300,250]],"position":"inc"},"ampSticky":{"sizes":[[320,50]],"position":"sticky"}}},"siteName":"cbsnews","collapseEmptyDiv":true,"setRefreshUnfilledSlots":false,"setClearUnfilledSlots":true,"disableInitialLoad":false,"disableInitialLoadCompanions":true,"enableHeaderBidding":true,"disableClearTargetingOnInit":true,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["intromercial","leader_top","leader_plus_top","skin","mpu_top","mpu_plus_top","marquee_top","marquee300_top","button_top","sponsor_content_top","sponsor_content_small_top","sponsor_content_text_top","sponsor_bar980_top","sponsor_bar620_top","desktop_native_top","native_show_top","mpu_middle","marquee300_middle","button_middle","desktop_native_middle","sponsor_content_middle","sponsor_content_middle2","desktop_native_bottom","button_bottom","mpu_bottom","leader_bottom","sponsor_content_bottom"],"disableInitialLoadRefresh":"false","disableAdIncrement":false,"enableRepeatedAds":false},"containerId":"59be6ce1a9c05","slotVars":{"network":"8264","siteName":"cbsnews","collapseEmptyDiv":"1","topics":"us","platform":"desktop"},"adType":"gpt","adDivIds":["desktop-native-top-59be6ce1a9c05","mpu-top-59be6ce1a9c05","mpu-bottom-59be6ce1a9c05","leader-bottom-59be6ce1a9c05","intromercial-59be6ce1a9c05","leader-top-59be6ce1a9c05"]},"cookieName":"cbsnews_ad","cookieServicePath":"/ad/ad-cookie/","session":4,"subSession":4,"useFirstPageTargeting":true};
+        CBSNEWS.bsFreq    = 100;
+        CBSNEWS.device    = 'desktop';
+        CBSNEWS.features  = CBSNEWS.features || {};
+        CBSNEWS.tracking  = {"isEnabled":true,"articleAuthorId":["c7425b13-050b-415a-99ee-60b168058f9a"],"articleAuthorName":["elisha fieldstadt"],"articlePubDate":"2017-09-07 22:34:35","articleType":"content_gallery","collectionId":["27f857cf-02b0-486c-a679-eb87c3a71011"],"collectionName":["audience acquisition"],"deviceType":"desktop","isDev":"2","pageType":"image_gallery","photoGalleryId":"544fbf7f-40cc-4e8e-9602-64a72baa1361","photoGalleryTitle":"deadliest hurricanes in u.s. history","siteHier":["us"],"siteSection":"us","siteType":"responsive web","topicId":"f70de83b-b2ef-11e2-a3f0-029118418759","topicName":"us","bkSiteId":3330,"limit":4,"siteName":"cbsnews","demographicKeys":["jobFunction","jobCategory","industry","computerProficiency","companySize","gender","ageGroup","country"],"tealium":{"profile":"cbsnewssite","env":"prod"}};
+        CBSNEWS.tracking._adData      = CBSNEWS.ad;
+        CBSNEWS.tracking.pageViewGuid = null; // Set in managers/tealium
+        CBSNEWS.user      = {
+            appId:          '1501',
+            environment:    'LIVE',
+            platform:       '',
+            publicHost:     'www.cbsnews.com',
+            secureHost:     'secure-fly.cbsnews.com',
+            ursVersion:     'v2.2',
+            ursClientToken: '9b0514bf29ca49e1',
+        };
+        CBSNEWS.disqus =  {
+            shortname: 'cbsnews-prod',
+            publicKey: '60EUVoZHyaBJqXJUxAKYfJgUh8NhuUyO88gGQ7aIw8HsbFOwAl9hLtoCyvyld2A8',
+            sso: {
+                name: 'CBSNews',
+                authLoginUrl: 'https://www.cbsnews.com/disqus/sso/login/',
+                authLogoutUrl: 'https://www.cbsnews.com/disqus/sso/logout/',
+                button: 'https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/images/core/logo.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95',
+                icon: 'https://cbsnews4.cbsistatic.com/fly/favicon.ico?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95',
+                loginUrl: 'https://secure-fly.cbsnews.com/user/registration/?redirectUrl=%2Fdisqus%2Flogin%2F ',
+                logoutUrl: 'https://www.cbsnews.com/user/logout/'
+            }
+        };
+
+
+    var features = ['beanstockSonobi', 'disqus', 'urs'];
+    features.forEach(function(feature) {
+        if (!CBSNEWS.features.hasOwnProperty(feature)) {
+            CBSNEWS.features[feature] = true;
+        }
+    });
+
+    var utag_data = CBSNEWS.tracking;
+
+    var require = {"baseUrl":"https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build","urlArgs":"v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95","config":{"version":{"fly/libs/base64":"0.3.0","fly/libs/easy-xdm-cbsi":"2.4.19.3","fly/libs/jquery.widget":"1.9.2","fly/libs/jquery.cookie":"1.2","fly/libs/jquery.mobile":"1.3.2","fly/libs/jquery.throttle-debounce":"1.1","fly/libs/lazysizes":"1.4.0","fly/libs/omniture.s-code":"1.0","fly/libs/urs":"1.0","fly/utils/data-prefix":"1.0","fly/utils/data-selector":"1.0","fly/utils/function-natives":"1.0","fly/utils/guid":"1.0","fly/utils/log":"1.0","fly/utils/object-helper":"1.0","fly/utils/string-helper":"1.0","fly/utils/string-vars":"1.0","fly/utils/url-helper":"1.0","fly/managers/components":"1.0","fly/managers/cookie":"1.0","fly/managers/debug":"1.0","fly/managers/ad":"2.0","fly/managers/gpt":"4.2","fly/managers/geo":"1.0","fly/managers/image-resolution":"1.0","fly/managers/recurly":"1.0","fly/managers/recurly-billing":"1.0","fly/managers/social-authentication":"1.0","fly/managers/tracking":"1.0","fly/managers/user":"1.0","fly/components/accordion":"1.0","fly/components/alert":"1.0","fly/components/base":"1.0","fly/components/carousel":"1.0","fly/components/credspark":"1.0","fly/components/dependent-field":"1.0","fly/components/dropdown":"1.0","fly/components/form-validate":"1.0","fly/components/iframe-messenger":"1.1","fly/components/image-gallery":"1.0","fly/components/disqus-count":"1.0","fly/managers/disqus":"1.0","fly/components/disqus":"1.0","fly/components/loading":"1.0","fly/components/load-more":"1.0","fly/components/nrelate":"1.0","fly/components/modal":"1.0","fly/components/modal-async":"1.0","fly/components/modal-iframe":"1.0","fly/components/scrollbar":"1.0","fly/components/social-button":"1.0","fly/components/social-counts":"1.1","fly/components/social-links":"1.0","fly/components/tabs":"1.0","fly/managers/clicktale":"1.0","fly/components/poll":"1.0","fly/managers/history":"1.0","libs/fontfaceobserver":"2.0.7","libs/riot":"2.6.2","mpx/libs/uvp":"2.6.0","mpx/libs/hls":"0.6.18","fly/components/fixate":"1.0","fly/components/image-gallery-thumb":"1.0"}},"shim":{"tealium":["jquery"]},"map":{"*":{"ima":"//imasdk.googleapis.com/js/sdkloader/ima3.js","gpt":"//www.googletagservices.com/tag/js/gpt.js","anvato":"https://w3.cdn.anvato.net/player/prod/scripts/anvload.js","nrelate":"//c7.static.nrcdn.com/common_js/0.52.1/nr_loader.min.js","urs":"//urs.cbsnews.com/sdk/urs.js","recirc":"//ddlmj2furo6f2.cloudfront.net/addontrain/recommendations/53f6c74c1344a01ee2000139.js","tealium":"//tags.tiqcdn.com/utag/cbsi/cbsnewssite/prod/utag.js","twitter":"https://platform.twitter.com/widgets.js","credspark":"//www.credspark.com/embed.js","yad":"https://s.yimg.com/uq/syndication/yad.js","newsgator":"//nmp.newsgator.com/ngbuzz/load.ashx/buzz","recurly":"https://js.recurly.com/v4/recurly.js","taboola":"//cdn.taboola.com/libtrc/cbsinteractive-cbsnews/loader.js","sharethrough":"//native.sharethrough.com/assets/tag.js","uvp":"//vidtech.cbsinteractive.com/uvpjs/2.5.3/CBSI-PLAYER.js","index_exchange":"//js-sec.indexww.com/ht/ls-cbsnews.js","sonobi":"//mtrx.go.sonobi.com/morpheus.cbsnews.9251.js"}}};
+</script><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" as="script"><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.desktop.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" as="script"><script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" data-main="main.desktop" async defer></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8178a7f262","applicationID":"8449215","transactionName":"ZAZXNkNRCkEHBxAMX11MdAFFWQtcSQ0JBFdWPFIDXVwBQB87FwxeVA9Q","queueTime":0,"applicationTime":837,"atts":"SEFUQAtLGU8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

@@ -1,0 +1,4790 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<!-- Facebook Pixel Code -->
+<script>
+
+var pixelId = 1575186632756631;
+
+var routeData = [{"name":"kentuckyderby","value":"haskell"},{"name":"golf","value":"pgachampionship"}];
+
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', pixelId); // Insert your pixel ID here.
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1575186632756631&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+<!-- optimizely -->
+<script src="//cdn.optimizely.com/js/3380141068.js"></script>
+<script>var initialData = null;</script>
+<script type="text/javascript">
+	var isPhantom = (navigator.userAgent != null) && navigator.userAgent.indexOf("PhantomJS") >= 0;
+
+	var htmlEle = document.documentElement;
+
+	if (!isPhantom) {
+		htmlEle.className = htmlEle.className + " loading";
+	}
+
+	window.setTimeout(function() {
+		var htmlEle = document.documentElement;
+		htmlEle.className = htmlEle.className.replace(/(\s|^)loading(\s|$)/, " ");
+	}, 10000);
+
+	function getQueryStringParamByName(name) {
+		var name, regex, results;
+		name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+		regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+		results = regex.exec(window.location.search);
+		if (results !== null) {
+			return decodeURIComponent(results[1].replace(/\+/g, " "));
+		} else {
+			return "";
+		}
+	}
+
+	// get hash
+	window.locationHash = location.hash.substr(1);
+	</script>
+  <!-- end optimizely -->
+
+<script type="text/javascript">
+	window.console = window.console || (function(){
+		var c = {}; c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(s){};
+		return c;
+	})();
+
+	// IE10/WIN8 fix
+
+	if (window.console && !window.console.debug) {
+		window.console.debug = function(s){};
+	}
+</script>
+
+<title>College Football Odds And Lines - SportsLine.com</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="2aLOqjrD_NLeJs2vUWBdGbIA-H6e203yQKUpH6pYLZo" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="fragment" content="!">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="refresh" content="21600">
+<meta name="apple-itunes-app" content="app-id=1038113479">
+<meta name="google-play-app" content="app-id=com.sportsline.pro">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" />
+<link href="/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+<link href="/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+<link href="/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+<link href="/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+<link href="../assets/img/smartbanner-android-icon-180x180.png" rel="android-touch-icon" sizes="180x180" />
+<link href="/icon-hires.png" rel="icon" sizes="192x192" />
+<link href="/icon-normal.png" rel="icon" sizes="128x128" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sportsline">
+<meta name="description" value="Get the latest College Football odds, point spreads, money lines and over/unders for popular sportsbooks and view SportsLine's expert analysis of each upcoming game."><meta name="og:description" value="Get the latest College Football odds, point spreads, money lines and over/unders for popular sportsbooks and view SportsLine's expert analysis of each upcoming game."><meta name="twitter:description" value="Get the latest College Football odds, point spreads, money lines and over/unders for popular sportsbooks and view SportsLine's expert analysis of each upcoming game."><meta name="og:title" value="College Football Odds And Lines - SportsLine.com"><meta name="twitter:title" value="College Football Odds And Lines - SportsLine.com"><meta name="og:site_name" value="SportsLine"><meta name="og:image" value="http://www.sportsline.com/assets/img/sprites/logo-social.png"><meta name="twitter:image" value="http://www.sportsline.com/assets/img/sprites/logo-social.png"><meta name="twitter:creator" value="@sportsline"><link rel="canonical" href="http://www.sportsline.com/college-football/odds/"><link rel="image_src" href="http://www.sportsline.com/assets/img/sprites/logo-social.png">
+
+  <base href="/" />
+<meta name="cbs-new/config/environment" content="%7B%22modulePrefix%22%3A%22cbs-new%22%2C%22environment%22%3A%22production%22%2C%22baseURL%22%3A%22/%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%2C%22Array%22%3Atrue%2C%22Function%22%3Atrue%2C%22String%22%3Atrue%7D%7D%2C%22APP%22%3A%7B%22name%22%3A%22cbs-new%22%2C%22version%22%3A%220.0.0+def579a6%22%7D%2C%22ember-cli-mirage%22%3A%7B%22usingProxy%22%3Afalse%2C%22useDefaultPassthroughs%22%3Atrue%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+
+  <link rel="stylesheet" href="assets/vendor.css">
+  <link rel="stylesheet" href="assets/cbs-new-742770c847841627c9bcb2330246d8af.css">
+
+  
+</head>
+<body>
+<noscript>nullnull  
+<div id="SmartBannerGlobalWrapper"></div> 
+<div class="loading-animation">
+ <div class="loading-container">
+  <div class="loader">
+   <div class="loading-bars">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+   </div>
+  </div>
+ </div>
+ <div class="loading-label">
+  LOADING
+ </div>
+</div> 
+<!-- misc 3rd party scripts --> 
+<!-- ad scripts --> 
+<!--
+This next block includes the ad definitions relevant to each page.
+Please note that there is a section for desktop visitors and another section specific to mobile visitors.
+--> 
+<!-- end ad scripts --> 
+<!-- ClickTale Bottom part --> 
+<!-- ClickTale end of Bottom part --> 
+<!-- Smart Banner Start--> 
+<!-- Smart Banner end --> 
+<!-- Google analytics --> 
+<!-- End google analytics --> 
+<div id="ember1662" class="ember-view">
+ <!-- wrapping this with App div to support legacy jQuery nav code --> 
+ <div id="App"> 
+  <a target="_blank" href="https://secure.sportsline.com/help?help_category=CBS_Sports%3ADaily_Fantasy&amp;help_type=sportslinepro.com_sitefeedback2"> 
+   <div class="feedback-button hide"> 
+    <div class="feedback-label">
+      FEEDBACK 
+    </div> 
+    <div class="overlay"></div> 
+   </div> </a> 
+  <div id="ember1689" class="ember-view ad-box not-loaded intromercial loading">
+   <div id="intromercial"> 
+   </div> 
+  </div> 
+  <div id="ember1690" class="ember-view ad-box pin-mobile not-loaded mobileAd loading">
+   <div id="mobile_banner_top"> 
+   </div> 
+  </div> 
+  <div id="ember1699" class="ember-view brand-bar">
+   <div class="left"> 
+    <a target="_blank" href="http://www.sportsline.com/" class="brand-link sportsline">SPORTSLINE</a> 
+    <a target="_blank" href="http://www.cbssports.com/" class="brand-link cbssports">CBS SPORTS</a> 
+    <a target="_blank" href="http://www.247sports.com/" class="brand-link 247sports">247SPORTS</a> 
+    <a target="_blank" href="http://www.scout.com/" class="brand-link scout">SCOUT</a> 
+    <a target="_blank" href="http://www.maxpreps.com/" class="brand-link maxpreps">MAXPREPS</a> 
+   </div> 
+   <div class="right"> 
+    <span class="follow-text">FOLLOW SPORTSLINE</span> 
+    <a target="_blank" class="fb-link" href="https://www.facebook.com/sportsline"><i class="fb"></i></a> 
+    <a target="_blank" class="twit-link" href="https://twitter.com/sportsline"><i class="twit"></i></a> 
+   </div> 
+  </div> 
+  <!-- desktop nav --> 
+  <div id="MainNavDesktop" class=" not-logged-in   "> 
+   <a id="ember1720" href="/" class="ember-view"> 
+    <div class="logo-wrapper" data-ember-action="1751"> 
+     <div class="badge-wrapper"> 
+      <h1>SportsLine Pro Sports Picks &amp; Odds</h1> 
+      <img class="sl" src="/assets/img/logo/S-L-new.svg"> 
+     </div> 
+     <div class="text">
+      <img src="/assets/img/logo/Sportsline-text.svg">
+     </div> 
+    </div> </a> 
+   <!-- main nav links --> 
+   <nav class="touch-enabled"> 
+    <div class="nav-link-wrapper has-sub-menu picks-link  " data-ember-action="2644"> 
+     <span>PICKS<i class="down-arrow"></i></span> 
+     <nav class="hover-menu"> 
+      <a class="hover-link" href="/nfl/picksheet/" target="" data-ember-action="2646">NFL PICKS</a> 
+      <a class="hover-link" href="/mlb/picksheet/" target="" data-ember-action="2648">MLB PICKS</a> 
+      <a class="hover-link" href="/college-football/picksheet/" target="" data-ember-action="2650">CFB PICKS</a> 
+      <a class="hover-link" href="/nfl/pickem/" target="" data-ember-action="2652">NFL POOL PICK'EM</a> 
+     </nav> 
+    </div> 
+    <div class="nav-link-wrapper has-sub-menu odds-link  " data-ember-action="2654"> 
+     <span>ODDS<i class="down-arrow"></i></span> 
+     <nav class="hover-menu"> 
+      <a class="hover-link" href="/nfl/odds/" target="" data-ember-action="2656">NFL ODDS</a> 
+      <a class="hover-link" href="/mlb/odds/" target="" data-ember-action="2658">MLB ODDS</a> 
+      <a class="hover-link" href="/college-football/odds/" target="" data-ember-action="2660">CFB ODDS</a> 
+      <a class="hover-link" href="/nfl/futures/" target="" data-ember-action="2662">FUTURES ODDS</a> 
+     </nav> 
+    </div> 
+    <div class="nav-link-wrapper has-sub-menu dfs-link  " data-ember-action="2664"> 
+     <span>FANTASY<i class="down-arrow"></i></span> 
+     <nav class="hover-menu"> 
+      <a class="hover-link" href="/nfl/daily-fantasy/fanduel/" target="" data-ember-action="2666">DAILY FANTASY</a> 
+      <a class="hover-link" href="/nfl/cheat-sheet/" target="" data-ember-action="2668">FANTASY CHEAT SHEET</a> 
+     </nav> 
+    </div> 
+    <a href="/all/articles/" class="nav-link-wrapper articles-link " target="" data-ember-action="2670"> <span>ARTICLES</span> </a> 
+    <div class="nav-link-wrapper ellipses-menu has-sub-menu " data-ember-action="1752"> 
+     <span>...</span> 
+     <nav class="hover-menu"> 
+      <a class="hover-link" href="/experts/" target="" data-ember-action="2672">EXPERTS</a> 
+     </nav> 
+    </div> 
+   </nav> 
+   <!-- right side stuff...dropdown, help, etc --> 
+   <div class="right-nav"> 
+    <a class="sign-in" href="https://secure.sportsline.com/login?master_product=23350&amp;xurl=http%3A%2F%2Fwww.sportsline.com%2Fcollege-football%2Fodds%2F" data-ember-action="1753"> 
+     <div class="wrap"> 
+      <i class="sign-in-icon"></i> 
+      <span class="text"> SIGN IN </span> 
+     </div> </a> 
+    <a class="become-member-link" href="/join" data-ember-action="1754"> 
+     <div class="wrap"> 
+      <i class="sportsline-icon"></i> 
+      <span class="text"> BECOME A MEMBER </span> 
+     </div> </a> 
+    <div id="desktopNavSearch" class="ember-view game-search-component">
+     <div class="search-id-wrap desktopNavSearch"> 
+      <div class="top-nav" data-ember-action="1764"> 
+       <i class="icon-search"></i> 
+       <span class="desktop">SEARCH</span> 
+      </div> 
+      <div class="search-wrapper  "> 
+       <div class="search-field"> 
+        <input id="ember1773" placeholder="Search games..." type="text" class="ember-view ember-text-field"> 
+       </div> 
+       <div class="help-text show">
+         Enter Team (4 characters or more) 
+        <!----> 
+       </div> 
+       <div class="search-results"> 
+        <!----> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="MainNavMobile"> 
+   <!-- main logo --> 
+   <div class="mobile-nav-gradient"></div> 
+   <a id="ember1780" href="/" class="ember-view"> </a>
+   <div class="logo-wrapper">
+    <a id="ember1780" href="/" class="ember-view"> 
+     <div class="logo-background"></div> 
+     <div class="badge-wrapper"> 
+      <h1>SportsLine Pro Sports Picks &amp; Odds</h1> 
+      <img class="sl" src="/assets/img/logo/S-L-new.svg"> 
+     </div> 
+     <div class="header-title "> 
+      <span>CFB Odds</span> 
+      <span>SIMULATED 10,000+ TIMES</span> 
+     </div> </a>
+    <a id="ember1781" href="/" class="ember-view logo-link">
+     <div data-ember-action="1782">
+      &nbsp;
+     </div> </a> 
+   </div>  
+   <!-- background/close when nav is open --> 
+   <div class="close" data-ember-action="1783"></div> 
+   <!-- main nav links (show when nav is open) --> 
+   <nav id="ScrollableNav"> 
+    <div class="nav-wrapper"> 
+     <div class="nav-link-wrapper has-dropdown-menu picks-link  "> 
+      <div class="wrap" data-ember-action="2674"> 
+       <span class="icon"></span> 
+       <div class="label text ">
+        PICKS
+       </div> 
+       <i class="plus-icon"></i> 
+      </div> 
+      <div class="dropdown-menu hidden"> 
+       <a class="dropdown-option" href="/nfl/picksheet/" target="" data-ember-action="2676">NFL PICKS</a> 
+       <a class="dropdown-option" href="/mlb/picksheet/" target="" data-ember-action="2678">MLB PICKS</a> 
+       <a class="dropdown-option" href="/college-football/picksheet/" target="" data-ember-action="2680">CFB PICKS</a> 
+       <a class="dropdown-option" href="/nfl/pickem/" target="" data-ember-action="2682">NFL POOL PICK'EM</a> 
+      </div> 
+     </div> 
+     <div class="nav-link-wrapper has-dropdown-menu odds-link  "> 
+      <div class="wrap" data-ember-action="2684"> 
+       <span class="icon"></span> 
+       <div class="label text ">
+        ODDS
+       </div> 
+       <i class="plus-icon"></i> 
+      </div> 
+      <div class="dropdown-menu hidden"> 
+       <a class="dropdown-option" href="/nfl/odds/" target="" data-ember-action="2686">NFL ODDS</a> 
+       <a class="dropdown-option" href="/mlb/odds/" target="" data-ember-action="2688">MLB ODDS</a> 
+       <a class="dropdown-option" href="/college-football/odds/" target="" data-ember-action="2690">CFB ODDS</a> 
+       <a class="dropdown-option" href="/nfl/futures/" target="" data-ember-action="2692">FUTURES ODDS</a> 
+      </div> 
+     </div> 
+     <div class="nav-link-wrapper has-dropdown-menu dfs-link  "> 
+      <div class="wrap" data-ember-action="2694"> 
+       <span class="icon"></span> 
+       <div class="label text ">
+        FANTASY
+       </div> 
+       <i class="plus-icon"></i> 
+      </div> 
+      <div class="dropdown-menu hidden"> 
+       <a class="dropdown-option" href="/nfl/daily-fantasy/fanduel/" target="" data-ember-action="2696">DAILY FANTASY</a> 
+       <a class="dropdown-option" href="/nfl/cheat-sheet/" target="" data-ember-action="2698">FANTASY CHEAT SHEET</a> 
+      </div> 
+     </div> 
+     <a href="/all/articles/" class="nav-link-wrapper articles-link " target="" data-ember-action="2700"> <span class="icon"></span> <span>ARTICLES</span> </a> 
+     <div class="nav-link-wrapper more-link has-dropdown-menu "> 
+      <div class="wrap" data-ember-action="1784"> 
+       <span class="icon"></span> 
+       <div class="label text">
+        MORE
+       </div> 
+       <i class="plus-icon"></i> 
+      </div> 
+      <div class="dropdown-menu hidden"> 
+       <a class="dropdown-option" href="/experts/" target="" data-ember-action="2702">EXPERTS</a> 
+      </div> 
+     </div> 
+     <a class="nav-link-wrapper login-link" href="https://secure.sportsline.com/login?master_product=23350&amp;xurl=http%3A%2F%2Fwww.sportsline.com%2Fcollege-football%2Fodds%2F" data-ember-action="1785"> <span class="icon"></span> 
+      <div class="text">
+       <span>SIGN IN</span>
+      </div> </a> 
+    </div> 
+   </nav> 
+   <div class="green-bar  not-logged-in  "> 
+    <div class="burger-menu" data-ember-action="1786"></div> 
+    <div id="mobileNavSearch" class="ember-view game-search-component">
+     <div class="search-id-wrap mobileNavSearch"> 
+      <div class="top-nav" data-ember-action="1788"> 
+       <i class="icon-search"></i> 
+       <span class="desktop">SEARCH</span> 
+      </div> 
+      <div class="search-wrapper  "> 
+       <div class="search-field"> 
+        <input id="ember1789" placeholder="Search games..." type="text" class="ember-view ember-text-field"> 
+       </div> 
+       <div class="help-text show">
+         Enter Team (4 characters or more) 
+        <!----> 
+       </div> 
+       <div class="search-results"> 
+        <!----> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="MobileUpsell"> 
+     <a class="upsell-button" href="/join" data-ember-action="1790"> <span class="text">GET VEGAS EXPERT PICKS</span> </a> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="ember1799" class="ember-view laag-container touch-enabled" style="margin-top: 150px; ">
+   <div class="laag"> 
+    <div id="ember2711" class="ember-view buttons league-btns">
+     <nav role="navigation" class="nav-section "> 
+      <div class="nav mobile-nav "> 
+       <!----> 
+       <div class="pinned-link league-btn nav-link active" data-ember-action="2714"> 
+        <span class="link-text desktop">NFL</span> 
+        <span class="link-text mweb">NFL</span> 
+        <span class="arrow-down"></span> 
+       </div> 
+       <!---->
+       <!----> 
+       <div class="dropdown"> 
+        <div class="league-btn nav-link inactive" data-ember-action="2717"> 
+         <span class="link-text desktop">ALL LEAGUES</span> 
+         <span class="link-text mweb">ALL</span> 
+        </div> 
+        <div class="league-btn nav-link active" data-ember-action="2718"> 
+         <span class="link-text desktop">NFL</span> 
+         <span class="link-text mweb">NFL</span> 
+        </div> 
+        <div class="league-btn nav-link inactive" data-ember-action="2719"> 
+         <span class="link-text desktop">MLB</span> 
+         <span class="link-text mweb">MLB</span> 
+        </div> 
+        <div class="league-btn nav-link inactive" data-ember-action="2720"> 
+         <span class="link-text desktop">CFB</span> 
+         <span class="link-text mweb">CFB</span> 
+        </div> 
+       </div> 
+      </div> 
+     </nav> 
+    </div> 
+    <div class="events"> 
+     <div class="events-wrap"> 
+      <a id="ember2722" href="/nfl/game-forecast/NFL_20170917_CLE@BAL/" class="event ember-view"> 
+       <div class="event-wrap" data-ember-action="2723"> 
+        <div class="top"> 
+         <span class="left">nfl | Sun 9/17 1:00 PM</span> 
+         <!--<span class="right">{{event.createdLaagFormatted}}</span>--> 
+        </div> 
+        <div class="bottom"> 
+         <div class="team-wrap"> 
+          <div class="abbrvs-wrap"> 
+           <div class="away">
+             CLE 
+            <!----> 
+           </div> 
+           <div class="home">
+             @ BAL 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="cons-wrap"> 
+           <div class="away "> 
+            <span class="spacer">&nbsp;</span> 
+            <span class="perc-wrap"> 45% </span> 
+           </div> 
+           <div class="home highlighted"> 
+            <i class="icon consensus"></i> 
+            <span class="perc-wrap"> 55% </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="change-wrap"> 
+          <span class="change"> BAL -7.5 </span> 
+          <span class="change-icon "></span> 
+         </div> 
+        </div> 
+       </div> </a>
+      <a id="ember2725" href="/nfl/game-forecast/NFL_20170917_BUF@CAR/" class="event ember-view"> 
+       <div class="event-wrap" data-ember-action="2726"> 
+        <div class="top"> 
+         <span class="left">nfl | Sun 9/17 1:00 PM</span> 
+         <!--<span class="right">{{event.createdLaagFormatted}}</span>--> 
+        </div> 
+        <div class="bottom"> 
+         <div class="team-wrap"> 
+          <div class="abbrvs-wrap"> 
+           <div class="away">
+             BUF 
+            <!----> 
+           </div> 
+           <div class="home">
+             @ CAR 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="cons-wrap"> 
+           <div class="away "> 
+            <span class="spacer">&nbsp;</span> 
+            <span class="perc-wrap"> 42% </span> 
+           </div> 
+           <div class="home highlighted"> 
+            <i class="icon consensus"></i> 
+            <span class="perc-wrap"> 58% </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="change-wrap"> 
+          <span class="change"> CAR -6.5 </span> 
+          <span class="change-icon down"></span> 
+         </div> 
+        </div> 
+       </div> </a>
+      <a id="ember2728" href="/nfl/game-forecast/NFL_20170917_ARI@IND/" class="event ember-view"> 
+       <div class="event-wrap" data-ember-action="2729"> 
+        <div class="top"> 
+         <span class="left">nfl | Sun 9/17 1:00 PM</span> 
+         <!--<span class="right">{{event.createdLaagFormatted}}</span>--> 
+        </div> 
+        <div class="bottom"> 
+         <div class="team-wrap"> 
+          <div class="abbrvs-wrap"> 
+           <div class="away">
+             ARI 
+            <!----> 
+           </div> 
+           <div class="home">
+             @ IND 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="cons-wrap"> 
+           <div class="away highlighted"> 
+            <i class="icon consensus"></i> 
+            <span class="perc-wrap"> 71% </span> 
+           </div> 
+           <div class="home "> 
+            <span class="spacer">&nbsp;</span> 
+            <span class="perc-wrap"> 29% </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="change-wrap"> 
+          <span class="change"> ARI -7 </span> 
+          <span class="change-icon "></span> 
+         </div> 
+        </div> 
+       </div> </a>
+      <a id="ember2731" href="/nfl/game-forecast/NFL_20170917_TEN@JAC/" class="event ember-view"> 
+       <div class="event-wrap" data-ember-action="2732"> 
+        <div class="top"> 
+         <span class="left">nfl | Sun 9/17 1:00 PM</span> 
+         <!--<span class="right">{{event.createdLaagFormatted}}</span>--> 
+        </div> 
+        <div class="bottom"> 
+         <div class="team-wrap"> 
+          <div class="abbrvs-wrap"> 
+           <div class="away">
+             TEN 
+            <!----> 
+           </div> 
+           <div class="home">
+             @ JAC 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="cons-wrap"> 
+           <div class="away highlighted"> 
+            <i class="icon consensus"></i> 
+            <span class="perc-wrap"> 55% </span> 
+           </div> 
+           <div class="home "> 
+            <span class="spacer">&nbsp;</span> 
+            <span class="perc-wrap"> 45% </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="change-wrap"> 
+          <span class="change"> TEN -1 </span> 
+          <span class="change-icon down"></span> 
+         </div> 
+        </div> 
+       </div> </a>
+      <a id="ember2734" href="/nfl/game-forecast/NFL_20170917_PHI@KC/" class="event ember-view"> 
+       <div class="event-wrap" data-ember-action="2735"> 
+        <div class="top"> 
+         <span class="left">nfl | Sun 9/17 1:00 PM</span> 
+         <!--<span class="right">{{event.createdLaagFormatted}}</span>--> 
+        </div> 
+        <div class="bottom"> 
+         <div class="team-wrap"> 
+          <div class="abbrvs-wrap"> 
+           <div class="away">
+             PHI 
+            <!----> 
+           </div> 
+           <div class="home">
+             @ KC 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="cons-wrap"> 
+           <div class="away "> 
+            <span class="spacer">&nbsp;</span> 
+            <span class="perc-wrap"> 39% </span> 
+           </div> 
+           <div class="home highlighted"> 
+            <i class="icon consensus"></i> 
+            <span class="perc-wrap"> 61% </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="change-wrap"> 
+          <span class="change"> KC -5 </span> 
+          <span class="change-icon up"></span> 
+         </div> 
+        </div> 
+       </div> </a>
+      <a id="ember2737" href="/nfl/game-forecast/NFL_20170917_NE@NO/" class="event ember-view"> 
+       <div class="event-wrap" data-ember-action="2738"> 
+        <div class="top"> 
+         <span class="left">nfl | Sun 9/17 1:00 PM</span> 
+         <!--<span class="right">{{event.createdLaagFormatted}}</span>--> 
+        </div> 
+        <div class="bottom"> 
+         <div class="team-wrap"> 
+          <div class="abbrvs-wrap"> 
+           <div class="away">
+             NE 
+            <!----> 
+           </div> 
+           <div class="home">
+             @ NO 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="cons-wrap"> 
+           <div class="away highlighted"> 
+            <i class="icon consensus"></i> 
+            <span class="perc-wrap"> 61% </span> 
+           </div> 
+           <div class="home "> 
+            <span class="spacer">&nbsp;</span> 
+            <span class="perc-wrap"> 39% </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="change-wrap"> 
+          <span class="change"> NE -6 </span> 
+          <span class="change-icon up"></span> 
+         </div> 
+        </div> 
+       </div> </a>
+      <a id="ember2740" href="/nfl/game-forecast/NFL_20170917_MIN@PIT/" class="event ember-view"> 
+       <div class="event-wrap" data-ember-action="2741"> 
+        <div class="top"> 
+         <span class="left">nfl | Sun 9/17 1:00 PM</span> 
+         <!--<span class="right">{{event.createdLaagFormatted}}</span>--> 
+        </div> 
+        <div class="bottom"> 
+         <div class="team-wrap"> 
+          <div class="abbrvs-wrap"> 
+           <div class="away">
+             MIN 
+            <!----> 
+           </div> 
+           <div class="home">
+             @ PIT 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="cons-wrap"> 
+           <div class="away highlighted"> 
+            <i class="icon consensus"></i> 
+            <span class="perc-wrap"> 56% </span> 
+           </div> 
+           <div class="home "> 
+            <span class="spacer">&nbsp;</span> 
+            <span class="perc-wrap"> 44% </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="change-wrap"> 
+          <span class="change"> PIT -7 </span> 
+          <span class="change-icon up"></span> 
+         </div> 
+        </div> 
+       </div> </a>
+      <a id="ember2743" href="/nfl/game-forecast/NFL_20170917_CHI@TB/" class="event ember-view"> 
+       <div class="event-wrap" data-ember-action="2744"> 
+        <div class="top"> 
+         <span class="left">nfl | Sun 9/17 1:00 PM</span> 
+         <!--<span class="right">{{event.createdLaagFormatted}}</span>--> 
+        </div> 
+        <div class="bottom"> 
+         <div class="team-wrap"> 
+          <div class="abbrvs-wrap"> 
+           <div class="away">
+             CHI 
+            <!----> 
+           </div> 
+           <div class="home">
+             @ TB 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="cons-wrap"> 
+           <div class="away "> 
+            <span class="spacer">&nbsp;</span> 
+            <span class="perc-wrap"> 42% </span> 
+           </div> 
+           <div class="home highlighted"> 
+            <i class="icon consensus"></i> 
+            <span class="perc-wrap"> 58% </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="change-wrap"> 
+          <span class="change"> TB -6.5 </span> 
+          <span class="change-icon up"></span> 
+         </div> 
+        </div> 
+       </div> </a>
+      <a id="ember2746" href="/nfl/game-forecast/NFL_20170917_MIA@LAC/" class="event ember-view"> 
+       <div class="event-wrap" data-ember-action="2747"> 
+        <div class="top"> 
+         <span class="left">nfl | Sun 9/17 4:05 PM</span> 
+         <!--<span class="right">{{event.createdLaagFormatted}}</span>--> 
+        </div> 
+        <div class="bottom"> 
+         <div class="team-wrap"> 
+          <div class="abbrvs-wrap"> 
+           <div class="away">
+             MIA 
+            <!----> 
+           </div> 
+           <div class="home">
+             @ LAC 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="cons-wrap"> 
+           <div class="away "> 
+            <span class="spacer">&nbsp;</span> 
+            <span class="perc-wrap"> 43% </span> 
+           </div> 
+           <div class="home highlighted"> 
+            <i class="icon consensus"></i> 
+            <span class="perc-wrap"> 57% </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="change-wrap"> 
+          <span class="change"> LAC -3.5 </span> 
+          <span class="change-icon up"></span> 
+         </div> 
+        </div> 
+       </div> </a>
+      <a id="ember2749" href="/nfl/game-forecast/NFL_20170917_NYJ@OAK/" class="event ember-view"> 
+       <div class="event-wrap" data-ember-action="2750"> 
+        <div class="top"> 
+         <span class="left">nfl | Sun 9/17 4:05 PM</span> 
+         <!--<span class="right">{{event.createdLaagFormatted}}</span>--> 
+        </div> 
+        <div class="bottom"> 
+         <div class="team-wrap"> 
+          <div class="abbrvs-wrap"> 
+           <div class="away">
+             NYJ 
+            <!----> 
+           </div> 
+           <div class="home">
+             @ OAK 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="cons-wrap"> 
+           <div class="away "> 
+            <span class="spacer">&nbsp;</span> 
+            <span class="perc-wrap"> 29% </span> 
+           </div> 
+           <div class="home highlighted"> 
+            <i class="icon consensus"></i> 
+            <span class="perc-wrap"> 71% </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="change-wrap"> 
+          <span class="change"> OAK -13.5 </span> 
+          <span class="change-icon up"></span> 
+         </div> 
+        </div> 
+       </div> </a>
+      <a id="ember2752" href="/nfl/game-forecast/NFL_20170917_DAL@DEN/" class="event ember-view"> 
+       <div class="event-wrap" data-ember-action="2753"> 
+        <div class="top"> 
+         <span class="left">nfl | Sun 9/17 4:25 PM</span> 
+         <!--<span class="right">{{event.createdLaagFormatted}}</span>--> 
+        </div> 
+        <div class="bottom"> 
+         <div class="team-wrap"> 
+          <div class="abbrvs-wrap"> 
+           <div class="away">
+             DAL 
+            <!----> 
+           </div> 
+           <div class="home">
+             @ DEN 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="cons-wrap"> 
+           <div class="away highlighted"> 
+            <i class="icon consensus"></i> 
+            <span class="perc-wrap"> 58% </span> 
+           </div> 
+           <div class="home "> 
+            <span class="spacer">&nbsp;</span> 
+            <span class="perc-wrap"> 42% </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="change-wrap"> 
+          <span class="change"> DAL -2.5 </span> 
+          <span class="change-icon up"></span> 
+         </div> 
+        </div> 
+       </div> </a>
+      <a id="ember2755" href="/nfl/game-forecast/NFL_20170917_WAS@LAR/" class="event ember-view"> 
+       <div class="event-wrap" data-ember-action="2756"> 
+        <div class="top"> 
+         <span class="left">nfl | Sun 9/17 4:25 PM</span> 
+         <!--<span class="right">{{event.createdLaagFormatted}}</span>--> 
+        </div> 
+        <div class="bottom"> 
+         <div class="team-wrap"> 
+          <div class="abbrvs-wrap"> 
+           <div class="away">
+             WAS 
+            <!----> 
+           </div> 
+           <div class="home">
+             @ LAR 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="cons-wrap"> 
+           <div class="away "> 
+            <span class="spacer">&nbsp;</span> 
+            <span class="perc-wrap"> 39% </span> 
+           </div> 
+           <div class="home highlighted"> 
+            <i class="icon consensus"></i> 
+            <span class="perc-wrap"> 61% </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="change-wrap"> 
+          <span class="change"> LAR -2.5 </span> 
+          <span class="change-icon up"></span> 
+         </div> 
+        </div> 
+       </div> </a>
+      <a id="ember2758" href="/nfl/game-forecast/NFL_20170917_SF@SEA/" class="event ember-view"> 
+       <div class="event-wrap" data-ember-action="2759"> 
+        <div class="top"> 
+         <span class="left">nfl | Sun 9/17 4:25 PM</span> 
+         <!--<span class="right">{{event.createdLaagFormatted}}</span>--> 
+        </div> 
+        <div class="bottom"> 
+         <div class="team-wrap"> 
+          <div class="abbrvs-wrap"> 
+           <div class="away">
+             SF 
+            <!----> 
+           </div> 
+           <div class="home">
+             @ SEA 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="cons-wrap"> 
+           <div class="away "> 
+            <span class="spacer">&nbsp;</span> 
+            <span class="perc-wrap"> 31% </span> 
+           </div> 
+           <div class="home highlighted"> 
+            <i class="icon consensus"></i> 
+            <span class="perc-wrap"> 69% </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="change-wrap"> 
+          <span class="change"> SEA -14 </span> 
+          <span class="change-icon up"></span> 
+         </div> 
+        </div> 
+       </div> </a>
+      <a id="ember2761" href="/nfl/game-forecast/NFL_20170917_GB@ATL/" class="event ember-view"> 
+       <div class="event-wrap" data-ember-action="2762"> 
+        <div class="top"> 
+         <span class="left">nfl | Sun 9/17 8:30 PM</span> 
+         <!--<span class="right">{{event.createdLaagFormatted}}</span>--> 
+        </div> 
+        <div class="bottom"> 
+         <div class="team-wrap"> 
+          <div class="abbrvs-wrap"> 
+           <div class="away">
+             GB 
+            <!----> 
+           </div> 
+           <div class="home">
+             @ ATL 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="cons-wrap"> 
+           <div class="away highlighted"> 
+            <i class="icon consensus"></i> 
+            <span class="perc-wrap"> 59% </span> 
+           </div> 
+           <div class="home "> 
+            <span class="spacer">&nbsp;</span> 
+            <span class="perc-wrap"> 41% </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="change-wrap"> 
+          <span class="change"> ATL -3 </span> 
+          <span class="change-icon up"></span> 
+         </div> 
+        </div> 
+       </div> </a>
+      <a id="ember2764" href="/nfl/game-forecast/NFL_20170918_DET@NYG/" class="event ember-view"> 
+       <div class="event-wrap" data-ember-action="2765"> 
+        <div class="top"> 
+         <span class="left">nfl | Mon 9/18 8:30 PM</span> 
+         <!--<span class="right">{{event.createdLaagFormatted}}</span>--> 
+        </div> 
+        <div class="bottom"> 
+         <div class="team-wrap"> 
+          <div class="abbrvs-wrap"> 
+           <div class="away">
+             DET 
+            <!----> 
+           </div> 
+           <div class="home">
+             @ NYG 
+            <!----> 
+           </div> 
+          </div> 
+          <div class="cons-wrap"> 
+           <div class="away highlighted"> 
+            <i class="icon consensus"></i> 
+            <span class="perc-wrap"> 58% </span> 
+           </div> 
+           <div class="home "> 
+            <span class="spacer">&nbsp;</span> 
+            <span class="perc-wrap"> 42% </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="change-wrap"> 
+          <span class="change"> NYG -3 </span> 
+          <span class="change-icon down"></span> 
+         </div> 
+        </div> 
+       </div> </a> 
+     </div> 
+    </div> 
+    <nav class="right-btns"> 
+     <div class="btn-wrap"> 
+      <span class="left-arrow" data-ember-action="2766"></span> 
+      <span class="right-arrow" data-ember-action="2767"></span> 
+     </div> 
+     <a id="ember2768" href="/nfl/odds/" class="ember-view"><span data-ember-action="2776">ALL ODDS</span></a> 
+    </nav> 
+   </div> 
+  </div> 
+  <div class="pick-odds page"> 
+   <div id="ember1800" class="ember-view ad-box not-loaded header loading">
+    <div id="leader_top"> 
+    </div> 
+   </div> 
+   <div class="main-content three-col"> 
+    <aside> 
+     <section id="ember1809" class="ember-view page-nav-controls">
+      <div class="wrapper"> 
+       <div id="ember1822" class="ember-view buttons league-btns">
+        <header>
+         SPORTS
+        </header> 
+        <hr> 
+        <nav role="navigation" class="nav-section "> 
+         <div class="nav mobile-nav "> 
+          <!---->
+          <!----> 
+          <div class="pinned-link league-btn nav-link active" data-ember-action="1856"> 
+           <span class="link-text ">CFB</span> 
+           <!----> 
+           <span class="arrow-down"></span> 
+          </div> 
+          <div class="dropdown"> 
+           <a href="/nfl/odds/" class="league-btn nav-link inactive" data-ember-action="1857"> <span class="link-text ">NFL</span> 
+            <!----> </a> 
+           <a href="/mlb/odds/" class="league-btn nav-link inactive" data-ember-action="1858"> <span class="link-text ">MLB</span> 
+            <!----> </a> 
+           <a href="/college-football/odds/" class="league-btn nav-link active" data-ember-action="1859"> <span class="link-text ">CFB</span> 
+            <!----> </a> 
+          </div> 
+         </div> 
+        </nav> 
+       </div> 
+       <div id="ember1868" class="ember-view buttons">
+        <header>
+         LINES FROM
+        </header> 
+        <hr> 
+        <nav role="navigation" class="nav-section "> 
+         <div class="nav mobile-nav "> 
+          <div class="pinned-link sportsbook-btn nav-link active" data-ember-action="1870"> 
+           <span class="link-text">BOOKMAKER.EU</span> 
+           <span class="arrow-down"></span> 
+          </div> 
+          <!---->
+          <!----> 
+          <div class="dropdown"> 
+           <a href="" class="sportsbook-btn nav-link active" data-ember-action="1873"> <span class="link-text">BOOKMAKER.EU</span> </a> 
+           <a href="" class="sportsbook-btn nav-link inactive" data-ember-action="1874"> <span class="link-text">COVERS</span> </a> 
+           <a href="" class="sportsbook-btn nav-link inactive" data-ember-action="1875"> <span class="link-text">BETONLINE.AG</span> </a> 
+          </div> 
+         </div> 
+        </nav> 
+       </div> 
+      </div> 
+     </section> 
+    </aside> 
+    <main> 
+     <section class="nav-for-mobile" style="position: fixed; top: 493px; left: 0px; width: 100%; z-index: 3; "> 
+      <section id="ember1876" class="ember-view page-nav-controls">
+       <div class="wrapper"> 
+        <div id="ember1877" class="ember-view buttons league-btns">
+         <header>
+          SPORTS
+         </header> 
+         <hr> 
+         <nav role="navigation" class="nav-section "> 
+          <div class="nav mobile-nav "> 
+           <!---->
+           <!----> 
+           <div class="pinned-link league-btn nav-link active" data-ember-action="1881"> 
+            <span class="link-text ">CFB</span> 
+            <!----> 
+            <span class="arrow-down"></span> 
+           </div> 
+           <div class="dropdown"> 
+            <a href="/nfl/odds/" class="league-btn nav-link inactive" data-ember-action="1882"> <span class="link-text ">NFL</span> 
+             <!----> </a> 
+            <a href="/mlb/odds/" class="league-btn nav-link inactive" data-ember-action="1883"> <span class="link-text ">MLB</span> 
+             <!----> </a> 
+            <a href="/college-football/odds/" class="league-btn nav-link active" data-ember-action="1884"> <span class="link-text ">CFB</span> 
+             <!----> </a> 
+           </div> 
+          </div> 
+         </nav> 
+        </div> 
+        <div id="ember1885" class="ember-view buttons">
+         <header>
+          LINES FROM
+         </header> 
+         <hr> 
+         <nav role="navigation" class="nav-section "> 
+          <div class="nav mobile-nav "> 
+           <div class="pinned-link sportsbook-btn nav-link active" data-ember-action="1887"> 
+            <span class="link-text">BOOKMAKER.EU</span> 
+            <span class="arrow-down"></span> 
+           </div> 
+           <!---->
+           <!----> 
+           <div class="dropdown"> 
+            <a href="" class="sportsbook-btn nav-link active" data-ember-action="1890"> <span class="link-text">BOOKMAKER.EU</span> </a> 
+            <a href="" class="sportsbook-btn nav-link inactive" data-ember-action="1891"> <span class="link-text">COVERS</span> </a> 
+            <a href="" class="sportsbook-btn nav-link inactive" data-ember-action="1892"> <span class="link-text">BETONLINE.AG</span> </a> 
+           </div> 
+          </div> 
+         </nav> 
+        </div> 
+       </div> 
+      </section> 
+     </section> 
+     <div id="ember1901" class="ember-view video-page">
+      <h2 class="header"><i class="badge"></i> WATCH NOW</h2> 
+      <div id="embedVideoContainer_1306258934106" class="embedVideo">
+       <iframe id="embedVideo_1306258934106" name="embedVideo_1306258934106" src="/video/player/embed?args=player_id%3D1306258934106%26channel%3Dvideos%26pcid%3D1048271427815%26width%3D640%26height%3D360%26autoplay%3Dtrue%26comp_ads_enabled%3Dfalse%26war_w%3D432%26war_h%3D243%26lazy_load%3Dtrue%26uvpc%3Dhttp%3A%2F%2Fsports.cbsimg.net%2Fvideo%2Fuvp%2Fconfig%2Fv4%2Fuvp_sportsline.xml%26uvpc_m%3Dhttp%3A%2F%2Fsports.cbsimg.net%2Fvideo%2Fuvp%2Fconfig%2Fv4%2Fuvp_sportsline_m.xml%26partner%3Dsportsline%26partner_m%3Dsportsline_mobile%26resizable%3Dtrue%26domain%3Dsportsline.com" width="640" height="360" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
+      </div> 
+     </div> 
+     <div id="ember1910" class="ember-view odds-table active-four">
+      <div class="header"> 
+       <h1>CFB Odds - BOOKMAKER.EU</h1> 
+       <div class="covers">
+        LAST UPDATE: Sun 9/17 2:01 AM | 
+        <div id="ember1931" class="ember-view tooltip-wrapper fixed-tooltip">
+         <section class="covers"> 
+          <div>
+           ODDS POWERED BY&nbsp;&nbsp;
+           <span class="covers-logo"></span>
+          </div> 
+         </section> 
+        </div>
+       </div> 
+      </div> 
+      <div class="row col-headers"> 
+       <div class="col one  "> 
+        <span class="name">GAME INFO</span> 
+       </div> 
+       <div class="col two  hide-mobile"> 
+        <span class="name">MONEY LINE</span> 
+       </div> 
+       <div class="col three  hide-mobile"> 
+        <span class="name">OVER / UNDER</span> 
+       </div> 
+       <div class="col four  hide-mobile"> 
+        <span class="name">SPREAD</span> 
+       </div> 
+       <div id="ember1944" class="ember-view col mobile mobile-col-drop">
+        <div class="nav mobile-nav "> 
+         <!---->
+         <!----> 
+         <div class="pinned-link nav-link active" data-ember-action="1948"> 
+          <!---->
+          <!----> 
+          <span class="link-text ">SPREAD</span> 
+          <!----> 
+          <span class="arrow-down"></span> 
+         </div> 
+         <div class="dropdown" data-ember-action="1949"> 
+          <div class="menu-item-wrap"> 
+           <div class="nav-link inactive " data-ember-action="1950"> 
+            <span class="link-text ">MONEY LINE</span> 
+            <!----> 
+           </div> 
+           <div class="nav-link inactive " data-ember-action="1951"> 
+            <span class="link-text ">OVER / UNDER</span> 
+            <!----> 
+           </div> 
+           <div class="nav-link inactive highlight" data-ember-action="1952"> 
+            <span class="link-text ">SPREAD</span> 
+            <!----> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="dropdown-overlay" data-ember-action="1953"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row col-headers small date"> 
+       <div class="col one">
+         SATURDAY 9/16 
+       </div> 
+       <div class="col two">
+        &nbsp;
+       </div> 
+       <div class="col three">
+        &nbsp;
+       </div> 
+       <div class="col four hide-mobile">
+        &nbsp;
+       </div> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Connecticut at Virginia"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Scott Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Charlottesville"> 
+        </div> 
+       </div> 
+       <a id="ember1960" href="/college-football/game-forecast/NCAAF_20170916_UCONN@UVA/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T12:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> UCONN </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> UVA </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 18 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 38 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> UVA <i class="change-icon up"></i> </p> 
+          <p>-450</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+51</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> UVA <i class="change-icon up"></i> </p> 
+          <p>-10.5 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Air Force at Michigan"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Michigan Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Ann Arbor"> 
+        </div> 
+       </div> 
+       <a id="ember1997" href="/college-football/game-forecast/NCAAF_20170916_AF@MICH/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T12:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> AF </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> MICH </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 13 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 29 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> MICH <i class="change-icon down"></i> </p> 
+          <p>-2000</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+52.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> MICH <i class="change-icon down"></i> </p> 
+          <p>-23 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Iowa St. at Akron"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="InfoCision Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Akron"> 
+        </div> 
+       </div> 
+       <a id="ember1999" href="/college-football/game-forecast/NCAAF_20170916_IOWAST@AKRON/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T12:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> IOWAST </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> Akron </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 41 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 14 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> IOWAST <i class="change-icon up"></i> </p> 
+          <p>-400</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+63</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> IOWAST <i class="change-icon no-change"></i> </p> 
+          <p>-10 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Oklahoma St. at Pittsburgh"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Heinz Field"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Pittsburgh"> 
+        </div> 
+       </div> 
+       <a id="ember2001" href="/college-football/game-forecast/NCAAF_20170916_OKLAST@PITT/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T12:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> OKLAST </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> PITT </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 59 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 21 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> OKLAST <i class="change-icon down"></i> </p> 
+          <p>-410</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+66</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> OKLAST <i class="change-icon up"></i> </p> 
+          <p>-10.5 (-111)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="UCLA at Memphis"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Liberty Bowl Memorial Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Memphis"> 
+        </div> 
+       </div> 
+       <a id="ember2003" href="/college-football/game-forecast/NCAAF_20170916_UCLA@MEMP/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T12:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> UCLA </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> Memphis </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 45 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 48 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> UCLA <i class="change-icon up"></i> </p> 
+          <p>-150</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+71</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> UCLA <i class="change-icon no-change"></i> </p> 
+          <p>-3 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="N. Illinois at Nebraska"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Memorial Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Lincoln"> 
+        </div> 
+       </div> 
+       <a id="ember2005" href="/college-football/game-forecast/NCAAF_20170916_NILL@NEB/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T12:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> NILL </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> NEB </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 21 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 17 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> NEB <i class="change-icon down"></i> </p> 
+          <p>-400</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+56.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> NEB <i class="change-icon down"></i> </p> 
+          <p>-10.5 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Kansas at Ohio"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Peden Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Athens"> 
+        </div> 
+       </div> 
+       <a id="ember2007" href="/college-football/game-forecast/NCAAF_20170916_KANSAS@OHIO/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T12:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> Kansas </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> Ohio </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 30 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 42 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> OHIO <i class="change-icon down"></i> </p> 
+          <p>-275</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+59</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> OHIO <i class="change-icon no-change"></i> </p> 
+          <p>-7.5 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="UL Lafayette at Texas A&amp;M"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Kyle Field"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="College Station"> 
+        </div> 
+       </div> 
+       <a id="ember2009" href="/college-football/game-forecast/NCAAF_20170916_LALAF@TXAM/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T12:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> LALAF </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> TXAM </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 21 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 45 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> TXAM <i class="change-icon down"></i> </p> 
+          <p>-2000</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+62.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> TXAM <i class="change-icon no-change"></i> </p> 
+          <p>-24 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Baylor at Duke"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Wallace Wade Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Durham"> 
+        </div> 
+       </div> 
+       <a id="ember2011" href="/college-football/game-forecast/NCAAF_20170916_BAYLOR@DUKE/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T12:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> Baylor </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> Duke </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 20 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 34 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> DUKE <i class="change-icon down"></i> </p> 
+          <p>-380</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+61</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> DUKE <i class="change-icon down"></i> </p> 
+          <p>-11 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Coastal Carolina at UAB"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Legion Field"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Birmingham"> 
+        </div> 
+       </div> 
+       <a id="ember2013" href="/college-football/game-forecast/NCAAF_20170916_CSTCAR@UAB/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T13:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> CSTCAR </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> UAB </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 23 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 30 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> UAB <i class="change-icon up"></i> </p> 
+          <p>-130</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+53</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> UAB <i class="change-icon up"></i> </p> 
+          <p>-1 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Utah St. at Wake Forest"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="BB&amp;T Field"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Winston-Salem"> 
+        </div> 
+       </div> 
+       <a id="ember2015" href="/college-football/game-forecast/NCAAF_20170916_UTAHST@WAKE/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T15:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> UTAHST </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> WAKE </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 10 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 46 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> WAKE <i class="change-icon up"></i> </p> 
+          <p>-700</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+51.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> WAKE <i class="change-icon up"></i> </p> 
+          <p>-15.5 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Notre Dame at Boston College"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Alumni Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Chestnut Hill"> 
+        </div> 
+       </div> 
+       <a id="ember2017" href="/college-football/game-forecast/NCAAF_20170916_ND@BC/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T15:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> ND </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> BC </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 49 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 20 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> ND <i class="change-icon up"></i> </p> 
+          <p>-590</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+53</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> ND <i class="change-icon down"></i> </p> 
+          <p>-14 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="North Carolina at Old Dominion"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="S.B. Ballard Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Norfolk"> 
+        </div> 
+       </div> 
+       <a id="ember2019" href="/college-football/game-forecast/NCAAF_20170916_UNC@ODU/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T15:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> UNC </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> ODU </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 53 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 23 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> UNC <i class="change-icon up"></i> </p> 
+          <p>-450</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+56.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> UNC <i class="change-icon up"></i> </p> 
+          <p>-11 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="M. Tenn. St. at Minnesota"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="TCF Bank Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Minneapolis"> 
+        </div> 
+       </div> 
+       <a id="ember2021" href="/college-football/game-forecast/NCAAF_20170916_MTSU@MINN/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T15:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> MTSU </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> MINN </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 3 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 34 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> MINN <i class="change-icon up"></i> </p> 
+          <p>-525</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+50</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> MINN <i class="change-icon up"></i> </p> 
+          <p>-13.5 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="C. Michigan at Syracuse"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Carrier Dome"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Syracuse"> 
+        </div> 
+       </div> 
+       <a id="ember2023" href="/college-football/game-forecast/NCAAF_20170916_CMICH@CUSE/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T15:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> CMICH </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> CUSE </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 17 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 41 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> CUSE <i class="change-icon down"></i> </p> 
+          <p>-300</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+66.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> CUSE <i class="change-icon down"></i> </p> 
+          <p>-7.5 (-105)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Virginia Tech at East Carolina"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Dowdy-Ficklen Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Greenville"> 
+        </div> 
+       </div> 
+       <a id="ember2025" href="/college-football/game-forecast/NCAAF_20170916_VATECH@ECU/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T15:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> VATECH </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> ECU </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 64 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 17 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> VATECH <i class="change-icon up"></i> </p> 
+          <p>-3000</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon no-change"></i> </p> 
+          <p>+60.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> VATECH <i class="change-icon down"></i> </p> 
+          <p>-27 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Wisconsin at BYU"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="LaVell Edwards Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Provo"> 
+        </div> 
+       </div> 
+       <a id="ember2027" href="/college-football/game-forecast/NCAAF_20170916_WISC@BYU/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T15:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> WISC </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> BYU </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 40 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 6 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> WISC <i class="change-icon up"></i> </p> 
+          <p>-640</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+42</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> WISC <i class="change-icon no-change"></i> </p> 
+          <p>-14 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="North Texas at Iowa"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Kinnick Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Iowa City"> 
+        </div> 
+       </div> 
+       <a id="ember2029" href="/college-football/game-forecast/NCAAF_20170916_NTEXAS@IOWA/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T15:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> NTEXAS </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> Iowa </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 14 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 31 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> IOWA <i class="change-icon down"></i> </p> 
+          <p>-1200</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+52</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> IOWA <i class="change-icon down"></i> </p> 
+          <p>-19.5 (-120)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Tennessee at Florida"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Ben Hill Griffin Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Gainesville"> 
+        </div> 
+       </div> 
+       <a id="ember2031" href="/college-football/game-forecast/NCAAF_20170916_TENN@FLA/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T15:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> TENN </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> Florida </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 20 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 26 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> FLA <i class="change-icon up"></i> </p> 
+          <p>-255</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+51</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> FLA <i class="change-icon up"></i> </p> 
+          <p>-7 (-105)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="SMU at TCU"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Amon G. Carter Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Fort Worth"> 
+        </div> 
+       </div> 
+       <a id="ember2033" href="/college-football/game-forecast/NCAAF_20170916_SMU@TCU/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T15:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> SMU </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> TCU </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 36 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 56 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> TCU <i class="change-icon up"></i> </p> 
+          <p>-1600</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon no-change"></i> </p> 
+          <p>+64.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> TCU <i class="change-icon up"></i> </p> 
+          <p>-22 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Purdue at Missouri"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Faurot Field"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Columbia"> 
+        </div> 
+       </div> 
+       <a id="ember2035" href="/college-football/game-forecast/NCAAF_20170916_PURDUE@MIZZOU/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T16:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> Purdue </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> MIZZOU </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 35 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 3 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> MIZZOU <i class="change-icon down"></i> </p> 
+          <p>-220</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+75.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> MIZZOU <i class="change-icon no-change"></i> </p> 
+          <p>-5.5 (-117)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Army at Ohio St."> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Ohio Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Columbus"> 
+        </div> 
+       </div> 
+       <a id="ember2037" href="/college-football/game-forecast/NCAAF_20170916_ARMY@OHIOST/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T16:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> Army </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> OHIOST </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 7 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 38 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> 
+           <!----> <i class="change-icon no-change"></i> </p> 
+          <p>
+           <!----></p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+55</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> OHIOST <i class="change-icon up"></i> </p> 
+          <p>-31.5 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Oregon St. at Washington St."> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Martin Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Pullman"> 
+        </div> 
+       </div> 
+       <a id="ember2039" href="/college-football/game-forecast/NCAAF_20170916_OREGST@WASHST/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T17:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> OREGST </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> WASHST </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 23 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 52 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> WASHST <i class="change-icon down"></i> </p> 
+          <p>-900</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+65</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> WASHST <i class="change-icon up"></i> </p> 
+          <p>-17.5 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Tulane at Oklahoma"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Gaylord Family - Oklahoma Memorial Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Norman"> 
+        </div> 
+       </div> 
+       <a id="ember2041" href="/college-football/game-forecast/NCAAF_20170916_TULANE@OKLA/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T18:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> Tulane </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> OKLA </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 14 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 56 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> 
+           <!----> <i class="change-icon no-change"></i> </p> 
+          <p>
+           <!----></p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+52.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> OKLA <i class="change-icon down"></i> </p> 
+          <p>-33 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Kent St. at Marshall"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Joan C. Edwards Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Huntington"> 
+        </div> 
+       </div> 
+       <a id="ember2043" href="/college-football/game-forecast/NCAAF_20170916_KENTST@MRSHL/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T18:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> KENTST </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> MRSHL </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 0 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 21 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> MRSHL <i class="change-icon up"></i> </p> 
+          <p>-525</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+50</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> MRSHL <i class="change-icon up"></i> </p> 
+          <p>-14 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Louisiana Tech at W. Kentucky"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Houchens Industries-L.T. Smith Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Bowling Green"> 
+        </div> 
+       </div> 
+       <a id="ember2045" href="/college-football/game-forecast/NCAAF_20170916_LATECH@WKY/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T19:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> LATECH </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> WKY </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 23 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 22 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> WKY <i class="change-icon down"></i> </p> 
+          <p>-185</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon no-change"></i> </p> 
+          <p>+62</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> WKY <i class="change-icon down"></i> </p> 
+          <p>-4 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="App. St. at Texas State"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Bobcat Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="San Marcos"> 
+        </div> 
+       </div> 
+       <a id="ember2047" href="/college-football/game-forecast/NCAAF_20170916_APLST@TXSTSM/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T19:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> APLST </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> TXSTSM </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 20 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 13 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> APLST <i class="change-icon down"></i> </p> 
+          <p>-1600</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+48.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> APLST <i class="change-icon no-change"></i> </p> 
+          <p>-21.5 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Colorado St. at Alabama"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Bryant-Denny Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Tuscaloosa"> 
+        </div> 
+       </div> 
+       <a id="ember2049" href="/college-football/game-forecast/NCAAF_20170916_COLOST@BAMA/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T19:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> COLOST </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> Alabama </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 23 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 41 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> 
+           <!----> <i class="change-icon no-change"></i> </p> 
+          <p>
+           <!----></p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+55.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> BAMA <i class="change-icon up"></i> </p> 
+          <p>-31 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Tulsa at Toledo"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Glass Bowl"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Toledo"> 
+        </div> 
+       </div> 
+       <a id="ember2051" href="/college-football/game-forecast/NCAAF_20170916_TULSA@TOLEDO/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T19:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> Tulsa </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> Toledo </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 51 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 54 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> TOLEDO <i class="change-icon down"></i> </p> 
+          <p>-290</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+74</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> TOLEDO <i class="change-icon down"></i> </p> 
+          <p>-7 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Idaho at W. Michigan"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Waldo Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Kalamazoo"> 
+        </div> 
+       </div> 
+       <a id="ember2053" href="/college-football/game-forecast/NCAAF_20170916_IDAHO@WMICH/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T19:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> Idaho </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> WMICH </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 28 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 37 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> WMICH <i class="change-icon up"></i> </p> 
+          <p>-1000</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+55</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> WMICH <i class="change-icon up"></i> </p> 
+          <p>-17 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Southern Miss at La.-Monroe"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Malone Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Monroe"> 
+        </div> 
+       </div> 
+       <a id="ember2055" href="/college-football/game-forecast/NCAAF_20170916_USM@LAMON/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T19:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> USM </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> LAMON </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 28 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 17 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> USM <i class="change-icon up"></i> </p> 
+          <p>-286</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+55</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> USM <i class="change-icon no-change"></i> </p> 
+          <p>-7 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Oregon at Wyoming"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="War Memorial Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Laramie"> 
+        </div> 
+       </div> 
+       <a id="ember2057" href="/college-football/game-forecast/NCAAF_20170916_OREG@WYO/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T19:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> Oregon </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> Wyoming </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 49 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 13 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> OREG <i class="change-icon no-change"></i> </p> 
+          <p>-525</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+66</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> OREG <i class="change-icon up"></i> </p> 
+          <p>-13.5 (-115)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="LSU at Miss. St."> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Davis Wade Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Starkville"> 
+        </div> 
+       </div> 
+       <a id="ember2059" href="/college-football/game-forecast/NCAAF_20170916_LSU@MISSST/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T19:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> LSU </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> MISSST </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 7 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 37 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> LSU <i class="change-icon up"></i> </p> 
+          <p>-280</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+53</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> LSU <i class="change-icon up"></i> </p> 
+          <p>-7.5 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Kentucky at South Carolina"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Williams-Brice Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Columbia"> 
+        </div> 
+       </div> 
+       <a id="ember2061" href="/college-football/game-forecast/NCAAF_20170916_UK@SC/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T19:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> UK </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> SC </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 23 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 13 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> SC <i class="change-icon down"></i> </p> 
+          <p>-240</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+47.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> SC <i class="change-icon up"></i> </p> 
+          <p>-6 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Georgia State at Penn St."> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Beaver Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="University Park"> 
+        </div> 
+       </div> 
+       <a id="ember2063" href="/college-football/game-forecast/NCAAF_20170916_GAST@PSU/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T19:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> GAST </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> PSU </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 0 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 56 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> 
+           <!----> <i class="change-icon no-change"></i> </p> 
+          <p>
+           <!----></p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+54.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> PSU <i class="change-icon down"></i> </p> 
+          <p>-37.5 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Bowling Green at Northwestern"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Ryan Field"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Evanston"> 
+        </div> 
+       </div> 
+       <a id="ember2065" href="/college-football/game-forecast/NCAAF_20170916_BGREEN@NWEST/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T19:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> BGREEN </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> NWEST </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 7 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 49 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> NWEST <i class="change-icon down"></i> </p> 
+          <p>-1500</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+56</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> NWEST <i class="change-icon no-change"></i> </p> 
+          <p>-21 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Kansas St. at Vanderbilt"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Vanderbilt Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Nashville"> 
+        </div> 
+       </div> 
+       <a id="ember2067" href="/college-football/game-forecast/NCAAF_20170916_KSTATE@VANDY/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T19:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> KSTATE </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> VANDY </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 7 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 14 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> KSTATE <i class="change-icon up"></i> </p> 
+          <p>-190</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+48.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> KSTATE <i class="change-icon up"></i> </p> 
+          <p>-4.5 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Cincinnati at Miami (Ohio)"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Fred Yager Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Oxford"> 
+        </div> 
+       </div> 
+       <a id="ember2069" href="/college-football/game-forecast/NCAAF_20170916_CINCY@MIAOH/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T20:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> CINCY </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> MIAOH </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 21 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 17 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> MIAOH <i class="change-icon down"></i> </p> 
+          <p>-160</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+49</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> MIAOH <i class="change-icon down"></i> </p> 
+          <p>-3.5 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Clemson at Louisville"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Papa John's Cardinal Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Louisville"> 
+        </div> 
+       </div> 
+       <a id="ember2071" href="/college-football/game-forecast/NCAAF_20170916_CLEM@LVILLE/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T20:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> Clemson </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> LVILLE </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 47 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 21 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> CLEM <i class="change-icon up"></i> </p> 
+          <p>-165</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+61</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> CLEM <i class="change-icon up"></i> </p> 
+          <p>-3 (-115)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Rice at Houston"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="TDECU Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Houston"> 
+        </div> 
+       </div> 
+       <a id="ember2073" href="/college-football/game-forecast/NCAAF_20170916_RICE@HOU/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T20:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> Rice </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> Houston </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 3 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 38 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> HOU <i class="change-icon up"></i> </p> 
+          <p>-2000</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon no-change"></i> </p> 
+          <p>+54</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> HOU <i class="change-icon down"></i> </p> 
+          <p>-23 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Troy at New Mexico St."> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Aggie Memorial Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Las Cruces"> 
+        </div> 
+       </div> 
+       <a id="ember2075" href="/college-football/game-forecast/NCAAF_20170916_TROY@NMEXST/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T20:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> Troy </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> NMEXST </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 27 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 24 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> TROY <i class="change-icon up"></i> </p> 
+          <p>-345</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+60</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> TROY <i class="change-icon up"></i> </p> 
+          <p>-9.5 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Arizona St. at Texas Tech"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Jones AT&amp;T Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Lubbock"> 
+        </div> 
+       </div> 
+       <a id="ember2077" href="/college-football/game-forecast/NCAAF_20170916_ARIZST@TXTECH/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T20:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> ARIZST </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> TXTECH </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 45 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 52 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> TXTECH <i class="change-icon down"></i> </p> 
+          <p>-255</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+74</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> TXTECH <i class="change-icon no-change"></i> </p> 
+          <p>-7 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Texas at USC"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Los Angeles Memorial Coliseum"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Los Angeles"> 
+        </div> 
+       </div> 
+       <a id="ember2079" href="/college-football/game-forecast/NCAAF_20170916_TEXAS@USC/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T20:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> Texas </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> USC </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 24 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 27 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> USC <i class="change-icon down"></i> </p> 
+          <p>-700</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+66.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> USC <i class="change-icon up"></i> </p> 
+          <p>-17 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Fresno St. at Washington"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Husky Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Seattle"> 
+        </div> 
+       </div> 
+       <a id="ember2081" href="/college-football/game-forecast/NCAAF_20170916_FRESNO@WASH/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T21:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> FRESNO </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> WASH </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 16 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 48 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> 
+           <!----> <i class="change-icon no-change"></i> </p> 
+          <p>
+           <!----></p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+56.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> WASH <i class="change-icon up"></i> </p> 
+          <p>-35 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="San Jose St. at Utah"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Rice-Eccles Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Salt Lake City"> 
+        </div> 
+       </div> 
+       <a id="ember2083" href="/college-football/game-forecast/NCAAF_20170916_SJST@UTAH/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T22:00:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> SJST </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> Utah </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 16 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 54 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> 
+           <!----> <i class="change-icon no-change"></i> </p> 
+          <p>
+           <!----></p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon up"></i> </p> 
+          <p>+59.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> UTAH <i class="change-icon up"></i> </p> 
+          <p>-28 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Ole Miss at California"> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Memorial Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="Berkeley"> 
+        </div> 
+       </div> 
+       <a id="ember2085" href="/college-football/game-forecast/NCAAF_20170916_MISS@CAL/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T22:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> MISS </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> CAL </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 16 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 27 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> MISS <i class="change-icon up"></i> </p> 
+          <p>-280</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+68.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> MISS <i class="change-icon down"></i> </p> 
+          <p>-7 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="row-group" itemscope itemtype="http://schema.org/SportsEvent"> 
+       <meta itemprop="name" content="Stanford at San Diego St."> 
+       <div class="seo location" itemprop="location" itemscope itemtype="http://schema.org/Place"> 
+        <meta itemprop="name" content="Qualcomm Stadium"> 
+        <div class="seo location-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+         <meta itemprop="addressLocality" content="San Diego"> 
+        </div> 
+       </div> 
+       <a id="ember2087" href="/college-football/game-forecast/NCAAF_20170916_STNFRD@SDGST/" class="row data-row ember-view"> 
+        <div class="col one"> 
+         <div class="container"> 
+          <div class="top" itemprop="startDate" content="2017-09-16T22:30:00-04:00"> 
+           <i class="icon ncaaf"></i> FINAL 
+          </div> 
+          <div class="bottom"> 
+           <div class="team-info"> 
+            <div class="teamname"> 
+             <span itemprop="awayTeam"> STNFRD </span> 
+            </div> 
+            <div class="teamname">
+              @ 
+             <span itemprop="homeTeam"> SDGST </span> 
+            </div> 
+           </div> 
+           <div class="score-wrap"> 
+            <div class="away-score"> 
+             <span class="score"> 17 </span> 
+            </div> 
+            <div class="home-score"> 
+             <span class="score"> 20 </span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col two hide-mobile"> 
+         <div class="container"> 
+          <p> STNFRD <i class="change-icon down"></i> </p> 
+          <p>-330</p> 
+         </div> 
+        </div> 
+        <div class="col three hide-mobile"> 
+         <div class="container"> 
+          <p> O/U <i class="change-icon down"></i> </p> 
+          <p>+47.5</p> 
+         </div> 
+        </div> 
+        <div class="col four hide-mobile"> 
+         <div class="container"> 
+          <p> STNFRD <i class="change-icon down"></i> </p> 
+          <p>-8.5 (-110)</p> 
+         </div> 
+        </div> </a> 
+      </div> 
+     </div> 
+     <div class="bottom-wrap"> 
+      <div class="full-table-link-wrapper"> 
+       <span class="hr"></span> 
+       <a id="ember2088" href="/college-football/futures/" class="full-table-link ember-view">VIEW FUTURES ODDS</a> 
+       <span class="hr"></span> 
+      </div> 
+     </div> 
+    </main> 
+    <aside> 
+     <div class="left"> 
+      <div id="ember2112" class="ember-view ad-box not-loaded sidebarMobile loading">
+       <div id="mobile_mpu_top"> 
+       </div> 
+      </div> 
+      <div id="ember2113" class="ember-view video-page sidebar-video">
+       <h2 class="header"><i class="badge"></i> WATCH NOW</h2> 
+       <div id="embedVideoContainer_1306258934106" class="embedVideo">
+        <iframe id="embedVideo_1306258934106" name="embedVideo_1306258934106" src="/video/player/embed?args=player_id%3D1306258934106%26channel%3Dvideos%26pcid%3D1048271427815%26width%3D640%26height%3D360%26autoplay%3Dtrue%26comp_ads_enabled%3Dfalse%26war_w%3D432%26war_h%3D243%26lazy_load%3Dtrue%26uvpc%3Dhttp%3A%2F%2Fsports.cbsimg.net%2Fvideo%2Fuvp%2Fconfig%2Fv4%2Fuvp_sportsline.xml%26uvpc_m%3Dhttp%3A%2F%2Fsports.cbsimg.net%2Fvideo%2Fuvp%2Fconfig%2Fv4%2Fuvp_sportsline_m.xml%26partner%3Dsportsline%26partner_m%3Dsportsline_mobile%26resizable%3Dtrue%26domain%3Dsportsline.com" width="640" height="360" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
+       </div> 
+      </div> 
+      <div id="ember2122" class="ember-view">
+       <div class="articles-module"> 
+        <h2 class="header"> <i class="news"></i> RECENT ARTICLES </h2> 
+        <div class="section-content"> 
+         <div class="articles"> 
+          <a id="ember2124" href="/insiders/25817383/former-vegas-bookmaker-has-knack-for-picking-cowboys-games/" class="article ember-view"> 
+           <div class="wrap" data-ember-action="2141"> 
+            <div id="ember2150" class="ember-view pro-badge-v3 recent-articles-module first">
+             <div class="bkgd"></div> 
+             <img class="sl no-scale" src="/assets/img/logo/S-L-new.svg"> 
+             <span class="pro"></span> 
+            </div> 
+            <div id="ember2159" class="ember-view img-section no-scale">
+             <div class="outer"> 
+              <div class="inner"> 
+               <img id="ember2168" src="https://sports.cbsimg.net/images/sportsline/articles/L_article_EElliott_09_11.jpg" class="ember-view" style="-webkit-transform: scale(1.0133333333333334); "> 
+              </div> 
+             </div> 
+             <!----> 
+             <div class="img-overlay"></div> 
+            </div> 
+            <div class="article-info"> 
+             <div class="article-top"> 
+              <div class="author-image"> 
+               <img src="https://sports.cbsimg.net/images/sportsline/authors/50_clear_sportsline_staff.png"> 
+              </div> 
+              <div class="author-name"> 
+               <div class="author-full-name">
+                 SportsLine Staff 
+               </div> 
+               <div class="author-nick"> 
+                <!---->&nbsp; 
+               </div> 
+              </div> 
+             </div> 
+             <div class="article-bottom"> 
+              <div class="title"> 
+               <div id="ember2177" class="ember-view ellipses-box">
+                Former Vegas Bookmaker Has Knack for Picking Cowboys Games
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> </a> 
+         </div> 
+         <div class="remaining-articles"> 
+          <a id="ember2179" href="/insiders/25817873/nfl-week-2-supercontest-expert-picks-and-predictions/" class="article ember-view"> 
+           <div id="ember2180" class="ember-view pro-badge-v3 recent-articles-module remaining">
+            <div class="bkgd"></div> 
+            <img class="sl no-scale" src="/assets/img/logo/S-L-new.svg"> 
+            <span class="pro"></span> 
+           </div> 
+           <div id="ember2181" class="ember-view img-section no-scale">
+            <div class="outer"> 
+             <div class="inner"> 
+              <img id="ember2182" src="https://sports.cbsimg.net/images/sportsline/articles/L_article_TSiemian_09_14.jpg" class="ember-view" style="-webkit-transform: scale(1.0133333333333334); "> 
+             </div> 
+            </div> 
+            <!----> 
+            <div class="img-overlay"></div> 
+           </div> 
+           <div class="article-info"> 
+            <div class="title"> 
+             <div id="ember2183" class="ember-view ellipses-box">
+              NFL Week 2 SuperContest Expert Picks and Predictions
+             </div> 
+            </div> 
+            <div class="author-name"> 
+             <div class="author-image"> 
+              <img src="https://sports.cbsimg.net/images/sportsline/authors/50_clear_sportsline_staff.png"> 
+             </div> 
+             <div class="name"> 
+              <div class="flname">
+                SportsLine Staff 
+              </div> 
+              <div class="nickname"> 
+               <!---->&nbsp; 
+              </div> 
+             </div> 
+            </div> 
+           </div> </a>
+          <a id="ember2185" href="/insiders/25817455/nfl-week-2-optimal-fanduel-draftkings-fantasy-football-lineup-from-a-dfs-pro/" class="article ember-view"> 
+           <div id="ember2186" class="ember-view pro-badge-v3 recent-articles-module remaining">
+            <div class="bkgd"></div> 
+            <img class="sl no-scale" src="/assets/img/logo/S-L-new.svg"> 
+            <span class="pro"></span> 
+           </div> 
+           <div id="ember2187" class="ember-view img-section no-scale">
+            <div class="outer"> 
+             <div class="inner"> 
+              <img id="ember2188" src="https://sports.cbsimg.net/images/sportsline/articles/L_article_ASmith_9_13.jpg" class="ember-view" style="-webkit-transform: scale(1.0133333333333334); "> 
+             </div> 
+            </div> 
+            <!----> 
+            <div class="img-overlay"></div> 
+           </div> 
+           <div class="article-info"> 
+            <div class="title"> 
+             <div id="ember2189" class="ember-view ellipses-box">
+              NFL Week 2 Optimal FanDuel, DraftKings Fantasy Football Lineup From a DFS Pro
+             </div> 
+            </div> 
+            <div class="author-name"> 
+             <div class="author-image"> 
+              <img src="https://sports.cbsimg.net/images/sportsline/authors/50_clear_mike_mcclure.png"> 
+             </div> 
+             <div class="name"> 
+              <div class="flname">
+                Mike McClure 
+              </div> 
+              <div class="nickname">
+                Money&nbsp; 
+              </div> 
+             </div> 
+            </div> 
+           </div> </a> 
+         </div> 
+         <a id="ember2190" href="/all/articles/" class="view-all-button ember-view"> <span data-ember-action="2223">VIEW ALL ARTICLES</span> </a> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="ember2232" class="ember-view hottest-experts">
+       <header> 
+        <span class="icon icon-hot"></span> 
+        <span>HOTTEST NFL EXPERTS</span> 
+       </header> 
+       <section> 
+        <a id="ember2233" href="/experts/15731/mike-tierney/" class="top-expert ember-view"> 
+         <div class="expert-wrap"> 
+          <div class="place one"> 
+           <span>1</span> 
+          </div> 
+          <div class="author-image"> 
+           <img src="https://sports.cbsimg.net/images/sportsline/authors/90_mike_tierney.png"> 
+          </div> 
+          <div class="expert-info"> 
+           <div class="name">
+            Mike Tierney
+           </div> 
+           <div class="nickname">
+            Top Dog
+           </div> 
+           <div class="streak-record">
+             5-0-1 (100%) L6 
+           </div> 
+           <div class="streak-profit">
+             +500 
+           </div> 
+          </div> 
+         </div> 
+         <div class="view-picks">
+          VIEW Mike's PICKS
+         </div> </a> 
+        <div class="main-experts"> 
+         <a id="ember2251" href="/experts/13773/larry-hartstein/" class="expert ember-view"> 
+          <div class="place one"> 
+           <span>2</span> 
+          </div> 
+          <div class="author-image"> 
+           <img src="https://sports.cbsimg.net/images/sportsline/authors/90_larry_hartstein.png"> 
+          </div> 
+          <div class="expert-info"> 
+           <div class="name">
+            Larry Hartstein
+           </div> 
+           <div class="streak-record">
+             4-0 (100%) L4 ATS 
+           </div> 
+           <div class="streak-profit desktop">
+             +400 
+           </div> 
+          </div> 
+          <div class="streak-profit mobile">
+            +400 
+          </div> </a>
+         <a id="ember2253" href="/experts/14890/rj-white/" class="expert ember-view"> 
+          <div class="place two"> 
+           <span>3</span> 
+          </div> 
+          <div class="author-image"> 
+           <img src="https://sports.cbsimg.net/images/sportsline/authors/90_r.j._white.png"> 
+          </div> 
+          <div class="expert-info"> 
+           <div class="name">
+            R.J. White
+           </div> 
+           <div class="streak-record">
+             6-3-1 (67%) L10 
+           </div> 
+           <div class="streak-profit desktop">
+             +280 
+           </div> 
+          </div> 
+          <div class="streak-profit mobile">
+            +280 
+          </div> </a>
+         <a id="ember2255" href="/experts/16110/kenny-white/" class="expert ember-view"> 
+          <div class="place three"> 
+           <span>4</span> 
+          </div> 
+          <div class="author-image"> 
+           <img src="https://sports.cbsimg.net/images/sportsline/authors/90_kenny_white.png"> 
+          </div> 
+          <div class="expert-info"> 
+           <div class="name">
+            Kenny White
+           </div> 
+           <div class="streak-record">
+             2-0-1 (100%) L3 OU 
+           </div> 
+           <div class="streak-profit desktop">
+             +200 
+           </div> 
+          </div> 
+          <div class="streak-profit mobile">
+            +200 
+          </div> </a>
+         <a id="ember2257" href="/experts/15210/stephen-oh/" class="expert ember-view"> 
+          <div class="place four"> 
+           <span>5</span> 
+          </div> 
+          <div class="author-image"> 
+           <img src="https://sports.cbsimg.net/images/sportsline/authors/90_stephen_oh.png"> 
+          </div> 
+          <div class="expert-info"> 
+           <div class="name">
+            Stephen Oh
+           </div> 
+           <div class="streak-record">
+             3-1 (75%) L4 
+           </div> 
+           <div class="streak-profit desktop">
+             +193 
+           </div> 
+          </div> 
+          <div class="streak-profit mobile">
+            +193 
+          </div> </a> 
+        </div> 
+        <a id="ember2258" href="/experts/" class="view-all-experts ember-view">VIEW ALL EXPERTS</a> 
+       </section> 
+      </div> 
+     </div> 
+     <div class="right"> 
+      <div id="ember2275" class="ember-view"> 
+       <div class="hottest-games homepage-component"> 
+        <h2 class="header"><i class="popular-game-icon"></i>HOTTEST GAMES</h2> 
+        <div class="section-content-v2"> 
+         <div class="picks"> 
+          <a id="ember2277" href="/nfl/game-forecast/NFL_20170917_NE@NO/" class="pick-card ember-view"> 
+           <div class="top" data-ember-action="2293"> 
+            <div class="icon nfl"></div> 
+            <div class="date">
+             SUN 9/17 1:00 PM
+            </div> 
+           </div> 
+           <div class="bottom" data-ember-action="2294"> 
+            <div class="left"> 
+             <div class="top">
+               NE 
+             </div> 
+             <div class="bottom">
+               @&nbsp;NO 
+             </div> 
+            </div> 
+            <div class="consensus"> 
+             <div class="cons-wrap"> 
+              <div class="away highlighted"> 
+               <i class="icon consensus"></i> 
+               <span class="perc-wrap"> 61% </span> 
+              </div> 
+              <div class="home "> 
+               <span class="spacer">&nbsp;</span> 
+               <span class="perc-wrap"> 39% </span> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="change-label"> 
+             <div class="top">
+               NE 
+             </div> 
+             <div class="bottom">
+               -6 
+             </div> 
+             <span class="change-icon up"></span> 
+            </div> 
+            <div class="right"> 
+             <div class="top">
+               6 
+             </div> 
+             <div class="bottom">
+               PICKS 
+             </div> 
+            </div> 
+           </div> </a>
+          <a id="ember2296" href="/nfl/game-forecast/NFL_20170917_WAS@LAR/" class="pick-card ember-view"> 
+           <div class="top" data-ember-action="2297"> 
+            <div class="icon nfl"></div> 
+            <div class="date">
+             SUN 9/17 4:25 PM
+            </div> 
+           </div> 
+           <div class="bottom" data-ember-action="2298"> 
+            <div class="left"> 
+             <div class="top">
+               WAS 
+             </div> 
+             <div class="bottom">
+               @&nbsp;LAR 
+             </div> 
+            </div> 
+            <div class="consensus"> 
+             <div class="cons-wrap"> 
+              <div class="away "> 
+               <span class="spacer">&nbsp;</span> 
+               <span class="perc-wrap"> 39% </span> 
+              </div> 
+              <div class="home highlighted"> 
+               <i class="icon consensus"></i> 
+               <span class="perc-wrap"> 61% </span> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="change-label"> 
+             <div class="top">
+               LAR 
+             </div> 
+             <div class="bottom">
+               -2.5 
+             </div> 
+             <span class="change-icon up"></span> 
+            </div> 
+            <div class="right"> 
+             <div class="top">
+               5 
+             </div> 
+             <div class="bottom">
+               PICKS 
+             </div> 
+            </div> 
+           </div> </a>
+          <a id="ember2300" href="/nfl/game-forecast/NFL_20170917_GB@ATL/" class="pick-card ember-view"> 
+           <div class="top" data-ember-action="2301"> 
+            <div class="icon nfl"></div> 
+            <div class="date">
+             SUN 9/17 8:30 PM
+            </div> 
+           </div> 
+           <div class="bottom" data-ember-action="2302"> 
+            <div class="left"> 
+             <div class="top">
+               GB 
+             </div> 
+             <div class="bottom">
+               @&nbsp;ATL 
+             </div> 
+            </div> 
+            <div class="consensus"> 
+             <div class="cons-wrap"> 
+              <div class="away highlighted"> 
+               <i class="icon consensus"></i> 
+               <span class="perc-wrap"> 59% </span> 
+              </div> 
+              <div class="home "> 
+               <span class="spacer">&nbsp;</span> 
+               <span class="perc-wrap"> 41% </span> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="change-label"> 
+             <div class="top">
+               ATL 
+             </div> 
+             <div class="bottom">
+               -3 
+             </div> 
+             <span class="change-icon up"></span> 
+            </div> 
+            <div class="right"> 
+             <div class="top">
+               5 
+             </div> 
+             <div class="bottom">
+               PICKS 
+             </div> 
+            </div> 
+           </div> </a>
+          <a id="ember2304" href="/nfl/game-forecast/NFL_20170917_TEN@JAC/" class="pick-card ember-view"> 
+           <div class="top" data-ember-action="2305"> 
+            <div class="icon nfl"></div> 
+            <div class="date">
+             SUN 9/17 1:00 PM
+            </div> 
+           </div> 
+           <div class="bottom" data-ember-action="2306"> 
+            <div class="left"> 
+             <div class="top">
+               TEN 
+             </div> 
+             <div class="bottom">
+               @&nbsp;JAC 
+             </div> 
+            </div> 
+            <div class="consensus"> 
+             <div class="cons-wrap"> 
+              <div class="away highlighted"> 
+               <i class="icon consensus"></i> 
+               <span class="perc-wrap"> 55% </span> 
+              </div> 
+              <div class="home "> 
+               <span class="spacer">&nbsp;</span> 
+               <span class="perc-wrap"> 45% </span> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="change-label"> 
+             <div class="top">
+               TEN 
+             </div> 
+             <div class="bottom">
+               -1 
+             </div> 
+             <span class="change-icon down"></span> 
+            </div> 
+            <div class="right"> 
+             <div class="top">
+               4 
+             </div> 
+             <div class="bottom">
+               PICKS 
+             </div> 
+            </div> 
+           </div> </a> 
+         </div> 
+         <div class="bottom-btn"> 
+          <a id="ember2307" href="/nfl/picksheet/" class="ember-view"><span data-ember-action="2334">VIEW ALL PICKS</span></a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="ember2335" class="ember-view ad-box not-loaded mobileSidebarBottom loading">
+       <div id="mobile_mpu_bottom"> 
+       </div> 
+      </div> 
+     </div> 
+    </aside> 
+   </div> 
+  </div> 
+  <div id="FooterDesktop"> 
+   <div class="footer-content"> 
+    <div class="one"> 
+     <div class="logo-section"></div> 
+     <div class="copyright-section"> 
+      <div class="copyright-top">
+       � 2017 CBS INTERACTIVE INC. ALL RIGHTS RESERVED.
+      </div> 
+      <div class="copyright-bottom">
+       SportsLine and SportLine PRO are registered trademarks
+       <br>of SportsLine.com, Inc.
+      </div> 
+     </div> 
+    </div> 
+    <div class="filler-col"></div> 
+    <div class="two"> 
+     <a id="PrivacyLink" target="_blank" href="https://www.cbsinteractive.com/legal/cbsi/privacy-policy" data-ember-action="2344">PRIVACY POLICY</a> 
+     <a target="_blank" href="https://www.cbsinteractive.com/legal/cbsi/terms-of-use" data-ember-action="2345">CBSi TERMS OF USE</a> 
+     <a href="/terms-of-use" data-ember-action="2346">SPORTSLINE TERMS OF USE</a> 
+     <a target="_blank" href="https://www.cbsinteractive.com/legal/cbsi/mobile-eula" data-ember-action="2347">MOBILE USER AGREEMENT</a> 
+     <div class="show-smallscreen"> 
+      <a target="_blank" href="https://secure.sportsline.com/help?help_category=CBS_Sports%3ASportsLinePro&amp;help_type=sportslinepro.com_knowledgehome2" data-ember-action="2348">FAQ/HELP</a> 
+      <a target="_blank" href="http://www.cbsinteractive.com/careers" data-ember-action="2349">CAREERS</a> 
+     </div> 
+    </div> 
+    <div class="filler-col"></div> 
+    <div class="three"> 
+     <a target="_blank" href="https://secure.sportsline.com/help?help_category=CBS_Sports%3ASportsLinePro&amp;help_type=sportslinepro.com_knowledgehome2" data-ember-action="2350">FAQ/HELP</a> 
+     <a target="_blank" href="http://www.cbsinteractive.com/careers" data-ember-action="2351">CAREERS</a> 
+    </div> 
+    <div class="filler-col"></div> 
+    <div class="four"> 
+     <div class="partnerships"> 
+      <p>In partnership with...</p> 
+      <a href="http://www.247sports.com/"> <img src="/assets/img/247-logo-white-trans.png" alt="http://www.247sports.com/"> </a> 
+     </div> 
+     <div class="social-section"> 
+      <div class="social-wrap"> 
+       <span>FOLLOW US:</span> 
+       <a target="_blank" href="https://www.facebook.com/sportsline" data-ember-action="2352"> <span class="facebook"></span> </a> 
+       <a target="_blank" href="https://twitter.com/sportsline" data-ember-action="2353"> <span class="twitter"></span> </a> 
+      </div> 
+     </div> 
+     <div class="covers-section"> 
+      <div class="text">
+       Statistical support provided by
+      </div> 
+      <div class="covers-img"></div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="FooterMobile"> 
+   <div class="footer-content"> 
+    <div class="one"> 
+     <div class="logo-section"></div> 
+    </div> 
+    <div class="two"> 
+     <div class="left"> 
+      <a id="PrivacyLink" target="_blank" href="https://www.cbsinteractive.com/legal/cbsi/privacy-policy">PRIVACY POLICY</a> 
+      <a target="_blank" href="https://www.cbsinteractive.com/legal/cbsi/terms-of-use">CBSi TERMS OF USE</a> 
+      <a href="/terms-of-use">SPORTSLINE TERMS OF USE</a> 
+      <a target="_blank" href="https://www.cbsinteractive.com/legal/cbsi/mobile-eula">MOBILE USER AGREEMENT</a> 
+      <a target="_blank" href="https://secure.sportsline.com/help?help_category=CBS_Sports%3ASportsLinePro&amp;help_type=sportslinepro.com_knowledgehome2">FAQ/HELP</a> 
+      <a target="_blank" href="http://www.cbsinteractive.com/careers">CAREERS</a> 
+     </div> 
+     <div class="right"> 
+      <div class="partnerships"> 
+       <p>In partnership with...</p> 
+       <a href="http://www.247sports.com/"> <img src="/assets/img/247-logo-white-trans.png" alt="http://www.247sports.com/"> </a> 
+      </div> 
+      <div class="social-section"> 
+       <div class="social-wrap"> 
+        <span>FOLLOW US:</span> 
+        <div class="button-wrap"> 
+         <a target="_blank" href="https://www.facebook.com/sportsline"> <span class="facebook"></span> </a> 
+         <a target="_blank" href="https://twitter.com/sportsline"> <span class="twitter"></span> </a> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="covers-section"> 
+       <div class="text">
+        Statistical support provided by
+       </div> 
+       <img src="/assets/img/logo/sportsline-direct.svg" height="31" width="230" alt="sportsline direct"> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="three"> 
+     <a target="_blank" href="https://secure.sportsline.com/help?help_category=CBS_Sports%3ADaily_Fantasy&amp;help_type=sportslinepro.com_sitefeedback2"> 
+      <div class="feedback-button hide"> 
+       <div class="feedback-label">
+         FEEDBACK 
+       </div> 
+       <div class="overlay"></div> 
+      </div> </a> 
+     <div class="copyright-section"> 
+      <div class="copyright-top">
+       � 2017 CBS INTERACTIVE INC. ALL RIGHTS RESERVED.
+      </div> 
+      <div class="copyright-bottom">
+       SportsLine and SportLine PRO are registered trademarks of SportsLine.com, Inc.
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!----> 
+  <!---->
+ </div> 
+</div>
+<div id="seocanary"></div>
+<div id="backend_seocanary"></div></noscript>
+<div id="SmartBannerGlobalWrapper"></div>
+<div class="loading-animation"><div class="loading-container"><div class="loader"><div class="loading-bars"><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div></div></div></div><div class="loading-label">LOADING</div></div>
+
+
+<script src="assets/vendor-f181d2338d506cbff8744591e3fe5383.js"></script>
+<script src="assets/cbs-new-fb9c489d117ee64bfdfebd1092b31230.js"></script>
+
+
+
+<!-- misc 3rd party scripts -->
+
+<script type="text/javascript">
+
+	/*
+	 * Monitor state change of the location href and call optimizely.activate
+	 */
+
+	function hashHandler() {
+	  var self = this;
+	  this.oldHash = "";
+
+	  var detect = function() {
+		if (self.oldHash != window.location.href) {
+		  // Hash has changed
+		  self.oldHash = window.location.href;
+
+		  if (typeof window.optimizely != "undefined") {
+			try {
+			  window.optimizely.push(["activate"]);
+			} catch (e) {
+				console.error("error activating optimizely");
+			}
+	   }
+		}
+	  };
+
+	  setInterval(function(){detect();}, 1000);
+		detect();
+	}
+
+	hashHandler();
+
+	// functions for generating guid
+	function unparse(a, c) {
+		var _byteToHex = [];
+		var _hexToByte = {};
+		for (var i = 0; i < 256; i++) {
+			_byteToHex[i] = (i + 256).toString(16).substr(1);
+			_hexToByte[_byteToHex[i]] = i
+		}
+		var b = c || 0, d = _byteToHex;
+		return d[a[b++]] + d[a[b++]] + d[a[b++]] + d[a[b++]] + "-" + d[a[b++]] + d[a[b++]] + "-" + d[a[b++]] + d[a[b++]] + "-" + d[a[b++]] + d[a[b++]] + "-" + d[a[b++]] + d[a[b++]] + d[a[b++]] + d[a[b++]] + d[a[b++]] + d[a[b++]]
+	}
+	_rng = function() {
+		var _rnds = new Array(16);
+		for (var a = 0, b; a < 16; a++) {
+			if ((a & 3) === 0) {
+				b = Math.random() * 4294967296;
+			}
+			_rnds[a] = b >>> ((a & 3) << 3) & 255;
+		}
+		return _rnds;
+	}
+	function v1(p, d, h) {
+		var _seedBytes = _rng();
+		var _nodeId = [_seedBytes[0] | 1, _seedBytes[1], _seedBytes[2], _seedBytes[3], _seedBytes[4], _seedBytes[5]];
+		var _clockseq = (_seedBytes[6] << 8 | _seedBytes[7]) & 16383;
+		var _lastMSecs = 0, _lastNSecs = 0;
+
+		var j = d && h || 0;
+		var k = d || [];
+		p = p || {};
+		var g = p.clockseq != null ? p.clockseq : _clockseq;
+		var a = p.msecs != null ? p.msecs : new Date().getTime();
+		var o = p.nsecs != null ? p.nsecs : _lastNSecs + 1;
+		var c = (a - _lastMSecs) + (o - _lastNSecs) / 10000;
+		if (c < 0 && p.clockseq == null) {
+			g = g + 1 & 16383;
+		}
+		if ((c < 0 || a > _lastMSecs) && p.nsecs == null) {
+			o = 0;
+		}
+		if (o >= 10000) {
+			console.log('uuid.v1(): Can???t create more than 10M uuids/sec');
+		}
+		_lastMSecs = a;
+		_lastNSecs = o;
+		_clockseq = g;
+		a += 12219292800000;
+		var m = ((a & 268435455) * 10000 + o) % 4294967296;
+		k[j++] = m >>> 24 & 255;
+		k[j++] = m >>> 16 & 255;
+		k[j++] = m >>> 8 & 255;
+		k[j++] = m & 255;
+		var l = (a / 4294967296 * 10000) & 268435455;
+		k[j++] = l >>> 8 & 255;
+		k[j++] = l & 255;
+		k[j++] = l >>> 24 & 15 | 16;
+		k[j++] = l >>> 16 & 255;
+		k[j++] = g >>> 8 | 128;
+		k[j++] = g & 255;
+		var f = p.node || _nodeId;
+		for (var e = 0; e < 6; e++) {
+		k[j + e] = f[e]
+		}
+		return d ? d : unparse(k)
+	};
+
+	// cookie maintenance
+
+	function setCookie (name, value, expires) {
+		if (!expires) expires = new Date();
+		document.cookie = name + "=" + value + "; expires=" + expires.toGMTString() +";domain=.sportsline.com; path=/";
+	}
+
+	function readCookie(name) {
+		if(document.cookie == '') {
+		return false;
+		} else {
+		var firstChar, lastChar;
+		var theBigCookie = document.cookie;
+		name = name + '=';
+		firstChar = theBigCookie.indexOf(name);
+		if (firstChar != -1) {
+			firstChar += name.length;
+			lastChar = theBigCookie.indexOf(';', firstChar);
+			if(lastChar == -1) lastChar = theBigCookie.length;
+			return unescape(theBigCookie.substring(firstChar, lastChar));
+		} else {return false;}
+		}
+	}
+
+	function killCookie(name, path, domain) {
+	  var theValue = readCookie(name);
+	  if(theValue) {
+			// set an already-expired cookie
+			document.cookie = name + '=' + theValue + '; expires=Fri, 13-Apr-1970 00:00:00 GMT' + ((path)?';path=' + path:'') + ((domain)?';domain=' + domain:'');
+	  }
+	}
+
+function getValue(cookieName,name) {
+	cookieValue=readCookie(cookieName)
+	findString=name;
+	if (cookieValue) {
+		namePos=cookieValue.indexOf(findString,0);
+		if (namePos==-1) {return false;}
+		valueStart=(cookieValue.indexOf('&',namePos+1)+1);
+		valueEnd=cookieValue.indexOf('&',valueStart+1);
+		if (valueEnd==-1)  valueEnd=cookieValue.length;
+		valueIs=cookieValue.substring(valueStart,valueEnd)
+		if (namePos!=null) {return valueIs;}
+	}
+	else {return false;}
+}
+
+	// end cookie maint.
+
+document.domain = "sportsline.com";
+
+</script>
+
+
+
+
+
+
+
+<!-- ad scripts -->
+<script type="text/javascript">
+
+var adEnvConfig = '8264';
+
+var surround=new Object();
+surround.cat = ['a','b','c','d','e','f'];
+surround.cookie = readCookie('surround');
+
+if (surround.cookie == false || surround.cookie == undefined) {
+	surround.pick = Math.floor(Math.random() * surround.cat.length);
+	surround.subsession = Math.floor(Math.random() * 4) + 1; /*subsessions 1-4*/
+	document.cookie=("surround="+surround.cat[surround.pick]+"|"+surround.subsession+";domain=.sportsline.com;path=/" );
+	surround.cookie = readCookie('surround');
+}
+if (surround.cookie) {surround.sessions=surround.cookie.split("|");}
+surround.vguid = v1();  // set the vguid. This requires the code in the block above this one.
+</script>
+
+<script type="text/javascript">
+xfpDomain = '.sportsline.com';
+xfpInstance = typeof adEnvConfig === 'undefined' ? '7336' : adEnvConfig; // 8264 for prod, 7336 for dev
+xfpArena = 'other'; // nfl, collegefootball, etc...
+xfpFeature = 'home';
+xfpDesktop = 'aw-sportsline';
+xfpMobile = 'maw-sportsline';
+xfpSlot='/' +xfpInstance +'/aw-sportsline/' +xfpArena +'/' +xfpFeature; // page-specific (this would work for homepage)
+
+// desktop slots
+xfpSlotHomeDesktop = '/' + xfpInstance + xfpDesktop + 'other/home';
+
+// tracks if this is the first page the user has visited in this session
+function xfpFirstPageCookie() {
+	if (xfpFirstPage) {return xfpFirstPage;}           // only run once per page, if already set, just return value
+	var xfpFirstPage = readCookie('XFP_FIRSTPAGE');    // get firstPage cookie
+	if (!xfpFirstPage) {                               // if cookie doesn't exist, this is the first page, so firstPage = 1
+		xfpFirstPage = 1;
+	} else if (xfpFirstPage == 1) {                    // else, this is the second page, set firstPage = 0
+		xfpFirstPage = 0;
+	}
+	var exp = new Date();
+	exp.setTime(exp.getTime() + xfpGetTimeToExpiration(.75)); // get number of milliseconds until 12:45am ET
+	document.cookie=('XFP_FIRSTPAGE ='+xfpFirstPage+";expires="+exp.toUTCString()+";domain="+xfpDomain+";path=/;");
+	return xfpFirstPage;                                // set and return the parameter DVAR_FIRSTPAGE = firstPage
+}
+
+// given the expiration hour in ET, return the number of milliseconds to
+// expiration from the given Date Object (defaults to current date)
+function xfpGetTimeToExpiration(etExpireHour,dt) {
+	dt = dt || new Date();
+	var etUtcOffset = 5;                            // hours
+	if (isEDT(dt)) etUtcOffset = 4;                 // if in daylight savings time
+	var utcExpire = (etExpireHour+etUtcOffset)%24;  // UTC expire time in hours
+	var utcTime = 60*dt.getUTCHours() + dt.getUTCMinutes(); // UTC time in mins
+	var minsToExpiration = 60*utcExpire - utcTime;  // time to expiration
+	if (minsToExpiration < 0) minsToExpiration = 24*60 + minsToExpiration;
+	return 60000*minsToExpiration;                  // in milliseconds
+}
+
+// determine if Daylight Savings Time is being observed in the ET timezone
+//   at the date/time of the given Date Object (defaults to current time)
+function isEDT(dt) {
+	dt = dt || new Date();          // default to current date
+	var month = dt.getUTCMonth();   // get month in UTC
+	if (month > 2 && month < 10) return true;   // in EDT if Apr to Oct
+	if (month < 2 || month > 10) return false;  // not in EDT if Jan,Feb,Dec
+	var date = dt.getUTCDate();     // get day of month in UTC
+	var day = dt.getUTCDay();       // get day of week in UTC
+	if (month == 10) {              // November
+		if (date > 7) return false; // after first week, not in EDT
+		if (day == 0) {             // Sunday of first week, check time
+			if (dt.getUTCHours() < 6) return true; //before 6am UTC, in EDT
+			return false;           // 6am UTC or later, not in EDT
+		}
+		if (date > day) return false; // Sunday has passed, not in EDT
+		return true;                // Sunday has not passed, in EDT
+	}
+
+	// March
+	if (date < 8) return false; // still first week, not in EDT
+	if (date > 14) return true; // after second week, in EDT
+	if (day == 0) {             // Sunday of second week, check time
+		if (dt.getUTCHours() > 6) return true; // 7am UTC or later, in EDT
+		return false;           // before 7am UTC, not in EDT
+	}
+	if (date - day > 7) return true;  // Sunday has passed, in EDT
+	return false; // Sunday has not passed, not in EDT
+}
+
+//sharethrough
+var xfpFirstPage =  xfpFirstPageCookie();
+var xfpSession    = (surround.cookie) ? surround.sessions[0] : 'off';
+var xfpSubsession = (surround.cookie) ? surround.sessions[1] : 'off';
+
+function xfpGetArgs(){
+	var args = new Object();
+	var query = location.search.substring(1); // get query string
+	var pairs = query.split("&");
+	for (var i=0; i < pairs.length; i++) {
+		var pos = pairs[i].indexOf('=');             // Look for name "name=value"
+		if (pos == -1) continue;                     // If not found, skip
+		var argname = pairs[i].substring(0,pos);     // Extract the name
+		var value   = pairs[i].substring(pos+1);     // Extract the value
+		value = decodeURIComponent(value);           // Decode it, if needed
+		var adTarg = argname.match(/adTargeting_/);  // Do we have a match on adTargeting_<key>
+
+		// Set Targeting for spec'd out query parms
+		if (argname == 'env' || argname == 'session' || argname == 'subses' || argname == 'adRegion' || argname == 'ftag' || argname == 'ttag' || (adTarg)) {
+			// args[argname] = value;
+			if (adTarg) {argname = argname.substring(12);}    // strip off adTargeting_ from the name if present
+			googletag.pubads().setTargeting(argname, value);  // Set Targeting
+			if (argname == 'ftag' || argname == 'ttag') {
+				document.cookie=("xfpFtag="+value+";domain="+xfpDomain+";path=/" );
+				newFtag = 1;
+			}
+		}
+	}
+	var xfpFtagVal = readCookie("xfpFtag");                   // check if we have an ftag cookie
+	var newFtag = 0;
+	if ((newFtag==0) && xfpFtagVal) {                         // If no new setting for ftag but we had an old one then
+		googletag.pubads().setTargeting('ftag', xfpFtagVal);  // Set Targeting
+	}
+}
+
+</script>
+
+<script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+	var gads = document.createElement('script');
+	gads.async = true;
+	gads.type = 'text/javascript';
+	var useSSL = 'https:' == document.location.protocol;
+	gads.src = (useSSL ? 'https:' : 'http:') +'//www.googletagservices.com/tag/js/gpt.js';
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<!--
+This next block includes the ad definitions relevant to each page.
+Please note that there is a section for desktop visitors and another section specific to mobile visitors.
+-->
+<script type="text/javascript">
+googletag.cmd.push(function() {
+	googletag.pubads().setTargeting("firstpg", ""+xfpFirstPage);
+	googletag.pubads().setTargeting("session", xfpSession);
+	googletag.pubads().setTargeting("subses", ""+xfpSubsession);
+	googletag.pubads().setTargeting("subses", ""+xfpSubsession);
+	googletag.pubads().setTargeting("vguid", surround.vguid);
+	xfpGetArgs(); // to set/override targeting for env, session, subses, adRegion, ftag, ttag, and adTargeting_<key> if set by query string
+	googletag.pubads().enableAsyncRendering();
+	googletag.pubads().enableSingleRequest();
+	googletag.pubads().collapseEmptyDivs();
+	googletag.pubads().disableInitialLoad();
+	googletag.enableServices();
+});
+</script>
+
+<!-- end ad scripts -->
+
+
+<!-- ClickTale Bottom part -->
+<script type='text/javascript'>
+(function(win,doc){
+
+var scriptElement, scrSrc;
+
+if (typeof (win.ClickTaleCreateDOMElement) != "function")
+{
+	win.ClickTaleCreateDOMElement = function(tagName)
+	{
+		if (doc.createElementNS)
+		{
+			return doc.createElementNS('http://www.w3.org/1999/xhtml', tagName);
+		}
+		return doc.createElement(tagName);
+	}
+}
+
+win.WRInitTime=(new Date()).getTime();
+
+scriptElement = ClickTaleCreateDOMElement('script');
+scriptElement.type = "text/javascript";
+
+scrSrc = doc.location.protocol=='https:'? 'https://cdnssl.clicktale.net/':	'http://cdn.clicktale.net/';
+
+scrSrc += 'www09/ptc/400a86aa-6d13-456a-a232-877ce0ac42fc.js';
+
+scriptElement.src = scrSrc;
+
+doc.getElementsByTagName('body')[0].appendChild(scriptElement);
+})(window,document);
+</script>
+<!-- ClickTale end of Bottom part -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">window.twttr = (function(d, s, id) {
+ var js, fjs = d.getElementsByTagName(s)[0],
+   t = window.twttr || {};
+ if (d.getElementById(id)) return t;
+ js = d.createElement(s);
+ js.id = id;
+ js.src = "https://platform.twitter.com/widgets.js";
+ fjs.parentNode.insertBefore(js, fjs);
+
+ t._e = [];
+ t.ready = function(f) {
+   t._e.push(f);
+ };
+ return t;
+}(document, "script", "twitter-wjs"));</script>
+<script type="text/javascript">
+   jQuery.support.cors = true;
+</script>
+<script type="text/javascript" src="//platform.instagram.com/en_US/embeds.js?t=1438203801987" defer="defer"></script>
+
+<!-- Smart Banner Start-->
+<script src="vendor/smart-app-banner/smart-app-banner-customized.js"></script>
+<script type="text/javascript">
+	new SmartBanner({
+		daysHidden: 7,   // days to hide banner after close button is clicked (defaults to 15)
+		daysReminder: 7, // days to hide banner after "VIEW" button is clicked (defaults to 90)
+		maxVisits:5, // visits after which to show the banner if closing it was done with the close button
+		appStoreLanguage: 'us', // language code for the App Store (defaults to user's browser language)
+		title: 'Sportsline',
+		author: 'Official App',
+		button: 'OPEN',
+		store: {
+			ios: 'App Store',
+			android: 'Google',
+			windows: 'Windows Store'
+		},
+		price: {
+			ios: 'Free',
+			android: 'Free',
+			windows: 'Free'
+		}
+		// , force: 'ios' // Uncomment for platform emulation
+	});
+
+	$(window).load(function() {
+		//console.debug('positionSmartBanner()');
+		//positionSmartBanner(false);
+	});
+
+	var smartBannerPositioned = false;
+
+	function positionSmartBanner(bannerHideEventTrigger){
+		var smartbannerHeight=0;
+		var elementsToChange=["#MainNavMobile .mobile-nav-gradient", "#MainNavMobile .logo-wrapper", "#MainNavMobile .close", "#MainNavMobile .green-bar", "#MainNavDesktop", ".brand-bar"];
+
+		var topNavHeight = $('.brand-bar').outerHeight();
+
+		// smartBannerPositioned check prevents function from executing more than once since it's called from util.hideLoading() in Ember app
+		if (show_smart_banner && smartBannerPositioned === false) {
+			smartBannerPositioned = true;
+			// Display Banner //
+			$("#SmartBannerGlobalWrapper").css("display", "block");
+
+			// Make sure DOM is loaded.  If not, try again.
+			$.each(elementsToChange, function(index, value) {
+				if($(value).height()==null)
+				{
+					/*setTimeout(function(){
+						positionSmartBanner(false);
+					}, 1500);*/
+					return false;
+				}
+			});
+
+			// Set Vars
+			smartbannerHeight=$('#SmartBannerGlobalWrapper').height();
+			var greenBarHeight = $('.green-bar').outerHeight();
+
+			// Sets the Element CSS
+			$.each(elementsToChange, function(index, value) {
+				if (value!="#MainNavDesktop")
+				{
+					$(value).css("top", smartbannerHeight + "px");
+				}
+				else
+				{
+					$(value).css("top", (smartbannerHeight) + (topNavHeight) + "px");
+				}
+			});
+		}
+
+		 // This runs if the close or button is clicked
+		if (bannerHideEventTrigger)
+		{
+			// Get the nav padding
+			var navPadding = ($('#ScrollableNav').height() - $('#ScrollableNav .nav-wrapper').height()) / 2;
+
+			// Hide the Banner Wrapper
+			$("#SmartBannerGlobalWrapper").css("display", "none");
+
+			// Reset Positioning
+			$.each(elementsToChange, function(index, value) {
+				if (value != "#MainNavDesktop") {
+					if ($('html').hasClass('mobile-ad') && value !== '.brand-bar') {
+						$(value).css("top", 50);
+					} else {
+						$(value).css("top", "0");
+					}
+				} else {
+					$(value).css("top", topNavHeight);
+				}
+			});
+
+			if ($('html').hasClass('mobile-ad')) {
+				$('.ad-box.pin-mobile').removeAttr('style');
+			}
+
+			$('.laag-container').removeAttr('style'); // remove any possible margin that's been applied to the laag container
+
+			var isNavOpen= $("#MainNavMobile .close").css("display")=="block" ? true: false;
+
+			if (isNavOpen) {
+				$("body #App").css({"top": window.innerHeight - greenBarHeight});
+				$('#ScrollableNav').find('.nav-wrapper').css({"padding-top": "" + navPadding + "px"});
+				$("html body #App").addClass("noTransitions");
+				setTimeout(function(){
+					$("html body #App").find('.page').css({"margin-top": "0px"});
+					$("html body, html body #App").removeClass("noTransitions");
+				}, 500);
+			}
+		}
+
+		// notify ember that the smart app banner has finished loading
+		Ember.Instrumentation.instrument("smartAppBannerLoad");
+	}
+</script>
+<!-- Smart Banner end -->
+<!-- Google analytics -->
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	//ga('create', 'UA-80763882-1', 'auto');
+</script>
+<!-- End google analytics -->
+
+</body>
+</html>

@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" itemscope itemtype="http://schema.org/" >
+<head>
+    <link rel="SHORTCUT ICON" href="https://sports.cbsimg.net/favicon.ico">
+
+    <title>NFL Football Injuries - CBSSports.com </title>
+
+    <link href="https://sports.cbsimg.net/css/font/iconmoon/20170321/style.css" rel="stylesheet" type="text/css" />
+            <link href="https://sports.cbsimg.net/css/phase4-min-v547.css" rel="stylesheet" type="text/css" />
+            <!--[if IE]>
+            <link href="https://sports.cbsimg.net/css/phase2-ie-min-v058.css" rel="stylesheet" type="text/css" />
+            <![endif]-->
+            <!-- no arena css -->
+<link href="https://sports.cbsimg.net/css/jquery/ui-tools-min-v030.css" rel="stylesheet" type="text/css"/>
+<style>
+/*Feature Component Styles*/
+#injuryTable div.featureComponent {font-weight: 400;padding:0;}
+#injuryTable div.featureComponent ul {list-style-type: none;padding: 0;margin: 0px;}
+#injuryTable div.featureComponent ul li strong{font-weight:700; color:#000; font-size:12px;padding-left:13px;}
+#injuryTable div.featureComponent ul li:nth-child(odd) {background-color: #f5f5f5;height: 30px;line-height: 30px;}
+#injuryTable div.featureComponent ul li:nth-child(even) {background-color:#FFF;height: 30px;line-height: 30px;}
+#injuryTablediv.featureFooter{background-color:#FFF;}
+</style>
+  
+
+    <!--[if lt IE 9]><script>var e = ("abbr,article,aside,audio,canvas,datalist,details,figure,figcaption,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video").split(',');for (var i = 0; i < e.length; i++) {document.createElement(e[i]);}</script><![endif]-->
+<script type="text/javascript">
+if(typeof CBSi=="undefined"||!CBSi){var CBSi={}}CBSi.namespace=function(){var b=arguments,g=null,e,c,f;for(e=0;e<b.length;e=e+1){f=b[e].split(".");g=CBSi;for(c=(f[0]=="CBSi")?1:0;c<f.length;c=c+1){g[f[c]]=g[f[c]]||{};g=g[f[c]]}}return g};CBSi.extend=function(d,e,c){if(!e||!d){throw new Error("extend failed, please check that all dependencies are included.")}var b=function(){};b.prototype=e.prototype;d.prototype=new b();d.prototype.constructor=d;d.superclass=e.prototype;if(e.prototype.constructor==Object.prototype.constructor){e.prototype.constructor=e}if(c){for(var a in c){if(c.hasOwnProperty(a)){d.prototype[a]=c[a]}}}};CBSi.panel={overlayManager:undefined,create:function(c,b){if(!this.overlayManager){this.overlayManager=new YAHOO.widget.OverlayManager()}if(!b.strings){b.strings={}}if(!b.strings.close){b.strings.close=""}var a=new YAHOO.widget.Panel(c,b);this.overlayManager.register(a);return a}};CBSi.fireEvent=function(b,c){if(document.createEvent){var a=document.createEvent("HTMLEvents");a.initEvent(c,true,true);return !b.dispatchEvent(a)}else{var a=document.createEventObject();return b.fireEvent("on"+c,a)}};CBSi.log=function(){};if(window.console&&window.console.log){CBSi.log=function(){if(CBSi.debugmode===""){return}var a=[];for(var b=0;b<arguments.length;b++){a.push(arguments[b])}console.log(a)}}else{if(window&&window.console){window.console.log=function(){}}else{window.console={};window.console.log=function(){}}if(console){console.log=function(){}}else{console={};console.log=function(){}}}CBSi.jsRenvInit=function(a){for(var b in a){CBSi[b]=a[b]}return};
+if (!CBSi.debugmode) CBSi.debugmode = ''; // For normandy--manually set if js only
+</script>
+<script id="jsRenv_script" type="text/javascript">CBSi.jsRenvInit({"takeoverIsBlank":0,"httpHost":"http://www.cbssports.com","project":"media","mediaHttpServer":"https://www.cbssports.com","pref":{"timezoneOffset":"4","timezoneAbbrev":"ET"},"feature":"injury","league_abbr":"nfl","arena":"nfl","imageServer":"https://sports.cbsimg.net","requestUri":"/nfl/injuries"});</script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/yui/latest/yahoo-dom-event-connection-datasource-get-imageloader-animation-json-min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/jquery/jquery.1.8.2.min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/jquery/ui/jquery.1.9.2.custom.min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/global-min-v0086.js'></script>
+
+<script>
+//Dumping cookies that have been made browser/host only
+(function($){
+    //return;//Comment out to run code
+    //List of domains to check and see if the cookie has with it
+    var domains = ['.cbssports.com','.www.cbssports.com','www.cbssports.com','*.cbssports.com','cbssports.com', '.cbssports.com'];
+    //List of the names of cookies to match
+    var matches = ['CirclePoll','2013NCAAB','2013NFL','2013NCAAF'];
+    //Loop throught the cookies and find the matches
+    $.each(document.cookie.split(/; */), function()  {
+        var splitCookie = this.split('=');
+        for(m in matches){
+            if(splitCookie[0].match(RegExp(matches[m]))){
+                for(d in domains){
+                    console.log(splitCookie[0], 'cookie removed');
+                    //Try to delete the cookie with a domain and path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;domain=" + domains[d] + ";path=/";
+                    //Try to delete the cookie without a domain and path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;";
+                    //Try to delete the cookie without a path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;domain=" + domains[d] + ";";
+                    //Try to delete the cookie without a domain
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;path=/";
+                }
+            }
+        }
+
+    });
+})($);
+</script>
+
+
+
+
+
+    <script type="text/javascript">
+var surround=new Object();
+surround.cat = ['a','b','c','d','e','f'];
+surround.cookie = readCookie('surround');
+
+if (surround.cookie == false || surround.cookie == undefined) {
+    surround.pick = Math.floor(Math.random() * surround.cat.length);
+    surround.subsession = Math.floor(Math.random() * 4) + 1; /*subsessions 1-4*/
+    document.cookie=("surround="+surround.cat[surround.pick]+"|"+surround.subsession+";domain=.cbssports.com;path=/" );
+    surround.cookie = readCookie('surround');
+}
+if (surround.cookie) {surround.sessions=surround.cookie.split("|");}
+surround.vguid = v1();
+</script>
+
+<script type="text/javascript">
+var isSharethroughBlank = 'untested'; //declare window global
+var storeExtraCover;
+
+function adCallBack(obj) {
+    
+    // CBSi.log('OBJECT: ', obj);
+    
+    if (obj.slot == adSlots["XFP_sharethrough_top"] && isSharethroughBlank == 'untested') {
+        if (obj.isEmpty) { // ad is blank
+            isSharethroughBlank = 'blank'; // reset to false for next time ad is refreshed
+            // CBSi.log('[ShareThrough] adCallback - isEmpty', isSharethroughBlank);
+            showHiddenCover();
+
+        } else {
+            isSharethroughBlank = 'filled';
+            // CBSi.log('[ShareThrough] adCallback: ',isSharethroughBlank);
+            // ad is not blank
+            // video component
+            if ('home' == 'blogs_eye_entry') {
+                var length = $('#vidComponent table').length;
+                $('#vidComponent table').eq(length - 1).hide();
+            }
+
+            // 3, 6, or 9 pack
+            var ecLength = $('#extra-covers .coverItem').length;
+            
+            // CBSi.log('[ShareThrough] ecLength: ', ecLength);
+            
+            storeExtraCover = $('#extra-covers .coverItem').eq(ecLength-2).html();
+            $('#extra-covers .coverItem').eq(ecLength-2).replaceWith($("#sharethrough_top"));
+            $("#extra-covers #sharethrough_top").addClass('coverItem');
+            $('#extra-covers #sharethrough_top').show();
+        }
+    }
+}
+ 
+function blankAdCallback(width, height, pos) {
+    if (width == 11 && height == 11 && pos == 'top' && (isSharethroughBlank == 'filled' || isSharethroughBlank == 'untested') ) {
+        isSharethroughBlank = 'scheduled'; // set global
+        // CBSi.log('[ShareThrough] blankAdCallback: ', width, height, pos, isSharethroughBlank);
+        showHiddenCover();
+    }
+}
+
+function showHiddenCover() {
+    // CBSi.log('[ShareThrough] showHiddenCover: start');
+    var ecLength = $('#extra-covers .coverItem').length;    
+    if (typeof storeExtraCover != 'undefined' && storeExtraCover != '') {
+        // CBSi.log('[ShareThrough] showHiddenCover: ', storeExtraCover);        
+        $('#extra-covers .coverItem').eq(ecLength-2).html(storeExtraCover)
+    };
+    $('#extra-covers .coverItem').eq(ecLength-2).show();
+
+    if ('home' == 'blogs_eye_entry') {
+        var length = $('#vidComponent table').length;
+        $('#vidComponent table').eq(length - 1).show();
+    }
+}
+
+</script>
+    <script>window.logged_in = "no";</script><script src="//cdn.optimizely.com/js/2788500260.js"></script>
+<script type="text/javascript">
+var cbsiadGlobal = { };
+if ( typeof(surround) == 'undefined' ) { surround = {}; }
+var dwTag = "&PGUID="+surround.vguid +"&cookiesOn=" +cbsiadGlobal.cookiesOn;
+</script>
+<script type="text/javascript" src="https://native.sharethrough.com/assets/tag.js" async></script><script type="text/javascript" src="https://js-sec.indexww.com/ht/ls-cbssports.js" async></script><script type="text/javascript" src="https://mtrx.go.sonobi.com/morpheus.cbssports.4073.js" async></script>
+<script type="text/javascript">
+if (!random) {var abc=Math.random() + ""; var random=abc.substring(2,abc.length);}
+var switchXFP="on";
+var adLookup="media/spln/nfl/reg/free/injury";
+var adNetwork="8264";
+var xfpObj='vguid='+surround.vguid+'~user=anon~env=prod~arena=nfl';
+</script>
+    
+   <script type="text/javascript">
+      xfpDomain='.cbssports.com';
+      xfpSlot='/8264/aw-cbssports/nfl/media/injuries/injury';
+      // tracks if this is the first page the user has visited in this session
+      function xfpFirstPageCookie() {
+         if (xfpFirstPage) {return xfpFirstPage;}           // only run once per page, if already set, just return value
+         var xfpFirstPage = readCookie('XFP_FIRSTPAGE');    // get firstPage cookie
+         if (!xfpFirstPage) {                               // if cookie doesn't exist, this is the first page, so firstPage = 1
+            xfpFirstPage = 1;
+         } else if (xfpFirstPage == 1) {                    // else, this is the second page, set firstPage = 0
+            xfpFirstPage = 0;
+         }
+         var exp = new Date();
+         exp.setTime(exp.getTime() + xfpGetTimeToExpiration(.75)); // get number of milliseconds until 12:45am ET
+         document.cookie=('XFP_FIRSTPAGE ='+xfpFirstPage+";expires="+exp.toUTCString()+";domain="+xfpDomain+";path=/;");
+         return xfpFirstPage;                                // set and return the parameter DVAR_FIRSTPAGE = firstPage
+      }
+      // given the expiration hour in ET, return the number of milliseconds to
+      //   expiration from the given Date Object (defaults to current date)
+      function xfpGetTimeToExpiration(etExpireHour,dt) {
+         dt = dt || new Date();
+         var etUtcOffset = 5; // hours
+         if (isEDT(dt)) etUtcOffset = 4; // if in daylight savings time
+         var utcExpire = (etExpireHour+etUtcOffset)%24; // UTC expire time in hours
+         var utcTime = 60*dt.getUTCHours() + dt.getUTCMinutes(); // UTC time in mins
+         var minsToExpiration = 60*utcExpire - utcTime; // time to expiration
+         if (minsToExpiration < 0) minsToExpiration = 24*60 + minsToExpiration;
+         return 60000*minsToExpiration; // in milliseconds
+      }
+      // determine if Daylight Savings Time is being observed in the ET timezone
+      //   at the date/time of the given Date Object (defaults to current time)
+      function isEDT(dt) {
+         dt = dt || new Date(); // default to current date
+         var month = dt.getUTCMonth(); // get month in UTC
+         if (month > 2 && month < 10) return true; // in EDT if Apr to Oct
+         if (month < 2 || month > 10) return false; // not in EDT if Jan,Feb,Dec
+         var date = dt.getUTCDate(); // get day of month in UTC
+         var day = dt.getUTCDay(); // get day of week in UTC
+         if (month == 10) {  // November
+             if (date > 7) return false;  // after first week, not in EDT
+             if (day == 0) {  // Sunday of first week, check time
+               if (dt.getUTCHours() < 6) return true; //before 6am UTC, in EDT
+               return false;  // 6am UTC or later, not in EDT
+            }
+            if (date > day) return false; // Sunday has passed, not in EDT
+            return true;  // Sunday has not passed, in EDT
+         }
+         // March
+         if (date < 8) return false; // still first week, not in EDT
+         if (date > 14) return true; // after second week, in EDT
+         if (day == 0) { // Sunday of second week, check time
+             if (dt.getUTCHours() > 6) return true; // 7am UTC or later, in EDT
+             return false; // before 7am UTC, not in EDT
+         }
+         if (date - day > 7) return true;  // Sunday has passed, in EDT
+         return false; // Sunday has not passed, not in EDT
+      }
+      //sharethrough
+
+      var xfpFirstPage =  xfpFirstPageCookie();
+      var xfpSession    = (surround.cookie) ? surround.sessions[0] : 'off';
+      var xfpSubsession = (surround.cookie) ? surround.sessions[1] : 'off';
+
+      function xfpGetArgs(){
+         var args = new Object();
+         var query = location.search.substring(1); // get query string
+         var pairs = query.split("&");
+         for (var i=0; i < pairs.length; i++) {
+            var pos = pairs[i].indexOf('=');                         // Look for name "name=value"
+            if (pos == -1) continue;                                 // If not found, skip
+            var argname = pairs[i].substring(0,pos);                 // Extract the name
+            var value   = pairs[i].substring(pos+1);                 // Extract the value
+            value = decodeURIComponent(value);                       // Decode it, if needed
+            var adTarg = argname.match(/adTargeting_/);              // Do we have a match on adTargeting_<key>
+
+            // Set Targeting for spec'd out query parms
+            if (argname == 'env' || argname == 'session' || argname == 'subses' || argname == 'adRegion' || argname == 'ftag' || argname == 'ttag' || (adTarg)) {
+               // args[argname] = value;
+               if (adTarg) {argname = argname.substring(12);} // strip off adTargeting_ from the name if present
+               googletag.pubads().setTargeting(argname, value);      // Set Targeting
+               if (argname == 'ftag' || argname == 'ttag') {
+                  document.cookie=("xfpFtag="+value+";domain="+xfpDomain+";path=/" );
+                  newFtag = 1;
+               }
+               xfpObj += '~' +argname +'=' +value;
+            }
+         }
+
+         var xfpFtagVal = readCookie("xfpFtag");                  // check if we have an ftag cookie
+         var newFtag = 0;
+         if ((newFtag==0) && xfpFtagVal) {                        // If no new setting for ftag but we had an old one then
+            googletag.pubads().setTargeting('ftag', xfpFtagVal);  // Set Targeting
+            xfpObj += '~ftag=' +xfpFtagVal;
+         }
+      }
+      
+      function getTaboolaPlacements() {
+         var taboolaList = '';
+         $("div[data-taboola-placement]").each(function() {
+            $this = $(this);
+            if ($this.data('taboola-placement')) {
+              if (taboolaList != '') {taboolaList+='|';}
+              taboolaList += $this.data('taboola-placement');
+            }
+         });
+         surround.taboola=taboolaList;
+      }
+    </script>
+   <script type="text/javascript">
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+         var gads = document.createElement('script');
+         gads.async = true;
+         gads.type = 'text/javascript';
+         var useSSL = 'https:' == document.location.protocol;
+         gads.src = (useSSL ? 'https:' : 'http:') +'//www.googletagservices.com/tag/js/gpt.js';
+         var node = document.getElementsByTagName('script')[0];
+         node.parentNode.insertBefore(gads, node);
+      })();
+
+      var adSlots = {}; //var to hold ad slots.
+
+      googletag.cmd.push(function() {
+
+         adSlots["XFP_top_strip"] = googletag.defineSlot("/8264/aw-cbssports/nfl/media/injuries/injury", [5,5], "top_strip").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_leader_top"] = googletag.defineSlot("/8264/aw-cbssports/nfl/media/injuries/injury", [[728,90],[970,66],[970,90]], "leader_top").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_skin_ad_call"] = googletag.defineSlot("/8264/aw-cbssports/nfl/media/injuries/injury", [1600,1000], "skin_ad_call").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_sky_top"] = googletag.defineSlot("/8264/aw-cbssports/nfl/media/injuries/injury", [160,600], "sky_top").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_leader_plus2_bottom"] = googletag.defineSlot("/8264/aw-cbssports/nfl/media/injuries/injury", [[728,90],[970,66]], "leader_plus2_bottom").addService(googletag.pubads()).setTargeting("pos", "bottom"); 
+         googletag.pubads().addEventListener("slotRenderEnded", function(event) {
+            var slotName = event.slot.getSlotElementId();
+            
+            if (slotName == 'leader_plus_top' || slotName == 'leader_top') {
+               // CBSi.log("ENTER Collapse empty leaderboard.");
+               var slotID = '#' + slotName;
+               // CBSi.log("Slot ID is " + slotName);
+               if ($(slotID).css('display') == 'none') {
+                   CBSi.log("Collapse empty leaderboard.");
+                   $('#leaderboard-wrap').css({ "display": "none" });
+               }
+            } else if (slotName == 'top_strip') {
+               if ($('#top_strip').css('display') != 'none' && typeof om != "undefined") {
+                   // CBSi.log("Track skybox Impression.");
+                   om.trackImpression('Skybox');
+               }
+            }
+         }); 
+         googletag.defineOutOfPageSlot("/8264/aw-cbssports/nfl/media/injuries/injury","interstitial").addService(googletag.pubads());
+         googletag.pubads().setTargeting("ptype", "injuries");
+         googletag.pubads().setTargeting("firstpg", ""+xfpFirstPage);
+         googletag.pubads().setTargeting("session", xfpSession);
+         googletag.pubads().setTargeting("subses", ""+xfpSubsession);
+         googletag.pubads().setTargeting("vguid", surround.vguid); 
+         googletag.pubads().setTargeting("user", "anon"); 
+         googletag.pubads().setTargeting("env", "prod"); 
+
+         xfpGetArgs(); // to set/override targeting for env, session, subses, adRegion, ftag, ttag, and adTargeting_<key> if set by query string
+         googletag.pubads().enableAsyncRendering();
+         googletag.pubads().enableSingleRequest();
+         googletag.pubads().collapseEmptyDivs();
+         googletag.enableServices();
+         // googletag.display();  // Ad display is triggered via Sonobi.
+      });
+      var PR_UACT=0;
+      xfpObj += '~ptype=injuries~firstpg=' +xfpFirstPage +'~session='+xfpSession +'~subses='+xfpSubsession+'';
+      function getVideoAdSessionValues(videoId){return  "session="+xfpSession+";subses="+xfpSubsession+"";}
+   </script>
+   
+         <script type="text/javascript">
+         window._taboola = window._taboola || [];
+         _taboola.push({other : 'auto'});
+         !function (e, f, u) {
+             e.async = 1;
+             e.src = u;
+             f.parentNode.insertBefore(e, f);
+         }(document.createElement('script'), 
+         document.getElementsByTagName('script')[0], '//cdn.taboola.com/libtrc/cbsinteractive-cbssports/loader.js');
+         </script>
+      
+   
+    
+    <!-- no ClickTale -->
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /><meta name="description" content="NFL injury status and practice reports at CBSSports.com. NFL player injury news and practice information are listed by team."><meta property="og:title" content="NFL INJURIES" /><meta property="og:type" content="article"/><meta property="og:description" content=""/><meta property="og:image" content="http://sports.cbsimg.net/images/cbss/ui5/cbssportsv2_200x200.png"/><meta property="og:url" content="https://www.cbssports.com/nfl/injuries"/><meta property="og:site_name" content="CBSSports.com"/><meta property="fb:app_id" content="297742330311988"/><meta itemprop="name" content="NFL INJURIES"/><meta itemprop="description" content=""/><meta name="vr:type" content="article"/><meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@cbssports" /><meta name="twitter:creator" content="@EyeOnNFL" /><meta name="twitter:url" content="https://www.cbssports.com/nfl/injuries" /><meta name="twitter:title" content="NFL INJURIES" /><meta name="twitter:description" content="" /><meta name="twitter:image" content="http://sports.cbsimg.net/images/cbss/ui5/cbssportsv2_200x200.png" /><meta name="keywords" content="NFL injury report updates player update practice, NFL football injuries, latest up do date accurate NFL injuries updates player injuries, Sports Line, CBS SportsLine">
+<meta name="googlebot" content="NOODP">
+<meta property="fb:pages" content="25902406772" />
+
+<link rel="canonical" href="https://www.cbssports.com/nfl/injuries">
+<link rel="alternate" title="CBSSports.com: NFL Headlines" href="http://www.cbssports.com/partners/feeds/rss/nfl_news" type="application/rss+xml">
+    <link rel="apple-touch-icon" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-ipad-retina.png">
+</head><body id="standardBody">
+<div id="tooltip" name="tooltip"></div> 
+
+<script type="text/javascript">if(top.location != self.location && (document.referrer.indexOf("cbssports.com") == -1)) {window.open(location.href, '_top');}</script>
+<div id="interstitial" style="position:absolute;top:-5000px;left:-5000px;">
+      <script type="text/javascript">
+         googletag.cmd.push(function() {
+             if (typeof index_headertag_lightspeed !== 'undefined') {
+                 var cb = (function () {
+                     return function () {
+                         var slots = googletag.pubads().getSlots();
+                         index_headertag_lightspeed.set_slot_targeting(slots);
+                          googletag.display("interstitial");
+                       };
+                 })();
+                 index_headertag_lightspeed.add_session_end_hook(cb, true);
+                 index_headertag_lightspeed.refresh();
+             } else {
+                 googletag.display("interstitial");
+             }
+         });
+      </script>
+   </div>
+<!--googleoff: snippet-->
+<div id="skybox-above">
+    <div id="top_strip" class="ad-top-strip">
+    <script type="text/javascript">
+    if (switchXFP != 'off') {
+        googletag.cmd.push(function() {
+            if (typeof index_headertag_lightspeed !== 'undefined') {
+                      var cb = (function () {
+                          return function () {
+                              var slots = googletag.pubads().getSlots();
+                              index_headertag_lightspeed.set_slot_targeting(slots);
+                               googletag.display("top_strip");
+                            };
+                      })();
+                      index_headertag_lightspeed.add_session_end_hook(cb, true);
+                      index_headertag_lightspeed.refresh();
+                  } else {
+                      googletag.display("top_strip");
+                  }
+        });
+        if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="top_strip" style="width:100%"><br>').insertBefore('#top-strip');
+    }
+    </script>
+    </div>
+</div>
+<script>
+var skyBoxScroll = function() {
+     if ($(window).scrollTop() != 0) {
+        window.scrollTo(window.scrollX, window.scrollY - 1);
+        window.scrollTo(window.scrollX, window.scrollY + 1);
+     }
+}
+</script><header id="site-header" class="site-header" data-component="nav" data-role="header" data-position="fixed" data-fullscreen="true">
+	<div id="nav-network-bar" class="nav-network-bar">
+	  <ul class="nav-networks">
+		<li class="nav-networks-item is-selected"> <a href="http://www.cbssports.com/" om-event="Brand Bar|CBSSports">CBSSports.com</a> </li>
+		<li class="nav-networks-item "> <a href="http://247sports.com" target="_blank" om-event="Brand Bar|247Sports"> 247Sports </a> </li>
+		<li class="nav-networks-item "> <a href="http://www.maxpreps.com" target="_blank" om-event="Brand Bar|MaxPreps"> MaxPreps </a> </li>
+		<li class="nav-networks-item "> <a href="http://www.sportsline.com" target="_blank" om-event="Brand Bar|SportsLine"> SportsLine </a> </li>
+		<li class="nav-networks-item "> <a href="http://shop.cbssports.com/?utm_source=cbssportscom_hp&utm_medium=bm_referral&utm_term=kw--CBS_Sports" target="_blank" om-event="Brand Bar|Shop"> Shop </a> </li>
+	  </ul>
+	  
+	  <ul class="nav-follow-us">
+		<li class="nav-follow-us-item nav-follow-us-item-label"> Follow CBS Sports </li>
+		<li class="nav-follow-us-item"> <a href="https://www.facebook.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Facebook"><span class="btn share icon-moon-facebook"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://twitter.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Twitter"><span class="btn share icon-moon-twitter"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://www.instagram.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Instagram"><span class="btn share icon-moon-instagram"></span></a> </li>
+	  </ul>
+	</div>
+	<div id="cbs-site-nav" class="cbs-site-nav">
+		<div class="site-nav-inner">
+			<div class="site-nav-logo">
+				<div class="cbs-logo-lockup">
+					
+        
+        <div class="cbs-logo">
+            <a href="/" om-event="Arena Nav|Logo"> <span class="cbs-logo-icon icon-moon-cbs-icon"></span> </a>
+        </div>
+        
+            <div class="cbs-logo-section has-icon"><div class="cbs-logo-pos" data-arena="logo">
+                <span class="logo-sport icon-moon-arena-text-nfl"></span>
+                <span class="logo-icon icon-moon-caret-down"></span>
+            </div> <div class="cbs-logo-dropdown"><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-cbs-icon"></span> <a href="/" om-event="Arena Nav|NFL|CBS Sports Home">CBS Sports Home</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-fantasy"></span> <a href="https://www.cbssports.com/fantasy/" om-event="Arena Nav|NFL|Fantasy">Fantasy</a> </li><li class="nav-dropdown-item is-selected"> <span class="icon-sport icon-moon-arena-nfl"></span> <a href="https://www.cbssports.com/nfl/" om-event="Arena Nav|NFL|NFL">NFL</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-mlb"></span> <a href="https://www.cbssports.com/mlb/" om-event="Arena Nav|NFL|MLB">MLB</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-ncaafb"></span> <a href="https://www.cbssports.com/college-football/" om-event="Arena Nav|NFL|NCAA FB">NCAA FB</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-golf"></span> <a href="https://www.cbssports.com/golf/" om-event="Arena Nav|NFL|Golf">Golf</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-basketball"></span> <a href="https://www.cbssports.com/nba/" om-event="Arena Nav|NFL|NBA">NBA</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-nhl"></span> <a href="https://www.cbssports.com/nhl/" om-event="Arena Nav|NFL|NHL">NHL</a> </li></ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/college-basketball/" om-event="Arena Nav|NFL|NCAA BB">NCAA BB</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/boxing" om-event="Arena Nav|NFL|Boxing">Boxing</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/wwe/" om-event="Arena Nav|NFL|WWE">WWE</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/soccer/" om-event="Arena Nav|NFL|Soccer">Soccer</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/mma/" om-event="Arena Nav|NFL|MMA">MMA</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/tennis/" om-event="Arena Nav|NFL|Tennis">Tennis</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/olympics/" om-event="Arena Nav|NFL|Olympics">Olympics</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.maxpreps.com/national/national.htm" om-event="Arena Nav|NFL|High School" target="_blank" class="external-link" rel="nofollow">High School</a> </li></ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class=""></span> <a href="http://sports.cbslocal.com/" om-event="Arena Nav|NFL|CBS Local Sites" target="_blank" class="external-link" rel="nofollow">CBS Local Sites</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.nascar.com/en_us/sprint-cup-series.html?cid=syn_cbs_referrers_navlinks_01112013&synid=syn_cbs_referrers_navlinks_01112013" om-event="Arena Nav|NFL|NASCAR" target="_blank" class="external-link" rel="nofollow">NASCAR</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.americasbestracing.net/" om-event="Arena Nav|NFL|Horse Racing" target="_blank" class="external-link" rel="nofollow">Horse Racing</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.pbr.com/" om-event="Arena Nav|NFL|PBR" target="_blank" class="external-link" rel="nofollow">PBR</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://toughmudder.com/" om-event="Arena Nav|NFL|Tough Mudder" target="_blank" class="external-link" rel="nofollow">Tough Mudder</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.bowl.com/" om-event="Arena Nav|NFL|Bowling" target="_blank" class="external-link" rel="nofollow">Bowling</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.stubhub.com/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHomepagemodule-_-partCBSSports" om-event="Arena Nav|NFL|Tickets" target="_blank" class="external-link" rel="nofollow">Tickets</a> </li></ul></div> </div></div></div>
+        
+        <nav class="site-nav-list">
+            <ul><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/nfl/"  om-event="Arena Nav|NFL|Home">Home</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/nfl/scoreboard/"  om-event="Arena Nav|NFL|Scores">Scores</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/nfl/schedules"  om-event="Arena Nav|NFL|Schedule">Schedule</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/nfl/standings"  om-event="Arena Nav|NFL|Standings">Standings</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/fantasy/football/"  om-event="Arena Nav|NFL|Fantasy">Fantasy</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/nfl/teams"  om-event="Arena Nav|NFL|Teams">Teams</a></li>
+                        <li class="nav-list-item hoverable the-dots" data-arena="extras">
+                            <span class="icon-more icon-moon-nav-more"></span>
+                            <div class="site-nav-dropdown is-wide">
+                                <ul class="nav-dropdown-col"><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/nfl/features/writers/expert/picks"  om-event="Arena Nav|NFL|More|Expert Picks">Expert Picks</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="http://www.sportsline.com/nfl/odds/"  om-event="Arena Nav|NFL|More|Odds">Odds</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/nfl/features/writers/prisco/picks"  om-event="Arena Nav|NFL|More|Prisco's Picks">Prisco's Picks</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/nfl/powerrankings/"  om-event="Arena Nav|NFL|More|Power Rankings">Power Rankings</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/nfl/stats"  om-event="Arena Nav|NFL|More|Stats">Stats</a></li><li class="nav-dropdown-item nav-dropdown-overflow is-selected"> <a href="https://www.cbssports.com/nfl/injuries"  om-event="Arena Nav|NFL|More|Injuries">Injuries</a></li></ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/nfl/transactions"  om-event="Arena Nav|NFL|More|Transactions">Transactions</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/nfl/players"  om-event="Arena Nav|NFL|More|Players">Players</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/nfl/show/pro-football-rundown/"  om-event="Arena Nav|NFL|More|PFB Rundown">PFB Rundown</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbs.com/all-access/live-tv/?ftag=AAM-00-10ade5b" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|NFL|More|CBS All Access">CBS All Access</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.stubhub.com/nfl-tickets/grouping/121/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHpdropdown-_-partCBSSports" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|NFL|More|Tickets">Tickets</a></li></ul></div></li></ul>
+        </nav>
+			<div class="site-nav-side not-logged-in">
+				<ul class="site-nav-side-inner">
+					<li class="nav-side-item games-item hoverable" data-arena="play"> <span class="narrow-text">Play</span> <span class="narrow-icon icon-item icon-moon-nav-games"></span>
+					    <div class="site-nav-dropdown is-dropdown-games align-right">
+							<div class="nav-dropdown-inner">
+								
+        <div class="nav-dropdown-game">
+            <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/football/?ttag=FFB16_os_drpdwn_feat_lk" om-event="Global Nav|Home|Play|Games|Text">Games</a></h6>
+            <div class="nav-game-wrap">
+                <div class="nav-game game-left">
+                    <div class="nav-game-image">
+                        <a href="https://www.cbssports.com/fantasy/games/?ftag=SPM-16-10abd7a" om-event="Global Nav|Home|Play|FANTASY FOOTBALL|Feature 1"><img src="https://sportshub.cbsistatic.com/i/2017/06/22/483c2e7e-a8aa-4946-ae4e-579f00ea394b/fantasy-football-180x100.jpg" alt="fantasy-football-180x100.jpg"></a>
+                        <p class="nav-game-text">Play Now</p>
+                    </div>
+                    <p class="nav-game-title"><a href="https://www.cbssports.com/fantasy/games/?ftag=SPM-16-10abd7a" om-event="Global Nav|Home|Play|FANTASY FOOTBALL|Feature 1">FANTASY FOOTBALL</a></p>
+                </div>
+                <div class="nav-game game-right">
+                    <div class="nav-game-image">
+                        <a href="https://www.cbssports.com/fantasy/games/football/office-pool-manager/?ftag=SPM-16-10abf7b" om-event="Global Nav|Home|Play|Game PIck'em|Feature 2"><img src="https://sportshub.cbsistatic.com/i/2017/08/07/6a27f960-e130-4ca7-8fe8-d1b99263dbc7/pickemplaydrop180x100.jpg" alt="pickemplaydrop180x100.jpg"></a>
+                        <p class="nav-game-text">Play Now</p>
+                    </div>
+                    <p class="nav-game-title"><a href="https://www.cbssports.com/fantasy/games/football/office-pool-manager/?ftag=SPM-16-10abf7b" om-event="Global Nav|Home|Play|Game PIck'em|Feature 2">Game PIck'em</a></p>
+                </div>
+            </div>
+            <div class="nav-game-dropdown-text" style="clear:both;">
+                <a href="https://www.cbssports.com/fantasy/games/my-teams/" om-event="Global Nav|Home|Play|View your Leagues|Text">View your Leagues</a>
+            </div>
+        </div>
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/football?ttag=FF16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Football|Text">Fantasy Football</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/baseball/?ttag=FBB16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Baseball|Text">Fantasy Baseball</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/basketball/?ttag=FBK16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Basketball|Text">Fantasy Basketball</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/hockey/?ttag=FHK16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Hockey|Text">Fantasy Hockey</a></h6>
+            </div>
+        
+    </div>
+    <div class="nav-dropdown-bottom">
+        <div class="nav-dropdown-button">
+            <a href="/fantasy/games/" om-event="Global Nav|Home|Play|See All">See All Sports Games</a>
+        </div>
+    </div>
+    
+							</div>
+						</div>
+					</li>
+					<li class="nav-side-item watch-item hoverable" data-arena="watch"> <span class="narrow-text">Watch</span> <span class="narrow-icon icon-item icon-moon-nav-watch"></span>
+						<div class="site-nav-dropdown align-right">
+							<div class="nav-dropdown-inner">
+								
+               <h6 class="nav-dropdown-title"> <a href="https://www.cbssports.com/video/player?channel=cbssportsnetwork" om-event="Global Nav|NFL|Watch|Featured Video|Text">Latest from CBS Sports Network </a></h6>
+               <div class="nav-dropdown-top">
+                    <a href="https://www.cbssports.com/video/player?channel=cbssportsnetwork">
+                        <div class="image-icon-overlay-wrap">
+                            <figure class="img"><img src="https://sportshub.cbsistatic.com/i/2017/03/27/4a8a0cfb-8794-4c57-8cfd-53cc0ba8c2cd/sizzle-graphic.jpg" alt="sizzle_graphic" height="152" width="270"></figure>
+                        </div>
+                        <a href="https://www.cbssports.com/video/player?channel=cbssportsnetwork" class="vidPlayLg" alt="sizzle_graphic" om-event="Global Nav|NFL|Watch|Featured Video|Image"></a>
+                    </a>
+               </div>
+           <ul><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/"  om-event="Global Nav|NFL|Watch|Watch CBS Sports Network">Watch CBS Sports Network</a> </li><li class="nav-dropdown-item"> <a href="http://www.cbssportsnetwork.com/" rel="nofollow" class="external-link" target="_blank"  om-event="Global Nav|NFL|Watch|CBSSN Channel Finder">CBSSN Channel Finder</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/cbssports"  om-event="Global Nav|NFL|Watch|TV Shows & Listings">TV Shows & Listings</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbs.com/all-access/live-tv/?ftag=AAM-00-10ade5c"  om-event="Global Nav|NFL|Watch|NFL on All Access">NFL on All Access</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/fantasy/football/show/fantasy-football-today/"  om-event="Global Nav|NFL|Watch|Fantasy Football Today">Fantasy Football Today</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/college-football/sec-live/"  om-event="Global Nav|NFL|Watch|SEC Live">SEC Live</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/nfl/show/pro-football-rundown/"  om-event="Global Nav|NFL|Watch|Pro FB Rundown">Pro FB Rundown</a> </li><li class="nav-dropdown-item"> <a href="http://www.collegesportslive.com/start/?ftag=CSL-01-10aaa6f"  om-event="Global Nav|NFL|Watch|College Sports Live">College Sports Live</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/video/show/crossfit-games/"  om-event="Global Nav|NFL|Watch|CrossFit Games">CrossFit Games</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/video/show/the-score/"  om-event="Global Nav|NFL|Watch|The Score">The Score</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/video/player/247-sports-live"  om-event="Global Nav|NFL|Watch|247Sports Live">247Sports Live</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/show/reiter-than-you/"  om-event="Global Nav|NFL|Watch|Reiter Than You">Reiter Than You</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/video/show/minute-update/"  om-event="Global Nav|NFL|Watch|Sports Minute">Sports Minute</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/videos/"  om-event="Global Nav|NFL|Watch|All Videos">All Videos</a> </li></ul>
+							</div>
+						</div>
+					</li>
+					<li class="nav-side-item hoverable" data-arena="listen"> <span class="narrow-text">Listen</span> <span class="narrow-icon icon-item icon-moon-nav-listen"></span>
+						<div class="site-nav-dropdown align-right">
+							<div class="nav-dropdown-inner">
+								
+                <h6 class="nav-dropdown-title"> CBS Sports Radio </h6>
+                <div class="nav-dropdown-top">
+                  <div class="nav-dropdown-image"> <a href="http://radio.cbssports.com/" rel="nofollow" target="_blank" om-event="Global Nav|NFL|Listen|Featured Podcast|Image"><img src="https://sportshub.cbsistatic.com/i/2016/02/24/fb0619ed-f59a-47ac-ac37-d7f670af79f3/cbssports-radio.png" alt="CBSSPORTS-radio"></a> </div>
+                  <div class="nav-dropdown-top-side">
+                    <p class="nav-dropdown-top-title"> <a href="http://radio.cbssports.com/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|NFL|Listen|Featured Podcast|Text"> Listen Live </a> </p>
+                    <time class="nav-dropdown-top-date">  </time>
+                  </div>
+                </div>
+            
+                <h6 class="nav-dropdown-title"> Fantasy Football Today </h6>
+                <div class="nav-dropdown-top">
+                  <div class="nav-dropdown-image"> <a href="https://soundcloud.com/cbssportspodcasts/hou-cin-week-2-start-or-sit" rel="nofollow" target="_blank" om-event="Global Nav|NFL|Listen|Featured Podcast|Image"><img src="https://sportshub.cbsistatic.com/i/2017/06/20/bea1c43d-f08f-480e-8ad9-e93ad015bcc1/podcast-fantasyfootball-logo.jpg" alt="Podcast: Fantasy Football Today logo"></a> </div>
+                  <div class="nav-dropdown-top-side">
+                    <p class="nav-dropdown-top-title"> <a href="https://soundcloud.com/cbssportspodcasts/hou-cin-week-2-start-or-sit"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|NFL|Listen|Featured Podcast|Text"> HOU-CIN Reactions, Start or Sit </a> </p>
+                    <time class="nav-dropdown-top-date"> 44h ago </time>
+                  </div>
+                </div>
+            <ul><li class="nav-dropdown-item"> <a href="http://sports.cbslocal.com/cbs-sports-radio-roundup/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|NFL|Listen|CBS Sports Radio Roundup">CBS Sports Radio Roundup</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/podcasts/jonah-keri/" om-event="Global Nav|NFL|Listen|The Jonah Keri Podcast">The Jonah Keri Podcast</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/podcast" om-event="Global Nav|NFL|Listen|Podcasts">Podcasts</a> </li><li class="nav-dropdown-item"> <a href="http://jimrome.com/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|NFL|Listen|The Jim Rome Show">The Jim Rome Show</a> </li></ul>
+							</div>
+						</div>
+					</li>
+					
+            <li class="nav-side-item log-in-item"> 
+                <span class="log-in-buttons"> 
+                    <a href="https://www.cbssports.com/login?master_product=150&xurl=https%3A%2F%2Fwww.cbssports.com%2Fnfl%2Finjuries" class="log-in-button" om-event="Global Nav|NFL|Log In"> <span class="the-button">Log In</span> </a> 
+                </span> 
+            </li>        
+        
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+<script type="text/javascript">
+ $(document).ready(function() {
+	var touchedNow;  			// Track which was just tapped now
+	var touchedLast  = 'none'; // Track which was last opened
+	var navItems 	 = $('.nav-list-item.hoverable, .nav-side-item.hoverable, .cbs-logo-section');
+	var navButtons   = $('.nav-list-item.hoverable > a, .nav-list-item.hoverable .icon-more, .nav-side-item.hoverable  span, .logo-sport');
+
+	navButtons.on("touchstart", function (e) {
+		var ua = navigator.userAgent.toLowerCase();
+		var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+		if (isAndroid) {
+			myWebview.zoomIn();
+			myWebview.zoomOut();
+		}
+		e.preventDefault();
+
+		$('body').addClass('touch-enabled');
+		var touchedParent = $(this).parent();
+		touchedNow = touchedParent.data( "arena" ); // record which nav link was clicked.
+		navItems.removeClass('is-tapped'); // remove 'is-tapped' from all links
+		if (touchedNow === touchedLast) {
+			// console.log('THE SAME ', touchedNow, touchedLast);
+			$('body').addClass('touch-enabled');
+			touchedLast = 'none';
+		} else {
+			// console.log('DIFFERENT ', touchedNow, touchedLast);
+			$('body').removeClass('touch-enabled');
+			touchedLast = touchedParent.data( "arena" );
+		}
+	});
+});
+
+</script>
+
+
+<!--googleon: snippet-->
+<div id="mantle_skin">
+    <span id="adSkinLeft"></span>
+    <span id="adSkinRight"></span>
+    
+    <div id="skin_ad_call" style="max-height:1px !important">
+        <script type="text/javascript">
+        if (switchXFP != 'off') {
+            googletag.cmd.push(function() {
+                if (typeof index_headertag_lightspeed !== 'undefined') {
+                          var cb = (function () {
+                              return function () {
+                                  var slots = googletag.pubads().getSlots();
+                                  index_headertag_lightspeed.set_slot_targeting(slots);
+                                   googletag.display("skin_ad_call");
+                                };
+                          })();
+                          index_headertag_lightspeed.add_session_end_hook(cb, true);
+                          index_headertag_lightspeed.refresh();
+                      } else {
+                          googletag.display("skin_ad_call");
+                      }
+            });
+            if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="skin_ad_call" style="width:960px"><br>').insertBefore('#skin_ad_call');
+        }
+        </script>
+    </div>
+    
+    
+            <div id="leaderboard-wrap" align="center" style="min-height:66px; height: auto;">
+                <div id="leader_top" style="padding-top: 10px;">
+                    <script type="text/javascript">
+                    if (switchXFP != 'off') {
+                        googletag.cmd.push(function() {
+                            if (typeof index_headertag_lightspeed !== 'undefined') {
+                                      var cb = (function () {
+                                          return function () {
+                                              var slots = googletag.pubads().getSlots();
+                                              index_headertag_lightspeed.set_slot_targeting(slots);
+                                               googletag.display("leader_top");
+                                            };
+                                      })();
+                                      index_headertag_lightspeed.add_session_end_hook(cb, true);
+                                      index_headertag_lightspeed.refresh();
+                                  } else {
+                                      googletag.display("leader_top");
+                                  }
+                        });
+                        if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="leader_top" style="width:980px"><br>').insertBefore('#leader_top');
+                    }
+                    </script>
+                </div>
+            </div>
+            
+
+
+    
+    <div id="pageRow">
+    
+    <div id="pageContainer" section="layout;railRight">
+    <h1 class="pageTitle feature nfl">NFL INJURIES</h1>
+    <ul class="optPrimary options tab"><li class="optsel"><a    class="optsel  " href="/nfl/injuries" >NFL Status</a></li><li class="tabSep"></li><li><a    class="opt  " href="/nfl/injuries/practice" >Practice Information</a></li><li class="tabSep"></li><li><a    class="opt  " href="/nfl/injuries/pup" >PUP/IR</a></li></ul>
+
+
+        <div id="layoutRailRight">
+            <div class="column1">
+            <table class="data" width="100%" ><tr class="title"><td colspan="6"><a href="/nfl/teams/page/ARI/arizona-cardinals">Arizona Cardinals</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2129438/john-brown">John Brown</a></td><td  align="left" width="10%">QUADRICEP</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Indianapolis</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1737409/deone-bucannon">Deone Bucannon</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">DOUBTFUL</td><td  align="left" width="45%">Limited Practice on Friday. Doubtful for Week 2 at Indianapolis</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">TE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1123667/jermaine-gresham">Jermaine Gresham</a></td><td  align="left" width="10%">RIBS</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Did Not Practice on Friday. Questionable for Week 2 at Indianapolis</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">T</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1984165/dj-humphries">D.J. Humphries</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Indianapolis</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">G</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1137494/mike-iupati">Mike Iupati</a></td><td  align="left" width="10%">TRICEP</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Indianapolis</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">TE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1893206/troy-niklas">Troy Niklas</a></td><td  align="left" width="10%">HIP</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Indianapolis</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">DT</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2079896/robert-nkemdiche">Robert Nkemdiche</a></td><td  align="left" width="10%">CALF</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Indianapolis</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/ATL/atlanta-falcons">Atlanta Falcons</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">RB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2131960/brian-hill">Brian Hill</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. Green Bay</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">08/07/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1824824/jalen-collins">Jalen Collins</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 12 vs. Tampa Bay</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/BAL/baltimore-ravens">Baltimore Ravens</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1682076/michael-campanaro">Michael Campanaro</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. Cleveland</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">CB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2820502/jaylen-hill">Jaylen Hill</a></td><td  align="left" width="10%">THIGH</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 vs. Cleveland</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2061139/zadarius-smith">Za'Darius Smith</a></td><td  align="left" width="10%">KNEE, ANKLE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 vs. Cleveland</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2082733/tim-williams">Tim Williams</a></td><td  align="left" width="10%">ILLNESS</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. Cleveland</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">07/30/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2820501/aaron-bailey">Aaron Bailey</a></td><td  align="left" width="10%">Undisclosed</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 vs. Cleveland</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">07/26/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2818907/daniel-henry">Daniel Henry</a></td><td  align="left" width="10%">Undisclosed</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 vs. Cleveland</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">07/01/17</td><td  align="center" width="5%">TE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1850793/darren-waller">Darren Waller</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended indefinitely</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/07/16</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2130816/carrington-byndom">Carrington Byndom</a></td><td  align="left" width="10%">Undisclosed</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 vs. Cleveland</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/BUF/buffalo-bills">Buffalo Bills</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">CB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1630686/leonard-johnson">Leonard Johnson</a></td><td  align="left" width="10%">QUAD</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Carolina</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">DE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1631028/jerel-worthy">Jerel Worthy</a></td><td  align="left" width="10%">CONCUSSION</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Carolina</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">08/27/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2078964/max-valles">Max Valles</a></td><td  align="left" width="10%">Knee</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 at Carolina</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">06/09/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2129595/walt-powell">Walt Powell</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 5 at Cincinnati</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">05/05/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1763030/seantrel-henderson">Seantrel Henderson</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 7 vs. Tampa Bay</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/CAR/carolina-panthers">Carolina Panthers</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  colspan="6" align="left" width="10%">No Injuries Reported</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/CHI/chicago-bears">Chicago Bears</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">CB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1263300/prince-amukamara">Prince Amukamara</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Tampa Bay</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1979372/josh-bellamy">Josh Bellamy</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Tampa Bay</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">S</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1998305/deon-bush">Deon Bush</a></td><td  align="left" width="10%">PERSONAL, HAMSTRING</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Did Not Practice on Friday. Questionable for Week 2 at Tampa Bay</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">RB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2058327/benny-cunningham">Benny Cunningham</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">DOUBTFUL</td><td  align="left" width="45%">Did Not Practice on Friday. Doubtful for Week 2 at Tampa Bay</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2061110/leonard-floyd">Leonard Floyd</a></td><td  align="left" width="10%">BACK</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Tampa Bay</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">RB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2083294/jordan-howard">Jordan Howard</a></td><td  align="left" width="10%">SHOULDER</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Tampa Bay</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1737228/christian-jones">Christian Jones</a></td><td  align="left" width="10%">BACK</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Tampa Bay</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">T</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1996164/kyle-long">Kyle Long</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Out for Week 2 at Tampa Bay</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1679942/markus-wheaton">Markus Wheaton</a></td><td  align="left" width="10%">FINGER</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Tampa Bay</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/CIN/cincinnati-bengals">Cincinnati Bengals</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/15/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2071582/tyler-boyd">Tyler Boyd</a></td><td  align="left" width="10%">Coach's Decision</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Inactive for Week 2 vs. Houston</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/15/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/552555/adam-jones">Adam Jones</a></td><td  align="left" width="10%">Arm</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 3 at Green Bay</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/14/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/584099/michael-johnson">Michael Johnson</a></td><td  align="left" width="10%">Concussion</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Inactive for Week 2 vs. Houston</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/14/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2131636/josh-malone">Josh Malone</a></td><td  align="left" width="10%">Coach's Decision</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Inactive for Week 2 vs. Houston</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/14/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2005664/keivarae-russell">KeiVarae Russell</a></td><td  align="left" width="10%">Coach's Decision</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Inactive for Week 2 vs. Houston</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/14/17</td><td  align="center" width="5%">TE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2174118/cj-uzomah">C.J. Uzomah</a></td><td  align="left" width="10%">Ankle</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Inactive for Week 2 vs. Houston</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">08/27/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1691353/vontaze-burfict">Vontaze Burfict</a></td><td  align="left" width="10%">Back</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 4 at Cleveland</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/CLE/cleveland-browns">Cleveland Browns</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">DE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2139869/myles-garrett">Myles Garrett</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Baltimore</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">DT</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2175354/ty-mcgill">T.Y. McGill</a></td><td  align="left" width="10%">BACK</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Baltimore</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">10/04/16</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1686045/josh-gordon">Josh Gordon</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended indefinitely</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/DAL/dallas-cowboys">Dallas Cowboys</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2129465/anthony-hitchens">Anthony Hitchens</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Denver</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">S</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1763472/byron-jones">Byron Jones</a></td><td  align="left" width="10%">GROIN</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Denver</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">CB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/556987/orlando-scandrick">Orlando Scandrick</a></td><td  align="left" width="10%">HAND</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Denver</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1632384/terrance-williams">Terrance Williams</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Denver</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">07/31/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1737651/damontre-moore">Damontre Moore</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 3 at Arizona</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">06/29/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2175059/david-irving">David Irving</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 5 vs. Green Bay</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">01/06/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2060630/randy-gregory">Randy Gregory</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until January 2018</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/DEN/denver-broncos">Denver Broncos</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">RB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2061491/devontae-booker">Devontae Booker</a></td><td  align="left" width="10%">WRIST</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Limited Practice on Friday. Out for Week 2 vs. Dallas</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">DE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2130863/zach-kerr">Zach Kerr</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. Dallas</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">CB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2061118/brendan-langley">Brendan Langley</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 vs. Dallas</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">G</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1245994/ronald-leary">Ronald Leary</a></td><td  align="left" width="10%">CONCUSSION</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. Dallas</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">QB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1999663/paxton-lynch">Paxton Lynch</a></td><td  align="left" width="10%">RIGHT SHOULDER</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 vs. Dallas</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">S</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1116705/darian-stewart">Darian Stewart</a></td><td  align="left" width="10%">GROIN</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. Dallas</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/02/17</td><td  align="center" width="5%">TE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2060719/jake-butt">Jake Butt</a></td><td  align="left" width="10%">Knee - ACL</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 vs. Dallas</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">07/27/17</td><td  align="center" width="5%">QB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2818376/chad-kelly">Chad Kelly</a></td><td  align="left" width="10%">Wrist</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 vs. Dallas</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/DET/detroit-lions">Detroit Lions</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/18/17</td><td  align="center" width="5%">DE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1765317/ezekiel-ansah">Ezekiel Ansah</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Saturday. Questionable for Week 2 at N.Y. Giants</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">07/20/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1888777/armonty-bryant">Armonty Bryant</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 5 vs. Carolina</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">06/21/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2129434/khyri-thornton">Khyri Thornton</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 8 vs. Pittsburgh</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/GB/green-bay-packers">Green Bay Packers</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">DT</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2079859/montravius-adams">Montravius Adams</a></td><td  align="left" width="10%">FOOT</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Atlanta</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">T</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1665265/david-bakhtiari">David Bakhtiari</a></td><td  align="left" width="10%">HAMSTRING</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Atlanta</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">S</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1999380/kentrell-brice">Kentrell Brice</a></td><td  align="left" width="10%">QUADRICEP, KNEE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%"> </td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1114534/ahmad-brooks">Ahmad Brooks</a></td><td  align="left" width="10%">CONCUSSION</td><td  align="left" width="10%">DOUBTFUL</td><td  align="left" width="45%">Did Not Practice on Friday. Doubtful for Week 2 at Atlanta</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">T</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1243680/bryan-bulaga">Bryan Bulaga</a></td><td  align="left" width="10%">ANKLE, ILLNESS</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Atlanta</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">DT</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1692684/mike-daniels">Mike Daniels</a></td><td  align="left" width="10%">HIP</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Atlanta</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">T</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2001860/jason-spriggs">Jason Spriggs</a></td><td  align="left" width="10%">HAMSTRING</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Atlanta</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">08/16/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1824819/jermaine-whitehead">Jermaine Whitehead</a></td><td  align="left" width="10%">Hip</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 at Atlanta</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/HOU/houston-texans">Houston Texans</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/15/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1759355/kevin-johnson">Kevin Johnson</a></td><td  align="left" width="10%">Knee</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 3 at New England</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/15/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1631198/jj-watt">J.J. Watt</a></td><td  align="left" width="10%">Finger</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 3 at New England</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/14/17</td><td  align="center" width="5%">TE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1880821/stephen-anderson">Stephen Anderson</a></td><td  align="left" width="10%">Concussion</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Inactive for Week 2 at Cincinnati</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/14/17</td><td  align="center" width="5%">RB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2129554/alfred-blue">Alfred Blue</a></td><td  align="left" width="10%">Ankle</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Inactive for Week 2 at Cincinnati</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/14/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/559359/brian-cushing">Brian Cushing</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 13 at Tennessee</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/14/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1852857/bruce-ellington">Bruce Ellington</a></td><td  align="left" width="10%">Concussion</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Inactive for Week 2 at Cincinnati</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/14/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2082827/will-fuller">Will Fuller</a></td><td  align="left" width="10%">Shoulder</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Inactive for Week 2 at Cincinnati</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/14/17</td><td  align="center" width="5%">TE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2057695/ryan-griffin">Ryan Griffin</a></td><td  align="left" width="10%">Concussion</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Inactive for Week 2 at Cincinnati</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/14/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/518581/johnathan-joseph">Johnathan Joseph</a></td><td  align="left" width="10%">Shoulder</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 3 at New England</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/IND/indianapolis-colts">Indianapolis Colts</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">S</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/537434/darius-butler">Darius Butler</a></td><td  align="left" width="10%">HAMSTRING</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 vs. Arizona</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">CB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1115108/vontae-davis">Vontae Davis</a></td><td  align="left" width="10%">GROIN</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 vs. Arizona</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">C</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1893142/ryan-kelly">Ryan Kelly</a></td><td  align="left" width="10%">FOOT</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 vs. Arizona</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">QB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1631912/andrew-luck">Andrew Luck</a></td><td  align="left" width="10%">RIGHT SHOULDER</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 vs. Arizona</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1984170/antonio-morrison">Antonio Morrison</a></td><td  align="left" width="10%">ELBOW</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 vs. Arizona</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2010688/chester-rogers">Chester Rogers</a></td><td  align="left" width="10%">HAMSTRING</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Full Practice on Friday. Questionable for Week 2 vs. Arizona</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/15/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2071763/anthony-walker">Anthony Walker</a></td><td  align="left" width="10%">Hamstring</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 vs. Arizona</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">08/12/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2252503/harvey-binford">Harvey Binford</a></td><td  align="left" width="10%">Undisclosed</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 vs. Arizona</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/JAC/jacksonville-jaguars">Jacksonville Jaguars</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">S</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1851284/calvin-pryor">Calvin Pryor</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 vs. Tennessee</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">CB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2071515/jalen-ramsey">Jalen Ramsey</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Did Not Practice on Friday. Questionable for Week 2 vs. Tennessee</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">08/08/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2174209/taurean-nixon">Taurean Nixon</a></td><td  align="left" width="10%">Undisclosed</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 vs. Tennessee</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">05/31/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1683110/bryan-walters">Bryan Walters</a></td><td  align="left" width="10%">Foot</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 vs. Tennessee</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">07/29/16</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1630860/justin-blackmon">Justin Blackmon</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended indefinitely</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/KC/kansas-city-chiefs">Kansas City Chiefs</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">G</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1871366/parker-ehinger">Parker Ehinger</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">DOUBTFUL</td><td  align="left" width="45%">Limited Practice on Friday. Doubtful for Week 2 vs. Philadelphia</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">S</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1891920/ron-parker">Ron Parker</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. Philadelphia</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2129497/kevin-pierrelouis">Kevin Pierre-Louis</a></td><td  align="left" width="10%">ILLNESS</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. Philadelphia</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2000915/reggie-ragland">Reggie Ragland</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">DOUBTFUL</td><td  align="left" width="45%">Limited Practice on Friday. Doubtful for Week 2 vs. Philadelphia</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/06/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1999909/jacoby-glenn">Jacoby Glenn</a></td><td  align="left" width="10%">Concussion</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 vs. Philadelphia</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">08/11/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2819447/jordan-sterns">Jordan Sterns</a></td><td  align="left" width="10%">Illness</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 vs. Philadelphia</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">08/03/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1892455/keith-baxter">Keith Baxter</a></td><td  align="left" width="10%">Wrist</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 vs. Philadelphia</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/LAC/los-angeles-chargers">Los Angeles Chargers</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">DE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1759310/jerry-attaochu">Jerry Attaochu</a></td><td  align="left" width="10%">HAMSTRING</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Full Practice on Friday. Questionable for Week 2 vs. Miami</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1272256/dontrelle-inman">Dontrelle Inman</a></td><td  align="left" width="10%">GROIN</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Full Practice on Friday. Questionable for Week 2 vs. Miami</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">S</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1998315/rayshawn-jenkins">Rayshawn Jenkins</a></td><td  align="left" width="10%">CONCUSSION, SHOULDER</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 vs. Miami</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">TE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1979404/sean-mcgrath">Sean McGrath</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Full Practice on Friday. Questionable for Week 2 vs. Miami</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">CB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1824936/jason-verrett">Jason Verrett</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 vs. Miami</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2082516/mike-williams">Mike Williams</a></td><td  align="left" width="10%">BACK</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Limited Practice on Friday. Out for Week 2 vs. Miami</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/10/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1983790/joshua-perry">Joshua Perry</a></td><td  align="left" width="10%">Head</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 vs. Miami</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">01/27/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2175145/brock-hekking">Brock Hekking</a></td><td  align="left" width="10%">Foot</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 vs. Miami</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/LAR/los-angeles-rams">Los Angeles Rams</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">CB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1688630/kayvon-webster">Kayvon Webster</a></td><td  align="left" width="10%">SHOULDER</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. Washington</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/10/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1877310/josh-forrest">Josh Forrest</a></td><td  align="left" width="10%">Knee</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 vs. Washington</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/06/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1664157/tj-mcdonald">T.J. McDonald</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 10 at Carolina</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">08/20/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2174893/carlos-thompson">Carlos Thompson</a></td><td  align="left" width="10%">Ankle</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 vs. Washington</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">07/14/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2139967/mike-thomas">Mike Thomas</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 5 vs. Seattle</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">05/05/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1737362/troy-hill">Troy Hill</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 3 at San Francisco</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/MIA/miami-dolphins">Miami Dolphins</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1824833/jarvis-landry">Jarvis Landry</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at L.A. Chargers</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/559367/rey-maualuga">Rey Maualuga</a></td><td  align="left" width="10%">HAMSTRING</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at L.A. Chargers</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">08/01/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1631835/dion-jordan">Dion Jordan</a></td><td  align="left" width="10%">Knee</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 vs. San Francisco</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/MIN/minnesota-vikings">Minnesota Vikings</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1759765/anthony-barr">Anthony Barr</a></td><td  align="left" width="10%">HAMSTRING</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Pittsburgh</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">QB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1123599/sam-bradford">Sam Bradford</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Pittsburgh</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">CB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1665147/xavier-rhodes">Xavier Rhodes</a></td><td  align="left" width="10%">HIP</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Pittsburgh</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/13/17</td><td  align="center" width="5%">QB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2174914/taylor-heinicke">Taylor Heinicke</a></td><td  align="left" width="10%">Concussion</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 at Pittsburgh</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/13/17</td><td  align="center" width="5%">TE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2071631/bucky-hodges">Bucky Hodges</a></td><td  align="left" width="10%">Head</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 vs. Buffalo</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">08/01/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1737102/sharrif-floyd">Sharrif Floyd</a></td><td  align="left" width="10%">Knee</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 at Pittsburgh</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">07/14/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1633109/michael-floyd">Michael Floyd</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 5 at Chicago</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/NE/new-england-patriots">New England Patriots</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/516968/danny-amendola">Danny Amendola</a></td><td  align="left" width="10%">CONCUSSION, KNEE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at New Orleans</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">T</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1125958/marcus-cannon">Marcus Cannon</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at New Orleans</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">S</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1971895/nate-ebner">Nate Ebner</a></td><td  align="left" width="10%">SHOULDER</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Out for Week 2 at New Orleans</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1673258/donta-hightower">Dont'a Hightower</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at New Orleans</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">S</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/563691/devin-mccourty">Devin McCourty</a></td><td  align="left" width="10%">GROIN</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at New Orleans</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1615610/matthew-slater">Matthew Slater</a></td><td  align="left" width="10%">HAMSTRING</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at New Orleans</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">DT</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1983691/vincent-valentine">Vincent Valentine</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at New Orleans</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/02/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2001442/keionta-davis">Keionta Davis</a></td><td  align="left" width="10%">Back</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 at New Orleans</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/NO/new-orleans-saints">New Orleans Saints</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1850724/stephone-anthony">Stephone Anthony</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. New England</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">T</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1767688/terron-armstead">Terron Armstead</a></td><td  align="left" width="10%">SHOULDER</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 vs. New England</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">DE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2818165/trey-hendrickson">Trey Hendrickson</a></td><td  align="left" width="10%">ILLNESS</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. New England</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">T</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/421727/zach-strief">Zach Strief</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 vs. New England</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1679838/nate-stupar">Nate Stupar</a></td><td  align="left" width="10%">HAMSTRING</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. New England</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/10/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1853776/bryan-braman">Bryan Braman</a></td><td  align="left" width="10%">Undisclosed</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 vs. New England</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/07/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2819457/devaroe-lawrence">Devaroe Lawrence</a></td><td  align="left" width="10%">Undisclosed</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 vs. New England</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/01/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2130155/willie-snead">Willie Snead</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 4 at Miami</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">08/01/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1724820/nick-fairley">Nick Fairley</a></td><td  align="left" width="10%">Illness</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 vs. New England</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/NYG/new-york-giants">New York Giants</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/18/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1824823/odell-beckham-jr">Odell Beckham Jr.</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Saturday. Questionable for Week 2 vs. Detroit</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/18/17</td><td  align="center" width="5%">G</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1691418/dj-fluker">D.J. Fluker</a></td><td  align="left" width="10%">LEG</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Did Not Practice on Saturday. Questionable for Week 2 vs. Detroit</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/18/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1850728/bj-goodson">B.J. Goodson</a></td><td  align="left" width="10%">LEG</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Did Not Practice on Saturday. Questionable for Week 2 vs. Detroit</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/18/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1245244/keenan-robinson">Keenan Robinson</a></td><td  align="left" width="10%">CONCUSSION</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Saturday. Out for Week 2 vs. Detroit</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">01/26/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2165243/uani-unga">Uani' Unga</a></td><td  align="left" width="10%">Undisclosed</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 vs. Detroit</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/NYJ/new-york-jets">New York Jets</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1242983/bruce-carter">Bruce Carter</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Oakland</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">C</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2130190/jonotthan-harrison">Jonotthan Harrison</a></td><td  align="left" width="10%">CONCUSSION</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Oakland</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">TE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2060412/jordan-leggett">Jordan Leggett</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Oakland</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">S</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1737090/rontez-miles">Rontez Miles</a></td><td  align="left" width="10%">EYE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Oakland</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">TE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1759992/eric-tomlinson">Eric Tomlinson</a></td><td  align="left" width="10%">ELBOW</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Oakland</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">07/30/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2001873/jeremy-clark">Jeremy Clark</a></td><td  align="left" width="10%">Undisclosed</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 at Oakland</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">05/05/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2060777/jalin-marshall">Jalin Marshall</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 5 at Cleveland</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">05/05/17</td><td  align="center" width="5%">TE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1824731/austin-seferianjenkins">Austin Seferian-Jenkins</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 3 vs. Miami</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/OAK/oakland-raiders">Oakland Raiders</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">CB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1825051/keith-mcgill">Keith McGill</a></td><td  align="left" width="10%">FOOT</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Full Practice on Friday. Questionable for Week 2 vs. N.Y. Jets</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">RB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1979720/jamize-olawale">Jamize Olawale</a></td><td  align="left" width="10%">QUAD</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Full Practice on Friday. Questionable for Week 2 vs. N.Y. Jets</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">CB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/559569/sean-smith">Sean Smith</a></td><td  align="left" width="10%">NECK</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. N.Y. Jets</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/09/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2819097/isaac-whitney">Isaac Whitney</a></td><td  align="left" width="10%">Arm</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 vs. N.Y. Jets</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">12/09/16</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1630791/aldon-smith">Aldon Smith</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended indefinitely</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/PHI/philadelphia-eagles">Philadelphia Eagles</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">CB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1998179/ronald-darby">Ronald Darby</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Kansas City</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">S</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1221208/corey-graham">Corey Graham</a></td><td  align="left" width="10%">HAMSTRING</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Full Practice on Friday. Questionable for Week 2 at Kansas City</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">DT</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2237129/destiny-vaeao">Destiny Vaeao</a></td><td  align="left" width="10%">WRIST</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Kansas City</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/10/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2820083/tre-sullivan">Tre Sullivan</a></td><td  align="left" width="10%">Undisclosed</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 at Kansas City</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">07/23/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2139635/sidney-jones">Sidney Jones</a></td><td  align="left" width="10%">Achilles</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 at Kansas City</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">05/22/17</td><td  align="center" width="5%">QB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2239609/jerod-evans">Jerod Evans</a></td><td  align="left" width="10%">Foot</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 at Kansas City</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">05/18/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2079174/charles-walker">Charles Walker</a></td><td  align="left" width="10%">Knee</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 at Kansas City</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/PIT/pittsburgh-steelers">Pittsburgh Steelers</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">T</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1984258/jerald-hawkins">Jerald Hawkins</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 vs. Minnesota</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">TE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1673357/vance-mcdonald">Vance McDonald</a></td><td  align="left" width="10%">BACK</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Did Not Practice on Friday. Questionable for Week 2 vs. Minnesota</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">DE</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1893212/stephon-tuitt">Stephon Tuitt</a></td><td  align="left" width="10%">BICEPS</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. Minnesota</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">S</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1705885/jj-wilcox">J.J. Wilcox</a></td><td  align="left" width="10%">CONCUSSION</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. Minnesota</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/SEA/seattle-seahawks">Seattle Seahawks</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2059363/terence-garvin">Terence Garvin</a></td><td  align="left" width="10%">SHOULDER</td><td  align="left" width="10%">DOUBTFUL</td><td  align="left" width="45%">Did Not Practice on Friday. Doubtful for Week 2 vs. San Francisco</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">CB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1117823/richard-sherman">Richard Sherman</a></td><td  align="left" width="10%">HAMSTRING</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. San Francisco</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">07/30/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2141763/malik-mcdowell">Malik McDowell</a></td><td  align="left" width="10%">Head</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 vs. San Francisco</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">06/19/17</td><td  align="center" width="5%">RB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2174190/malcolm-johnson">Malcolm Johnson</a></td><td  align="left" width="10%">Undisclosed</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 vs. San Francisco</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/SF/san-francisco-49ers">San Francisco 49ers</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2082714/reuben-foster">Reuben Foster</a></td><td  align="left" width="10%">ANKLE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Seattle</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/13/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1762370/jimmie-ward">Jimmie Ward</a></td><td  align="left" width="10%">Hamstring</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at Seattle</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">06/08/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1824467/quinton-patton">Quinton Patton</a></td><td  align="left" width="10%">Foot</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 at Oakland</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">01/26/17</td><td  align="center" width="5%">DL</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1630445/kaleb-ramsey">Kaleb Ramsey</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended for four games</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/TB/tampa-bay-buccaneers">Tampa Bay Buccaneers</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1984250/kwon-alexander">Kwon Alexander</a></td><td  align="left" width="10%">ILLNESS</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Full Practice on Friday. Questionable for Week 2 vs. Chicago</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2131124/devante-bond">Devante Bond</a></td><td  align="left" width="10%">KNEE</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Limited Practice on Friday. Out for Week 2 vs. Chicago</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">C</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1675129/evan-smith">Evan Smith</a></td><td  align="left" width="10%">ILLNESS</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 vs. Chicago</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/06/17</td><td  align="center" width="5%">RB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1274369/doug-martin">Doug Martin</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 5 vs. New England</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">08/03/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2819114/thomas-sperbeck">Thomas Sperbeck</a></td><td  align="left" width="10%">Hamstring</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 vs. Chicago</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/TEN/tennessee-titans">Tennessee Titans</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">S</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1727755/johnathan-cyprien">Johnathan Cyprien</a></td><td  align="left" width="10%">HAMSTRING</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Jacksonville</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">CB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1907299/tye-smith">Tye Smith</a></td><td  align="left" width="10%">HAND</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Did Not Practice on Friday. Out for Week 2 at Jacksonville</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="6"><a href="/nfl/teams/page/WAS/washington-redskins">Washington Redskins</a></td></tr><tr class="label"  id="special" ><td align="left" width="10%">Date</td><td align="center" width="5%">Pos</td><td align="left" width="20%">Player</td><td align="left" width="10%">Injury</td><td align="left" width="10%">NFL Status</td><td align="left" width="45%">Fantasy News </td></tr><tr class="row1"  align="right"><td  align="left" width="10%">09/17/17</td><td  align="center" width="5%">WR</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1825087/josh-doctson">Josh Doctson</a></td><td  align="left" width="10%">HAMSTRING</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Limited Practice on Friday. Questionable for Week 2 at L.A. Rams</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">09/07/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2061070/sua-cravens">Su'a Cravens</a></td><td  align="left" width="10%">Personal</td><td  align="left" width="10%">OUT</td><td  align="left" width="45%">Out for Week 2 at L.A. Rams</td></tr><tr class="row1"  align="right"><td  align="left" width="10%">08/03/17</td><td  align="center" width="5%">DB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/2130166/lou-young">Lou Young</a></td><td  align="left" width="10%">Groin</td><td  align="left" width="10%">QUESTIONABLE</td><td  align="left" width="45%">Questionable for Week 2 at L.A. Rams</td></tr><tr class="row2"  align="right"><td  align="left" width="10%">05/05/17</td><td  align="center" width="5%">LB</td><td  align="left" width="20%"><a href="/nfl/players/playerpage/1685976/trent-murphy">Trent Murphy</a></td><td  align="left" width="10%">Suspension</td><td  align="left" width="10%">SUSPEND</td><td  align="left" width="45%">Suspended until Week 6 vs. San Francisco</td></tr></table><table class="data" width="100%"></table><table width="100%"><tr class="row1"  align="right"><td  align="left" width="10%">Updated: Sun Sep 17 08:31:08 EDT 2017</td></tr></table>
+<div class="spacer5">&nbsp;</div>
+<div id="injuryTable"> 
+<div class="featureTitle"><span><b>Injury</b> Categories</span></div>
+<div class="featureComponent">
+<ul>
+<li><strong>PUP</strong> - Physically Unable to Perform</li>
+<li><strong>IR</strong> - Injured Reserve</li>
+<li><strong>OUT</strong> - Definitely will not play</li>
+<li><strong>Doubtful</strong> - 75 percent chance will not play</li>
+<li><strong>Questionable</strong> - 50/50 chance of playing</li>
+</ul>
+</div>
+<div class="featureFooter"></div>
+</div> 
+
+    
+                    <div class="spacer20">&nbsp;</div>
+                
+        <div id="taboola-bottom-of-the-page-thumbnails" data-taboola-placement="aw-cbssports/nfl/media/injuries/injury desktop-2x4-bottom" om-event="aw-cbssports/nfl/media/injuries/injury desktop-2x4-bottom"></div>
+        <script type="text/javascript">
+          window._taboola = window._taboola || [];
+          _taboola.push({
+            mode: 'alternating-thumbnails-z',
+            container: 'taboola-bottom-of-the-page-thumbnails',
+            placement: 'aw-cbssports/nfl/media/injuries/injury desktop-2x4-bottom',
+            target_type: 'mix'
+          });
+        </script>
+            </div><!-- END layoutRailRight::column1-->
+            <div class="column2">
+                
+                
+                <div id="sky_top" class="mBottomStd">
+<script type="text/javascript">
+if (switchXFP != 'off') {
+    googletag.cmd.push(function() {
+        if (typeof index_headertag_lightspeed !== 'undefined') {
+                  var cb = (function () {
+                      return function () {
+                          var slots = googletag.pubads().getSlots();
+                          index_headertag_lightspeed.set_slot_targeting(slots);
+                           googletag.display("sky_top");
+                        };
+                  })();
+                  index_headertag_lightspeed.add_session_end_hook(cb, true);
+                  index_headertag_lightspeed.refresh();
+              } else {
+                  googletag.display("sky_top");
+              }
+    });
+    if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="sky_top" style="width:160px"><br>').insertBefore('#sky_top');
+}
+</script>
+</div>
+                
+                <div class="spacer10">&nbsp;</div>
+                <!-- AD for NFL : NFL DEF Not found --><div class="shoppingBox">
+
+ 
+
+ 
+
+<!-- include file generated Wed Sep 07 14:19:05 EDT 2016 --> 
+<!-- $Id: sbox_arena.jsp,v 1.18 2008-06-11 19:49:38 gorman Exp $ -->
+
+
+<h3 class="featureTitle"><span><strong>CBSSports</strong> Shop</span></h3>
+<div class="featureComponent">
+    <a href="http://shop.cbssports.com/NFL_Everything_Nike?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_NFLNike|cpn--no_coupon|offer--no_offer"><img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productImages/_2409000/ff_2409415_full.jpg&w=600" width="120" height="120" alt="Men's Nike Heathered Royal Denver Broncos Historic Logo Tri-Blend T-Shirt" class="border product"></a>
+    <p>NFL Nike Gear<br/>Get your favorite team today! <a href="http://shop.cbssports.com/NFL_Everything_Nike?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_NFLNike|cpn--no_coupon|offer--no_offer"><br>Shop Now</a></p>
+    <ul class="multiLine flush">
+    
+        
+           <li><a href="http://shop.cbssports.com/NFL_New_Era_Hats?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_NFLNewEra|cpn--no_coupon|offer--no_offer">NFL New Era Hats</a></li>
+        
+           <li><a href="http://shop.cbssports.com/NFL_Polos?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_NFLPolos|cpn--no_coupon|offer--no_offer">NFL Polos</a></li>
+        
+           <li><a href="http://shop.cbssports.com/NFL_Ladies?utm_source=cbssportscom_sbf&utm_medium=bm_referral&utm_term=kw--CBS_NFLLadies|cpn--no_coupon|offer--no_offer">NFL Ladies Gear</a></li>
+        
+    
+    </ul>
+</div>
+<div class="featureFooter"><a href="http://shop.cbssports.com/CBS_NFL?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_MoreNFL|cpn--no_coupon|offer--no_offer">Shop NFL Fan Gear</a></div>
+
+
+</div>
+                
+<script type="text/javascript">netseer_tag_id = "19500";netseer_ad_width = "160";netseer_ad_height = "600";netseer_task = "ad";netseer_imp_type = "1";netseer_imp_src = "2";</script>
+<script src="https://ps.ns-cdn.com/dsatserving2/scripts/netseerads.js" type="text/javascript"></script>
+    
+            </div><!-- END layoutRailRight::column2-->
+            <div class="clearBoth"><!-- explicit clear --></div>
+        </div><!-- END layoutRailRight-->
+        <br clear="all">
+    </div><!-- END pageContainer-->
+</div><!-- END pageRow-->
+    <style>.footerAd {width: 970px;margin: 0 auto;padding: 10px 5px; background-color: #fff;overflow: hidden;text-align:center;position:relative;}</style>
+    
+    <div id="leader_plus2_bottom" class="footerAd">
+<script type="text/javascript">
+if (switchXFP != 'off') {
+    googletag.cmd.push(function() {
+        if (typeof index_headertag_lightspeed !== 'undefined') {
+                  var cb = (function () {
+                      return function () {
+                          var slots = googletag.pubads().getSlots();
+                          index_headertag_lightspeed.set_slot_targeting(slots);
+                           googletag.display("leader_plus2_bottom");
+                        };
+                  })();
+                  index_headertag_lightspeed.add_session_end_hook(cb, true);
+                  index_headertag_lightspeed.refresh();
+              } else {
+                  googletag.display("leader_plus2_bottom");
+              }
+    });
+    if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="leader_plus2_bottom" style="width:728px"><br>').insertBefore('#leader_plus2_bottom');
+}
+</script>
+</div>
+    <footer id="site-footer" class="site-footer">
+    <div class="site-footer-row">
+        <div class="site-footer-branding">
+            <span class="site-footer-logo"></span>
+        </div>
+    </div>
+    <div class="site-footer-row">
+        
+    </div>
+    <div class="site-footer-row">
+        <ul class="site-footer-links">
+            <li><a href="https://www.cbssports.com/help" target="_blank" om-event="Global Footer|Help ">Help </a></li><li><a href="https://www.cbssports.com/info/aboutus" target="_blank" om-event="Global Footer|About Us ">About Us </a></li><li><a href="http://www.cbsinteractive.com/careers" target="_blank" om-event="Global Footer|Careers ">Careers </a></li><li><a href="http://www.cbsinteractive.com/advertise/" target="_blank" om-event="Global Footer|Advertise ">Advertise </a></li><li><a href="https://www.cbssports.com/sitemap" target="_blank" om-event="Global Footer|Site Map ">Site Map </a></li><li><a href="https://www.cbssports.com/settings/newsletters" target="_blank" om-event="Global Footer|Newsletters ">Newsletters </a></li><li><a href="https://www.cbssports.com/mobile" target="_blank" om-event="Global Footer|Mobile Apps ">Mobile Apps </a></li><li><a href="http://collegenetwork.cbssports.com/" target="_blank" om-event="Global Footer|College Network ">College Network </a></li><li><a href="http://legalterms.cbsinteractive.com/adchoice" target="_blank" om-event="Global Footer|Ad Choice ">Ad Choice </a></li><li><a href="https://www.cbssports.com/info/closed-caption" target="_blank" om-event="Global Footer|Closed Captioning ">Closed Captioning </a></li><li><a href="http://legalterms.cbsinteractive.com/privacy" target="_blank" om-event="Global Footer|Privacy ">Privacy </a></li><li><a href="http://legalterms.cbsinteractive.com/terms-of-use" target="_blank" om-event="Global Footer|Terms ">Terms </a></li><li><a href="http://legalterms.cbsinteractive.com/eula" target="_blank" om-event="Global Footer|Mobile User Agreement ">Mobile User Agreement </a></li>
+        </ul>
+    </div>
+    
+
+    <div class="site-footer-row">
+        <div class="site-footer-partners">
+            
+        </div>
+    </div>
+    <div class="site-footer-copyright">
+        <p class="site-footer-dates">&copy; 2005-2017 CBS INTERACTIVE. ALL RIGHTS RESERVED.</p>
+        <p>CBS Sports is a registered trademark of CBS Broadcasting Inc.  </p>
+       
+    </div>
+</footer>
+</div><!--mantle_skin-->
+    
+    <script type="text/javascript" src="https://sports.cbsimg.net/js/global-footer-min-v00101.js"></script>
+<span id="footerScripts">
+    <span id="footerScriptsExternal">
+        
+    </span>
+    <script id="footerScriptsRegistered" type="text/javascript">
+    
+    </script>
+    <script id="footerScriptsReady" type="text/javascript">
+    $(document).ready(function() {
+        
+        if ($('.updateTime, .gmtTime').length) {CBSi.widget.Time.update('body span');}
+        if ($('.tooltip').length) {CBSi.widget.ToolTip.init(CBSi.widget.ToolTip.cfg);}
+        if ($('.actionMenu').length) {
+            var actionMenuLeft = $(".actionMenu").position().left;
+            var userInfoLeft = (actionMenuLeft + 2) +"px";
+            $("#userInfo").css({"left":userInfoLeft});
+        }
+        $('body').delegate("[om-event]", "click", function(e) {
+            om.trackClick( {'item':$(this).attr("om-event")} );
+        });
+        
+            var adSkinLeft       = $('#adSkinLeft');
+            var adSkinRight      = $('#adSkinRight');
+            var adSkin           = $(adSkinLeft).add(adSkinRight);
+            var bodyNavClass 	 = 'is-sticky-nav';
+            var bodyTag          = $('body');
+            var mantle           = $('#mantle_skin');
+            var headerCont       = $('#site-header');
+            var navBar           = $('#cbs-site-nav');
+            var navBarHeight     = navBar.outerHeight();
+            var networkBar       = $('#nav-network-bar');
+            var networkBarHeight = networkBar.outerHeight();
+            var networkBarPadding = 8;
+            var promoBarHeight   = $('#fantasy_promo_bar_row').outerHeight();
+            var saagHeight       = $('#saagWrapper').outerHeight() || 0 ;
+            var skyBoxHeight     = $('#skybox-above').height();
+            var skyboxSpacerId   = 'skybox-nav-spacer';
+    
+            // Calculate when to make the nav bar sticky.
+            if (networkBar.length) {
+                // Create an empty spacer for behind the sticky nav.
+                // CBSi.log('_toggleStickyNav: There is a Network Bar on this page.');
+                headerCont.before('<div id="' + skyboxSpacerId + '" class="' + skyboxSpacerId + '" style="height: 0"></div>');
+            }
+        
+            var skyboxSpacer = $('#skybox-nav-spacer');
+        
+            $(window).on("scroll resize",function(e) {
+            
+                var windowScrollTop = parseInt($(this).scrollTop());
+                
+                // BEGIN Scroll code for Prestitial:
+                //check if scroll_prestitial is visible
+                var prestitialVisible = $('#scroll_prestitial:visible').length;
+                //CBSi.log('prestitialVisible ', prestitialVisible);
+
+                //get height of presitial element
+                var prestitialHeight = $('#scroll_prestitial iframe').height();
+                //CBSi.log('prestitialHeight ', prestitialHeight);
+
+                //Determine via tricky conditional states of DOM element if the
+                //  prestitial is still there
+                var hasPrestitial = 0;
+                if (prestitialHeight != null) {
+                    hasPrestitial = 1;
+                } else if (prestitialHeight > 0) {
+                    hasPrestitial = 1;
+                }
+                //finally check visibility but no height
+                if (prestitialVisible == 0) {
+                    hasPrestitial = 0;
+                } else if (prestitialVisible == 1 && prestitialHeight == 0) {
+                    hasPrestitial = 0;
+                }
+                // CBSi.log('hasPrestitial', hasPrestitial);
+                
+                var skyboxMaxHeight = parseInt($('.ad-top-strip').attr('data-skyboxmaxheight')) || 0;
+                var skyboxMinHeight = parseInt($('.ad-top-strip').attr('data-skyboxminheight')) || 0;
+                var skyboxHeight = ( (skyboxMaxHeight - windowScrollTop) < skyboxMinHeight  )
+                    ? skyboxMinHeight
+                    : skyboxMaxHeight - windowScrollTop;
+        
+                var skyboxDiv = $('.ad-top-strip div');
+                var skyboxIframe = $('.ad-top-strip div iframe');
+        
+                if ( windowScrollTop > 0 && hasPrestitial == 0) {
+                    /*
+                     * The page is now scrolling...
+                     */
+                    if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                        skyboxDiv.css({ 'position' : 'fixed' , 'height' : skyboxHeight + 'px' });
+                        skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                    }
+                                
+                    if (skyboxHeight <= skyboxMinHeight) {
+                     
+                        /*
+                         * The skybox ad is collapsed to its minumum height and it has added the class skybox-collapsed to the body tag.
+                         * Alternately, there is no skybox ad on the page.
+                         */
+                     
+                        if (windowScrollTop > skyboxMaxHeight - skyboxHeight + networkBarHeight) {
+                        
+                            /*
+                             * Tests to determine if the Navigation should pin.
+                             * Note that the navigation does not pin until after the network row has scrolled out of view.
+                             */
+
+                            /*
+                             * The skybox ad is minimized and the navigation should pin.
+                             */
+                             
+                            // CBSi.log('_toggleStickyNav: The Skybox is at minHeight or absent. The nav should pin.');
+        
+                            skyboxSpacer.css({ 'height' : skyboxMaxHeight + navBarHeight + 'px' });
+                            navBar.css({ 'position': 'fixed', 'top' : skyboxHeight + 'px' });
+        
+                            mantle.css({ 'margin-top': 0 });
+                            
+                            if (windowScrollTop > networkBarHeight + saagHeight ) {
+                                /*
+                                 * Even if the nav is pinned, the Scores At a Glance (SAAG) might still be scrolling so we do not pin the
+                                 * adSkinLeft and adSkinRight until the SAAG has scrolled out of view.
+                                 */
+                                adSkin.css({'position' : 'fixed', 'top': navBarHeight + skyboxMinHeight + 'px' });
+                            } else {
+                                adSkin.css({ 'position' : 'absolute', 'top': 0 });
+                            }
+        
+                            if (!bodyTag.hasClass(bodyNavClass)) {
+                                bodyTag.addClass(bodyNavClass);
+                            }
+        
+                        } else {
+
+                            /*
+                             * The skybox ad is minimized but the navigation is not yet pinned
+                             * because the network row is still partially visible.
+                             */
+
+                            // CBSi.log('_toggleStickyNav: The Skybox is at minHeight or absent. Network bar is scrolling so nav is not pinned.');
+        
+                            skyboxSpacer.css({ 'height' : skyboxMaxHeight + 'px' });
+                            navBar.css({ 'position': 'relative', 'top': 0 });
+
+                            mantle.css({ 'margin-top' : 0 });
+                            
+                            if (bodyTag.hasClass(bodyNavClass)) {
+                                bodyTag.removeClass(bodyNavClass);
+                            }
+                        }
+                    } else if (skyboxHeight > skyboxMinHeight) {
+                        /* The ad is in an expanded state so we need to address the height of the spacer
+                         * and the position of the navigation rows below the ad.
+                         */
+                        // CBSi.log('_toggleStickyNav: The Skybox is expanded.');
+
+                        skyboxSpacer.css({ 'height' : skyboxMaxHeight + 'px' });
+                        navBar.css({ 'position': 'relative', 'top': 0 });
+
+                        mantle.css({ 'margin-top' : 0 });
+                        adSkin.css({'position' : 'absolute', 'top': 0 });
+                        
+                        if (bodyTag.hasClass(bodyNavClass)) {
+                            bodyTag.removeClass(bodyNavClass);
+                        }
+
+                        if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                            skyboxDiv.css({ 'height' : skyboxHeight + 'px' });
+                            skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                        }        
+                    }
+                } else {
+                    /*
+                     * The page is not scrolled at all so we want to set the spacer to a height of 0.
+                     */
+                    
+                    // CBSi.log('_toggleStickyNav: The page is not scrolled.');
+                    
+                    skyboxSpacer.css({ 'height' : 0 });
+                    navBar.css({ 'position': 'relative', 'top': 0 });
+
+                    mantle.css({ 'margin-top' : 0 });
+                    adSkin.css({'position' : 'absolute', 'top': 0 });
+                    
+                    if (bodyTag.hasClass(bodyNavClass)) {
+                        bodyTag.removeClass(bodyNavClass);
+                    }
+
+                    if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                        skyboxDiv.css({ 'position' : 'relative' , 'height' : skyboxHeight + 'px' });
+                        skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                    }
+                }
+            });
+        
+        if ($('.cbsGifAnimation').length) {CBSi.app.cbsGifAnimation.prototype.init();}
+        //setTimeout('CBSi.app.cbsGifAnimation.prototype.init();',3000);
+    });
+    </script>
+</span>
+
+<!-- no ClickTale --><!-- DARK TESTS - enabled [15] --><!-- DARK RIVER TEST/ sports_river - disabled [0 < 15] --><!-- DARK TEST/ node stress - disabled [0] --><!-- DARK TEST/ websocket - disabled [0] -->
+     
+
+        
+<!-- Begin Tealium -->
+<script type="text/javascript">
+
+getTaboolaPlacements();
+var utag_data={
+
+    siteHier         : 'media|nfl|injuries',
+    siteSection      : 'media|nfl|||injuries|',
+    siteType         : 'desktop web',
+    userType         : 'anon',
+    userState        : 'not authenticated',
+    pageType         : 'injuries',
+    pageName         : '/nfl/injuries',
+    pageTypeId       : '6922',
+    pageOntologyId   : '22310',
+    pageViewGuid     : surround.vguid,
+    contentWidget    : surround.taboola,
+    country          : 'US'
+}
+</script>
+<script type="text/javascript">
+(function(a,b,c,d){
+  a='https://tags.tiqcdn.com/utag/cbsi/cbssportssite/prod/utag.js';
+	b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+  a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+})();
+</script>
+
+<!-- End Tealium -->
+<!-- no refresh -->
+<!-- no dl recruit -->
+
+         <script type="text/javascript">
+           window._taboola = window._taboola || [];
+           _taboola.push({flush: true});
+         </script>
+      
+
+    
+</body>
+</html><!-- Page build info: uj5jhwq0gxkaahbhcfa 'ws5122.tm.cbsig.net' 25467 20170917 8:32:54 /spln/local/media/cache/full/spln/721/%2Fnfl%2Finjuries -->

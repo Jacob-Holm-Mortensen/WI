@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html class="logged_out_user" lang="en"><head prefix="og: http://ogp.me/ns#"><!-- Fly Version: RELEASE_20170915 4d277b6c7f10b0e8f706642a69c77b86a00f8a95 (cbsnews prod_alt) --><title>                          48 Hours - CBS News  
+</title><meta charset="UTF-8"><meta name="robots" content="index, follow"><meta name="description" content="Visit 48 Hours on CBS News to watch video, browse photographs, and read more about 48 Hours episodes and features."><meta name="keywords" content="48 Hours videos, latest 48 Hours videos, latest news video, cbs news videos + cbsnews, cbsnews.com"><meta name="viewport" content="width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UQIHWFZbGwsEUFhQBgQ="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script><link rel="preconnect dns-prefetch" href="//cbsnews1.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews2.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews3.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews4.cbsistatic.com"><link rel="canonical" href="https://www.cbsnews.com/48-hours/"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-16x16.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" sizes="16x16"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-32x32.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" sizes="32x32"><link rel="shortcut icon" type="image/x-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><link rel="apple-touch-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/apple-touch-icon.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><style>
+      
+@font-face{font-family:'bebas-neue';src:url("/bundles/cbsnewscore/fonts/bebas-neue/BebasNeue.eot");src:url("/bundles/cbsnewscore/fonts/bebas-neue/BebasNeue.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/bebas-neue/BebasNeue.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/bebas-neue/BebasNeue.woff") format("woff"),url("/bundles/cbsnewscore/fonts/bebas-neue/BebasNeue.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/bebas-neue/BebasNeue.svg#svgFontName") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'foro-light';src:url("/bundles/cbsnewscore/fonts/foro/ForoLig.eot");src:url("/bundles/cbsnewscore/fonts/foro/ForoLig.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foro/ForoLig.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foro/ForoLig.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foro/ForoLig.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foro/ForoLig.svg#svgFontName") format("svg");font-weight:lighter;font-style:normal}@font-face{font-family:'graphein-light';src:url("/bundles/cbsnewscore/fonts/graphein/GrapheinPro-Light.eot");src:url("/bundles/cbsnewscore/fonts/graphein/GrapheinPro-Light.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/graphein/GrapheinPro-Light.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/graphein/GrapheinPro-Light.woff") format("woff"),url("/bundles/cbsnewscore/fonts/graphein/GrapheinPro-Light.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/graphein/GrapheinPro-Light.svg#svgFontName") format("svg");font-weight:lighter;font-style:normal}@font-face{font-family:'graphein-book';src:url("/bundles/cbsnewscore/fonts/graphein/GrapheinPro-Bookt.eot");src:url("/bundles/cbsnewscore/fonts/graphein/GrapheinPro-Book.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/graphein/GrapheinPro-Book.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/graphein/GrapheinPro-Book.woff") format("woff"),url("/bundles/cbsnewscore/fonts/graphein/GrapheinPro-Book.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/graphein/GrapheinPro-Book.svg#svgFontName") format("svg");font-weight:lighter;font-style:normal}@font-face{font-family:'museo-sans';src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot");src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.svg#svgFontName") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'museo-sans-500';src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.eot");src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.svg#svgFontName") format("svg");font-weight:bold;font-style:normal}@font-face{font-family:'museo-slab';src:url("/bundles/cbsnewscore/fonts/museo-slab/MuseoSlab-300.eot");src:url("/bundles/cbsnewscore/fonts/museo-slab/MuseoSlab-300.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-slab/MuseoSlab-300.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-slab/MuseoSlab-300.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-slab/MuseoSlab-300.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-slab/MuseoSlab-300.svg#svgFontName") format("svg");font-weight:bold;font-style:normal}@font-face{font-family:'steelfish-book';src:url("/bundles/cbsnewscore/fonts/steelfish/SteelFish-Book.eot");src:url("/bundles/cbsnewscore/fonts/steelfish/SteelFish-Book.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/steelfish/SteelFish-Book.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/steelfish/SteelFish-Book.woff") format("woff"),url("/bundles/cbsnewscore/fonts/steelfish/SteelFish-Book.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/steelfish/SteelFish-Book.svg#svgFontName") format("svg");font-weight:bold;font-style:normal}
+
+
+    </style><link rel="stylesheet" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/css/main.48-hours.desktop.css?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><!--[if IE 8]>
+    <link rel="stylesheet" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/css/desktop/ie8.css?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" />
+    <![endif]--><!--[if lt IE 9]>
+    <script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js/libs/html5shiv-printshiv.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"></script>
+    <![endif]--></head><body data-cms-edit='{"url":"https:\/\/cms.cbsnews.com\/content\/page\/create\/topic?pageId=7ac84838-758d-11e2-9d12-0018fe8a00b0"}' class="desktop">
+        
+    
+    <!-- src/CbsNews/CoreBundle/Resources/views/Layout/default.desktop.html.twig -->
+
+                <!-- comscorekw=48hours -->
+    
+
+    
+    <div id="fb-root"></div>
+                    <div id="intromercial-59be6c8935bd9" class="ad-intromercial" data-ad="intromercial" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-59be6c8935bd9 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-59be6c8935bd9");
+    </script></div>
+
+    	<div class="body-container">
+
+         <!-- src/CbsNews/CoreBundle/Resources/views/Core/header.html.twig -->
+
+<header class="site-header nocontent"><div id="breakingNewsBanner" data-component="ticker">
+        <include src="/feedfiles/breakingnews.desktop.html" onerror="continue"></include></div>
+    <div class="fortyeight-header-wrapper">
+		<div class="container">
+			<div class="logo fortyeighthours-logo">
+                                    <a href="/48-hours" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|48 Hours-nav|Home"}'>48 Hours</a>
+                            </div>
+		</div>
+
+	    <div class="supplemental">
+    <div class="container">
+        <div class="col-9">
+            
+        <nav class="site-shows"><ul class="items"><li><a class="module-click-tracking" href="/" data-tracking="site header-show-nav|CBS News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/48-hours/ Show-nav|CBS News"}' aria-label="">CBS News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/evening-news/" data-tracking="site header-show-nav|CBS Evening News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/48-hours/ Show-nav|CBS Evening News"}' aria-label="">CBS Evening News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbs-this-morning/" data-tracking="site header-show-nav|CBS This Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/48-hours/ Show-nav|CBS This Morning"}' aria-label="">CBS This Morning</a></li>
+                                                                        <li><a class="selected module-click-tracking" href="/48-hours/" data-tracking="site header-show-nav|48 Hours" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/48-hours/ Show-nav|48 Hours"}' aria-label="selected">48 Hours</a></li>
+                                                                        <li><a class="module-click-tracking" href="/60-minutes/" data-tracking="site header-show-nav|60 Minutes" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/48-hours/ Show-nav|60 Minutes"}' aria-label="">60 Minutes</a></li>
+                                                                        <li><a class="module-click-tracking" href="/sunday-morning/" data-tracking="site header-show-nav|Sunday Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/48-hours/ Show-nav|Sunday Morning"}' aria-label="">Sunday Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/face-the-nation/" data-tracking="site header-show-nav|Face The Nation" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/48-hours/ Show-nav|Face The Nation"}' aria-label="">Face The Nation</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbsn-originals/" data-tracking="site header-show-nav|CBSN Originals" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/48-hours/ Show-nav|CBSN Originals"}' aria-label="">CBSN Originals</a></li>
+            </ul></nav></div>
+        
+        <div class="col-3">
+            
+<form class="site-search" method="get" action="/search/">
+    <div class="search-wrapper" data-component="placeholder">
+        <input class="query" type="search" name="q" maxlength="255" placeholder="Search"></div>
+    <button class="submit core-search-header" type="submit">GO</button>
+</form>
+<ul class="login-wrapper logged-in"><li>
+        <!--<li class="site-section-tab"><a href="//secure-fly.cbsnews.com/user/registration/" data-user-show="register"><span>Join</span></a></li>-->
+                     <a class="site-login" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Channel Button"}'><span class="text">Log In</span></a>
+                <div class="menu-wrapper sign-in">
+            <span class="hover-padding"></span>
+            <span class="arrow"></span>
+            <ul class="login"><li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/login/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Login"}'>Log In</a>
+                    </li>
+                    <li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/registration/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Join CBSNews"}'>Join CBSNews.com</a>
+                    </li>
+                                                </ul></div>
+    </li>
+</ul></div>
+    </div>
+</div>
+        <div class="primary">
+            <div class="container">
+                <nav class="site-sections"><ul class="items"><li class="site-section-tab fortyeight-tab-episodes flyout" data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/48-hours-episodes\/fortyeighthours"}'><a href="/48-hours/full-episodes/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|48 Hours-nav|Episodes"}'><span>Episodes</span>
+                                                                    <span class="fortyeight-arrow"></span>
+                                                            </a></li>
+                                                                                                            <li class="site-section-tab fortyeight-tab-crimesider flyout" data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/48-hours-crimesider\/fortyeighthours"}'><a href="/crimesider/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|48 Hours-nav|Crimesider"}' data-vanity-rewritten="true"><span>Crimesider</span>
+                                                                    <span class="fortyeight-arrow"></span>
+                                                            </a></li>
+                                                                                                            <li class="site-section-tab fortyeight-tab-bios flyout" data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/48-hours-bios\/fortyeighthours"}'><a href="" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|48 Hours-nav|Bios"}'><span>Bios</span>
+                                                                    <span class="fortyeight-arrow"></span>
+                                                            </a></li>
+                                                                                                            <li class="site-section-tab fortyeight-tab-about "><a href="/48-hours/about-us/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|48 Hours-nav|About"}' data-vanity-rewritten="true"><span>About</span>
+                                                            </a></li>
+                                            </ul></nav><ul class="social-items"><li class="connect-text">Connect:</li>
+					<li class="facebook social-icon"><a href="https://www.facebook.com/48hours" class="fortyeighthours-header-fb-icon" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Show Header|48 Hours-nav|facebook"}'>facebook</a></li>
+					<li class="twitter social-icon"><a href="https://twitter.com/48hours" class="fortyeighthours-header-twitter-icon" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Show Header|48 Hours-nav|twitter"}'>twitter</a></li>
+					<li class="email social-icon"><a href="/newsletters/" class="fortyeighthours-header-email-icon" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Show Header|48 Hours-nav|email"}'>email</a></li>
+				</ul></div>
+        </div>
+	</div>
+</header><div id="mantle_skin" class="content-primary  magazine 48-hours topic-door ">
+                                             	            <div id="leader-top-59be6c8935bd9" class="ad-leader-top" data-ad="leader-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-top-59be6c8935bd9 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-top-59be6c8935bd9");
+    </script></div>
+
+                    
+                    <div class="container">
+    <div class="row">
+                    <div class="row">
+    
+            
+            
+    <div class="col-12 nocontent">
+                                    
+                                    
+                                            
+
+
+<section class="section section-lead"><div class="hero-section hero-3">
+    <div class="hero-container  " data-tb-region="Big News Area">
+                <div class="hero-wrapper hero-48-hours" data-component="magazineHero" data-magazine-hero-options='{"elements":[".hero-wrapper"]}'>
+
+
+            
+                    
+                                                
+
+
+            <div class="hero-average" data-tb-region-item>
+        
+        <a href="/news/48-hours-hunted-the-search-for-colorado-serial-rapist-marc-o-leary/" class="img-link" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Hero|Asset-1-Image"}'>
+            <figure class="media-figure img-inset"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/11/16/9325ad46-6f78-4399-b847-3159261a23a9/thumbnail/620x465/d490590940c4607693de9900eaf932f2/mary-hunted-hero.jpg#" alt=" " height="465" width="620" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/11/16/9325ad46-6f78-4399-b847-3159261a23a9/thumbnail/620x465/d490590940c4607693de9900eaf932f2/mary-hunted-hero.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2016/11/16/9325ad46-6f78-4399-b847-3159261a23a9/thumbnail/1240x930/a9648a681adc93bc856fe5f3a0e0ed09/mary-hunted-hero.jpg 2x"></span>
+            </figure></a>
+                <h4 class="title">
+                    </h4>
+        
+    </div>
+                            
+                                                
+
+
+            <div class="hero-average" data-tb-region-item>
+        
+        <a href="/news/48-hours-hunted-the-search-for-colorado-serial-rapist-marc-o-leary/" class="img-link" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Hero|Asset-2-Image"}'>
+            <figure class="media-figure img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2016/11/15/715de569-e9f8-4aed-9b8d-a3afb081f6b6/thumbnail/620x465/c74c45120da56d86eda2faf76d3e5202/hunted-hero2.jpg#" alt=" " height="465" width="620" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2016/11/15/715de569-e9f8-4aed-9b8d-a3afb081f6b6/thumbnail/620x465/c74c45120da56d86eda2faf76d3e5202/hunted-hero2.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2016/11/15/715de569-e9f8-4aed-9b8d-a3afb081f6b6/thumbnail/1240x930/e3a11371dabd6d94438ca2c057bfa898/hunted-hero2.jpg 2x"></span>
+            </figure></a>
+                <h4 class="title">
+                    </h4>
+        
+    </div>
+                            
+                                                
+
+
+            <div class="hero-average" data-tb-region-item>
+        
+        <a href="/news/48-hours-hunted-the-search-for-colorado-serial-rapist-marc-o-leary/" class="img-link" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Hero|Asset-3-Image"}'>
+            <figure class="media-figure img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2016/11/15/a4865ed8-5f87-4620-b382-28696a545598/thumbnail/620x465/e158aa0f0542903ce2d606d0f95fe9c6/hunted-detectives.jpg#" alt=" " height="465" width="620" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2016/11/15/a4865ed8-5f87-4620-b382-28696a545598/thumbnail/620x465/e158aa0f0542903ce2d606d0f95fe9c6/hunted-detectives.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2016/11/15/a4865ed8-5f87-4620-b382-28696a545598/thumbnail/1240x930/ea3dc76375bc808a79387f8e921eb91d/hunted-detectives.jpg 2x"></span>
+            </figure></a>
+                <h4 class="title">
+                    </h4>
+        
+    </div>
+            
+          </div>
+          <div class="hero-edge"></div>
+        </div>
+        <div class="hero-headline">
+          <span class="date">WATCH NOW
+                                  </span>
+
+                                   <a href="/news/48-hours-hunted-the-search-for-colorado-serial-rapist-marc-o-leary/"><h2 class="headline" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Hero|Asset-1-Headline"}'>Hunted</h2></a>
+                                <h3 class="subtitle" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Hero|Asset-1-Subtitle"}'>"48 Hours" goes inside the mind of a serial rapist hunting his victims while two detectives were hunting him. Correspondent Maureen Maher investigates.</h3>
+                                    </div>
+                </div>
+        <div class="whitefix"></div>
+    </section></div>
+
+                                                                    </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+            
+            
+    <div class="col-12 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    <ul class="grid coming-up num-4" data-tb-region="WEB EXTRAS"><hr><li class="title" data-tb-region-item>
+           <h3 class="header">WEB EXTRAS</h3><hr><span class="subtitle">
+</span>
+       </li>
+   
+                            
+                                                
+
+
+      
+       <li data-tb-region-item>
+           <a href="/pictures/48-hours-hunted-colorado-rapes-stalking-a-predator/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Coming Up|URL"}'>
+                                             <figure class="media-figure"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2016/11/18/a59edf8c-eb68-4c66-b9c9-a7c2110f8ae9/thumbnail/70x70/d8dfb35b0132ed0ab265d94bd141c77f/hunted-sneaker-tread.jpg#" alt=" " height="70" width="70" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2016/11/18/a59edf8c-eb68-4c66-b9c9-a7c2110f8ae9/thumbnail/70x70/d8dfb35b0132ed0ab265d94bd141c77f/hunted-sneaker-tread.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2016/11/18/a59edf8c-eb68-4c66-b9c9-a7c2110f8ae9/thumbnail/140x140/5e8fac4819730f36d23a3a26100b7c8c/hunted-sneaker-tread.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+               </figure><div class="text-wrapper">
+                                                             <h4 class="hed">PHOTOS: Hunting a predator</h4>
+                                                         <span class="caps">
+                                          </span>
+               </div>
+           </a>
+       </li>
+   
+                            
+                                                
+
+
+      
+       <li data-tb-region-item>
+           <a href="/videos/marc-olearys-ex-girlfriend-something-was-off-between-us/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Coming Up|URL"}'>
+                                             <figure class="media-figure"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/17/5af34fec-0a1b-4c67-851c-a58b403643e3/thumbnail/70x70/df5d84ba8cd6043ba6a3f328c9405e7b/hunted-ex-1184069-640x360.jpg#" alt=" " height="70" width="70" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/17/5af34fec-0a1b-4c67-851c-a58b403643e3/thumbnail/70x70/df5d84ba8cd6043ba6a3f328c9405e7b/hunted-ex-1184069-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/17/5af34fec-0a1b-4c67-851c-a58b403643e3/thumbnail/140x140/c76e5bfe008c0c5047ed213256056fa2/hunted-ex-1184069-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+               </figure><div class="text-wrapper">
+                                                             <h4 class="hed">"Something was off between us," says suspect's ex-girlfriend</h4>
+                                                         <span class="caps">
+                                          </span>
+               </div>
+           </a>
+       </li>
+   
+                            
+                                                
+
+
+      
+       <li data-tb-region-item>
+           <a href="/videos/breaking-into-the-mind-of-a-serial-rapist/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Coming Up|URL"}'>
+                                             <figure class="media-figure"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/17/68b03a51-4154-4171-b237-1c4760218ba1/thumbnail/70x70/ddc40a12f6b82f9491960bccbaf68e77/oleary-interrogation-1183526-640x360.jpg#" alt=" " height="70" width="70" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/17/68b03a51-4154-4171-b237-1c4760218ba1/thumbnail/70x70/ddc40a12f6b82f9491960bccbaf68e77/oleary-interrogation-1183526-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/17/68b03a51-4154-4171-b237-1c4760218ba1/thumbnail/140x140/403897c724b1149729f8fc115d0a45ac/oleary-interrogation-1183526-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+               </figure><div class="text-wrapper">
+                                                             <h4 class="hed">Inside the mind of a serial rapist</h4>
+                                                         <span class="caps">
+                                          </span>
+               </div>
+           </a>
+       </li>
+   
+            
+</ul></div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+            
+            
+    <div class="col-12 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    
+<ul class="grid" data-tb-region="JUST ON" id="module-"><hr><li class="title">
+           <h3 class="header">JUST ON</h3>
+           
+           <hr><span class="subtitle">
+</span>
+           
+                                                             </li>
+   
+                            
+                                                
+
+
+
+
+                <li class="" data-tb-region-item>
+           <div class="asset-wrapper">
+               <a class="main" href="/news/stalked-48-hours-christina-grimmie-murder-pauley-perrettes-fight-to-change-stalking-laws-2/">
+
+                                      <figure class="media-figure"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/02/25/181387c3-fc26-42c8-9f20-41a5b0bc89be/thumbnail/270x150/5f0a3fe2a1edb17d4738ff90de5a0b97/pauley-perrette3.jpg#" alt=" " height="150" width="270" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/02/25/181387c3-fc26-42c8-9f20-41a5b0bc89be/thumbnail/270x150/5f0a3fe2a1edb17d4738ff90de5a0b97/pauley-perrette3.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/02/25/181387c3-fc26-42c8-9f20-41a5b0bc89be/thumbnail/540x300/f9fa2a4e06502cefbcf26cda3945a62a/pauley-perrette3.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+                   </figure></a>
+                 
+               <a class="main" href="/news/stalked-48-hours-christina-grimmie-murder-pauley-perrettes-fight-to-change-stalking-laws-2/">
+
+                   <h4 class="hed">Stalked [Parts 1 &amp; 2]</h4>
+               </a>
+               <p class="dek">
+Rising star Christina Grimmie was killed by a stalker -- Ivanka Trump has been stalked, too -- "48 Hours" and Erin Moriarty investigate the horrors of stalking and how CBS' "NCIS" star Pauley Perrette is fighting to change the laws to protect victims</p>
+           </div>
+                                     <ul class="arrow"><li><a href="/videos/pauley-perrette-speaks-out-on-stalking/">Pauley Perrette speaks out on stalking</a></li>
+                                  <li><a href="/news/sandra-bullocks-real-life-panic-room-call-to-911/">Sandra Bullock&rsquo;s real-life panic room call to 911</a></li>
+                                  <li><a href="/news/high-risk-high-expense-security-for-celebrities-like-gwyneth-paltrow-sandra-bullock-plagued-by-stalkers/">High-risk, high-expense security for celebrities plagued by stalkers</a></li>
+                                  <li><a href="https://www.youtube.com/watch?v=4mYDXzvoG_c">Tyler Ward performs "A Song for Christina"</a></li>
+                              </ul></li>
+   
+                            
+                                                
+
+
+
+
+                <li class="" data-tb-region-item>
+           <div class="asset-wrapper">
+               <a class="main" href="/news/what-to-do-if-youre-being-stalked-advice-from-an-expert/">
+
+                                      <figure class="media-figure"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/02/24/a320d86c-dcf7-4c6a-a101-5708404feeb9/thumbnail/270x150/bfda6605f2ced732b31fd385b5b15920/stalking-generic.jpg#" alt=" " height="150" width="270" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/02/24/a320d86c-dcf7-4c6a-a101-5708404feeb9/thumbnail/270x150/bfda6605f2ced732b31fd385b5b15920/stalking-generic.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/02/24/a320d86c-dcf7-4c6a-a101-5708404feeb9/thumbnail/540x300/3488c06bb8c95ae6917827f2fdbbd9b2/stalking-generic.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+                   </figure></a>
+                 
+               <a class="main" href="/news/what-to-do-if-youre-being-stalked-advice-from-an-expert/">
+
+                   <h4 class="hed">Expert advice: What to do if you're being stalked</h4>
+               </a>
+               <p class="dek">
+A stalking expert and police psychologist explains the four common categories of stalkers and gives guidance on some practical steps for those who think they may be being stalked</p>
+           </div>
+                                     <ul class="arrow"><li><a href="/news/are-you-being-stalked/">Are you being stalked?</a></li>
+                                  <li><a href="/pictures/stalked-stars/">PHOTOS: Stalked stars</a></li>
+                                  <li><a href="/videos/justin-massler-jumps-bail/">What happened when Justin Massler jumped bail?</a></li>
+                              </ul></li>
+   
+                            
+                                                
+
+
+
+
+                <li class="mpu " data-tb-region-item>
+           <div id="mpu-top-59be6c8935bd9" class="ad-mpu-top" data-ad="mpu-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-top-59be6c8935bd9 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-top-59be6c8935bd9");
+    </script></div>
+
+       </li>
+   
+            
+</ul></div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+            
+            
+    <div class="col-12 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    
+<ul class="grid" data-tb-region="TODAY IN CRIME" id="module-"><hr><li class="title">
+           <h3 class="header">TODAY IN CRIME</h3>
+           
+           <hr><span class="subtitle">
+The headlines you'll be talking about</span>
+           
+                                               <img src="/bundles/cbsnewscore/images/fortyEightHours/crimesider-magazine.png" class="crimesider-magazine-logo"></li>
+   
+                            
+                                                
+
+
+
+
+                <li class="" data-tb-region-item>
+           <div class="asset-wrapper">
+               <a class="main" href="/news/laura-elizabeth-wallen-missing-pregnant-teacher-wilde-lake-high-school-maryland/">
+
+                                      <figure class="media-figure"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/08/391f926a-8e4d-4ccf-896a-7dff46ab4960/thumbnail/270x150/6c0c94417783f1a070f3e012b0c65002/laura-wallen.jpg#" alt=" " height="150" width="270" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/08/391f926a-8e4d-4ccf-896a-7dff46ab4960/thumbnail/270x150/6c0c94417783f1a070f3e012b0c65002/laura-wallen.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/08/391f926a-8e4d-4ccf-896a-7dff46ab4960/thumbnail/540x300/f3dfc87bc69efb30098a8470606f837d/laura-wallen.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+                   </figure></a>
+                 
+               <a class="main" href="/news/laura-elizabeth-wallen-missing-pregnant-teacher-wilde-lake-high-school-maryland/">
+
+                   <h4 class="hed">Pregnant teacher goes missing after sending "alarming" text, police say</h4>
+               </a>
+               <p class="dek">
+Police say Laura Elizabeth Wallen last contacted family members by text message on Monday</p>
+           </div>
+                                     <ul class="arrow"></ul></li>
+   
+                            
+                                                
+
+
+
+
+                <li class="" data-tb-region-item>
+           <div class="asset-wrapper">
+               <a class="main" href="/news/details-emerge-in-case-of-girl-who-cops-say-swam-to-escape-captors/">
+
+                                      <figure class="media-figure"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/bb7feaee-669a-450c-aa6b-5f0e2f4ee664/thumbnail/270x150/c15eb43d64f9d54a4721d716bd8ac1a5/kidnap.jpg#" alt=" " height="150" width="270" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/bb7feaee-669a-450c-aa6b-5f0e2f4ee664/thumbnail/270x150/c15eb43d64f9d54a4721d716bd8ac1a5/kidnap.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/bb7feaee-669a-450c-aa6b-5f0e2f4ee664/thumbnail/540x300/4a34af10fbb4c1e9a50040583d4801d3/kidnap.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+                   </figure></a>
+                 
+               <a class="main" href="/news/details-emerge-in-case-of-girl-who-cops-say-swam-to-escape-captors/">
+
+                   <h4 class="hed">Details emerge in case of girl cops say swam from captors</h4>
+               </a>
+               <p class="dek">
+The 15-year-old Minnesota girl told police she repeatedly sexually assaulted and locked in a closet for nearly a month</p>
+           </div>
+                                     <ul class="arrow"></ul></li>
+   
+                            
+                                                
+
+
+
+
+                <li class="" data-tb-region-item>
+           <div class="asset-wrapper">
+               <a class="main" href="/news/mamas-under-the-front-porch-john-wayne-gacy-admirer-buried-mother-in-drum-cops-say/">
+
+                                      <figure class="media-figure"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/08/0617292e-430d-4aa7-8d39-13c7ba22cc19/thumbnail/270x150/29c758cfde365e08bcebaa974dd5aef5/nathanial-sebastian-john-wayne-gacy.jpg#" alt=" " height="150" width="270" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/08/0617292e-430d-4aa7-8d39-13c7ba22cc19/thumbnail/270x150/29c758cfde365e08bcebaa974dd5aef5/nathanial-sebastian-john-wayne-gacy.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/08/0617292e-430d-4aa7-8d39-13c7ba22cc19/thumbnail/540x300/c1ed41a4f30eef64f282d09f1f14d938/nathanial-sebastian-john-wayne-gacy.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+                   </figure></a>
+                 
+               <a class="main" href="/news/mamas-under-the-front-porch-john-wayne-gacy-admirer-buried-mother-in-drum-cops-say/">
+
+                   <h4 class="hed">Cops: John Wayne Gacy admirer buried mother under porch</h4>
+               </a>
+               <p class="dek">
+Officials in Alabama believe Nathaniel Sebastian killed his mother and buried her in the same manner as the notorious serial killer</p>
+           </div>
+                                     <ul class="arrow"></ul></li>
+   
+            
+</ul></div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+            
+            
+    <div class="col-12 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<ul class="grid" data-tb-region="RECENT SHOWS" id="module-"><hr><li class="title">
+           <h3 class="header">RECENT SHOWS</h3>
+           
+           <hr><span class="subtitle">
+</span>
+           
+                                                          <div id="marquee-top-59be6c8935bd9" class="ad-marquee-top" data-ad="marquee-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing marquee-top-59be6c8935bd9 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("marquee-top-59be6c8935bd9");
+    </script></div>
+
+                             </li>
+   
+                            
+                                                
+
+
+
+
+                <li class="" data-tb-region-item>
+           <div class="asset-wrapper">
+               <a class="main" href="/news/48-hours-crosley-greens-last-chance-for-freedom/">
+
+                                      <figure class="media-figure"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/20/aa698117-120b-415b-9329-40ab56e1b047/thumbnail/270x150/f42e7440c6874e1b937683ef86061b82/crosley-green-full-1378472-640x360.jpg#" alt=" " height="150" width="270" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/20/aa698117-120b-415b-9329-40ab56e1b047/thumbnail/270x150/f42e7440c6874e1b937683ef86061b82/crosley-green-full-1378472-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/20/aa698117-120b-415b-9329-40ab56e1b047/thumbnail/540x300/49682c36f1d118fff31eba8d6bcaf12b/crosley-green-full-1378472-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+                   </figure></a>
+                 
+               <a class="main" href="/news/48-hours-crosley-greens-last-chance-for-freedom/">
+
+                   <h4 class="hed">Last Chance for Freedom [8/19]</h4>
+               </a>
+               <p class="dek">
+A Florida man has spent nearly three decades in prison for a murder he says he didn't commit; evidence suggests he might be right -- will he get a new trial?</p>
+           </div>
+                                     <!-- test static HTML -->
+               
+               <ul class="thumb-list"></ul></li>
+   
+                            
+                                                
+
+
+
+
+                <li class="" data-tb-region-item>
+           <div class="asset-wrapper">
+               <a class="main" href="/news/48-hours-florida-doctor-teresa-sievers-slain-eleven-hundred-miles-to-murder/">
+
+                                      <figure class="media-figure"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/02/19/5741abd3-8d9c-4be1-bebb-5576e1082a02/thumbnail/270x150/8158691cc74d763a30988e680f8c31dc/sievers-teresa-mark.jpg#" alt=" " height="150" width="270" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/02/19/5741abd3-8d9c-4be1-bebb-5576e1082a02/thumbnail/270x150/8158691cc74d763a30988e680f8c31dc/sievers-teresa-mark.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/02/19/5741abd3-8d9c-4be1-bebb-5576e1082a02/thumbnail/540x300/26a53c22453c515466fd2a01b10e2a81/sievers-teresa-mark.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+                   </figure></a>
+                 
+               <a class="main" href="/news/48-hours-florida-doctor-teresa-sievers-slain-eleven-hundred-miles-to-murder/">
+
+                   <h4 class="hed">Eleven Hundred Miles to Murder [8/12]</h4>
+               </a>
+               <p class="dek">
+A tip in the murder investigation of Dr. Teresa Sievers -- struck 17 times with a hammer -- leads police on an 1,100-mile trip that takes the case in unexpected directions</p>
+           </div>
+                                     <!-- test static HTML -->
+               
+               <ul class="thumb-list"></ul></li>
+   
+                            
+                                                
+
+
+
+
+                <li class="" data-tb-region-item>
+           <div class="asset-wrapper">
+               <a class="main" href="/news/texting-suicide-trial-sentencing-michelle-carter-conrad-roy-death-by-text/">
+
+                                      <figure class="media-figure"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/06/16/b9ab1d10-8a58-4d74-9586-7ca34032891d/thumbnail/270x150/fecf4e1913f7811daa389b33df377753/48hr-combo-conrad-michelle2.jpg#" alt=" " height="150" width="270" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/06/16/b9ab1d10-8a58-4d74-9586-7ca34032891d/thumbnail/270x150/fecf4e1913f7811daa389b33df377753/48hr-combo-conrad-michelle2.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/06/16/b9ab1d10-8a58-4d74-9586-7ca34032891d/thumbnail/540x300/d9508f11aa503fbb1145ab14d3dba36a/48hr-combo-conrad-michelle2.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+                   </figure></a>
+                 
+               <a class="main" href="/news/texting-suicide-trial-sentencing-michelle-carter-conrad-roy-death-by-text/">
+
+                   <h4 class="hed">Death by Text [8/5]</h4>
+               </a>
+               <p class="dek">
+"48 Hours" had the groundbreaking trial of a crime of the digital age, and now the conclusion -- should a 20-year-old woman go to jail for sending texts?</p>
+           </div>
+                                     <!-- test static HTML -->
+               
+               <ul class="thumb-list"></ul></li>
+   
+            
+</ul></div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+            
+            
+    <div class="col-12 nocontent">
+                                    
+                                    
+                                            
+
+            
+                                                <ul class="grid no-bg"><div class="crimesider full-width">
+        <hr class="top"><div class="wrapper">
+            <div class="logo-wrapper">
+                <a href="/blogs/crimesider"><div class="logo"></div></a>
+                <hr><h3 class="headline">True crime from the producers of 48 Hours</h3>
+            </div>
+            <div class="content">
+                <ul class="grid grid-3-col no-bg"><li class="first">
+    <a class="main" href="/news/48-hours-hunted-the-search-for-colorado-serial-rapist-marc-o-leary/">
+                                 <figure class="media-figure" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Blog Promo|Lead-1-Image"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2016/11/20/0eb46c93-9e32-40b6-9a8b-e63a47ab0f92/thumbnail/380x240/9ed291e937a4b6c112f82d6310b0461e/hunted-sketch.jpg#" alt=" " height="240" width="380" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2016/11/20/0eb46c93-9e32-40b6-9a8b-e63a47ab0f92/thumbnail/380x240/9ed291e937a4b6c112f82d6310b0461e/hunted-sketch.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2016/11/20/0eb46c93-9e32-40b6-9a8b-e63a47ab0f92/thumbnail/760x480/a8134e1d0bacf61b91251669873f591e/hunted-sketch.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span> </figure><h4 class="hed" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Blog Promo|Lead-1-Headline"}'>Hunted: Tracking a serial rapist</h4>
+            </a>
+</li>    
+    <li>
+        <ul class="thumb-list"><li class="">
+    <a class="main" href="/news/juggalos-insane-clown-posse-fans-trump-supporters-converge-in-dueling-rallies/">
+                    <figure class="media-figure" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Blog Promo|Stack-1-Thumbnail"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/16/c8c255b4-cd36-4184-b8bf-11954a5547a7/thumbnail/70x70/d8be3438b4f4da8603a49a0d15c25388/img-1350.jpg#" alt=" " height="70" width="70" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/16/c8c255b4-cd36-4184-b8bf-11954a5547a7/thumbnail/70x70/d8be3438b4f4da8603a49a0d15c25388/img-1350.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/16/c8c255b4-cd36-4184-b8bf-11954a5547a7/thumbnail/140x140/98856d33c308e114bd97f5d1d04853b4/img-1350.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span> </figure><div class="theme-color caps"></div>
+            <span class="smtitle" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Blog Promo|Stack-1-Headline"}'>"Juggalos," Trump supporters converge in dueling rallies</span>
+            </a>
+</li>                            
+                                                
+
+<li class="">
+    <a class="main" href="/news/slender-man-anissa-weier-verdict/">
+                    <figure class="media-figure" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Blog Promo|Stack-2-Thumbnail"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/12/880a6d9e-392a-4c3e-8bb2-7ccde6657d62/thumbnail/70x70/6244c43afdfc460beeec1c9ec17bb3e6/weier.jpg#" alt=" " height="70" width="70" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/12/880a6d9e-392a-4c3e-8bb2-7ccde6657d62/thumbnail/70x70/6244c43afdfc460beeec1c9ec17bb3e6/weier.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/12/880a6d9e-392a-4c3e-8bb2-7ccde6657d62/thumbnail/140x140/fa10ea2798fb176d3ae81a3fae31e5fa/weier.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span> </figure><div class="theme-color caps"></div>
+            <span class="smtitle" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Blog Promo|Stack-2-Headline"}'>Jury reaches verdict in Slender Man stabbing case</span>
+            </a>
+</li>                            
+                                                
+
+<li class="">
+    <a class="main" href="/news/jerry-sanduskys-son-pleads-guilty-to-child-sex-abuse/">
+                    <figure class="media-figure" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Blog Promo|Stack-3-Thumbnail"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/d2f22783-f7a3-4323-844f-f7532dc4a838/thumbnail/70x70/a65f25138405e32f90be00d1b17b3bf1/ap-17258839105311.jpg#" alt=" " height="70" width="70" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/d2f22783-f7a3-4323-844f-f7532dc4a838/thumbnail/70x70/a65f25138405e32f90be00d1b17b3bf1/ap-17258839105311.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/16/d2f22783-f7a3-4323-844f-f7532dc4a838/thumbnail/140x140/886ebc60773a6a8bd87e93d222095504/ap-17258839105311.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span> </figure><div class="theme-color caps"></div>
+            <span class="smtitle" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Blog Promo|Stack-3-Headline"}'>Jerry Sandusky's son pleads guilty to child sex abuse</span>
+            </a>
+</li>                    </ul></li>
+    <li class="last">
+        <ul class="thumb-list"><li class="">
+    <a class="main" href="/news/kenneka-jenkins-surveillance-footage-released/">
+                    <figure class="media-figure" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Blog Promo|Stack-1-Thumbnail"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/15/1dc4fe2f-ddad-4fc8-ba9b-caf3d9562058/thumbnail/70x70/3dbb1730d6edd5dbf4323f2ae070a9d3/screen-shot-2017-09-15-at-6-11-29-pm.png#" alt=" " height="70" width="70" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/15/1dc4fe2f-ddad-4fc8-ba9b-caf3d9562058/thumbnail/70x70/3dbb1730d6edd5dbf4323f2ae070a9d3/screen-shot-2017-09-15-at-6-11-29-pm.png 1x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span> </figure><div class="theme-color caps"></div>
+            <span class="smtitle" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Blog Promo|Stack-1-Headline"}'>Police release surveillance video of teen whose body was found in freezer</span>
+            </a>
+</li>                            
+                                                
+
+<li class="">
+    <a class="main" href="/news/agent-state-police-made-mistake-in-holly-bobo-case/">
+                    <figure class="media-figure" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Blog Promo|Stack-2-Thumbnail"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2013/12/20/c1920c62-b553-48ce-bd6b-06fb5e77b31f/thumbnail/70x70g2/68344741c06dc39329cd94746b5c109a/Holly%20Bobo.jpg#" alt=" " height="70" width="70" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2013/12/20/c1920c62-b553-48ce-bd6b-06fb5e77b31f/thumbnail/70x70g2/68344741c06dc39329cd94746b5c109a/Holly%20Bobo.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2013/12/20/c1920c62-b553-48ce-bd6b-06fb5e77b31f/thumbnail/140x140g2/1bbf3e4af943df6aad67c765e880679a/Holly%20Bobo.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span> </figure><div class="theme-color caps"></div>
+            <span class="smtitle" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Blog Promo|Stack-2-Headline"}'>Agent: Mistakes made in Holly Bobo investigation</span>
+            </a>
+</li>                            
+                                                
+
+<li class="">
+    <a class="main" href="/news/police-kansas-psychiatrist-stabbed-to-death-by-his-patient/">
+                    <figure class="media-figure" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Blog Promo|Stack-3-Thumbnail"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/d3951841-fb29-4c6e-af53-18c5b2ce5d14/thumbnail/70x70/75fe31a514fbc5b775aa567b88dbef45/reddy.gif#" alt=" " height="70" width="70" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/d3951841-fb29-4c6e-af53-18c5b2ce5d14/thumbnail/70x70/75fe31a514fbc5b775aa567b88dbef45/reddy.gif 1x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span> </figure><div class="theme-color caps"></div>
+            <span class="smtitle" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Blog Promo|Stack-3-Headline"}'>Police: Kansas psychiatrist stabbed to death by patient</span>
+            </a>
+</li>                    </ul></li>
+
+
+                </ul><div>
+                    <a class="home-button caps" href="/blogs/crimesider">Crimesider Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="whitefix"></div>
+</ul></div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+            
+            
+    <div class="col-12 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    
+     <div class="to-go  our-community center-section" data-tb-region="Our Community">
+    <hr class="top"><div class="wrapper">
+        <h3 class="center header"><hr class="strike">Our Community<hr class="strike"></h3>
+        <ul class="grid grid-3-col"><li data-tb-region-item>
+    <div class="center icon-twitter" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Social|twitter-Asset Icon"}'></div>
+
+    <span class="caps" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Social|twitter-Featured Comments-@LouUncovered"}'>@LouUncovered</span><br><a href="" class="theme-color caps" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Social|twitter-Asset Link"}'>"Twitter"</a>
+    
+    <div class="smtitle" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Social|twitter-Comments-Quote"}'>"@48hours I was watching #TheFamily in real time, then moved to rec version to replay, as some details are too hard to believe! Well done."</div>
+
+            <a class="theme-color caps" href="https://twitter.com/48hours">Follow @48hours on Twitter</a>
+            </li>
+                            
+                                                
+
+<li data-tb-region-item>
+    <div class="center icon-twitter" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Social|twitter-Asset Icon"}'></div>
+
+    <span class="caps" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Social|twitter-Featured Comments-@adrizzlyautumn"}'>@adrizzlyautumn</span><br><a href="" class="theme-color caps" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Social|twitter-Asset Link"}'>"Twitter"</a>
+    
+    <div class="smtitle" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Social|twitter-Comments-Quote"}'>"@48hours captivated by the Angie Dodge story. Really looking forward to seeing a positive conclusion for all involved"</div>
+
+            <a class="theme-color caps" href="https://twitter.com/48hours">Follow @48hours on Twitter</a>
+            </li>
+                            
+                                                
+
+<li data-tb-region-item>
+    <div class="center icon-twitter" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Social|twitter-Asset Icon"}'></div>
+
+    <span class="caps" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Social|twitter-Featured Comments-@Lis5718"}'>@Lis5718</span><br><a href="" class="theme-color caps" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Social|twitter-Asset Link"}'>"Twitter"</a>
+    
+    <div class="smtitle" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-Social|twitter-Comments-Quote"}'>"I found an old episode of @48hours I hadn't seen before. #TriggerPoint from 2008. Love the #48hours app on my iPad!"</div>
+
+            <a class="theme-color caps" href="https://twitter.com/48hours">Follow @48hours on Twitter</a>
+            </li>
+            
+        </ul></div>
+</div>
+
+                                                                    </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+            
+            
+    <div class="col-12 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    <div class="module-apps">
+         <div class="to-go center-section" data-tb-region="48 Hours To Go">
+    <hr class="top"><div class="wrapper">
+        <h3 class="center header"><hr class="strike">48 Hours To Go<hr class="strike"></h3>
+        <ul class="grid grid-3-col"><li data-tb-region-item>
+        <a href="http://www1.play.it/audio/48-hours/">
+                        <figure data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-App Promo|App-1-Image"}'><span class="img normalize"><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/13/5feac57a-ec50-4749-89cf-d569e3428426/thumbnail/300x190/d87f67d94cc08d28035f44c4667c4d53/play-dot-it-logo.jpg#" alt=" " height="190" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/13/5feac57a-ec50-4749-89cf-d569e3428426/thumbnail/300x190/d87f67d94cc08d28035f44c4667c4d53/play-dot-it-logo.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/13/5feac57a-ec50-4749-89cf-d569e3428426/thumbnail/600x380/1196dc758bf41943887cde349801662c/play-dot-it-logo.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+            </figure><h4 class="hed" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-App Promo|App-1-Headline"}'>Play.it Podcasts</h4>
+            <span class="theme-color caps" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-App Promo|App-1-linkURL"}'>Download Now</span>
+            <p class="dek" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-App Promo|App-1-Dek"}'>
+Listen to "48 Hours" full episodes on the go!</p>
+        </a>
+    </li>
+                            
+                                                
+        
+                
+    <li data-tb-region-item>
+        <a href="http://www.cbs.com/all-access/upsell/?ftag=AAMe8d9185">
+                        <figure data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-App Promo|App-2-Image"}'><span class="img normalize"><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2014/10/16/aa3ddee3-8ffd-4388-b78c-dbc73a387b57/thumbnail/300x190/9907574894db592434943569178033b1/48doorallaccesspromo300x190-1.png#" alt=" " height="190" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2014/10/16/aa3ddee3-8ffd-4388-b78c-dbc73a387b57/thumbnail/300x190/9907574894db592434943569178033b1/48doorallaccesspromo300x190-1.png 1x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+            </figure><h4 class="hed" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-App Promo|App-2-Headline"}'>CBS All Access</h4>
+            <span class="theme-color caps" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-App Promo|App-2-linkURL"}'>Try 1 Week Free</span>
+            <p class="dek" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-App Promo|App-2-Dek"}'>
+Watch episodes from past seasons of "48 Hours." PLUS, stream all your favorite CBS shows live, next day, or on demand anytime, anywhere.</p>
+        </a>
+    </li>
+                            
+                                                
+    <li class="mpu">
+        <div id="mpu-bottom-59be6c8935bd9" class="ad-mpu-bottom" data-ad="mpu-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-bottom-59be6c8935bd9 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-bottom-59be6c8935bd9");
+    </script></div>
+
+    </li>
+            
+        </ul></div>
+</div>
+</div>
+                                                                    </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+            
+            
+    <div class="col-12 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    
+
+
+<div class="correspondents center-section">
+    <div class="wrapper" data-tb-region="The Team">
+        <hr class="top"><h3 class="center header"><hr class="strike">The Team<hr class="strike"></h3>
+
+        <ul class="grid grid-3-col"><li>
+                &nbsp;
+                <ul class="thumb-list"><li data-tb-region-item>
+            <a class="theme-color caps" href="https://www.cbsnews.com/team/maureen-maher/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-The Team|Related-1-Bio"}' data-invalid-url-rewritten-http="">
+         <figure class="media-figure" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-The Team|Maureen Maher-1-Thumbnail"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2013/10/29/74c54a93-8061-4655-badf-521b5830c0b1/thumbnail/70x70/e1a776c2357abbcdbf373b90eddfc472/48_bio_maher.jpg#" alt=" " height="70" width="70" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2013/10/29/74c54a93-8061-4655-badf-521b5830c0b1/thumbnail/70x70/e1a776c2357abbcdbf373b90eddfc472/48_bio_maher.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2013/10/29/74c54a93-8061-4655-badf-521b5830c0b1/thumbnail/140x140/f5a968555c0c1278910db304e604ae67/48_bio_maher.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span> </figure><h5 class="hed">Maureen Maher</h5>
+            <span class="info">
+            Bio
+        </span>
+        </a>
+    </li>
+
+    <hr><li data-tb-region-item>
+            <a class="theme-color caps" href="https://www.cbsnews.com/team/erin-moriarty/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-The Team|Related-2-Bio"}' data-invalid-url-rewritten-http="">
+         <figure class="media-figure" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-The Team|Erin Moriarty-2-Thumbnail"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2013/11/19/556896cc-aecb-4bb9-8596-bb12b9fea5f6/thumbnail/70x70/94b97bd8736fba25afa0a74e749b8fbd/Bio-Photo-Moriarty-48-xlarge.jpg#" alt=" " height="70" width="70" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2013/11/19/556896cc-aecb-4bb9-8596-bb12b9fea5f6/thumbnail/70x70/94b97bd8736fba25afa0a74e749b8fbd/Bio-Photo-Moriarty-48-xlarge.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2013/11/19/556896cc-aecb-4bb9-8596-bb12b9fea5f6/thumbnail/140x140/a1b6401a701e55ab70ec65dc7668351c/Bio-Photo-Moriarty-48-xlarge.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span> </figure><h5 class="hed">Erin Moriarty</h5>
+            <span class="info">
+            Bio
+        </span>
+        </a>
+    </li>
+
+    <hr><li data-tb-region-item>
+            <a class="theme-color caps" href="https://www.cbsnews.com/team/richard-schlesinger/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-The Team|Related-3-Bio"}' data-invalid-url-rewritten-http="">
+         <figure class="media-figure" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-The Team|Richard Schlesinger-3-Thumbnail"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2013/10/29/978464c4-8738-4801-b5a2-fd120dc14fc7/thumbnail/70x70/07463ee6d7b02cababee1ed229da6233/48_bio_schlesinger.jpg#" alt=" " height="70" width="70" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2013/10/29/978464c4-8738-4801-b5a2-fd120dc14fc7/thumbnail/70x70/07463ee6d7b02cababee1ed229da6233/48_bio_schlesinger.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2013/10/29/978464c4-8738-4801-b5a2-fd120dc14fc7/thumbnail/140x140/a632f38660113f47035dfe449c2b6db2/48_bio_schlesinger.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span> </figure><h5 class="hed">Richard Schlesinger</h5>
+            <span class="info">
+            Bio
+        </span>
+        </a>
+    </li>
+
+                            </ul></li>
+            <li>
+                <span class="img normalize"><img src="https://cbsnews3.cbsistatic.com/hub/i/2016/09/23/76a1f212-2fae-4a59-a6e0-7fcce687502a/39225cecfe8fe8457df3b0b7e870e120/48-hrs-new-talent.png#" alt=" " srcset="https://cbsnews3.cbsistatic.com/hub/i/2016/09/23/76a1f212-2fae-4a59-a6e0-7fcce687502a/39225cecfe8fe8457df3b0b7e870e120/48-hrs-new-talent.png 1x"></span>
+            </li>
+            <li>
+                &nbsp;
+                                <ul class="thumb-list"><li data-tb-region-item>
+            <a class="theme-color caps" href="https://www.cbsnews.com/team/tracy-smith/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-The Team|Related-1-Bio"}' data-invalid-url-rewritten-http="" data-vanity-rewritten="true">
+         <figure class="media-figure" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-The Team|Tracy Smith-1-Thumbnail"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2013/10/29/c54248a9-9f87-4e8a-af3b-dfc28bf6ddba/thumbnail/70x70/1606ab50ae15f374aeb895867e9bb552/48_bio_smith.jpg#" alt=" " height="70" width="70" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2013/10/29/c54248a9-9f87-4e8a-af3b-dfc28bf6ddba/thumbnail/70x70/1606ab50ae15f374aeb895867e9bb552/48_bio_smith.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2013/10/29/c54248a9-9f87-4e8a-af3b-dfc28bf6ddba/thumbnail/140x140/d09975629b2caeb56fad2e439b91ff0d/48_bio_smith.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span> </figure><h5 class="hed">Tracy Smith</h5>
+            <span class="info">
+            Bio
+        </span>
+        </a>
+    </li>
+
+    <hr><li data-tb-region-item>
+            <a class="theme-color caps" href="https://www.cbsnews.com/team/peter-van-sant/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-The Team|Related-2-Bio"}' data-invalid-url-rewritten-http="">
+         <figure class="media-figure" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-The Team|Peter Van Sant-2-Thumbnail"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2013/10/29/31850133-eef7-4a6c-bd1a-1895de377847/thumbnail/70x70/35f43ac9f65fca06d4ee12ce9b9d982f/48_bio_vansant.jpg#" alt=" " height="70" width="70" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2013/10/29/31850133-eef7-4a6c-bd1a-1895de377847/thumbnail/70x70/35f43ac9f65fca06d4ee12ce9b9d982f/48_bio_vansant.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2013/10/29/31850133-eef7-4a6c-bd1a-1895de377847/thumbnail/140x140/e69f9d0e936201958e166f82939f46cf/48_bio_vansant.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span> </figure><h5 class="hed">Peter Van Sant</h5>
+            <span class="info">
+            Bio
+        </span>
+        </a>
+    </li>
+
+    <hr><li data-tb-region-item>
+            <a class="theme-color caps" href="https://www.cbsnews.com/team/susan-zirinsky/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-The Team|Related-3-Bio"}' data-invalid-url-rewritten-http="">
+         <figure class="media-figure" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 Hour Door-Content-The Team|Susan Zirinsky-3-Thumbnail"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2013/09/13/4e72f75d-1f6b-11e3-9918-005056850598/thumbnail/70x70/1dc8a0e27f4e1ef993b1a2336d685af5/Z-watch2.jpg#" alt=" " height="70" width="70" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2013/09/13/4e72f75d-1f6b-11e3-9918-005056850598/thumbnail/70x70/1dc8a0e27f4e1ef993b1a2336d685af5/Z-watch2.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2013/09/13/4e72f75d-1f6b-11e3-9918-005056850598/thumbnail/140x140/a083026a1494443caa519a669e9ee92b/Z-watch2.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span> </figure><h5 class="hed">Susan Zirinsky</h5>
+            <span class="info">
+            Bio
+        </span>
+        </a>
+    </li>
+
+                            </ul></li>
+        </ul></div>
+</div>
+
+
+                                                                    </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+            
+            
+    <div class="col-12 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-emergency-component">
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <script>var searchNav = document.querySelector('.site-nav__item--sports .site-nav__item-anchor'); searchNav&&searchNav.addEventListener('click', function () {window.location = this.href}, true);</script><style>.site-footer{ z-index:0; } .site-header{ z-index:2; } .content-primary{ z-index:1; } [tabindex]:focus {outline: 0; } .desktop .site-nav__item--shows:hover .site-nav__item-content-icon {top: 113px;right: auto;}.desktop .site-nav__item--shows:hover .site-nav__item-hed {font-size: 16px;max-height: none;float: none;margin: 0px;} .front-door .disqus-comment-count { display: none; } .topic-door .disqus-comment-count { display: none; } .listing-mini-sub .disqus-comment-count { display: none; } .desktop #mantle_skin[class*=cbs-this-morning] .hero-text .title a {color: #e4a21b;font-family: "museo-sans", Helvetica, Roboto, sans-serif;font-size: 30px;font-weight: 700;line-height: 1.1;letter-spacing: -0.05em;}</style></li>
+                </ul></div>                                                        </div>
+
+                                                                    </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+                
+    <div class="col-12 ">
+                                        </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+                
+    <div class="col-12 ">
+                                        </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+                
+    <div class="col-12 ">
+                                        </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+                
+    <div class="col-12 ">
+                                        </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+                
+    <div class="col-12 ">
+                                        </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+        </div>
+</div>
+
+            <div id="leader-bottom-59be6c8935bd9" class="ad-leader-bottom" data-ad="leader-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-bottom-59be6c8935bd9 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-bottom-59be6c8935bd9");
+    </script></div>
+
+        </div>
+
+    
+                    
+<footer class="site-footer content-inverse nocontent"><div class="container">
+                        <div class="row">
+            <div class="col-2 link-block">
+                <h5 class="title">CBSNews.com</h5>
+
+                <ul class="items"><li><a href="https://www.cbsnews.com/sitemap/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Site Map"}' data-invalid-url-rewritten-http="">Site Map</a></li>
+                    <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome2?categories=CBS_Interactive:CBSNews&amp;referer=cbsnews.com/main" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Help"}'>Help</a></li>
+                    <li><a href="http://audienceservices.cbs.com/feedback/feedback.htm" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Contact Us"}'>Contact Us</a></li>
+
+                    <li><a href="https://www.cbsnews.com/team/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|CBS Bios"}' data-invalid-url-rewritten-http="" data-vanity-rewritten="true">CBS Bios</a></li>
+                    <li><a href="https://cbs.avature.net/cbsnewscareers" data-omniture-track-data='{"clickProperty": "Site Footer|Careers"}'>Careers</a></li>
+                    <li><a href="http://www.cbsinteractive.com/careers" data-omniture-track-data='{"clickProperty": "Site Footer|CBSi Careers"}'>CBSi Careers</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-internship-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Internships"}' data-invalid-url-rewritten-http="">Internships</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-associates-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Development Programs"}' data-invalid-url-rewritten-http="">Development Programs</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">CBS Interactive</h5>
+
+                <ul class="items"><li><a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Privacy Policy"}'>Privacy Policy</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/adchoice" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Ad Choice"}'>Ad Choice</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Terms of Use"}'>Terms of Use</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/eula" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Mobile User Agreement"}'>Mobile User Agreement</a></li>
+                    <li><a href="http://www.cbscorporation.com/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|About CBS"}'>About CBS</a></li>
+                    <li><a href="http://www.cbsinteractive.com/advertise/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Advertise"}'>Advertise</a></li>
+                    <li><a href="http://cbsimedia.cbs.com/captioning/info.html" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Closed Captioning"}'>Closed Captioning</a></li>
+                    <li><a href="http://www.cbsstore.com/cbs-news-store-home/index.php?v=cbs-news&amp;ecid=PRF-CBS-300538&amp;pa=PRF-CBS-300538" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|CBS News Store"}'>CBS News Store</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">Follow Us</h5>
+
+                <ul class="items"><li><a href="https://www.facebook.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Facebook"}'>Facebook</a></li>
+                    <li><a href="https://twitter.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Twitter"}'>Twitter</a></li>
+                    <li><a href="/rss/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|RSS"}'>RSS</a></li>
+                    <li><a href="https://www.cbsnews.com/newsletters/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Email Newsletters"}' data-invalid-url-rewritten-http="">Email Newsletters</a></li>
+                    <li><a href="http://www.youtube.com/user/CBSNewsOnline" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|YouTube"}'>YouTube</a></li>
+                    <li><a href="https://www.cbsnews.com/radio/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Radio News"}' data-invalid-url-rewritten-http="">CBS Radio News</a></li>
+                    <li><a href="https://www.cbsnews.com/local/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Local"}' data-invalid-url-rewritten-http="">CBS Local</a></li>
+                </ul></div>
+
+            <div class="col-4 push-2">
+                <div class="site-brand">
+                    <div class="logo core-logo"><a href="/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer-Branding"}'>CBS News</a></div>
+                </div>
+
+                <form class="site-search" action="/search/" method="get" data-component="search" data-search-options='{"path":"https:\/\/www.cbsnews.com\/search\/","param":"q"}'>
+                    <input type="search" class="query" maxlength="255" name="q" placeholder="Search..."><button type="submit" class="submit core-search-footer">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="site-brand">
+                <p class="copyright">Copyright &copy; 2017 CBS Interactive Inc.<br>All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer><script>
+    var CBSNEWS = CBSNEWS || {};
+        CBSNEWS.ad        = {"gpt":{"targeting":{"device":"desktop","ptype":"category_door","cid":"48-hours","env":"prod_alt"},"adConfig":{"network":{"dev":8264,"qa":8264,"prod":8264},"method":"async-inline","regions":[{"region":"uk","countries":["gb","fr","ie","za","bh","kw","om","qa","sa","ae","iq","eg","ye"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","ph","th","id","vn","hk","in"]}],"adUnits":{"intromercial":{"outOfPage":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"skin"}},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250],[300,1050]],"position":"top"},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"buttonTop":{"sizes":[[88,31]],"position":"top"},"scrollPrestitial":{"sizes":[[980,45]],"position":"top"},"marqueeBottom":{"sizes":[[234,60]],"position":"bottom"},"marquee300Top":{"sizes":[[300,60]],"position":"top"},"marquee300Middle":{"sizes":[[300,60]],"position":"middle"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"leaderBottom":{"sizes":[[728,90],[970,66]],"position":"bottom"},"desktopNativeTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"a832eb3c"}},"nativeShowTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"bf587c26"}},"desktopNativeMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"e0c5ba47"}},"desktopNativeBottom":{"sizes":[[11,11]],"position":"bottom"},"buttonMiddle":{"sizes":[[88,31]],"position":"middle"},"buttonBottom":{"sizes":[[88,31]],"position":"bottom"},"sponsorContentMiddle":{"sizes":[[381,211],[11,11]],"position":"middle","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentMiddle2":{"sizes":[[381,211],[11,11]],"position":"middle2","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentBottom":{"sizes":[[381,211],[11,11]],"position":"bottom","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentTop":{"sizes":[[381,211],[11,11]],"position":"top","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentSmallTop":{"sizes":[[301,151],[11,11]],"position":"top","customTargeting":{"strnativekey":"a2ac4296"}},"sponsorContentTextTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"a6c0ce8b"}},"sponsorBar980Top":{"sizes":[[980,36]],"position":"top"},"sponsorBar620Top":{"sizes":[[620,36]],"position":"top"}},"mobile":{"adUnits":{"intromercial":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileBanner1":{"sizes":[[320,50]],"position":1},"mobileBanner2":{"sizes":[[320,50]],"position":2},"mobileBanner3":{"sizes":[[320,50]],"position":3},"mobileMarquee320Top":{"sizes":[[320,60]],"position":"top"},"mobileSponsorContentTextTop":{"sizes":[[300,250],[11,11],"fluid"],"position":"top","customTargeting":{"strnativekey":"454fd857"}},"mobileSponsorcontentTextMiddle":{"sizes":[[300,250],[320,50],[11,11],"fluid"],"position":"middle","customTargeting":{"strnativekey":"454fd857"}},"mobileInlineFlexPos2":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":2,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexPos3":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":3,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexInc":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":"inc","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileNativeTop":{"sizes":[[11,11]],"position":"top"},"mobileNativeGalleryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"289740d4"}},"mobileSponsorcontentCdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"3c5782bf"}},"mobileSponsorcontentVdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"eba075cc"}}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"amp":{"adUnits":{"ampFlexTop":{"sizes":[[320,50],[300,250]],"position":"top"},"ampFlexBottom":{"sizes":[[320,50],[300,250]],"position":"bottom"},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"ampFlexPos2":{"sizes":[[320,50],[300,250]],"position":2},"ampFlexPos3":{"sizes":[[320,50],[300,250]],"position":3},"ampFlexInc":{"sizes":[[320,50],[300,250]],"position":"inc"},"ampSticky":{"sizes":[[320,50]],"position":"sticky"}}},"siteName":"cbsnews","collapseEmptyDiv":true,"setRefreshUnfilledSlots":false,"setClearUnfilledSlots":true,"disableInitialLoad":false,"disableInitialLoadCompanions":true,"enableHeaderBidding":true,"disableClearTargetingOnInit":true,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["intromercial","leader_top","leader_plus_top","skin","mpu_top","mpu_plus_top","marquee_top","marquee300_top","button_top","sponsor_content_top","sponsor_content_small_top","sponsor_content_text_top","sponsor_bar980_top","sponsor_bar620_top","desktop_native_top","native_show_top","mpu_middle","marquee300_middle","button_middle","desktop_native_middle","sponsor_content_middle","sponsor_content_middle2","desktop_native_bottom","button_bottom","mpu_bottom","leader_bottom","sponsor_content_bottom"],"disableInitialLoadRefresh":"false","disableAdIncrement":false,"enableRepeatedAds":false},"containerId":"59be6c8935bd9","slotVars":{"network":"8264","siteName":"cbsnews","collapseEmptyDiv":"1","topics":"48-hours/home","platform":"desktop"},"adType":"gpt","adDivIds":["mpu-top-59be6c8935bd9","marquee-top-59be6c8935bd9","mpu-bottom-59be6c8935bd9","intromercial-59be6c8935bd9","leader-top-59be6c8935bd9","leader-bottom-59be6c8935bd9"]},"cookieName":"cbsnews_ad","cookieServicePath":"/ad/ad-cookie/","session":4,"subSession":4,"useFirstPageTargeting":true};
+        CBSNEWS.bsFreq    = 100;
+        CBSNEWS.device    = 'desktop';
+        CBSNEWS.features  = CBSNEWS.features || {};
+        CBSNEWS.tracking  = {"isEnabled":true,"deviceType":"desktop","isDev":"2","pageType":"category_door","siteHier":["48 hours"],"siteSection":"48 hours","siteType":"responsive web","topicId":["7ac84838-758d-11e2-9d12-0018fe8a00b0"],"topicName":["48 hours"],"bkSiteId":3330,"limit":4,"siteName":"cbsnews","demographicKeys":["jobFunction","jobCategory","industry","computerProficiency","companySize","gender","ageGroup","country"],"tealium":{"profile":"cbsnewssite","env":"prod"}};
+        CBSNEWS.tracking._adData      = CBSNEWS.ad;
+        CBSNEWS.tracking.pageViewGuid = null; // Set in managers/tealium
+        CBSNEWS.user      = {
+            appId:          '1501',
+            environment:    'LIVE',
+            platform:       '',
+            publicHost:     'www.cbsnews.com',
+            secureHost:     'secure-fly.cbsnews.com',
+            ursVersion:     'v2.2',
+            ursClientToken: '9b0514bf29ca49e1',
+        };
+        CBSNEWS.disqus =  {
+            shortname: 'cbsnews-prod',
+            publicKey: '60EUVoZHyaBJqXJUxAKYfJgUh8NhuUyO88gGQ7aIw8HsbFOwAl9hLtoCyvyld2A8',
+            sso: {
+                name: 'CBSNews',
+                authLoginUrl: 'https://www.cbsnews.com/disqus/sso/login/',
+                authLogoutUrl: 'https://www.cbsnews.com/disqus/sso/logout/',
+                button: 'https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/images/core/logo.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95',
+                icon: 'https://cbsnews4.cbsistatic.com/fly/favicon.ico?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95',
+                loginUrl: 'https://secure-fly.cbsnews.com/user/registration/?redirectUrl=%2Fdisqus%2Flogin%2F ',
+                logoutUrl: 'https://www.cbsnews.com/user/logout/'
+            }
+        };
+
+
+    var features = ['beanstockSonobi', 'disqus', 'urs'];
+    features.forEach(function(feature) {
+        if (!CBSNEWS.features.hasOwnProperty(feature)) {
+            CBSNEWS.features[feature] = true;
+        }
+    });
+
+    var utag_data = CBSNEWS.tracking;
+
+    var require = {"baseUrl":"https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build","urlArgs":"v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95","config":{"version":{"fly/libs/base64":"0.3.0","fly/libs/easy-xdm-cbsi":"2.4.19.3","fly/libs/jquery.widget":"1.9.2","fly/libs/jquery.cookie":"1.2","fly/libs/jquery.mobile":"1.3.2","fly/libs/jquery.throttle-debounce":"1.1","fly/libs/lazysizes":"1.4.0","fly/libs/omniture.s-code":"1.0","fly/libs/urs":"1.0","fly/utils/data-prefix":"1.0","fly/utils/data-selector":"1.0","fly/utils/function-natives":"1.0","fly/utils/guid":"1.0","fly/utils/log":"1.0","fly/utils/object-helper":"1.0","fly/utils/string-helper":"1.0","fly/utils/string-vars":"1.0","fly/utils/url-helper":"1.0","fly/managers/components":"1.0","fly/managers/cookie":"1.0","fly/managers/debug":"1.0","fly/managers/ad":"2.0","fly/managers/gpt":"4.2","fly/managers/geo":"1.0","fly/managers/image-resolution":"1.0","fly/managers/recurly":"1.0","fly/managers/recurly-billing":"1.0","fly/managers/social-authentication":"1.0","fly/managers/tracking":"1.0","fly/managers/user":"1.0","fly/components/accordion":"1.0","fly/components/alert":"1.0","fly/components/base":"1.0","fly/components/carousel":"1.0","fly/components/credspark":"1.0","fly/components/dependent-field":"1.0","fly/components/dropdown":"1.0","fly/components/form-validate":"1.0","fly/components/iframe-messenger":"1.1","fly/components/image-gallery":"1.0","fly/components/disqus-count":"1.0","fly/managers/disqus":"1.0","fly/components/disqus":"1.0","fly/components/loading":"1.0","fly/components/load-more":"1.0","fly/components/nrelate":"1.0","fly/components/modal":"1.0","fly/components/modal-async":"1.0","fly/components/modal-iframe":"1.0","fly/components/scrollbar":"1.0","fly/components/social-button":"1.0","fly/components/social-counts":"1.1","fly/components/social-links":"1.0","fly/components/tabs":"1.0","fly/managers/clicktale":"1.0","fly/components/poll":"1.0","fly/managers/history":"1.0","libs/fontfaceobserver":"2.0.7","libs/riot":"2.6.2","mpx/libs/uvp":"2.6.0","mpx/libs/hls":"0.6.18","fly/components/fixate":"1.0","fly/components/image-gallery-thumb":"1.0"}},"shim":{"tealium":["jquery"]},"map":{"*":{"ima":"//imasdk.googleapis.com/js/sdkloader/ima3.js","gpt":"//www.googletagservices.com/tag/js/gpt.js","anvato":"https://w3.cdn.anvato.net/player/prod/scripts/anvload.js","nrelate":"//c7.static.nrcdn.com/common_js/0.52.1/nr_loader.min.js","urs":"//urs.cbsnews.com/sdk/urs.js","recirc":"//ddlmj2furo6f2.cloudfront.net/addontrain/recommendations/53f6c74c1344a01ee2000139.js","tealium":"//tags.tiqcdn.com/utag/cbsi/cbsnewssite/prod/utag.js","twitter":"https://platform.twitter.com/widgets.js","credspark":"//www.credspark.com/embed.js","yad":"https://s.yimg.com/uq/syndication/yad.js","newsgator":"//nmp.newsgator.com/ngbuzz/load.ashx/buzz","recurly":"https://js.recurly.com/v4/recurly.js","taboola":"//cdn.taboola.com/libtrc/cbsinteractive-cbsnews/loader.js","sharethrough":"//native.sharethrough.com/assets/tag.js","uvp":"//vidtech.cbsinteractive.com/uvpjs/2.5.3/CBSI-PLAYER.js","index_exchange":"//js-sec.indexww.com/ht/ls-cbsnews.js","sonobi":"//mtrx.go.sonobi.com/morpheus.cbsnews.9251.js"}}};
+</script><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" as="script"><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.desktop.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" as="script"><script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" data-main="main.desktop" async defer></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8178a7f262","applicationID":"8449215","transactionName":"ZAZXNkNRCkEHBxAMX11MdAFFWQtcSTsQCkBaAGoOUF4AWwgDOwtfbBBAAA==","queueTime":0,"applicationTime":975,"atts":"SEFUQAtLGU8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

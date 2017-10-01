@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en"><head prefix="og: http://ogp.me/ns#"><!-- Fly Version: RELEASE_20170915 4d277b6c7f10b0e8f706642a69c77b86a00f8a95 (cbsnews prod_alt) --><title>Best-selling author becomes depressed after finishing a book - CBS News</title><meta charset="UTF-8"><meta name="robots" content="index, follow"><meta name="description" content="But not for long. The 86-year-old author, John le Carr&eacute;, says he already has an idea for his next spy thriller"><meta name="keywords" content=""><meta name="viewport" content="width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UQIHWFZbGwsEUFhQBgQ="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script><link rel="apple-touch-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/apple-touch-icon.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><meta property="al:web:url" content="https://www.cbsnews.com/news/john-le-carre-becomes-depressed-after-finishing-a-book/"><meta property="al:ios:app_name" content="60 Minutes"><meta property="al:ios:app_store_id" content="997500692"><meta property="al:ios:url" content="cbs60minutes://news/john-le-carre-becomes-depressed-after-finishing-a-book/"><meta property="al:android:app_name" content="60 Minutes"><meta property="al:android:package" content="com.cbsnews.sixtyminutes"><meta property="al:android:url" content="sixtyminutes://cbsnews.com/news/john-le-carre-becomes-depressed-after-finishing-a-book/"><meta property="og:type" content="article"><meta property="og:url" content="https://www.cbsnews.com/news/john-le-carre-becomes-depressed-after-finishing-a-book/"><meta property="og:title" content="Best-selling author becomes depressed after finishing a book"><meta property="og:description" content="But not for long. The 86-year-old author, John le Carr&eacute;, says he already has an idea for his next spy thriller"><meta property="og:image" content="https://cbsnews1.cbsistatic.com/hub/i/2017/09/14/5346a7d8-9ff2-40bd-9ade-9ddb8df5cb78/lecarre-main.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="fb:app_id" content="853709411376038"><meta property="fb:pages" content="31543029394"><meta name="twitter:app:country" content="US"><meta name="twitter:app:name:iphone" content="60 Minutes"><meta name="twitter:app:id:iphone" content="997500692"><meta name="twitter:app:url:iphone" content="cbs60minutes://news/john-le-carre-becomes-depressed-after-finishing-a-book/"><meta name="twitter:app:name:ipad" content="60 Minutes"><meta name="twitter:app:id:ipad" content="997500692"><meta name="twitter:app:url:ipad" content="cbs60minutes://news/john-le-carre-becomes-depressed-after-finishing-a-book/"><meta name="twitter:app:name:googleplay" content="60 Minutes"><meta name="twitter:app:id:googleplay" content="com.cbsnews.sixtyminutes"><meta name="twitter:app:url:googleplay" content="https://www.cbsnews.com/news/john-le-carre-becomes-depressed-after-finishing-a-book/"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@60minutes"><meta name="twitter:title" content="Best-selling author becomes depressed after finishing a book"><meta name="twitter:description" content="But not for long. The 86-year-old author, John le Carr&eacute;, says he already has an idea for his next spy thriller"><meta name="twitter:image" content="https://cbsnews1.cbsistatic.com/hub/i/2017/09/14/5346a7d8-9ff2-40bd-9ade-9ddb8df5cb78/lecarre-main.jpg"><script type="application/ld+json">
+      {"@context":"https:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.cbsnews.com\/news\/john-le-carre-becomes-depressed-after-finishing-a-book\/"},"headline":"Best-selling author becomes depressed after finishing a book","description":"But not for long. The 86-year-old author, John le Carr\u00e9, says he already has an idea for his next spy thriller","articleSection":["60 Minutes","60 Minutes Preview"],"image":{"@context":"https:\/\/schema.org","@type":"ImageObject","height":630,"width":1200,"url":"https:\/\/cbsnews3.cbsistatic.com\/hub\/i\/r\/2017\/09\/14\/5346a7d8-9ff2-40bd-9ade-9ddb8df5cb78\/thumbnail\/1200x630\/c35383a6f532d69f61dc2a6b846ea01e\/lecarre-main.jpg"},"keywords":[],"datePublished":"2017-09-15T12:04:21-0400","dateModified":"2017-09-15T14:08:48-0400","author":{"@type":"Organization","name":"CBS News"},"publisher":{"@context":"https:\/\/schema.org","@type":"Organization","name":"CBS News","url":"https:\/\/www.cbsnews.com\/","logo":{"@type":"ImageObject","url":"https:\/\/cbsnews4.cbsistatic.com\/fly\/bundles\/cbsnewscore\/images\/standalone\/cbsnews-logo-600x60.png","width":600,"height":60}},"articleBody":{"@context":"https:\/\/schema.org","@type":"Text","@id":"#article-entry"},"video":{"@context":"https:\/\/schema.org","@type":"VideoObject","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.cbsnews.com\/videos\/preview-john-le-carre\/"},"name":"Preview: John le Carr\u00e9","description":"Finishing a book puts John le Carr\u00e9  into a depression he tells 60 Minutes. But not for long.  The 86-year-old best-selling author says he already has an idea for his next spy thriller.","thumbnail":{"@context":"https:\/\/schema.org","@type":"ImageObject","height":630,"width":1200,"url":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/r\/2017\/09\/15\/f7e15f61-bad5-40c7-a9f7-622dd538acc8\/thumbnail\/1200x630\/34f37bbbe6da7d4bcc850d6631bc7da2\/lecarre-main-1396928-640x360.jpg"},"thumbnailUrl":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/r\/2017\/09\/15\/f7e15f61-bad5-40c7-a9f7-622dd538acc8\/thumbnail\/1200x630\/34f37bbbe6da7d4bcc850d6631bc7da2\/lecarre-main-1396928-640x360.jpg","uploadDate":"2017-09-14T19:22:40-0400","contentUrl":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/09\/14\/1047016515789\/LeCarre_Preview_1396924_740.mp4","publisher":{"@context":"https:\/\/schema.org","@type":"Organization","name":"CBS News","url":"https:\/\/www.cbsnews.com\/","logo":{"@type":"ImageObject","url":"https:\/\/cbsnews4.cbsistatic.com\/fly\/bundles\/cbsnewscore\/images\/standalone\/cbsnews-logo-600x60.png","width":600,"height":60}},"duration":"PT0H01M07S","embedUrl":"https:\/\/www.cbsnews.com\/embed\/videos\/preview-john-le-carre\/"}}
+    </script><script type="application/ld+json">
+      {"@context":"http:\/\/schema.org\/","@type":"WebPage","name":"Best-selling author becomes depressed after finishing a book","url":"https:\/\/www.cbsnews.com\/news\/john-le-carre-becomes-depressed-after-finishing-a-book\/","speakable":{"@type":"SpeakableSpecification","cssSelector":["article header h1","article [data-page=\"1\"] > p:first-of-type"]}}
+    </script><script type="application/ld+json">
+      {"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https:\/\/www.cbsnews.com\/60-minutes\/","name":"60 Minutes"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https:\/\/www.cbsnews.com\/60-minutes\/preview\/","name":"60 Minutes Preview"}}]}
+    </script><meta property="article:author" content=""><meta property="article:publisher" content="https://www.facebook.com/60minutes"><meta name="news_keywords" content=""><link rel="alternate" href="android-app://com.treemolabs.apps.cbsnews/http/www.cbsnews.com/news/john-le-carre-becomes-depressed-after-finishing-a-book/"><link rel="alternate" href="android-app://com.cbsi.cbsnews.sixtyminutes/http/www.cbsnews.com/news/john-le-carre-becomes-depressed-after-finishing-a-book/"><link rel="amphtml" href="https://www.cbsnews.com/amp/news/john-le-carre-becomes-depressed-after-finishing-a-book/"><link rel="preconnect dns-prefetch" href="//cbsnews1.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews2.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews3.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews4.cbsistatic.com"><link rel="canonical" href="https://www.cbsnews.com/news/john-le-carre-becomes-depressed-after-finishing-a-book/"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-16x16.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" sizes="16x16"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-32x32.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" sizes="32x32"><link rel="shortcut icon" type="image/x-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><link rel="apple-touch-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/apple-touch-icon.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><style>
+      
+@font-face{font-family:'bebas-neue';src:url("/bundles/cbsnewscore/fonts/bebas-neue/BebasNeue.eot");src:url("/bundles/cbsnewscore/fonts/bebas-neue/BebasNeue.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/bebas-neue/BebasNeue.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/bebas-neue/BebasNeue.woff") format("woff"),url("/bundles/cbsnewscore/fonts/bebas-neue/BebasNeue.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/bebas-neue/BebasNeue.svg#svgFontName") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'foro';src:url("/bundles/cbsnewscore/fonts/foro/ForoReg.eot");src:url("/bundles/cbsnewscore/fonts/foro/ForoReg.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foro/ForoReg.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foro/ForoReg.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foro/ForoReg.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foro/ForoReg.svg#svgFontName") format("svg");font-weight:lighter;font-style:normal}@font-face{font-family:'foro-light';src:url("/bundles/cbsnewscore/fonts/foro/ForoLig.eot");src:url("/bundles/cbsnewscore/fonts/foro/ForoLig.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foro/ForoLig.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foro/ForoLig.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foro/ForoLig.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foro/ForoLig.svg#svgFontName") format("svg");font-weight:lighter;font-style:normal}@font-face{font-family:'museo-sans';src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot");src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.svg#svgFontName") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'museo-slab';src:url("/bundles/cbsnewscore/fonts/museo-slab/MuseoSlab-300.eot");src:url("/bundles/cbsnewscore/fonts/museo-slab/MuseoSlab-300.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-slab/MuseoSlab-300.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-slab/MuseoSlab-300.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-slab/MuseoSlab-300.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-slab/MuseoSlab-300.svg#svgFontName") format("svg");font-weight:bold;font-style:normal}
+
+
+    </style><link rel="stylesheet" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/css/main.60-minutes.desktop.css?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><!--[if IE 8]>
+    <link rel="stylesheet" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/css/desktop/ie8.css?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" />
+    <![endif]--><!--[if lt IE 9]>
+    <script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js/libs/html5shiv-printshiv.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"></script>
+    <![endif]--></head><body data-cms-edit='{"url":"https:\/\/cms.cbsnews.com\/content\/article\/9eb30aa6-18d1-4ad6-b3da-817a68bf158e"}' class="desktop
+ article has__article-hero-video-player">
+        
+            <div id="smart-banner" class="smart-banner smart-banner--60-minutes smart-banner--desktop" data-component="smartBanner" data-smart-banner-options='{"url":"\/60-minutes\/60-minutes-all-access\/?intcid=CNI17adef7","cookieName":"SB_60_minutes","retryDays":7,"hideDays":30}'>
+  <a id="smart-banner--text-container" class="smart-banner--anchor" target="_blank">
+    <span id="smart-banner--header" class="smart-banner--span smart-banner--header smart-banner--intro">Introducing:</span>
+    <span class="smart-banner--span smart-banner--header smart-banner--title">60 Minutes All Access</span>
+    
+    <span id="smart-banner--cta" class="smart-banner--span">Learn More +</span>
+    <br><span id="smart-banner--description" class="smart-banner--span">Unlimited, ad-free viewing of 60 Minutes archives, Overtime and extras</span>
+  </a>
+  <a id="smart-banner--close" class="smart-banner--anchor smart-banner--close" role="button" aria-label="Toggle visibility of promo">Toggle</a>
+  <a id="smart-banner--overlay" class="smart-banner--anchor smart-banner--overlay"></a>
+</div>
+    
+    <!-- src/CbsNews/CoreBundle/Resources/views/Layout/default.desktop.html.twig -->
+
+                <!-- comscorekw=60minutespreview -->
+    
+
+    
+    <div id="fb-root"></div>
+                    <div id="intromercial-59be6cb2e8fd8" class="ad-intromercial" data-ad="intromercial" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-59be6cb2e8fd8 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-59be6cb2e8fd8");
+    </script></div>
+
+    	<div class="body-container">
+
+         <!-- src/CbsNews/CoreBundle/Resources/views/Core/header.html.twig -->
+
+<header class="site-header nocontent"><div id="breakingNewsBanner" data-component="ticker">
+        <include src="/feedfiles/breakingnews.desktop.html" onerror="continue"></include></div>
+    <div class="sixty-header-wrapper">
+		<div class="container">
+			<div class="logo">
+                                                                                                    <a href="/60-minutes" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|60 Minutes-nav|Home"}'>60 Minutes</a>
+                            </div>
+		</div>
+
+        <div class="supplemental">
+    <div class="container">
+        <div class="col-9">
+            
+        <nav class="site-shows"><ul class="items"><li><a class="module-click-tracking" href="/" data-tracking="site header-show-nav|CBS News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/john-le-carre-becomes-depressed-after-finishing-a-book/ Show-nav|CBS News"}' aria-label="">CBS News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/evening-news/" data-tracking="site header-show-nav|CBS Evening News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/john-le-carre-becomes-depressed-after-finishing-a-book/ Show-nav|CBS Evening News"}' aria-label="">CBS Evening News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbs-this-morning/" data-tracking="site header-show-nav|CBS This Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/john-le-carre-becomes-depressed-after-finishing-a-book/ Show-nav|CBS This Morning"}' aria-label="">CBS This Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/48-hours/" data-tracking="site header-show-nav|48 Hours" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/john-le-carre-becomes-depressed-after-finishing-a-book/ Show-nav|48 Hours"}' aria-label="">48 Hours</a></li>
+                                                                        <li><a class="selected module-click-tracking" href="/60-minutes/" data-tracking="site header-show-nav|60 Minutes" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/john-le-carre-becomes-depressed-after-finishing-a-book/ Show-nav|60 Minutes"}' aria-label="selected">60 Minutes</a></li>
+                                                                        <li><a class="module-click-tracking" href="/sunday-morning/" data-tracking="site header-show-nav|Sunday Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/john-le-carre-becomes-depressed-after-finishing-a-book/ Show-nav|Sunday Morning"}' aria-label="">Sunday Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/face-the-nation/" data-tracking="site header-show-nav|Face The Nation" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/john-le-carre-becomes-depressed-after-finishing-a-book/ Show-nav|Face The Nation"}' aria-label="">Face The Nation</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbsn-originals/" data-tracking="site header-show-nav|CBSN Originals" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/john-le-carre-becomes-depressed-after-finishing-a-book/ Show-nav|CBSN Originals"}' aria-label="">CBSN Originals</a></li>
+            </ul></nav></div>
+        
+        <div class="col-3">
+            
+<form class="site-search" method="get" action="/search/">
+    <div class="search-wrapper" data-component="placeholder">
+        <input class="query" type="search" name="q" maxlength="255" placeholder="Search"></div>
+    <button class="submit core-search-header" type="submit">GO</button>
+</form>
+<ul class="login-wrapper logged-in"><li>
+        <!--<li class="site-section-tab"><a href="//secure-fly.cbsnews.com/user/registration/" data-user-show="register"><span>Join</span></a></li>-->
+                     <a class="site-login" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Channel Button"}'><span class="text">Log In</span></a>
+                <div class="menu-wrapper sign-in">
+            <span class="hover-padding"></span>
+            <span class="arrow"></span>
+            <ul class="login"><li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/login/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Login"}'>Log In</a>
+                    </li>
+                    <li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/registration/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Join CBSNews"}'>Join CBSNews.com</a>
+                    </li>
+                                                </ul></div>
+    </li>
+</ul></div>
+    </div>
+</div>
+        <div class="primary">
+            <div class="container">
+                <nav class="site-sections" id="sixty-top-nav"><ul class="items"><li class="site-section-tab sixty-tab-episodes flyout" data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/60-minutes-episodes\/sixtyminutes"}'><a href="/60-minutes/full-episodes/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|60 Minutes-nav|Episodes"}'><span class="nav-label">Episodes</span>
+                                                                                    <span class="sixtymin-arrow"></span>
+                                                                            </a></li>
+                                                                                                                                                                        <li class="site-section-tab sixty-tab-overtime flyout" data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/60-minutes-overtime\/sixtyminutes"}'><a href="/60-minutes/overtime/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|60 Minutes-nav|Overtime"}'><span class="nav-label">Overtime</span>
+                                                                                    <span class="sixtymin-arrow"></span>
+                                                                            </a></li>
+                                                                                                                                                                        <li class="site-section-tab sixty-tab-topics flyout" data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/60-minutes-topics\/sixtyminutes"}'><a href="/60-minutes/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|60 Minutes-nav|Topics"}'><span class="nav-label">Topics</span>
+                                                                                    <span class="sixtymin-arrow"></span>
+                                                                            </a></li>
+                                                                                                                                                                        <li class="site-section-tab sixty-tab-the-team flyout" data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/60-minutes-team\/sixtyminutes"}'><a href="/60-minutes/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|60 Minutes-nav|The Team"}'><span class="nav-label">The Team</span>
+                                                                                    <span class="sixtymin-arrow"></span>
+                                                                            </a></li>
+                                                                                                                                                                        <li class="site-section-tab sixty-tab-60-minutes-all-access "><a href="/60-minutes/60-minutes-all-access/?intcid=CNIaa8c952" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|60 Minutes-nav|60 Minutes All Access"}'><span class="nav-label">60 Minutes All Access</span>
+                                                                            </a></li>
+                                                                        </ul></nav><ul class="social-items"><li class="facebook social-icon"><a href="https://www.facebook.com/60minutes" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "60 Minutes Door-Header-Nav|Social-Facebook"}'>facebook</a></li>
+					<li class="twitter social-icon"><a href="https://twitter.com/60minutes" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "60 Minutes Door-Header-Nav|Social-Twitter"}'>twitter</a></li>
+					<li class="email social-icon"><a href="/newsletters" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "60 Minutes Door-Header-Nav|Email"}'>email</a></li>
+				</ul></div>
+        </div>
+	</div>
+</header><div id="mantle_skin" class="content-primary article-page magazine">
+                                                <div id="leader-video-top-59be6cb2e8fd8" class="ad-leader-video-top" data-ad="leader-video-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-video-top-59be6cb2e8fd8 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-video-top-59be6cb2e8fd8");
+    </script></div>
+
+    
+                	  <div class="container">
+    <div class="row">
+                    <div class="row">
+    
+                
+    <div class="col-12 ">
+                                        </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+            
+            
+    <div class="col-12 nocontent">
+                                    
+                                    
+                                                
+            
+
+    
+
+
+
+    
+<div id="videoContainer" class="article-video-container">
+
+    
+	<div class="article-video-bg"></div>
+	<div class="row col-12 article-video-player">
+
+		<div class="col-8">
+
+                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+        												                                
+                            
+                            
+                                                                                              
+                            
+
+			    <figure class="media-block"><div id="cbsNewsVideoPlayerMag" data-generic-playlist-options='{"prizmaEnabled":false,"selector":"#media-related-items li","url":"https:\/\/www.cbsnews.com\/videos\/preview-john-le-carre","title":"Preview: John le Carr\u00e9","dek":"Finishing a book puts John le Carr\u00e9  into a depression he tells 60 Minutes. But not for long.  The 86-year-old best-selling author says he already has an idea for his next spy thriller.","pageType":"Article","device":"desktop","mpxRefId":"_nZFyaaVaWyc5IduNlwnG8c8fNBUSx2z","playerWidth":"100%","playerHeight":"100%","targetElement":"cbsNewsVideoPlayerMag","subscriber":false,"viewable":true,"is60minfranchise":true,"is6048Preview":true,"is60Extra":false,"psite":"https:\/\/www.cbsnews.com"}' data-component='["genericPlaylist"]'></div>
+                        
+			        			        			    </figure></div>
+
+		<div class="col-4 article-video-list">
+
+			<div class="module module-listing">
+			    <ul data-component="tabs" class="tabs"><li class="first"><a data-item="trigger" href="#tab-content-1" class="selected-asset">Related Video</a></li>
+    				    <!--<li><a data-item="trigger" data-target="#tab-content-2" id="tab-trigger-2">Recent</a></li>-->
+                    				</ul><div data-component="scrollbar" id="tab-content-1" class="tab-content selected-asset">
+					<div class="content">
+					   <ul class="media-list items" id="media-related-items" role="navigation" aria-label="Trending Videos"><li data-video-info='{"item":{"mediaRtmpDesktop":"vikv3vFQ3wZ9","mediaRtmpMobileHigh":"8g3LSnVlD_Kb","mediaRtmpMobileLow":"SL5WGENxjW03","mediaHls":"Npq322etIFzi","mediaHlsTablet":"KHruzBHxe5_o","mediaHlsPhone":"gCnWA_QrGSTi","mediaImage":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/2017\/09\/15\/f7e15f61-bad5-40c7-a9f7-622dd538acc8\/lecarre-main-1396928-640x360.jpg","duration":67,"articleTitle":"Best-selling author becomes depressed after finishing a book","uuid":"3b82f88b-1843-4c4c-bfe8-0a63204b58a8","url":"https:\/\/www.cbsnews.com\/videos\/preview-john-le-carre","slug":"preview-john-le-carre","mpxRefId":"_nZFyaaVaWyc5IduNlwnG8c8fNBUSx2z","topicname":"Previews","is60minfranchise":true,"is6048Preview":true,"is60Extra":false,"viewable":true,"mediaHlsURI":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/09\/14\/1047016515789\/LeCarre_Preview_1396929_500\/LeCarre_Preview_1396929_500.m3u8","mediaHlsURITablet":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/09\/14\/1047016515789\/LeCarre_Preview_1396929_tablet.m3u8","mediaHlsURIPhone":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/09\/14\/1047016515789\/LeCarre_Preview_1396929_phone.m3u8","mediaRtmpDesktopURI":"{manifest:none}rtmp:\/\/cp98363.edgefcs.net\/ondemand\/?auth=cbs&amp;aifp=v001&amp;slist={slistPrefix}{break}{slistFilePath}media\/2017\/09\/14\/1047016515789\/LeCarre_Preview_1396924_796.mp4{slistFilePath}{manifest:f4m}http:\/\/cbsnews-vh.akamaihd.net\/z\/{slist::true:false}.csmil\/manifest.f4m{manifest:m3u}http:\/\/cbsnews-vh.akamaihd.net\/i\/{slist::true:false}.csmil\/master.m3u8{manifest}","mediaRtmpMobileHighURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/09\/14\/1047016515789\/LeCarre_Preview_1396924_740.mp4","mediaRtmpMobileLowURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/09\/14\/1047016515789\/LeCarre_Preview_1396924_240.mp4"}}' data-pid="vikv3vFQ3wZ9">
+							    <a href="/videos/preview-john-le-carre" class="video_slug">
+							        <figure class="media-figure img-inset-thumb item-click" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Related Asset-1|Thumbnail"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/f7e15f61-bad5-40c7-a9f7-622dd538acc8/thumbnail/170x95/dceeb271c0115868a68845215ae3d719/lecarre-main-1396928-640x360.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/f7e15f61-bad5-40c7-a9f7-622dd538acc8/thumbnail/170x95/dceeb271c0115868a68845215ae3d719/lecarre-main-1396928-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/15/f7e15f61-bad5-40c7-a9f7-622dd538acc8/thumbnail/340x190/28ebdc61e4cedf827e6f32cee1c957a6/lecarre-main-1396928-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+							        </figure></a>
+								<div class="media-body">
+									<h4 class="topic">Previews</h4>
+										<h3 class="title"><a href="/videos/preview-john-le-carre" class="video_slug item-click" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Related Asset-1|Headline"}' title="Preview: John le Carr&eacute;">
+                                                                                Preview: John le Carr&eacute;</a>
+							    </h3></div>
+							</li>
+
+                                                                            
+					        
+				        								
+				        	
+				        					        	
+                                                                                                                                                                        
+                                                                                    
+                                                                                        
+                                                                                          
+
+                                                                                                                                                              
+                                                                                        
+                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                
+				        	<li data-video-info='{"item":{"mediaRtmpDesktop":"FoqwTQc1UARs","mediaRtmpMobileHigh":"kEtV51MndNlJ","mediaRtmpMobileLow":"28J44l2iIrbJ","mediaHls":"V_eY_FL3HSQo","mediaHlsTablet":"q2zzIkaWSIKf","mediaHlsPhone":"EQE4X7S_xD_O","mediaImage":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/2017\/09\/14\/b429754a-e4b9-471b-bdfc-e264f5f0aec4\/ot-lecarre1-1396824-640x360.jpg","duration":133,"url":"https:\/\/www.cbsnews.com\/videos\/john-le-carre-reads-to-60-minutes","uuid":"8c39e128-ae87-4c17-96b5-041d94d70d1a","slug":"john-le-carre-reads-to-60-minutes","articleTitle":"John le Carr\u00e9 reads to 60 Minutes","mpxRefId":"F5XZA9QTF4L8Hv8ICNWvCvuHsx1UFinQ","topicname":"60 Minutes Overtime","mediaRtmpDesktopURI":"{manifest:none}rtmp:\/\/cp98363.edgefcs.net\/ondemand\/?auth=cbs&amp;aifp=v001&amp;slist={slistPrefix}{break}{slistFilePath}media\/2017\/09\/14\/1046708803981\/OT_leCarre1_1396823_796.mp4{slistFilePath}{manifest:f4m}http:\/\/cbsnews-vh.akamaihd.net\/z\/{slist::true:false}.csmil\/manifest.f4m{manifest:m3u}http:\/\/cbsnews-vh.akamaihd.net\/i\/{slist::true:false}.csmil\/master.m3u8{manifest}","mediaRtmpMobileHighURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/09\/14\/1046708803981\/OT_leCarre1_1396823_740.mp4","mediaRtmpMobileLowURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/09\/14\/1046708803981\/OT_leCarre1_1396823_240.mp4","mediaHlsURI":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/09\/14\/1046708803981\/OT_leCarre1_1396831_0\/OT_leCarre1_1396831_0.m3u8","is60minfranchise":true,"is6048Preview":false,"is60Extra":true,"viewable":true,"mediaHlsURITablet":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/09\/14\/1046708803981\/OT_leCarre1_1396831_tablet.m3u8","mediaHlsURIPhone":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/09\/14\/1046708803981\/OT_leCarre1_1396831_phone.m3u8"}}' data-pid="FoqwTQc1UARs">
+							    <a href="/videos/john-le-carre-reads-to-60-minutes" class="video_slug">
+							        <figure class="media-figure img-inset-thumb item-click"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/14/b429754a-e4b9-471b-bdfc-e264f5f0aec4/thumbnail/170x95/490e48de885a332e73a14c304af75a68/ot-lecarre1-1396824-640x360.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/14/b429754a-e4b9-471b-bdfc-e264f5f0aec4/thumbnail/170x95/490e48de885a332e73a14c304af75a68/ot-lecarre1-1396824-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/14/b429754a-e4b9-471b-bdfc-e264f5f0aec4/thumbnail/340x190/0da3542b797a1d61fab7828aebb90a31/ot-lecarre1-1396824-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+							        </figure></a>
+								<div class="media-body">
+                                    									<h4 class="topic">60 Minutes Overtime</h4>
+                                        										<h3 class="title"><a href="/videos/john-le-carre-reads-to-60-minutes" class="video_slug item-click" title="John le Carr&eacute; reads to 60 Minutes">John le Carr&eacute; reads to 60 Minutes</a>
+							    </h3></div>
+							</li>
+																																		</ul></div>
+				</div>
+
+				<div data-component="scrollbar" id="tab-content-2" class="tab-content">
+					<!-- display recent videos here -->
+					<div class="content">
+				        <ul class="media-list items "><li>
+							    <a href="/news/john-le-carre-becomes-depressed-after-finishing-a-book/">
+							        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-1|Thumbnail"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/14/5346a7d8-9ff2-40bd-9ade-9ddb8df5cb78/thumbnail/170x95/47e6832bf9b3dcefe4135e7f4d1687ab/lecarre-main.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/14/5346a7d8-9ff2-40bd-9ade-9ddb8df5cb78/thumbnail/170x95/47e6832bf9b3dcefe4135e7f4d1687ab/lecarre-main.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/14/5346a7d8-9ff2-40bd-9ade-9ddb8df5cb78/thumbnail/340x190/ab8ec8f072c7bc2c6c22d04caed14437/lecarre-main.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+									</figure></a>
+								<div class="media-body">
+									<h4 class="topic">60 Minutes Preview</h4>
+										<h3 class="title"><a href="/news/john-le-carre-becomes-depressed-after-finishing-a-book/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-1|Headline"}'>Best-selling author becomes depressed after finishing a book</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/steve-bannon-to-appear-on-60-minutes/">
+							        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-2|Thumbnail"}'></figure></a>
+								<div class="media-body">
+									<h4 class="topic">60 Minutes Preview</h4>
+										<h3 class="title"><a href="/news/steve-bannon-to-appear-on-60-minutes/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-2|Headline"}'>Steve Bannon to appear on 60 Minutes</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/60-minutes-preview-a-survivors-march/">
+							        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-3|Thumbnail"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/05/24/0a5c8983-ded3-4567-85dc-d190ddcc680c/thumbnail/170x95/f42349188388b2a23963f554f46eb2d4/ben-2.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/05/24/0a5c8983-ded3-4567-85dc-d190ddcc680c/thumbnail/170x95/f42349188388b2a23963f554f46eb2d4/ben-2.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/05/24/0a5c8983-ded3-4567-85dc-d190ddcc680c/thumbnail/340x190/4a36fbd328e77d3ef0fa9fcf04a4f156/ben-2.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+									</figure></a>
+								<div class="media-body">
+									<h4 class="topic">60 Minutes Preview</h4>
+										<h3 class="title"><a href="/news/60-minutes-preview-a-survivors-march/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-3|Headline"}'>Preview: A Survivor's March</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/preview-ai-weiwei/">
+							        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-4|Thumbnail"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/05/18/bb045885-2309-42d0-af82-7491632d255e/thumbnail/170x95/463819f236b045cb06cc3714572530f2/aiweiwei.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/05/18/bb045885-2309-42d0-af82-7491632d255e/thumbnail/170x95/463819f236b045cb06cc3714572530f2/aiweiwei.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/18/bb045885-2309-42d0-af82-7491632d255e/thumbnail/340x190/d8c4a4ee7da91b1c02d8bc1d6210b08b/aiweiwei.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+									</figure></a>
+								<div class="media-body">
+									<h4 class="topic">60 Minutes Preview</h4>
+										<h3 class="title"><a href="/news/preview-ai-weiwei/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-4|Headline"}'>When an artist's work becomes dangerous</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/places-of-worship-take-stand-against-trump-immigration-crackdown/">
+							        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-5|Thumbnail"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/05/19/8e7765d8-e1b2-4f93-892b-e56eceb78a86/thumbnail/170x95/55b390fce796eb7ab0d7dfae72550cf3/hynicka.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/05/19/8e7765d8-e1b2-4f93-892b-e56eceb78a86/thumbnail/170x95/55b390fce796eb7ab0d7dfae72550cf3/hynicka.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/05/19/8e7765d8-e1b2-4f93-892b-e56eceb78a86/thumbnail/340x190/5780f2baf70579396e5e8630443bfa64/hynicka.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+									</figure></a>
+								<div class="media-body">
+									<h4 class="topic">60 Minutes Preview</h4>
+										<h3 class="title"><a href="/news/places-of-worship-take-stand-against-trump-immigration-crackdown/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-5|Headline"}'>Places of worship take stand against Trump's immigration crackdown</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/orange-county-da-denies-secret-network-of-jailhouse-informants/">
+							        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-6|Thumbnail"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/19/1e173420-7294-4950-aa6e-5633e6582cd5/thumbnail/170x95/857fc6f0a1f959cbd0560d46bd6ed0aa/da.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/19/1e173420-7294-4950-aa6e-5633e6582cd5/thumbnail/170x95/857fc6f0a1f959cbd0560d46bd6ed0aa/da.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/05/19/1e173420-7294-4950-aa6e-5633e6582cd5/thumbnail/340x190/0a18f99b4288cd1d6882f29aa748c413/da.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+									</figure></a>
+								<div class="media-body">
+									<h4 class="topic">60 Minutes Preview</h4>
+										<h3 class="title"><a href="/news/orange-county-da-denies-secret-network-of-jailhouse-informants/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-6|Headline"}'>Orange County DA denies secret network of jailhouse informants</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/investigation-in-brazil-much-bigger-than-watergate-says-lead-prosecutor/">
+							        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-7|Thumbnail"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/19/1307e7e1-2771-4d92-892f-07cbaa7edc9a/thumbnail/170x95/50d67eb7144247e18f8e82b8d3008a19/carwash-preview-prosecutor.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/19/1307e7e1-2771-4d92-892f-07cbaa7edc9a/thumbnail/170x95/50d67eb7144247e18f8e82b8d3008a19/carwash-preview-prosecutor.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/19/1307e7e1-2771-4d92-892f-07cbaa7edc9a/thumbnail/340x190/78c7b83c7010936031014b6ac026761d/carwash-preview-prosecutor.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+									</figure></a>
+								<div class="media-body">
+									<h4 class="topic">60 Minutes Preview</h4>
+										<h3 class="title"><a href="/news/investigation-in-brazil-much-bigger-than-watergate-says-lead-prosecutor/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-7|Headline"}'>Investigation in Brazil &ldquo;much bigger" than Watergate, says lead prosecutor</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/preview-the-bin-laden-documents/">
+							        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-8|Thumbnail"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/05/12/8f497937-de0b-407a-b773-197e09dff7c2/thumbnail/170x95/f9fc4f0331930600b447636912076edc/binladen-main.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/05/12/8f497937-de0b-407a-b773-197e09dff7c2/thumbnail/170x95/f9fc4f0331930600b447636912076edc/binladen-main.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/12/8f497937-de0b-407a-b773-197e09dff7c2/thumbnail/340x190/09a4dde01dae6c2e433618e3aa99912b/binladen-main.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+									</figure></a>
+								<div class="media-body">
+									<h4 class="topic">60 Minutes Preview</h4>
+										<h3 class="title"><a href="/news/preview-the-bin-laden-documents/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-8|Headline"}'>Bin Laden&rsquo;s son wants to avenge his father, ex-FBI agent says</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/are-we-alone-in-the-universe-2/">
+							        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-9|Thumbnail"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/11/2a50dc09-35bf-451b-bcb7-2c6d8c238f7d/thumbnail/170x95/a3064a324f91c142d531cce62c5e4af4/cur.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/11/2a50dc09-35bf-451b-bcb7-2c6d8c238f7d/thumbnail/170x95/a3064a324f91c142d531cce62c5e4af4/cur.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/11/2a50dc09-35bf-451b-bcb7-2c6d8c238f7d/thumbnail/340x190/170af14f9569dbaf2a9856c3ec902bb7/cur.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+									</figure></a>
+								<div class="media-body">
+									<h4 class="topic">60 Minutes Preview</h4>
+										<h3 class="title"><a href="/news/are-we-alone-in-the-universe-2/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-9|Headline"}'>Are we alone in the universe?</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/supporters-of-deported-man-speak-out-against-trump-immigration-policy/">
+							        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-10|Thumbnail"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/05/04/05cd04a9-b9db-4bdb-ad68-642451445265/thumbnail/170x95/e4c8cca6f4888b32192444c4e0a09d2e/departed.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/05/04/05cd04a9-b9db-4bdb-ad68-642451445265/thumbnail/170x95/e4c8cca6f4888b32192444c4e0a09d2e/departed.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/05/04/05cd04a9-b9db-4bdb-ad68-642451445265/thumbnail/340x190/e21938c89fa28f55176e12fbd829c687/departed.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+									</figure></a>
+								<div class="media-body">
+									<h4 class="topic">60 Minutes Preview</h4>
+										<h3 class="title"><a href="/news/supporters-of-deported-man-speak-out-against-trump-immigration-policy/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-10|Headline"}'>Supporters of deported man speak out against Trump's immigration policy</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/inside-look-at-the-chicago-cubs-epic-comeback/">
+							        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-11|Thumbnail"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/26/66f8e3ca-c331-4122-b20d-8f20d91b44e6/thumbnail/170x95/106442bd36d29d3da511dc29a84da11e/theo-epstein-bill-whitaker-walk-talk-2.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/26/66f8e3ca-c331-4122-b20d-8f20d91b44e6/thumbnail/170x95/106442bd36d29d3da511dc29a84da11e/theo-epstein-bill-whitaker-walk-talk-2.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/04/26/66f8e3ca-c331-4122-b20d-8f20d91b44e6/thumbnail/340x190/58d4e804f7026a053bddc5109d6d364c/theo-epstein-bill-whitaker-walk-talk-2.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+									</figure></a>
+								<div class="media-body">
+									<h4 class="topic">60 Minutes Preview</h4>
+										<h3 class="title"><a href="/news/inside-look-at-the-chicago-cubs-epic-comeback/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-11|Headline"}'>Inside look at the Chicago Cubs' epic comeback</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/nuremberg-prosecutor-still-haunted-by-nazi-defendants/">
+							        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-12|Thumbnail"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/05/04/1edb926c-2241-4379-a7d7-68235f951fa4/thumbnail/170x95/5d8f49a942acb3f7ffd65b76fcb23d8f/nuremberg-preview.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/05/04/1edb926c-2241-4379-a7d7-68235f951fa4/thumbnail/170x95/5d8f49a942acb3f7ffd65b76fcb23d8f/nuremberg-preview.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/05/04/1edb926c-2241-4379-a7d7-68235f951fa4/thumbnail/340x190/15e4644a7f2fa7ccd6678ed0a3bb9afe/nuremberg-preview.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+									</figure></a>
+								<div class="media-body">
+									<h4 class="topic">60 Minutes Preview</h4>
+										<h3 class="title"><a href="/news/nuremberg-prosecutor-still-haunted-by-nazi-defendants/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Video Player|Extra|Recent Asset-12|Headline"}'>Nuremberg prosecutor still haunted by Nazi defendants</a>
+							    </h3></div>
+							</li>
+											        </ul></div>
+				</div>
+
+		     </div>
+		</div>
+
+	</div>
+</div>
+                                                                    </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                
+            
+                                
+    <div class="col-8 ">
+                                    
+                                    
+                                            
+    <!-- src/CbsNews/ArticleBundle/Resources/views/Single/article.desktop.html.twig -->
+<article id="article" class="article "><header><h1 class="title" itemprop="headline">Best-selling author becomes depressed after finishing a book</h1>
+
+					<p class="dek">But not for long. The 86-year-old author, John le Carr&eacute;, says he already has an idea for his next spy thriller</p>
+		
+    </header><div class="social sharebar_expanded inline-sharebar theme-light  location-top" data-component="sharebar">
+
+    <ul data-component="socialCounts" data-social-counts-options='{"title":"Best-selling author becomes depressed after finishing a book","description":"But not for long. The 86-year-old author, John le Carr\u00e9, says he already has an idea for his next spy thriller","url":"https:\/\/www.cbsnews.com\/news\/john-le-carre-becomes-depressed-after-finishing-a-book\/","articleId":"9eb30aa6-18d1-4ad6-b3da-817a68bf158e","showZeros":false}'><li class="std-social date-box">
+                        <span class="sharebar-label">2017</span>
+            <span class="sharebar-text">Sep 15</span>
+                    </li>
+            </ul><ul class="share-boxes" data-component="socialCounts" data-social-counts-options='{"title":"Best-selling author becomes depressed after finishing a book","description":"But not for long. The 86-year-old author, John le Carr\u00e9, says he already has an idea for his next spy thriller","url":"https:\/\/www.cbsnews.com\/news\/john-le-carre-becomes-depressed-after-finishing-a-book\/","articleId":"9eb30aa6-18d1-4ad6-b3da-817a68bf158e","showZeros":false}'><li class="std-social sharebar-left-border comments-box">
+            <span class="sharebar-label">Comments</span>
+            <a class="sharebar-text" href="#comments" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Content Body|Share Bar|Comment Count"}'>
+                <span class="social-icon comment-count sharebar-comment"></span>
+                
+    <span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"9eb30aa6-18d1-4ad6-b3da-817a68bf158e"}'></span>
+            </a>
+        </li>
+        
+        <li class="std-social sharebar-left-border facebook-box">
+            <span class="sharebar-label">Facebook</span>
+            <a class="sharebar-facebook sharebar-text" data-item="trigger" data-counts data-popup="facebook" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "60 Minutes Asset|Content Body|Share Bar|Facebook-Recommend|Hover"}'>
+                <span class="social-icon"></span>
+                <span class="social-count social-count-facebook"></span>
+            </a>
+        </li>
+
+        <li class="std-social sharebar-left-border twitter-box">
+            <span class="sharebar-label">Twitter</span>
+           <a class="sharebar-twitter sharebar-text" data-item="trigger" data-counts data-popup="twitter" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "60 Minutes Asset|Content Body|Share Bar|Tweets-Tweet|Hover"}'>
+                <span class="social-icon"></span>
+                <span class="social-count social-count-twitter"></span>
+           </a>
+        </li>
+
+        <li class="std-social sharebar-left-border stumble-box">
+            <span class="sharebar-label">Stumble</span>
+            <a class="sharebar-stumble sharebar-text" data-counts data-popup="stumbleupon" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "60 Minutes Asset|Content Body|Share Bar|More-StumbleUpon|Hover"}'>
+                <span class="social-icon"></span>
+                <span class="social-count social-count-stumble"></span>
+            </a>
+       </li>
+    </ul></div>
+    
+    <div class="entry" itemscope itemtype="http://schema.org/Text" id="article-entry" itemid="#article-entry" data-use-autolinker="true">
+
+        
+        <div data-page="1" data-page-hidden="0" data-use-autolinker="false"><p>World-famous author John le Carr&eacute;&nbsp; goes into a depression when he finishes one of his best-selling spy thrillers &ndash; that's where he finds himself now, on the publication of his 24th novel. But le Carr&eacute; tells Steve Kroft in a rare television interview that there is light at the end of the tunnel. The 86-year-old ex-spy has another idea for a new book, and he can't wait to get to work. The interview will be broadcast on 60 Minutes Sunday, Sept. 17 at 7 p.m. ET/PT.</p><figure class="image pull-none image-x-large " data-ads='{"extraWordCount":50}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/14/cc9be83f-a8f3-4ec6-9fb6-83cc70dc4dde/resize/770x/d1e9c7e8f82c7227a085f71020c92aa8/lecarre-main.jpg#" alt="lecarre-main.jpg " srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/14/cc9be83f-a8f3-4ec6-9fb6-83cc70dc4dde/resize/770x/d1e9c7e8f82c7227a085f71020c92aa8/lecarre-main.jpg 1x"></span><figcaption><div class="caption"><p>Author John le Carr&eacute;</p></div><div class="credit">
+                                            CBS News
+                                        </div></figcaption></figure><p>Le Carr&eacute;, whose real name is David Cornwell, says the end of a book is the beginning of the most depressing times in his life. "It's a feeling of-- you've depleted everything you've been working on," says Cornwell. "The depression that overtakes me when I've turned in a book, I must confess is real and deep."</p><h4>"Each book feels like my last book. And then I think, like a dedicated alcoholic, that one more won't do me any harm."&nbsp;</h4><p>"A Legacy of Spies," his 24th novel, brings back the world-weary George Smiley, his most famous character, after almost 30 years. Cornwell identifies with Smiley, describing him as "My secret sharer."&nbsp; He says, in the course of his espionage work, Smiley does things he may find distasteful, but recognizes he has a duty. &nbsp; &nbsp;</p><p>Cornwell was himself an agent in Britain's famed M16 during the height of the Cold War and wrote one of his most successful books, "The Spy Who Came in from the Cold," while still undercover. The novel was such a hit, Cornwell's other life as an intelligence officer was quickly blown and he had to give up spying. That book and many of his others have been made into television series and films.</p><p>Kroft visited Cornwell at his ocean-side redoubt on the cliffs of Southwestern England. The author, who also wrote "Tinker Tailor Soldier Spy" and "The Little Drummer Girl," &nbsp;is candid with Kroft about the life, work and a writing process that has made him one of the most successful authors of the past 60 years.</p><p>Cornwell should start feeling more cheerful soon. He tells Kroft, "Out of the ashes of the last book, so to speak, comes the phoenix of the new one, and then life's OK again&hellip; Each book feels like my last book. And then I think, like a dedicated alcoholic, that one more won't do me any harm."</p><p>Asked if he had another idea for a book, he responds quickly, "Absolutely. I can't wait to get to it."</p></div>
+    </div>
+
+	
+    
+
+            <div class="copyright">
+                                        &copy; 2017 CBS Interactive Inc. All Rights Reserved.
+                    </div>
+    
+    
+
+                 
+</article></div>
+        
+            
+            
+    <div class="col-4 nocontent">
+                                    
+                                    
+                                                
+
+                                                            <div id="marquee-video-top-59be6cb2e8fd8" class="ad-marquee-video-top" data-ad="marquee-video-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing marquee-video-top-59be6cb2e8fd8 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("marquee-video-top-59be6cb2e8fd8");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+            
+                                                <div class="module module-listing" id="recent-segments">
+            <h2 class="module-heading title"><span class="span-title">Recent Segments</span></h2>
+        
+<div class="listing-standard-sub ">
+    <ul class="media-list items"><li data-tb-region-item>
+        <a href="/news/60-minutes-arctic-frontier-lesley-stahl-2/">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Right Rail|Most Recent|Thumbnail-1"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2016/09/30/ccdd6383-0386-4e09-b933-7fb2320a3ce7/thumbnail/170x95/3cbdc244cec7dcb55e9dd5f7fd629307/arctic-region.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2016/09/30/ccdd6383-0386-4e09-b933-7fb2320a3ce7/thumbnail/170x95/3cbdc244cec7dcb55e9dd5f7fd629307/arctic-region.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2016/09/30/ccdd6383-0386-4e09-b933-7fb2320a3ce7/thumbnail/340x190/6167f28d9245a7eb6facb899c67f3c39/arctic-region.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+                        <h4 class="title">The Arctic Frontier</h4>
+        </div>
+    </a>
+</li>
+
+                            
+                                                
+
+    <li data-tb-region-item>
+        <a href="/news/60-minutes-breitbart-steve-bannon-declares-war-on-the-gop/">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Right Rail|Most Recent|Thumbnail-2"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/07/c9e1257c-0d01-4a10-961f-f5cacae94a70/thumbnail/170x95/1ca4e65207863e9e6c064fe683e4047c/steve-bannon-charlie-rose-60-minutes-two-shot.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/07/c9e1257c-0d01-4a10-961f-f5cacae94a70/thumbnail/170x95/1ca4e65207863e9e6c064fe683e4047c/steve-bannon-charlie-rose-60-minutes-two-shot.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/07/c9e1257c-0d01-4a10-961f-f5cacae94a70/thumbnail/340x190/28eac39ba7363b65401d983b1d0eadd4/steve-bannon-charlie-rose-60-minutes-two-shot.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+                        <h4 class="title">Breitbart's Bannon declares war on the GOP</h4>
+        </div>
+    </a>
+</li>
+
+                            
+                                                
+
+    <li data-tb-region-item>
+        <a href="/news/julia-sesame-street-new-muppet-autism-2/">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Right Rail|Most Recent|Thumbnail-3"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/03/19/ca50544b-03c9-45a4-96d9-3dfa4764d575/thumbnail/170x95g2/939c99d09bf418101e35430861e455ba/newkidonthestreet-main.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/03/19/ca50544b-03c9-45a4-96d9-3dfa4764d575/thumbnail/170x95g2/939c99d09bf418101e35430861e455ba/newkidonthestreet-main.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/03/19/ca50544b-03c9-45a4-96d9-3dfa4764d575/thumbnail/340x190g2/61b474f7e611dc1c1f1d60ae0e79f253/newkidonthestreet-main.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+                        <h4 class="title">New Kid on the Street</h4>
+        </div>
+    </a>
+</li>
+
+                            
+                                                
+
+    <li data-tb-region-item>
+        <a href="/news/hurricane-sandy-60-minutes-fraud-investigation-3/">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Right Rail|Most Recent|Thumbnail-4"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2015/03/01/1f3e5a09-2ffc-48e2-bb70-21b7a040e9fe/thumbnail/170x95/81c3bec688874b8c78b514adcfb3f6c9/sandymain.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2015/03/01/1f3e5a09-2ffc-48e2-bb70-21b7a040e9fe/thumbnail/170x95/81c3bec688874b8c78b514adcfb3f6c9/sandymain.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2015/03/01/1f3e5a09-2ffc-48e2-bb70-21b7a040e9fe/thumbnail/340x190/cfbf57d40f59530e111a3a10cf008867/sandymain.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+                        <h4 class="title">The Storm after the Storm</h4>
+        </div>
+    </a>
+</li>
+
+                            
+                                                
+
+    <li data-tb-region-item>
+        <a href="/news/60-minutes-investigates-hidden-motors-and-pro-cycling-2/">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "60 Minutes Asset|Right Rail|Most Recent|Thumbnail-5"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/01/27/654ae095-ca69-4e5e-b664-31bf17996187/thumbnail/170x95/48e7e3062591c018fbbbd4ca6b7992d7/enhancingbike-main.jpg#" alt=" " height="95" width="170" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/01/27/654ae095-ca69-4e5e-b664-31bf17996187/thumbnail/170x95/48e7e3062591c018fbbbd4ca6b7992d7/enhancingbike-main.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/01/27/654ae095-ca69-4e5e-b664-31bf17996187/thumbnail/340x190/242fee3ccd27d3941e254c3bf4d31ae5/enhancingbike-main.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+                        <h4 class="title">Enhancing the Bike</h4>
+        </div>
+    </a>
+</li>
+
+                </ul></div></div>
+
+                                                                            
+                                    
+                                            
+
+                            <div id="mpu-middle-59be6cb2e8fd8" class="ad-mpu-middle" data-ad="mpu-middle" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-middle-59be6cb2e8fd8 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-middle-59be6cb2e8fd8");
+    </script></div>
+                                                                        </div>
+                                </div>
+                        </div>
+            </div>
+                <div class="row">
+    
+            
+            
+    <div class="col-12 nocontent">
+                                    
+                                    
+                                            <div class="listing-magazine-rem">
+	<h2 class="module-heading title col-12">More from 60 Minutes</h2>
+	<div class="carousel col-12" data-component="carousel" data-carousel-options='{"slideHeight":"390","numOfVisibleSlides":3,"transitionType":"slideHorizontalInfinite","autoplayDelay":0,"incrementAmount":3}'>
+	    <div class="viewport" data-item="viewport">
+	        <ul class="canvas" data-item="canvas"><li data-item="slide">
+    
+
+
+
+    
+<div class="col-4 list-item item-article-video">
+    <figure class="media-block"><a href="/news/michael-bloombergs-net-worth-is-47b-how-will-he-use-it-2/" title="Bloomberg" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-1-Thumbnail"}'>
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/04/21/efbb10fd-a279-46a3-adef-5f4227138091/thumbnail/370x205/dc90eda3ecc48ef366d07c95dbf5bc75/bloomberg-main.jpg#" alt=" " height="205" width="370" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/04/21/efbb10fd-a279-46a3-adef-5f4227138091/thumbnail/370x205/dc90eda3ecc48ef366d07c95dbf5bc75/bloomberg-main.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/21/efbb10fd-a279-46a3-adef-5f4227138091/thumbnail/740x410/fd7c3289c94e229e5ecea59cf34f5d43/bloomberg-main.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+    </figure><h3 class="title"><a href="/news/michael-bloombergs-net-worth-is-47b-how-will-he-use-it-2/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-1-Headline"}'>Bloomberg</a></h3>
+	<p class="date">August 27, 2017</p>
+        <p class="dek">
+The media mogul says most of his fortune will go to his foundation &ndash; viewing personal philanthropy not as a threat to democracy, but a way to get things done</p>
+
+</div>
+
+
+
+
+
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+    
+<div class="col-4 list-item item-article-video">
+    <figure class="media-block"><a href="/news/half-of-the-inmates-shouldnt-be-here-says-cook-county-sheriff-2/" title="Cook County Jail" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-2-Thumbnail"}'>
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/21/fca5104e-7ac4-4390-8920-4a4f8805947c/thumbnail/370x205/35d3bd9964fc4a3c82a9c6ee32440753/cookcounty-main.jpg#" alt=" " height="205" width="370" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/21/fca5104e-7ac4-4390-8920-4a4f8805947c/thumbnail/370x205/35d3bd9964fc4a3c82a9c6ee32440753/cookcounty-main.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/05/21/fca5104e-7ac4-4390-8920-4a4f8805947c/thumbnail/740x410/09d3a6459db8e8076a4175da8ec14b1b/cookcounty-main.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+    </figure><h3 class="title"><a href="/news/half-of-the-inmates-shouldnt-be-here-says-cook-county-sheriff-2/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-2-Headline"}'>Cook County Jail</a></h3>
+	<p class="date">August 27, 2017</p>
+        <p class="dek">
+At one of the largest jails in the U.S., Sheriff Tom Dart sees his job as not just keeping people in jail, but helping some of them get out</p>
+
+</div>
+
+
+
+
+
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+    
+<div class="col-4 list-item item-article-video">
+    <figure class="media-block"><a href="/news/king-of-crossfit-2/" title="King of CrossFit" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-3-Thumbnail"}'>
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2015/05/10/14723297-298b-4b51-930f-b692708cbe87/thumbnail/370x205/a7ec6fc2bb18cc7314c58bbcd0800701/crossfitmainnew.jpg#" alt=" " height="205" width="370" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2015/05/10/14723297-298b-4b51-930f-b692708cbe87/thumbnail/370x205/a7ec6fc2bb18cc7314c58bbcd0800701/crossfitmainnew.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2015/05/10/14723297-298b-4b51-930f-b692708cbe87/thumbnail/740x410/cd756c34a558ae4d820f94d8bfed774e/crossfitmainnew.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+    </figure><h3 class="title"><a href="/news/king-of-crossfit-2/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-3-Headline"}'>King of CrossFit</a></h3>
+	<p class="date">August 27, 2017</p>
+        <p class="dek">
+Sharyn Alfonsi profiles Greg Glassman, a brash, former gymnast who created the CrossFit workout, now the basis for a chain of gyms that has become the largest in history</p>
+
+</div>
+
+
+
+
+
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+    
+<div class="col-4 list-item item-all-access item-article-video">
+    <figure class="media-block"><a href="/news/return-to-newton-ct-sandy-hook-school-shooting-4-years-later-2/" title="Return to Newtown" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-4-Thumbnail"}'>
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/13/102e383c-9613-472a-8149-0af21cad755b/thumbnail/370x205/102937dfe3ac9b771838f9b78a1fc2e4/sandy-hook-school-new-2.jpg#" alt=" " height="205" width="370" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/13/102e383c-9613-472a-8149-0af21cad755b/thumbnail/370x205/102937dfe3ac9b771838f9b78a1fc2e4/sandy-hook-school-new-2.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/04/13/102e383c-9613-472a-8149-0af21cad755b/thumbnail/740x410/cae12314a0b732ae67f64a4d4a75c4fe/sandy-hook-school-new-2.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+    </figure><h3 class="title"><a href="/news/return-to-newton-ct-sandy-hook-school-shooting-4-years-later-2/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-4-Headline"}'>Return to Newtown</a></h3>
+	<p class="date">August 6, 2017</p>
+        <p class="dek">
+Scott Pelley returns to Newtown, Connecticut, and speaks with families who may never move on, but are finding ways to move forward</p>
+
+</div>
+
+
+
+
+
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+    
+<div class="col-4 list-item item-all-access item-article-video">
+    <figure class="media-block"><a href="/news/60-minutes-investigates-medical-gear-sold-during-ebola-crisis-3/" title="Strike-through" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-5-Thumbnail"}'>
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/04/29/cbb8bfaa-acca-47a9-b7d7-5cd269ff1deb/thumbnail/370x205/0173fcd3cfd9355419ed0966b53b296c/previewcooper1056414640x360.jpg#" alt=" " height="205" width="370" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/04/29/cbb8bfaa-acca-47a9-b7d7-5cd269ff1deb/thumbnail/370x205/0173fcd3cfd9355419ed0966b53b296c/previewcooper1056414640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2016/04/29/cbb8bfaa-acca-47a9-b7d7-5cd269ff1deb/thumbnail/740x410/cfdf9511b56db112459abeb0ca2ec692/previewcooper1056414640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+    </figure><h3 class="title"><a href="/news/60-minutes-investigates-medical-gear-sold-during-ebola-crisis-3/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-5-Headline"}'>Strike-through</a></h3>
+	<p class="date">August 6, 2017</p>
+        <p class="dek">
+Company accused of providing faulty surgical gowns to U.S. hospitals also supplied gear to U.S. Strategic National Stockpile; Halyard Health denies the allegations</p>
+
+</div>
+
+
+
+
+
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+    
+<div class="col-4 list-item item-all-access item-article-video">
+    <figure class="media-block"><a href="/news/peter-marino-architect-on-living-and-dressing-out-of-the-box-2/" title="Peter Marino" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-6-Thumbnail"}'>
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/03/30/37c69a60-ad1f-4bdc-9a6a-cdf75d819e1b/thumbnail/370x205/06732ad03ef5a4e96d0fd90a519afa6a/marino-main2.jpg#" alt=" " height="205" width="370" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/03/30/37c69a60-ad1f-4bdc-9a6a-cdf75d819e1b/thumbnail/370x205/06732ad03ef5a4e96d0fd90a519afa6a/marino-main2.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/03/30/37c69a60-ad1f-4bdc-9a6a-cdf75d819e1b/thumbnail/740x410/082c80d92402726f0daef3b9a27be9d6/marino-main2.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+    </figure><h3 class="title"><a href="/news/peter-marino-architect-on-living-and-dressing-out-of-the-box-2/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-6-Headline"}'>Peter Marino</a></h3>
+	<p class="date">August 6, 2017</p>
+        <p class="dek">
+If you follow the worlds of art, architecture and high fashion, you probably know Peter Marino, a favorite among luxury brands and the uber-rich</p>
+
+</div>
+
+
+
+
+
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+    
+<div class="col-4 list-item item-all-access item-article-video">
+    <figure class="media-block"><a href="/news/60-minutes-alzheimers-disease-medellin-colombia-lesley-stahl-2/" title="The Alzheimer's Laboratory" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-7-Thumbnail"}'>
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/11/22/5066e764-2630-466d-864f-3466d825d490/thumbnail/370x205/e863403cda3b26b2495be32aaa76e652/alzmain.png#" alt=" " height="205" width="370" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/11/22/5066e764-2630-466d-864f-3466d825d490/thumbnail/370x205/e863403cda3b26b2495be32aaa76e652/alzmain.png 1x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+    </figure><h3 class="title"><a href="/news/60-minutes-alzheimers-disease-medellin-colombia-lesley-stahl-2/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-7-Headline"}'>The Alzheimer's Laboratory</a></h3>
+	<p class="date">July 9, 2017</p>
+        <p class="dek">
+An extended family in Colombia with a genetic mutation causing Alzheimer&rsquo;s may help scientists prevent the disease someday. Lesley Stahl reports on the groundbreaking study</p>
+
+</div>
+
+
+
+
+
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+    
+<div class="col-4 list-item item-all-access item-article-video">
+    <figure class="media-block"><a href="/news/60-minutes-breaking-bad-bryan-cranston-steve-kroft-2/" title="Breaking Good" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-8-Thumbnail"}'>
+            <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2016/10/06/c1c0ce76-c343-4cf0-9105-7e8df7a5c336/thumbnail/370x205/59e72ba28527282baeac2c597cbe4019/breakinggood-main.jpg#" alt=" " height="205" width="370" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2016/10/06/c1c0ce76-c343-4cf0-9105-7e8df7a5c336/thumbnail/370x205/59e72ba28527282baeac2c597cbe4019/breakinggood-main.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2016/10/06/c1c0ce76-c343-4cf0-9105-7e8df7a5c336/thumbnail/740x410/7ce62aabb226edff2aa6d655a800355e/breakinggood-main.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+    </figure><h3 class="title"><a href="/news/60-minutes-breaking-bad-bryan-cranston-steve-kroft-2/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-8-Headline"}'>Breaking Good</a></h3>
+	<p class="date">July 9, 2017</p>
+        <p class="dek">
+After decades in Hollywood, actor Bryan Cranston didn't find fame until his fifties -- thanks to the hit show "Breaking Bad."  Now, he tells Steve Kroft he's seizing the mome...</p>
+
+</div>
+
+
+
+
+
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+    
+<div class="col-4 list-item item-all-access item-article-video">
+    <figure class="media-block"><a href="/news/60-minutes-american-teen-isis-cell-leader-scott-pelley-2/" title="In God's Name" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-9-Thumbnail"}'>
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/10/27/3b124bb9-859f-4c43-be03-bf24913ce1a9/thumbnail/370x205/8db71bc2c572cedbf9f83af35daa080f/preview-isis-20.jpg#" alt=" " height="205" width="370" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/10/27/3b124bb9-859f-4c43-be03-bf24913ce1a9/thumbnail/370x205/8db71bc2c572cedbf9f83af35daa080f/preview-isis-20.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2016/10/27/3b124bb9-859f-4c43-be03-bf24913ce1a9/thumbnail/740x410/8470f83281e656eb3cd7fb5c3b091ef7/preview-isis-20.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+    </figure><h3 class="title"><a href="/news/60-minutes-american-teen-isis-cell-leader-scott-pelley-2/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-9-Headline"}'>In God's Name</a></h3>
+	<p class="date">July 2, 2017</p>
+        <p class="dek">
+A young American who grew up in the heartland tells Scott Pelley what made him try to join ISIS in Syria</p>
+
+</div>
+
+
+
+
+
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+    
+<div class="col-4 list-item item-all-access item-article-video">
+    <figure class="media-block"><a href="/news/disturbing-footage-of-circus-animal-abuse-leads-to-widespread-reform-2/" title="Saving the Lions" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-10-Thumbnail"}'>
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/06/29/dbc0aa85-7675-45f3-9eef-0bd1af416305/thumbnail/370x205/d29188ec27f91b532664d166882d3a21/lion-main.jpg#" alt=" " height="205" width="370" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/06/29/dbc0aa85-7675-45f3-9eef-0bd1af416305/thumbnail/370x205/d29188ec27f91b532664d166882d3a21/lion-main.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/06/29/dbc0aa85-7675-45f3-9eef-0bd1af416305/thumbnail/740x410/d3e00e0a9396d0df6dc7f355d59767b4/lion-main.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+    </figure><h3 class="title"><a href="/news/disturbing-footage-of-circus-animal-abuse-leads-to-widespread-reform-2/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "48 - 60 shared-Post-Reengagement|Asset-10-Headline"}'>Saving the Lions</a></h3>
+	<p class="date">July 2, 2017</p>
+        <p class="dek">
+By secretly infiltrating circuses with hidden cameras, Animal Defenders International has helped protect and save the lives of wild animals around the world</p>
+
+</div>
+
+
+
+
+
+</li>            	        </ul></div>
+	    <div class="paging">
+	        <a class="prev rem-arrow-left" data-to="prev" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "48 - 60 shared-Post-Reengagement|Asset-Left Nav"}'>Previous</a>
+	        <a class="next rem-arrow-right" data-to="next" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "48 - 60 shared-Post-Reengagement|Asset-Right Nav"}'>Next</a>
+	    </div>
+	</div>
+    
+</div>
+                                                                    </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                
+            
+            
+    <div class="col-8 nocontent">
+                                    
+                                    
+                                            
+    
+
+      
+<div id="comments" class="comments  disqus-show-comments">
+			<h2 class="title">
+			<div class="count-wrapper">
+				<div class="comments-background">
+					<div class="count-background">
+    <span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"9eb30aa6-18d1-4ad6-b3da-817a68bf158e"}'></span>
+ <span class="comment-count-triangle"></span>
+                    </div>
+                    <span class="comment-count">Comments</span>
+				</div>
+			</div>
+		</h2>
+	
+
+<div id="disqusConversation">
+
+
+<div class="d-login">
+                        <a class="popup-link d-login__btn" data-component="popups" data-popups-options='{"selector":".popup-link","path":"\/\/secure-fly.cbsnews.com\/user\/login\/?ifmsgr=true","event":"click"}'>
+        
+            <svg xmlns="http://www.w3.org/2000/svg" class="d-login__icon" width="15" height="13"><path fill="#656C7A" fill-rule="evenodd" d="M15 5.357C15 2.394 11.643 0 7.5 0S0 2.402 0 5.357c0 1.7 1.105 3.214 2.83 4.194-.394 1.4-.997 1.9-1.524 2.495-.126.15-.268.276-.226.486v.01c.042.2.217.334.402.317.326-.042.652-.1.954-.184 1.448-.368 2.754-1.055 3.85-2.026.394.042.804.067 1.214.067 4.143 0 7.5-2.394 7.5-5.357z"></path></svg>Log in to comment
+        </a>
+    
+    <a class="d-login__link" href="/community-faqs/" target="_blank" data-vanity-rewritten="true">Commenting FAQs</a> | <a class="d-login__link" href="/commenting-guidelines/" target="_blank" data-vanity-rewritten="true">Community Guidelines</a>
+</div>
+
+<div id="postComments">
+    <div id="disqusContainer-9eb30aa6-18d1-4ad6-b3da-817a68bf158e">
+        <a name="comments"></a>
+
+                <div data-component="disqus" data-disqus-options='{"id":"9eb30aa6-18d1-4ad6-b3da-817a68bf158e","title":"Best-selling author becomes depressed after finishing a book","url":"http:\/\/www.cbsnews.com\/news\/john-le-carre-becomes-depressed-after-finishing-a-book\/","loadOnInit":true}' data-id="9eb30aa6-18d1-4ad6-b3da-817a68bf158e" data-title="Best-selling author becomes depressed after finishing a book" data-url="http://www.cbsnews.com/news/john-le-carre-becomes-depressed-after-finishing-a-book/" data-load-on-init="true"></div>
+    </div>
+</div>
+</div>
+</div>
+
+
+
+                                                                    </div>
+        
+            
+            
+    <div class="col-4 nocontent">
+                                    
+                                    
+                                            
+
+                            <div id="mpu-bottom-59be6cb2e8fd8" class="ad-mpu-bottom" data-ad="mpu-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-bottom-59be6cb2e8fd8 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-bottom-59be6cb2e8fd8");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-taboola-recommended-article">
+      <h2 class="module-heading title">Recommended</h2>
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <div data-taboola='{"mode":"alternating-thumbnails-rr","placement":"Right Rail Thumbnails"}'></div></li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-emergency-component">
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <script>var searchNav = document.querySelector('.site-nav__item--sports .site-nav__item-anchor'); searchNav&&searchNav.addEventListener('click', function () {window.location = this.href}, true);</script><style>.site-footer{ z-index:0; } .site-header{ z-index:2; } .content-primary{ z-index:1; } [tabindex]:focus {outline: 0; } .desktop .site-nav__item--shows:hover .site-nav__item-content-icon {top: 113px;right: auto;}.desktop .site-nav__item--shows:hover .site-nav__item-hed {font-size: 16px;max-height: none;float: none;margin: 0px;} .front-door .disqus-comment-count { display: none; } .topic-door .disqus-comment-count { display: none; } .listing-mini-sub .disqus-comment-count { display: none; } .desktop #mantle_skin[class*=cbs-this-morning] .hero-text .title a {color: #e4a21b;font-family: "museo-sans", Helvetica, Roboto, sans-serif;font-size: 30px;font-weight: 700;line-height: 1.1;letter-spacing: -0.05em;}</style></li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-emergency-article-component">
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"></ul></div>                                                        </div>
+
+                                                                    </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+        </div>
+</div>
+
+        </div>
+
+    
+                        
+<footer class="site-footer content-inverse nocontent"><div class="container">
+                        <div class="row">
+            <div class="col-2 link-block">
+                <h5 class="title">CBSNews.com</h5>
+
+                <ul class="items"><li><a href="https://www.cbsnews.com/sitemap/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Site Map"}' data-invalid-url-rewritten-http="">Site Map</a></li>
+                    <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome2?categories=CBS_Interactive:CBSNews&amp;referer=cbsnews.com/main" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Help"}'>Help</a></li>
+                    <li><a href="http://audienceservices.cbs.com/feedback/feedback.htm" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Contact Us"}'>Contact Us</a></li>
+
+                    <li><a href="https://www.cbsnews.com/team/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|CBS Bios"}' data-invalid-url-rewritten-http="" data-vanity-rewritten="true">CBS Bios</a></li>
+                    <li><a href="https://cbs.avature.net/cbsnewscareers" data-omniture-track-data='{"clickProperty": "Site Footer|Careers"}'>Careers</a></li>
+                    <li><a href="http://www.cbsinteractive.com/careers" data-omniture-track-data='{"clickProperty": "Site Footer|CBSi Careers"}'>CBSi Careers</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-internship-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Internships"}' data-invalid-url-rewritten-http="">Internships</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-associates-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Development Programs"}' data-invalid-url-rewritten-http="">Development Programs</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">CBS Interactive</h5>
+
+                <ul class="items"><li><a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Privacy Policy"}'>Privacy Policy</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/adchoice" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Ad Choice"}'>Ad Choice</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Terms of Use"}'>Terms of Use</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/eula" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Mobile User Agreement"}'>Mobile User Agreement</a></li>
+                    <li><a href="http://www.cbscorporation.com/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|About CBS"}'>About CBS</a></li>
+                    <li><a href="http://www.cbsinteractive.com/advertise/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Advertise"}'>Advertise</a></li>
+                    <li><a href="http://cbsimedia.cbs.com/captioning/info.html" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Closed Captioning"}'>Closed Captioning</a></li>
+                    <li><a href="http://www.cbsstore.com/cbs-news-store-home/index.php?v=cbs-news&amp;ecid=PRF-CBS-300538&amp;pa=PRF-CBS-300538" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|CBS News Store"}'>CBS News Store</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">Follow Us</h5>
+
+                <ul class="items"><li><a href="https://www.facebook.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Facebook"}'>Facebook</a></li>
+                    <li><a href="https://twitter.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Twitter"}'>Twitter</a></li>
+                    <li><a href="/rss/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|RSS"}'>RSS</a></li>
+                    <li><a href="https://www.cbsnews.com/newsletters/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Email Newsletters"}' data-invalid-url-rewritten-http="">Email Newsletters</a></li>
+                    <li><a href="http://www.youtube.com/user/CBSNewsOnline" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|YouTube"}'>YouTube</a></li>
+                    <li><a href="https://www.cbsnews.com/radio/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Radio News"}' data-invalid-url-rewritten-http="">CBS Radio News</a></li>
+                    <li><a href="https://www.cbsnews.com/local/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Local"}' data-invalid-url-rewritten-http="">CBS Local</a></li>
+                </ul></div>
+
+            <div class="col-4 push-2">
+                <div class="site-brand">
+                    <div class="logo core-logo"><a href="/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer-Branding"}'>CBS News</a></div>
+                </div>
+
+                <form class="site-search" action="/search/" method="get" data-component="search" data-search-options='{"path":"https:\/\/www.cbsnews.com\/search\/","param":"q"}'>
+                    <input type="search" class="query" maxlength="255" name="q" placeholder="Search..."><button type="submit" class="submit core-search-footer">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="site-brand">
+                <p class="copyright">Copyright &copy; 2017 CBS Interactive Inc.<br>All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer></div> 
+
+                    
+
+    
+
+<script>
+    var CBSNEWS = CBSNEWS || {};
+        CBSNEWS.ad        = {"gpt":{"targeting":{"device":"desktop","ptype":"news_item","cid":"john-le-carre-becomes-depressed-after-finishing-a-book","env":"prod_alt"},"adConfig":{"network":{"dev":8264,"qa":8264,"prod":8264},"method":"async-inline","regions":[{"region":"uk","countries":["gb","fr","ie","za","bh","kw","om","qa","sa","ae","iq","eg","ye"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","ph","th","id","vn","hk","in"]}],"adUnits":{"marqueeVideoTop":{"sizes":[[300,60]],"isVideo":true,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"leaderVideoTop":{"sizes":[[728,90]],"isVideo":true,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"intromercial":{"outOfPage":true},"desktopNativeTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"a832eb3c"}},"desktopNativeMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"e0c5ba47"}},"desktopNativeBottom":{"sizes":[[11,11]],"position":"bottom"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"marqueeBottom":{"sizes":[[234,60]],"position":"bottom"},"leaderBottom":{"sizes":[[728,90],[970,66]],"position":"bottom"}},"mobile":{"adUnits":{"intromercial":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileBanner1":{"sizes":[[320,50]],"position":1},"mobileBanner2":{"sizes":[[320,50]],"position":2},"mobileBanner3":{"sizes":[[320,50]],"position":3},"mobileMarquee320Top":{"sizes":[[320,60]],"position":"top"},"mobileSponsorContentTextTop":{"sizes":[[300,250],[11,11],"fluid"],"position":"top","customTargeting":{"strnativekey":"454fd857"}},"mobileSponsorcontentTextMiddle":{"sizes":[[300,250],[320,50],[11,11],"fluid"],"position":"middle","customTargeting":{"strnativekey":"454fd857"}},"mobileInlineFlexPos2":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":2,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexPos3":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":3,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexInc":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":"inc","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileNativeTop":{"sizes":[[11,11]],"position":"top"},"mobileNativeGalleryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"289740d4"}},"mobileSponsorcontentCdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"3c5782bf"}},"mobileSponsorcontentVdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"eba075cc"}}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"amp":{"adUnits":{"ampFlexTop":{"sizes":[[320,50],[300,250]],"position":"top"},"ampFlexBottom":{"sizes":[[320,50],[300,250]],"position":"bottom"},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"ampFlexPos2":{"sizes":[[320,50],[300,250]],"position":2},"ampFlexPos3":{"sizes":[[320,50],[300,250]],"position":3},"ampFlexInc":{"sizes":[[320,50],[300,250]],"position":"inc"},"ampSticky":{"sizes":[[320,50]],"position":"sticky"}}},"siteName":"cbsnews","collapseEmptyDiv":true,"setRefreshUnfilledSlots":false,"setClearUnfilledSlots":true,"disableInitialLoad":false,"disableInitialLoadCompanions":true,"enableHeaderBidding":true,"disableClearTargetingOnInit":true,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["intromercial","leader_top","leader_plus_top","skin","mpu_top","mpu_plus_top","marquee_top","marquee300_top","button_top","sponsor_content_top","sponsor_content_small_top","sponsor_content_text_top","sponsor_bar980_top","sponsor_bar620_top","desktop_native_top","native_show_top","mpu_middle","marquee300_middle","button_middle","desktop_native_middle","sponsor_content_middle","sponsor_content_middle2","desktop_native_bottom","button_bottom","mpu_bottom","leader_bottom","sponsor_content_bottom"],"disableInitialLoadRefresh":"false","disableAdIncrement":false,"enableRepeatedAds":false},"containerId":"59be6cb2e8fd8","slotVars":{"network":"8264","siteName":"cbsnews","collapseEmptyDiv":"1","topics":"60-minutes/preview","platform":"desktop"},"adType":"gpt","adDivIds":["marquee-video-top-59be6cb2e8fd8","mpu-middle-59be6cb2e8fd8","mpu-bottom-59be6cb2e8fd8","intromercial-59be6cb2e8fd8","leader-video-top-59be6cb2e8fd8"]},"cookieName":"cbsnews_ad","cookieServicePath":"/ad/ad-cookie/","session":4,"subSession":4,"useFirstPageTargeting":true};
+        CBSNEWS.bsFreq    = 100;
+        CBSNEWS.device    = 'desktop';
+        CBSNEWS.features  = CBSNEWS.features || {};
+        CBSNEWS.tracking  = {"isEnabled":true,"articleAuthorId":["30dacdbc-6a8a-11e2-9d12-0018fe8a00b0"],"articleAuthorName":["cbsnews (hidden byline)"],"articleId":"9eb30aa6-18d1-4ad6-b3da-817a68bf158e","articlePubDate":"2017-09-15 16:04:21","articleTitle":"best-selling author becomes depressed after finishing a book","articleType":"content_article","deviceType":"desktop","isDev":"2","pageType":"news_item","siteHier":["60 minutes","60 minutes preview"],"siteSection":"60 minutes","siteType":"responsive web","topicId":"6894eed1-992a-4185-8c2a-063430c464b6","topicName":"60 minutes preview","bkSiteId":3330,"limit":4,"articleSource":"cbs news","siteName":"cbsnews","demographicKeys":["jobFunction","jobCategory","industry","computerProficiency","companySize","gender","ageGroup","country"],"tealium":{"profile":"cbsnewssite","env":"prod"}};
+        CBSNEWS.tracking._adData      = CBSNEWS.ad;
+        CBSNEWS.tracking.pageViewGuid = null; // Set in managers/tealium
+        CBSNEWS.user      = {
+            appId:          '1501',
+            environment:    'LIVE',
+            platform:       '',
+            publicHost:     'www.cbsnews.com',
+            secureHost:     'secure-fly.cbsnews.com',
+            ursVersion:     'v2.2',
+            ursClientToken: '9b0514bf29ca49e1',
+        };
+        CBSNEWS.disqus =  {
+            shortname: 'cbsnews-prod',
+            publicKey: '60EUVoZHyaBJqXJUxAKYfJgUh8NhuUyO88gGQ7aIw8HsbFOwAl9hLtoCyvyld2A8',
+            sso: {
+                name: 'CBSNews',
+                authLoginUrl: 'https://www.cbsnews.com/disqus/sso/login/',
+                authLogoutUrl: 'https://www.cbsnews.com/disqus/sso/logout/',
+                button: 'https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/images/core/logo.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95',
+                icon: 'https://cbsnews4.cbsistatic.com/fly/favicon.ico?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95',
+                loginUrl: 'https://secure-fly.cbsnews.com/user/registration/?redirectUrl=%2Fdisqus%2Flogin%2F ',
+                logoutUrl: 'https://www.cbsnews.com/user/logout/'
+            }
+        };
+
+
+    var features = ['beanstockSonobi', 'disqus', 'urs'];
+    features.forEach(function(feature) {
+        if (!CBSNEWS.features.hasOwnProperty(feature)) {
+            CBSNEWS.features[feature] = true;
+        }
+    });
+
+    var utag_data = CBSNEWS.tracking;
+
+    var require = {"baseUrl":"https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build","urlArgs":"v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95","config":{"version":{"fly/libs/base64":"0.3.0","fly/libs/easy-xdm-cbsi":"2.4.19.3","fly/libs/jquery.widget":"1.9.2","fly/libs/jquery.cookie":"1.2","fly/libs/jquery.mobile":"1.3.2","fly/libs/jquery.throttle-debounce":"1.1","fly/libs/lazysizes":"1.4.0","fly/libs/omniture.s-code":"1.0","fly/libs/urs":"1.0","fly/utils/data-prefix":"1.0","fly/utils/data-selector":"1.0","fly/utils/function-natives":"1.0","fly/utils/guid":"1.0","fly/utils/log":"1.0","fly/utils/object-helper":"1.0","fly/utils/string-helper":"1.0","fly/utils/string-vars":"1.0","fly/utils/url-helper":"1.0","fly/managers/components":"1.0","fly/managers/cookie":"1.0","fly/managers/debug":"1.0","fly/managers/ad":"2.0","fly/managers/gpt":"4.2","fly/managers/geo":"1.0","fly/managers/image-resolution":"1.0","fly/managers/recurly":"1.0","fly/managers/recurly-billing":"1.0","fly/managers/social-authentication":"1.0","fly/managers/tracking":"1.0","fly/managers/user":"1.0","fly/components/accordion":"1.0","fly/components/alert":"1.0","fly/components/base":"1.0","fly/components/carousel":"1.0","fly/components/credspark":"1.0","fly/components/dependent-field":"1.0","fly/components/dropdown":"1.0","fly/components/form-validate":"1.0","fly/components/iframe-messenger":"1.1","fly/components/image-gallery":"1.0","fly/components/disqus-count":"1.0","fly/managers/disqus":"1.0","fly/components/disqus":"1.0","fly/components/loading":"1.0","fly/components/load-more":"1.0","fly/components/nrelate":"1.0","fly/components/modal":"1.0","fly/components/modal-async":"1.0","fly/components/modal-iframe":"1.0","fly/components/scrollbar":"1.0","fly/components/social-button":"1.0","fly/components/social-counts":"1.1","fly/components/social-links":"1.0","fly/components/tabs":"1.0","fly/managers/clicktale":"1.0","fly/components/poll":"1.0","fly/managers/history":"1.0","libs/fontfaceobserver":"2.0.7","libs/riot":"2.6.2","mpx/libs/uvp":"2.6.0","mpx/libs/hls":"0.6.18","fly/components/fixate":"1.0","fly/components/image-gallery-thumb":"1.0"}},"shim":{"tealium":["jquery"]},"map":{"*":{"ima":"//imasdk.googleapis.com/js/sdkloader/ima3.js","gpt":"//www.googletagservices.com/tag/js/gpt.js","anvato":"https://w3.cdn.anvato.net/player/prod/scripts/anvload.js","nrelate":"//c7.static.nrcdn.com/common_js/0.52.1/nr_loader.min.js","urs":"//urs.cbsnews.com/sdk/urs.js","recirc":"//ddlmj2furo6f2.cloudfront.net/addontrain/recommendations/53f6c74c1344a01ee2000139.js","tealium":"//tags.tiqcdn.com/utag/cbsi/cbsnewssite/prod/utag.js","twitter":"https://platform.twitter.com/widgets.js","credspark":"//www.credspark.com/embed.js","yad":"https://s.yimg.com/uq/syndication/yad.js","newsgator":"//nmp.newsgator.com/ngbuzz/load.ashx/buzz","recurly":"https://js.recurly.com/v4/recurly.js","taboola":"//cdn.taboola.com/libtrc/cbsinteractive-cbsnews/loader.js","sharethrough":"//native.sharethrough.com/assets/tag.js","uvp":"//vidtech.cbsinteractive.com/uvpjs/2.5.3/CBSI-PLAYER.js","index_exchange":"//js-sec.indexww.com/ht/ls-cbsnews.js","sonobi":"//mtrx.go.sonobi.com/morpheus.cbsnews.9251.js"}}};
+</script><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" as="script"><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.desktop.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" as="script"><script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" data-main="main.desktop" async defer></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8178a7f262","applicationID":"8449215","transactionName":"ZAZXNkNRCkEHBxAMX11MdAFFWQtcSQUWEVlQD1A9QlkKVQoB","queueTime":0,"applicationTime":956,"atts":"SEFUQAtLGU8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

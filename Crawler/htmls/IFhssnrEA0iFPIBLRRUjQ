@@ -1,0 +1,1874 @@
+<!DOCTYPE html>
+<html lang="en"><head prefix="og: http://ogp.me/ns#"><!-- Fly Version: RELEASE_20170915 4d277b6c7f10b0e8f706642a69c77b86a00f8a95 (cbsnews prod_feeds) --><title>				More from CBS Evening News News - CBS News
+	</title><meta charset="UTF-8"><meta name="robots" content="index, follow"><meta name="description" content="Read more of the latest CBS Evening News news, headlines, stories, photos, and video from CBS News."><meta name="keywords" content="CBS Evening News, CBS Evening News news, CBS Evening News headlines,  CBS Evening News video, cbs news CBS Evening News,  cbs news, cbsnews.com"><meta name="viewport" content="width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge"><link rel="preconnect dns-prefetch" href="//cbsnews1.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews2.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews3.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews4.cbsistatic.com"><link rel="canonical" href="https://www.cbsnews.com/latest/evening-news/"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-16x16.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" sizes="16x16"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-32x32.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" sizes="32x32"><link rel="shortcut icon" type="image/x-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><link rel="apple-touch-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/apple-touch-icon.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><style>
+      
+@font-face{font-family:'futura-pt';src:url("/bundles/cbsnewscore/fonts/futura/FuturaMed.eot");src:url("/bundles/cbsnewscore/fonts/futura/FuturaMed.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/futura/FuturaMed.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/futura/FuturaMed.woff") format("woff"),url("/bundles/cbsnewscore/fonts/futura/FuturaMed.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/futura/FuturaMed.svg#svgFontName") format("svg");font-weight:normal;font-style:normal}
+
+
+    </style><link rel="stylesheet" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/css/main.evening-news.desktop.css?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"><!--[if lt IE 9]>
+    <script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js/libs/html5shiv-printshiv.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95"></script>
+    <![endif]--></head><body data-cms-edit='{"url":null}' class="desktop">
+        
+    
+    <!-- src/CbsNews/CoreBundle/Resources/views/Layout/default.desktop.html.twig -->
+
+                <!-- comscorekw=eveningnews -->
+    
+
+    
+    <div id="fb-root"></div>
+                    <div id="intromercial-59be6ca22791e" class="ad-intromercial" data-ad="intromercial" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-59be6ca22791e for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-59be6ca22791e");
+    </script></div>
+
+    	<div class="body-container">
+
+        <!-- src/CbsNews/CoreBundle/Resources/views/Theme/cbs-evening-news/header.desktop.html.twig -->
+
+<header class="site-header nocontent"><div id="breakingNewsBanner" data-component="ticker">
+        <include src="/feedfiles/breakingnews.desktop.html" onerror="continue"></include></div>
+
+    <div class="supplemental">
+    <div class="container">
+        <div class="col-9">
+            
+        <nav class="site-shows"><ul class="items"><li><a class="module-click-tracking" href="/" data-tracking="site header-show-nav|CBS News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/latest/evening-news/ Show-nav|CBS News"}' aria-label="">CBS News</a></li>
+                                                                        <li><a class="selected module-click-tracking" href="/evening-news/" data-tracking="site header-show-nav|CBS Evening News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/latest/evening-news/ Show-nav|CBS Evening News"}' aria-label="selected">CBS Evening News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbs-this-morning/" data-tracking="site header-show-nav|CBS This Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/latest/evening-news/ Show-nav|CBS This Morning"}' aria-label="">CBS This Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/48-hours/" data-tracking="site header-show-nav|48 Hours" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/latest/evening-news/ Show-nav|48 Hours"}' aria-label="">48 Hours</a></li>
+                                                                        <li><a class="module-click-tracking" href="/60-minutes/" data-tracking="site header-show-nav|60 Minutes" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/latest/evening-news/ Show-nav|60 Minutes"}' aria-label="">60 Minutes</a></li>
+                                                                        <li><a class="module-click-tracking" href="/sunday-morning/" data-tracking="site header-show-nav|Sunday Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/latest/evening-news/ Show-nav|Sunday Morning"}' aria-label="">Sunday Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/face-the-nation/" data-tracking="site header-show-nav|Face The Nation" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/latest/evening-news/ Show-nav|Face The Nation"}' aria-label="">Face The Nation</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbsn-originals/" data-tracking="site header-show-nav|CBSN Originals" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/latest/evening-news/ Show-nav|CBSN Originals"}' aria-label="">CBSN Originals</a></li>
+            </ul></nav></div>
+        
+        <div class="col-3">
+            
+<form class="site-search" method="get" action="/search/">
+    <div class="search-wrapper" data-component="placeholder">
+        <input class="query" type="search" name="q" maxlength="255" placeholder="Search"></div>
+    <button class="submit core-search-header" type="submit">GO</button>
+</form>
+<ul class="login-wrapper logged-in"><li>
+        <!--<li class="site-section-tab"><a href="//secure-fly.cbsnews.com/user/registration/" data-user-show="register"><span>Join</span></a></li>-->
+                     <a class="site-login" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Channel Button"}'><span class="text">Log In</span></a>
+                <div class="menu-wrapper sign-in">
+            <span class="hover-padding"></span>
+            <span class="arrow"></span>
+            <ul class="login"><li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/login/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Login"}'>Log In</a>
+                    </li>
+                    <li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/registration/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Join CBSNews"}'>Join CBSNews.com</a>
+                    </li>
+                                                </ul></div>
+    </li>
+</ul></div>
+    </div>
+</div>    <div class="primary">
+        <div class="container">
+            <div class="arrow-down"></div>
+            <div class="logo">
+                                    <a href="/evening-news" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Evening News-nav|Home"}'>CBS Evening News with Scott Pelley</a>
+                            </div>
+
+            <nav class="site-sections"><ul class="items"><li class="site-section-tab cbstm-tab-full-episodes   "><a href="/evening-news/full-episodes/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Evening News-nav|Full Episodes"}'><span>Full Episodes</span>
+                                                    </a>
+                                                    </li>
+                                                                                                                                            <li class="site-section-tab cbstm-tab-interviews   "><a href="/evening-news/interviews/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Evening News-nav|Interviews"}'><span>Interviews</span>
+                                                    </a>
+                                                    </li>
+                                                                                                                                            <li class="site-section-tab cbstm-tab-on-the-road   "><a href="/evening-news/on-the-road/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Evening News-nav|On The Road"}'><span>On The Road</span>
+                                                    </a>
+                                                    </li>
+                                                                                                                                            <li class="site-section-tab cbstm-tab-more  dropdown " data-component="dropdown" data-dropdown-options='{"event":"hover","selectorTrigger":"a","classSelected":"selected"}'><a href="#" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Evening News-nav|More"}'><span>More</span>
+                                                            <span class="nav-arrow"></span>
+                                                    </a>
+                                                            <div class="dropdown-content dropdown-menu">
+                                    <div class="listing-basic">
+                                        <ul class="items"><li class=""><a href="/evening-news/washington/" class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Evening News-nav|Washington"}'><span>Washington</span></a></li>
+                                                                                                                                            <li class=""><a href="/evening-news/business/" class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Evening News-nav|Business"}'><span>Business</span></a></li>
+                                                                                                                                            <li class=""><a href="/evening-news/health/" class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Evening News-nav|Health"}'><span>Health</span></a></li>
+                                                                                                                                            <li class=""><a href="/news/about-the-cbs-evening-news" class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Evening News-nav|About Us"}'><span>About Us</span></a></li>
+                                                                                                                                            <li class=""><a href="/evening-news/the-team/" class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS Evening News-nav|The Team"}'><span>The Team</span></a></li>
+                                                                                    </ul></div>
+                                </div>
+                                                    </li>
+                                    </ul></nav></div>
+    </div>
+
+</header><div id="mantle_skin" class="content-primary show-topic topic-listing">
+                                                                         <div id="leader-plus-top-59be6ca22791e" class="ad-leader-plus-top" data-ad="leader-plus-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-plus-top-59be6ca22791e for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-plus-top-59be6ca22791e");
+    </script></div>
+
+                    
+                    <div class="container">
+    <div class="row">
+                    <div class="row">
+    
+                
+    <div class="col-12 ">
+                                        </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                
+            
+                                
+    <div class="col-8 ">
+                                    
+                                    
+                                            
+        
+<div class="media-list content-list result-list">
+        <section class="section section-lead"><div class="section-head">
+             <h1 class="module-heading title">More CBS Evening News Headlines</h1>
+         </div>
+     </section><ul class="items" data-component="loadMore" data-load-more-options='{"url":"\/latest\/xhr\/evening-news","data":{"page":2},"responseKey":"results","pushState":{"enabled":true,"route":"\/latest\/evening-news\/{page}\/","title":"More from CBS Evening News - Page {page} - CBS News"}}' id="uid-595409551"><li data-first-of-chunk="true">
+    
+    <a href="/news/residents-of-the-southern-florida-keys-will-start-to-return-home-after-irma/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-1"}'>Florida Keys residents to start to return home after Irma</h3></a>
+
+    <a href="/news/residents-of-the-southern-florida-keys-will-start-to-return-home-after-irma/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-1"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/16/d45cfd46-7dc5-4f4d-8f8a-dbfa3dd6a07b/thumbnail/140x90/89758d65b765707823db1bffa43f3005/vigliotti-florida-keys-2017-9-16.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/16/d45cfd46-7dc5-4f4d-8f8a-dbfa3dd6a07b/thumbnail/140x90/89758d65b765707823db1bffa43f3005/vigliotti-florida-keys-2017-9-16.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/d45cfd46-7dc5-4f4d-8f8a-dbfa3dd6a07b/thumbnail/280x180/9ef6f34ca56ed871c36eba3b187a66ce/vigliotti-florida-keys-2017-9-16.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/residents-of-the-southern-florida-keys-will-start-to-return-home-after-irma/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-1"}'>
+            <p class="dek">
+Authorities will open up the entire chain of islands to residents Sunday morning</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/news/residents-of-the-southern-florida-keys-will-start-to-return-home-after-irma/">
+                    <span class="meta-prep">On</span>
+                            <span class="date">Sep 16, 2017 7:38 PM EDT</span>
+            
+            </a>
+    
+    <a href="/news/residents-of-the-southern-florida-keys-will-start-to-return-home-after-irma/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+              
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/videos/study-pinpoints-five-worst-counties-for-distracted-driving/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-2"}'>Study pinpoints five worst counties for distracted driving</h3></a>
+
+    <a href="/videos/study-pinpoints-five-worst-counties-for-distracted-driving/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-2"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/eb6167bd-23b4-4215-ab05-4c51a8374c36/thumbnail/140x90/81912267348c8a7ca9d24c07874e164a/0916-en-distracteddrivers-evans-1398211-640x360.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/eb6167bd-23b4-4215-ab05-4c51a8374c36/thumbnail/140x90/81912267348c8a7ca9d24c07874e164a/0916-en-distracteddrivers-evans-1398211-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/eb6167bd-23b4-4215-ab05-4c51a8374c36/thumbnail/280x180/e9a2e5ca880e2185cbef8a789bab0888/0916-en-distracteddrivers-evans-1398211-640x360.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/videos/study-pinpoints-five-worst-counties-for-distracted-driving/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-2"}'>
+            <p class="dek">
+    Major metropolitan areas came up in the top five worst counties for distracted driving: New York, San Francisco and Miami were just a few. According to a new study, researchers found that up to 88 percent of drivers are using their phones behind the wheel. Carter Evans has more.</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/videos/study-pinpoints-five-worst-counties-for-distracted-driving/">
+                    <span class="meta-prep">On</span>
+                                            <span class="date">Sep 17, 2017 1:51 AM EDT</span>
+            
+            </a>
+    
+    <a href="/videos/study-pinpoints-five-worst-counties-for-distracted-driving/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+                          <span class="pipe"></span>
+            <span class="meta-prep">Play</span>
+            <span class="play-video">Video</span>
+        
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/videos/how-daca-changed-this-dreamers-life/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-3"}'>How DACA changed this Dreamer's life</h3></a>
+
+    <a href="/videos/how-daca-changed-this-dreamers-life/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-3"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/6d347a60-5213-43fa-875e-526ea7f69162/thumbnail/140x90/69e57bdb221e815f335a9a3ad10fcdee/0916-en-dacaprofile-1398203-640x360.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/6d347a60-5213-43fa-875e-526ea7f69162/thumbnail/140x90/69e57bdb221e815f335a9a3ad10fcdee/0916-en-dacaprofile-1398203-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/6d347a60-5213-43fa-875e-526ea7f69162/thumbnail/280x180/ab530b04ec97172af684435c7a5fb428/0916-en-dacaprofile-1398203-640x360.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/videos/how-daca-changed-this-dreamers-life/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-3"}'>
+            <p class="dek">
+    Marcela Zhou is a third-year medical student at the Geffen School of Medicine at UCLA. She says DACA was life-changing for her, and worries that students like her could face deportation in six months if there's no deal to preserve the program.</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/videos/how-daca-changed-this-dreamers-life/">
+                    <span class="meta-prep">On</span>
+                                            <span class="date">Sep 17, 2017 1:46 AM EDT</span>
+            
+            </a>
+    
+    <a href="/videos/how-daca-changed-this-dreamers-life/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+                          <span class="pipe"></span>
+            <span class="meta-prep">Play</span>
+            <span class="play-video">Video</span>
+        
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/videos/demonstrations-over-officer-acquitted-in-deadly-shooting-turn-violent-in-st-louis/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-4"}'>Demonstrations over officer acquitted in deadly shooting turn violent in St. Louis</h3></a>
+
+    <a href="/videos/demonstrations-over-officer-acquitted-in-deadly-shooting-turn-violent-in-st-louis/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-4"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/16/4f3efafe-ce26-4f4f-8ef9-149df6a3c195/thumbnail/140x90/3c73ccf7de2f72a762f2024efdf2aaa9/0916-en-stlouis-reynolds-1398199-640x360.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/16/4f3efafe-ce26-4f4f-8ef9-149df6a3c195/thumbnail/140x90/3c73ccf7de2f72a762f2024efdf2aaa9/0916-en-stlouis-reynolds-1398199-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/4f3efafe-ce26-4f4f-8ef9-149df6a3c195/thumbnail/280x180/ce581ca40093fd92bf1a145068b852b8/0916-en-stlouis-reynolds-1398199-640x360.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/videos/demonstrations-over-officer-acquitted-in-deadly-shooting-turn-violent-in-st-louis/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-4"}'>
+            <p class="dek">
+    Peaceful demonstrations turned violent in St. Louis on Friday night after a white former police officer was acquitted in the deadly shooting of a black man six years ago. Several officers were injured as protests turned to vandalism, and 32 arrests followed. Dean Reynolds reports.</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/videos/demonstrations-over-officer-acquitted-in-deadly-shooting-turn-violent-in-st-louis/">
+                    <span class="meta-prep">On</span>
+                                            <span class="date">Sep 17, 2017 1:42 AM EDT</span>
+            
+            </a>
+    
+    <a href="/videos/demonstrations-over-officer-acquitted-in-deadly-shooting-turn-violent-in-st-louis/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+                          <span class="pipe"></span>
+            <span class="meta-prep">Play</span>
+            <span class="play-video">Video</span>
+        
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/videos/residents-returning-home-to-southern-florida-keys-after-hard-hitting-hurricane-irma/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-5"}'>Residents returning home to southern Florida Keys after hard-hitting Hurricane Irma</h3></a>
+
+    <a href="/videos/residents-returning-home-to-southern-florida-keys-after-hard-hitting-hurricane-irma/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-5"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/1d84ebf5-ec0c-471f-b1eb-bb8b20a34c39/thumbnail/140x90/b374389efe17d61fbf52c7f076de960c/0918-en-floridakeys-vigliotti-1398189-640x360.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/1d84ebf5-ec0c-471f-b1eb-bb8b20a34c39/thumbnail/140x90/b374389efe17d61fbf52c7f076de960c/0918-en-floridakeys-vigliotti-1398189-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/16/1d84ebf5-ec0c-471f-b1eb-bb8b20a34c39/thumbnail/280x180/23fef56a4838193623c66f71dbe3dc04/0918-en-floridakeys-vigliotti-1398189-640x360.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/videos/residents-returning-home-to-southern-florida-keys-after-hard-hitting-hurricane-irma/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-5"}'>
+            <p class="dek">
+    One week after Hurricane Irma slammed into Florida, residents of the hard-hit southern Keys are returning to their homes this weekend to see the devastation. Jonathan Vigliotti has more.</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/videos/residents-returning-home-to-southern-florida-keys-after-hard-hitting-hurricane-irma/">
+                    <span class="meta-prep">On</span>
+                                            <span class="date">Sep 17, 2017 1:38 AM EDT</span>
+            
+            </a>
+    
+    <a href="/videos/residents-returning-home-to-southern-florida-keys-after-hard-hitting-hurricane-irma/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+                          <span class="pipe"></span>
+            <span class="meta-prep">Play</span>
+            <span class="play-video">Video</span>
+        
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/videos/demonstrators-rally-over-confederate-statue-in-richmond-virginia/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-6"}'>Demonstrators rally over Confederate statue in Richmond, Virginia</h3></a>
+
+    <a href="/videos/demonstrators-rally-over-confederate-statue-in-richmond-virginia/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-6"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/16/c315a328-104a-4236-b2bb-edc3a284e19b/thumbnail/140x90/d93740b194a4e167971ac3b1d290387a/0916-en-richmondrally-reid-1398174-640x360.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/16/c315a328-104a-4236-b2bb-edc3a284e19b/thumbnail/140x90/d93740b194a4e167971ac3b1d290387a/0916-en-richmondrally-reid-1398174-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/16/c315a328-104a-4236-b2bb-edc3a284e19b/thumbnail/280x180/2a9197def282ff3ce348065f3f6aed9b/0916-en-richmondrally-reid-1398174-640x360.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/videos/demonstrators-rally-over-confederate-statue-in-richmond-virginia/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-6"}'>
+            <p class="dek">
+    Members of a group called CSA II: The New Confederate States of America rallied in Richmond, Virginia, on Saturday in support of the city's statue of Confederate Gen. Robert E. Lee. The group was greatly outnumbered by counter-protesters, including those from the Black Lives Matter movement. Paula Reid reports.</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/videos/demonstrators-rally-over-confederate-statue-in-richmond-virginia/">
+                    <span class="meta-prep">On</span>
+                                            <span class="date">Sep 17, 2017 1:35 AM EDT</span>
+            
+            </a>
+    
+    <a href="/videos/demonstrators-rally-over-confederate-statue-in-richmond-virginia/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+                          <span class="pipe"></span>
+            <span class="meta-prep">Play</span>
+            <span class="play-video">Video</span>
+        
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/videos/dueling-demonstrations-in-d-c-as-mother-of-all-rallies-meets-counter-protesters/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-7"}'>Dueling demonstrations in D.C. as "Mother of All Rallies" meets counter-protesters</h3></a>
+
+    <a href="/videos/dueling-demonstrations-in-d-c-as-mother-of-all-rallies-meets-counter-protesters/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-7"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/fe934579-ded5-4657-a9a0-3bf424a8ae53/thumbnail/140x90/36a4a2e917e4c4757f6b9e1985a023ec/0916-en-dcrallies-pegues-1398162-640x360.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/fe934579-ded5-4657-a9a0-3bf424a8ae53/thumbnail/140x90/36a4a2e917e4c4757f6b9e1985a023ec/0916-en-dcrallies-pegues-1398162-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/16/fe934579-ded5-4657-a9a0-3bf424a8ae53/thumbnail/280x180/0849d5e48444bd16c8dc7eb32a690c35/0916-en-dcrallies-pegues-1398162-640x360.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/videos/dueling-demonstrations-in-d-c-as-mother-of-all-rallies-meets-counter-protesters/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-7"}'>
+            <p class="dek">
+    Supporters of President Trump staged what was billed as the "Mother of All Rallies" in Washington, D.C., on Saturday. Thousands of counter-protesters showed up as well. Jeff Pegues has more.</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/videos/dueling-demonstrations-in-d-c-as-mother-of-all-rallies-meets-counter-protesters/">
+                    <span class="meta-prep">On</span>
+                                            <span class="date">Sep 17, 2017 1:34 AM EDT</span>
+            
+            </a>
+    
+    <a href="/videos/dueling-demonstrations-in-d-c-as-mother-of-all-rallies-meets-counter-protesters/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+                          <span class="pipe"></span>
+            <span class="meta-prep">Play</span>
+            <span class="play-video">Video</span>
+        
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/videos/white-house-denies-report-that-trump-may-be-ready-to-reverse-course-on-paris-accord/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-8"}'>White House denies report that Trump may be ready to reverse course on Paris accord</h3></a>
+
+    <a href="/videos/white-house-denies-report-that-trump-may-be-ready-to-reverse-course-on-paris-accord/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-8"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/7c54dac7-974b-4833-af34-a9066543bb93/thumbnail/140x90/f2bbcf7c3cc416d3dd9aba54223a90c7/0916-en-trumpclimateagreement-1398155-640x360.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/7c54dac7-974b-4833-af34-a9066543bb93/thumbnail/140x90/f2bbcf7c3cc416d3dd9aba54223a90c7/0916-en-trumpclimateagreement-1398155-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/7c54dac7-974b-4833-af34-a9066543bb93/thumbnail/280x180/b1608f968d79c7055d99bcfb4310bc33/0916-en-trumpclimateagreement-1398155-640x360.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/videos/white-house-denies-report-that-trump-may-be-ready-to-reverse-course-on-paris-accord/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-8"}'>
+            <p class="dek">
+    The White House is denying a report that President Trump may be ready to reverse his decision to withdraw from the Paris climate accord. Errol Barnett reports.</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/videos/white-house-denies-report-that-trump-may-be-ready-to-reverse-course-on-paris-accord/">
+                    <span class="meta-prep">On</span>
+                                            <span class="date">Sep 17, 2017 1:33 AM EDT</span>
+            
+            </a>
+    
+    <a href="/videos/white-house-denies-report-that-trump-may-be-ready-to-reverse-course-on-paris-accord/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+                          <span class="pipe"></span>
+            <span class="meta-prep">Play</span>
+            <span class="play-video">Video</span>
+        
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/videos/suspect-arrested-in-connection-to-london-terror-bombing/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-9"}'>Suspect arrested in connection to London terror bombing</h3></a>
+
+    <a href="/videos/suspect-arrested-in-connection-to-london-terror-bombing/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-9"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/c02667ac-8d36-4dfa-b113-3a3edeae481d/thumbnail/140x90/973213a4829de5acb95deda1287b903a/0916-en-londonbombing-dagata-1398144-640x360.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/c02667ac-8d36-4dfa-b113-3a3edeae481d/thumbnail/140x90/973213a4829de5acb95deda1287b903a/0916-en-londonbombing-dagata-1398144-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/16/c02667ac-8d36-4dfa-b113-3a3edeae481d/thumbnail/280x180/cbd0547239cdba26984144c4b5b373f0/0916-en-londonbombing-dagata-1398144-640x360.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/videos/suspect-arrested-in-connection-to-london-terror-bombing/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-9"}'>
+            <p class="dek">
+    An 18-year-old man was arrested Saturday in connection with the bombing of a London subway train. The attack on Friday morning injured 30 people and ISIS has claimed responsibility. Charlie D'Agata reports.</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/videos/suspect-arrested-in-connection-to-london-terror-bombing/">
+                    <span class="meta-prep">On</span>
+                                            <span class="date">Sep 17, 2017 1:31 AM EDT</span>
+            
+            </a>
+    
+    <a href="/videos/suspect-arrested-in-connection-to-london-terror-bombing/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+                          <span class="pipe"></span>
+            <span class="meta-prep">Play</span>
+            <span class="play-video">Video</span>
+        
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/news/north-korea-shows-advance-in-missile-tech-and-sanctions-wont-stop-it/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-10"}'>N. Korea shows advance in missile tech, and sanctions won't stop it</h3></a>
+
+    <a href="/news/north-korea-shows-advance-in-missile-tech-and-sanctions-wont-stop-it/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-10"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/15/3c5f6b31-4686-490c-8ab0-452ade2cbaf0/thumbnail/140x90/aa522e934b6b5e988861ec28a2990d4e/a12-martin-northkorea-transfer-frame-962.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/15/3c5f6b31-4686-490c-8ab0-452ade2cbaf0/thumbnail/140x90/aa522e934b6b5e988861ec28a2990d4e/a12-martin-northkorea-transfer-frame-962.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/15/3c5f6b31-4686-490c-8ab0-452ade2cbaf0/thumbnail/280x180/5709ed35a028348225c993568d128981/a12-martin-northkorea-transfer-frame-962.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/north-korea-shows-advance-in-missile-tech-and-sanctions-wont-stop-it/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-10"}'>
+            <p class="dek">
+For the first time, North Korea launched an intermediate range missile from a mobile transporter</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/news/north-korea-shows-advance-in-missile-tech-and-sanctions-wont-stop-it/">
+                    <span class="meta-prep">On</span>
+                            <span class="date">Sep 15, 2017 7:15 PM EDT</span>
+            
+            </a>
+    
+    <a href="/news/north-korea-shows-advance-in-missile-tech-and-sanctions-wont-stop-it/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+              
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/news/after-heartfelt-letter-woman-steps-in-to-help-lonely-neighbor-in-need/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-11"}'>After heartfelt letter, woman steps in to help neighbor in need</h3></a>
+
+    <a href="/news/after-heartfelt-letter-woman-steps-in-to-help-lonely-neighbor-in-need/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-11"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/e88979f4-2107-44af-9f4d-956b4ac0bbec/thumbnail/140x90/8638bc6de97ec19ac50eec145171af1f/hartman-neighbor-0915en.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/e88979f4-2107-44af-9f4d-956b4ac0bbec/thumbnail/140x90/8638bc6de97ec19ac50eec145171af1f/hartman-neighbor-0915en.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/15/e88979f4-2107-44af-9f4d-956b4ac0bbec/thumbnail/280x180/60864a77e1df8a6df752d6e72979c61e/hartman-neighbor-0915en.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/after-heartfelt-letter-woman-steps-in-to-help-lonely-neighbor-in-need/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-11"}'>
+            <p class="dek">
+A few months ago, Marleen Brooks got a letter in the mail that began "Mrs. ?, Would you consider to become my friend?"</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/news/after-heartfelt-letter-woman-steps-in-to-help-lonely-neighbor-in-need/">
+                    <span class="meta-prep">On</span>
+                            <span class="date">Sep 15, 2017 6:54 PM EDT</span>
+            
+            </a>
+    
+    <a href="/news/after-heartfelt-letter-woman-steps-in-to-help-lonely-neighbor-in-need/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+              
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/videos/nasa-says-goodbye-to-cassini-probe-which-improved-our-understanding-of-saturn/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-12"}'>NASA says goodbye to Cassini probe, which improved our understanding of Saturn</h3></a>
+
+    <a href="/videos/nasa-says-goodbye-to-cassini-probe-which-improved-our-understanding-of-saturn/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-12"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/b20cbee7-f0b9-45bd-a09b-cc4eac8d0b98/thumbnail/140x90/dc486e820898b0fc78bcbe215fca1932/0915-en-yuccas-nasa-1397577-640x360.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/b20cbee7-f0b9-45bd-a09b-cc4eac8d0b98/thumbnail/140x90/dc486e820898b0fc78bcbe215fca1932/0915-en-yuccas-nasa-1397577-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/15/b20cbee7-f0b9-45bd-a09b-cc4eac8d0b98/thumbnail/280x180/c7a7852f4926c12a6f6345598848062d/0915-en-yuccas-nasa-1397577-640x360.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/videos/nasa-says-goodbye-to-cassini-probe-which-improved-our-understanding-of-saturn/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-12"}'>
+            <p class="dek">
+    A journey that spanned two decades and nearly 5 billion miles came to a fiery ending on Friday. NASA's Cassini space probe, which sent back thousands of images of Saturn, slammed into the ringed planet's atmosphere at 77,000 miles an hour. Jamie Yuccas reports.</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/videos/nasa-says-goodbye-to-cassini-probe-which-improved-our-understanding-of-saturn/">
+                    <span class="meta-prep">On</span>
+                                            <span class="date">Sep 16, 2017 1:46 AM EDT</span>
+            
+            </a>
+    
+    <a href="/videos/nasa-says-goodbye-to-cassini-probe-which-improved-our-understanding-of-saturn/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+                          <span class="pipe"></span>
+            <span class="meta-prep">Play</span>
+            <span class="play-video">Video</span>
+        
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/videos/protesters-take-to-st-louis-streets-after-a-judge-acquits-former-cop-accused-of-murder/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-13"}'>Protesters take to St. Louis streets after a judge acquits former cop accused of murder</h3></a>
+
+    <a href="/videos/protesters-take-to-st-louis-streets-after-a-judge-acquits-former-cop-accused-of-murder/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-13"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/15/b130497a-6b90-421f-b74e-7af17d1d72ae/thumbnail/140x90/2ca997b28f847ef44c5deb44391f5a3e/0915-en-reynolds-proteststlouis-1397571-640x360.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/15/b130497a-6b90-421f-b74e-7af17d1d72ae/thumbnail/140x90/2ca997b28f847ef44c5deb44391f5a3e/0915-en-reynolds-proteststlouis-1397571-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/b130497a-6b90-421f-b74e-7af17d1d72ae/thumbnail/280x180/d2c01a60327566bb52a8316aacf0e6dc/0915-en-reynolds-proteststlouis-1397571-640x360.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/videos/protesters-take-to-st-louis-streets-after-a-judge-acquits-former-cop-accused-of-murder/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-13"}'>
+            <p class="dek">
+    Protesters marched through the streets of St. Louis on Friday after a judge acquitted former police officer Jason Stockley of first degree murder in the shooting death of Anthony Lamar Smith, a suspected drug dealer. Prosecutors said Stockley planted a gun after he shot Smith. Dean Reynolds has more.</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/videos/protesters-take-to-st-louis-streets-after-a-judge-acquits-former-cop-accused-of-murder/">
+                    <span class="meta-prep">On</span>
+                                            <span class="date">Sep 16, 2017 1:41 AM EDT</span>
+            
+            </a>
+    
+    <a href="/videos/protesters-take-to-st-louis-streets-after-a-judge-acquits-former-cop-accused-of-murder/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+                          <span class="pipe"></span>
+            <span class="meta-prep">Play</span>
+            <span class="play-video">Video</span>
+        
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/videos/trump-calls-on-espn-to-fire-anchor-for-calling-him-a-white-supremacist/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-14"}'>Trump calls on ESPN to fire anchor for calling him a white supremacist</h3></a>
+
+    <a href="/videos/trump-calls-on-espn-to-fire-anchor-for-calling-him-a-white-supremacist/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-14"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/df390060-142f-46fc-8982-6bda6a8a84b0/thumbnail/140x90/b6b42cf374ec74dc5115c7a3177c1fca/0915-en-goldman-espnanchor-1397565-640x360.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/df390060-142f-46fc-8982-6bda6a8a84b0/thumbnail/140x90/b6b42cf374ec74dc5115c7a3177c1fca/0915-en-goldman-espnanchor-1397565-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/15/df390060-142f-46fc-8982-6bda6a8a84b0/thumbnail/280x180/cfb1cd829074a77535482de0d4f3307a/0915-en-goldman-espnanchor-1397565-640x360.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/videos/trump-calls-on-espn-to-fire-anchor-for-calling-him-a-white-supremacist/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-14"}'>
+            <p class="dek">
+    In what may be an unprecedented move, the White House appeared to call for a TV personality to be fired. It followed a tweet earlier this week by ESPN anchor Jemele Hill in which she called the president "a white supremacist who has largely surrounded himself with other white supremacists." Julianna Goldman has more.</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/videos/trump-calls-on-espn-to-fire-anchor-for-calling-him-a-white-supremacist/">
+                    <span class="meta-prep">On</span>
+                                            <span class="date">Sep 16, 2017 1:39 AM EDT</span>
+            
+            </a>
+    
+    <a href="/videos/trump-calls-on-espn-to-fire-anchor-for-calling-him-a-white-supremacist/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+                          <span class="pipe"></span>
+            <span class="meta-prep">Play</span>
+            <span class="play-video">Video</span>
+        
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/videos/why-new-u-n-sanctions-on-north-korea-likely-wont-have-much-bite/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-15"}'>Why new U.N. sanctions on North Korea likely won't have much bite</h3></a>
+
+    <a href="/videos/why-new-u-n-sanctions-on-north-korea-likely-wont-have-much-bite/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-15"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/aab9bbb9-43af-44ea-a09a-f5288ac790c4/thumbnail/140x90/b660c06d2432c50bc990d6f810aad019/0915-en-tracy-unsanctions-1397555-640x360.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/aab9bbb9-43af-44ea-a09a-f5288ac790c4/thumbnail/140x90/b660c06d2432c50bc990d6f810aad019/0915-en-tracy-unsanctions-1397555-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/aab9bbb9-43af-44ea-a09a-f5288ac790c4/thumbnail/280x180/6eef2c3d9ef88cd3fe952edc1398b252/0915-en-tracy-unsanctions-1397555-640x360.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/videos/why-new-u-n-sanctions-on-north-korea-likely-wont-have-much-bite/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-15"}'>
+            <p class="dek">
+    New U.N. sanctions against North Korea's oil imports are not likely to have much impact on the Hermit Kingdom's provocations. Ben Tracy reports from Beijing.</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/videos/why-new-u-n-sanctions-on-north-korea-likely-wont-have-much-bite/">
+                    <span class="meta-prep">On</span>
+                                            <span class="date">Sep 16, 2017 1:38 AM EDT</span>
+            
+            </a>
+    
+    <a href="/videos/why-new-u-n-sanctions-on-north-korea-likely-wont-have-much-bite/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+                          <span class="pipe"></span>
+            <span class="meta-prep">Play</span>
+            <span class="play-video">Video</span>
+        
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/videos/north-korea-fired-another-missile-over-japan-showing-new-weapon-development/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-16"}'>North Korea fired another missile over Japan, showing new weapon development</h3></a>
+
+    <a href="/videos/north-korea-fired-another-missile-over-japan-showing-new-weapon-development/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-16"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/cf0b76ae-396a-497e-95c4-841c778df559/thumbnail/140x90/455d6cdfce3b0afffa11f7b34ff07c26/0915-en-martin-northkoreamissile-1397544-640x360.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/cf0b76ae-396a-497e-95c4-841c778df559/thumbnail/140x90/455d6cdfce3b0afffa11f7b34ff07c26/0915-en-martin-northkoreamissile-1397544-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/15/cf0b76ae-396a-497e-95c4-841c778df559/thumbnail/280x180/56cdafb3a9627962b8ca5bd32ae41573/0915-en-martin-northkoreamissile-1397544-640x360.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/videos/north-korea-fired-another-missile-over-japan-showing-new-weapon-development/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-16"}'>
+            <p class="dek">
+    North Korea fired another intermediate range missile over Japan, a significant development that shows Kim Jong Un can fire a long range weapon with little to no warning. David Martin reports.</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/videos/north-korea-fired-another-missile-over-japan-showing-new-weapon-development/">
+                    <span class="meta-prep">On</span>
+                                            <span class="date">Sep 16, 2017 1:35 AM EDT</span>
+            
+            </a>
+    
+    <a href="/videos/north-korea-fired-another-missile-over-japan-showing-new-weapon-development/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+                          <span class="pipe"></span>
+            <span class="meta-prep">Play</span>
+            <span class="play-video">Video</span>
+        
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/videos/nypds-john-miller-juggernaut-of-propaganda-coming-from-terror-groups/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-17"}'>NYPD's John Miller: "Juggernaut of propaganda" coming from terror groups</h3></a>
+
+    <a href="/videos/nypds-john-miller-juggernaut-of-propaganda-coming-from-terror-groups/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-17"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/15/7e8c753f-c0fb-4f34-a11c-d2b3af198a59/thumbnail/140x90/e7e44f9b5696d0964e141ca5a67bf2bf/0915-en-miller-nypd-1397541-640x360.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/15/7e8c753f-c0fb-4f34-a11c-d2b3af198a59/thumbnail/140x90/e7e44f9b5696d0964e141ca5a67bf2bf/0915-en-miller-nypd-1397541-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/15/7e8c753f-c0fb-4f34-a11c-d2b3af198a59/thumbnail/280x180/37ff5f3cf09c59f987918626c30488a7/0915-en-miller-nypd-1397541-640x360.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/videos/nypds-john-miller-juggernaut-of-propaganda-coming-from-terror-groups/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-17"}'>
+            <p class="dek">
+    John Miller, deputy commissioner of intelligence and counterterrorism for the NYPD, discusses Friday's bombing in London and how New York authorities are working to prevent similar attacks.</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/videos/nypds-john-miller-juggernaut-of-propaganda-coming-from-terror-groups/">
+                    <span class="meta-prep">On</span>
+                                            <span class="date">Sep 16, 2017 1:33 AM EDT</span>
+            
+            </a>
+    
+    <a href="/videos/nypds-john-miller-juggernaut-of-propaganda-coming-from-terror-groups/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+                          <span class="pipe"></span>
+            <span class="meta-prep">Play</span>
+            <span class="play-video">Video</span>
+        
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/videos/bomb-explodes-in-london-underground-injuring-more-than-a-dozen-people/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-18"}'>Bomb explodes in London Underground, injuring more than a dozen people</h3></a>
+
+    <a href="/videos/bomb-explodes-in-london-underground-injuring-more-than-a-dozen-people/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-18"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/be54ee5f-0280-40ab-aaa3-b76673efdd9f/thumbnail/140x90/a52bdd5dc6cca5e1d0a04379e435db98/0915-en-dagata-londonterror-1397537-640x360.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/be54ee5f-0280-40ab-aaa3-b76673efdd9f/thumbnail/140x90/a52bdd5dc6cca5e1d0a04379e435db98/0915-en-dagata-londonterror-1397537-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/15/be54ee5f-0280-40ab-aaa3-b76673efdd9f/thumbnail/280x180/bd92c07b0ae0fcb9d60361cbb1396c93/0915-en-dagata-londonterror-1397537-640x360.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/videos/bomb-explodes-in-london-underground-injuring-more-than-a-dozen-people/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-18"}'>
+            <p class="dek">
+    A homemade bomb went off Friday on a crowded commuter train in London. No one was killed, but more than two dozen people were injured. ISIS claimed responsibility. It was the fifth major terror attack in Britain this year. Charlie D'Agata has more.</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/videos/bomb-explodes-in-london-underground-injuring-more-than-a-dozen-people/">
+                    <span class="meta-prep">On</span>
+                                            <span class="date">Sep 16, 2017 1:31 AM EDT</span>
+            
+            </a>
+    
+    <a href="/videos/bomb-explodes-in-london-underground-injuring-more-than-a-dozen-people/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+                          <span class="pipe"></span>
+            <span class="meta-prep">Play</span>
+            <span class="play-video">Video</span>
+        
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/news/is-there-a-deal-on-daca-conflicting-accounts-spur-confusion/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-19"}'>Is there a deal to help "Dreamers"?</h3></a>
+
+    <a href="/news/is-there-a-deal-on-daca-conflicting-accounts-spur-confusion/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-19"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/15/731d2f33-3005-4a0b-8d40-95eaba935b16/thumbnail/140x90/03a2f6ce46841ec546e76721581f14b4/a5-goldman-cordes-daca-transfer2.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/15/731d2f33-3005-4a0b-8d40-95eaba935b16/thumbnail/140x90/03a2f6ce46841ec546e76721581f14b4/a5-goldman-cordes-daca-transfer2.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/15/731d2f33-3005-4a0b-8d40-95eaba935b16/thumbnail/280x180/6b6abf99406f10459a1e65d003725da4/a5-goldman-cordes-daca-transfer2.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/is-there-a-deal-on-daca-conflicting-accounts-spur-confusion/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-19"}'>
+            <p class="dek">
+CBS News' Nancy Cordes reports from Capitol Hill and Julianna Goldman reports from the White House</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/news/is-there-a-deal-on-daca-conflicting-accounts-spur-confusion/">
+                    <span class="meta-prep">On</span>
+                            <span class="date">Sep 14, 2017 8:38 PM EDT</span>
+            
+            </a>
+    
+    <a href="/news/is-there-a-deal-on-daca-conflicting-accounts-spur-confusion/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+              
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+                
+
+
+ 
+
+
+
+<li>
+    
+    <a href="/news/florida-keys-relief-resident-helps-neighbors-irma/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Headline-20"}'>Florida Keys resident helps neighbors connect with the outside world</h3></a>
+
+    <a href="/news/florida-keys-relief-resident-helps-neighbors-irma/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Image-20"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/14/908c6dd9-d9de-43d2-8505-c8bd7d572017/thumbnail/140x90/f9281edeebe9192da708590a8b7d2070/evening-news-1830-clean-20170914-cr470c-01-frame-20386.jpg#" alt=" " height="90" width="140" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/14/908c6dd9-d9de-43d2-8505-c8bd7d572017/thumbnail/140x90/f9281edeebe9192da708590a8b7d2070/evening-news-1830-clean-20170914-cr470c-01-frame-20386.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/14/908c6dd9-d9de-43d2-8505-c8bd7d572017/thumbnail/280x180/dbd35a0e0525ae48ed872ffa1471d04c/evening-news-1830-clean-20170914-cr470c-01-frame-20386.jpg 2x"></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/florida-keys-relief-resident-helps-neighbors-irma/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "CBS Evening News|Hard News|Asset|Dek-20"}'>
+            <p class="dek">
+Word is spreading about Harold Davis, who never got rid of his landline phone</p>
+        </a>
+                    
+
+<p class="meta">
+    <a href="/news/florida-keys-relief-resident-helps-neighbors-irma/">
+                    <span class="meta-prep">On</span>
+                            <span class="date">Sep 14, 2017 7:53 PM EDT</span>
+            
+            </a>
+    
+    <a href="/news/florida-keys-relief-resident-helps-neighbors-irma/">
+              <span class="pipe"></span>
+        <span class="topic">CBS Evening News</span>
+      
+              
+                  </a>
+
+</p>
+            </div>
+
+    
+
+    
+
+</li>
+
+
+        </ul><!-- if pushState work, hide this exrtral load more link. otherwise for ie8 and ie9, let's have this load more button(link) displayed --><div id="no_js3" style="display:block" class="load-more"><a href="/latest/evening-news/2/"><span class="text">Load More </span></a></div>
+    </div>
+
+
+                                                                
+                                    <!-- Component template not found: familyName: editorial typeName: mixed_editorial - view: null -->
+                                                </div>
+        
+            
+            
+    <div class="col-4 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    <div class="module module-listing module-livestream-player" id="fdWrapperCBSN" data-component="stickyPlayer">
+            <h2 class="module-heading title">CBSN Live</h2>
+            <a href="" class="popout-icon">pop-out</a>
+            <div class="livestream-player-wrapper" data-component="smartBanner" data-smart-banner-options='{"url":"https:\/\/www.cbsnews.com\/live\/?ftag=CNMe94798","bannerAnchorSelector":"","bannerVisibleClass":"livestream-player--visible","bannerHiddenClass":"livestream-player--hidden","cookieName":"viewabilityPlayerState","retryDays":0,"hideDays":1,"hideOnZoom":false}'>
+            <a class="smart-banner--close" role="button" aria-controls="livestream-player-wrapper" data-label-hidden="collapse video player" data-label-visible="expand video player">
+                <span class="smart-banner--close-x"></span>
+            </a>
+            <div class="livestream-video-player">
+                <div class="live-text"><span class="live-text-icon"></span></div>
+                <div class="watch-live"><span class="watch-live-icon"></span></div>
+                <div class="fd-video-player" id="cndcVideoPlayer">
+                    <video id="cndcVideoPlayer__video" muted autoplay webkit-playsinline playsinline data-component="hlsWrapper"><source src="/common/video/cbsn_header_prod.m3u8" type="application/vnd.apple.mpegurl"></source></video></div>
+            </div>
+            <div class="cbsnews-live-logo"><span class="cbsn-logo"></span></div>
+        </div>
+        <div id="marquee300-middle-59be6ca22791e" class="ad-marquee300-middle" data-ad="marquee300-middle" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing marquee300-middle-59be6ca22791e for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("marquee300-middle-59be6ca22791e");
+    </script></div>
+
+    </div>
+
+
+
+<script type="text/javascript">
+    var player = document.getElementsByClassName('livestream-video-player')[0];
+    var logo = document.getElementsByClassName('cbsnews-live-logo')[0];
+    var elements = [player, logo];
+    
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].addEventListener("click", function(){
+            om.trackVideoClick({'moduleInfo': 'Right Rail|CBSN LIVE Promo|MainImage'});
+            window.location.href = 'https://www.cbsnews.com/live/?ftag=CNMe94798';
+        }, false);
+    }
+
+    var popouticon = document.getElementsByClassName('popout-icon')[0];
+    popouticon.addEventListener("click", function(e){
+        e.preventDefault();
+        om.trackVideoClick({'moduleInfo': 'Right Rail|CBSN LIVE Promo|PopOutImage'});
+        window.open('https://www.cbsnews.com/live/compact/?ftag=CNMe94798', 'CBSNews Live', 'width=418, height=330');
+    }, false);
+</script><div id="mpu-top-59be6ca22791e" class="ad-mpu-top" data-ad="mpu-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-top-59be6ca22791e for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-top-59be6ca22791e");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+<div class="module module-listing" id="module-60-minutes-latest-published-auto">
+    <h2 class="module-heading title">From "60 Minutes"</h2>
+
+    
+<div class="listing-mini-sub ">
+    <ul class="media-list items"><li>
+          <a href="/news/60-minutes-breitbart-steve-bannon-declares-war-on-the-gop/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/c9e1257c-0d01-4a10-961f-f5cacae94a70/thumbnail/60x60/76813d19ed0e82d2c4520a44ebc20d69/steve-bannon-charlie-rose-60-minutes-two-shot.jpg#" alt=" " height="60" width="60" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/c9e1257c-0d01-4a10-961f-f5cacae94a70/thumbnail/60x60/76813d19ed0e82d2c4520a44ebc20d69/steve-bannon-charlie-rose-60-minutes-two-shot.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/07/c9e1257c-0d01-4a10-961f-f5cacae94a70/thumbnail/120x120/ad617f86bc1ce2f312d92d29728858da/steve-bannon-charlie-rose-60-minutes-two-shot.jpg 2x"></span>
+        </figure><div class="media-body">
+            <h4 class="title">Breitbart's Steve Bannon declares war on the GOP
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/bannon-interview-highlights-and-excerpts/?ftag=CNM-00-10aab0g">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/10/37dc3812-bcb2-4bba-bf39-65a18009e5cb/thumbnail/60x60/3670ce72c24a80fd20eb4ae954887785/ot-bannonbroadcastliftsfd.jpg#" alt=" " height="60" width="60" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/10/37dc3812-bcb2-4bba-bf39-65a18009e5cb/thumbnail/60x60/3670ce72c24a80fd20eb4ae954887785/ot-bannonbroadcastliftsfd.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/10/37dc3812-bcb2-4bba-bf39-65a18009e5cb/thumbnail/120x120/37a0969fc107c4ccf893bffd6d7a0b11/ot-bannonbroadcastliftsfd.jpg 2x"></span>
+        </figure><div class="media-body">
+            <h4 class="title">The Bannon interview: highlights and excerpts
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/steve-bannon-more-from-60-minutes/?ftag=CNM-00-10aab0g">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/10/2a231a59-406c-45df-9c2d-e63fcae9d70f/thumbnail/60x60/9e94dcb5d7776093cd5c0cd43b815ec5/ot-bannonclipsfd.jpg#" alt=" " height="60" width="60" srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/10/2a231a59-406c-45df-9c2d-e63fcae9d70f/thumbnail/60x60/9e94dcb5d7776093cd5c0cd43b815ec5/ot-bannonclipsfd.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/10/2a231a59-406c-45df-9c2d-e63fcae9d70f/thumbnail/120x120/941e02222df0876c61353dfe78fb8de1/ot-bannonclipsfd.jpg 2x"></span>
+        </figure><div class="media-body">
+            <h4 class="title">Steve Bannon's not done ...
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/60-minutes-arctic-frontier-lesley-stahl-2/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/09/30/ccdd6383-0386-4e09-b933-7fb2320a3ce7/thumbnail/60x60/da3dac528e1bc2c1fbe3149785631769/arctic-region.jpg#" alt=" " height="60" width="60" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/09/30/ccdd6383-0386-4e09-b933-7fb2320a3ce7/thumbnail/60x60/da3dac528e1bc2c1fbe3149785631769/arctic-region.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2016/09/30/ccdd6383-0386-4e09-b933-7fb2320a3ce7/thumbnail/120x120/9f147938cefb15b687f15c116e382f90/arctic-region.jpg 2x"></span>
+        </figure><div class="media-body">
+            <h4 class="title">The Arctic Frontier
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/60-minutes-in-the-arctic-every-shot-hurt/?ftag=CNM-00-10aab0g">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/10/02/7018d507-b6c1-4554-ae6d-fd6b37492447/thumbnail/60x60/287d4ab27d98048518495db959618bcf/ot-arcticfd-copy.jpg#" alt=" " height="60" width="60" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/10/02/7018d507-b6c1-4554-ae6d-fd6b37492447/thumbnail/60x60/287d4ab27d98048518495db959618bcf/ot-arcticfd-copy.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2016/10/02/7018d507-b6c1-4554-ae6d-fd6b37492447/thumbnail/120x120/3cc7b0a505cd0f1517b0e307d5acd173/ot-arcticfd-copy.jpg 2x"></span>
+        </figure><div class="media-body">
+            <h4 class="title">"60 Minutes" in the Arctic: Every shot hurt
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                        </ul></div></div>
+
+
+                                                                
+                                    
+                                            
+            
+<div class="listing-media-feature" data-component="carousel" data-carousel-options='{"autoplayDelay":0,"transitionDuration":0}'>
+    <div class="viewport" data-item="viewport">
+        <ul class="canvas" data-item="canvas"><li data-item="slide">
+    
+
+
+
+
+
+    
+<div class="media-feature">
+		<a href="/videos/significant-arrest-made-in-london-subway-bombing-2/" title="Arrest made in U.K. subway bombing">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Image-1"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/9253f989-3a95-4fa2-8274-41f09888a3dd/thumbnail/300x190/b56125d63fd1f43dc86dc24410cee605/0916-satmo-londonbombing-1397744-640x360.jpg#" alt=" " height="190" width="300" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/9253f989-3a95-4fa2-8274-41f09888a3dd/thumbnail/300x190/b56125d63fd1f43dc86dc24410cee605/0916-satmo-londonbombing-1397744-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/16/9253f989-3a95-4fa2-8274-41f09888a3dd/thumbnail/600x380/c7924321a87c3ab98ac626dc44f44d47/0916-satmo-londonbombing-1397744-640x360.jpg 2x"></span>
+
+            <div class="meta-overlay overlay-video-feature">
+                <span class="asset-icon video" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Button-1"}'></span>
+                <div class="meta-label">
+                                            <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Play-1"}'>Play</span>
+                        <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Play-1"}'>Video</span>
+                                    </div>
+
+                <h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Headline-1"}'>Arrest made in U.K. subway bombing</h3>
+            </div>
+        </figure></a>
+</div>
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+
+
+    
+<div class="media-feature">
+		<a href="/videos/protests-in-st-louis-over-former-cop-cleared-in-deadly-shooting/" title="Cop's acquittal sparks protests">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Image-2"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/edbeb7e3-11e2-40db-acaa-3b0dff2fcbea/thumbnail/300x190/f0859c103695323c3914d6565f62b1e6/0916-satmo-stlouiscopverdict-1397748-640x360.jpg#" alt=" " height="190" width="300" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/edbeb7e3-11e2-40db-acaa-3b0dff2fcbea/thumbnail/300x190/f0859c103695323c3914d6565f62b1e6/0916-satmo-stlouiscopverdict-1397748-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/16/edbeb7e3-11e2-40db-acaa-3b0dff2fcbea/thumbnail/600x380/d2fbc235af9fe2ef24536f86bf4413ac/0916-satmo-stlouiscopverdict-1397748-640x360.jpg 2x"></span>
+
+            <div class="meta-overlay overlay-video-feature">
+                <span class="asset-icon video" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Button-2"}'></span>
+                <div class="meta-label">
+                                            <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Play-2"}'>Play</span>
+                        <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Play-2"}'>Video</span>
+                                    </div>
+
+                <h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Headline-2"}'>Cop's acquittal sparks protests</h3>
+            </div>
+        </figure></a>
+</div>
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+
+
+    
+<div class="media-feature">
+		<a href="/videos/cassini-space-probe-ends-its-20-year-journey/" title="Cassini probe ends its journey">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Image-3"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/43e76f32-2a0f-468b-8d0f-f295e3f815d2/thumbnail/300x190/f1d158fb0def461eebdfd14c9235da47/0916-satmo-cassiniprobe-1397802-640x360.jpg#" alt=" " height="190" width="300" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/43e76f32-2a0f-468b-8d0f-f295e3f815d2/thumbnail/300x190/f1d158fb0def461eebdfd14c9235da47/0916-satmo-cassiniprobe-1397802-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/16/43e76f32-2a0f-468b-8d0f-f295e3f815d2/thumbnail/600x380/3606c4b20f47e463475b2c3be9d390bd/0916-satmo-cassiniprobe-1397802-640x360.jpg 2x"></span>
+
+            <div class="meta-overlay overlay-video-feature">
+                <span class="asset-icon video" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Button-3"}'></span>
+                <div class="meta-label">
+                                            <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Play-3"}'>Play</span>
+                        <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Play-3"}'>Video</span>
+                                    </div>
+
+                <h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Headline-3"}'>Cassini probe ends its journey</h3>
+            </div>
+        </figure></a>
+</div>
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+
+
+    
+<div class="media-feature">
+		<a href="/videos/trump-to-embrace-allies-warn-foes-in-u-n-speech-debut/" title="Trump to make U.N. speech debut">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Image-4"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/16/beebac23-351a-4560-a158-bafbee8e6eda/thumbnail/300x190/ea3bc33d2e8c40112df14d8def69ad0e/0916-satmo-trumpungapreview-1397756-640x360.jpg#" alt=" " height="190" width="300" srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/16/beebac23-351a-4560-a158-bafbee8e6eda/thumbnail/300x190/ea3bc33d2e8c40112df14d8def69ad0e/0916-satmo-trumpungapreview-1397756-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/beebac23-351a-4560-a158-bafbee8e6eda/thumbnail/600x380/2ee99156c472919df57200612a0f2306/0916-satmo-trumpungapreview-1397756-640x360.jpg 2x"></span>
+
+            <div class="meta-overlay overlay-video-feature">
+                <span class="asset-icon video" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Button-4"}'></span>
+                <div class="meta-label">
+                                            <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Play-4"}'>Play</span>
+                        <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Play-4"}'>Video</span>
+                                    </div>
+
+                <h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Headline-4"}'>Trump to make U.N. speech debut</h3>
+            </div>
+        </figure></a>
+</div>
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+
+
+    
+<div class="media-feature">
+		<a href="/videos/breaking-down-the-single-payer-healthcare-bill/" title="Single-payer health bill feasible?">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Image-5"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/16/b2971782-7bbf-4027-b0ca-b7eb66e9cbba/thumbnail/300x190/500629e2d4074456b4d9b1eb5d14a1fc/0916-satmo-singlepayerhealthcare-1397806-640x360.jpg#" alt=" " height="190" width="300" srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/16/b2971782-7bbf-4027-b0ca-b7eb66e9cbba/thumbnail/300x190/500629e2d4074456b4d9b1eb5d14a1fc/0916-satmo-singlepayerhealthcare-1397806-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/b2971782-7bbf-4027-b0ca-b7eb66e9cbba/thumbnail/600x380/36313642b939c38fd28abb725911a116/0916-satmo-singlepayerhealthcare-1397806-640x360.jpg 2x"></span>
+
+            <div class="meta-overlay overlay-video-feature">
+                <span class="asset-icon video" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Button-5"}'></span>
+                <div class="meta-label">
+                                            <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Play-5"}'>Play</span>
+                        <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Play-5"}'>Video</span>
+                                    </div>
+
+                <h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Video Promo|Asset|Headline-5"}'>Single-payer health bill feasible?</h3>
+            </div>
+        </figure></a>
+</div>
+</li>                    </ul><div class="paging">
+            <a class="prev" data-to="prev" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail|Media Promo|Carousel|Left-4"}'>Previous</a>
+            
+            <a class="next" data-to="next" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail|Media Promo|Carousel|Right-4"}'>Next</a>
+        </div>
+    </div>
+</div>    
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-taboola-recommended-article">
+      <h2 class="module-heading title">Recommended</h2>
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <div data-taboola='{"mode":"alternating-thumbnails-rr","placement":"Right Rail Thumbnails"}'></div></li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+
+<div class="module module-listing" id="module-right-rail-most-shared">
+    <h2 class="module-heading title">Most Shared on CBS News</h2>
+
+    
+<div class="listing-mini-sub ">
+    <ul class="media-list items"><li>
+          <a href="/news/hand-in-hand-hurricane-harvey-telethon-benefit-as-it-happened/">
+            <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Shared|Image-1"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/05/845b3331-8142-4131-9a1e-ece31c5c03f1/thumbnail/60x60/08adbab7158e1a6d6aeb6ce2faa93d52/hand-in-hand-telethon.png#" alt=" " height="60" width="60" srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/05/845b3331-8142-4131-9a1e-ece31c5c03f1/thumbnail/60x60/08adbab7158e1a6d6aeb6ce2faa93d52/hand-in-hand-telethon.png 1x"></span>
+        </figure><div class="media-body">
+            <h4 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Shared|Headline-1"}'>More than $44M raised in Hurricane Harvey telethon
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/nun-with-chainsaw-hurricane-irma-aftermath-cleanup/">
+            <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Shared|Image-2"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/13/695c38e0-7c95-4fdd-b394-96564c0f96da/thumbnail/60x60/8f365fc9600be4e4c5963377da9a4821/nun-grabs-chain-saw-to-clear-trees-in-miami-post-irma-0917.jpg#" alt=" " height="60" width="60" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/13/695c38e0-7c95-4fdd-b394-96564c0f96da/thumbnail/60x60/8f365fc9600be4e4c5963377da9a4821/nun-grabs-chain-saw-to-clear-trees-in-miami-post-irma-0917.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/13/695c38e0-7c95-4fdd-b394-96564c0f96da/thumbnail/120x120/1f3eed38328ac62651122b070408ee51/nun-grabs-chain-saw-to-clear-trees-in-miami-post-irma-0917.jpg 2x"></span>
+        </figure><div class="media-body">
+            <h4 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Shared|Headline-2"}'>Nun grabs chainsaw, clears trees post-Irma
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/60-minutes-breitbart-steve-bannon-declares-war-on-the-gop/">
+            <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Shared|Image-3"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/c9e1257c-0d01-4a10-961f-f5cacae94a70/thumbnail/60x60/76813d19ed0e82d2c4520a44ebc20d69/steve-bannon-charlie-rose-60-minutes-two-shot.jpg#" alt=" " height="60" width="60" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/07/c9e1257c-0d01-4a10-961f-f5cacae94a70/thumbnail/60x60/76813d19ed0e82d2c4520a44ebc20d69/steve-bannon-charlie-rose-60-minutes-two-shot.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/07/c9e1257c-0d01-4a10-961f-f5cacae94a70/thumbnail/120x120/ad617f86bc1ce2f312d92d29728858da/steve-bannon-charlie-rose-60-minutes-two-shot.jpg 2x"></span>
+        </figure><div class="media-body">
+            <h4 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Shared|Headline-3"}'>Breitbart's Bannon declares war on the GOP
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/hurricane-irma-florida-path-track-live-updates-09-10-2017/">
+            <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Shared|Image-4"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/11/712efc61-b577-4903-8982-7a537e169366/thumbnail/60x60/c1d60f544f7fd6d86bc185bf649cd7d4/irma-miami-845404484.jpg#" alt=" " height="60" width="60" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/11/712efc61-b577-4903-8982-7a537e169366/thumbnail/60x60/c1d60f544f7fd6d86bc185bf649cd7d4/irma-miami-845404484.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/11/712efc61-b577-4903-8982-7a537e169366/thumbnail/120x120/5b813f1d62882fc6f45b71e5d8137e6e/irma-miami-845404484.jpg 2x"></span>
+        </figure><div class="media-body">
+            <h4 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Shared|Headline-4"}'>Weakened Irma pummels Florida -- live updates
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/florida-nursing-home-8-people-dead-hurricane-irma/">
+            <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Shared|Image-5"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/13/e97c3367-dada-428e-a9e9-58114c2bfdcf/thumbnail/60x60/aa8c439c14e25d15a9a52474e04da322/ap-17256607214937.jpg#" alt=" " height="60" width="60" srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/13/e97c3367-dada-428e-a9e9-58114c2bfdcf/thumbnail/60x60/aa8c439c14e25d15a9a52474e04da322/ap-17256607214937.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/13/e97c3367-dada-428e-a9e9-58114c2bfdcf/thumbnail/120x120/e2801c62106f941bd380a820a5c5ff4b/ap-17256607214937.jpg 2x"></span>
+        </figure><div class="media-body">
+            <h4 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Shared|Headline-5"}'>Fla. senator says nursing home deaths "inexcusable"
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                        </ul></div></div>
+
+
+                                                                
+                                    
+                                            
+            
+<div class="listing-media-feature" data-component="carousel" data-carousel-options='{"autoplayDelay":0,"transitionDuration":0}'>
+    <div class="viewport" data-item="viewport">
+        <ul class="canvas" data-item="canvas"><li data-item="slide">
+    
+
+
+
+
+
+    
+<div class="media-feature">
+		<a href="/pictures/notable-deaths-in-2017/" title="Notable deaths in 2017">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Thumbnail-1"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/16/f6b0b964-f8db-4d6b-8b23-32fe309ba504/thumbnail/300x190/ed55e446fcc1e8b524696487970349b4/harry-dean-stanton-paris-texas-20th-century-fox.jpg#" alt=" " height="190" width="300" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/16/f6b0b964-f8db-4d6b-8b23-32fe309ba504/thumbnail/300x190/ed55e446fcc1e8b524696487970349b4/harry-dean-stanton-paris-texas-20th-century-fox.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/16/f6b0b964-f8db-4d6b-8b23-32fe309ba504/thumbnail/600x380/a4e3ba43df509fe08e8616c16366ccb0/harry-dean-stanton-paris-texas-20th-century-fox.jpg 2x"></span>
+
+            <div class="meta-overlay ">
+                <span class="asset-icon gallery" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Button-1"}'></span>
+                <div class="meta-label">
+                                            <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-1"}'>103</span>
+                        <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-1"}'>Photos</span>
+                                    </div>
+
+                <h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Headline-1"}'>Notable deaths in 2017</h3>
+            </div>
+        </figure></a>
+</div>
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+
+
+    
+<div class="media-feature">
+		<a href="/pictures/cassini-captures-saturn-and-its-moons/" title="Cassini captures Saturn and its moons">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Thumbnail-2"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2015/10/27/e27ee61f-9b56-4d63-a3f1-66c982bf7bd4/thumbnail/300x190/7e5eca981eca54edd12227eef7d19df7/saturnpia07772.jpg#" alt=" " height="190" width="300" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2015/10/27/e27ee61f-9b56-4d63-a3f1-66c982bf7bd4/thumbnail/300x190/7e5eca981eca54edd12227eef7d19df7/saturnpia07772.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2015/10/27/e27ee61f-9b56-4d63-a3f1-66c982bf7bd4/thumbnail/600x380/2ec5a4db470c16fcb1f67e1e8735e33e/saturnpia07772.jpg 2x"></span>
+
+            <div class="meta-overlay ">
+                <span class="asset-icon gallery" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Button-2"}'></span>
+                <div class="meta-label">
+                                            <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-2"}'>31</span>
+                        <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-2"}'>Photos</span>
+                                    </div>
+
+                <h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Headline-2"}'>Cassini captures Saturn and its moons</h3>
+            </div>
+        </figure></a>
+</div>
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+
+
+    
+<div class="media-feature">
+		<a href="/pictures/before-and-after-satellite-photos-hurricane-irma/" title="Before &amp; after photos of Irma's destruction">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Thumbnail-3"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/11/c72567c3-1474-4fbc-91bd-c9985b220a15/thumbnail/300x190/649426728799785442fb8f6132011f38/turksandcaicos.jpg#" alt=" " height="190" width="300" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/11/c72567c3-1474-4fbc-91bd-c9985b220a15/thumbnail/300x190/649426728799785442fb8f6132011f38/turksandcaicos.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/11/c72567c3-1474-4fbc-91bd-c9985b220a15/thumbnail/600x380/b26a5e8630e9141c561a1cbc2baa659c/turksandcaicos.jpg 2x"></span>
+
+            <div class="meta-overlay ">
+                <span class="asset-icon gallery" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Button-3"}'></span>
+                <div class="meta-label">
+                                            <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-3"}'>8</span>
+                        <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-3"}'>Photos</span>
+                                    </div>
+
+                <h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Headline-3"}'>Before &amp; after photos of Irma's destruction</h3>
+            </div>
+        </figure></a>
+</div>
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+
+
+    
+<div class="media-feature">
+		<a href="/pictures/hurricane-harvey-texas-recovers-catastrophic-damage/" title="Texas begins recovery from Harvey's catastrophic damage">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Thumbnail-4"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/05/e88a091b-4a01-4646-ab10-80b902519b3c/thumbnail/300x190/202c7265596469dc870c924436c418dd/gettyimages-842360926.jpg#" alt=" " height="190" width="300" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/05/e88a091b-4a01-4646-ab10-80b902519b3c/thumbnail/300x190/202c7265596469dc870c924436c418dd/gettyimages-842360926.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/05/e88a091b-4a01-4646-ab10-80b902519b3c/thumbnail/600x380/5639596fffeb6e8768d8c8c2472f1de1/gettyimages-842360926.jpg 2x"></span>
+
+            <div class="meta-overlay ">
+                <span class="asset-icon gallery" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Button-4"}'></span>
+                <div class="meta-label">
+                                            <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-4"}'>18</span>
+                        <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-4"}'>Photos</span>
+                                    </div>
+
+                <h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Headline-4"}'>Texas begins recovery from Harvey's catastrophic damage</h3>
+            </div>
+        </figure></a>
+</div>
+</li>                            
+                                                
+
+<li data-item="slide">
+    
+
+
+
+
+
+    
+<div class="media-feature">
+		<a href="/pictures/stunning-photos-of-climate-change/" title="Stunning photos of climate change">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Thumbnail-5"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/07/31/55279418-f960-464b-a7b7-826fd447651f/thumbnail/300x190/4895b09262b724398a7bbd09c5bc28e7/1-drought-and-rainwater.jpg#" alt=" " height="190" width="300" srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/07/31/55279418-f960-464b-a7b7-826fd447651f/thumbnail/300x190/4895b09262b724398a7bbd09c5bc28e7/1-drought-and-rainwater.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/07/31/55279418-f960-464b-a7b7-826fd447651f/thumbnail/600x380/492bd85a1332930d0a0415c03a22f4ab/1-drought-and-rainwater.jpg 2x"></span>
+
+            <div class="meta-overlay ">
+                <span class="asset-icon gallery" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Button-5"}'></span>
+                <div class="meta-label">
+                                            <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-5"}'>49</span>
+                        <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-5"}'>Photos</span>
+                                    </div>
+
+                <h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Headline-5"}'>Stunning photos of climate change</h3>
+            </div>
+        </figure></a>
+</div>
+</li>                    </ul><div class="paging">
+            <a class="prev" data-to="prev" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail|Media Promo|Carousel|Left-7"}'>Previous</a>
+            
+            <a class="next" data-to="next" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail|Media Promo|Carousel|Right-7"}'>Next</a>
+        </div>
+    </div>
+</div>    
+                                                                
+                                    
+                                            
+
+
+<div class="module module-listing" id="module-most-discussed-cbs-news-right-rail">
+    <h2 class="module-heading title">Most Discussed on CBS News</h2>
+
+    
+<div class="listing-mini-sub ">
+    <ul class="media-list items"><li>
+          <a href="/news/60-minutes-in-the-arctic-every-shot-hurt/?ftag=CNM-00-10aab0g">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/10/02/7018d507-b6c1-4554-ae6d-fd6b37492447/thumbnail/60x60/287d4ab27d98048518495db959618bcf/ot-arcticfd-copy.jpg#" alt=" " height="60" width="60" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/10/02/7018d507-b6c1-4554-ae6d-fd6b37492447/thumbnail/60x60/287d4ab27d98048518495db959618bcf/ot-arcticfd-copy.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2016/10/02/7018d507-b6c1-4554-ae6d-fd6b37492447/thumbnail/120x120/3cc7b0a505cd0f1517b0e307d5acd173/ot-arcticfd-copy.jpg 2x"></span>
+        </figure><div class="media-body">
+            <h4 class="title">60 Minutes in the Arctic: Every shot hurt
+            </h4>
+                            <div class="meta-label comment-count">
+                    
+    <span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"7c3ae59f-98d4-433c-880b-fe5852ba6a5d"}'></span>
+                </div>
+                    </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/48-hours-hunted-the-search-for-colorado-serial-rapist-marc-o-leary/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/11/20/0eb46c93-9e32-40b6-9a8b-e63a47ab0f92/thumbnail/60x60/da039242085b6e870bc5735aa7d9e35a/hunted-sketch.jpg#" alt=" " height="60" width="60" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/11/20/0eb46c93-9e32-40b6-9a8b-e63a47ab0f92/thumbnail/60x60/da039242085b6e870bc5735aa7d9e35a/hunted-sketch.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2016/11/20/0eb46c93-9e32-40b6-9a8b-e63a47ab0f92/thumbnail/120x120/d5b93f181855afb656384b638cd22d37/hunted-sketch.jpg 2x"></span>
+        </figure><div class="media-body">
+            <h4 class="title">Hunted: Tracking a serial rapist
+            </h4>
+                            <div class="meta-label comment-count">
+                    
+    <span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"7bb5e936-17f1-40d6-9549-a6eed81f1a6f"}'></span>
+                </div>
+                    </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/st-louis-university-city-protesters-break-windows-throw-objects-at-police/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/17/15660b56-4761-4804-aeed-6676a3846e5f/thumbnail/60x60/48706f5dc029de334c4d840943804bd1/protest.jpg#" alt=" " height="60" width="60" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/17/15660b56-4761-4804-aeed-6676a3846e5f/thumbnail/60x60/48706f5dc029de334c4d840943804bd1/protest.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/17/15660b56-4761-4804-aeed-6676a3846e5f/thumbnail/120x120/8ad47a8d5490a151fa9946ae89333132/protest.jpg 2x"></span>
+        </figure><div class="media-body">
+            <h4 class="title">Protests&#8203; turn violent for second night near St. Louis
+            </h4>
+                            <div class="meta-label comment-count">
+                    
+    <span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"f5b0258e-f808-433d-bde7-2f564456ea96"}'></span>
+                </div>
+                    </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/uk-police-arrest-2nd-man-in-connection-with-london-subway-attack/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/17/2d7c8e86-5d29-422e-9a9f-9ca48f2b598e/thumbnail/60x60/b2100536118de47015eee743f221436c/london.jpg#" alt=" " height="60" width="60" srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/17/2d7c8e86-5d29-422e-9a9f-9ca48f2b598e/thumbnail/60x60/b2100536118de47015eee743f221436c/london.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/17/2d7c8e86-5d29-422e-9a9f-9ca48f2b598e/thumbnail/120x120/fd3b512e20a461d89fb9003095e88a89/london.jpg 2x"></span>
+        </figure><div class="media-body">
+            <h4 class="title">Police arrest 2nd man in connection with London subway blast
+            </h4>
+                            <div class="meta-label comment-count">
+                    
+    <span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"f25423c6-f48e-4d1e-9289-002d94f71709"}'></span>
+                </div>
+                    </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/canelo-alvarez-gennady-golovkin-fight-ends-in-a-draw/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/17/4786d13a-d95a-444c-90f6-58e1448dbc37/thumbnail/60x60/2e95879fc0e2152e31a6dd17e67b5a34/gettyimages-848165210.jpg#" alt=" " height="60" width="60" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/17/4786d13a-d95a-444c-90f6-58e1448dbc37/thumbnail/60x60/2e95879fc0e2152e31a6dd17e67b5a34/gettyimages-848165210.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/17/4786d13a-d95a-444c-90f6-58e1448dbc37/thumbnail/120x120/ef7d3a65ae599389b2c4ce3073685f65/gettyimages-848165210.jpg 2x"></span>
+        </figure><div class="media-body">
+            <h4 class="title">Alvarez-Golovkin fight ends in a draw
+            </h4>
+                            <div class="meta-label comment-count">
+                    
+    <span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"5df117db-7e6c-4ddf-97fc-324c4d0d6b32"}'></span>
+                </div>
+                    </div>
+    </a>
+</li>
+
+                        </ul></div></div>
+
+
+                                                                
+                                    
+                                            
+
+                            <div id="mpu-bottom-59be6ca22791e" class="ad-mpu-bottom" data-ad="mpu-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-bottom-59be6ca22791e for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-bottom-59be6ca22791e");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-emergency-component">
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <script>var searchNav = document.querySelector('.site-nav__item--sports .site-nav__item-anchor'); searchNav&&searchNav.addEventListener('click', function () {window.location = this.href}, true);</script><style>.site-footer{ z-index:0; } .site-header{ z-index:2; } .content-primary{ z-index:1; } [tabindex]:focus {outline: 0; } .desktop .site-nav__item--shows:hover .site-nav__item-content-icon {top: 113px;right: auto;}.desktop .site-nav__item--shows:hover .site-nav__item-hed {font-size: 16px;max-height: none;float: none;margin: 0px;} .front-door .disqus-comment-count { display: none; } .topic-door .disqus-comment-count { display: none; } .listing-mini-sub .disqus-comment-count { display: none; } .desktop #mantle_skin[class*=cbs-this-morning] .hero-text .title a {color: #e4a21b;font-family: "museo-sans", Helvetica, Roboto, sans-serif;font-size: 30px;font-weight: 700;line-height: 1.1;letter-spacing: -0.05em;}</style></li>
+                </ul></div>                                                        </div>
+
+                                                                    </div>
+                                </div>
+                        </div>
+            </div>
+        </div>
+</div>
+
+    </div>
+
+    
+                    
+<footer class="site-footer content-inverse nocontent"><div class="container">
+                        <div class="row">
+            <div class="col-2 link-block">
+                <h5 class="title">CBSNews.com</h5>
+
+                <ul class="items"><li><a href="https://www.cbsnews.com/sitemap/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Site Map"}' data-invalid-url-rewritten-http="">Site Map</a></li>
+                    <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome2?categories=CBS_Interactive:CBSNews&amp;referer=cbsnews.com/main" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Help"}'>Help</a></li>
+                    <li><a href="http://audienceservices.cbs.com/feedback/feedback.htm" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Contact Us"}'>Contact Us</a></li>
+
+                    <li><a href="https://www.cbsnews.com/team/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|CBS Bios"}' data-invalid-url-rewritten-http="" data-vanity-rewritten="true">CBS Bios</a></li>
+                    <li><a href="https://cbs.avature.net/cbsnewscareers" data-omniture-track-data='{"clickProperty": "Site Footer|Careers"}'>Careers</a></li>
+                    <li><a href="http://www.cbsinteractive.com/careers" data-omniture-track-data='{"clickProperty": "Site Footer|CBSi Careers"}'>CBSi Careers</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-internship-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Internships"}' data-invalid-url-rewritten-http="">Internships</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-associates-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Development Programs"}' data-invalid-url-rewritten-http="">Development Programs</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">CBS Interactive</h5>
+
+                <ul class="items"><li><a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Privacy Policy"}'>Privacy Policy</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/adchoice" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Ad Choice"}'>Ad Choice</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Terms of Use"}'>Terms of Use</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/eula" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Mobile User Agreement"}'>Mobile User Agreement</a></li>
+                    <li><a href="http://www.cbscorporation.com/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|About CBS"}'>About CBS</a></li>
+                    <li><a href="http://www.cbsinteractive.com/advertise/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Advertise"}'>Advertise</a></li>
+                    <li><a href="http://cbsimedia.cbs.com/captioning/info.html" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Closed Captioning"}'>Closed Captioning</a></li>
+                    <li><a href="http://www.cbsstore.com/cbs-news-store-home/index.php?v=cbs-news&amp;ecid=PRF-CBS-300538&amp;pa=PRF-CBS-300538" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|CBS News Store"}'>CBS News Store</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">Follow Us</h5>
+
+                <ul class="items"><li><a href="https://www.facebook.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Facebook"}'>Facebook</a></li>
+                    <li><a href="https://twitter.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Twitter"}'>Twitter</a></li>
+                    <li><a href="/rss/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|RSS"}'>RSS</a></li>
+                    <li><a href="https://www.cbsnews.com/newsletters/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Email Newsletters"}' data-invalid-url-rewritten-http="">Email Newsletters</a></li>
+                    <li><a href="http://www.youtube.com/user/CBSNewsOnline" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|YouTube"}'>YouTube</a></li>
+                    <li><a href="https://www.cbsnews.com/radio/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Radio News"}' data-invalid-url-rewritten-http="">CBS Radio News</a></li>
+                    <li><a href="https://www.cbsnews.com/local/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Local"}' data-invalid-url-rewritten-http="">CBS Local</a></li>
+                </ul></div>
+
+            <div class="col-4 push-2">
+                <div class="site-brand">
+                    <div class="logo core-logo"><a href="/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer-Branding"}'>CBS News</a></div>
+                </div>
+
+                <form class="site-search" action="/search/" method="get" data-component="search" data-search-options='{"path":"https:\/\/www.cbsnews.com\/search\/","param":"q"}'>
+                    <input type="search" class="query" maxlength="255" name="q" placeholder="Search..."><button type="submit" class="submit core-search-footer">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="site-brand">
+                <p class="copyright">Copyright &copy; 2017 CBS Interactive Inc.<br>All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer></div> 
+
+                    
+
+    
+
+<script>
+    var CBSNEWS = CBSNEWS || {};
+        CBSNEWS.ad        = {"gpt":{"targeting":{"device":"desktop","ptype":"topic_list","cid":"evening-news","env":"prod_feeds"},"adConfig":{"network":{"dev":8264,"qa":8264,"prod":8264},"method":"async-inline","regions":[{"region":"uk","countries":["gb","fr","ie","za","bh","kw","om","qa","sa","ae","iq","eg","ye"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","ph","th","id","vn","hk","in"]}],"adUnits":{"intromercial":{"outOfPage":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"skin"}},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250],[300,1050]],"position":"top"},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"buttonTop":{"sizes":[[88,31]],"position":"top"},"scrollPrestitial":{"sizes":[[980,45]],"position":"top"},"marqueeBottom":{"sizes":[[234,60]],"position":"bottom"},"marquee300Top":{"sizes":[[300,60]],"position":"top"},"marquee300Middle":{"sizes":[[300,60]],"position":"middle"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"leaderBottom":{"sizes":[[728,90],[970,66]],"position":"bottom"},"desktopNativeTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"a832eb3c"}},"nativeShowTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"bf587c26"}},"desktopNativeMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"e0c5ba47"}},"desktopNativeBottom":{"sizes":[[11,11]],"position":"bottom"},"buttonMiddle":{"sizes":[[88,31]],"position":"middle"},"buttonBottom":{"sizes":[[88,31]],"position":"bottom"},"sponsorContentMiddle":{"sizes":[[381,211],[11,11]],"position":"middle","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentMiddle2":{"sizes":[[381,211],[11,11]],"position":"middle2","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentBottom":{"sizes":[[381,211],[11,11]],"position":"bottom","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentTop":{"sizes":[[381,211],[11,11]],"position":"top","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentSmallTop":{"sizes":[[301,151],[11,11]],"position":"top","customTargeting":{"strnativekey":"a2ac4296"}},"sponsorContentTextTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"a6c0ce8b"}},"sponsorBar980Top":{"sizes":[[980,36]],"position":"top"},"sponsorBar620Top":{"sizes":[[620,36]],"position":"top"}},"mobile":{"adUnits":{"intromercial":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileBanner1":{"sizes":[[320,50]],"position":1},"mobileBanner2":{"sizes":[[320,50]],"position":2},"mobileBanner3":{"sizes":[[320,50]],"position":3},"mobileMarquee320Top":{"sizes":[[320,60]],"position":"top"},"mobileSponsorContentTextTop":{"sizes":[[300,250],[11,11],"fluid"],"position":"top","customTargeting":{"strnativekey":"454fd857"}},"mobileSponsorcontentTextMiddle":{"sizes":[[300,250],[320,50],[11,11],"fluid"],"position":"middle","customTargeting":{"strnativekey":"454fd857"}},"mobileInlineFlexPos2":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":2,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexPos3":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":3,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexInc":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":"inc","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileNativeTop":{"sizes":[[11,11]],"position":"top"},"mobileNativeGalleryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"289740d4"}},"mobileSponsorcontentCdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"3c5782bf"}},"mobileSponsorcontentVdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"eba075cc"}}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"amp":{"adUnits":{"ampFlexTop":{"sizes":[[320,50],[300,250]],"position":"top"},"ampFlexBottom":{"sizes":[[320,50],[300,250]],"position":"bottom"},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"ampFlexPos2":{"sizes":[[320,50],[300,250]],"position":2},"ampFlexPos3":{"sizes":[[320,50],[300,250]],"position":3},"ampFlexInc":{"sizes":[[320,50],[300,250]],"position":"inc"},"ampSticky":{"sizes":[[320,50]],"position":"sticky"}}},"siteName":"cbsnews","collapseEmptyDiv":true,"setRefreshUnfilledSlots":false,"setClearUnfilledSlots":true,"disableInitialLoad":false,"disableInitialLoadCompanions":true,"enableHeaderBidding":true,"disableClearTargetingOnInit":true,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["intromercial","leader_top","leader_plus_top","skin","mpu_top","mpu_plus_top","marquee_top","marquee300_top","button_top","sponsor_content_top","sponsor_content_small_top","sponsor_content_text_top","sponsor_bar980_top","sponsor_bar620_top","desktop_native_top","native_show_top","mpu_middle","marquee300_middle","button_middle","desktop_native_middle","sponsor_content_middle","sponsor_content_middle2","desktop_native_bottom","button_bottom","mpu_bottom","leader_bottom","sponsor_content_bottom"],"disableInitialLoadRefresh":"false","disableAdIncrement":false,"enableRepeatedAds":false},"containerId":"59be6ca22791e","slotVars":{"network":"8264","siteName":"cbsnews","collapseEmptyDiv":"1","topics":"evening-news","platform":"desktop"},"adType":"gpt","adDivIds":["marquee300-middle-59be6ca22791e","mpu-top-59be6ca22791e","mpu-bottom-59be6ca22791e","intromercial-59be6ca22791e","leader-plus-top-59be6ca22791e"]},"cookieName":"cbsnews_ad","cookieServicePath":"/ad/ad-cookie/","session":4,"subSession":4,"useFirstPageTargeting":true};
+        CBSNEWS.bsFreq    = 100;
+        CBSNEWS.device    = 'desktop';
+        CBSNEWS.features  = CBSNEWS.features || {};
+        CBSNEWS.tracking  = {"isEnabled":true,"deviceType":"desktop","isDev":"2","pageType":"topic_list","siteHier":["evening news"],"siteSection":"evening news","siteType":"responsive web","topicId":["3058ab58-758d-11e2-9d12-0018fe8a00b0"],"topicName":["evening news"],"bkSiteId":3330,"limit":4,"siteName":"cbsnews","demographicKeys":["jobFunction","jobCategory","industry","computerProficiency","companySize","gender","ageGroup","country"],"tealium":{"profile":"cbsnewssite","env":"prod"}};
+        CBSNEWS.tracking._adData      = CBSNEWS.ad;
+        CBSNEWS.tracking.pageViewGuid = null; // Set in managers/tealium
+        CBSNEWS.user      = {
+            appId:          '1501',
+            environment:    'LIVE',
+            platform:       '',
+            publicHost:     'www.cbsnews.com',
+            secureHost:     'secure-fly.cbsnews.com',
+            ursVersion:     'v2.2',
+            ursClientToken: '9b0514bf29ca49e1',
+        };
+        CBSNEWS.disqus =  {
+            shortname: 'cbsnews-prod',
+            publicKey: '60EUVoZHyaBJqXJUxAKYfJgUh8NhuUyO88gGQ7aIw8HsbFOwAl9hLtoCyvyld2A8',
+            sso: {
+                name: 'CBSNews',
+                authLoginUrl: 'https://www.cbsnews.com/disqus/sso/login/',
+                authLogoutUrl: 'https://www.cbsnews.com/disqus/sso/logout/',
+                button: 'https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/images/core/logo.png?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95',
+                icon: 'https://cbsnews4.cbsistatic.com/fly/favicon.ico?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95',
+                loginUrl: 'https://secure-fly.cbsnews.com/user/registration/?redirectUrl=%2Fdisqus%2Flogin%2F ',
+                logoutUrl: 'https://www.cbsnews.com/user/logout/'
+            }
+        };
+
+
+    var features = ['beanstockSonobi', 'disqus', 'urs'];
+    features.forEach(function(feature) {
+        if (!CBSNEWS.features.hasOwnProperty(feature)) {
+            CBSNEWS.features[feature] = true;
+        }
+    });
+
+    var utag_data = CBSNEWS.tracking;
+
+    var require = {"baseUrl":"https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build","urlArgs":"v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95","config":{"version":{"fly/libs/base64":"0.3.0","fly/libs/easy-xdm-cbsi":"2.4.19.3","fly/libs/jquery.widget":"1.9.2","fly/libs/jquery.cookie":"1.2","fly/libs/jquery.mobile":"1.3.2","fly/libs/jquery.throttle-debounce":"1.1","fly/libs/lazysizes":"1.4.0","fly/libs/omniture.s-code":"1.0","fly/libs/urs":"1.0","fly/utils/data-prefix":"1.0","fly/utils/data-selector":"1.0","fly/utils/function-natives":"1.0","fly/utils/guid":"1.0","fly/utils/log":"1.0","fly/utils/object-helper":"1.0","fly/utils/string-helper":"1.0","fly/utils/string-vars":"1.0","fly/utils/url-helper":"1.0","fly/managers/components":"1.0","fly/managers/cookie":"1.0","fly/managers/debug":"1.0","fly/managers/ad":"2.0","fly/managers/gpt":"4.2","fly/managers/geo":"1.0","fly/managers/image-resolution":"1.0","fly/managers/recurly":"1.0","fly/managers/recurly-billing":"1.0","fly/managers/social-authentication":"1.0","fly/managers/tracking":"1.0","fly/managers/user":"1.0","fly/components/accordion":"1.0","fly/components/alert":"1.0","fly/components/base":"1.0","fly/components/carousel":"1.0","fly/components/credspark":"1.0","fly/components/dependent-field":"1.0","fly/components/dropdown":"1.0","fly/components/form-validate":"1.0","fly/components/iframe-messenger":"1.1","fly/components/image-gallery":"1.0","fly/components/disqus-count":"1.0","fly/managers/disqus":"1.0","fly/components/disqus":"1.0","fly/components/loading":"1.0","fly/components/load-more":"1.0","fly/components/nrelate":"1.0","fly/components/modal":"1.0","fly/components/modal-async":"1.0","fly/components/modal-iframe":"1.0","fly/components/scrollbar":"1.0","fly/components/social-button":"1.0","fly/components/social-counts":"1.1","fly/components/social-links":"1.0","fly/components/tabs":"1.0","fly/managers/clicktale":"1.0","fly/components/poll":"1.0","fly/managers/history":"1.0","libs/fontfaceobserver":"2.0.7","libs/riot":"2.6.2","mpx/libs/uvp":"2.6.0","mpx/libs/hls":"0.6.18","fly/components/fixate":"1.0","fly/components/image-gallery-thumb":"1.0"}},"shim":{"tealium":["jquery"]},"map":{"*":{"ima":"//imasdk.googleapis.com/js/sdkloader/ima3.js","gpt":"//www.googletagservices.com/tag/js/gpt.js","anvato":"https://w3.cdn.anvato.net/player/prod/scripts/anvload.js","nrelate":"//c7.static.nrcdn.com/common_js/0.52.1/nr_loader.min.js","urs":"//urs.cbsnews.com/sdk/urs.js","recirc":"//ddlmj2furo6f2.cloudfront.net/addontrain/recommendations/53f6c74c1344a01ee2000139.js","tealium":"//tags.tiqcdn.com/utag/cbsi/cbsnewssite/prod/utag.js","twitter":"https://platform.twitter.com/widgets.js","credspark":"//www.credspark.com/embed.js","yad":"https://s.yimg.com/uq/syndication/yad.js","newsgator":"//nmp.newsgator.com/ngbuzz/load.ashx/buzz","recurly":"https://js.recurly.com/v4/recurly.js","taboola":"//cdn.taboola.com/libtrc/cbsinteractive-cbsnews/loader.js","sharethrough":"//native.sharethrough.com/assets/tag.js","uvp":"//vidtech.cbsinteractive.com/uvpjs/2.5.3/CBSI-PLAYER.js","index_exchange":"//js-sec.indexww.com/ht/ls-cbsnews.js","sonobi":"//mtrx.go.sonobi.com/morpheus.cbsnews.9251.js"}}};
+</script><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" as="script"><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.desktop.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" as="script"><script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=4d277b6c7f10b0e8f706642a69c77b86a00f8a95" data-main="main.desktop" async defer></script></body></html>

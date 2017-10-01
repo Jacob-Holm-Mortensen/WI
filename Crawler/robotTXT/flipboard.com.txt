@@ -1,0 +1,3 @@
+/static/ebsa/
+/static/gfs/
+/redirect?
