@@ -6,25 +6,30 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Crawler
+namespace SearchEngine
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string words = "";
-            DateTime time = DateTime.Now;
             Crawler c = new Crawler();
+            Indexer i = new Indexer(c);
+            Ranker r = new Ranker(c, i);
+            /*string words = "";
+
+            DateTime time = DateTime.Now;
             //c.StartCrawling("https://www.cbsnews.com/");
-            Indexer i = new Indexer();
             var index = i.StartIndexing();
             Console.WriteLine("\n" + (DateTime.Now - time));
+
             while (!words.Equals("end"))
             {
                 Console.WriteLine("type a word:");
                 words = Console.ReadLine();
-                i.PrintSearchResult(i.GetPagesWithWords(words, index), words);
-            }
+                r.PrintSearchResult(r.GetPagesWithWords(words, index), words);
+            }*/
+
+            r.MakePageRankMatrix();
         }
 
         public string GetFile(string URL)

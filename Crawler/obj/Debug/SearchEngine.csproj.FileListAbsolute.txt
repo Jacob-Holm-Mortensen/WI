@@ -1,0 +1,15 @@
+C:\Users\User\GitKraken\Wi\Crawler\obj\Debug\SearchEngine.csproj.App.config
+C:\Users\User\GitKraken\Wi\Crawler\obj\Debug\SearchEngine.csprojResolveAssemblyReference.cache
+C:\Users\User\GitKraken\Wi\Crawler\obj\Debug\SearchEngine.csproj.CoreCompileInputs.cache
+C:\Users\User\GitKraken\Wi\Crawler\obj\Debug\Crawler.exe
+C:\Users\User\GitKraken\Wi\Crawler\obj\Debug\Crawler.pdb
+C:\Users\User\GitKraken\Wi\Crawler\bin\Debug\Crawler.exe.config
+C:\Users\User\GitKraken\Wi\Crawler\bin\Debug\Crawler.exe
+C:\Users\User\GitKraken\Wi\Crawler\bin\Debug\Crawler.pdb
+C:\Users\User\GitKraken\Wi\Crawler\bin\Debug\HtmlAgilityPack.dll
+C:\Users\User\GitKraken\Wi\Crawler\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\User\GitKraken\Wi\Crawler\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\User\GitKraken\Wi\Crawler\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\User\GitKraken\Wi\Crawler\bin\Debug\HtmlAgilityPack.xml
+C:\Users\User\GitKraken\Wi\Crawler\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\User\GitKraken\Wi\Crawler\bin\Debug\System.Net.Http.Primitives.xml

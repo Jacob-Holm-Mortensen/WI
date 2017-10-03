@@ -7,7 +7,7 @@ using HtmlAgilityPack;
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace Crawler
+namespace SearchEngine
 {
     class Crawler
     {
@@ -19,7 +19,7 @@ namespace Crawler
         Robot r = new Robot();
         NearDuplicate near = new NearDuplicate();
         string baseDir = AppDomain.CurrentDomain.BaseDirectory.Replace("bin\\Debug\\", "");
-        HashSet<string> hosts = new HashSet<string>();
+        public HashSet<string> hosts = new HashSet<string>();
 
         // Runs the crawler process
         public void StartCrawling(string seed)
