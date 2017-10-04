@@ -157,29 +157,31 @@ namespace SearchEngine
             Console.WriteLine();
             foreach (var url in urls)
             {
-                List<string> urlsPagePointTo = GetUrlsForMatrixValues(url, urls).ToList();
-                urlsPagePointTo = urls.Where(x => urlsPagePointTo.Contains(x)).ToList();
-                foreach (var innerUrl in urlsPagePointTo)
+                if (urls.IndexOf(url) < 2)
                 {
-                    matrix[urls.IndexOf(url)][urls.IndexOf(innerUrl)] = 1/urlsPagePointTo.Count;
+                    List<string> urlsPagePointTo = GetUrlsForMatrixValues(url, urls).ToList();
+                    foreach (var innerUrl in urlsPagePointTo)
+                    {
+                        matrix[urls.IndexOf(url)][urls.IndexOf(innerUrl)] = 1.0 / urlsPagePointTo.Count;
+                    }
+                    i.printOnLine("pages rows filled: " + (urls.IndexOf(url) + 1));
                 }
-                i.printOnLine("pages rows filled: " + (urls.IndexOf(url) + 1));
             }
             return matrix;
         }
 
-        public IEnumerable<string> GetUrlsForMatrixValues(string url, List<string> urls)
+        public List<string> GetUrlsForMatrixValues(string url, List<string> urls)
         {
             
             var web = new HtmlWeb();
             web.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36";
             var doc = web.Load(url);
 
-            Dictionary<string, string> urlsFromUrl = doc.DocumentNode.Descendants("a")
+            HashSet<string> urlsFromUrl = new HashSet<string>(doc.DocumentNode.Descendants("a")
                                               .Select(a => a.GetAttributeValue("href", null))
-                                              .Where(u => !String.IsNullOrEmpty(u)).ToDictionary(x => x, x => x);
-            urlsFromUrl = urlsFromUrl.Where(x => urls.Any(x.Key));
-            return new HashSet<string>();
+                                              .Where(u => !String.IsNullOrEmpty(u)).ToList());
+            
+            return urls.Where(x => urlsFromUrl.Contains(x)).ToList();
         }
     }
 }

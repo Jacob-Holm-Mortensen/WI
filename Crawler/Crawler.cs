@@ -61,10 +61,10 @@ namespace SearchEngine
             if (temp != null)
             {
                 bool nearDup = false;
-                foreach (var webPage in backQueue)
+                /*foreach (var webPage in backQueue)
                 {
-                    //if (near.NoHash(webPage.content, temp, 4)) nearDup = true;
-                }
+                    if (near.NoHash(webPage.content, temp, 4)) nearDup = true;
+                }*/
                 if (!nearDup || backQueue.Count() == 0)
                 {
                     foreach (var tempUrl in RetrieveUrls(url))

@@ -29,7 +29,13 @@ namespace SearchEngine
                 r.PrintSearchResult(r.GetPagesWithWords(words, index), words);
             }*/
 
-            r.MakePageRankMatrix();
+            List<List<double>> a = r.MakePageRankMatrix();
+            Console.WriteLine();
+            foreach (var item in a[1])
+            {
+                Console.Write(" " + item);
+            }
+            Console.ReadKey();
         }
 
         public string GetFile(string URL)
