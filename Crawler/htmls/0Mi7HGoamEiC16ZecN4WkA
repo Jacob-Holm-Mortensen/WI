@@ -1,0 +1,227 @@
+
+
+
+
+
+
+                                                            
+
+    
+    
+    
+
+                    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<!DOCTYPE html>
+<html>
+        <head>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=1" />
+                    <meta name="Description" content="Find Jobs CBS News Careers" />
+                            <title>Find Jobs - CBS News Careers</title>
+                            <link href="/portal/10/favicon.ico" rel="shortcut icon" id="favico" type="images/vnd.microsoft.icon">
+            <link type="text/css" rel="stylesheet" href="/portal/10/all.css">
+            
+                <link type="text/css" rel="stylesheet" media="all" href="/portal/10/css/CommonStyles.css" />
+                <link type="text/css" rel="stylesheet" media="all" href="/portal/10/css/BaseTemplate.css" />
+        <link type="text/css" rel="stylesheet" media="all" href="/portal/10/css/Colors.css" />
+                    <link rel="alternate" type="application/rss+xml" title="Find Jobs - CBS News Careers - RSS" href="https://cbs.avature.net/cbsnewscareers/SearchJobs/feed/" />
+                            <script type='text/javascript' src='/ASSET/portal/jquery/jquery.min.js?version=6.81.10-beta'></script><script type="text/javascript">var avajQuery=jQuery.noConflict(true);</script><script type='text/javascript'>APPLICATION_CODE = 'customPortal_cbsnewscareers';</script><script type='text/javascript' src='/ASSET/portal/DatasetHandlerHelper.js?version=6.81.10-beta'></script><script type='text/javascript' src='/ASSET/portal/md5/md5.min.js?version=6.81.10-beta'></script><script type='text/javascript' src='/ASSET/portal/searcher/DatasetSearcher.js?version=6.81.10-beta'></script><script type='text/javascript' src='/ASSET/portal/StepEventHandlerCommon.js?version=6.81.10-beta'></script><script type='text/javascript' src='/ASSET/portal/fieldValueGetterScript.js?version=6.81.10-beta'></script><script type="text/javascript" >if (typeof dependentFields == "undefined") dependentFields = {};
+</script><script type='text/javascript' src='/ASSET/portal/attachListenersScript.js?version=6.81.10-beta'></script></head>
+        <body class="body_ body_ ">
+        <div id="header">
+            <div class="wrapper autoClearer">
+                <div class="logoWrapper"><a href="https://cbs.avature.net/cbsnewscareers" id="headerLogo"><img src="/portal/10/images/logo.png" border="0" alt="CBS" class="dBlock"></a></div>
+                                    <div class="headerNavWrapper">
+                        <ul id="headerNav" class="cleanList autoClearer">
+                            <li><a href="https://cbs.avature.net/cbsnewscareers/SearchJobs" title="Open positions">Open positions</a></li>
+                            
+    <li><a href="https://cbs.avature.net/cbsnewscareers/Login" title="Sign in">Sign in</a></li>
+            <li><a href="https://cbs.avature.net/cbsnewscareers/RegisterMethod?" title="Register">Register</a></li>
+                            </ul>
+                    </div>
+                    <div id="slicknavWrapper"></div>
+                            </div>
+        </div>
+        <div id="banner">
+            <div class="wrapper autoClearer">
+                <div id="claim">Careers at <span class="medium">CBS NEWS</span></div>
+            </div>
+        </div>
+        <div id="content">
+            <div class="wrapper autoClearer">
+                                    <div class="mainNavigation autoClearer">
+                        
+<div class="mainNavigationStatus">
+    Welcome! |
+    <a href="https://cbs.avature.net/cbsnewscareers/Login" title="Sign in">Sign in</a>
+            or <a href="https://cbs.avature.net/cbsnewscareers/RegisterMethod?" title="Register">Register</a>
+    </div>
+                                                                                <div class="mainNavigationStatusAdditional">Not ready to apply? <a href="https://cbs.avature.net/cbsnewscareers/RegisterNotReadyToApply?">Click here</a></div>
+                                            </div>
+                
+                                
+    <form method="post" action="https://cbs.avature.net/cbsnewscareers/SearchJobs" autocomplete="on" class="generalForm autoClearer altForm">
+        <div class="fieldSpec odd">
+            <div class="fieldSpecPadder">
+                <label class="labelText" for="search">Keywords</label>
+                <div><input type="search" name="search" id="search" autofocus="autofocus" value="" /></div>
+            </div>
+        </div>
+                    <div class="fieldSpec even">
+                <div class="fieldSpecPadder">
+                    <label class="labelText" for="search">Location</label>
+                    <div><select name="3_102_3" tabindex="0" class="jobCustomField_3_102_3 SelectFormField" id="3_102_3" ><option value="0" >Select an option</option><option value="9379999" >Addison, TX, US</option><option value="9379985" >Astoria, NY, US</option><option value="157445" >Atlanta, GA, US</option><option value="6589673" >Auburn, AL US</option><option value="1071566" >Austin, TX, US</option><option value="6999966" >Avon, MA, US</option><option value="238017" >Bala Cynwyd, PA, US</option><option value="157464" >Baltimore, MD, US</option><option value="157456" >Baton Rouge, LA, US</option><option value="9380006" >Bellevue, WA, US</option><option value="157410" >Berkeley, CA, US</option><option value="157470" >Birmingham, MI, US</option><option value="9379981" >Bloomfield, NJ, US</option><option value="9379968" >Bloomington, IN, US</option><option value="157457" >Boston, MA, US</option><option value="9379959" >Boulder, CO, US</option><option value="157504" >Boyers, PA, US</option><option value="157509" >Brentwood, TN, US</option><option value="157486" >Bridgewater, NJ, US</option><option value="157458" >Brighton, MA, US</option><option value="157499" >Bristol, PA, US</option><option value="9379967" >Broadview, IL, US</option><option value="157492" >Brooklyn, NY, US</option><option value="157420" >Burbank, CA, US</option><option value="157408" >Cameron Park, CA, US</option><option value="157400" >Carlsbad, CA, US</option><option value="157419" >Carson, CA, US</option><option value="9379996" >Catano, PR, US</option><option value="157514" >Cedar Hill, TX, US</option><option value="9379986" >Cedarhurst, NY, US</option><option value="157478" >Charlotte, NC, US</option><option value="157517" >Charlottesville, VA, US</option><option value="157448" >Chicago, IL, US</option><option value="9379992" >Cincinnati, OH, US</option><option value="157494" >Cleveland, OH, US</option><option value="157463" >College Park, MD, US</option><option value="9379961" >Colorado Springs, CO, US</option><option value="157401" >Colton, CA, US</option><option value="157505" >Columbia, SC, US</option><option value="157446" >Columbus, GA, US</option><option value="157495" >Columbus, OH, US</option><option value="9379946" >Compton, CA, US</option><option value="157459" >Concord, MA, US</option><option value="9379965" >Coral Springs, FL, US</option><option value="9379947" >Culver City, CA, US</option><option value="157515" >Dallas, TX, US</option><option value="157426" >Denver, CO, US</option><option value="157467" >Detroit, MI, US</option><option value="9379976" >Edina, MN, US</option><option value="157402" >El Segundo, CA, US</option><option value="9379948" >Encino, CA, US</option><option value="157496" >Eugene, OR, US</option><option value="9379966" >Evanston, IL, US</option><option value="9380004" >Fairfax, VA, US</option><option value="9379964" >Fairfield, CT, US</option><option value="157484" >Fairfield, NJ, US</option><option value="9379975" >Farmington Hills, MI, US</option><option value="157428" >Farmington, CT, US</option><option value="157466" >Ferndale, MI, US</option><option value="157468" >Flint, MI, US</option><option value="157423" >Fort Collins, CO, US</option><option value="157442" >Fort Lauderdale, FL, US</option><option value="157451" >Fort Wayne, IN, US</option><option value="157511" >Fort Worth, TX, US</option><option value="157411" >Fresno, CA, US</option><option value="157424" >Frisco, CO, US</option><option value="9379993" >Gettysburg, PA, US</option><option value="157427" >Golden, CO, US</option><option value="9380001" >Grand Prairie, TX, US</option><option value="157469" >Grand Rapids, MI, US</option><option value="9379994" >Greensburg, PA, US</option><option value="157425" >Greenwood Village, CO, US</option><option value="157491" >Hauppauge, NY, US</option><option value="9379949" >Hawthorne, CA, US</option><option value="9379990" >Hempstead, NY, US</option><option value="157414" >Hesperia, CA, US</option><option value="9379950" >Hollywood, CA, US</option><option value="157447" >Honolulu, HI, US</option><option value="157479" >Hooksett, NH, US</option><option value="9379987" >Horseheads, NY, US</option><option value="157512" >Houston, TX, US</option><option value="157452" >Indianapolis, IN, US</option><option value="157416" >Irvine, CA, US</option><option value="157510" >Irving, TX, US</option><option value="157487" >Iselin, NJ, US</option><option value="157438" >Jacksonville, FL, US</option><option value="157476" >Kansas City, MO, US</option><option value="157485" >Lakewood, NJ, US</option><option value="157462" >Lanham, MD, US</option><option value="157489" >Las Vegas, NV, US</option><option value="157449" >Lemont, IL, US</option><option value="9379963" >Littleton, CO, US</option><option value="9380002" >London, , GB</option><option value="9379991" >Long Island City, NY, US</option><option value="157422" >Los Angeles, CA, US</option><option value="157454" >Louisville, KY, US</option><option value="9379962" >Loveland, CO, US</option><option value="9379980" >Manchester, NH, US</option><option value="157417" >Manhattan Beach, CA, US</option><option value="9379971" >Marblehead, MA, US</option><option value="157490" >Maspeth, NY, US</option><option value="157519" >Mclean, VA, US</option><option value="157493" >Melville, NY, US</option><option value="157507" >Memphis, TN, US</option><option value="9379957" >Menlo Park, CA, US</option><option value="157436" >Miami Beach, FL, US</option><option value="157435" >Miami, FL, US</option><option value="9380010" >Milwaukee, WI, US</option><option value="157472" >Minneapolis, MN, US</option><option value="157473" >Minnetonka, MN, US</option><option value="157503" >Monroeville, PA, US</option><option value="157483" >Morristown, NJ, US</option><option value="157506" >Mount Pleasant, SC, US</option><option value="157413" >Mount Wilson, CA, US</option><option value="157508" >Nashville, TN, US</option><option value="9379977" >New Hope, MN, US</option><option value="157455" >New Orleans, LA, US</option><option value="157432" >New York, NY, US</option><option value="9379984" >Newton, NJ, US</option><option value="157518" >Norfolk, VA, US</option><option value="157430" >North Haven, CT, US</option><option value="9379951" >North Hollywood, CA, US</option><option value="157460" >Norwell, MA, US</option><option value="6917596" >Oakland, CA, US</option><option value="157434" >Orlando, FL, US</option><option value="157403" >Palm Desert, CA, US</option><option value="9379958" >Palm Springs, CA, US</option><option value="157480" >Parsippany, NJ, US</option><option value="157502" >Philadelphia, PA, US</option><option value="157399" >Phoenix, AZ, US</option><option value="157488" >Piscataway, NJ, US</option><option value="157501" >Pittsburgh, PA, US</option><option value="9380000" >Plano, TX, US</option><option value="9380011" >Pleasant Prairie, WI, US</option><option value="157474" >Plymouth, MN, US</option><option value="157441" >Pompano Beach, FL, US</option><option value="157497" >Portland, OR, US</option><option value="9380005" >Portsmouth, VA, US</option><option value="9379997" >Providence, RI, US</option><option value="9380003" >Provo, UT, US</option><option value="9379995" >Radnor, PA, US</option><option value="9380007" >Renton, WA, US</option><option value="157481" >Riverside, NJ, US</option><option value="9379988" >Rochester, NY, US</option><option value="9379973" >Rockville, MD, US</option><option value="157406" >Sacramento, CA, US</option><option value="9379979" >Saint Louis, MO, US</option><option value="9379978" >Saint Paul, MN, US</option><option value="157444" >Saint Petersburg, FL, US</option><option value="9379972" >Salem, MA, US</option><option value="157516" >Salt Lake City, UT, US</option><option value="157513" >San Antonio, TX, US</option><option value="157421" >San Diego, CA, US</option><option value="157415" >San Francisco, CA, US</option><option value="9379952" >San Jose, CA, US</option><option value="157439" >Sanford, FL, US</option><option value="157418" >Santa Monica, CA, US</option><option value="9379953" >Saugus, CA, US</option><option value="157520" >Seattle, WA, US</option><option value="157482" >Secaucus, NJ, US</option><option value="157429" >Shelton, CT, US</option><option value="9379956" >Sherman Oaks, CA, US</option><option value="9379982" >Short Hills, NJ, US</option><option value="9379974" >Silver Spring, MD, US</option><option value="157461" >Somerville, MA, US</option><option value="157471" >Southfield, MI, US</option><option value="157522" >Spokane Valley, WA, US</option><option value="9380008" >Spokane, WA, US</option><option value="157477" >St. Louis, MO, US</option><option value="157431" >Stamford, CT, US</option><option value="157412" >Stockton, CA, US</option><option value="157404" >Studio City, CA, US</option><option value="9379998" >Summerville, SC, US</option><option value="157440" >Tampa, FL, US</option><option value="9379983" >Teaneck, NJ, US</option><option value="157409" >Temecula, CA, US</option><option value="9379945" >Tempe, AZ, US</option><option value="157465" >Towson, MD, US</option><option value="9379960" >U S A F Academy, CO, US</option><option value="9379954" >Universal City, CA, US</option><option value="9379955" >Valencia, CA, US</option><option value="157407" >Van Nuys, CA, US</option><option value="157450" >Warrenville, IL, US</option><option value="157433" >Washington, DC, US</option><option value="8013102" >Waynesboro, VA, US</option><option value="157498" >West Linn, OR, US</option><option value="9379969" >West Monroe, LA, US</option><option value="157437" >West Palm Beach, FL, US</option><option value="157405" >West Sacramento, CA, US</option><option value="9379989" >White Plains, NY, US</option><option value="157453" >Wichita, KS, US</option><option value="157443" >Winter Park, FL, US</option><option value="157521" >Woodinville, WA, US</option><option value="9379970" >Worcester, MA, US</option><option value="9380009" >Yakima, WA, US</option><script type="text/javascript" >if (typeof clearActions == "undefined") clearActions = {};
+clearActions["7295"] = function() {
+    var elements = avajQuery("#3_102_3").children();
+
+    for (var i = 1; i < elements.size(); i ++) {
+        avajQuery(elements[i]).remove();
+    }
+};
+ if (typeof fieldDatasets == "undefined") fieldDatasets = {}; 
+fieldDatasets["3_102_3"] = [{"dependent":7295,"datasetSpecIdFilter":76,"datasetSchemaSpecId":76,"optionFormatValue":[{"type":"field","order":1,"fieldNumberOrText":"5"}],"operator":"==","schemaFieldNumberFilter":11,"schemaSubType":"dropdown","value":1691,"schemaFieldIdDatasetFilterJoin":null,"type":"fixed","schemaFieldId":7295}];
+
+if (typeof idCorrespondence == "undefined") idCorrespondence = {};
+idCorrespondence["7295"] = "3_102_3";if (typeof dependentFields["3_1691_3"] == "undefined") dependentFields["3_1691_3"] = [];
+dependentFields["3_1691_3"].push("3_102_3");
+
+                if (typeof(onFieldValueChange) !== typeof(Function)) {
+                    onFieldValueChange = function() {};
+                }
+                if (typeof fieldResetters == "undefined") fieldResetters = [];
+                avajQuery.each(dependentFields, function(key, value){
+                    avajQuery.each(value, function(key, dependent){
+                        fieldResetters[dependent] = function(){
+                            var $indepElement = avajQuery("#" + dependent);
+                            if ($indepElement.is("input") && $indepElement.select2) {
+                                $indepElement.select2("val", undefined);
+                            }
+                        };
+                    });
+                });</script></select></div>
+                </div>
+            </div>
+                            <div class="fieldSpec odd">
+                <div class="fieldSpecPadder">
+                    <div class="labelText">Job Type</div>
+                    <div><select name="3_18_3" tabindex="0" class="jobCustomField_3_18_3 SelectFormField" id="3_18_3" ><option value="0" >Select an option</option><option value="140" >Full-Time Staff</option><option value="142" >Part-Time (without benefits)</option><option value="144" >Temporary / Per Diem / Freelance</option><option value="141" >Paid Intern</option><option value="146" >Unpaid Intern</option></select></div>
+                </div>
+            </div>
+                <div class="buttonBar">
+            <button type="submit" name="action" value="search" class="buttonLike"><i class="fa fa-lg fa-search"></i>Search</button>
+            <a href="https://cbs.avature.net/cbsnewscareers/SearchJobs" class="cancelButton">Reset</a>
+        </div>
+    </form>
+
+    
+    <ul class="jobList cleanList autoClearer">
+                                
+
+<li class="jobResultItem">
+    <a href="https://cbs.avature.net/cbsnewscareers/JobDetail/CBS-News-Spring-2018-Internship-DC-Bureau/9855" class="jobResultItemTitle">CBS News Spring 2018 Internship, DC Bureau</a>
+    <div class="jobResultItemInfo">
+        
+                Ref#: 29483    </div>
+    <div class="jobResultItemDescription">
+        The CBS News internship program is an educational program designed for students who are interested in pursuing a career in journalism, broadcasting or communication. Placement possibilities include The Evening News, 60 Minutes, CBSN, CBS This Morning, Face the Nation, Newspath, Political Unit,...
+        <div class="readMore"><a href="https://cbs.avature.net/cbsnewscareers/JobDetail/CBS-News-Spring-2018-Internship-DC-Bureau/9855" class="regular">Read more</a></div>
+    </div>
+    <div class="buttonBar">
+        <a href="https://cbs.avature.net/cbsnewscareers/JobDetail/CBS-News-Spring-2018-Internship-DC-Bureau/9855" class="iconButton"><i class="fa fa-lg fa-plus-circle"></i>Apply</a>
+                    </div>
+</li>
+                        
+
+<li class="jobResultItem">
+    <a href="https://cbs.avature.net/cbsnewscareers/JobDetail/CBS-News-Spring-2018-Internship-NY-Bureau/9854" class="jobResultItemTitle">CBS News Spring 2018 Internship, NY Bureau</a>
+    <div class="jobResultItemInfo">
+        
+                Ref#: 29482    </div>
+    <div class="jobResultItemDescription">
+        This is an educational program designed for students who are interested in pursuing a career in journalism, broadcasting or communication. Placement possibilities include The Evening News, 60 Minutes, 48 Hours, CBS This Morning, CBS This Morning: Saturday, Sunday Morning, Newspath, Radio News,...
+        <div class="readMore"><a href="https://cbs.avature.net/cbsnewscareers/JobDetail/CBS-News-Spring-2018-Internship-NY-Bureau/9854" class="regular">Read more</a></div>
+    </div>
+    <div class="buttonBar">
+        <a href="https://cbs.avature.net/cbsnewscareers/JobDetail/CBS-News-Spring-2018-Internship-NY-Bureau/9854" class="iconButton"><i class="fa fa-lg fa-plus-circle"></i>Apply</a>
+                    </div>
+</li>
+                        
+
+<li class="jobResultItem">
+    <a href="https://cbs.avature.net/cbsnewscareers/JobDetail/News-Associate-New-York-Bureau/9866" class="jobResultItemTitle">News Associate, New York Bureau</a>
+    <div class="jobResultItemInfo">
+        
+                Ref#: 29494    </div>
+    <div class="jobResultItemDescription">
+        CBS News is seeking candidates for the News Associates Program, a 15-month, highly competitive program where individuals rotate among a variety of broadcasts and departments including 60 Minutes, 48 Hours, CBS Sunday Morning, CBS Evening News, CBS This Morning, Newspath and the National Desk. This...
+        <div class="readMore"><a href="https://cbs.avature.net/cbsnewscareers/JobDetail/News-Associate-New-York-Bureau/9866" class="regular">Read more</a></div>
+    </div>
+    <div class="buttonBar">
+        <a href="https://cbs.avature.net/cbsnewscareers/JobDetail/News-Associate-New-York-Bureau/9866" class="iconButton"><i class="fa fa-lg fa-plus-circle"></i>Apply</a>
+                    </div>
+</li>
+                        
+
+<li class="jobResultItem">
+    <a href="https://cbs.avature.net/cbsnewscareers/JobDetail/News-Associate-Washington-DC-Bureau/8668" class="jobResultItemTitle">News Associate, Washington DC Bureau</a>
+    <div class="jobResultItemInfo">
+        
+                Ref#: 28387    </div>
+    <div class="jobResultItemDescription">
+        CBS News is seeking candidates for the News Associates Program, a 15-month, highly competitive program where individuals rotate among a variety of broadcasts and departments including Face the Nation, CBS Evening News, CBS This Morning and the National Desk. &nbsp;This entry-level program is...
+        <div class="readMore"><a href="https://cbs.avature.net/cbsnewscareers/JobDetail/News-Associate-Washington-DC-Bureau/8668" class="regular">Read more</a></div>
+    </div>
+    <div class="buttonBar">
+        <a href="https://cbs.avature.net/cbsnewscareers/JobDetail/News-Associate-Washington-DC-Bureau/8668" class="iconButton"><i class="fa fa-lg fa-plus-circle"></i>Apply</a>
+                    </div>
+</li>
+            </ul>
+
+    
+    <!--h2 class="pageTitle1">Reasonable Accommodations</h2>
+    <p class="bMar05">CBS is an equal opportunity employer that is committed to working with and providing reasonable accommodations to individuals with disabilities. If you have a disability and you believe you need a reasonable accommodation in order to search for a job opening or to submit an online application, please e-mail <a href="mailto:recruitmentoperations@cbs.com">recruitmentoperations@cbs.com</a> or call toll-free (855) 474-2270. Only messages left for this purpose will be returned.</p>
+    <p>An Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, or protected veteran status and will not be discriminated against on the basis of disability.</p-->
+            </div>
+        </div>
+        <div id="footer">
+            <div class="wrapper autoClearer">
+                <a href="#header" id="topButton" class="fancyScroll"><small class="dBlock fancyScroll"><i href="#header" class="fa fa-chevron-up fancyScroll"></i></small>Top</a>
+                <a href="https://cbs.avature.net/cbsnewscareers" id="footerLogo"><img src="/portal/10/images/logo_footer.png" border="0" alt="CBS" class="dBlock"></a>
+                                                <div id="copyright">&copy; 2015 CBS Corporation and CBS Broadcasting Inc. All Rights Reserved. <a href="http://www.cbscorporation.com/terms-of-use" target="_blank">Terms of use</a> | <a href="http://www.cbscorporation.com/privacy-policy" target="_blank">Privacy Policy</a>.</div>
+            </div>
+        </div>
+
+        <script src="/portal/10/js/jquery-1.11.2.min.js"></script>
+        <script src="/portal/10/js/jquery-ui-1.11.3.min.js"></script>
+        <script src="/portal/10/js/jquery.slicknav.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#headerNav').slicknav({
+                    label: '',
+                    prependTo:'#slicknavWrapper'
+                });
+
+                $('a.fancyScroll').click(function (e) {
+                    e.preventDefault();
+
+                    var target = $(e.target).attr('href');
+
+                    $('html, body').animate({
+                        scrollTop: $(target).offset().top
+                    }, 1500, 'easeInCubic');
+                });
+            });
+        </script>
+    </body>
+</html>
+

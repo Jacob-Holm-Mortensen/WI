@@ -1,0 +1,2743 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" itemscope itemtype="http://schema.org/" >
+<head>
+    <link rel="SHORTCUT ICON" href="https://sports.cbsimg.net/favicon.ico">
+
+    <title>Tennis Scores - CBSSports.com </title>
+
+    <link href="https://sports.cbsimg.net/css/font/iconmoon/20170927/style.css?0009" rel="stylesheet" type="text/css" />
+            <link href="https://sports.cbsimg.net/css/phase4-min-v548.css" rel="stylesheet" type="text/css" />
+            <!--[if IE]>
+            <link href="https://sports.cbsimg.net/css/phase2-ie-min-v058.css" rel="stylesheet" type="text/css" />
+            <![endif]-->
+            <!-- no arena css -->
+<link href="https://sports.cbsimg.net/css/jquery/ui-tools-min-v030.css" rel="stylesheet" type="text/css"/>
+<link href="https://sports.cbsimg.net/css/scoreboards/scoreboard-global-min-v008.css" rel="stylesheet" type="text/css" />
+<link href="https://sports.cbsimg.net/css/scoreboards-min-v022.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.currentServerIcon {vertical-align:text-bottom;}
+div.majorsNav {margin: 0 0 10px;}
+div.majorsNav h3 {margin:10px 0 5px;}
+</style>
+
+    <!--[if lt IE 9]><script>var e = ("abbr,article,aside,audio,canvas,datalist,details,figure,figcaption,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video").split(',');for (var i = 0; i < e.length; i++) {document.createElement(e[i]);}</script><![endif]-->
+<script type="text/javascript">
+if(typeof CBSi=="undefined"||!CBSi){var CBSi={}}CBSi.namespace=function(){var b=arguments,g=null,e,c,f;for(e=0;e<b.length;e=e+1){f=b[e].split(".");g=CBSi;for(c=(f[0]=="CBSi")?1:0;c<f.length;c=c+1){g[f[c]]=g[f[c]]||{};g=g[f[c]]}}return g};CBSi.extend=function(d,e,c){if(!e||!d){throw new Error("extend failed, please check that all dependencies are included.")}var b=function(){};b.prototype=e.prototype;d.prototype=new b();d.prototype.constructor=d;d.superclass=e.prototype;if(e.prototype.constructor==Object.prototype.constructor){e.prototype.constructor=e}if(c){for(var a in c){if(c.hasOwnProperty(a)){d.prototype[a]=c[a]}}}};CBSi.panel={overlayManager:undefined,create:function(c,b){if(!this.overlayManager){this.overlayManager=new YAHOO.widget.OverlayManager()}if(!b.strings){b.strings={}}if(!b.strings.close){b.strings.close=""}var a=new YAHOO.widget.Panel(c,b);this.overlayManager.register(a);return a}};CBSi.fireEvent=function(b,c){if(document.createEvent){var a=document.createEvent("HTMLEvents");a.initEvent(c,true,true);return !b.dispatchEvent(a)}else{var a=document.createEventObject();return b.fireEvent("on"+c,a)}};CBSi.log=function(){};if(window.console&&window.console.log){CBSi.log=function(){if(CBSi.debugmode===""){return}var a=[];for(var b=0;b<arguments.length;b++){a.push(arguments[b])}console.log(a)}}else{if(window&&window.console){window.console.log=function(){}}else{window.console={};window.console.log=function(){}}if(console){console.log=function(){}}else{console={};console.log=function(){}}}CBSi.jsRenvInit=function(a){for(var b in a){CBSi[b]=a[b]}return};
+if (!CBSi.debugmode) CBSi.debugmode = ''; // For normandy--manually set if js only
+</script>
+<script id="jsRenv_script" type="text/javascript">CBSi.jsRenvInit({"takeoverIsBlank":0,"httpHost":"http://www.cbssports.com","project":"media","mediaHttpServer":"https://www.cbssports.com","pref":{"timezoneOffset":"4","timezoneAbbrev":"ET"},"feature":"scoreboard","league_abbr":"ten","arena":"tennis","imageServer":"https://sports.cbsimg.net","requestUri":"/tennis/scoreboard"});</script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/yui/latest/yahoo-dom-event-connection-datasource-get-imageloader-animation-json-min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/jquery/jquery.1.8.2.min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/jquery/ui/jquery.1.9.2.custom.min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/global-min-v0086.js'></script>
+
+<script>
+//Dumping cookies that have been made browser/host only
+(function($){
+    //return;//Comment out to run code
+    //List of domains to check and see if the cookie has with it
+    var domains = ['.cbssports.com','.www.cbssports.com','www.cbssports.com','*.cbssports.com','cbssports.com', '.cbssports.com'];
+    //List of the names of cookies to match
+    var matches = ['CirclePoll','2013NCAAB','2013NFL','2013NCAAF'];
+    //Loop throught the cookies and find the matches
+    $.each(document.cookie.split(/; */), function()  {
+        var splitCookie = this.split('=');
+        for(m in matches){
+            if(splitCookie[0].match(RegExp(matches[m]))){
+                for(d in domains){
+                    console.log(splitCookie[0], 'cookie removed');
+                    //Try to delete the cookie with a domain and path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;domain=" + domains[d] + ";path=/";
+                    //Try to delete the cookie without a domain and path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;";
+                    //Try to delete the cookie without a path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;domain=" + domains[d] + ";";
+                    //Try to delete the cookie without a domain
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;path=/";
+                }
+            }
+        }
+
+    });
+})($);
+</script>
+
+
+
+
+
+    <script type="text/javascript">
+var surround=new Object();
+surround.cat = ['a','b','c','d','e','f'];
+surround.cookie = readCookie('surround');
+
+if (surround.cookie == false || surround.cookie == undefined) {
+    surround.pick = Math.floor(Math.random() * surround.cat.length);
+    surround.subsession = Math.floor(Math.random() * 4) + 1; /*subsessions 1-4*/
+    document.cookie=("surround="+surround.cat[surround.pick]+"|"+surround.subsession+";domain=.cbssports.com;path=/" );
+    surround.cookie = readCookie('surround');
+}
+if (surround.cookie) {surround.sessions=surround.cookie.split("|");}
+surround.vguid = v1();
+
+function blankAdCallback(width, height, position) {
+    // Skybox Ad - 5x5 top.
+    if (height == 5 && width == 5 && position == 'top') {
+        $('.ad-top-strip').removeAttr("data-skyboxminheight")
+            .removeAttr("data-skyboxmaxheight")
+            .removeAttr("data-skyboxheight");
+        $('body').removeClass('skybox-loaded')
+            .removeClass('skybox-loaded-dfp')
+            .removeClass('skybox-expanded')
+            .removeClass('skybox-collapsed');
+        window.scrollTo(window.pageXOffset, window.pageYOffset + 1);
+    }
+}
+</script>
+    <script>window.logged_in = "no";</script><script src="//cdn.optimizely.com/js/2788500260.js"></script>
+<script type="text/javascript">
+var cbsiadGlobal = { };
+if ( typeof(surround) == 'undefined' ) { surround = {}; }
+var dwTag = "&PGUID="+surround.vguid +"&cookiesOn=" +cbsiadGlobal.cookiesOn;
+</script>
+<script type="text/javascript" src="https://native.sharethrough.com/assets/tag.js" async></script><script type="text/javascript" src="https://js-sec.indexww.com/ht/ls-cbssports.js" async></script><script type="text/javascript" src="https://mtrx.go.sonobi.com/morpheus.cbssports.4073.js" async></script>
+<script type="text/javascript">
+if (!random) {var abc=Math.random() + ""; var random=abc.substring(2,abc.length);}
+var switchXFP="on";
+var adLookup="media/spln/tennis/reg/free/scoreboard";
+var adNetwork="8264";
+var xfpObj='vguid='+surround.vguid+'~user=anon~env=prod~arena=tennis';
+</script>
+    
+   <script type="text/javascript">
+      xfpDomain='.cbssports.com';
+      xfpSlot='/8264/aw-cbssports/tennis/media/scoreboard';
+      // tracks if this is the first page the user has visited in this session
+      function xfpFirstPageCookie() {
+         if (xfpFirstPage) {return xfpFirstPage;}           // only run once per page, if already set, just return value
+         var xfpFirstPage = readCookie('XFP_FIRSTPAGE');    // get firstPage cookie
+         if (!xfpFirstPage) {                               // if cookie doesn't exist, this is the first page, so firstPage = 1
+            xfpFirstPage = 1;
+         } else if (xfpFirstPage == 1) {                    // else, this is the second page, set firstPage = 0
+            xfpFirstPage = 0;
+         }
+         var exp = new Date();
+         exp.setTime(exp.getTime() + xfpGetTimeToExpiration(.75)); // get number of milliseconds until 12:45am ET
+         document.cookie=('XFP_FIRSTPAGE ='+xfpFirstPage+";expires="+exp.toUTCString()+";domain="+xfpDomain+";path=/;");
+         return xfpFirstPage;                                // set and return the parameter DVAR_FIRSTPAGE = firstPage
+      }
+      // given the expiration hour in ET, return the number of milliseconds to
+      //   expiration from the given Date Object (defaults to current date)
+      function xfpGetTimeToExpiration(etExpireHour,dt) {
+         dt = dt || new Date();
+         var etUtcOffset = 5; // hours
+         if (isEDT(dt)) etUtcOffset = 4; // if in daylight savings time
+         var utcExpire = (etExpireHour+etUtcOffset)%24; // UTC expire time in hours
+         var utcTime = 60*dt.getUTCHours() + dt.getUTCMinutes(); // UTC time in mins
+         var minsToExpiration = 60*utcExpire - utcTime; // time to expiration
+         if (minsToExpiration < 0) minsToExpiration = 24*60 + minsToExpiration;
+         return 60000*minsToExpiration; // in milliseconds
+      }
+      // determine if Daylight Savings Time is being observed in the ET timezone
+      //   at the date/time of the given Date Object (defaults to current time)
+      function isEDT(dt) {
+         dt = dt || new Date(); // default to current date
+         var month = dt.getUTCMonth(); // get month in UTC
+         if (month > 2 && month < 10) return true; // in EDT if Apr to Oct
+         if (month < 2 || month > 10) return false; // not in EDT if Jan,Feb,Dec
+         var date = dt.getUTCDate(); // get day of month in UTC
+         var day = dt.getUTCDay(); // get day of week in UTC
+         if (month == 10) {  // November
+             if (date > 7) return false;  // after first week, not in EDT
+             if (day == 0) {  // Sunday of first week, check time
+               if (dt.getUTCHours() < 6) return true; //before 6am UTC, in EDT
+               return false;  // 6am UTC or later, not in EDT
+            }
+            if (date > day) return false; // Sunday has passed, not in EDT
+            return true;  // Sunday has not passed, in EDT
+         }
+         // March
+         if (date < 8) return false; // still first week, not in EDT
+         if (date > 14) return true; // after second week, in EDT
+         if (day == 0) { // Sunday of second week, check time
+             if (dt.getUTCHours() > 6) return true; // 7am UTC or later, in EDT
+             return false; // before 7am UTC, not in EDT
+         }
+         if (date - day > 7) return true;  // Sunday has passed, in EDT
+         return false; // Sunday has not passed, not in EDT
+      }
+      //sharethrough
+
+      var xfpFirstPage =  xfpFirstPageCookie();
+      var xfpSession    = (surround.cookie) ? surround.sessions[0] : 'off';
+      var xfpSubsession = (surround.cookie) ? surround.sessions[1] : 'off';
+
+      function xfpGetArgs(){
+         var args = new Object();
+         var query = location.search.substring(1); // get query string
+         var pairs = query.split("&");
+         for (var i=0; i < pairs.length; i++) {
+            var pos = pairs[i].indexOf('=');                         // Look for name "name=value"
+            if (pos == -1) continue;                                 // If not found, skip
+            var argname = pairs[i].substring(0,pos);                 // Extract the name
+            var value   = pairs[i].substring(pos+1);                 // Extract the value
+            value = decodeURIComponent(value);                       // Decode it, if needed
+            var adTarg = argname.match(/adTargeting_/);              // Do we have a match on adTargeting_<key>
+
+            // Set Targeting for spec'd out query parms
+            if (argname == 'env' || argname == 'session' || argname == 'subses' || argname == 'adRegion' || argname == 'ftag' || argname == 'ttag' || (adTarg)) {
+               // args[argname] = value;
+               if (adTarg) {argname = argname.substring(12);} // strip off adTargeting_ from the name if present
+               googletag.pubads().setTargeting(argname, value);      // Set Targeting
+               if (argname == 'ftag' || argname == 'ttag') {
+                  document.cookie=("xfpFtag="+value+";domain="+xfpDomain+";path=/" );
+                  newFtag = 1;
+               }
+               xfpObj += '~' +argname +'=' +value;
+            }
+         }
+
+         var xfpFtagVal = readCookie("xfpFtag");                  // check if we have an ftag cookie
+         var newFtag = 0;
+         if ((newFtag==0) && xfpFtagVal) {                        // If no new setting for ftag but we had an old one then
+            googletag.pubads().setTargeting('ftag', xfpFtagVal);  // Set Targeting
+            xfpObj += '~ftag=' +xfpFtagVal;
+         }
+      }
+      
+      function getTaboolaPlacements() {
+         var taboolaList = '';
+         $("div[data-taboola-placement]").each(function() {
+            $this = $(this);
+            if ($this.data('taboola-placement')) {
+              if (taboolaList != '') {taboolaList+='|';}
+              taboolaList += $this.data('taboola-placement');
+            }
+         });
+         surround.taboola=taboolaList;
+      }
+    </script>
+   <script type="text/javascript">
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+         var gads = document.createElement('script');
+         gads.async = true;
+         gads.type = 'text/javascript';
+         var useSSL = 'https:' == document.location.protocol;
+         gads.src = (useSSL ? 'https:' : 'http:') +'//www.googletagservices.com/tag/js/gpt.js';
+         var node = document.getElementsByTagName('script')[0];
+         node.parentNode.insertBefore(gads, node);
+      })();
+
+      var adSlots = {}; //var to hold ad slots.
+
+      googletag.cmd.push(function() {
+
+         adSlots["XFP_top_strip"] = googletag.defineSlot("/8264/aw-cbssports/tennis/media/scoreboard", [5,5], "top_strip").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_leader_top"] = googletag.defineSlot("/8264/aw-cbssports/tennis/media/scoreboard", [[728,90],[970,66],[970,90]], "leader_top").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_skin_ad_call"] = googletag.defineSlot("/8264/aw-cbssports/tennis/media/scoreboard", [1600,1000], "skin_ad_call").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_sky_top"] = googletag.defineSlot("/8264/aw-cbssports/tennis/media/scoreboard", [160,600], "sky_top").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_leader_plus2_bottom"] = googletag.defineSlot("/8264/aw-cbssports/tennis/media/scoreboard", [[728,90],[970,66]], "leader_plus2_bottom").addService(googletag.pubads()).setTargeting("pos", "bottom"); 
+         googletag.pubads().addEventListener("slotRenderEnded", function(event) {
+            var slotName = event.slot.getSlotElementId();
+            
+            if (slotName == 'leader_plus_top' || slotName == 'leader_top') {
+               // CBSi.log("ENTER Collapse empty leaderboard.");
+               var slotID = '#' + slotName;
+               // CBSi.log("Slot ID is " + slotName);
+               if ($(slotID).css('display') == 'none') {
+                   CBSi.log("Collapse empty leaderboard.");
+                   $('#leaderboard-wrap').css({ "display": "none" });
+               }
+            }
+         }); 
+         googletag.defineOutOfPageSlot("/8264/aw-cbssports/tennis/media/scoreboard","interstitial").addService(googletag.pubads());
+         googletag.pubads().setTargeting("ptype", "scoring");
+         googletag.pubads().setTargeting("firstpg", ""+xfpFirstPage);
+         googletag.pubads().setTargeting("session", xfpSession);
+         googletag.pubads().setTargeting("subses", ""+xfpSubsession);
+         googletag.pubads().setTargeting("vguid", surround.vguid); 
+         googletag.pubads().setTargeting("user", "anon"); 
+         googletag.pubads().setTargeting("env", "prod"); 
+
+         xfpGetArgs(); // to set/override targeting for env, session, subses, adRegion, ftag, ttag, and adTargeting_<key> if set by query string
+         googletag.pubads().enableAsyncRendering();
+         googletag.pubads().enableSingleRequest();
+         googletag.pubads().collapseEmptyDivs();
+         googletag.enableServices();
+         // googletag.display();  // Ad display is triggered via Sonobi.
+      });
+      var PR_UACT=0;
+      xfpObj += '~ptype=scoring~firstpg=' +xfpFirstPage +'~session='+xfpSession +'~subses='+xfpSubsession+'';
+      function getVideoAdSessionValues(videoId){return  "session="+xfpSession+";subses="+xfpSubsession+"";}
+   </script>
+   
+         <script type="text/javascript">
+         window._taboola = window._taboola || [];
+         _taboola.push({other : 'auto'});
+         !function (e, f, u) {
+             e.async = 1;
+             e.src = u;
+             f.parentNode.insertBefore(e, f);
+         }(document.createElement('script'), 
+         document.getElementsByTagName('script')[0], '//cdn.taboola.com/libtrc/cbsinteractive-cbssports/loader.js');
+         </script>
+      
+   
+    
+    <!-- no ClickTale -->
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /><meta name="description" content="Live tennis scores, tennis match updates and tennis results at CBSSports.com."><meta property="og:title" content="Tennis Scores" /><meta property="og:type" content="article"/><meta property="og:description" content=""/><meta property="og:image" content="http://sports.cbsimg.net/images/cbss/ui5/cbssportsv2_200x200.png"/><meta property="og:url" content="https://www.cbssports.com/tennis/scoreboard"/><meta property="og:site_name" content="CBSSports.com"/><meta property="fb:app_id" content="297742330311988"/><meta itemprop="name" content="Tennis Scores"/><meta itemprop="description" content=""/><meta name="vr:type" content="article"/><meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@cbssports" /><meta name="twitter:creator" content="" /><meta name="twitter:url" content="https://www.cbssports.com/tennis/scoreboard" /><meta name="twitter:title" content="Tennis Scores" /><meta name="twitter:description" content="" /><meta name="twitter:image" content="http://sports.cbsimg.net/images/cbss/ui5/cbssportsv2_200x200.png" /><meta name="keywords" content="tennis match scores results, live tennis scores, wta atp tennis matches scores result, CBSSports Line GameCenter"><meta http-equiv="Refresh" content="800">
+<meta name="googlebot" content="NOODP">
+<meta property="fb:pages" content="25902406772" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.cbssports.com/s/36904/ScoresApp?platform=webapp" /><link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.cbssports.com/s/36904/ScoresApp?platform=webapp" /><link rel="alternate" href="android-app://com.handmark.sportcaster/cbssportsapp/www.cbssports.com/tennis" />
+<link rel="canonical" href="https://www.cbssports.com/tennis/scoreboard">
+
+    <link rel="apple-touch-icon" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-ipad-retina.png">
+</head><body id="standardBody" class="skybox-auto-collapse">
+<div id="tooltip" name="tooltip"></div> 
+
+<script type="text/javascript">if(top.location != self.location && (document.referrer.indexOf("cbssports.com") == -1)) {window.open(location.href, '_top');}</script>
+<div id="interstitial" style="position:absolute;top:-5000px;left:-5000px;">
+      <script type="text/javascript">
+         googletag.cmd.push(function() {
+             if (typeof index_headertag_lightspeed !== 'undefined') {
+                 var cb = (function () {
+                     return function () {
+                         var slots = googletag.pubads().getSlots();
+                         index_headertag_lightspeed.set_slot_targeting(slots);
+                          googletag.display("interstitial");
+                       };
+                 })();
+                 index_headertag_lightspeed.add_session_end_hook(cb, true);
+                 index_headertag_lightspeed.refresh();
+             } else {
+                 googletag.display("interstitial");
+             }
+         });
+      </script>
+   </div>
+<!--googleoff: snippet-->
+<div id="skybox-above">
+    <div id="top_strip" class="ad-top-strip">
+    <script type="text/javascript">
+    if (switchXFP != 'off') {
+        googletag.cmd.push(function() {
+            if (typeof index_headertag_lightspeed !== 'undefined') {
+                      var cb = (function () {
+                          return function () {
+                              var slots = googletag.pubads().getSlots();
+                              index_headertag_lightspeed.set_slot_targeting(slots);
+                               googletag.display("top_strip");
+                            };
+                      })();
+                      index_headertag_lightspeed.add_session_end_hook(cb, true);
+                      index_headertag_lightspeed.refresh();
+                  } else {
+                      googletag.display("top_strip");
+                  }
+        });
+        if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="top_strip" style="width:100%"><br>').insertBefore('#top-strip');
+    }
+    </script>
+    </div>
+</div>
+<script>
+var skyBoxScroll = function() {
+    if ($(window).scrollTop() != 0) {
+        window.scrollTo(window.pageXOffset, window.pageYOffset - 1);
+        window.scrollTo(window.pageXOffset, window.pageYOffset + 1);
+    }
+}
+</script><header id="site-header" class="site-header" data-component="nav" data-role="header" data-position="fixed" data-fullscreen="true">
+	<div id="nav-network-bar" class="nav-network-bar">
+	  <ul class="nav-networks">
+		<li class="nav-networks-item is-selected"> <a href="http://www.cbssports.com/" om-event="Brand Bar|CBSSports">CBSSports.com</a> </li>
+		<li class="nav-networks-item "> <a href="http://247sports.com" target="_blank" om-event="Brand Bar|247Sports"> 247Sports </a> </li>
+		<li class="nav-networks-item "> <a href="http://www.maxpreps.com" target="_blank" om-event="Brand Bar|MaxPreps"> MaxPreps </a> </li>
+		<li class="nav-networks-item "> <a href="http://www.sportsline.com" target="_blank" om-event="Brand Bar|SportsLine"> SportsLine </a> </li>
+		<li class="nav-networks-item "> <a href="http://shop.cbssports.com/?utm_source=cbssportscom_hp&utm_medium=bm_referral&utm_term=kw--CBS_Sports" target="_blank" om-event="Brand Bar|Shop"> Shop </a> </li>
+	  </ul>
+	  
+	  <ul class="nav-follow-us">
+		<li class="nav-follow-us-item nav-follow-us-item-label"> Follow CBS Sports </li>
+		<li class="nav-follow-us-item"> <a href="https://www.facebook.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Facebook"><span class="btn share icon-moon-facebook"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://twitter.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Twitter"><span class="btn share icon-moon-twitter"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://www.instagram.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Instagram"><span class="btn share icon-moon-instagram"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" target="_blank" rel="nofollow" om-event="Brand Bar|Flipboard"><span class="btn share icon-moon-flipboard"></span></a> </li>
+	  </ul>
+	</div>
+	<div id="cbs-site-nav" class="cbs-site-nav">
+		<div class="site-nav-inner">
+			<div class="site-nav-logo">
+				<div class="cbs-logo-lockup">
+					
+        
+        <div class="cbs-logo">
+            <a href="/" om-event="Arena Nav|Logo"> <span class="cbs-logo-icon icon-moon-cbs-icon"></span> </a>
+        </div>
+        
+            <div class="cbs-logo-section has-icon"><div class="cbs-logo-pos" data-arena="logo">
+                <span class="logo-sport icon-moon-arena-text-tennis"></span>
+                <span class="logo-icon icon-moon-caret-down"></span>
+            </div> <div class="cbs-logo-dropdown"><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-cbs-icon"></span> <a href="/" om-event="Arena Nav|Tennis|CBS Sports Home">CBS Sports Home</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-fantasy"></span> <a href="https://www.cbssports.com/fantasy/" om-event="Arena Nav|Tennis|Fantasy">Fantasy</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-nfl"></span> <a href="https://www.cbssports.com/nfl/" om-event="Arena Nav|Tennis|NFL">NFL</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-mlb"></span> <a href="https://www.cbssports.com/mlb/" om-event="Arena Nav|Tennis|MLB">MLB</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-ncaafb"></span> <a href="https://www.cbssports.com/college-football/" om-event="Arena Nav|Tennis|NCAA FB">NCAA FB</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-golf"></span> <a href="https://www.cbssports.com/golf/" om-event="Arena Nav|Tennis|Golf">Golf</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-basketball"></span> <a href="https://www.cbssports.com/nba/" om-event="Arena Nav|Tennis|NBA">NBA</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-nhl"></span> <a href="https://www.cbssports.com/nhl/" om-event="Arena Nav|Tennis|NHL">NHL</a> </li></ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/college-basketball/" om-event="Arena Nav|Tennis|NCAA BB">NCAA BB</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/boxing" om-event="Arena Nav|Tennis|Boxing">Boxing</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/wwe/" om-event="Arena Nav|Tennis|WWE">WWE</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/soccer/" om-event="Arena Nav|Tennis|Soccer">Soccer</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/mma/" om-event="Arena Nav|Tennis|MMA">MMA</a> </li><li class="nav-dropdown-item is-selected"> <span class=""></span> <a href="https://www.cbssports.com/tennis/" om-event="Arena Nav|Tennis|Tennis">Tennis</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/olympics/" om-event="Arena Nav|Tennis|Olympics">Olympics</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.maxpreps.com/national/national.htm" om-event="Arena Nav|Tennis|High School" target="_blank" class="external-link" rel="nofollow">High School</a> </li></ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class=""></span> <a href="http://sports.cbslocal.com/" om-event="Arena Nav|Tennis|CBS Local Sites" target="_blank" class="external-link" rel="nofollow">CBS Local Sites</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.nascar.com/en_us/sprint-cup-series.html?cid=syn_cbs_referrers_navlinks_01112013&synid=syn_cbs_referrers_navlinks_01112013" om-event="Arena Nav|Tennis|NASCAR" target="_blank" class="external-link" rel="nofollow">NASCAR</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.americasbestracing.net/" om-event="Arena Nav|Tennis|Horse Racing" target="_blank" class="external-link" rel="nofollow">Horse Racing</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.pbr.com/" om-event="Arena Nav|Tennis|PBR" target="_blank" class="external-link" rel="nofollow">PBR</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://toughmudder.com/" om-event="Arena Nav|Tennis|Tough Mudder" target="_blank" class="external-link" rel="nofollow">Tough Mudder</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.bowl.com/" om-event="Arena Nav|Tennis|Bowling" target="_blank" class="external-link" rel="nofollow">Bowling</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.stubhub.com/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHomepagemodule-_-partCBSSports" om-event="Arena Nav|Tennis|Tickets" target="_blank" class="external-link" rel="nofollow">Tickets</a> </li></ul></div> </div></div></div>
+        
+        <nav class="site-nav-list">
+            <ul><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/tennis/"  om-event="Arena Nav|Tennis|Home">Home</a></li><li class="nav-list-item nav-list-item-flow is-selected"> <a href="https://www.cbssports.com/tennis/scoreboard"  om-event="Arena Nav|Tennis|Scores">Scores</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/tennis/schedules"  om-event="Arena Nav|Tennis|Schedule">Schedule</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/tennis/rankings"  om-event="Arena Nav|Tennis|Rankings">Rankings</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/tennis/players"  om-event="Arena Nav|Tennis|Players">Players</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.stubhub.com/tennis-tickets/category/7667/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHpdropdown-_-partCBSSports" target="_blank" rel="nofollow" om-event="Arena Nav|Tennis|Tickets">Tickets</a></li></ul>
+        </nav>
+			<div class="site-nav-side not-logged-in">
+				<ul class="site-nav-side-inner">
+					<li class="nav-side-item games-item hoverable" data-arena="play"> <span class="narrow-text">Play</span> <span class="narrow-icon icon-item icon-moon-nav-games"></span>
+					    <div class="site-nav-dropdown is-dropdown-games align-right">
+							<div class="nav-dropdown-inner">
+								
+        <div class="nav-dropdown-game">
+            <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/football/?ttag=FFB16_os_drpdwn_feat_lk" om-event="Global Nav|Home|Play|Games|Text">Games</a></h6>
+            <div class="nav-game-wrap">
+                <div class="nav-game game-left">
+                    <div class="nav-game-image">
+                        <a href="https://www.cbssports.com/fantasy/games/basketball/?ftag=SPM-10-10abh6c" om-event="Global Nav|Home|Play|FANTASY BASKETBALL|Feature 1"><img src="https://sportshub.cbsistatic.com/i/2017/09/18/1b7c71c4-dc55-4636-a4b3-1dc245e2ea93/fantasybasketball-180x100.jpg" alt="fantasybasketball-180x100.jpg"></a>
+                        <p class="nav-game-text">Play Now</p>
+                    </div>
+                    <p class="nav-game-title"><a href="https://www.cbssports.com/fantasy/games/basketball/?ftag=SPM-10-10abh6c" om-event="Global Nav|Home|Play|FANTASY BASKETBALL|Feature 1">FANTASY BASKETBALL</a></p>
+                </div>
+                <div class="nav-game game-right">
+                    <div class="nav-game-image">
+                        <a href="https://www.cbssports.com/fantasy/games/hockey/?ftag=SPM-16-10abg0g" om-event="Global Nav|Home|Play|FANTASY HOCKEY|Feature 2"><img src="https://sportshub.cbsistatic.com/i/2017/09/18/7423042f-ba35-4a00-a58f-4334c8ae7b8f/180x100.jpg" alt="180x100.jpg"></a>
+                        <p class="nav-game-text">Play Now</p>
+                    </div>
+                    <p class="nav-game-title"><a href="https://www.cbssports.com/fantasy/games/hockey/?ftag=SPM-16-10abg0g" om-event="Global Nav|Home|Play|FANTASY HOCKEY|Feature 2">FANTASY HOCKEY</a></p>
+                </div>
+            </div>
+            <div class="nav-game-dropdown-text" style="clear:both;">
+                <a href="https://www.cbssports.com/fantasy/games/my-teams/" om-event="Global Nav|Home|Play|View your Leagues|Text">View your Leagues</a>
+            </div>
+        </div>
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/football?ttag=FF16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Football|Text">Fantasy Football</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/baseball/?ttag=FBB16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Baseball|Text">Fantasy Baseball</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/basketball/?ttag=FBK16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Basketball|Text">Fantasy Basketball</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/hockey/?ttag=FHK16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Hockey|Text">Fantasy Hockey</a></h6>
+            </div>
+        
+    </div>
+    <div class="nav-dropdown-bottom">
+        <div class="nav-dropdown-button">
+            <a href="/fantasy/games/" om-event="Global Nav|Home|Play|See All">See All Sports Games</a>
+        </div>
+    </div>
+    
+							</div>
+						</div>
+					</li>
+					<li class="nav-side-item watch-item hoverable" data-arena="watch"> <span class="narrow-text">Watch</span> <span class="narrow-icon icon-item icon-moon-nav-watch"></span>
+						<div class="site-nav-dropdown align-right">
+							<div class="nav-dropdown-inner">
+								
+               <h6 class="nav-dropdown-title"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/" om-event="Global Nav|Tennis|Watch|Featured Video|Text">Latest from CBS Sports Network </a></h6>
+               <div class="nav-dropdown-top">
+                    <a href="https://www.cbssports.com/watch/cbssportsnetwork/">
+                        <div class="image-icon-overlay-wrap">
+                            <figure class="img"><img src="https://sportshub.cbsistatic.com/i/2017/03/27/4a8a0cfb-8794-4c57-8cfd-53cc0ba8c2cd/sizzle-graphic.jpg" alt="sizzle_graphic" height="152" width="270"></figure>
+                        </div>
+                        <a href="https://www.cbssports.com/watch/cbssportsnetwork/" class="vidPlayLg" alt="sizzle_graphic" om-event="Global Nav|Tennis|Watch|Featured Video|Image"></a>
+                    </a>
+               </div>
+           <ul><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/"  om-event="Global Nav|Tennis|Watch|Latest from CBS Sports Network">Latest from CBS Sports Network</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/"  om-event="Global Nav|Tennis|Watch|Watch CBS Sports Network">Watch CBS Sports Network</a> </li><li class="nav-dropdown-item"> <a href="http://www.cbssportsnetwork.com/" rel="nofollow" class="external-link" target="_blank"  om-event="Global Nav|Tennis|Watch|CBSSN Channel Finder">CBSSN Channel Finder</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/cbssports"  om-event="Global Nav|Tennis|Watch|TV Shows & Listings">TV Shows & Listings</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbs.com/all-access/live-tv/?ftag=AAM-00-10ade5c"  om-event="Global Nav|Tennis|Watch|NFL on All Access">NFL on All Access</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/fantasy/football/show/fantasy-football-today/"  om-event="Global Nav|Tennis|Watch|Fantasy Football Today">Fantasy Football Today</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/college-football/sec-live/"  om-event="Global Nav|Tennis|Watch|SEC Live">SEC Live</a> </li><li class="nav-dropdown-item"> <a href="http://www.collegesportslive.com/start/?ftag=CSL-01-10aaa6f"  om-event="Global Nav|Tennis|Watch|College Sports Live">College Sports Live</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/video/show/the-score/"  om-event="Global Nav|Tennis|Watch|The Score">The Score</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/video/player/247-sports-live"  om-event="Global Nav|Tennis|Watch|247Sports Live">247Sports Live</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/show/reiters-block/"  om-event="Global Nav|Tennis|Watch|Reiter's Block">Reiter's Block</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/video/show/minute-update/"  om-event="Global Nav|Tennis|Watch|Sports Minute">Sports Minute</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/videos/"  om-event="Global Nav|Tennis|Watch|All Videos">All Videos</a> </li></ul>
+							</div>
+						</div>
+					</li>
+					<li class="nav-side-item hoverable" data-arena="listen"> <span class="narrow-text">Listen</span> <span class="narrow-icon icon-item icon-moon-nav-listen"></span>
+						<div class="site-nav-dropdown align-right">
+							<div class="nav-dropdown-inner">
+								
+                <h6 class="nav-dropdown-title"> CBS Sports Radio </h6>
+                <div class="nav-dropdown-top">
+                  <div class="nav-dropdown-image"> <a href="http://radio.cbssports.com/" rel="nofollow" target="_blank" om-event="Global Nav|Tennis|Listen|Featured Podcast|Image"><img src="https://sportshub.cbsistatic.com/i/2016/02/24/fb0619ed-f59a-47ac-ac37-d7f670af79f3/cbssports-radio.png" alt="CBSSPORTS-radio"></a> </div>
+                  <div class="nav-dropdown-top-side">
+                    <p class="nav-dropdown-top-title"> <a href="http://radio.cbssports.com/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|Tennis|Listen|Featured Podcast|Text"> Listen Live </a> </p>
+                    <time class="nav-dropdown-top-date">  </time>
+                  </div>
+                </div>
+            
+                <h6 class="nav-dropdown-title"> Fantasy Football Today </h6>
+                <div class="nav-dropdown-top">
+                  <div class="nav-dropdown-image"> <a href="https://soundcloud.com/cbssportspodcasts/week-5-recap-backfield-battles" rel="nofollow" target="_blank" om-event="Global Nav|Tennis|Listen|Featured Podcast|Image"><img src="https://sportshub.cbsistatic.com/i/2017/06/20/bea1c43d-f08f-480e-8ad9-e93ad015bcc1/podcast-fantasyfootball-logo.jpg" alt="Podcast: Fantasy Football Today logo"></a> </div>
+                  <div class="nav-dropdown-top-side">
+                    <p class="nav-dropdown-top-title"> <a href="https://soundcloud.com/cbssportspodcasts/week-5-recap-backfield-battles"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|Tennis|Listen|Featured Podcast|Text"> Week 5 Recap - Backfield Battles </a> </p>
+                    <time class="nav-dropdown-top-date"> 31h ago </time>
+                  </div>
+                </div>
+            <ul><li class="nav-dropdown-item"> <a href="http://sports.cbslocal.com/cbs-sports-radio-roundup/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|Tennis|Listen|CBS Sports Radio Roundup">CBS Sports Radio Roundup</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/podcasts/jonah-keri/" om-event="Global Nav|Tennis|Listen|The Jonah Keri Podcast">The Jonah Keri Podcast</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/podcast" om-event="Global Nav|Tennis|Listen|Podcasts">Podcasts</a> </li><li class="nav-dropdown-item"> <a href="http://jimrome.com/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|Tennis|Listen|The Jim Rome Show">The Jim Rome Show</a> </li></ul>
+							</div>
+						</div>
+					</li>
+					
+            <li class="nav-side-item log-in-item"> 
+                <span class="log-in-buttons"> 
+                    <a href="https://www.cbssports.com/login?master_product=150&xurl=https%3A%2F%2Fwww.cbssports.com%2Ftennis%2Fscoreboard" class="log-in-button" om-event="Global Nav|Tennis|Log In"> <span class="the-button">Log In</span> </a> 
+                </span> 
+            </li>        
+        
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+<script type="text/javascript">
+ $(document).ready(function() {
+	var touchedNow;  			// Track which was just tapped now
+	var touchedLast  = 'none'; // Track which was last opened
+	var navItems 	 = $('.nav-list-item.hoverable, .nav-side-item.hoverable, .cbs-logo-section');
+	var navButtons   = $('.nav-list-item.hoverable > a, .nav-list-item.hoverable .icon-more, .nav-side-item.hoverable  span, .logo-sport');
+
+	navButtons.on("touchstart", function (e) {
+		var ua = navigator.userAgent.toLowerCase();
+		var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+		if (isAndroid) {
+			myWebview.zoomIn();
+			myWebview.zoomOut();
+		}
+		e.preventDefault();
+
+		$('body').addClass('touch-enabled');
+		var touchedParent = $(this).parent();
+		touchedNow = touchedParent.data( "arena" ); // record which nav link was clicked.
+		navItems.removeClass('is-tapped'); // remove 'is-tapped' from all links
+		if (touchedNow === touchedLast) {
+			// console.log('THE SAME ', touchedNow, touchedLast);
+			$('body').addClass('touch-enabled');
+			touchedLast = 'none';
+		} else {
+			// console.log('DIFFERENT ', touchedNow, touchedLast);
+			$('body').removeClass('touch-enabled');
+			touchedLast = touchedParent.data( "arena" );
+		}
+	});
+});
+
+</script>
+
+
+<!--googleon: snippet-->
+<div id="mantle_skin">
+    <span id="adSkinLeft"></span>
+    <span id="adSkinRight"></span>
+    
+    <div id="skin_ad_call" style="max-height:1px !important">
+        <script type="text/javascript">
+        if (switchXFP != 'off') {
+            googletag.cmd.push(function() {
+                if (typeof index_headertag_lightspeed !== 'undefined') {
+                          var cb = (function () {
+                              return function () {
+                                  var slots = googletag.pubads().getSlots();
+                                  index_headertag_lightspeed.set_slot_targeting(slots);
+                                   googletag.display("skin_ad_call");
+                                };
+                          })();
+                          index_headertag_lightspeed.add_session_end_hook(cb, true);
+                          index_headertag_lightspeed.refresh();
+                      } else {
+                          googletag.display("skin_ad_call");
+                      }
+            });
+            if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="skin_ad_call" style="width:960px"><br>').insertBefore('#skin_ad_call');
+        }
+        </script>
+    </div>
+    
+    
+            <div id="leaderboard-wrap" align="center" style="min-height:66px; height: auto;">
+                <div id="leader_top" style="padding-top: 10px;">
+                    <script type="text/javascript">
+                    if (switchXFP != 'off') {
+                        googletag.cmd.push(function() {
+                            if (typeof index_headertag_lightspeed !== 'undefined') {
+                                      var cb = (function () {
+                                          return function () {
+                                              var slots = googletag.pubads().getSlots();
+                                              index_headertag_lightspeed.set_slot_targeting(slots);
+                                               googletag.display("leader_top");
+                                            };
+                                      })();
+                                      index_headertag_lightspeed.add_session_end_hook(cb, true);
+                                      index_headertag_lightspeed.refresh();
+                                  } else {
+                                      googletag.display("leader_top");
+                                  }
+                        });
+                        if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="leader_top" style="width:980px"><br>').insertBefore('#leader_top');
+                    }
+                    </script>
+                </div>
+            </div>
+            
+
+
+    
+    <div id="pageRow">
+    
+    <div id="pageContainer" section="layout;railRight">
+    <h1 class="pageTitle feature tennis">Tennis Scores</h1>
+    <ul class="optPrimary options tab"><li><a    class="opt  " href="/tennis/scoreboard/results/2017/0101" id="gnddsbcal0A" onMouseOver="ShowLayer('gnddsbcal0',event)" onMouseOut="OutLayer();">January</a></li><li class="tabSep"></li><li><a    class="opt  " href="/tennis/scoreboard/results/2017/0201" id="gnddsbcal1A" onMouseOver="ShowLayer('gnddsbcal1',event)" onMouseOut="OutLayer();">February</a></li><li class="tabSep"></li><li><a    class="opt  " href="/tennis/scoreboard/results/2017/0301" id="gnddsbcal2A" onMouseOver="ShowLayer('gnddsbcal2',event)" onMouseOut="OutLayer();">March</a></li><li class="tabSep"></li><li><a    class="opt  " href="/tennis/scoreboard/results/2017/0401" id="gnddsbcal3A" onMouseOver="ShowLayer('gnddsbcal3',event)" onMouseOut="OutLayer();">April</a></li><li class="tabSep"></li><li><a    class="opt  " href="/tennis/scoreboard/results/2017/0501" id="gnddsbcal4A" onMouseOver="ShowLayer('gnddsbcal4',event)" onMouseOut="OutLayer();">May</a></li><li class="tabSep"></li><li><a    class="opt  " href="/tennis/scoreboard/results/2017/0601" id="gnddsbcal5A" onMouseOver="ShowLayer('gnddsbcal5',event)" onMouseOut="OutLayer();">June</a></li><li class="tabSep"></li><li><a    class="opt  " href="/tennis/scoreboard/results/2017/0701" id="gnddsbcal6A" onMouseOver="ShowLayer('gnddsbcal6',event)" onMouseOut="OutLayer();">July</a></li><li class="tabSep"></li><li><a    class="opt  " href="/tennis/scoreboard/results/2017/0801" id="gnddsbcal7A" onMouseOver="ShowLayer('gnddsbcal7',event)" onMouseOut="OutLayer();">August</a></li><li class="tabSep"></li><li><a    class="opt  " href="/tennis/scoreboard/results/2017/0901" id="gnddsbcal8A" onMouseOver="ShowLayer('gnddsbcal8',event)" onMouseOut="OutLayer();">September</a></li><li class="tabSep"></li><li class="optsel"><a    class="optsel  " href="/tennis/scoreboard/results/2017/1001" id="gnddsbcal9A" onMouseOver="ShowLayer('gnddsbcal9',event)" onMouseOut="OutLayer();">October</a></li></ul><div class="cmCal" id="gnddsbcal0" onMouseOver="OverLayer();" onMouseOut="OutLayer('gnddsbcal0');"><div class="calTitle">    January 2017
+</div>
+<div class="lncal">
+<table width="100%" border="0" cellspacing="1" cellpadding="1">
+<tr>
+<th width="15%"><b>Su</b></th>
+<th width="15%"><b>Mo</b></th>
+<th width="15%"><b>Tu</b></th>
+<th width="15%"><b>We</b></th>
+<th width="15%"><b>Th</b></th>
+<th width="15%"><b>Fr</b></th>
+<th width="15%"><b>Sa</b></th>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0101">1</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0102">2</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0103">3</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0104">4</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0105">5</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0106">6</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0107">7</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0108">8</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0109">9</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0110">10</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0111">11</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0112">12</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0113">13</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0114">14</a></td>
+</tr>
+<tr align="center">
+<td>15</td>
+<td><a href="/tennis/scoreboard/results/2017/0116">16</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0117">17</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0118">18</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0119">19</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0120">20</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0121">21</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0122">22</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0123">23</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0124">24</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0125">25</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0126">26</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0127">27</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0128">28</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0129">29</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0130">30</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0131">31</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table></div>
+</div><div class="cmCal" id="gnddsbcal1" onMouseOver="OverLayer();" onMouseOut="OutLayer('gnddsbcal1');"><div class="calTitle">    February 2017
+</div>
+<div class="lncal">
+<table width="100%" border="0" cellspacing="1" cellpadding="1">
+<tr>
+<th width="15%"><b>Su</b></th>
+<th width="15%"><b>Mo</b></th>
+<th width="15%"><b>Tu</b></th>
+<th width="15%"><b>We</b></th>
+<th width="15%"><b>Th</b></th>
+<th width="15%"><b>Fr</b></th>
+<th width="15%"><b>Sa</b></th>
+</tr>
+<tr align="center">
+<td></td>
+<td></td>
+<td></td>
+<td><a href="/tennis/scoreboard/results/2017/0201">1</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0202">2</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0203">3</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0204">4</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0205">5</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0206">6</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0207">7</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0208">8</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0209">9</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0210">10</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0211">11</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0212">12</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0213">13</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0214">14</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0215">15</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0216">16</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0217">17</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0218">18</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0219">19</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0220">20</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0221">21</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0222">22</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0223">23</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0224">24</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0225">25</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0226">26</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0227">27</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0228">28</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table></div>
+</div><div class="cmCal" id="gnddsbcal2" onMouseOver="OverLayer();" onMouseOut="OutLayer('gnddsbcal2');"><div class="calTitle">     March 2017
+</div>
+<div class="lncal">
+<table width="100%" border="0" cellspacing="1" cellpadding="1">
+<tr>
+<th width="15%"><b>Su</b></th>
+<th width="15%"><b>Mo</b></th>
+<th width="15%"><b>Tu</b></th>
+<th width="15%"><b>We</b></th>
+<th width="15%"><b>Th</b></th>
+<th width="15%"><b>Fr</b></th>
+<th width="15%"><b>Sa</b></th>
+</tr>
+<tr align="center">
+<td></td>
+<td></td>
+<td></td>
+<td><a href="/tennis/scoreboard/results/2017/0301">1</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0302">2</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0303">3</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0304">4</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0305">5</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0306">6</a></td>
+<td>7</td>
+<td><a href="/tennis/scoreboard/results/2017/0308">8</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0309">9</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0310">10</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0311">11</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0312">12</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0313">13</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0314">14</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0315">15</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0316">16</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0317">17</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0318">18</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0319">19</a></td>
+<td>20</td>
+<td><a href="/tennis/scoreboard/results/2017/0321">21</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0322">22</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0323">23</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0324">24</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0325">25</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0326">26</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0327">27</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0328">28</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0329">29</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0330">30</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0331">31</a></td>
+<td></td>
+</tr>
+</table></div>
+</div><div class="cmCal" id="gnddsbcal3" onMouseOver="OverLayer();" onMouseOut="OutLayer('gnddsbcal3');"><div class="calTitle">     April 2017
+</div>
+<div class="lncal">
+<table width="100%" border="0" cellspacing="1" cellpadding="1">
+<tr>
+<th width="15%"><b>Su</b></th>
+<th width="15%"><b>Mo</b></th>
+<th width="15%"><b>Tu</b></th>
+<th width="15%"><b>We</b></th>
+<th width="15%"><b>Th</b></th>
+<th width="15%"><b>Fr</b></th>
+<th width="15%"><b>Sa</b></th>
+</tr>
+<tr align="center">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="/tennis/scoreboard/results/2017/0401">1</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0402">2</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0403">3</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0404">4</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0405">5</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0406">6</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0407">7</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0408">8</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0409">9</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0410">10</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0411">11</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0412">12</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0413">13</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0414">14</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0415">15</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0416">16</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0417">17</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0418">18</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0419">19</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0420">20</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0421">21</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0422">22</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0423">23</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0424">24</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0425">25</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0426">26</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0427">27</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0428">28</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0429">29</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0430">30</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table></div>
+</div><div class="cmCal" id="gnddsbcal4" onMouseOver="OverLayer();" onMouseOut="OutLayer('gnddsbcal4');"><div class="calTitle">      May 2017
+</div>
+<div class="lncal">
+<table width="100%" border="0" cellspacing="1" cellpadding="1">
+<tr>
+<th width="15%"><b>Su</b></th>
+<th width="15%"><b>Mo</b></th>
+<th width="15%"><b>Tu</b></th>
+<th width="15%"><b>We</b></th>
+<th width="15%"><b>Th</b></th>
+<th width="15%"><b>Fr</b></th>
+<th width="15%"><b>Sa</b></th>
+</tr>
+<tr align="center">
+<td></td>
+<td><a href="/tennis/scoreboard/results/2017/0501">1</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0502">2</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0503">3</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0504">4</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0505">5</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0506">6</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0507">7</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0508">8</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0509">9</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0510">10</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0511">11</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0512">12</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0513">13</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0514">14</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0515">15</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0516">16</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0517">17</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0518">18</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0519">19</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0520">20</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0521">21</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0522">22</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0523">23</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0524">24</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0525">25</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0526">26</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0527">27</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0528">28</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0529">29</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0530">30</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0531">31</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table></div>
+</div><div class="cmCal" id="gnddsbcal5" onMouseOver="OverLayer();" onMouseOut="OutLayer('gnddsbcal5');"><div class="calTitle">      June 2017
+</div>
+<div class="lncal">
+<table width="100%" border="0" cellspacing="1" cellpadding="1">
+<tr>
+<th width="15%"><b>Su</b></th>
+<th width="15%"><b>Mo</b></th>
+<th width="15%"><b>Tu</b></th>
+<th width="15%"><b>We</b></th>
+<th width="15%"><b>Th</b></th>
+<th width="15%"><b>Fr</b></th>
+<th width="15%"><b>Sa</b></th>
+</tr>
+<tr align="center">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="/tennis/scoreboard/results/2017/0601">1</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0602">2</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0603">3</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0604">4</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0605">5</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0606">6</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0607">7</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0608">8</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0609">9</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0610">10</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0611">11</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0612">12</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0613">13</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0614">14</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0615">15</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0616">16</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0617">17</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0618">18</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0619">19</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0620">20</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0621">21</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0622">22</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0623">23</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0624">24</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0625">25</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0626">26</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0627">27</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0628">28</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0629">29</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0630">30</a></td>
+<td></td>
+</tr>
+</table></div>
+</div><div class="cmCal" id="gnddsbcal6" onMouseOver="OverLayer();" onMouseOut="OutLayer('gnddsbcal6');"><div class="calTitle">      July 2017
+</div>
+<div class="lncal">
+<table width="100%" border="0" cellspacing="1" cellpadding="1">
+<tr>
+<th width="15%"><b>Su</b></th>
+<th width="15%"><b>Mo</b></th>
+<th width="15%"><b>Tu</b></th>
+<th width="15%"><b>We</b></th>
+<th width="15%"><b>Th</b></th>
+<th width="15%"><b>Fr</b></th>
+<th width="15%"><b>Sa</b></th>
+</tr>
+<tr align="center">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="/tennis/scoreboard/results/2017/0701">1</a></td>
+</tr>
+<tr align="center">
+<td>2</td>
+<td><a href="/tennis/scoreboard/results/2017/0703">3</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0704">4</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0705">5</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0706">6</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0707">7</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0708">8</a></td>
+</tr>
+<tr align="center">
+<td>9</td>
+<td><a href="/tennis/scoreboard/results/2017/0710">10</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0711">11</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0712">12</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0713">13</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0714">14</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0715">15</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0716">16</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0717">17</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0718">18</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0719">19</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0720">20</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0721">21</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0722">22</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0723">23</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0724">24</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0725">25</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0726">26</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0727">27</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0728">28</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0729">29</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0730">30</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0731">31</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table></div>
+</div><div class="cmCal" id="gnddsbcal7" onMouseOver="OverLayer();" onMouseOut="OutLayer('gnddsbcal7');"><div class="calTitle">     August 2017
+</div>
+<div class="lncal">
+<table width="100%" border="0" cellspacing="1" cellpadding="1">
+<tr>
+<th width="15%"><b>Su</b></th>
+<th width="15%"><b>Mo</b></th>
+<th width="15%"><b>Tu</b></th>
+<th width="15%"><b>We</b></th>
+<th width="15%"><b>Th</b></th>
+<th width="15%"><b>Fr</b></th>
+<th width="15%"><b>Sa</b></th>
+</tr>
+<tr align="center">
+<td></td>
+<td></td>
+<td><a href="/tennis/scoreboard/results/2017/0801">1</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0802">2</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0803">3</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0804">4</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0805">5</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0806">6</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0807">7</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0808">8</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0809">9</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0810">10</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0811">11</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0812">12</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0813">13</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0814">14</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0815">15</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0816">16</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0817">17</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0818">18</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0819">19</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0820">20</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0821">21</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0822">22</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0823">23</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0824">24</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0825">25</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0826">26</a></td>
+</tr>
+<tr align="center">
+<td>27</td>
+<td><a href="/tennis/scoreboard/results/2017/0828">28</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0829">29</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0830">30</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0831">31</a></td>
+<td></td>
+<td></td>
+</tr>
+</table></div>
+</div><div class="cmCal" id="gnddsbcal8" onMouseOver="OverLayer();" onMouseOut="OutLayer('gnddsbcal8');"><div class="calTitle">   September 2017
+</div>
+<div class="lncal">
+<table width="100%" border="0" cellspacing="1" cellpadding="1">
+<tr>
+<th width="15%"><b>Su</b></th>
+<th width="15%"><b>Mo</b></th>
+<th width="15%"><b>Tu</b></th>
+<th width="15%"><b>We</b></th>
+<th width="15%"><b>Th</b></th>
+<th width="15%"><b>Fr</b></th>
+<th width="15%"><b>Sa</b></th>
+</tr>
+<tr align="center">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="/tennis/scoreboard/results/2017/0901">1</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0902">2</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0903">3</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0904">4</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0905">5</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0906">6</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0907">7</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0908">8</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0909">9</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0910">10</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0911">11</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0912">12</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0913">13</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0914">14</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0915">15</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0916">16</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0917">17</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0918">18</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0919">19</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0920">20</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0921">21</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0922">22</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0923">23</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/0924">24</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0925">25</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0926">26</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0927">27</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0928">28</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0929">29</a></td>
+<td><a href="/tennis/scoreboard/results/2017/0930">30</a></td>
+</tr>
+</table></div>
+</div><div class="cmCal" id="gnddsbcal9" onMouseOver="OverLayer();" onMouseOut="OutLayer('gnddsbcal9');"><div class="calTitle">    October 2017
+</div>
+<div class="lncal">
+<table width="100%" border="0" cellspacing="1" cellpadding="1">
+<tr>
+<th width="15%"><b>Su</b></th>
+<th width="15%"><b>Mo</b></th>
+<th width="15%"><b>Tu</b></th>
+<th width="15%"><b>We</b></th>
+<th width="15%"><b>Th</b></th>
+<th width="15%"><b>Fr</b></th>
+<th width="15%"><b>Sa</b></th>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/1001">1</a></td>
+<td><a href="/tennis/scoreboard/results/2017/1002">2</a></td>
+<td><a href="/tennis/scoreboard/results/2017/1003">3</a></td>
+<td><a href="/tennis/scoreboard/results/2017/1004">4</a></td>
+<td><a href="/tennis/scoreboard/results/2017/1005">5</a></td>
+<td><a href="/tennis/scoreboard/results/2017/1006">6</a></td>
+<td><a href="/tennis/scoreboard/results/2017/1007">7</a></td>
+</tr>
+<tr align="center">
+<td><a href="/tennis/scoreboard/results/2017/1008">8</a></td>
+<td><a href="/tennis/scoreboard/results/2017/1009">9</a></td>
+<td><a href="/tennis/scoreboard/results/2017/1010">10</a></td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+</tr>
+<tr align="center">
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+<td>20</td>
+<td>21</td>
+</tr>
+<tr align="center">
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td>25</td>
+<td>26</td>
+<td>27</td>
+<td>28</td>
+</tr>
+<tr align="center">
+<td>29</td>
+<td>30</td>
+<td>31</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table></div>
+</div>
+        <div id="layoutRailRight">
+            <div class="column1">
+            <style type="text/css">
+</style><script type="text/javascript">
+/* Custom time code is in this file since the purpose of timezone.html is for
+  a document that does not use script.html but needs timezone formatting based
+  on users custom time preference.
+  Yes...this code is duplicated from the global JS
+*/
+var DAYS = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+var days = new Array("Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat");
+var MONTHS = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+var months = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
+var tzOffset = "4";
+var tzAbbrev = 'ET';
+if(tzOffset.charAt(0) == "<") {tzOffset = "-1";}tzOffset = parseInt(tzOffset);
+function phhmm(gmt){document.write(formatTime('%I:%M %p',gmt));}
+function pMD(gmt){document.write(formatTime('%m/%d',gmt));}
+function formatTime(format, gmtTime){
+    gmtTime = new String(gmtTime);if(!parseInt(gmtTime) || gmtTime.indexOf(':') != -1 ||  gmtTime.indexOf('.') != -1){return gmtTime;}
+    var time;var offset = 0;
+    if(tzOffset != -1 && tzOffset != new Date().getTimezoneOffset()){offset = 60 * (new Date().getTimezoneOffset() - (tzOffset * 60));}
+    time = new Date((parseInt(gmtTime) + parseInt(offset))*1000);
+    var t = '';var H = time.getHours();var M = time.getMinutes();var S = time.getSeconds();var d = time.getDate();var m = time.getMonth();var w = time.getDay();var Y = time.getYear();
+    if(Y<1900){Y+=1900;}
+    var y = Y % 100;
+    for(var i=0;i<format.length;i++){
+        if(format.charAt(i)=='%' && (i+1)<format.length){
+            var c = format.charAt(i+1);
+            switch(c){
+                case 'a':{ t+=days[w]; break; } //abbreviated weekday name
+                case 'A':{ t+=DAYS[w]; break; } //full weekday name
+                case 'b':{ t+=months[m]; break; } //abbreviated month name
+                case 'B':{ t+=MONTHS[m]; break; } //full month name
+                case 'd':{ if(d<10){ t+='0';} t+=new String(d); break;}//day of the month; leading zeros
+                case 'D':{ t+=new String(d); break;} //day of the month
+                case 'H':{ t+=new String(H); break;} //24-hour clock); leading zeros
+                // 12-hour clock as a decimal number
+                case 'I':{ if(H>12){ t+=new String(H - 12); }else if(H==0){ t+='12'; }else{ t+=new String(H); }break; }
+                case 'l':{ if(H>12){ t+=new String(H - 12); }else if(H==0){ t+='12'; }else{ if (H >9) { t+= new String(H);}else{t+=(new String(H)).replace(/^0+/, '');} }break; }
+                case 'm':{ t+=new String(m+1); break;}//month as a decimal number (1-12)
+                case 'n':{ if(m<9){ t+='0';} t+=new String(m+1); break;} //month; leading zeros
+                case 'M':{ if(M<10){ t+='0';} t+=new String(M); break;} //minute; leading zeros
+                case 'p':{ if(H<12){ t+='am';}else{ t+='pm' } break;} //replaced by 'AM' or 'PM'
+                case 'S':{ if(S<10){ t+='0';} t+=new String(S); break;}//second; leading zeros
+                case 'w':{ t+=w; break; } //weekday
+                case 'y':{ if(y<10){ t+='0';} t+=new String(y); break;}//year without century; leading zeros
+                case 'Y':{ t+=new String(Y); break;}//year with century
+                case 'Z':{ t+=new String(tzAbbrev); break;}//timezone abbreviation.
+                case '%':{ t+='%'; break;}//%% is replaced by %
+            }
+            i++;
+        }
+        else{
+            t+=format.charAt(i);
+        }
+    }
+    return t;
+}
+/* !!!Code here because this file is used in places that do not use script.html!!! */
+if (typeof(CBSi) != "undefined") {
+    CBSi.namespace('CBSi.widget.Time');
+    (function() {
+        CBSi.widget.Time = {
+        /**
+        * Update an element text node with a formatted GMT value
+        * SEE global JS for documentation
+        */
+            update:function (selector, format) {
+                if (!selector) {return;}
+                var container  = $(selector);
+                if (container.length > 0) {
+                    container.filter('.updateTime, .gmtTime').not('.gmtTimeUpdated').each(function() {
+                        var time = $(this).attr('data-gmt') || $(this).attr('gmt');
+                        if (!time) {return;}
+                        //modify CSS class for tracking whats changed
+                        $(this).removeClass('updateTime, gmtTime').addClass('gmtTimeUpdated');
+                        var timeFormat = format || $(this).attr('data-gmt-format')
+                            || '%I:%M %p';
+                        $(this).html(formatTime(timeFormat, time) );
+                    });
+                }
+                return;
+            }
+        }
+    })();
+}
+$(document).ready(function() {
+    if ($('.updateTime, .gmtTime').length) {CBSi.widget.Time.update('body span');}
+});
+</script>
+<a    class="opt  " href="/tennis/scoreboard/results/2017/1009" >Mon, October  9</a> <b>&#183;</b> <a    class="optsel  " href="/tennis/scoreboard/results/2017/1010" >Tue, October 10</a>
+<div class="clearBoth"></div>
+<div id="live" class="mBottom5"></div>
+<div class="scoresDate">WTA - Prudential Hong Kong Tennis Open</div><div class="scoreBox spanCol2"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - Completed  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2171269">
+    <span class="TEN2171269i"><a href="/tennis/players/playerpage/2171269">D. Gavrilova</a></span> #7 &nbsp;<font class="winarrow">&laquo;</font>
+    </td>
+    <td>6</td>
+<td>7(7)</td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2830781">
+    <span class="TEN2830781i"><a href="/tennis/players/playerpage/2830781">M. Kato</a></span>  
+    </td>
+    <td>1</td>
+<td>6(4)</td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - Completed  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="">
+    A. Guarachi  
+    </td>
+    <td>5</td>
+<td>4</td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2671115">
+    <span class="TEN2671115i"><a href="/tennis/players/playerpage/2671115">N. Osaka</a></span>  &nbsp;<font class="winarrow">&laquo;</font>
+    </td>
+    <td>7</td>
+<td>6</td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoreBox spanCol2"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - Completed  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1109008">
+    <span class="TEN1109008i"><a href="/tennis/players/playerpage/1109008">A. Radwanska</a></span> #4 &nbsp;<font class="winarrow">&laquo;</font>
+    </td>
+    <td>6</td>
+<td>6</td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1707698">
+    <span class="TEN1707698i"><a href="/tennis/players/playerpage/1707698">L. Zhang</a></span>  
+    </td>
+    <td>1</td>
+<td>2</td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - In Progress  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2830680">
+    <span class="TEN2830680i"><a href="/tennis/players/playerpage/2830680">J. Cako</a></span>  
+    </td>
+    <td>6</td>
+<td>4</td>
+<td>1</td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2830753">
+    <span class="TEN2830753i"><a href="/tennis/players/playerpage/2830753">P. Hon</a></span>  
+    </td>
+    <td>3</td>
+<td>6</td>
+<td>2</td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoreBox spanCol2"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - In Progress  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN524693">
+    <span class="TEN524693i"><a href="/tennis/players/playerpage/524693">E. Vesnina</a></span> #5 
+    </td>
+    <td>3</td>
+<td>4</td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2830800">
+    <span class="TEN2830800i"><a href="/tennis/players/playerpage/2830800">L. Kumkhum</a></span>  
+    </td>
+    <td>6</td>
+<td>5</td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - Completed  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN201740">
+    <span class="TEN201740i"><a href="/tennis/players/playerpage/201740">V. Williams</a></span> #2 &nbsp;<font class="winarrow">&laquo;</font>
+    </td>
+    <td>6</td>
+<td>6</td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2683846">
+    <span class="TEN2683846i"><a href="/tennis/players/playerpage/2683846">R. Ozaki</a></span>  
+    </td>
+    <td>2</td>
+<td>2</td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoreBox spanCol2"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - Scheduled  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1143371">
+    <span class="TEN1143371i"><a href="/tennis/players/playerpage/1143371">A. Pavlyuchenkova</a></span> #6 
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2009576">
+    <span class="TEN2009576i"><a href="/tennis/players/playerpage/2009576">T. Babos</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - Scheduled  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2009808">
+    <span class="TEN2009808i"><a href="/tennis/players/playerpage/2009808">E. Svitolina</a></span> #1 
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1689655">
+    <span class="TEN1689655i"><a href="/tennis/players/playerpage/1689655">Z. Diyas</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoreBox spanCol2"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - Scheduled  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2673525">
+    <span class="TEN2673525i"><a href="/tennis/players/playerpage/2673525">J. Brady</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2830710">
+    <span class="TEN2830710i"><a href="/tennis/players/playerpage/2830710">M. Eguchi</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - Scheduled  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN556464">
+    <span class="TEN556464i"><a href="/tennis/players/playerpage/556464">C. Wozniacki</a></span> #3 
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2088558">
+    <span class="TEN2088558i"><a href="/tennis/players/playerpage/2088558">E. Bouchard</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoresDate">WTA - Upper Austria Ladies Linz</div><div class="scoreBox spanCol2"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - In Progress  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN386855">
+    <span class="TEN386855i"><a href="/tennis/players/playerpage/386855">T. Maria</a></span> #7 
+    </td>
+    <td>3</td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2145917">
+    <span class="TEN2145917i"><a href="/tennis/players/playerpage/2145917">O. Jabeur</a></span>  
+    </td>
+    <td>1</td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - Scheduled  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2830942">
+    <span class="TEN2830942i"><a href="/tennis/players/playerpage/2830942">V. Tomova</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1680881">
+    <span class="TEN1680881i"><a href="/tennis/players/playerpage/1680881">N. Broady</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoreBox spanCol2"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - Scheduled  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2215980">
+    <span class="TEN2215980i"><a href="/tennis/players/playerpage/2215980">A. Kontaveit</a></span> #4 
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2830678">
+    <span class="TEN2830678i"><a href="/tennis/players/playerpage/2830678">M. Buzarnescu</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - Scheduled  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1666260">
+    <span class="TEN1666260i"><a href="/tennis/players/playerpage/1666260">A. Tomljanovic</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2088561">
+    <span class="TEN2088561i"><a href="/tennis/players/playerpage/2088561">M. Puig</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoreBox spanCol2"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - Scheduled  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2830804">
+    <span class="TEN2830804i"><a href="/tennis/players/playerpage/2830804">V. Kuzmova</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2215982">
+    <span class="TEN2215982i"><a href="/tennis/players/playerpage/2215982">A. Friedsam</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - Scheduled  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1109385">
+    <span class="TEN1109385i"><a href="/tennis/players/playerpage/1109385">M. Rybarikova</a></span> #1 
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2830752">
+    <span class="TEN2830752i"><a href="/tennis/players/playerpage/2830752">R. Hogenkamp</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoreBox spanCol2"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - Scheduled  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2830717">
+    <span class="TEN2830717i"><a href="/tennis/players/playerpage/2830717">J. Fett</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2171268">
+    <span class="TEN2171268i"><a href="/tennis/players/playerpage/2171268">D. Allertova</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCHID-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="4"><b>1st Round - Scheduled  </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2009577">
+    <span class="TEN2009577i"><a href="/tennis/players/playerpage/2009577">K. Bertens</a></span> #3 
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN386205">
+    <span class="TEN386205i"><a href="/tennis/players/playerpage/386205">V. Lepchenko</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoresDate">ATP - Shanghai Rolex Masters</div><div class="scoreBox spanCol2"><div id="XX-MATCH-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="6"><b>1st Round - Completed (retired)</b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+    <td width="10%">4</td>
+    <td width="10%">5</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1767767">
+    <span class="TEN1767767i"><a href="/tennis/players/playerpage/1767767">J. Sock</a></span> #14 
+    </td>
+    <td>6</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1133416">
+    <span class="TEN1133416i"><a href="/tennis/players/playerpage/1133416">A. Dolgopolov</a></span>  &nbsp;<font class="winarrow">&laquo;</font>
+    </td>
+    <td>4</td>
+<td>6</td>
+<td>2</td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCH-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="6"><b>1st Round - Completed </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+    <td width="10%">4</td>
+    <td width="10%">5</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2830636">
+    <span class="TEN2830636i"><a href="/tennis/players/playerpage/2830636">Z. Zhang</a></span>  
+    </td>
+    <td>2</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1609943">
+    <span class="TEN1609943i"><a href="/tennis/players/playerpage/1609943">R. Harrison</a></span>  &nbsp;<font class="winarrow">&laquo;</font>
+    </td>
+    <td>6</td>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoreBox spanCol2"><div id="XX-MATCH-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="6"><b>1st Round - Completed </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+    <td width="10%">4</td>
+    <td width="10%">5</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1232119">
+    <span class="TEN1232119i"><a href="/tennis/players/playerpage/1232119">J. Isner</a></span> #12 &nbsp;<font class="winarrow">&laquo;</font>
+    </td>
+    <td>4</td>
+<td>7(7)</td>
+<td>7(8)</td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2145897">
+    <span class="TEN2145897i"><a href="/tennis/players/playerpage/2145897">D. Lajovic</a></span>  
+    </td>
+    <td>6</td>
+<td>6(5)</td>
+<td>6(6)</td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCH-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="6"><b>1st Round - Completed </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+    <td width="10%">4</td>
+    <td width="10%">5</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2088552">
+    <span class="TEN2088552i"><a href="/tennis/players/playerpage/2088552">A. Bedene</a></span>  &nbsp;<font class="winarrow">&laquo;</font>
+    </td>
+    <td>6</td>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN385679">
+    <span class="TEN385679i"><a href="/tennis/players/playerpage/385679">P. Lorenzi</a></span>  
+    </td>
+    <td>1</td>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoreBox spanCol2"><div id="XX-MATCH-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="6"><b>1st Round - Completed </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+    <td width="10%">4</td>
+    <td width="10%">5</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1262442">
+    <span class="TEN1262442i"><a href="/tennis/players/playerpage/1262442">K. Anderson</a></span> #11 &nbsp;<font class="winarrow">&laquo;</font>
+    </td>
+    <td>6</td>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1619084">
+    <span class="TEN1619084i"><a href="/tennis/players/playerpage/1619084">A. Mannarino</a></span>  
+    </td>
+    <td>3</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCH-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="6"><b>1st Round - Completed </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+    <td width="10%">4</td>
+    <td width="10%">5</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2664676">
+    <span class="TEN2664676i"><a href="/tennis/players/playerpage/2664676">J. Thompson</a></span>  
+    </td>
+    <td>4</td>
+<td>6(4)</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2145890">
+    <span class="TEN2145890i"><a href="/tennis/players/playerpage/2145890">D. Schwartzman</a></span>  &nbsp;<font class="winarrow">&laquo;</font>
+    </td>
+    <td>6</td>
+<td>7(7)</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoreBox spanCol2"><div id="XX-MATCH-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="6"><b>1st Round - Completed (retired)</b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+    <td width="10%">4</td>
+    <td width="10%">5</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1295032">
+    <span class="TEN1295032i"><a href="/tennis/players/playerpage/1295032">M. Zverev</a></span>  
+    </td>
+    <td>6</td>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2088551">
+    <span class="TEN2088551i"><a href="/tennis/players/playerpage/2088551">J. Struff</a></span>  &nbsp;<font class="winarrow">&laquo;</font>
+    </td>
+    <td>3</td>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCH-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="6"><b>2nd Round - Completed </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+    <td width="10%">4</td>
+    <td width="10%">5</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2145893">
+    <span class="TEN2145893i"><a href="/tennis/players/playerpage/2145893">P. Carreno Busta</a></span> #7 
+    </td>
+    <td>5</td>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1746022">
+    <span class="TEN1746022i"><a href="/tennis/players/playerpage/1746022">A. Ramos-Vinolas</a></span>  &nbsp;<font class="winarrow">&laquo;</font>
+    </td>
+    <td>7</td>
+<td>7</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoreBox spanCol2"><div id="XX-MATCH-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="6"><b>1st Round - Completed (retired)</b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+    <td width="10%">4</td>
+    <td width="10%">5</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2090187">
+    <span class="TEN2090187i"><a href="/tennis/players/playerpage/2090187">N. Kyrgios</a></span> #13 
+    </td>
+    <td>6(5)</td>
+<td>0</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1893763">
+    <span class="TEN1893763i"><a href="/tennis/players/playerpage/1893763">S. Johnson</a></span>  &nbsp;<font class="winarrow">&laquo;</font>
+    </td>
+    <td>7(7)</td>
+<td>0</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCH-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="6"><b>1st Round - Completed </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+    <td width="10%">4</td>
+    <td width="10%">5</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN564099">
+    <span class="TEN564099i"><a href="/tennis/players/playerpage/564099">S. Querrey</a></span> #10 &nbsp;<font class="winarrow">&laquo;</font>
+    </td>
+    <td>6</td>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1639756">
+    <span class="TEN1639756i"><a href="/tennis/players/playerpage/1639756">Y. Sugita</a></span>  
+    </td>
+    <td>3</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoreBox spanCol2"><div id="XX-MATCH-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="6"><b>1st Round - Completed </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+    <td width="10%">4</td>
+    <td width="10%">5</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2830580">
+    <span class="TEN2830580i"><a href="/tennis/players/playerpage/2830580">D. Shapovalov</a></span>  
+    </td>
+    <td>7(7)</td>
+<td>3</td>
+<td>0</td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN1142139">
+    <span class="TEN1142139i"><a href="/tennis/players/playerpage/1142139">V. Troicki</a></span>  &nbsp;<font class="winarrow">&laquo;</font>
+    </td>
+    <td>6(3)</td>
+<td>6</td>
+<td>6</td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCH-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="6"><b>2nd Round - Scheduled </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+    <td width="10%">4</td>
+    <td width="10%">5</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN385454">
+    <span class="TEN385454i"><a href="/tennis/players/playerpage/385454">R. Gasquet</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2215968">
+    <span class="TEN2215968i"><a href="/tennis/players/playerpage/2215968">H. Chung</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoreBox spanCol2"><div id="XX-MATCH-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="6"><b>2nd Round - In Progress </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+    <td width="10%">4</td>
+    <td width="10%">5</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2215969">
+    <span class="TEN2215969i"><a href="/tennis/players/playerpage/2215969">L. Pouille</a></span> #15 
+    </td>
+    <td>4</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN566849">
+    <span class="TEN566849i"><a href="/tennis/players/playerpage/566849">F. Fognini</a></span>  
+    </td>
+    <td>4</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"><div id="XX-MATCH-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="6"><b>2nd Round - In Progress </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+    <td width="10%">4</td>
+    <td width="10%">5</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN590380">
+    <span class="TEN590380i"><a href="/tennis/players/playerpage/590380">J. del Potro</a></span> #16 
+    </td>
+    <td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2830557">
+    <span class="TEN2830557i"><a href="/tennis/players/playerpage/2830557">A. Rublev</a></span>  
+    </td>
+    <td>0</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="clearBoth"></div><div class="scoreBox spanCol2"><div id="XX-MATCH-XX">
+<table width="100%" class="data borderTop condensed stacked">
+<tr class="subtitle"><td align="left" colspan="6"><b>2nd Round - Scheduled </b></td></tr>
+<tr class="label" align="center">
+    <td width="50%">&nbsp;</td>
+    <td width="10%">1</td>
+    <td width="10%">2</td>
+    <td width="10%">3</td>
+    <td width="10%">4</td>
+    <td width="10%">5</td>
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN557150">
+    <span class="TEN557150i"><a href="/tennis/players/playerpage/557150">M. Cilic</a></span> #4 
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr class="row1" align="center">
+    <td align="left" class="TEN2663922">
+    <span class="TEN2663922i"><a href="/tennis/players/playerpage/2663922">K. Edmund</a></span>  
+    </td>
+    <td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+</table>
+</div>
+</div><div class="scoreBox spanCol2 lastCol"></div><div class="clearBoth"></div>
+<script type="text/javascript">
+var image_server = "https://sports.cbsimg.net";
+</script>
+    
+                    <div class="spacer20">&nbsp;</div>
+                
+        <div id="taboola-bottom-of-the-page-thumbnails" data-taboola-placement="aw-cbssports/tennis/media/scoreboard desktop-2x4-bottom" om-event="aw-cbssports/tennis/media/scoreboard desktop-2x4-bottom"></div>
+        <script type="text/javascript">
+          window._taboola = window._taboola || [];
+          _taboola.push({
+            mode: 'alternating-thumbnails-z',
+            container: 'taboola-bottom-of-the-page-thumbnails',
+            placement: 'aw-cbssports/tennis/media/scoreboard desktop-2x4-bottom',
+            target_type: 'mix'
+          });
+        </script>
+            </div><!-- END layoutRailRight::column1-->
+            <div class="column2">
+                
+                
+                <div id="sky_top" class="mBottomStd">
+<script type="text/javascript">
+if (switchXFP != 'off') {
+    googletag.cmd.push(function() {
+        if (typeof index_headertag_lightspeed !== 'undefined') {
+                  var cb = (function () {
+                      return function () {
+                          var slots = googletag.pubads().getSlots();
+                          index_headertag_lightspeed.set_slot_targeting(slots);
+                           googletag.display("sky_top");
+                        };
+                  })();
+                  index_headertag_lightspeed.add_session_end_hook(cb, true);
+                  index_headertag_lightspeed.refresh();
+              } else {
+                  googletag.display("sky_top");
+              }
+    });
+    if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="sky_top" style="width:160px"><br>').insertBefore('#sky_top');
+}
+</script>
+</div>
+                
+                <div class="spacer10">&nbsp;</div>
+                <!-- AD for TEN : TEN DEF Not found --><div class="shoppingBox">
+
+ 
+
+ 
+
+<!-- include file generated Wed Mar 20 12:56:37 EST 2013 --> 
+<!-- $Id: sbox_arena.jsp,v 1.18 2008-06-11 19:49:38 gorman Exp $ -->
+
+
+<h3 class="featureTitle"><span><strong>CBSSports.com</strong> Shop</span></h3>
+<div class="featureComponent">
+    <a href="http://shop.cbssports.com/NFL_Jerseys/source/SB"><img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productImages/_477000/FF_477028_xl.jpg&w=180" width="120" height="120" alt="Reebok Eli Manning New York Giants Premier Tackle Twill Jersey - Red Alternate" class="border product"></a>
+    <p>NFL Jerseys<br/>Get your Favorite Team or Player <a href="http://shop.cbssports.com/NFL_Jerseys/source/SB">Shop now</a></p>
+    <ul class="multiLine flush">
+    
+        
+           <li><a href="http://shop.cbssports.com/MLB_Sweatshirts/source/SB">MLB Sweatshirts</a></li>
+        
+           <li><a href="http://shop.cbssports.com/College_Backpacks/source/SB">College Backpacks</a></li>
+        
+           <li><a href="http://shop.cbssports.com/NHL_T-Shirts/source/SB">NHL T-Shirts</a></li>
+        
+    
+    </ul>
+</div>
+<div class="featureFooter"><a href="http://shop.cbssports.com/default.aspx/source/SB_TEN">Shop Fan Gear</a></div>
+
+
+</div>
+                
+<script type="text/javascript">netseer_tag_id = "19500";netseer_ad_width = "160";netseer_ad_height = "600";netseer_task = "ad";netseer_imp_type = "1";netseer_imp_src = "2";</script>
+<script src="https://ps.ns-cdn.com/dsatserving2/scripts/netseerads.js" type="text/javascript"></script>
+    
+            </div><!-- END layoutRailRight::column2-->
+            <div class="clearBoth"><!-- explicit clear --></div>
+        </div><!-- END layoutRailRight-->
+        <br clear="all">
+    </div><!-- END pageContainer-->
+</div><!-- END pageRow-->
+    <style>.footerAd {width: 970px;margin: 0 auto;padding: 10px 5px; background-color: #fff;overflow: hidden;text-align:center;position:relative;}</style>
+    
+    <div id="leader_plus2_bottom" class="footerAd">
+<script type="text/javascript">
+if (switchXFP != 'off') {
+    googletag.cmd.push(function() {
+        if (typeof index_headertag_lightspeed !== 'undefined') {
+                  var cb = (function () {
+                      return function () {
+                          var slots = googletag.pubads().getSlots();
+                          index_headertag_lightspeed.set_slot_targeting(slots);
+                           googletag.display("leader_plus2_bottom");
+                        };
+                  })();
+                  index_headertag_lightspeed.add_session_end_hook(cb, true);
+                  index_headertag_lightspeed.refresh();
+              } else {
+                  googletag.display("leader_plus2_bottom");
+              }
+    });
+    if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="leader_plus2_bottom" style="width:728px"><br>').insertBefore('#leader_plus2_bottom');
+}
+</script>
+</div>
+    <footer id="site-footer" class="site-footer">
+    <div class="site-footer-row">
+        <div class="site-footer-branding">
+            <span class="site-footer-logo"></span>
+        </div>
+    </div>
+    <div class="site-footer-row">
+        
+        <ul class="site-footer-follow">
+            <li><a href="https://www.facebook.com/CBSSports" target="_blank" rel="nofollow" om-event="Global Footer|Facebook"><span class="btn social icon-moon-facebook"></span></a></li>
+            <li><a href="https://twitter.com/cbssports" target="_blank" rel="nofollow" om-event="Global Footer|Twitter"><span class="btn social icon-moon-twitter"></span></a></li>
+            <li><a href="https://plus.google.com/+CBSSportscom/posts" target="_blank" rel="nofollow" om-event="Global Footer|Googleplus"><span class="btn social icon-moon-google-plus2"></span></a></li>
+            <li><a href="https://www.youtube.com/user/cbssports" target="_blank" rel="nofollow" om-event="Global Footer|Youtube-play"><span class="btn social icon-moon-youtube-play"></span></a></li>
+            <li><a href="https://instagram.com/cbssports/" target="_blank" rel="nofollow" om-event="Global Footer|Instagram"><span class="btn social icon-moon-instagram"></span></a></li>
+            <li><a href="https://www.pinterest.com/cbssports/" target="_blank" rel="nofollow" om-event="Global Footer|Pinterest"><span class="btn social icon-moon-pinterest"></span></a></li>
+            <li><a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" target="_blank" rel="nofollow" om-event="Global Footer|Flipboard"><span class="btn social icon-moon-flipboard"></span></a></li>
+            
+            
+            
+        </ul>
+    
+    </div>
+    <div class="site-footer-row">
+        <ul class="site-footer-links">
+            <li><a href="https://www.cbssports.com/help" target="_blank" om-event="Global Footer|Help ">Help </a></li><li><a href="https://www.cbssports.com/info/aboutus" target="_blank" om-event="Global Footer|About Us ">About Us </a></li><li><a href="http://www.cbsinteractive.com/careers" target="_blank" om-event="Global Footer|Careers ">Careers </a></li><li><a href="http://www.cbsinteractive.com/advertise/" target="_blank" om-event="Global Footer|Advertise ">Advertise </a></li><li><a href="https://www.cbssports.com/sitemap" target="_blank" om-event="Global Footer|Site Map ">Site Map </a></li><li><a href="https://www.cbssports.com/settings/newsletters" target="_blank" om-event="Global Footer|Newsletters ">Newsletters </a></li><li><a href="https://www.cbssports.com/mobile" target="_blank" om-event="Global Footer|Mobile Apps ">Mobile Apps </a></li><li><a href="http://collegenetwork.cbssports.com/" target="_blank" om-event="Global Footer|College Network ">College Network </a></li><li><a href="http://legalterms.cbsinteractive.com/adchoice" target="_blank" om-event="Global Footer|Ad Choice ">Ad Choice </a></li><li><a href="https://www.cbssports.com/info/closed-caption" target="_blank" om-event="Global Footer|Closed Captioning ">Closed Captioning </a></li><li><a href="http://legalterms.cbsinteractive.com/privacy" target="_blank" om-event="Global Footer|Privacy ">Privacy </a></li><li><a href="http://legalterms.cbsinteractive.com/terms-of-use" target="_blank" om-event="Global Footer|Terms ">Terms </a></li><li><a href="http://legalterms.cbsinteractive.com/eula" target="_blank" om-event="Global Footer|Mobile User Agreement ">Mobile User Agreement </a></li>
+        </ul>
+    </div>
+    
+
+    <div class="site-footer-row">
+        <div class="site-footer-partners">
+            
+        </div>
+    </div>
+    <div class="site-footer-copyright">
+        <p class="site-footer-dates">&copy; 2005-2017 CBS INTERACTIVE. ALL RIGHTS RESERVED.</p>
+        <p>CBS Sports is a registered trademark of CBS Broadcasting Inc.  </p>
+       
+    </div>
+</footer>
+</div><!--mantle_skin-->
+    
+    <script type="text/javascript" src="https://sports.cbsimg.net/js/global-footer-min-v00101.js"></script>
+<span id="footerScripts">
+    <span id="footerScriptsExternal">
+        
+    </span>
+    <script id="footerScriptsRegistered" type="text/javascript">
+    
+    </script>
+    <script id="footerScriptsReady" type="text/javascript">
+    $(document).ready(function() {
+        
+        if ($('.updateTime, .gmtTime').length) {CBSi.widget.Time.update('body span');}
+        if ($('.tooltip').length) {CBSi.widget.ToolTip.init(CBSi.widget.ToolTip.cfg);}
+        if ($('.actionMenu').length) {
+            var actionMenuLeft = $(".actionMenu").position().left;
+            var userInfoLeft = (actionMenuLeft + 2) +"px";
+            $("#userInfo").css({"left":userInfoLeft});
+        }
+        $('body').delegate("[om-event]", "click", function(e) {
+            om.trackClick( {'item':$(this).attr("om-event")} );
+        });
+        
+            var adSkinLeft       = $('#adSkinLeft');
+            var adSkinRight      = $('#adSkinRight');
+            var adSkin           = $(adSkinLeft).add(adSkinRight);
+            var bodyNavClass 	 = 'is-sticky-nav';
+            var bodyTag          = $('body');
+            var mantle           = $('#mantle_skin');
+            var headerCont       = $('#site-header');
+            var navBar           = $('#cbs-site-nav');
+            var navBarHeight     = navBar.outerHeight();
+            var networkBar       = $('#nav-network-bar');
+            var networkBarHeight = networkBar.outerHeight();
+            var networkBarPadding = 8;
+            var promoBarHeight   = $('#fantasy_promo_bar_row').outerHeight();
+            var saagHeight       = $('#saagWrapper').outerHeight() || 0 ;
+            var skyBoxHeight     = $('#skybox-above').height();
+            var skyboxSpacerId   = 'skybox-nav-spacer';
+    
+            // Calculate when to make the nav bar sticky.
+            if (networkBar.length) {
+                // Create an empty spacer for behind the sticky nav.
+                // CBSi.log('_toggleStickyNav: There is a Network Bar on this page.');
+                headerCont.before('<div id="' + skyboxSpacerId + '" class="' + skyboxSpacerId + '" style="height: 0"></div>');
+            }
+        
+            var skyboxSpacer = $('#skybox-nav-spacer');
+        
+            $(window).on("scroll resize",function(e) {
+            
+                var windowScrollTop = parseInt($(this).scrollTop());
+                
+                // BEGIN Scroll code for Prestitial:
+                //check if scroll_prestitial is visible
+                var prestitialVisible = $('#scroll_prestitial:visible').length;
+                //CBSi.log('prestitialVisible ', prestitialVisible);
+
+                //get height of presitial element
+                var prestitialHeight = $('#scroll_prestitial iframe').height();
+                //CBSi.log('prestitialHeight ', prestitialHeight);
+
+                //Determine via tricky conditional states of DOM element if the
+                //  prestitial is still there
+                var hasPrestitial = 0;
+                if (prestitialHeight != null) {
+                    hasPrestitial = 1;
+                } else if (prestitialHeight > 0) {
+                    hasPrestitial = 1;
+                }
+                //finally check visibility but no height
+                if (prestitialVisible == 0) {
+                    hasPrestitial = 0;
+                } else if (prestitialVisible == 1 && prestitialHeight == 0) {
+                    hasPrestitial = 0;
+                }
+                // CBSi.log('hasPrestitial', hasPrestitial);
+                
+                var skyboxMaxHeight = parseInt($('.ad-top-strip').attr('data-skyboxmaxheight')) || 0;
+                var skyboxMinHeight = parseInt($('.ad-top-strip').attr('data-skyboxminheight')) || 0;
+                var skyboxHeight = ( (skyboxMaxHeight - windowScrollTop) < skyboxMinHeight  )
+                    ? skyboxMinHeight
+                    : skyboxMaxHeight - windowScrollTop;
+        
+                var skyboxDiv = $('.ad-top-strip div');
+                var skyboxIframe = $('.ad-top-strip div iframe');
+        
+                if ( windowScrollTop > 0 && hasPrestitial == 0) {
+                    /*
+                     * The page is now scrolling...
+                     */
+                    if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                        skyboxDiv.css({ 'position' : 'fixed' , 'height' : skyboxHeight + 'px' });
+                        skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                    }
+                                
+                    if (skyboxHeight <= skyboxMinHeight) {
+                     
+                        /*
+                         * The skybox ad is collapsed to its minumum height and it has added the class skybox-collapsed to the body tag.
+                         * Alternately, there is no skybox ad on the page.
+                         */
+                     
+                        if (windowScrollTop > skyboxMaxHeight - skyboxHeight + networkBarHeight) {
+                        
+                            /*
+                             * Tests to determine if the Navigation should pin.
+                             * Note that the navigation does not pin until after the network row has scrolled out of view.
+                             */
+
+                            /*
+                             * The skybox ad is minimized and the navigation should pin.
+                             */
+                             
+                            // CBSi.log('_toggleStickyNav: The Skybox is at minHeight or absent. The nav should pin.');
+        
+                            skyboxSpacer.css({ 'height' : skyboxMaxHeight + navBarHeight + 'px' });
+                            navBar.css({ 'position': 'fixed', 'top' : skyboxHeight + 'px' });
+        
+                            mantle.css({ 'margin-top': 0 });
+                            
+                            if (windowScrollTop > networkBarHeight + saagHeight ) {
+                                /*
+                                 * Even if the nav is pinned, the Scores At a Glance (SAAG) might still be scrolling so we do not pin the
+                                 * adSkinLeft and adSkinRight until the SAAG has scrolled out of view.
+                                 */
+                                adSkin.css({'position' : 'fixed', 'top': navBarHeight + skyboxMinHeight + 'px' });
+                            } else {
+                                adSkin.css({ 'position' : 'absolute', 'top': 0 });
+                            }
+        
+                            if (!bodyTag.hasClass(bodyNavClass)) {
+                                bodyTag.addClass(bodyNavClass);
+                            }
+        
+                        } else {
+
+                            /*
+                             * The skybox ad is minimized but the navigation is not yet pinned
+                             * because the network row is still partially visible.
+                             */
+
+                            // CBSi.log('_toggleStickyNav: The Skybox is at minHeight or absent. Network bar is scrolling so nav is not pinned.');
+        
+                            skyboxSpacer.css({ 'height' : skyboxMaxHeight + 'px' });
+                            navBar.css({ 'position': 'relative', 'top': 0 });
+
+                            mantle.css({ 'margin-top' : 0 });
+                            
+                            if (bodyTag.hasClass(bodyNavClass)) {
+                                bodyTag.removeClass(bodyNavClass);
+                            }
+                        }
+                    } else if (skyboxHeight > skyboxMinHeight) {
+                        /* The ad is in an expanded state so we need to address the height of the spacer
+                         * and the position of the navigation rows below the ad.
+                         */
+                        // CBSi.log('_toggleStickyNav: The Skybox is expanded.');
+
+                        skyboxSpacer.css({ 'height' : skyboxMaxHeight + 'px' });
+                        navBar.css({ 'position': 'relative', 'top': 0 });
+
+                        mantle.css({ 'margin-top' : 0 });
+                        adSkin.css({'position' : 'absolute', 'top': 0 });
+                        
+                        if (bodyTag.hasClass(bodyNavClass)) {
+                            bodyTag.removeClass(bodyNavClass);
+                        }
+
+                        if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                            skyboxDiv.css({ 'height' : skyboxHeight + 'px' });
+                            skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                        }        
+                    }
+                } else {
+                    /*
+                     * The page is not scrolled at all so we want to set the spacer to a height of 0.
+                     */
+                    
+                    // CBSi.log('_toggleStickyNav: The page is not scrolled.');
+                    
+                    skyboxSpacer.css({ 'height' : 0 });
+                    navBar.css({ 'position': 'relative', 'top': 0 });
+
+                    mantle.css({ 'margin-top' : 0 });
+                    adSkin.css({'position' : 'absolute', 'top': 0 });
+                    
+                    if (bodyTag.hasClass(bodyNavClass)) {
+                        bodyTag.removeClass(bodyNavClass);
+                    }
+
+                    if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                        skyboxDiv.css({ 'position' : 'relative' , 'height' : skyboxHeight + 'px' });
+                        skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                    }
+                }
+            });
+        
+        if ($('.cbsGifAnimation').length) {CBSi.app.cbsGifAnimation.prototype.init();}
+        //setTimeout('CBSi.app.cbsGifAnimation.prototype.init();',3000);
+    });
+    </script>
+</span>
+<!-- no ClickTale -->
+     
+
+        
+<!-- Begin Tealium -->
+<script type="text/javascript">
+
+getTaboolaPlacements();
+var utag_data={
+
+    siteHier         : 'media|tennis|scoreboard',
+    siteSection      : 'media|tennis|||scoreboard|',
+    siteType         : 'desktop web',
+    userType         : 'anon',
+    userState        : 'not authenticated',
+    pageType         : 'scoring',
+    pageName         : '/tennis/scoreboard',
+    pageTypeId       : '6946',
+    pageOntologyId   : '22420',
+    pageViewGuid     : surround.vguid,
+    contentWidget    : surround.taboola,
+    country          : 'DK'
+}
+</script>
+<script type="text/javascript">
+(function(a,b,c,d){
+  a='https://tags.tiqcdn.com/utag/cbsi/cbssportssite/prod/utag.js';
+	b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+  a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+})();
+</script>
+<script type="text/javascript">var pingOmniture = setInterval("om.keepAlive()", 60000 * 25);</script>
+<!-- End Tealium -->
+<!-- no refresh -->
+<!-- no dl recruit -->
+
+         <script type="text/javascript">
+           window._taboola = window._taboola || [];
+           _taboola.push({flush: true});
+         </script>
+      
+
+    
+</body>
+</html><!-- Page build info: WdyfrgoZUN4AAD4H@Vs 'ws5092.tm.cbsig.net' 15879 20171010 6:23:42 /spln/local/media/cache/full/spln/820/%2Ftennis%2Fscoreboard -->

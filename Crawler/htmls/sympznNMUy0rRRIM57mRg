@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8" />
+	<title>The Jim Rome Show</title>
+	<meta name="description" content="Jim Rome on CBS Sports Radio" />
+	<link rel="pingback" href="http://jimrome.com/xmlrpc.php" />
+	<meta name="keywords" content="vibNews" />
+	
+<!-- WP Header - Start -->
+			<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=jimrome.com&amp;id=43964371&amp;t=1507630938&amp;back=http%3A%2F%2Fjimrome.com%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s7.addthis.com' />
+<link rel='dns-prefetch' href='//apis.google.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//cbsjimrome.wordpress.com' />
+<link rel='dns-prefetch' href='//wayne.cbslocal.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="The Jim Rome Show &raquo; Feed" href="http://jimrome.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Jim Rome Show &raquo; Comments Feed" href="http://jimrome.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Jim Rome Show &raquo; Home Section Comments Feed" href="http://jimrome.com/home-section/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link rel='stylesheet' id='all-css-0-1' href='https://s0.wp.com/_static/??-eJy1kdFOwzAMRX8I1xto2hPiW7LUdGltJ9TJqv49acWkDl4KEk/RTe49unZwSuCjZtKMUiBx6YIaTslHAZPANH9TjTd7wk0sX0nI8BYS+osBR+8Y7yCJbeH66lrDGlzOfYDesP8oNM74Tq46Rg7dNT+IRoL+rc1qAnHqOhrXXg830JINOaZ98KCeS018cYpc1AUGDjr8TzviqjT/XOTmAzkMldRTTs4PsKrf7j1ODN6NsRjxIpq72AeyPDPtsy4jbod6k9fj6XA+vjyfD6f+E9nI/YU=' type='text/css' media='all' />
+<link rel='stylesheet' id='cbs-custom-css-css'  href='http://wayne.cbslocal.com/cbs-local-custom-css/jim-rome/jim-rome-css-web.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2-1' href='https://s1.wp.com/_static/??-eJx9UNEOgjAM/CHrhIgJD8ZvGaOB6bo1tBM/3y2E6BMvzfV612tqVgaXomJUozMSinl7Nm4QCMnZYDjkyUcxlMYcylTQqU+FcPJrzqU5mb9VlGE3urRg4YmtVgXh6C2GkhT1yLb6cULdYjYMip9DC/FtD6pwtu51eNnKRQ3DwAuKQKnkM8H2hep70L3pLm3fd21zfX4BC35vGw==' type='text/css' media='all' />
+<link rel='stylesheet' id='cbs-font-awesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css?ver=4.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cbs-google-font-lato-css'  href='https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900&#038;ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-6-1' href='https://s2.wp.com/_static/??-eJytkM0OwiAQhF9IXGvCwYPxWSiuuApsw0/7+lKaqk2TxoO3mezMFwYYOqHZJ/QJ0h0dRuipA91GYVkrC53NhnwEx9dsy3Wgq8EUQce33he9gy+Qy2KuzfHImpQVVCJLM5UJPKfpOIstqkGuz0vEfmHEzSoKW9WArWVTpKkTPnZV+uk7akg45ZXBUIlOhee42OVIGjRbDustf2Fzj2EIlHDEX9y5kQd5OspGyscL+FCxcA==' type='text/css' media='all' />
+<link rel='stylesheet' id='cbs-external-css-css'  href='http://wayne.cbslocal.com/cbs-local-custom-css/jim-rome/jim-rome-css-web.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-8-1' href='https://s1.wp.com/wp-content/themes/h4/global.css?m=1420737423h' type='text/css' media='all' />
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJy1kmFPAyEMhv+QjOmyJX4w/hbG9W5lpSCUW+avt7do9HTR2wcTkqb0eV8K1J6yQfbUOqg26HppUM7vYRXqnf0NMBGH4gRWEfkD9okFWKwcIKpkxGz9vhpK3pH96tQ39oKJ683KnOjcI9HNwrBIkakNyNXG1DXSqusuYg1mfFjk8PlOPTglCuFwkFmy+Mm+d3OBTHTsBijTSbMNozc9Ssr/YQ2kGcuP/wqTwx4JTKtQFGXRkenTFS6nKtpHVehKdT58yCPC6U8sgGTnj6ZAxdfJ9Tk+3W/Xu8ftZrNbhzeW5hQF'></script>
+<script type='text/javascript' src='//s7.addthis.com/js/300/addthis_widget.js?ver=1.0.0#pubid=ra-4ddd05dc24272928'></script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyFjEsOwyAMBS9UsKoERVlUPQt1LAVkPsEQlNuXLrrOcp7mDfSsMMVKsULdKZDA6TLgRxQntAwuIrdtzF7AbjuJO0l7ecDdcfj+aFQuSJ0V2pKaEP9A/0EHF0frHV7PeTXGLNM6+y+0azU6'></script>
+<script type='text/javascript' src='http://apis.google.com/js/plusone.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJydkdEOgjAMRX/IMVGM+mD8ljHKLOk2XDeRv3doTHgxErImbdNzz8vk0At0mlIDLLtc9wRhlAml9gEKi67oeCN/UgM2BuJ/Lqqa55T2LoKLMt7AZvaBvdQ1C/Ja0Sz5aYX2lKzDdhRlsc1vtahWovccM8nKwHpPS/BkwgbC0rwhXytaRPeUDDqW1jeJ8jUxBBHAIMegIno3+eb7KiuDnrLvf/rOWXS1l7I6n46H3b4quxfZOMoQ'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cbsjimrome.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/P2Yt8L-i' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=http%3A%2F%2Fjimrome.com%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=http%3A%2F%2Fjimrome.com%2F&amp;for=wpcom-auto-discovery" /><link rel="shortcut icon" type="image/x-icon" href="http://1.gravatar.com/blavatar/d438a89b36fdb8d43d0e4be8b18b82c6?s=32" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="http://1.gravatar.com/blavatar/d438a89b36fdb8d43d0e4be8b18b82c6?s=32" sizes="16x16" />
+<link rel="apple-touch-icon-precomposed" href="http://1.gravatar.com/blavatar/d438a89b36fdb8d43d0e4be8b18b82c6?s=114" />
+<link rel='openid.server' href='http://cbsjimrome.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://cbsjimrome.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://jimrome.com/osd.xml" title="The Jim Rome Show" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+	<link rel="canonical" href="http://jimrome.com/" />
+			<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<style type="text/css">
+.widget_twitter li {
+	word-wrap: break-word;
+}
+</style>
+<meta name="application-name" content="The Jim Rome Show" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Jim Rome on CBS Sports Radio" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://jimrome.com/feed/;icon-uri=http://1.gravatar.com/blavatar/d438a89b36fdb8d43d0e4be8b18b82c6?s=16" />
+					<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:image" content="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/facebook/facebook-share-260x260.png">
+		
+					<meta name="twitter:title" content="The Jim Rome Show" />
+					<meta name="twitter:description" content="Jim Rome on CBS Sports Radio" />
+					<meta name="twitter:site" content="jimrome" />
+		
+		
+					<meta property="og:title" content="The Jim Rome Show" />
+					<meta property="og:image" content="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/facebook/facebook-share-260x260.png" />
+					<meta property="og:image:secure_url" content="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/facebook/facebook-share-260x260.png" />
+					<meta property="og:description" content="Jim Rome on CBS Sports Radio" />
+					<meta property="og:type" content="website" />
+					<meta property="og:url" content="http://jimrome.com" />
+					<meta property="article:publisher" content="http://www.facebook.com/jimrome" />
+					<meta property="article:author" content="http://www.facebook.com/jimrome" />
+		
+		<style type="text/css" id="syntaxhighlighteranchor"></style>
+<script>cbs_lib.load_script("//cdn.taboola.com/libtrc/cbslocal-sc/tfa.js", function() { window._tfa = window._tfa || []; _tfa.push({ notify: "action",name: "page_view" }); });</script>
+
+<!-- Rev - Start -->
+<script type="text/javascript">var googletag = googletag || {};googletag.cmd = googletag.cmd || [];googletag.cmd.push(cbs_ads.onload);(function() {var gads = document.createElement("script");gads.async = true;gads.type = "text/javascript";var useSSL = "https:" == document.location.protocol;gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";var node = document.getElementsByTagName("script")[0];node.parentNode.insertBefore(gads, node);})();</script>
+<script type="text/javascript" src="//native.sharethrough.com/assets/tag.js" async></script><script type="text/javascript">cbs_ads.partners.add("sharethrough", true);</script>
+<!-- Rev - End -->
+
+<script>cbs_ads.init("4128","CBS.JIMROME","home",["home","section","homepage"],{"page_type":"home"});cbs_ads.refresh.set_timer("2");</script>		<link rel="stylesheet" id="custom-css-css" type="text/css" href="https://s1.wp.com/?custom-css=1&#038;csblog=2Yt8L&#038;cscache=6&#038;csrev=237" />
+		<!-- WP Header - End -->
+
+	<script type="text/javascript">
+		//<![CDATA[
+			
+			
+					//]]>
+	</script>
+
+</head>
+
+<body class="home page-template-default page page-id-18 desktop-display-type  mp6 customizer-styles-applied market-template-music highlander-enabled highlander-light section sections-style-blue section-home section-style-best-of" style="background: #ffffff url(http://cbsjimrome.files.wordpress.com/2012/12/site-background.png) no-repeat center top;">
+
+	<div id="wrapper" class="body-wrapper">
+
+
+
+
+<header id="page-header" class="page-header-type-modular modular-header-station" style="">
+	<div class="wrapper">
+	<div id="page-header-inner" style="background-image:url(https://cbsjimrome.files.wordpress.com/2016/02/rome_header_new_970x267.png);">
+
+					
+
+		<div id="header-rows" class="header-row">
+							<div class="header-row-top header-row">
+																		<div id="page-header-top-left" class="header-cell">
+															</div>
+																								<div id="page-header-top-right" class="header-cell">
+								<div id="component-search" class="header-component"><form action="http://jimrome.com/search/" class="search"><input type="text" class="query" name="q" id="s" size="31" placeholder="Search" /><input type="reset" class="reset" value="Reset" /><input type="submit" class="submit" value="Search" /></form></div>
+							</div>
+															</div>
+			
+			<div class="header-row-inner header-row">
+													<div id="page-header-tall-left" class="header-cell">
+						<a href="http://jimrome.com" id="component-logo" class="header-component"><img src="https://cbsmoorejones.files.wordpress.com/2015/01/transparent-6001.png" alt="The Jim Rome Show" /></a>
+					</div>
+				
+													<div id="page-header-tall-right">
+						<div id="component-sponsored-ad" class="header-component">
+<div class="sponsored-by ad-size-120x60">
+
+			<strong class="disclosure">Sponsored By</strong>
+	
+	<div id="reptile_10_wrapper" class="ad-block-wrapper cbs-ad-unit-wrapper sponsor-unit"><span id="ad_10"><div id="reptile_10" class="ad-block" data-ad_size="[[120,60]]" data-ad_location="header"><script>cbs_load_ad_by_tile("10");</script></div></span></div>
+</div></div>
+					</div>
+				
+				<div class="header-row-middle-and-bottom header-row">
+											<div class="header-row-middle header-row">
+																																							<div id="page-header-middle-right" class="header-cell">
+																			</div>
+																					</div>
+					
+											<div class="header-row-bottom header-row">
+																																							<div id="page-header-bottom-right" class="header-cell">
+										<div id="component-social" class="header-component follow-us social-follow-items size-24x24 "><a href="http://www.facebook.com/jimrome" class="facebook" target="_blank">Facebook</a><a href="https://twitter.com/#!/jimrome" class="twitter" target="_blank">Twitter</a></div>
+									</div>
+																					</div>
+					
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	</div>
+</header>
+
+<header id="main-header" class="old-main-header">
+<nav class="main-nav">
+	<ul id="menu-header-menu" class="menu"><li id="menu-item-36" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/"><strong>Home</strong></a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/category/shows"><strong>Shows</strong></a></li>
+<li id="menu-item-38" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/category/guests"><strong>Guests</strong></a></li>
+<li id="menu-item-39" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/category/takes"><strong>Takes</strong></a></li>
+<li id="menu-item-40" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/photo-galleries"><strong>Photos</strong></a></li>
+<li id="menu-item-41" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/audio/"><strong>Audio</strong></a></li>
+<li id="menu-item-43" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/clones"><strong>Clones</strong></a></li>
+<li id="menu-item-44" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.jimrome.com/stations"><strong>Stations</strong></a></li>
+<li id="menu-item-8704" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://jimrome.com/become-a-jungle-insider"><strong>Jungle Insider</strong></a></li>
+</ul></nav>
+<nav class="sub-nav">
+			</li>
+	</nav></header>		<section class="page-ad-container page-pencil-ad-container-top">
+			<div id="reptile_1_wrapper" class="ad-block-wrapper cbs-ad-unit-wrapper"><span id="ad_1"><div id="reptile_1" class="ad-block" data-ad_size="[[970,66],[728,90],[970,250]]" data-ad_location="top"><script>cbs_load_ad_by_tile("1");</script></div></span></div>		</section>
+		
+<div id="page-content" class="main-white page-block-container">
+
+
+<div class="content ">
+
+								<section class="dynamic-lead-slideshow dl-style-dl-2-columns">
+			<div id="section-dl" class="canvas">
+				<ul class="slides">
+																	<li id="image-47411" class="">
+
+							
+															<a class="node" href="http://jimrome.com/2017/10/09/dumbest-man-on-earth/"  >
+							
+							<img width="594" height="352" src="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-113459820.jpg?w=594&amp;h=352&amp;crop=1" class="thumbnail wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-113459820.jpg?w=594&amp;h=352&amp;crop=1 594w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-113459820.jpg?w=150&amp;h=89&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-113459820.jpg?w=300&amp;h=178&amp;crop=1 300w" sizes="(max-width: 594px) 100vw, 594px" />
+							<div class="flexslider-caption">
+								<p class="title">Dumbest Man On Earth</p>
+															</div>
+
+															</a>
+													</li>
+																	<li id="image-47493" class="">
+
+							
+															<a class="node" href="http://jimrome.com/2017/10/09/michigans-not-back/"  >
+							
+							<img width="594" height="352" src="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-852597200.jpg?w=594&amp;h=352&amp;crop=1" class="thumbnail wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-852597200.jpg?w=594&amp;h=352&amp;crop=1 594w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-852597200.jpg?w=150&amp;h=89&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-852597200.jpg?w=300&amp;h=178&amp;crop=1 300w" sizes="(max-width: 594px) 100vw, 594px" />
+							<div class="flexslider-caption">
+								<p class="title">Michigan’s Not Back</p>
+															</div>
+
+															</a>
+													</li>
+																	<li id="image-47455" class="">
+
+							
+															<a class="node" href="http://jimrome.com/2017/10/09/krypnite/"  >
+							
+							<img width="594" height="352" src="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-859136642.jpg?w=594&amp;h=352&amp;crop=1" class="thumbnail wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-859136642.jpg?w=594&amp;h=352&amp;crop=1 594w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-859136642.jpg?w=150&amp;h=89&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-859136642.jpg?w=300&amp;h=178&amp;crop=1 300w" sizes="(max-width: 594px) 100vw, 594px" />
+							<div class="flexslider-caption">
+								<p class="title">Kryp'nite</p>
+															</div>
+
+															</a>
+													</li>
+																	<li id="image-42839" class="">
+
+							
+															<a class="node" href="http://jimrome.com/audio/the-jim-rome-podcast/"  >
+							
+							<img width="625" height="352" src="https://cbsjimrome.files.wordpress.com/2017/09/jrpod6-website-damian-lillard.jpg?w=625&amp;h=352&amp;crop=1" class="thumbnail wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/09/jrpod6-website-damian-lillard.jpg?w=625&amp;h=352&amp;crop=1 625w, https://cbsjimrome.files.wordpress.com/2017/09/jrpod6-website-damian-lillard.jpg?w=150&amp;h=84&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2017/09/jrpod6-website-damian-lillard.jpg?w=300&amp;h=169&amp;crop=1 300w, https://cbsjimrome.files.wordpress.com/2017/09/jrpod6-website-damian-lillard.jpg 632w" sizes="(max-width: 625px) 100vw, 625px" />
+							<div class="flexslider-caption">
+								<p class="title">The Jim Rome Podcast, New Episode</p>
+															</div>
+
+															</a>
+													</li>
+																	<li id="image-47397" class="">
+
+							
+															<a class="node" href="http://jimrome.com/2017/10/09/morgan-burnett/"  >
+							
+							<img width="594" height="352" src="https://cbsjimrome.files.wordpress.com/2016/12/gettyimages-615060510.jpg?w=594&amp;h=352&amp;crop=1" class="thumbnail wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2016/12/gettyimages-615060510.jpg?w=594&amp;h=352&amp;crop=1 594w, https://cbsjimrome.files.wordpress.com/2016/12/gettyimages-615060510.jpg?w=150&amp;h=89&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2016/12/gettyimages-615060510.jpg?w=300&amp;h=178&amp;crop=1 300w" sizes="(max-width: 594px) 100vw, 594px" />
+							<div class="flexslider-caption">
+								<p class="title">Morgan Burnett talks with Jim</p>
+															</div>
+
+															</a>
+													</li>
+									</ul>
+			</div>
+							<div id="section-dl-menu" class="menu">
+					<ul class="slides">
+																				<li class=""><img width="111" height="62" src="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-113459820.jpg?w=111&amp;h=62&amp;crop=1" class="attachment-thumb-111x62 size-thumb-111x62 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-113459820.jpg?w=111&amp;h=62&amp;crop=1 111w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-113459820.jpg?w=222&amp;h=124&amp;crop=1 222w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-113459820.jpg?w=150&amp;h=84&amp;crop=1 150w" sizes="(max-width: 111px) 100vw, 111px" />
+<strong>Dumbest Man On Earth</strong></li>
+																				<li class=""><img width="111" height="62" src="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-852597200.jpg?w=111&amp;h=62&amp;crop=1" class="attachment-thumb-111x62 size-thumb-111x62 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-852597200.jpg?w=111&amp;h=62&amp;crop=1 111w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-852597200.jpg?w=222&amp;h=124&amp;crop=1 222w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-852597200.jpg?w=150&amp;h=84&amp;crop=1 150w" sizes="(max-width: 111px) 100vw, 111px" />
+<strong>Michigan’s Not Back</strong></li>
+																				<li class=""><img width="111" height="62" src="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-859136642.jpg?w=111&amp;h=62&amp;crop=1" class="attachment-thumb-111x62 size-thumb-111x62 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-859136642.jpg?w=111&amp;h=62&amp;crop=1 111w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-859136642.jpg?w=222&amp;h=124&amp;crop=1 222w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-859136642.jpg?w=150&amp;h=84&amp;crop=1 150w" sizes="(max-width: 111px) 100vw, 111px" />
+<strong>Kryp'nite</strong></li>
+																				<li class=""><img width="111" height="62" src="https://cbsjimrome.files.wordpress.com/2017/09/jrpod6-website-damian-lillard.jpg?w=111&amp;h=62&amp;crop=1" class="attachment-thumb-111x62 size-thumb-111x62 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/09/jrpod6-website-damian-lillard.jpg?w=111&amp;h=62&amp;crop=1 111w, https://cbsjimrome.files.wordpress.com/2017/09/jrpod6-website-damian-lillard.jpg?w=222&amp;h=124&amp;crop=1 222w, https://cbsjimrome.files.wordpress.com/2017/09/jrpod6-website-damian-lillard.jpg?w=150&amp;h=84&amp;crop=1 150w" sizes="(max-width: 111px) 100vw, 111px" />
+<strong>The Jim Rome Podcast, New Episode</strong></li>
+																				<li class=""><img width="111" height="62" src="https://cbsjimrome.files.wordpress.com/2016/12/gettyimages-615060510.jpg?w=111&amp;h=62&amp;crop=1" class="attachment-thumb-111x62 size-thumb-111x62 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2016/12/gettyimages-615060510.jpg?w=111&amp;h=62&amp;crop=1 111w, https://cbsjimrome.files.wordpress.com/2016/12/gettyimages-615060510.jpg?w=222&amp;h=124&amp;crop=1 222w, https://cbsjimrome.files.wordpress.com/2016/12/gettyimages-615060510.jpg?w=150&amp;h=84&amp;crop=1 150w" sizes="(max-width: 111px) 100vw, 111px" />
+<strong>Morgan Burnett talks with Jim</strong></li>
+											</ul>
+				</div>
+					</section>
+
+		
+					<script type="text/javascript">
+				jQuery(function($) {					
+					$('#section-dl-menu').flexslider({
+						asNavFor: '#section-dl',
+						animation: false,
+						animationLoop: false,
+						controlNav: false,
+						direction: 'horizontal',
+						itemWidth: 115,
+						itemMargin: 8,
+						keyboard: false,
+						pauseOnAction: true,
+						slideshow: false,
+						useCSS: false,
+						video: true
+					});
+					$('#section-dl').flexslider({
+						sync: '#section-dl-menu',
+						animation: "fade",
+						animationLoop: true,
+						controlNav: false,
+						directionNav: false,
+						keyboard: false,
+						pauseOnAction: true,
+						slideshow: true,
+						slideshowSpeed: 5000,
+						animationSpeed: 800,
+						video: true,
+						start: function() {
+
+							var ua = navigator.userAgent.toLowerCase();
+							if (ua.indexOf('ipad') > -1) return;
+							
+							$('#section-dl-menu .flex-active-slide .wrapper').on('click', function(e){
+								var $active_slide_links = $('#section-dl.canvas li.flex-active-slide a.node');
+								if ($active_slide_links.length == 1) {
+									//trigger and attached events
+									$active_slide_links.trigger('click');
+									// and if default triger doesn't work (and it won't), redirect manually
+									if ($active_slide_links.attr('target') == '_blank') {
+										window.open($active_slide_links.attr('href'));
+									} else {
+										window.location = $active_slide_links.attr('href');
+									}
+								}
+							});	
+						},
+						after: function() {
+
+							var ua = navigator.userAgent.toLowerCase();
+							if (ua.indexOf('ipad') > -1) return;
+							
+							$('#section-dl-menu .flex-active-slide .wrapper').on('click', function(e){
+								var $active_slide_links = $('#section-dl.canvas li.flex-active-slide a.node');
+								if ($active_slide_links.length == 1) {
+									//trigger and attached events
+									$active_slide_links.trigger('click');
+									// and if default triger doesn't work (and it won't), redirect manually
+									if ($active_slide_links.attr('target') == '_blank') {
+										window.open($active_slide_links.attr('href'));
+									} else {
+										window.location = $active_slide_links.attr('href');
+									}
+								}
+							});
+						},
+						before: function() {
+
+							$( '.dl-canvas-video iframe' ).on('click', function() {
+								$('#section-dl-menu .flex-active-slide .wrapper').off('click');
+							})
+
+							$('#section-dl-menu .flex-active-slide .wrapper').off('click');
+
+							var slide_video_player_ids = [];
+							$('#section-dl ul.slides li.video-content .dl-canvas-video iframe').each(function(){
+								slide_video_player_ids.push($(this).attr('id'));
+							});
+							if (slide_video_player_ids.length > 0) {
+								for (var i in slide_video_player_ids) {
+									if (typeof anvp[slide_video_player_ids[i]] != 'undefined') {
+										anvp[slide_video_player_ids[i]].pause();
+									}
+								}
+							}
+						}
+					});
+				});
+			</script>
+							
+		
+	
+	
+				<aside class="sidebar right-bar">
+
+												<div id="listen-live-button" class="listen-live-action"><div id="reptile_30_wrapper" class="ad-block-wrapper cbs-ad-unit-wrapper listen-live-ad-block"><span id="ad_30"><div id="reptile_30" class="ad-block" data-ad_size="[[88,31]]" data-ad_location=""><script>cbs_load_ad_by_tile("30");</script></div></span></div><a class="listen-live-logo aa-watch-live-button click-event-target" href="http://player.radio.com/listen/station/cbs-sports-radio" target="_self" title="Listen to Live Radio" style=""></a><a class="wrapper aa-watch-live-button click-event-target" href="http://player.radio.com/listen/station/cbs-sports-radio" target="_self"><p class="listen-live-text listen">Listen Live</p></a></div>				
+				<div id="reptile_2_wrapper" class="ad-block-wrapper cbs-ad-unit-wrapper"><span id="ad_2"><div id="reptile_2" class="ad-block" data-ad_size="[[300,250]]" data-ad_location="top"><script>cbs_load_ad_by_tile("2");</script></div></span></div>
+			
+			
+			
+			
+			
+							<div id="text-3" class="block sidebar-widget widget_text"><h3 class="title">Jungle Insider</h3>			<div class="textwidget"><a href="/become-a-jungle-insider/"><img src="http://cbsjimrome.files.wordpress.com/2013/01/jungle-insider-promo-300x250-2.jpg" width="300" height="250"></img></a></div>
+		</div><div id="cbs_latest_gallery_block-2" class="block sidebar-widget widget_cbs_latest_gallery_block"><h3 class="title"><a href="http://jimrome.com/photo-galleries/">Latest Galleries</a></h3>			<div class="widget-content-wrapper enable-type-icons">
+				<a href="http://jimrome.com/photo-galleries/2012/12/30/jungle-shots-4/" title="Radio Row/ In Studio" class="cbs-thumbnail-link content-type-photo" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbsjimrome.files.wordpress.com/2016/09/dfhhjwlvwaee_ek.jpg?w=640&#038;h=360&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Radio Row/ In Studio</strong></div></a>			</div>
+		</div><div id="reptile_31_wrapper" class="ad-block-wrapper cbs-ad-unit-wrapper sidebar-injected-ad"><span id="ad_31"><div id="reptile_31" class="ad-block" data-ad_size="[[300,250]]" data-ad_location="middle"><script>cbs_load_ad_by_tile("31");</script></div></span></div><div id="twitter-2" class="block sidebar-widget widget_twitter"><h3 class="title"><a href='http://twitter.com/jimrome'>Jim Rome&#8217;s Twitter Feed</a></h3><ul class='tweets'>
+			<li>
+				Today&#039;s daily podcast features @<a href='http://twitter.com/LATimesFarmer'>LATimesFarmer</a>, @<a href='http://twitter.com/ISUMattCampbell'>ISUMattCampbell</a>, and @<a href='http://twitter.com/MoBetta_42'>MoBetta_42</a>. Subscribe: <a href="https://itunes.apple.com/us/podcast/best-of-the-jim-rome-show/id1140591999?mt=2"> itunes.apple.com/us/podcast/bes…</a> 				<a href="http://twitter.com/jimrome/statuses/917503755641413632" class="timesince">12&nbsp;hours&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				.@<a href='http://twitter.com/MoBetta_42'>MoBetta_42</a> told me the Packers have a &quot;real gritty team.&quot; <a href="http://jimrome.com/2017/10/09/green-bays-morgan-burnett-talks-about-their-comeback-win-in-dallas/"> jimrome.com/2017/10/09/gre…</a> 				<a href="http://twitter.com/jimrome/statuses/917503237976190978" class="timesince">12&nbsp;hours&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				.@<a href='http://twitter.com/MoBetta_42'>MoBetta_42</a> on the show right now on @<a href='http://twitter.com/CBSSportsRadio'>CBSSportsRadio</a> 				<a href="http://twitter.com/jimrome/statuses/917459861696385025" class="timesince">15&nbsp;hours&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				.@<a href='http://twitter.com/ISUMattCampbell'>ISUMattCampbell</a> on the show right now on @<a href='http://twitter.com/CBSSportsRadio'>CBSSportsRadio</a> 				<a href="http://twitter.com/jimrome/statuses/917455491005124608" class="timesince">15&nbsp;hours&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				.@<a href='http://twitter.com/LATimesfarmer'>LATimesfarmer</a> on the show right now on @<a href='http://twitter.com/CBSSportsRadio'>CBSSportsRadio</a> 				<a href="http://twitter.com/jimrome/statuses/917425629053816833" class="timesince">17&nbsp;hours&nbsp;ago</a>
+			</li>
+
+			</ul><a href="http://twitter.com/jimrome"  class='twitter-follow-button' data-show-count='false'>Follow @jimrome</a></div><div id="facebook_like_box-2" class="block sidebar-widget widget_facebook_like_box">				<iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fjimrome&amp;width=292&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=true&amp;height=427" scrolling="no" frameborder="0" style="border:none;overflow:hidden;width:292px;height:427px;" allowTransparency="true"></iframe>
+				</div><div id="rss-2" class="block sidebar-widget widget_rss"><h3 class="title"><a class="rsswidget" href="http://rss.cbssports.com/rss/headlines" title="Syndicate this content"><img style="background: orange; color: white; border: none;" width="14" height="14" src="http://s.wordpress.com/wp-includes/images/rss.png?m=1354137473h" alt="RSS" /></a> <a class="rsswidget" href="http://www.cbssports.com" title="The latest news from CBSSports.com">Latest From CBS Sports</a></h3><ul><li><a class='rsswidget' href='https://www.cbssports.com/mlb/news/dodgers-finish-nlds-sweep-of-diamondbacks-final-score-things-to-know/' title='Los Angeles is heading to the NLCS for the second successive season, and the fifth time in 10 years'>Dodgers finish NLDS sweep of Diamondbacks: Final score, things to know</a></li><li><a class='rsswidget' href='https://www.cbssports.com/college-football/news/alabama-clemson-iii-theres-a-wild-ride-ahead-so-dont-assume-thats-a-lock/' title='Sure, an Alabama vs. Clemson rubber match would be great, but so would a number of other showdowns'>Alabama-Clemson III? There&#039;s a wild ride ahead, so don&#039;t assume that&#039;s a lock</a></li><li><a class='rsswidget' href='https://www.cbssports.com/nfl/news/vikings-vs-bears-final-score-things-to-know-minnesota-spoils-trubiskys-debut/' title='The Vikings survived a scare from the Bears, using a key interception of Mitch Trubisky to seal the win'>Vikings vs. Bears final score, things to know: Minnesota spoils Trubisky&#039;s debut</a></li><li><a class='rsswidget' href='https://www.cbssports.com/wwe/news/wwe-raw-results-recap-the-shield-reunites-sister-abigail-shows-up-title-change/' title='Raw on Monday night was epic with the return of one of the WWE&#039;s most popular factions'>WWE Raw results, recap: The Shield reunites, Sister Abigail debuts, title change</a></li><li><a class='rsswidget' href='https://www.cbssports.com/nfl/news/watch-mitchell-trubisky-runs-bananas-jet-sweep-pitch-for-two-points-after-his-first-td/' title='The Bears busted out just about every trick in the book to try and score some points'>WATCH: Mitchell Trubisky runs bananas jet sweep pitch for two points after his first TD</a></li><li><a class='rsswidget' href='https://www.cbssports.com/mlb/news/meet-the-man-who-was-to-become-an-mlb-gm-but-pursued-a-legal-career-instead/' title='Adam Cromie went from the Washington Nationals front office to the Jones Day law firm'>Meet the man who was to become an MLB GM, but pursued a legal career instead</a></li><li><a class='rsswidget' href='https://www.cbssports.com/nba/news/report-nba-set-to-cash-in-with-225m-deal-with-japanese-tech-company-rakuten/' title='Rakuten is also the sponsor for the Golden State Warriors&#039; jersey patch'>Report: NBA set to cash in with $225M deal with Japanese tech company Rakuten</a></li><li><a class='rsswidget' href='https://www.cbssports.com/nfl/news/brandon-marshalls-season-is-over-making-the-giants-wr-depth-chart-unrecognizable/' title='The veteran wide receiver is having season-ending surgery and hints he might not be back next year'>Brandon Marshall&#039;s season is over, making the Giants&#039; WR depth chart unrecognizable</a></li><li><a class='rsswidget' href='https://www.cbssports.com/nfl/news/watch-bears-punter-tops-sam-bradfords-night-with-one-wild-td-pass-on-fake-punt/' title='Chicago&#039;s offense has not been exceptional'>WATCH: Bears punter tops Sam Bradford&#039;s night with one wild TD pass on fake punt</a></li><li><a class='rsswidget' href='https://www.cbssports.com/mlb/news/yankees-force-a-decisive-game-5-vs-indians-final-score-things-to-know/' title='The Yankees got out in front early and never looked back in Game 4'>Yankees force a decisive Game 5 vs. Indians: Final score, things to know</a></li></ul></div>			
+			<div id="reptile_3_wrapper" class="ad-block-wrapper cbs-ad-unit-wrapper"><span id="ad_3"><div id="reptile_3" class="ad-block" data-ad_size="[[300,250]]" data-ad_location="bottom"><script>cbs_load_ad_by_tile("3");</script></div></span></div>		</aside>
+	
+			
+	<div id="todays-most-shared">
+		<ul class="slides">
+							<li class="twitter">
+										<div class="tr-block">
+						<a href="http://jimrome.com/2017/10/09/1092017-coke-rodgers-burnett/#at_pco=cfd-1.0" title="10/9/2017 Coke, Rodgers, Burnett">10/9/2017 Coke, Rodgers, Burnett</a>
+					</div>
+				</li>
+							<li class="facebook">
+										<div class="tr-block">
+						<a href="http://jimrome.com/clones/#at_pco=cfd-1.0" title="The Clones: Jim Rome&rsquo;s Legion of Fans">The Clones: Jim Rome&rsquo;s Legion of Fans</a>
+					</div>
+				</li>
+							<li class="twitter">
+										<div class="tr-block">
+						<a href="http://jimrome.com/2017/10/09/dumbest-man-on-earth/#at_pco=cfd-1.0" title="Dumbest Man On Earth">Dumbest Man On Earth</a>
+					</div>
+				</li>
+							<li class="facebook">
+										<div class="tr-block">
+						<a href="http://jimrome.com/2017/10/09/1092017-coke-rodgers-burnett/#at_pco=cfd-1.0" title="10/9/2017 Coke, Rodgers, Burnett">10/9/2017 Coke, Rodgers, Burnett</a>
+					</div>
+				</li>
+							<li class="twitter">
+										<div class="tr-block">
+						<a href="http://jimrome.com/2017/09/20/it-is-you-bob/#at_pco=cfd-1.0" title="It Is You, Bob">It Is You, Bob</a>
+					</div>
+				</li>
+							<li class="facebook">
+										<div class="tr-block">
+						<a href="http://jimrome.com/audio/the-jim-rome-show/#at_pco=cfd-1.0" title="Audio  - Jim Rome on CBS Sports Radio">Audio  - Jim Rome on CBS Sports Radio</a>
+					</div>
+				</li>
+							<li class="twitter">
+										<div class="tr-block">
+						<a href="http://jimrome.com/audio/the-jim-rome-show/matt-campbell/#at_pco=cfd-1.0" title="Audio  - Jim Rome on CBS Sports Radio">Audio  - Jim Rome on CBS Sports Radio</a>
+					</div>
+				</li>
+							<li class="facebook">
+										<div class="tr-block">
+						<a href="http://jimrome.com/2017/10/09/green-bays-morgan-burnett-talks-about-their-comeback-win-in-dallas/#at_pco=cfd-1.0" title="Green Bay&rsquo;s Morgan Burnett talks about their comeback win in Dallas">Green Bay&rsquo;s Morgan Burnett talks about their comeback win in Dallas</a>
+					</div>
+				</li>
+							<li class="facebook">
+										<div class="tr-block">
+						<a href="http://jimrome.com/audio/cbs-sports-minute/10-9-jim-rome-cbs-sports-minute-on-sparty-over-michigan/#at_pco=cfd-1.0" title="Audio  - Jim Rome on CBS Sports Radio">Audio  - Jim Rome on CBS Sports Radio</a>
+					</div>
+				</li>
+					</ul>
+	</div>
+	
+	
+	<div class="below-fold wrapper">
+		
+
+
+		
+		
+		
+		<div class="main">
+							
+				
+<div class="headlines best-of-style" rel="16">
+
+						
+			
+	<div class="headline in-the-jungle section-blogroll-235x176" id="headline-1018588">
+
+		<h3>In the Jungle</h3>
+
+		
+		
+			<ul class="headline-items">
+																									<li class="">
+															<a href="http://jimrome.com/2017/10/09/the-new-york-football-giants/" title="2017 Giants" class="thumb ">
+									<img width="235" height="176" src="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-859096044.jpg?w=235&amp;h=176&amp;crop=1" class="attachment-section-blogroll-235x176 size-section-blogroll-235x176 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-859096044.jpg?w=235&amp;h=176&amp;crop=1 235w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-859096044.jpg?w=470&amp;h=352&amp;crop=1 470w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-859096044.jpg?w=150&amp;h=112&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-859096044.jpg?w=300&amp;h=225&amp;crop=1 300w" sizes="(max-width: 235px) 100vw, 235px" />								</a>
+							
+							<a href="http://jimrome.com/2017/10/09/the-new-york-football-giants/" title="2017 Giants" class="title">
+								<strong>2017 Giants</strong>
+																											<em>
+											Week 5 was a brutal week in the NFL as one big name after another went down.										</em>
+																								</a>
+						</li>
+																	<li class="">
+															<a href="http://jimrome.com/2017/10/09/matt-campbell/" title="Matt Campbell" class="thumb ">
+									<img width="235" height="176" src="https://cbsjimrome.files.wordpress.com/2015/12/gettyimages-499499702.jpg?w=235&amp;h=176&amp;crop=1" class="attachment-section-blogroll-235x176 size-section-blogroll-235x176 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2015/12/gettyimages-499499702.jpg?w=235&amp;h=176&amp;crop=1 235w, https://cbsjimrome.files.wordpress.com/2015/12/gettyimages-499499702.jpg?w=470&amp;h=352&amp;crop=1 470w, https://cbsjimrome.files.wordpress.com/2015/12/gettyimages-499499702.jpg?w=150&amp;h=112&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2015/12/gettyimages-499499702.jpg?w=300&amp;h=225&amp;crop=1 300w" sizes="(max-width: 235px) 100vw, 235px" />								</a>
+							
+							<a href="http://jimrome.com/2017/10/09/matt-campbell/" title="Matt Campbell" class="title">
+								<strong>Matt Campbell</strong>
+																											<em>
+											Iowa State Head Coach talks about their win at Oklahoma.										</em>
+																								</a>
+						</li>
+																	<li class="">
+															<a href="http://jimrome.com/2017/10/06/nyheim-hines/" title="Nyheim Hines" class="thumb ">
+									<img width="235" height="176" src="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-841963792.jpg?w=235&amp;h=176&amp;crop=1" class="attachment-section-blogroll-235x176 size-section-blogroll-235x176 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-841963792.jpg?w=235&amp;h=176&amp;crop=1 235w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-841963792.jpg?w=470&amp;h=352&amp;crop=1 470w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-841963792.jpg?w=150&amp;h=112&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-841963792.jpg?w=300&amp;h=225&amp;crop=1 300w" sizes="(max-width: 235px) 100vw, 235px" />								</a>
+							
+							<a href="http://jimrome.com/2017/10/06/nyheim-hines/" title="Nyheim Hines" class="title">
+								<strong>Nyheim Hines</strong>
+																											<em>
+											NC State Running Back shares his story with Jim.										</em>
+																								</a>
+						</li>
+																	<li class="">
+															<a href="http://jimrome.com/2017/10/06/thursday-night-football-11/" title="Thursday Night Football" class="thumb ">
+									<img width="235" height="176" src="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-858071184.jpg?w=235&amp;h=176&amp;crop=1" class="attachment-section-blogroll-235x176 size-section-blogroll-235x176 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-858071184.jpg?w=235&amp;h=176&amp;crop=1 235w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-858071184.jpg?w=470&amp;h=352&amp;crop=1 470w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-858071184.jpg?w=150&amp;h=112&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-858071184.jpg?w=300&amp;h=225&amp;crop=1 300w" sizes="(max-width: 235px) 100vw, 235px" />								</a>
+							
+							<a href="http://jimrome.com/2017/10/06/thursday-night-football-11/" title="Thursday Night Football" class="title">
+								<strong>Thursday Night Football</strong>
+																											<em>
+											New England 19, Tampa Bay 14. That counts as a win for New England; although that was one of the weirdest wins you’ll ever see.										</em>
+																								</a>
+						</li>
+																	<li class="">
+															<a href="http://jimrome.com/2017/10/06/micah-hyde/" title="Micah Hyde" class="thumb ">
+									<img width="235" height="176" src="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-856370762.jpg?w=235&amp;h=176&amp;crop=1" class="attachment-section-blogroll-235x176 size-section-blogroll-235x176 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-856370762.jpg?w=235&amp;h=176&amp;crop=1 235w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-856370762.jpg?w=470&amp;h=352&amp;crop=1 470w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-856370762.jpg?w=150&amp;h=112&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-856370762.jpg?w=300&amp;h=225&amp;crop=1 300w" sizes="(max-width: 235px) 100vw, 235px" />								</a>
+							
+							<a href="http://jimrome.com/2017/10/06/micah-hyde/" title="Micah Hyde" class="title">
+								<strong>Micah Hyde</strong>
+																											<em>
+											Buffalo Safety talks 2017 Season, defense, and more.										</em>
+																								</a>
+						</li>
+																	<li class="">
+															<a href="http://jimrome.com/2017/10/05/braggiest-place-on-earth/" title="Braggiest Place on Earth" class="thumb ">
+									<img width="235" height="176" src="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-691256576.jpg?w=235&amp;h=176&amp;crop=1" class="attachment-section-blogroll-235x176 size-section-blogroll-235x176 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-691256576.jpg?w=235&amp;h=176&amp;crop=1 235w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-691256576.jpg?w=150&amp;h=112&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-691256576.jpg?w=300&amp;h=225&amp;crop=1 300w" sizes="(max-width: 235px) 100vw, 235px" />								</a>
+							
+							<a href="http://jimrome.com/2017/10/05/braggiest-place-on-earth/" title="Braggiest Place on Earth" class="title">
+								<strong>Braggiest Place on Earth</strong>
+																											<em>
+											If I'm doing a take on soccer, or US Women's National Team to be more specific, odds are it's not good.										</em>
+																								</a>
+						</li>
+																	<li class="">
+															<a href="http://jimrome.com/2017/10/05/come-on-cam-2/" title="Come On, Cam" class="thumb ">
+									<img width="235" height="176" src="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-857587794.jpg?w=235&amp;h=176&amp;crop=1" class="attachment-section-blogroll-235x176 size-section-blogroll-235x176 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-857587794.jpg?w=235&amp;h=176&amp;crop=1 235w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-857587794.jpg?w=470&amp;h=352&amp;crop=1 470w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-857587794.jpg?w=150&amp;h=112&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-857587794.jpg?w=300&amp;h=225&amp;crop=1 300w" sizes="(max-width: 235px) 100vw, 235px" />								</a>
+							
+							<a href="http://jimrome.com/2017/10/05/come-on-cam-2/" title="Come On, Cam" class="title">
+								<strong>Come On, Cam</strong>
+																											<em>
+											Cam Newton causing controversy at a press conference is nothing new. 										</em>
+																								</a>
+						</li>
+																	<li class="">
+															<a href="http://jimrome.com/2017/10/05/masai-ujiri/" title="Masai Ujiri" class="thumb ">
+									<img width="235" height="176" src="https://cbsjimrome.files.wordpress.com/2014/04/170033185.jpg?w=235&amp;h=176&amp;crop=1" class="attachment-section-blogroll-235x176 size-section-blogroll-235x176 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2014/04/170033185.jpg?w=235&amp;h=176&amp;crop=1 235w, https://cbsjimrome.files.wordpress.com/2014/04/170033185.jpg?w=470&amp;h=352&amp;crop=1 470w, https://cbsjimrome.files.wordpress.com/2014/04/170033185.jpg?w=150&amp;h=112&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2014/04/170033185.jpg?w=300&amp;h=225&amp;crop=1 300w" sizes="(max-width: 235px) 100vw, 235px" />								</a>
+							
+							<a href="http://jimrome.com/2017/10/05/masai-ujiri/" title="Masai Ujiri" class="title">
+								<strong>Masai Ujiri</strong>
+																											<em>
+											Toronto Raptors President talks 2017-18 Season, DeMar DeRozan, and more.										</em>
+																								</a>
+						</li>
+																	<li class="">
+															<a href="http://jimrome.com/2017/10/05/mike-adams/" title="Mike Adams" class="thumb ">
+									<img width="235" height="176" src="https://cbsjimrome.files.wordpress.com/2014/12/458351756.jpg?w=235&amp;h=176&amp;crop=1" class="attachment-section-blogroll-235x176 size-section-blogroll-235x176 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2014/12/458351756.jpg?w=235&amp;h=176&amp;crop=1 235w, https://cbsjimrome.files.wordpress.com/2014/12/458351756.jpg?w=470&amp;h=352&amp;crop=1 470w, https://cbsjimrome.files.wordpress.com/2014/12/458351756.jpg?w=150&amp;h=112&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2014/12/458351756.jpg?w=300&amp;h=225&amp;crop=1 300w" sizes="(max-width: 235px) 100vw, 235px" />								</a>
+							
+							<a href="http://jimrome.com/2017/10/05/mike-adams/" title="Mike Adams" class="title">
+								<strong>Mike Adams</strong>
+																											<em>
+											 Carolina Safety talks Pats, Cam Newton, and more.										</em>
+																								</a>
+						</li>
+																	<li class="">
+															<a href="http://jimrome.com/2017/10/04/toughest-of-the-tough/" title="Toughest Of The Tough" class="thumb ">
+									<img width="235" height="176" src="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-857295408.jpg?w=235&amp;h=176&amp;crop=1" class="attachment-section-blogroll-235x176 size-section-blogroll-235x176 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-857295408.jpg?w=235&amp;h=176&amp;crop=1 235w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-857295408.jpg?w=470&amp;h=352&amp;crop=1 470w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-857295408.jpg?w=150&amp;h=112&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-857295408.jpg?w=300&amp;h=225&amp;crop=1 300w" sizes="(max-width: 235px) 100vw, 235px" />								</a>
+							
+							<a href="http://jimrome.com/2017/10/04/toughest-of-the-tough/" title="Toughest Of The Tough" class="title">
+								<strong>Toughest Of The Tough</strong>
+																											<em>
+											The scariest moment of last night for the Yankees wasn’t when Luis Severino gave up the leadoff homer to Brian Dozier. 										</em>
+																								</a>
+						</li>
+																	<li class="">
+															<a href="http://jimrome.com/2017/10/04/daniel-berger/" title="Daniel Berger" class="thumb ">
+									<img width="235" height="176" src="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-856412688.jpg?w=235&amp;h=176&amp;crop=1" class="attachment-section-blogroll-235x176 size-section-blogroll-235x176 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-856412688.jpg?w=235&amp;h=176&amp;crop=1 235w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-856412688.jpg?w=470&amp;h=352&amp;crop=1 470w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-856412688.jpg?w=150&amp;h=112&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-856412688.jpg?w=300&amp;h=225&amp;crop=1 300w" sizes="(max-width: 235px) 100vw, 235px" />								</a>
+							
+							<a href="http://jimrome.com/2017/10/04/daniel-berger/" title="Daniel Berger" class="title">
+								<strong>Daniel Berger</strong>
+																											<em>
+											Golfer talks about winning the Presidents Cup. 										</em>
+																								</a>
+						</li>
+																	<li class="">
+															<a href="http://jimrome.com/2017/10/04/scott-frost/" title="Scott Frost" class="thumb ">
+									<img width="235" height="176" src="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-619041616.jpg?w=235&amp;h=176&amp;crop=1" class="attachment-section-blogroll-235x176 size-section-blogroll-235x176 wp-post-image" alt="" srcset="https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-619041616.jpg?w=235&amp;h=176&amp;crop=1 235w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-619041616.jpg?w=470&amp;h=352&amp;crop=1 470w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-619041616.jpg?w=150&amp;h=112&amp;crop=1 150w, https://cbsjimrome.files.wordpress.com/2017/10/gettyimages-619041616.jpg?w=300&amp;h=225&amp;crop=1 300w" sizes="(max-width: 235px) 100vw, 235px" />								</a>
+							
+							<a href="http://jimrome.com/2017/10/04/scott-frost/" title="Scott Frost" class="title">
+								<strong>Scott Frost</strong>
+																											<em>
+											Central Florida Head Coach talks 2017 Season, rumors, and more.										</em>
+																								</a>
+						</li>
+												</ul>
+
+		
+					<div class="pagination has-next-page" data-paged="1" data-category_id="1018588">
+				<a class="previous" style="display: none;" href="http://jimrome.com/category/in-the-jungle/">Prev</a>
+				<a class="next" href="http://jimrome.com/category/in-the-jungle/">Next</a>
+			</div>
+		
+	</div>
+
+			
+			
+					
+															
+		
+</div>
+			
+					</div>
+
+			</div>
+</div>
+
+	<script type="text/javascript">
+		section_is_homepage = true;
+	</script>
+
+		<section class="page-ad-container page-pencil-ad-container-bottom">
+			<div id="reptile_4_wrapper" class="ad-block-wrapper cbs-ad-unit-wrapper"><span id="ad_4"><div id="reptile_4" class="ad-block" data-ad_size="[[728,90]]" data-ad_location="bottom"><script>cbs_load_ad_by_tile("4");</script></div></span></div>		</section>
+		
+<section class="items-grid page-block-container layout-3_column aspect-ratio-16-9" id="drip-pan" >
+		<header class="column-header">
+				<h4 class="title">More From The Jim Rome Show</h4>
+	</header>
+	
+		
+			<div class="article-buckets-list">
+			<a href="http://jimrome.com/2017/06/19/gary-vaynerchuk/" title="Gary Vaynerchuk" class="cbs-thumbnail-link item-1355847013" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbsjimrome.files.wordpress.com/2017/06/gettyimages-611453342.jpg?w=310&#038;h=174&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Gary Vaynerchuk</strong></div></a><a href="http://jimrome.com/2017/09/12/lincoln-riley/" title="Lincoln Riley" class="cbs-thumbnail-link item-1355846920" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbsjimrome.files.wordpress.com/2017/09/gettyimages-845127596.jpg?w=310&#038;h=174&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Lincoln Riley</strong></div></a><a href="http://jimrome.com/2017/09/22/boomer-esiason-2/" title="Boomer Esiason" class="cbs-thumbnail-link item-1355846876" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbsjimrome.files.wordpress.com/2013/01/88524751.jpg?w=310&#038;h=174&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Boomer Esiason</strong></div></a>		</div>
+	</section>
+
+
+</div>
+
+
+<footer id="page-footer" class="page-footer-type-menus-horizontal">
+			<section class="top"><div class="wrapper">
+			<a href="http://jimrome.com" class="logo"><img src="https://cbssportsradio.files.wordpress.com/2016/02/logo_footer_132_x_40.png" alt="The Jim Rome Show" /></a>							<div id="component-social" class="footer-component social-follow-items type-blue size-24x24">
+					<div class="social-align-wrapper">
+						<span class="disclosure">Follow Us</span>
+						<a href="http://www.facebook.com/jimrome" class="facebook" target="_blank">Facebook</a><a href="https://twitter.com/#!/jimrome" class="twitter" target="_blank">Twitter</a>					</div>
+				</div>
+					</div></section>
+	
+			<section class="middle"><div class="wrapper">
+			
+<section class="items-grid block-menu layout-compact aspect-ratio-16-9" id="block-0" >
+		<header class="column-header">
+				<h4 class="title">Media</h4>
+	</header>
+	
+		
+			<div class="article-buckets-list">
+			<a href="/audio" title="Audio" class="cbs-thumbnail-link item-0" ><div class="title-wrapper"><strong class="title">Audio</strong></div></a><a href="/video" title="Video" class="cbs-thumbnail-link item-1" ><div class="title-wrapper"><strong class="title">Video</strong></div></a><a href="/photo-galleries" title="Photo Albums" class="cbs-thumbnail-link item-2" ><div class="title-wrapper"><strong class="title">Photo Albums</strong></div></a>		</div>
+	</section>
+		</div></section>
+	
+			<section class="bottom"><div class="wrapper">
+			<a href="http://jimrome.com" class="logo"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/plugins/modules/theme-manager/images/cbs-local-logo-white.png" alt="The Jim Rome Show" /></a>
+			<div class="copyright-wrapper">
+								<span class="copyright">&copy;2017 CBS Radio Inc. All Rights Reserved.</span>
+
+									<span class="powered-by-wordpress">
+						Powered by <a href="https://vip.wordpress.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=jimrome.com" rel="generator nofollow" class="powered-by-wpcom">WordPress.com VIP</a>					</span>
+							</div>
+
+			<div class="right-wrapper">
+									<div class="terms-of-use">By viewing our video content, you are accepting the terms of our <a href="http://policies.cbslocal.com/privacy-june-2015/current.html#video-services" target="_blank" title="Video Services Policy">Video Services Policy</a></div>
+								<ul id="menu-final-footer-menu" class="nav-final-footer"><li id="menu-item-71" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-71"><a href="/">© 2013 CBS Local Media, a division of CBS Radio Inc.   All rights reserved</a></li>
+<li id="menu-item-1189" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1189"><a href="http://policies.cbslocal.com/privacy/current.html">Privacy Policy</a></li>
+<li id="menu-item-1190" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1190"><a href="http://policies.cbslocal.com/terms-of-use/">Terms of Use</a></li>
+<li id="menu-item-36461" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36461"><a href="http://policies.cbslocal.com/privacy/current.html#cali-visitors">Your California Privacy Rights</a></li>
+<li id="menu-item-36462" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36462"><a href="http://policies.cbslocal.com/mobile-app-agreement/">Mobile User Agreement</a></li>
+<li id="menu-item-36463" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36463"><a href="http://policies.cbslocal.com/privacy/current.html#onlinead">Ad Choices</a></li>
+</ul>			</div>
+
+						</div></section>
+	</div>
+	</footer>
+
+<!--PARTNER SCRIPTS START-->
+
+<!--PARTNER SCRIPTS END-->
+
+
+</div>
+
+<!-- wpcom_wp_footer -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201741y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=20111117'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"0","is_single":"0","is_front_page":"1","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJx9jksOwjAMRC9EcFuJzwZxFjexqEOShjhJ4fakLBBi0Z01M+/JsESl55ApZLAChipris+9lR38VL6o6MqNg4DjOwk8ChWaMBhH6X+cJ/JtUjmCHkW5WaNb5VLGgHVDPaiVsR9UYUD3yqxlA0DjOagRE3iUTKldaq6UEpv2wDdrhqu/9IduOJ7709DZN3jaWq8='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="//stats.wp.com/w.js?56" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'43964371','blog_tz':'-7','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'43964371','v':'wpcom','tz':'-7','user_id':'0','post':'18','subd':'cbsjimrome'}]);
+function st_vt() {var x=document.createElement("img");x.src="http://pixel.wp.com/g.gif?blog=43964371&v=wpcomvt&tz=-7&user_id=0&post=18&subd=cbsjimrome&rand="+Math.random();}
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTdocExCODFfQnlZTGxWLFVFPVlVSzZxZ0xDOG5GdkxHLHVERkY9U1RdW3RzV1gvQVpxLy5qYWwvZElSMzR3ZGNrMWFzWHBrTz18JSVPSV8xbEdzUk4lQ2Utc2F5ZyZNUXNUOEo3NHcxR00rTF83NnpuXT8tLlB2MzAwTUp1ZnI2R242clFkZENsSXg9YW5XLVdLTFomVXBXakYsQj1UcFg3b0dQZVRSMlQvSWYzPXNJblpoZ1svSWc1UFRsYkR+MUViZFtSajlw'}]);
+_stq.push([ 'clickTrackerInit', '43964371', '18' ]);
+	</script>
+<noscript><img src="http://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+
+
+<script type="text/javascript">
+	var cbs_market_root = 'http://jimrome.com';
+	var cbs_template_root = 'https://s0.wp.com/wp-content/themes/vip/cbs-local';
+	var cbs_market_gmt_offset = -25200;
+
+	var site_url = 'http://jimrome.com';
+
+	(function(){function x(){for(var a=[8],b=1;1>=b;b++)a.push(8+b),a.push(8-b);a=a[Math.floor(Math.random()*a.length)];return{b:a,a:0==Math.floor(Math.random()*a)}}function h(a){var b=a=a.replace(":","");try{for(var c=0;100>c&&(a=decodeURIComponent(a),b!=a)&&!a.match(/^http(s)?\:/);c++)b=a}catch(d){}return a.replace(/(^\s+|\s+$)/g,"")}try{if(!location||!location.hostname||!location.pathname)return!1;var c=document.location.hostname.replace(/^www\./,""),q=function(){for(var a,b=document.getElementsByTagName("meta"),c,d=0,e=b.length;d<e;d++)if(c=b[d],"og:title"===c.getAttribute("property")){a=c.getAttribute("content");break}a||(a=document.title||"Untitled");return a}(),b={},b=function(a,b,c){a.l1=b;a.l2=c;a.l3="__page__";a.l4="-";return a}(b,c,q),k=(new Date).getTime(),l=Math.floor(Math.random()*Math.pow(10,12)),m,d;d=x();m=d.a?d.b:0;b.zmoatab_cm=m;b.t=k;b.de=l;b.zMoatAB_SNPT=!0;var n;n=m?m:1;var r;r=d?d.a?!0:!1:!0;var c=[],y=(new Date).getTime().toString(35),t=[h(b.l1),h(b.l2),h(b.l3),h(b.l4)].join(":"),q=/zct[a-z0-9]+/i,e="",f;for(f in b)b.hasOwnProperty(f)&&f.match(q)&&(e+="&"+f+"="+b[f]);var u=document.referrer.match(/^([^:]{2,}:\/\/[^\/]*)/),p=u?u[1]:document.referrer,z="https://2wk08xvxmny5-a.akamaihd.net/"+y+".gif?e=17&d="+encodeURIComponent(t)+"&de="+l+"&t="+k+"&i=CBSLOCALCONTENT1&cm="+n+"&j="+encodeURIComponent(p)+e+"&mp=1&ac=1&pl=1&bq=10&vc=2&cs=0",A="https://px.moatads.com/pixel.gif?e=17&d="+encodeURIComponent(t)+"&de="+l+"&t="+k+"&i=CBSLOCALCONTENT1&cm="+n+"&j="+encodeURIComponent(p)+e+"&mp=0&ac=1&pl=1&bq=10&ad_type=img&vc=2&cs=0",B="https://px.moatads.com/pixel.gif?e=17&d="+encodeURIComponent(t)+"&de="+l+"&t="+k+"&i=CBSLOCALCONTENT1&cm="+n+"&j="+encodeURIComponent(p)+e+"&ku=1&ac=1&pl=1&bq=10&ad_type=img&vc=2&cs=0";r&&((new Image).src=z,(new Image).src=A);for(var v in b)c.push(v+"="+encodeURIComponent(b[v]));var c=c.join("&"),c=c+"&vc=2",g=document.createElement("script");g.type="text/javascript";g.async=!0;r&&(g.onerror=function(){(new Image).src=B});var w=document.getElementsByTagName("script")[0];w.parentNode.insertBefore(g,w);g.src="https://z.moatads.com/cbslocalcontent5715253139/moatcontent.js#"+c}catch(a){try{var C="//pixel.moatads.com/pixel.gif?e=24&d=data%3Adata%3Adata%3Adata&i=MOATCONTENTABSNIPPET1"+e+"&vc=2&ac=1&k="+encodeURIComponent(a)+"&j="+encodeURIComponent(p)+"&cs="+(new Date).getTime();(new Image).src=C}catch(D){}}})();    		
+    var cbs_sso_url_base = "https://my.cbslocal.com";
+
+	jQuery(function($) {
+			});
+
+	jQuery(function($) { jQuery(window).load(function () { setTimeout(function () {
+			}, 500); }); });
+
+	jQuery(function($) { jQuery(window).load(function () { setTimeout(function () {
+			}, 5000); }); });
+
+</script>
+
+	
+			
+		<script type="text/javascript">
+			var use_ga = true;
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+
+		<script type="text/javascript">
+			try {
+				var is_logged_in = false;
+
+				var rollupTracker = _gat._getTracker("UA-2438645-53"); rollupTracker._setCustomVar(1, "User Type", is_logged_in ? "User" : "Guest", 2); rollupTracker._trackPageview();
+				var pageTracker = _gat._getTracker("UA-20550966-22"); pageTracker._setCustomVar(1, "User Type", is_logged_in ? "User" : "Guest", 2);
+				pageTracker._trackPageview("/category/home" + window.location.pathname + "?cat=home;");
+			}
+			catch(err) {}
+		</script>
+
+			
+		<script type="text/javascript">
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "3000023"
+									,options: { url_append: "comscorekw=home" }
+							});
+			(function() {
+				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=3000023&cv=2.0&cj=1" /></noscript>
+
+	
+	
+	<!-- Moat and Cloudfront tracking pixels -->
+	<img src="//dbg52463.moatads.com?a=033f43a2ddba4ba592b52109d2ccf5ed" style="display:none;"> 
+	<img src="//d5i9o0tpq9sa1.cloudfront.net?a=033f43a2ddba4ba592b52109d2ccf5ed" style="display:none;">
+	
+		<script type="text/javascript">
+		(function(d, s, id) { 
+			var js, evjs = d.getElementsByTagName(s)[0]; 
+			if (d.getElementById(id)) return; 
+			js = d.createElement(s); js.id = id; 
+			js.src = "https://d1marr3m5x4iac.cloudfront.net/store/plugins/tracker-ev-sdk.js"; 
+			evjs.parentNode.insertBefore(js, evjs); 
+		}(document, 'script', 'tracker-ev-sdk'));
+	</script>
+
+	<script type="text/javascript">
+		(function(d, s, id) { 
+			var js, evjs = d.getElementsByTagName(s)[0]; 
+			if (d.getElementById(id)) return; 
+			js = d.createElement(s); js.id = id; 
+			js.src = "https://d1marr3m5x4iac.cloudfront.net/store/js/switchboard.js"; 
+			evjs.parentNode.insertBefore(js, evjs); 
+		}(document, 'script', 'switchboard-ev-sdk'));
+	</script>
+
+			<div id="listen-live-wrapper">
+			<div class="listen-live">
+				<div class="header">
+					<h3>Listen Live</h3>
+
+														</div>
+
+				<div class="listen-live-content">
+					<div class="lead-wrapper">
+						
+											
+					</div>
+
+				</div>
+			</div>
+		</div>
+		
+		<div id="reptile_skin_1" class="cbs-ad-unit ad_gpt cbs-ad-skin"><script>cbs_load_skin_by_tile(1);</script></div>
+</body>
+</html>
+<!--
+	generated 92 seconds ago
+	generated in 0.183 seconds
+	served from batcache in 0.002 seconds
+	expires in 208 seconds
+-->

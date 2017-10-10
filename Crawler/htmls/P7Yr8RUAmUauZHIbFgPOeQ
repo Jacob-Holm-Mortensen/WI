@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" itemscope itemtype="http://schema.org/" >
+<head>
+    <link rel="SHORTCUT ICON" href="https://sports.cbsimg.net/favicon.ico">
+
+    <title>MLB Baseball Injuries - CBSSports.com </title>
+
+    <link href="https://sports.cbsimg.net/css/font/iconmoon/20170927/style.css?0009" rel="stylesheet" type="text/css" />
+            <link href="https://sports.cbsimg.net/css/phase4-min-v548.css" rel="stylesheet" type="text/css" />
+            <!--[if IE]>
+            <link href="https://sports.cbsimg.net/css/phase2-ie-min-v058.css" rel="stylesheet" type="text/css" />
+            <![endif]-->
+            <!-- no arena css -->
+<link href="https://sports.cbsimg.net/css/jquery/ui-tools-min-v030.css" rel="stylesheet" type="text/css"/>
+
+    <!--[if lt IE 9]><script>var e = ("abbr,article,aside,audio,canvas,datalist,details,figure,figcaption,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video").split(',');for (var i = 0; i < e.length; i++) {document.createElement(e[i]);}</script><![endif]-->
+<script type="text/javascript">
+if(typeof CBSi=="undefined"||!CBSi){var CBSi={}}CBSi.namespace=function(){var b=arguments,g=null,e,c,f;for(e=0;e<b.length;e=e+1){f=b[e].split(".");g=CBSi;for(c=(f[0]=="CBSi")?1:0;c<f.length;c=c+1){g[f[c]]=g[f[c]]||{};g=g[f[c]]}}return g};CBSi.extend=function(d,e,c){if(!e||!d){throw new Error("extend failed, please check that all dependencies are included.")}var b=function(){};b.prototype=e.prototype;d.prototype=new b();d.prototype.constructor=d;d.superclass=e.prototype;if(e.prototype.constructor==Object.prototype.constructor){e.prototype.constructor=e}if(c){for(var a in c){if(c.hasOwnProperty(a)){d.prototype[a]=c[a]}}}};CBSi.panel={overlayManager:undefined,create:function(c,b){if(!this.overlayManager){this.overlayManager=new YAHOO.widget.OverlayManager()}if(!b.strings){b.strings={}}if(!b.strings.close){b.strings.close=""}var a=new YAHOO.widget.Panel(c,b);this.overlayManager.register(a);return a}};CBSi.fireEvent=function(b,c){if(document.createEvent){var a=document.createEvent("HTMLEvents");a.initEvent(c,true,true);return !b.dispatchEvent(a)}else{var a=document.createEventObject();return b.fireEvent("on"+c,a)}};CBSi.log=function(){};if(window.console&&window.console.log){CBSi.log=function(){if(CBSi.debugmode===""){return}var a=[];for(var b=0;b<arguments.length;b++){a.push(arguments[b])}console.log(a)}}else{if(window&&window.console){window.console.log=function(){}}else{window.console={};window.console.log=function(){}}if(console){console.log=function(){}}else{console={};console.log=function(){}}}CBSi.jsRenvInit=function(a){for(var b in a){CBSi[b]=a[b]}return};
+if (!CBSi.debugmode) CBSi.debugmode = ''; // For normandy--manually set if js only
+</script>
+<script id="jsRenv_script" type="text/javascript">CBSi.jsRenvInit({"takeoverIsBlank":0,"httpHost":"http://www.cbssports.com","project":"media","mediaHttpServer":"https://www.cbssports.com","pref":{"timezoneOffset":"4","timezoneAbbrev":"ET"},"feature":"injury","league_abbr":"mlb","arena":"mlb","imageServer":"https://sports.cbsimg.net","requestUri":"/mlb/injuries"});</script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/yui/latest/yahoo-dom-event-connection-datasource-get-imageloader-animation-json-min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/jquery/jquery.1.8.2.min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/jquery/ui/jquery.1.9.2.custom.min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/global-min-v0086.js'></script>
+
+<script>
+//Dumping cookies that have been made browser/host only
+(function($){
+    //return;//Comment out to run code
+    //List of domains to check and see if the cookie has with it
+    var domains = ['.cbssports.com','.www.cbssports.com','www.cbssports.com','*.cbssports.com','cbssports.com', '.cbssports.com'];
+    //List of the names of cookies to match
+    var matches = ['CirclePoll','2013NCAAB','2013NFL','2013NCAAF'];
+    //Loop throught the cookies and find the matches
+    $.each(document.cookie.split(/; */), function()  {
+        var splitCookie = this.split('=');
+        for(m in matches){
+            if(splitCookie[0].match(RegExp(matches[m]))){
+                for(d in domains){
+                    console.log(splitCookie[0], 'cookie removed');
+                    //Try to delete the cookie with a domain and path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;domain=" + domains[d] + ";path=/";
+                    //Try to delete the cookie without a domain and path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;";
+                    //Try to delete the cookie without a path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;domain=" + domains[d] + ";";
+                    //Try to delete the cookie without a domain
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;path=/";
+                }
+            }
+        }
+
+    });
+})($);
+</script>
+
+
+
+
+
+    <script type="text/javascript">
+var surround=new Object();
+surround.cat = ['a','b','c','d','e','f'];
+surround.cookie = readCookie('surround');
+
+if (surround.cookie == false || surround.cookie == undefined) {
+    surround.pick = Math.floor(Math.random() * surround.cat.length);
+    surround.subsession = Math.floor(Math.random() * 4) + 1; /*subsessions 1-4*/
+    document.cookie=("surround="+surround.cat[surround.pick]+"|"+surround.subsession+";domain=.cbssports.com;path=/" );
+    surround.cookie = readCookie('surround');
+}
+if (surround.cookie) {surround.sessions=surround.cookie.split("|");}
+surround.vguid = v1();
+
+function blankAdCallback(width, height, position) {
+    // Skybox Ad - 5x5 top.
+    if (height == 5 && width == 5 && position == 'top') {
+        $('.ad-top-strip').removeAttr("data-skyboxminheight")
+            .removeAttr("data-skyboxmaxheight")
+            .removeAttr("data-skyboxheight");
+        $('body').removeClass('skybox-loaded')
+            .removeClass('skybox-loaded-dfp')
+            .removeClass('skybox-expanded')
+            .removeClass('skybox-collapsed');
+        window.scrollTo(window.pageXOffset, window.pageYOffset + 1);
+    }
+}
+</script>
+    <script>window.logged_in = "no";</script><script src="//cdn.optimizely.com/js/2788500260.js"></script>
+<script type="text/javascript">
+var cbsiadGlobal = { };
+if ( typeof(surround) == 'undefined' ) { surround = {}; }
+var dwTag = "&PGUID="+surround.vguid +"&cookiesOn=" +cbsiadGlobal.cookiesOn;
+</script>
+<script type="text/javascript" src="https://native.sharethrough.com/assets/tag.js" async></script><script type="text/javascript" src="https://js-sec.indexww.com/ht/ls-cbssports.js" async></script><script type="text/javascript" src="https://mtrx.go.sonobi.com/morpheus.cbssports.4073.js" async></script>
+<script type="text/javascript">
+if (!random) {var abc=Math.random() + ""; var random=abc.substring(2,abc.length);}
+var switchXFP="on";
+var adLookup="media/spln/mlb/reg/free/injury";
+var adNetwork="8264";
+var xfpObj='vguid='+surround.vguid+'~user=anon~env=prod~arena=mlb';
+</script>
+    
+   <script type="text/javascript">
+      xfpDomain='.cbssports.com';
+      xfpSlot='/8264/aw-cbssports/mlb/media/injuries/injury';
+      // tracks if this is the first page the user has visited in this session
+      function xfpFirstPageCookie() {
+         if (xfpFirstPage) {return xfpFirstPage;}           // only run once per page, if already set, just return value
+         var xfpFirstPage = readCookie('XFP_FIRSTPAGE');    // get firstPage cookie
+         if (!xfpFirstPage) {                               // if cookie doesn't exist, this is the first page, so firstPage = 1
+            xfpFirstPage = 1;
+         } else if (xfpFirstPage == 1) {                    // else, this is the second page, set firstPage = 0
+            xfpFirstPage = 0;
+         }
+         var exp = new Date();
+         exp.setTime(exp.getTime() + xfpGetTimeToExpiration(.75)); // get number of milliseconds until 12:45am ET
+         document.cookie=('XFP_FIRSTPAGE ='+xfpFirstPage+";expires="+exp.toUTCString()+";domain="+xfpDomain+";path=/;");
+         return xfpFirstPage;                                // set and return the parameter DVAR_FIRSTPAGE = firstPage
+      }
+      // given the expiration hour in ET, return the number of milliseconds to
+      //   expiration from the given Date Object (defaults to current date)
+      function xfpGetTimeToExpiration(etExpireHour,dt) {
+         dt = dt || new Date();
+         var etUtcOffset = 5; // hours
+         if (isEDT(dt)) etUtcOffset = 4; // if in daylight savings time
+         var utcExpire = (etExpireHour+etUtcOffset)%24; // UTC expire time in hours
+         var utcTime = 60*dt.getUTCHours() + dt.getUTCMinutes(); // UTC time in mins
+         var minsToExpiration = 60*utcExpire - utcTime; // time to expiration
+         if (minsToExpiration < 0) minsToExpiration = 24*60 + minsToExpiration;
+         return 60000*minsToExpiration; // in milliseconds
+      }
+      // determine if Daylight Savings Time is being observed in the ET timezone
+      //   at the date/time of the given Date Object (defaults to current time)
+      function isEDT(dt) {
+         dt = dt || new Date(); // default to current date
+         var month = dt.getUTCMonth(); // get month in UTC
+         if (month > 2 && month < 10) return true; // in EDT if Apr to Oct
+         if (month < 2 || month > 10) return false; // not in EDT if Jan,Feb,Dec
+         var date = dt.getUTCDate(); // get day of month in UTC
+         var day = dt.getUTCDay(); // get day of week in UTC
+         if (month == 10) {  // November
+             if (date > 7) return false;  // after first week, not in EDT
+             if (day == 0) {  // Sunday of first week, check time
+               if (dt.getUTCHours() < 6) return true; //before 6am UTC, in EDT
+               return false;  // 6am UTC or later, not in EDT
+            }
+            if (date > day) return false; // Sunday has passed, not in EDT
+            return true;  // Sunday has not passed, in EDT
+         }
+         // March
+         if (date < 8) return false; // still first week, not in EDT
+         if (date > 14) return true; // after second week, in EDT
+         if (day == 0) { // Sunday of second week, check time
+             if (dt.getUTCHours() > 6) return true; // 7am UTC or later, in EDT
+             return false; // before 7am UTC, not in EDT
+         }
+         if (date - day > 7) return true;  // Sunday has passed, in EDT
+         return false; // Sunday has not passed, not in EDT
+      }
+      //sharethrough
+
+      var xfpFirstPage =  xfpFirstPageCookie();
+      var xfpSession    = (surround.cookie) ? surround.sessions[0] : 'off';
+      var xfpSubsession = (surround.cookie) ? surround.sessions[1] : 'off';
+
+      function xfpGetArgs(){
+         var args = new Object();
+         var query = location.search.substring(1); // get query string
+         var pairs = query.split("&");
+         for (var i=0; i < pairs.length; i++) {
+            var pos = pairs[i].indexOf('=');                         // Look for name "name=value"
+            if (pos == -1) continue;                                 // If not found, skip
+            var argname = pairs[i].substring(0,pos);                 // Extract the name
+            var value   = pairs[i].substring(pos+1);                 // Extract the value
+            value = decodeURIComponent(value);                       // Decode it, if needed
+            var adTarg = argname.match(/adTargeting_/);              // Do we have a match on adTargeting_<key>
+
+            // Set Targeting for spec'd out query parms
+            if (argname == 'env' || argname == 'session' || argname == 'subses' || argname == 'adRegion' || argname == 'ftag' || argname == 'ttag' || (adTarg)) {
+               // args[argname] = value;
+               if (adTarg) {argname = argname.substring(12);} // strip off adTargeting_ from the name if present
+               googletag.pubads().setTargeting(argname, value);      // Set Targeting
+               if (argname == 'ftag' || argname == 'ttag') {
+                  document.cookie=("xfpFtag="+value+";domain="+xfpDomain+";path=/" );
+                  newFtag = 1;
+               }
+               xfpObj += '~' +argname +'=' +value;
+            }
+         }
+
+         var xfpFtagVal = readCookie("xfpFtag");                  // check if we have an ftag cookie
+         var newFtag = 0;
+         if ((newFtag==0) && xfpFtagVal) {                        // If no new setting for ftag but we had an old one then
+            googletag.pubads().setTargeting('ftag', xfpFtagVal);  // Set Targeting
+            xfpObj += '~ftag=' +xfpFtagVal;
+         }
+      }
+      
+      function getTaboolaPlacements() {
+         var taboolaList = '';
+         $("div[data-taboola-placement]").each(function() {
+            $this = $(this);
+            if ($this.data('taboola-placement')) {
+              if (taboolaList != '') {taboolaList+='|';}
+              taboolaList += $this.data('taboola-placement');
+            }
+         });
+         surround.taboola=taboolaList;
+      }
+    </script>
+   <script type="text/javascript">
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+         var gads = document.createElement('script');
+         gads.async = true;
+         gads.type = 'text/javascript';
+         var useSSL = 'https:' == document.location.protocol;
+         gads.src = (useSSL ? 'https:' : 'http:') +'//www.googletagservices.com/tag/js/gpt.js';
+         var node = document.getElementsByTagName('script')[0];
+         node.parentNode.insertBefore(gads, node);
+      })();
+
+      var adSlots = {}; //var to hold ad slots.
+
+      googletag.cmd.push(function() {
+
+         adSlots["XFP_top_strip"] = googletag.defineSlot("/8264/aw-cbssports/mlb/media/injuries/injury", [5,5], "top_strip").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_leader_top"] = googletag.defineSlot("/8264/aw-cbssports/mlb/media/injuries/injury", [[728,90],[970,66],[970,90]], "leader_top").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_skin_ad_call"] = googletag.defineSlot("/8264/aw-cbssports/mlb/media/injuries/injury", [1600,1000], "skin_ad_call").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_sky_top"] = googletag.defineSlot("/8264/aw-cbssports/mlb/media/injuries/injury", [160,600], "sky_top").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_leader_plus2_bottom"] = googletag.defineSlot("/8264/aw-cbssports/mlb/media/injuries/injury", [[728,90],[970,66]], "leader_plus2_bottom").addService(googletag.pubads()).setTargeting("pos", "bottom"); 
+         googletag.pubads().addEventListener("slotRenderEnded", function(event) {
+            var slotName = event.slot.getSlotElementId();
+            
+            if (slotName == 'leader_plus_top' || slotName == 'leader_top') {
+               // CBSi.log("ENTER Collapse empty leaderboard.");
+               var slotID = '#' + slotName;
+               // CBSi.log("Slot ID is " + slotName);
+               if ($(slotID).css('display') == 'none') {
+                   CBSi.log("Collapse empty leaderboard.");
+                   $('#leaderboard-wrap').css({ "display": "none" });
+               }
+            }
+         }); 
+         googletag.defineOutOfPageSlot("/8264/aw-cbssports/mlb/media/injuries/injury","interstitial").addService(googletag.pubads());
+         googletag.pubads().setTargeting("ptype", "injuries");
+         googletag.pubads().setTargeting("firstpg", ""+xfpFirstPage);
+         googletag.pubads().setTargeting("session", xfpSession);
+         googletag.pubads().setTargeting("subses", ""+xfpSubsession);
+         googletag.pubads().setTargeting("vguid", surround.vguid); 
+         googletag.pubads().setTargeting("user", "anon"); 
+         googletag.pubads().setTargeting("env", "prod"); 
+
+         xfpGetArgs(); // to set/override targeting for env, session, subses, adRegion, ftag, ttag, and adTargeting_<key> if set by query string
+         googletag.pubads().enableAsyncRendering();
+         googletag.pubads().enableSingleRequest();
+         googletag.pubads().collapseEmptyDivs();
+         googletag.enableServices();
+         // googletag.display();  // Ad display is triggered via Sonobi.
+      });
+      var PR_UACT=0;
+      xfpObj += '~ptype=injuries~firstpg=' +xfpFirstPage +'~session='+xfpSession +'~subses='+xfpSubsession+'';
+      function getVideoAdSessionValues(videoId){return  "session="+xfpSession+";subses="+xfpSubsession+"";}
+   </script>
+   
+         <script type="text/javascript">
+         window._taboola = window._taboola || [];
+         _taboola.push({other : 'auto'});
+         !function (e, f, u) {
+             e.async = 1;
+             e.src = u;
+             f.parentNode.insertBefore(e, f);
+         }(document.createElement('script'), 
+         document.getElementsByTagName('script')[0], '//cdn.taboola.com/libtrc/cbsinteractive-cbssports/loader.js');
+         </script>
+      
+   
+    
+    <!-- no ClickTale -->
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /><meta name="description" content="Check out CBSSports.com's MLB injury report before setting your fantasy baseball lineup. Get the latest in team by team MLB injuries."><meta property="og:title" content="MLB Injuries" /><meta property="og:type" content="article"/><meta property="og:description" content=""/><meta property="og:image" content="http://sports.cbsimg.net/images/cbss/ui5/cbssportsv2_200x200.png"/><meta property="og:url" content="https://www.cbssports.com/mlb/injuries"/><meta property="og:site_name" content="CBSSports.com"/><meta property="fb:app_id" content="297742330311988"/><meta itemprop="name" content="MLB Injuries"/><meta itemprop="description" content=""/><meta name="vr:type" content="article"/><meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@cbssports" /><meta name="twitter:creator" content="@eyeonbaseball" /><meta name="twitter:url" content="https://www.cbssports.com/mlb/injuries" /><meta name="twitter:title" content="MLB Injuries" /><meta name="twitter:description" content="" /><meta name="twitter:image" content="http://sports.cbsimg.net/images/cbss/ui5/cbssportsv2_200x200.png" /><meta name="keywords" content="MLB injuries injury, Major League Baseball injuries update status, fantasy baseball player injury injuries league, CBSSports.com, CBS Sports Line SportsLine.com">
+<meta name="googlebot" content="NOODP">
+<meta property="fb:pages" content="25902406772" />
+
+<link rel="canonical" href="https://www.cbssports.com/mlb/injuries">
+<link rel="alternate" title="CBSSports.com: MLB Headlines" href="http://www.cbssports.com/partners/feeds/rss/mlb_news" type="application/rss+xml">
+    <link rel="apple-touch-icon" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-ipad-retina.png">
+</head><body id="standardBody">
+<div id="tooltip" name="tooltip"></div> 
+
+<script type="text/javascript">if(top.location != self.location && (document.referrer.indexOf("cbssports.com") == -1)) {window.open(location.href, '_top');}</script>
+<div id="interstitial" style="position:absolute;top:-5000px;left:-5000px;">
+      <script type="text/javascript">
+         googletag.cmd.push(function() {
+             if (typeof index_headertag_lightspeed !== 'undefined') {
+                 var cb = (function () {
+                     return function () {
+                         var slots = googletag.pubads().getSlots();
+                         index_headertag_lightspeed.set_slot_targeting(slots);
+                          googletag.display("interstitial");
+                       };
+                 })();
+                 index_headertag_lightspeed.add_session_end_hook(cb, true);
+                 index_headertag_lightspeed.refresh();
+             } else {
+                 googletag.display("interstitial");
+             }
+         });
+      </script>
+   </div>
+<!--googleoff: snippet-->
+<div id="skybox-above">
+    <div id="top_strip" class="ad-top-strip">
+    <script type="text/javascript">
+    if (switchXFP != 'off') {
+        googletag.cmd.push(function() {
+            if (typeof index_headertag_lightspeed !== 'undefined') {
+                      var cb = (function () {
+                          return function () {
+                              var slots = googletag.pubads().getSlots();
+                              index_headertag_lightspeed.set_slot_targeting(slots);
+                               googletag.display("top_strip");
+                            };
+                      })();
+                      index_headertag_lightspeed.add_session_end_hook(cb, true);
+                      index_headertag_lightspeed.refresh();
+                  } else {
+                      googletag.display("top_strip");
+                  }
+        });
+        if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="top_strip" style="width:100%"><br>').insertBefore('#top-strip');
+    }
+    </script>
+    </div>
+</div>
+<script>
+var skyBoxScroll = function() {
+    if ($(window).scrollTop() != 0) {
+        window.scrollTo(window.pageXOffset, window.pageYOffset - 1);
+        window.scrollTo(window.pageXOffset, window.pageYOffset + 1);
+    }
+}
+</script><header id="site-header" class="site-header" data-component="nav" data-role="header" data-position="fixed" data-fullscreen="true">
+	<div id="nav-network-bar" class="nav-network-bar">
+	  <ul class="nav-networks">
+		<li class="nav-networks-item is-selected"> <a href="http://www.cbssports.com/" om-event="Brand Bar|CBSSports">CBSSports.com</a> </li>
+		<li class="nav-networks-item "> <a href="http://247sports.com" target="_blank" om-event="Brand Bar|247Sports"> 247Sports </a> </li>
+		<li class="nav-networks-item "> <a href="http://www.maxpreps.com" target="_blank" om-event="Brand Bar|MaxPreps"> MaxPreps </a> </li>
+		<li class="nav-networks-item "> <a href="http://www.sportsline.com" target="_blank" om-event="Brand Bar|SportsLine"> SportsLine </a> </li>
+		<li class="nav-networks-item "> <a href="http://shop.cbssports.com/?utm_source=cbssportscom_hp&utm_medium=bm_referral&utm_term=kw--CBS_Sports" target="_blank" om-event="Brand Bar|Shop"> Shop </a> </li>
+	  </ul>
+	  
+	  <ul class="nav-follow-us">
+		<li class="nav-follow-us-item nav-follow-us-item-label"> Follow CBS Sports </li>
+		<li class="nav-follow-us-item"> <a href="https://www.facebook.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Facebook"><span class="btn share icon-moon-facebook"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://twitter.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Twitter"><span class="btn share icon-moon-twitter"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://www.instagram.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Instagram"><span class="btn share icon-moon-instagram"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" target="_blank" rel="nofollow" om-event="Brand Bar|Flipboard"><span class="btn share icon-moon-flipboard"></span></a> </li>
+	  </ul>
+	</div>
+	<div id="cbs-site-nav" class="cbs-site-nav">
+		<div class="site-nav-inner">
+			<div class="site-nav-logo">
+				<div class="cbs-logo-lockup">
+					
+        
+        <div class="cbs-logo">
+            <a href="/" om-event="Arena Nav|Logo"> <span class="cbs-logo-icon icon-moon-cbs-icon"></span> </a>
+        </div>
+        
+            <div class="cbs-logo-section has-icon"><div class="cbs-logo-pos" data-arena="logo">
+                <span class="logo-sport icon-moon-arena-text-mlb"></span>
+                <span class="logo-icon icon-moon-caret-down"></span>
+            </div> <div class="cbs-logo-dropdown"><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-cbs-icon"></span> <a href="/" om-event="Arena Nav|MLB|CBS Sports Home">CBS Sports Home</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-fantasy"></span> <a href="https://www.cbssports.com/fantasy/" om-event="Arena Nav|MLB|Fantasy">Fantasy</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-nfl"></span> <a href="https://www.cbssports.com/nfl/" om-event="Arena Nav|MLB|NFL">NFL</a> </li><li class="nav-dropdown-item is-selected"> <span class="icon-sport icon-moon-arena-mlb"></span> <a href="https://www.cbssports.com/mlb/" om-event="Arena Nav|MLB|MLB">MLB</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-ncaafb"></span> <a href="https://www.cbssports.com/college-football/" om-event="Arena Nav|MLB|NCAA FB">NCAA FB</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-golf"></span> <a href="https://www.cbssports.com/golf/" om-event="Arena Nav|MLB|Golf">Golf</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-basketball"></span> <a href="https://www.cbssports.com/nba/" om-event="Arena Nav|MLB|NBA">NBA</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-nhl"></span> <a href="https://www.cbssports.com/nhl/" om-event="Arena Nav|MLB|NHL">NHL</a> </li></ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/college-basketball/" om-event="Arena Nav|MLB|NCAA BB">NCAA BB</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/boxing" om-event="Arena Nav|MLB|Boxing">Boxing</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/wwe/" om-event="Arena Nav|MLB|WWE">WWE</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/soccer/" om-event="Arena Nav|MLB|Soccer">Soccer</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/mma/" om-event="Arena Nav|MLB|MMA">MMA</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/tennis/" om-event="Arena Nav|MLB|Tennis">Tennis</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/olympics/" om-event="Arena Nav|MLB|Olympics">Olympics</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.maxpreps.com/national/national.htm" om-event="Arena Nav|MLB|High School" target="_blank" class="external-link" rel="nofollow">High School</a> </li></ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class=""></span> <a href="http://sports.cbslocal.com/" om-event="Arena Nav|MLB|CBS Local Sites" target="_blank" class="external-link" rel="nofollow">CBS Local Sites</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.nascar.com/en_us/sprint-cup-series.html?cid=syn_cbs_referrers_navlinks_01112013&synid=syn_cbs_referrers_navlinks_01112013" om-event="Arena Nav|MLB|NASCAR" target="_blank" class="external-link" rel="nofollow">NASCAR</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.americasbestracing.net/" om-event="Arena Nav|MLB|Horse Racing" target="_blank" class="external-link" rel="nofollow">Horse Racing</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.pbr.com/" om-event="Arena Nav|MLB|PBR" target="_blank" class="external-link" rel="nofollow">PBR</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://toughmudder.com/" om-event="Arena Nav|MLB|Tough Mudder" target="_blank" class="external-link" rel="nofollow">Tough Mudder</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.bowl.com/" om-event="Arena Nav|MLB|Bowling" target="_blank" class="external-link" rel="nofollow">Bowling</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.stubhub.com/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHomepagemodule-_-partCBSSports" om-event="Arena Nav|MLB|Tickets" target="_blank" class="external-link" rel="nofollow">Tickets</a> </li></ul></div> </div></div></div>
+        
+        <nav class="site-nav-list">
+            <ul><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/mlb/"  om-event="Arena Nav|MLB|Home">Home</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/mlb/scoreboard/"  om-event="Arena Nav|MLB|Scores">Scores</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/mlb/schedules"  om-event="Arena Nav|MLB|Schedules">Schedules</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/mlb/standings"  om-event="Arena Nav|MLB|Standings">Standings</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/mlb/teams"  om-event="Arena Nav|MLB|Teams">Teams</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/mlb/expert-picks/"  om-event="Arena Nav|MLB|Expert Picks">Expert Picks</a></li>
+                        <li class="nav-list-item hoverable the-dots" data-arena="extras">
+                            <span class="icon-more icon-moon-nav-more"></span>
+                            <div class="site-nav-dropdown is-wide">
+                                <ul class="nav-dropdown-col"><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="http://www.sportsline.com/mlb/odds/"  om-event="Arena Nav|MLB|More|Odds">Odds</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/mlb/powerrankings/"  om-event="Arena Nav|MLB|More|Power Rankings">Power Rankings</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/mlb/probable-pitchers"  om-event="Arena Nav|MLB|More|Probables">Probables</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/mlb/stats/"  om-event="Arena Nav|MLB|More|Stats">Stats</a></li><li class="nav-dropdown-item nav-dropdown-overflow is-selected"> <a href="https://www.cbssports.com/mlb/injuries"  om-event="Arena Nav|MLB|More|Injuries">Injuries</a></li></ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/mlb/transactions"  om-event="Arena Nav|MLB|More|Transactions">Transactions</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/mlb/players"  om-event="Arena Nav|MLB|More|Players">Players</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/mlb/video/jonah-keri-show"  om-event="Arena Nav|MLB|More|Jonah Keri">Jonah Keri</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.stubhub.com/mlb-tickets/grouping/81/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHpdropdown-_-partCBSSports" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|MLB|More|Tickets">Tickets</a></li></ul></div></li></ul>
+        </nav>
+			<div class="site-nav-side not-logged-in">
+				<ul class="site-nav-side-inner">
+					<li class="nav-side-item games-item hoverable" data-arena="play"> <span class="narrow-text">Play</span> <span class="narrow-icon icon-item icon-moon-nav-games"></span>
+					    <div class="site-nav-dropdown is-dropdown-games align-right">
+							<div class="nav-dropdown-inner">
+								
+        <div class="nav-dropdown-game">
+            <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/football/?ttag=FFB16_os_drpdwn_feat_lk" om-event="Global Nav|Home|Play|Games|Text">Games</a></h6>
+            <div class="nav-game-wrap">
+                <div class="nav-game game-left">
+                    <div class="nav-game-image">
+                        <a href="https://www.cbssports.com/fantasy/games/basketball/?ftag=SPM-10-10abh6c" om-event="Global Nav|Home|Play|FANTASY BASKETBALL|Feature 1"><img src="https://sportshub.cbsistatic.com/i/2017/09/18/1b7c71c4-dc55-4636-a4b3-1dc245e2ea93/fantasybasketball-180x100.jpg" alt="fantasybasketball-180x100.jpg"></a>
+                        <p class="nav-game-text">Play Now</p>
+                    </div>
+                    <p class="nav-game-title"><a href="https://www.cbssports.com/fantasy/games/basketball/?ftag=SPM-10-10abh6c" om-event="Global Nav|Home|Play|FANTASY BASKETBALL|Feature 1">FANTASY BASKETBALL</a></p>
+                </div>
+                <div class="nav-game game-right">
+                    <div class="nav-game-image">
+                        <a href="https://www.cbssports.com/fantasy/games/hockey/?ftag=SPM-16-10abg0g" om-event="Global Nav|Home|Play|FANTASY HOCKEY|Feature 2"><img src="https://sportshub.cbsistatic.com/i/2017/09/18/7423042f-ba35-4a00-a58f-4334c8ae7b8f/180x100.jpg" alt="180x100.jpg"></a>
+                        <p class="nav-game-text">Play Now</p>
+                    </div>
+                    <p class="nav-game-title"><a href="https://www.cbssports.com/fantasy/games/hockey/?ftag=SPM-16-10abg0g" om-event="Global Nav|Home|Play|FANTASY HOCKEY|Feature 2">FANTASY HOCKEY</a></p>
+                </div>
+            </div>
+            <div class="nav-game-dropdown-text" style="clear:both;">
+                <a href="https://www.cbssports.com/fantasy/games/my-teams/" om-event="Global Nav|Home|Play|View your Leagues|Text">View your Leagues</a>
+            </div>
+        </div>
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/football?ttag=FF16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Football|Text">Fantasy Football</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/baseball/?ttag=FBB16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Baseball|Text">Fantasy Baseball</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/basketball/?ttag=FBK16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Basketball|Text">Fantasy Basketball</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/hockey/?ttag=FHK16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Hockey|Text">Fantasy Hockey</a></h6>
+            </div>
+        
+    </div>
+    <div class="nav-dropdown-bottom">
+        <div class="nav-dropdown-button">
+            <a href="/fantasy/games/" om-event="Global Nav|Home|Play|See All">See All Sports Games</a>
+        </div>
+    </div>
+    
+							</div>
+						</div>
+					</li>
+					<li class="nav-side-item watch-item hoverable" data-arena="watch"> <span class="narrow-text">Watch</span> <span class="narrow-icon icon-item icon-moon-nav-watch"></span>
+						<div class="site-nav-dropdown align-right">
+							<div class="nav-dropdown-inner">
+								
+               <h6 class="nav-dropdown-title"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/" om-event="Global Nav|MLB|Watch|Featured Video|Text">Latest from CBS Sports Network </a></h6>
+               <div class="nav-dropdown-top">
+                    <a href="https://www.cbssports.com/watch/cbssportsnetwork/">
+                        <div class="image-icon-overlay-wrap">
+                            <figure class="img"><img src="https://sportshub.cbsistatic.com/i/2017/03/27/4a8a0cfb-8794-4c57-8cfd-53cc0ba8c2cd/sizzle-graphic.jpg" alt="sizzle_graphic" height="152" width="270"></figure>
+                        </div>
+                        <a href="https://www.cbssports.com/watch/cbssportsnetwork/" class="vidPlayLg" alt="sizzle_graphic" om-event="Global Nav|MLB|Watch|Featured Video|Image"></a>
+                    </a>
+               </div>
+           <ul><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/"  om-event="Global Nav|MLB|Watch|Latest from CBS Sports Network">Latest from CBS Sports Network</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/"  om-event="Global Nav|MLB|Watch|Watch CBS Sports Network">Watch CBS Sports Network</a> </li><li class="nav-dropdown-item"> <a href="http://www.cbssportsnetwork.com/" rel="nofollow" class="external-link" target="_blank"  om-event="Global Nav|MLB|Watch|CBSSN Channel Finder">CBSSN Channel Finder</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/cbssports"  om-event="Global Nav|MLB|Watch|TV Shows & Listings">TV Shows & Listings</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbs.com/all-access/live-tv/?ftag=AAM-00-10ade5c"  om-event="Global Nav|MLB|Watch|NFL on All Access">NFL on All Access</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/fantasy/football/show/fantasy-football-today/"  om-event="Global Nav|MLB|Watch|Fantasy Football Today">Fantasy Football Today</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/college-football/sec-live/"  om-event="Global Nav|MLB|Watch|SEC Live">SEC Live</a> </li><li class="nav-dropdown-item"> <a href="http://www.collegesportslive.com/start/?ftag=CSL-01-10aaa6f"  om-event="Global Nav|MLB|Watch|College Sports Live">College Sports Live</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/video/show/the-score/"  om-event="Global Nav|MLB|Watch|The Score">The Score</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/video/player/247-sports-live"  om-event="Global Nav|MLB|Watch|247Sports Live">247Sports Live</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/show/reiters-block/"  om-event="Global Nav|MLB|Watch|Reiter's Block">Reiter's Block</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/video/show/minute-update/"  om-event="Global Nav|MLB|Watch|Sports Minute">Sports Minute</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/videos/"  om-event="Global Nav|MLB|Watch|All Videos">All Videos</a> </li></ul>
+							</div>
+						</div>
+					</li>
+					<li class="nav-side-item hoverable" data-arena="listen"> <span class="narrow-text">Listen</span> <span class="narrow-icon icon-item icon-moon-nav-listen"></span>
+						<div class="site-nav-dropdown align-right">
+							<div class="nav-dropdown-inner">
+								
+                <h6 class="nav-dropdown-title"> CBS Sports Radio </h6>
+                <div class="nav-dropdown-top">
+                  <div class="nav-dropdown-image"> <a href="http://radio.cbssports.com/" rel="nofollow" target="_blank" om-event="Global Nav|MLB|Listen|Featured Podcast|Image"><img src="https://sportshub.cbsistatic.com/i/2016/02/24/fb0619ed-f59a-47ac-ac37-d7f670af79f3/cbssports-radio.png" alt="CBSSPORTS-radio"></a> </div>
+                  <div class="nav-dropdown-top-side">
+                    <p class="nav-dropdown-top-title"> <a href="http://radio.cbssports.com/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|MLB|Listen|Featured Podcast|Text"> Listen Live </a> </p>
+                    <time class="nav-dropdown-top-date">  </time>
+                  </div>
+                </div>
+            
+                <h6 class="nav-dropdown-title"> Fantasy Football Today </h6>
+                <div class="nav-dropdown-top">
+                  <div class="nav-dropdown-image"> <a href="https://soundcloud.com/cbssportspodcasts/week-5-recap-backfield-battles" rel="nofollow" target="_blank" om-event="Global Nav|MLB|Listen|Featured Podcast|Image"><img src="https://sportshub.cbsistatic.com/i/2017/06/20/bea1c43d-f08f-480e-8ad9-e93ad015bcc1/podcast-fantasyfootball-logo.jpg" alt="Podcast: Fantasy Football Today logo"></a> </div>
+                  <div class="nav-dropdown-top-side">
+                    <p class="nav-dropdown-top-title"> <a href="https://soundcloud.com/cbssportspodcasts/week-5-recap-backfield-battles"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|MLB|Listen|Featured Podcast|Text"> Week 5 Recap - Backfield Battles </a> </p>
+                    <time class="nav-dropdown-top-date"> 31h ago </time>
+                  </div>
+                </div>
+            <ul><li class="nav-dropdown-item"> <a href="http://sports.cbslocal.com/cbs-sports-radio-roundup/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|MLB|Listen|CBS Sports Radio Roundup">CBS Sports Radio Roundup</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/podcasts/jonah-keri/" om-event="Global Nav|MLB|Listen|The Jonah Keri Podcast">The Jonah Keri Podcast</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/podcast" om-event="Global Nav|MLB|Listen|Podcasts">Podcasts</a> </li><li class="nav-dropdown-item"> <a href="http://jimrome.com/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|MLB|Listen|The Jim Rome Show">The Jim Rome Show</a> </li></ul>
+							</div>
+						</div>
+					</li>
+					
+            <li class="nav-side-item log-in-item"> 
+                <span class="log-in-buttons"> 
+                    <a href="https://www.cbssports.com/login?master_product=150&xurl=https%3A%2F%2Fwww.cbssports.com%2Fmlb%2Finjuries" class="log-in-button" om-event="Global Nav|MLB|Log In"> <span class="the-button">Log In</span> </a> 
+                </span> 
+            </li>        
+        
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+<script type="text/javascript">
+ $(document).ready(function() {
+	var touchedNow;  			// Track which was just tapped now
+	var touchedLast  = 'none'; // Track which was last opened
+	var navItems 	 = $('.nav-list-item.hoverable, .nav-side-item.hoverable, .cbs-logo-section');
+	var navButtons   = $('.nav-list-item.hoverable > a, .nav-list-item.hoverable .icon-more, .nav-side-item.hoverable  span, .logo-sport');
+
+	navButtons.on("touchstart", function (e) {
+		var ua = navigator.userAgent.toLowerCase();
+		var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+		if (isAndroid) {
+			myWebview.zoomIn();
+			myWebview.zoomOut();
+		}
+		e.preventDefault();
+
+		$('body').addClass('touch-enabled');
+		var touchedParent = $(this).parent();
+		touchedNow = touchedParent.data( "arena" ); // record which nav link was clicked.
+		navItems.removeClass('is-tapped'); // remove 'is-tapped' from all links
+		if (touchedNow === touchedLast) {
+			// console.log('THE SAME ', touchedNow, touchedLast);
+			$('body').addClass('touch-enabled');
+			touchedLast = 'none';
+		} else {
+			// console.log('DIFFERENT ', touchedNow, touchedLast);
+			$('body').removeClass('touch-enabled');
+			touchedLast = touchedParent.data( "arena" );
+		}
+	});
+});
+
+</script>
+
+
+<!--googleon: snippet-->
+<div id="mantle_skin">
+    <span id="adSkinLeft"></span>
+    <span id="adSkinRight"></span>
+    
+    <div id="skin_ad_call" style="max-height:1px !important">
+        <script type="text/javascript">
+        if (switchXFP != 'off') {
+            googletag.cmd.push(function() {
+                if (typeof index_headertag_lightspeed !== 'undefined') {
+                          var cb = (function () {
+                              return function () {
+                                  var slots = googletag.pubads().getSlots();
+                                  index_headertag_lightspeed.set_slot_targeting(slots);
+                                   googletag.display("skin_ad_call");
+                                };
+                          })();
+                          index_headertag_lightspeed.add_session_end_hook(cb, true);
+                          index_headertag_lightspeed.refresh();
+                      } else {
+                          googletag.display("skin_ad_call");
+                      }
+            });
+            if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="skin_ad_call" style="width:960px"><br>').insertBefore('#skin_ad_call');
+        }
+        </script>
+    </div>
+    
+    
+            <div id="leaderboard-wrap" align="center" style="min-height:66px; height: auto;">
+                <div id="leader_top" style="padding-top: 10px;">
+                    <script type="text/javascript">
+                    if (switchXFP != 'off') {
+                        googletag.cmd.push(function() {
+                            if (typeof index_headertag_lightspeed !== 'undefined') {
+                                      var cb = (function () {
+                                          return function () {
+                                              var slots = googletag.pubads().getSlots();
+                                              index_headertag_lightspeed.set_slot_targeting(slots);
+                                               googletag.display("leader_top");
+                                            };
+                                      })();
+                                      index_headertag_lightspeed.add_session_end_hook(cb, true);
+                                      index_headertag_lightspeed.refresh();
+                                  } else {
+                                      googletag.display("leader_top");
+                                  }
+                        });
+                        if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="leader_top" style="width:980px"><br>').insertBefore('#leader_top');
+                    }
+                    </script>
+                </div>
+            </div>
+            
+
+
+    
+    <div id="pageRow">
+    
+    <div id="pageContainer" section="layout;railRight">
+    <h1 class="pageTitle feature mlb">MLB Injuries</h1>
+    
+        <div id="layoutRailRight">
+            <div class="column1">
+            <!-- css classes to be moved to htdocs/style.html after branch is merged -->
+<style type="text/css">
+.PUPlayer {font-family:arial,verdana,sans-serif;font-size:12px;line-height:1.3em;color:#000175;text-decoration:underline;cursor:pointer;cursor:hand;}
+.PUPlayerV {font-family:arial,verdana,sans-serif;font-size:12px;line-height:1.3em;color:#C64301;text-decoration:underline;cursor:pointer;cursor:hand;}
+.PUNews {font-family:arial,verdana,sans-serif;font-size:12px;color:black;padding:5px; margin:7px;display:none;}
+</style>
+<script type="text/javascript">
+var bullet = new Array(2);
+bullet[0]=new Image();bullet[0].src="https://sports.cbsimg.net/images/arrow-d.gif";
+bullet[1]=new Image();bullet[1].src="https://sports.cbsimg.net/images/arrow-r.gif";
+function toggleupdate(desc,pic) {  
+    
+            if (DOM){
+                update = document.getElementById(desc).style;
+            }
+            else if (IE){
+                update = document.all[desc].style;
+            }
+
+            if (IE || DOM) {
+                if ((update.display == "none")||(!update.display)) {
+                    update.display="block";
+                    pic.src = bullet[0].src;
+            } 
+            else {
+                update.display="none";
+                pic.src = bullet[1].src;
+            }
+        }
+        
+}
+</script>
+<table class="data" width="100%" ><tr class="title"><td colspan="5"><a href="/mlb/teams/page/ARI/arizona-diamondbacks">Arizona Diamondbacks</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/06/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1741384/chris-owings">Chris&nbsp;Owings</a></td><td  align="center" width="5%">SS</td><td  align="left" width="15%">Finger</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/05/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1753999/randall-delgado">Randall&nbsp;Delgado</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/30/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2160767/domingo-leyba">Domingo&nbsp;Leyba</a></td><td  align="center" width="5%">2B</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1755140/blake-beavan">Blake&nbsp;Beavan</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/24/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1661439/josh-thole">Josh&nbsp;Thole</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Hamstring</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/12/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2506927/ryan-january">Ryan&nbsp;January</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Suspension</td><td  align="left" width="45%">Suspended until Mar 1, 2018</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/05/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1959715/nick-ahmed">Nick&nbsp;Ahmed</a></td><td  align="center" width="5%">SS</td><td  align="left" width="15%">Wrist</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/31/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2226903/steve-hathaway">Steve&nbsp;Hathaway</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/22/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2160873/yasmany-tomas">Yasmany&nbsp;Tomas</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Groin</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">05/12/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1739603/shelby-miller">Shelby&nbsp;Miller</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/ATL/atlanta-braves">Atlanta Braves</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1757989/mike-foltynewicz">Mike&nbsp;Foltynewicz</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Finger</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/19/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2114627/armando-rivero">Armando&nbsp;Rivero</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/05/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1810926/danny-santana">Danny&nbsp;Santana</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Quadriceps</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">06/27/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2449976/patrick-weigel">Patrick&nbsp;Weigel</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">03/08/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2167356/jacob-lindgren">Jacob&nbsp;Lindgren</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/BAL/baltimore-orioles">Baltimore Orioles</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1733482/zach-britton">Zach&nbsp;Britton</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/479388/adam-jones">Adam&nbsp;Jones</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Leg</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/24/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1894623/dylan-bundy">Dylan&nbsp;Bundy</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Hamstring</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/19/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2044378/branden-kline">Branden&nbsp;Kline</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/546224/robert-andino">Robert&nbsp;Andino</a></td><td  align="center" width="5%">2B</td><td  align="left" width="15%">Suspension</td><td  align="left" width="45%">Suspended until Mar 1, 2018</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2228463/natanael-delgado">Natanael&nbsp;Delgado</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1793166/johnny-giavotella">Johnny&nbsp;Giavotella</a></td><td  align="center" width="5%">2B</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/25/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2250612/cody-sedlock">Cody&nbsp;Sedlock</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Forearm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">04/18/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2118868/dariel-alvarez">Dariel&nbsp;Alvarez</a></td><td  align="center" width="5%">RF</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/BOS/boston-red-sox">Boston Red Sox</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/09/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1666536/mitch-moreland">Mitch&nbsp;Moreland</a></td><td  align="center" width="5%">1B</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/09/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1098979/eduardo-nunez">Eduardo&nbsp;Nunez</a></td><td  align="center" width="5%">2B</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/09/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/547429/dustin-pedroia">Dustin&nbsp;Pedroia</a></td><td  align="center" width="5%">2B</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/12/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2449984/josh-pennington">Josh&nbsp;Pennington</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/08/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2825104/yankory-pimentel">Yankory&nbsp;Pimentel</a></td><td  align="center" width="5%">&nbsp;</td><td  align="left" width="15%">Suspension</td><td  align="left" width="45%">Suspended until Feb 1, 2018</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/31/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1935245/robbie-ross">Robbie&nbsp;Ross</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Back</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/30/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1947835/josh-rutledge">Josh&nbsp;Rutledge</a></td><td  align="center" width="5%">3B</td><td  align="left" width="15%">Hip</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2447643/cj-chatham">C.J.&nbsp;Chatham</a></td><td  align="center" width="5%">SS</td><td  align="left" width="15%">Hamstring</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/25/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2250597/jason-groome">Jason&nbsp;Groome</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Forearm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/23/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2507194/kyri-washington">Kyri&nbsp;Washington</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">06/15/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1840443/tyler-thornburg">Tyler&nbsp;Thornburg</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">05/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2120657/marco-hernandez">Marco&nbsp;Hernandez</a></td><td  align="center" width="5%">2B</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">05/18/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2027446/steven-wright">Steven&nbsp;Wright</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/CHC/chicago-cubs">Chicago Cubs</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/06/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1657590/koji-uehara">Koji&nbsp;Uehara</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2210232/alec-mills">Alec&nbsp;Mills</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Ankle</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/19/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2044496/eddie-butler">Eddie&nbsp;Butler</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/19/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2211784/oscar-de-la-cruz">Oscar&nbsp;De&nbsp;La&nbsp;Cruz</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Pectoral</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/19/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2507348/wladimir-galindo">Wladimir&nbsp;Galindo</a></td><td  align="center" width="5%">3B</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/19/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2169713/mark-zagunis">Mark&nbsp;Zagunis</a></td><td  align="center" width="5%">RF</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/05/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2211754/dylan-cease">Dylan&nbsp;Cease</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/CHW/chicago-white-sox">Chicago White Sox</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/02/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1938646/jake-petricka">Jake&nbsp;Petricka</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/392194/geovany-soto">Geovany&nbsp;Soto</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/30/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1947819/nicky-delmonico">Nicky&nbsp;Delmonico</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/30/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2171702/omar-narvaez">Omar&nbsp;Narvaez</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2138665/carlos-rodon">Carlos&nbsp;Rodon</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2066821/tyler-danish">Tyler&nbsp;Danish</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1740935/leury-garcia">Leury&nbsp;Garcia</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Thumb</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2000027/lucas-giolito">Lucas&nbsp;Giolito</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Rest</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/580602/james-shields">James&nbsp;Shields</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">07/24/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2250611/zack-burdi">Zack&nbsp;Burdi</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">07/13/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1784687/nate-jones">Nate&nbsp;Jones</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">06/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1734605/zach-putnam">Zach&nbsp;Putnam</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/CIN/cincinnati-reds">Cincinnati Reds</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/09/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2210226/rookie-davis">Rookie&nbsp;Davis</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Hip</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/04/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2044491/nick-travieso">Nick&nbsp;Travieso</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/02/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1660451/devin-mesoraco">Devin&nbsp;Mesoraco</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Foot</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2118904/austin-brice">Austin&nbsp;Brice</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Lat</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1925712/lucas-luetge">Lucas&nbsp;Luetge</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/17/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2211216/tyler-mahle">Tyler&nbsp;Mahle</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Coach's Decision</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/17/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1724102/drew-storen">Drew&nbsp;Storen</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/13/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2223751/luis-castillo">Luis&nbsp;Castillo</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Coach's Decision</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/03/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2250589/nick-senzel">Nick&nbsp;Senzel</a></td><td  align="center" width="5%">3B</td><td  align="left" width="15%">Illness</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/02/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2184447/tyler-stephenson">Tyler&nbsp;Stephenson</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Thumb</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1961523/rob-wooten">Rob&nbsp;Wooten</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/31/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2117049/anthony-desclafani">Anthony&nbsp;DeSclafani</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/30/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2136392/nick-howard">Nick&nbsp;Howard</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/27/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/549996/scott-feldman">Scott&nbsp;Feldman</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/22/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2136391/brandon-finnegan">Brandon&nbsp;Finnegan</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">07/29/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2227062/nick-longhi">Nick&nbsp;Longhi</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">07/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2118134/dilson-herrera">Dilson&nbsp;Herrera</a></td><td  align="center" width="5%">2B</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">11/09/16</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2166444/jon-moscot">Jon&nbsp;Moscot</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/CLE/cleveland-indians">Cleveland Indians</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/09/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/392294/edwin-encarnacion">Edwin&nbsp;Encarnacion</a></td><td  align="center" width="5%">DH</td><td  align="left" width="15%">Ankle</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/09/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1669646/brandon-guyer">Brandon&nbsp;Guyer</a></td><td  align="center" width="5%">RF</td><td  align="left" width="15%">Wrist</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/09/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2169611/adam-plutko">Adam&nbsp;Plutko</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Hip</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/05/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1098960/boone-logan">Boone&nbsp;Logan</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/11/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2135252/bradley-zimmer">Bradley&nbsp;Zimmer</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Hand</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/08/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2117056/dace-kime">Dace&nbsp;Kime</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2066310/rob-kaminsky">Rob&nbsp;Kaminsky</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Forearm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2211778/mark-mathias">Mark&nbsp;Mathias</a></td><td  align="center" width="5%">2B</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">03/30/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2116982/cody-anderson">Cody&nbsp;Anderson</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/COL/colorado-rockies">Colorado Rockies</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1199811/jair-jurrjens">Jair&nbsp;Jurrjens</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Suspension</td><td  align="left" width="45%">Suspended until Mar 1, 2018</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/10/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2050878/jairo-diaz">Jairo&nbsp;Diaz</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/07/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2825630/yeremi-rosario">Yeremi&nbsp;Rosario</a></td><td  align="center" width="5%">&nbsp;</td><td  align="left" width="15%">Suspension</td><td  align="left" width="45%">Suspended until Feb 1, 2018</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/05/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2001079/david-dahl">David&nbsp;Dahl</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Back</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">05/25/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2135267/forrest-wall">Forrest&nbsp;Wall</a></td><td  align="center" width="5%">2B</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">05/22/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2443486/rayan-gonzalez">Rayan&nbsp;Gonzalez</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">04/13/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2211245/mike-nikorak">Mike&nbsp;Nikorak</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/DET/detroit-tigers">Detroit Tigers</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/288897/miguel-cabrera">Miguel&nbsp;Cabrera</a></td><td  align="center" width="5%">1B</td><td  align="left" width="15%">Back</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1947836/tyler-collins">Tyler&nbsp;Collins</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Ribs</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2178545/jeff-ferrell">Jeff&nbsp;Ferrell</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Concussion</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1732909/david-lough">David&nbsp;Lough</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Hamstring</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/23/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1799270/alex-wilson">Alex&nbsp;Wilson</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Leg</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/16/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2453267/kyle-funkhouser">Kyle&nbsp;Funkhouser</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/16/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1758976/anthony-gose">Anthony&nbsp;Gose</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/11/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2007003/michael-fulmer">Michael&nbsp;Fulmer</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/03/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/367942/victor-martinez">Victor&nbsp;Martinez</a></td><td  align="center" width="5%">DH</td><td  align="left" width="15%">Chest</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/HOU/houston-astros">Houston Astros</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2210085/david-paulino">David&nbsp;Paulino</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/15/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2507511/franklin-perez">Franklin&nbsp;Perez</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Finger</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/14/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1804287/jake-marisnick">Jake&nbsp;Marisnick</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Thumb</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2121049/brady-rodgers">Brady&nbsp;Rodgers</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">06/21/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2161564/jandel-gustave">Jandel&nbsp;Gustave</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">06/20/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2837338/joe-perez">Joe&nbsp;Perez</a></td><td  align="center" width="5%">&nbsp;</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/KC/kansas-city-royals">Kansas City Royals</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1793168/salvador-perez">Salvador&nbsp;Perez</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Groin</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/30/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1708185/danny-duffy">Danny&nbsp;Duffy</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2753435/dj-burt">D.J.&nbsp;Burt</a></td><td  align="center" width="5%">2B</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2227128/xavier-fernandez">Xavier&nbsp;Fernandez</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2042430/brian-flynn">Brian&nbsp;Flynn</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Groin</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2121319/elier-hernandez">Elier&nbsp;Hernandez</a></td><td  align="center" width="5%">RF</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2135270/chase-vallot">Chase&nbsp;Vallot</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1697839/chris-withrow">Chris&nbsp;Withrow</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2000030/kyle-zimmer">Kyle&nbsp;Zimmer</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Arm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1894624/bubba-starling">Bubba&nbsp;Starling</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Oblique</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/22/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2044500/miguel-almonte">Miguel&nbsp;Almonte</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/20/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2027437/nate-karns">Nate&nbsp;Karns</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Forearm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/12/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2184465/ashe-russell">Ashe&nbsp;Russell</a></td><td  align="center" width="5%">P</td><td  align="left" width="15%">Personal</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/LAA/los-angeles-angels">Los Angeles Angels</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/29/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1098922/yunel-escobar">Yunel&nbsp;Escobar</a></td><td  align="center" width="5%">3B</td><td  align="left" width="15%">Oblique</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/29/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2036439/andrew-heaney">Andrew&nbsp;Heaney</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1936043/austin-adams">Austin&nbsp;Adams</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/15/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2165526/nate-smith">Nate&nbsp;Smith</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Forearm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/14/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/546345/huston-street">Huston&nbsp;Street</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Groin</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/11/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1953517/jefry-marte">Jefry&nbsp;Marte</a></td><td  align="center" width="5%">1B</td><td  align="left" width="15%">Foot</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/11/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1894638/alex-meyer">Alex&nbsp;Meyer</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/03/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1725476/jc-ramirez">JC&nbsp;Ramirez</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/02/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1655624/andrew-bailey">Andrew&nbsp;Bailey</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/25/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1937337/matt-shoemaker">Matt&nbsp;Shoemaker</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Forearm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/23/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2226043/jared-foster">Jared&nbsp;Foster</a></td><td  align="center" width="5%">RF</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/08/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2053482/nick-tropeano">Nick&nbsp;Tropeano</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/LAD/los-angeles-dodgers">Los Angeles Dodgers</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/09/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/288903/adrian-gonzalez">Adrian&nbsp;Gonzalez</a></td><td  align="center" width="5%">1B</td><td  align="left" width="15%">Back</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1812884/luis-avilan">Luis&nbsp;Avilan</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/29/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2048789/okoyea-dickson">O'Koyea&nbsp;Dickson</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/25/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/483346/scott-kazmir">Scott&nbsp;Kazmir</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Hip</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/22/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2027389/josh-ravin">Josh&nbsp;Ravin</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Hip</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/19/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2699568/trevor-oaks">Trevor&nbsp;Oaks</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Oblique</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/08/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/392462/franklin-gutierrez">Franklin&nbsp;Gutierrez</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Back</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/08/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2036145/adam-liberatore">Adam&nbsp;Liberatore</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Forearm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2042429/grant-dayton">Grant&nbsp;Dayton</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/09/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2821686/ronny-brito">Ronny&nbsp;Brito</a></td><td  align="center" width="5%">&nbsp;</td><td  align="left" width="15%">Leg</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">06/27/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2073700/julio-urias">Julio&nbsp;Urias</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">05/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2114642/andrew-toles">Andrew&nbsp;Toles</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">02/15/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2048494/yimi-garcia">Yimi&nbsp;Garcia</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/MIA/miami-marlins">Miami Marlins</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2821757/edward-cabrera">Edward&nbsp;Cabrera</a></td><td  align="center" width="5%">&nbsp;</td><td  align="left" width="15%">Forearm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1935581/weiyin-chen">Wei-Yin&nbsp;Chen</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2117127/nick-wittgren">Nick&nbsp;Wittgren</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/19/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/548120/martin-prado">Martin&nbsp;Prado</a></td><td  align="center" width="5%">3B</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/15/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2823865/brett-lilek">Brett&nbsp;Lilek</a></td><td  align="center" width="5%">&nbsp;</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2121291/jt-riddle">JT&nbsp;Riddle</a></td><td  align="center" width="5%">SS</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/564090/edinson-volquez">Edinson&nbsp;Volquez</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">06/20/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2250592/braxton-garrett">Braxton&nbsp;Garrett</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">04/11/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2167476/isael-soto">Isael&nbsp;Soto</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Foot</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/MIL/milwaukee-brewers">Milwaukee Brewers</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/03/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2044107/jimmy-nelson">Jimmy&nbsp;Nelson</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/02/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2044517/lewis-brinson">Lewis&nbsp;Brinson</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Hamstring</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/03/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2043264/sean-nolin">Sean&nbsp;Nolin</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/31/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2211193/isan-diaz">Isan&nbsp;Diaz</a></td><td  align="center" width="5%">SS</td><td  align="left" width="15%">Wrist</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/23/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1956973/michael-reed">Michael&nbsp;Reed</a></td><td  align="center" width="5%">RF</td><td  align="left" width="15%">Ankle</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/15/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2171609/yhonathan-barrios">Yhonathan&nbsp;Barrios</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">07/29/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2167500/gilbert-lara">Gilbert&nbsp;Lara</a></td><td  align="center" width="5%">SS</td><td  align="left" width="15%">Leg</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">03/23/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2066820/devin-williams">Devin&nbsp;Williams</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/MIN/minnesota-twins">Minnesota Twins</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/07/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2000026/byron-buxton">Byron&nbsp;Buxton</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Ribs</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/04/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1739669/miguel-sano">Miguel&nbsp;Sano</a></td><td  align="center" width="5%">3B</td><td  align="left" width="15%">Lower Leg</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/02/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2443745/fernando-romero">Fernando&nbsp;Romero</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/08/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1740998/hector-santiago">Hector&nbsp;Santiago</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Back</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/05/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2210203/jt-chargois">J.T.&nbsp;Chargois</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2825211/johan-quezada">Johan&nbsp;Quezada</a></td><td  align="center" width="5%">&nbsp;</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/14/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1733562/trevor-may">Trevor&nbsp;May</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">07/18/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/584965/phil-hughes">Phil&nbsp;Hughes</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">07/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2170699/zach-jones">Zach&nbsp;Jones</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">05/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2167354/nick-burdi">Nick&nbsp;Burdi</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">05/22/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2821318/luis-arraez">Luis&nbsp;Arraez</a></td><td  align="center" width="5%">&nbsp;</td><td  align="left" width="15%">Leg</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">04/25/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2164750/ryan-orourke">Ryan&nbsp;O'Rourke</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">03/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2250600/alex-kirilloff">Alex&nbsp;Kirilloff</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/NYM/new-york-mets">New York Mets</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/29/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2044508/jacob-degrom">Jacob&nbsp;deGrom</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Illness</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/27/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1846229/tommy-milone">Tommy&nbsp;Milone</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/23/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2135247/michael-conforto">Michael&nbsp;Conforto</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/23/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1744777/zack-wheeler">Zack&nbsp;Wheeler</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Arm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/16/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2447461/patrick-mazeika">Patrick&nbsp;Mazeika</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/08/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2107839/steven-matz">Steven&nbsp;Matz</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/07/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1665897/wilmer-flores">Wilmer&nbsp;Flores</a></td><td  align="center" width="5%">3B</td><td  align="left" width="15%">Nose</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/06/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2250604/justin-dunn">Justin&nbsp;Dunn</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/04/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1953528/josh-edgin">Josh&nbsp;Edgin</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/04/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2120732/tj-rivera">T.J.&nbsp;Rivera</a></td><td  align="center" width="5%">3B</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/04/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/483349/david-wright">David&nbsp;Wright</a></td><td  align="center" width="5%">3B</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1953406/yoenis-cespedes">Yoenis&nbsp;Cespedes</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Hamstring</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/24/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2166520/tyler-pill">Tyler&nbsp;Pill</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">07/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2211209/desmond-lindsay">Desmond&nbsp;Lindsay</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">07/20/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2453274/thomas-szapucki">Thomas&nbsp;Szapucki</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/04/16</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2250616/anthony-kay">Anthony&nbsp;Kay</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/NYY/new-york-yankees">New York Yankees</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/06/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2504135/caleb-smith">Caleb&nbsp;Smith</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Illness</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/18/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2835068/clarke-schmidt">Clarke&nbsp;Schmidt</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/13/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2211789/domingo-acevedo">Domingo&nbsp;Acevedo</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2208984/luis-cessa">Luis&nbsp;Cessa</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Ribs</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2044536/ty-hensley">Ty&nbsp;Hensley</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/22/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1757992/kellin-deglan">Kellin&nbsp;Deglan</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2184452/james-kaprielian">James&nbsp;Kaprielian</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">07/17/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1741763/michael-pineda">Michael&nbsp;Pineda</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">06/19/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2167471/gleyber-torres">Gleyber&nbsp;Torres</a></td><td  align="center" width="5%">SS</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/OAK/oakland-athletics">Oakland Athletics</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/02/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1953420/blake-treinen">Blake&nbsp;Treinen</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Finger</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/30/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1208719/matt-joyce">Matt&nbsp;Joyce</a></td><td  align="center" width="5%">RF</td><td  align="left" width="15%">Hamstring</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/27/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2066836/chad-pinder">Chad&nbsp;Pinder</a></td><td  align="center" width="5%">RF</td><td  align="left" width="15%">Concussion</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2044509/matt-olson">Matt&nbsp;Olson</a></td><td  align="center" width="5%">1B</td><td  align="left" width="15%">Hamstring</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2167512/boog-powell">Boog&nbsp;Powell</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/05/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2044524/paul-blackburn">Paul&nbsp;Blackburn</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Wrist</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/11/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2117052/bobby-wahl">Bobby&nbsp;Wahl</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">07/14/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2119338/andrew-triggs">Andrew&nbsp;Triggs</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Hip</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">07/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2218320/dustin-fowler">Dustin&nbsp;Fowler</a></td><td  align="center" width="5%">RF</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">04/25/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2453278/daulton-jefferies">Daulton&nbsp;Jefferies</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/21/16</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2119336/jb-wendelken">J.B.&nbsp;Wendelken</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/PHI/philadelphia-phillies">Philadelphia Phillies</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/23/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2044538/roman-quinn">Roman&nbsp;Quinn</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/21/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2826214/jesen-therrien">Jesen&nbsp;Therrien</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/13/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1601139/daniel-nava">Daniel&nbsp;Nava</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Back</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/12/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2044513/zach-eflin">Zach&nbsp;Eflin</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/05/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1184594/clay-buchholz">Clay&nbsp;Buchholz</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Forearm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/05/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1209012/pedro-florimon">Pedro&nbsp;Florimon</a></td><td  align="center" width="5%">SS</td><td  align="left" width="15%">Ankle</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/02/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2159843/jerad-eickhoff">Jerad&nbsp;Eickhoff</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Hand</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/22/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2117039/vince-velasquez">Vince&nbsp;Velasquez</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Finger</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/15/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2453277/kevin-gowdy">Kevin&nbsp;Gowdy</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">05/27/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2052696/jesmuel-valentin">Jesmuel&nbsp;Valentin</a></td><td  align="center" width="5%">2B</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/PIT/pittsburgh-pirates">Pittsburgh Pirates</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/05/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2068549/austin-meadows">Austin&nbsp;Meadows</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Oblique</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1655641/ivan-nova">Ivan&nbsp;Nova</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Finger</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/24/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1200051/francisco-cervelli">Francisco&nbsp;Cervelli</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Quadriceps</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/17/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2135255/cole-tucker">Cole&nbsp;Tucker</a></td><td  align="center" width="5%">SS</td><td  align="left" width="15%">Hand</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/16/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1794787/jason-stoffel">Jason&nbsp;Stoffel</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/10/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1670494/josh-harrison">Josh&nbsp;Harrison</a></td><td  align="center" width="5%">2B</td><td  align="left" width="15%">Hand</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/17/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2166699/jung-ho-kang">Jung&nbsp;Ho&nbsp;Kang</a></td><td  align="center" width="5%">3B</td><td  align="left" width="15%">Suspension</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">07/19/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2837622/conner-uselton">Conner&nbsp;Uselton</a></td><td  align="center" width="5%">&nbsp;</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/SD/san-diego-padres">San Diego Padres</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/30/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1962637/carter-capps">Carter&nbsp;Capps</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/21/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1741055/jose-pirela">Jose&nbsp;Pirela</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Finger</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/06/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1833103/robbie-erlin">Robbie&nbsp;Erlin</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/23/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2027435/matt-magill">Matt&nbsp;Magill</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/19/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2768555/mason-thompson">Mason&nbsp;Thompson</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/15/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1685072/christian-friedrich">Christian&nbsp;Friedrich</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">07/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2211779/anderson-espinoza">Anderson&nbsp;Espinoza</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Forearm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">07/27/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1754186/jarred-cosart">Jarred&nbsp;Cosart</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">07/07/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2210233/matt-strahm">Matt&nbsp;Strahm</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">07/03/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2050338/alex-dickerson">Alex&nbsp;Dickerson</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Back</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">04/04/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2170141/colin-rea">Colin&nbsp;Rea</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">03/25/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2246181/chris-paddack">Chris&nbsp;Paddack</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">12/16/16</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1947826/erik-johnson">Erik&nbsp;Johnson</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/SF/san-francisco-giants">San Francisco Giants</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/04/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2210234/ian-gardeck">Ian&nbsp;Gardeck</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/03/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1599715/gorkys-hernandez">Gorkys&nbsp;Hernandez</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Wrist</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/02/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2136389/tyler-beede">Tyler&nbsp;Beede</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Groin</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/02/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2444512/miguel-gomez">Miguel&nbsp;Gomez</a></td><td  align="center" width="5%">3B</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/02/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2226803/austin-slater">Austin&nbsp;Slater</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Hip</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1619074/madison-bumgarner">Madison&nbsp;Bumgarner</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Rest</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/13/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2835071/heliot-ramos">Heliot&nbsp;Ramos</a></td><td  align="center" width="5%">OF</td><td  align="left" width="15%">Concussion</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/10/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1493886/mark-melancon">Mark&nbsp;Melancon</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Forearm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/18/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2066307/christian-arroyo">Christian&nbsp;Arroyo</a></td><td  align="center" width="5%">3B</td><td  align="left" width="15%">Hand</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/11/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/489791/michael-morse">Michael&nbsp;Morse</a></td><td  align="center" width="5%">1B</td><td  align="left" width="15%">Concussion</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">07/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2118142/joan-gregorio">Joan&nbsp;Gregorio</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Suspension</td><td  align="left" width="45%">Suspended until Apr 1, 2018</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">05/16/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2217336/chase-johnson">Chase&nbsp;Johnson</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">04/06/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2067931/jose-dominguez">Jose&nbsp;Dominguez</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Suspension</td><td  align="left" width="45%">Suspended until Mar 1, 2018</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">04/02/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1666825/will-smith">Will&nbsp;Smith</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/SEA/seattle-mariners">Seattle Mariners</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/02/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1953415/tony-zych">Tony&nbsp;Zych</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/30/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2211218/andrew-moore">Andrew&nbsp;Moore</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Neck</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/29/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1933858/hisashi-iwakuma">Hisashi&nbsp;Iwakuma</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/27/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2221896/guillermo-heredia">Guillermo&nbsp;Heredia</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/541516/felix-hernandez">Felix&nbsp;Hernandez</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Rest</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1733668/mike-leake">Mike&nbsp;Leake</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Lat</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/15/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2835069/evan-white">Evan&nbsp;White</a></td><td  align="center" width="5%">1B</td><td  align="left" width="15%">Quadriceps</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/11/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1725411/jarrod-dyson">Jarrod&nbsp;Dyson</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Groin</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/06/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1800944/david-phelps">David&nbsp;Phelps</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2804937/anthony-jimenez">Anthony&nbsp;Jimenez</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/22/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2252924/rob-whalen">Rob&nbsp;Whalen</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Personal</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/15/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1663585/nevin-ashley">Nevin&nbsp;Ashley</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">06/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1840445/drew-smyly">Drew&nbsp;Smyly</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">11/11/16</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1850284/ryan-cook">Ryan&nbsp;Cook</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/STL/st-louis-cardinals">St. Louis Cardinals</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1794765/matt-carpenter">Matt&nbsp;Carpenter</a></td><td  align="center" width="5%">1B</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/30/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/390815/yadier-molina">Yadier&nbsp;Molina</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Concussion</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/29/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2040403/tyler-lyons">Tyler&nbsp;Lyons</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Rest</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/29/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/389743/adam-wainwright">Adam&nbsp;Wainwright</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2216701/daniel-poncedeleon">Daniel&nbsp;Poncedeleon</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Head</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/23/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2211785/junior-fernandez">Junior&nbsp;Fernandez</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Biceps</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/23/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1937341/trevor-rosenthal">Trevor&nbsp;Rosenthal</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">06/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2117043/alex-reyes">Alex&nbsp;Reyes</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">04/25/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1208745/jordan-schafer">Jordan&nbsp;Schafer</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Forearm</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/TB/tampa-bay-rays">Tampa Bay Rays</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1784973/alex-cobb">Alex&nbsp;Cobb</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Rest</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2120665/matt-duffy">Matt&nbsp;Duffy</a></td><td  align="center" width="5%">3B</td><td  align="left" width="15%">Heel</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/05/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1894639/taylor-guerrieri">Taylor&nbsp;Guerrieri</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/22/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2167459/jose-de-leon">Jose&nbsp;De&nbsp;Leon</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/15/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2211746/brandon-koch">Brandon&nbsp;Koch</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Arm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/04/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2167509/andrew-bellatti">Andrew&nbsp;Bellatti</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">07/13/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1184596/colby-rasmus">Colby&nbsp;Rasmus</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Personal</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">05/19/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1957303/shawn-tolleson">Shawn&nbsp;Tolleson</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">03/13/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1803864/nathan-eovaldi">Nathan&nbsp;Eovaldi</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/TEX/texas-rangers">Texas Rangers</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/392181/robinson-chirinos">Robinson&nbsp;Chirinos</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Hamstring</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">10/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1098932/carlos-gomez">Carlos&nbsp;Gomez</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Ankle</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/293103/mike-napoli">Mike&nbsp;Napoli</a></td><td  align="center" width="5%">1B</td><td  align="left" width="15%">Ankle</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2118804/patrick-cantwell">Patrick&nbsp;Cantwell</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">07/22/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2066305/chi-chi-gonzalez">Chi&nbsp;Chi&nbsp;Gonzalez</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">06/16/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2044664/hanser-alberto">Hanser&nbsp;Alberto</a></td><td  align="center" width="5%">3B</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">04/22/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2453420/joe-palumbo">Joe&nbsp;Palumbo</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/23/16</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1740949/james-jones">James&nbsp;Jones</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/TOR/toronto-blue-jays">Toronto Blue Jays</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1654354/cesar-valdez">Cesar&nbsp;Valdez</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/29/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2046044/kevin-pillar">Kevin&nbsp;Pillar</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Personal</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/29/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1757987/aaron-sanchez">Aaron&nbsp;Sanchez</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Finger</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/28/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2504264/glenn-sparkman">Glenn&nbsp;Sparkman</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/26/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1221813/steve-pearce">Steve&nbsp;Pearce</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Back</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1392899/lucas-harrell">Lucas&nbsp;Harrell</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2734000/bradley-jones">Bradley&nbsp;Jones</a></td><td  align="center" width="5%">3B</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2453425/justin-maese">Justin&nbsp;Maese</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2135607/max-pentecost">Max&nbsp;Pentecost</a></td><td  align="center" width="5%">C</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1953811/dalton-pompey">Dalton&nbsp;Pompey</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1099004/jose-tabata">Jose&nbsp;Tabata</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Undisclosed</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/30/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2049815/devon-travis">Devon&nbsp;Travis</a></td><td  align="center" width="5%">2B</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/11/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1806344/darrell-ceciliani">Darrell&nbsp;Ceciliani</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/09/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/589256/troy-tulowitzki">Troy&nbsp;Tulowitzki</a></td><td  align="center" width="5%">SS</td><td  align="left" width="15%">Ankle</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">04/25/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1962289/bo-schultz">Bo&nbsp;Schultz</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="title"><td colspan="5"><a href="/mlb/teams/page/WAS/washington-nationals">Washington Nationals</a></td></tr><tr class="label"  id="special" ><td align="center" width="15%">Updated</td><td align="left" width="20%">Player</td><td align="center" width="5%">Pos</td><td align="left" width="15%">Injury</td><td align="left" width="45%">Expected Return</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">10/02/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/448416/ryan-raburn">Ryan&nbsp;Raburn</a></td><td  align="center" width="5%">LF</td><td  align="left" width="15%">Back</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/30/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1660812/shawn-kelley">Shawn&nbsp;Kelley</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Forearm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/16/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2251065/koda-glover">Koda&nbsp;Glover</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Shoulder</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/09/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2052550/aaron-barrett">Aaron&nbsp;Barrett</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">09/07/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2167502/erick-fedde">Erick&nbsp;Fedde</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Forearm</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">09/05/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2507367/juan-soto">Juan&nbsp;Soto</a></td><td  align="center" width="5%">RF</td><td  align="left" width="15%">Hamstring</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">08/09/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2209983/nick-lee">Nick&nbsp;Lee</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">08/02/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1894640/joe-ross">Joe&nbsp;Ross</a></td><td  align="center" width="5%">SP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row1"  align="right"><td  align="center" width="15%">06/01/17</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/1808563/adam-eaton">Adam&nbsp;Eaton</a></td><td  align="center" width="5%">CF</td><td  align="left" width="15%">Knee</td><td  align="left" width="45%">Out for the season</td></tr><tr class="row2"  align="right"><td  align="center" width="15%">11/18/16</td><td  align="left" width="20%"><a href="/mlb/players/playerpage/2228203/bryan-harper">Bryan&nbsp;Harper</a></td><td  align="center" width="5%">RP</td><td  align="left" width="15%">Elbow</td><td  align="left" width="45%">Out for the season</td></tr></table><table class="data" width="100%"><tr class="row1"  align="right"><td  colspan="5" align="left" width="15%">Tue Oct 10 06:09:43 EDT 2017</td></tr></table> 
+    
+                    <div class="spacer20">&nbsp;</div>
+                
+        <div id="taboola-bottom-of-the-page-thumbnails" data-taboola-placement="aw-cbssports/mlb/media/injuries/injury desktop-2x4-bottom" om-event="aw-cbssports/mlb/media/injuries/injury desktop-2x4-bottom"></div>
+        <script type="text/javascript">
+          window._taboola = window._taboola || [];
+          _taboola.push({
+            mode: 'alternating-thumbnails-z',
+            container: 'taboola-bottom-of-the-page-thumbnails',
+            placement: 'aw-cbssports/mlb/media/injuries/injury desktop-2x4-bottom',
+            target_type: 'mix'
+          });
+        </script>
+            </div><!-- END layoutRailRight::column1-->
+            <div class="column2">
+                
+                
+                <div id="sky_top" class="mBottomStd">
+<script type="text/javascript">
+if (switchXFP != 'off') {
+    googletag.cmd.push(function() {
+        if (typeof index_headertag_lightspeed !== 'undefined') {
+                  var cb = (function () {
+                      return function () {
+                          var slots = googletag.pubads().getSlots();
+                          index_headertag_lightspeed.set_slot_targeting(slots);
+                           googletag.display("sky_top");
+                        };
+                  })();
+                  index_headertag_lightspeed.add_session_end_hook(cb, true);
+                  index_headertag_lightspeed.refresh();
+              } else {
+                  googletag.display("sky_top");
+              }
+    });
+    if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="sky_top" style="width:160px"><br>').insertBefore('#sky_top');
+}
+</script>
+</div>
+                
+                <div class="spacer10">&nbsp;</div>
+                <!-- AD for MLB : MLB DEF Not found --><div class="shoppingBox">
+
+ 
+
+ 
+
+<!-- include file generated Thu Nov 03 00:34:01 EST 2016 --> 
+<!-- $Id: sbox_arena.jsp,v 1.18 2008-06-11 19:49:38 gorman Exp $ -->
+
+
+<h3 class="featureTitle"><span><strong>CBSSports</strong> Shop</span></h3>
+<div class="featureComponent">
+    <a href="http://shop.cbssports.com/CBS_Chicago_Cubs?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_WorldSeriesChamps|cpn--no_coupon|offer--no_offer"><img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productImages/_2618000/ff_2618234_full.jpg&w=600" width="120" height="120" alt="Men's Majestic Gray Chicago Cubs 2016 World Series Champions Locker Room T-Shirt" class="border product"></a>
+    <p>Chicago Cubs 2016 World Series Champs<br/>Get the Locker Room Gear <a href="http://shop.cbssports.com/CBS_Chicago_Cubs?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_WorldSeriesChamps|cpn--no_coupon|offer--no_offer"><br>Shop Now</a></p>
+    <ul class="multiLine flush">
+    
+        
+           <li><a href="http://shop.cbssports.com/CBS_Chicago_Cubs_Hats?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_WorldSeriesChamps|cpn--no_coupon|offer--no_offer">Chicago Cubs 2016 World Series Champs Hats</a></li>
+        
+           <li><a href="http://shop.cbssports.com/CBS_Chicago_Cubs_Sweatshirts_And_Fleece?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_WorldSeriesChamps|cpn--no_coupon|offer--no_offer">Chicago Cubs 2016 World Series Champs Sweatshirts</a></li>
+        
+           <li><a href="http://shop.cbssports.com/CBS_Chicago_Cubs_Ladies?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_WorldSeriesChamps|cpn--no_coupon|offer--no_offer">Chicago Cubs 2016 World Series Champs Ladies Gear</a></li>
+        
+    
+    </ul>
+</div>
+<div class="featureFooter"><a href="http://shop.cbssports.com/CBS_MLB?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_MoreMLB|cpn--no_coupon|offer--no_offer">Shop MLB Fan Gear</a>
+</div>
+
+
+</div>
+                
+<script type="text/javascript">netseer_tag_id = "19500";netseer_ad_width = "160";netseer_ad_height = "600";netseer_task = "ad";netseer_imp_type = "1";netseer_imp_src = "2";</script>
+<script src="https://ps.ns-cdn.com/dsatserving2/scripts/netseerads.js" type="text/javascript"></script>
+    
+            </div><!-- END layoutRailRight::column2-->
+            <div class="clearBoth"><!-- explicit clear --></div>
+        </div><!-- END layoutRailRight-->
+        <br clear="all">
+    </div><!-- END pageContainer-->
+</div><!-- END pageRow-->
+    <style>.footerAd {width: 970px;margin: 0 auto;padding: 10px 5px; background-color: #fff;overflow: hidden;text-align:center;position:relative;}</style>
+    
+    <div id="leader_plus2_bottom" class="footerAd">
+<script type="text/javascript">
+if (switchXFP != 'off') {
+    googletag.cmd.push(function() {
+        if (typeof index_headertag_lightspeed !== 'undefined') {
+                  var cb = (function () {
+                      return function () {
+                          var slots = googletag.pubads().getSlots();
+                          index_headertag_lightspeed.set_slot_targeting(slots);
+                           googletag.display("leader_plus2_bottom");
+                        };
+                  })();
+                  index_headertag_lightspeed.add_session_end_hook(cb, true);
+                  index_headertag_lightspeed.refresh();
+              } else {
+                  googletag.display("leader_plus2_bottom");
+              }
+    });
+    if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="leader_plus2_bottom" style="width:728px"><br>').insertBefore('#leader_plus2_bottom');
+}
+</script>
+</div>
+    <footer id="site-footer" class="site-footer">
+    <div class="site-footer-row">
+        <div class="site-footer-branding">
+            <span class="site-footer-logo"></span>
+        </div>
+    </div>
+    <div class="site-footer-row">
+        
+        <ul class="site-footer-follow">
+            <li><a href="https://www.facebook.com/CBSSports" target="_blank" rel="nofollow" om-event="Global Footer|Facebook"><span class="btn social icon-moon-facebook"></span></a></li>
+            <li><a href="https://twitter.com/cbssports" target="_blank" rel="nofollow" om-event="Global Footer|Twitter"><span class="btn social icon-moon-twitter"></span></a></li>
+            <li><a href="https://plus.google.com/+CBSSportscom/posts" target="_blank" rel="nofollow" om-event="Global Footer|Googleplus"><span class="btn social icon-moon-google-plus2"></span></a></li>
+            <li><a href="https://www.youtube.com/user/cbssports" target="_blank" rel="nofollow" om-event="Global Footer|Youtube-play"><span class="btn social icon-moon-youtube-play"></span></a></li>
+            <li><a href="https://instagram.com/cbssports/" target="_blank" rel="nofollow" om-event="Global Footer|Instagram"><span class="btn social icon-moon-instagram"></span></a></li>
+            <li><a href="https://www.pinterest.com/cbssports/" target="_blank" rel="nofollow" om-event="Global Footer|Pinterest"><span class="btn social icon-moon-pinterest"></span></a></li>
+            <li><a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" target="_blank" rel="nofollow" om-event="Global Footer|Flipboard"><span class="btn social icon-moon-flipboard"></span></a></li>
+            
+            
+            
+        </ul>
+    
+    </div>
+    <div class="site-footer-row">
+        <ul class="site-footer-links">
+            <li><a href="https://www.cbssports.com/help" target="_blank" om-event="Global Footer|Help ">Help </a></li><li><a href="https://www.cbssports.com/info/aboutus" target="_blank" om-event="Global Footer|About Us ">About Us </a></li><li><a href="http://www.cbsinteractive.com/careers" target="_blank" om-event="Global Footer|Careers ">Careers </a></li><li><a href="http://www.cbsinteractive.com/advertise/" target="_blank" om-event="Global Footer|Advertise ">Advertise </a></li><li><a href="https://www.cbssports.com/sitemap" target="_blank" om-event="Global Footer|Site Map ">Site Map </a></li><li><a href="https://www.cbssports.com/settings/newsletters" target="_blank" om-event="Global Footer|Newsletters ">Newsletters </a></li><li><a href="https://www.cbssports.com/mobile" target="_blank" om-event="Global Footer|Mobile Apps ">Mobile Apps </a></li><li><a href="http://collegenetwork.cbssports.com/" target="_blank" om-event="Global Footer|College Network ">College Network </a></li><li><a href="http://legalterms.cbsinteractive.com/adchoice" target="_blank" om-event="Global Footer|Ad Choice ">Ad Choice </a></li><li><a href="https://www.cbssports.com/info/closed-caption" target="_blank" om-event="Global Footer|Closed Captioning ">Closed Captioning </a></li><li><a href="http://legalterms.cbsinteractive.com/privacy" target="_blank" om-event="Global Footer|Privacy ">Privacy </a></li><li><a href="http://legalterms.cbsinteractive.com/terms-of-use" target="_blank" om-event="Global Footer|Terms ">Terms </a></li><li><a href="http://legalterms.cbsinteractive.com/eula" target="_blank" om-event="Global Footer|Mobile User Agreement ">Mobile User Agreement </a></li>
+        </ul>
+    </div>
+    
+
+    <div class="site-footer-row">
+        <div class="site-footer-partners">
+            
+        </div>
+    </div>
+    <div class="site-footer-copyright">
+        <p class="site-footer-dates">&copy; 2005-2017 CBS INTERACTIVE. ALL RIGHTS RESERVED.</p>
+        <p>CBS Sports is a registered trademark of CBS Broadcasting Inc.  </p>
+       
+    </div>
+</footer>
+</div><!--mantle_skin-->
+    
+    <script type="text/javascript" src="https://sports.cbsimg.net/js/global-footer-min-v00101.js"></script>
+<span id="footerScripts">
+    <span id="footerScriptsExternal">
+        
+    </span>
+    <script id="footerScriptsRegistered" type="text/javascript">
+    
+    </script>
+    <script id="footerScriptsReady" type="text/javascript">
+    $(document).ready(function() {
+        
+        if ($('.updateTime, .gmtTime').length) {CBSi.widget.Time.update('body span');}
+        if ($('.tooltip').length) {CBSi.widget.ToolTip.init(CBSi.widget.ToolTip.cfg);}
+        if ($('.actionMenu').length) {
+            var actionMenuLeft = $(".actionMenu").position().left;
+            var userInfoLeft = (actionMenuLeft + 2) +"px";
+            $("#userInfo").css({"left":userInfoLeft});
+        }
+        $('body').delegate("[om-event]", "click", function(e) {
+            om.trackClick( {'item':$(this).attr("om-event")} );
+        });
+        
+            var adSkinLeft       = $('#adSkinLeft');
+            var adSkinRight      = $('#adSkinRight');
+            var adSkin           = $(adSkinLeft).add(adSkinRight);
+            var bodyNavClass 	 = 'is-sticky-nav';
+            var bodyTag          = $('body');
+            var mantle           = $('#mantle_skin');
+            var headerCont       = $('#site-header');
+            var navBar           = $('#cbs-site-nav');
+            var navBarHeight     = navBar.outerHeight();
+            var networkBar       = $('#nav-network-bar');
+            var networkBarHeight = networkBar.outerHeight();
+            var networkBarPadding = 8;
+            var promoBarHeight   = $('#fantasy_promo_bar_row').outerHeight();
+            var saagHeight       = $('#saagWrapper').outerHeight() || 0 ;
+            var skyBoxHeight     = $('#skybox-above').height();
+            var skyboxSpacerId   = 'skybox-nav-spacer';
+    
+            // Calculate when to make the nav bar sticky.
+            if (networkBar.length) {
+                // Create an empty spacer for behind the sticky nav.
+                // CBSi.log('_toggleStickyNav: There is a Network Bar on this page.');
+                headerCont.before('<div id="' + skyboxSpacerId + '" class="' + skyboxSpacerId + '" style="height: 0"></div>');
+            }
+        
+            var skyboxSpacer = $('#skybox-nav-spacer');
+        
+            $(window).on("scroll resize",function(e) {
+            
+                var windowScrollTop = parseInt($(this).scrollTop());
+                
+                // BEGIN Scroll code for Prestitial:
+                //check if scroll_prestitial is visible
+                var prestitialVisible = $('#scroll_prestitial:visible').length;
+                //CBSi.log('prestitialVisible ', prestitialVisible);
+
+                //get height of presitial element
+                var prestitialHeight = $('#scroll_prestitial iframe').height();
+                //CBSi.log('prestitialHeight ', prestitialHeight);
+
+                //Determine via tricky conditional states of DOM element if the
+                //  prestitial is still there
+                var hasPrestitial = 0;
+                if (prestitialHeight != null) {
+                    hasPrestitial = 1;
+                } else if (prestitialHeight > 0) {
+                    hasPrestitial = 1;
+                }
+                //finally check visibility but no height
+                if (prestitialVisible == 0) {
+                    hasPrestitial = 0;
+                } else if (prestitialVisible == 1 && prestitialHeight == 0) {
+                    hasPrestitial = 0;
+                }
+                // CBSi.log('hasPrestitial', hasPrestitial);
+                
+                var skyboxMaxHeight = parseInt($('.ad-top-strip').attr('data-skyboxmaxheight')) || 0;
+                var skyboxMinHeight = parseInt($('.ad-top-strip').attr('data-skyboxminheight')) || 0;
+                var skyboxHeight = ( (skyboxMaxHeight - windowScrollTop) < skyboxMinHeight  )
+                    ? skyboxMinHeight
+                    : skyboxMaxHeight - windowScrollTop;
+        
+                var skyboxDiv = $('.ad-top-strip div');
+                var skyboxIframe = $('.ad-top-strip div iframe');
+        
+                if ( windowScrollTop > 0 && hasPrestitial == 0) {
+                    /*
+                     * The page is now scrolling...
+                     */
+                    if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                        skyboxDiv.css({ 'position' : 'fixed' , 'height' : skyboxHeight + 'px' });
+                        skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                    }
+                                
+                    if (skyboxHeight <= skyboxMinHeight) {
+                     
+                        /*
+                         * The skybox ad is collapsed to its minumum height and it has added the class skybox-collapsed to the body tag.
+                         * Alternately, there is no skybox ad on the page.
+                         */
+                     
+                        if (windowScrollTop > skyboxMaxHeight - skyboxHeight + networkBarHeight) {
+                        
+                            /*
+                             * Tests to determine if the Navigation should pin.
+                             * Note that the navigation does not pin until after the network row has scrolled out of view.
+                             */
+
+                            /*
+                             * The skybox ad is minimized and the navigation should pin.
+                             */
+                             
+                            // CBSi.log('_toggleStickyNav: The Skybox is at minHeight or absent. The nav should pin.');
+        
+                            skyboxSpacer.css({ 'height' : skyboxMaxHeight + navBarHeight + 'px' });
+                            navBar.css({ 'position': 'fixed', 'top' : skyboxHeight + 'px' });
+        
+                            mantle.css({ 'margin-top': 0 });
+                            
+                            if (windowScrollTop > networkBarHeight + saagHeight ) {
+                                /*
+                                 * Even if the nav is pinned, the Scores At a Glance (SAAG) might still be scrolling so we do not pin the
+                                 * adSkinLeft and adSkinRight until the SAAG has scrolled out of view.
+                                 */
+                                adSkin.css({'position' : 'fixed', 'top': navBarHeight + skyboxMinHeight + 'px' });
+                            } else {
+                                adSkin.css({ 'position' : 'absolute', 'top': 0 });
+                            }
+        
+                            if (!bodyTag.hasClass(bodyNavClass)) {
+                                bodyTag.addClass(bodyNavClass);
+                            }
+        
+                        } else {
+
+                            /*
+                             * The skybox ad is minimized but the navigation is not yet pinned
+                             * because the network row is still partially visible.
+                             */
+
+                            // CBSi.log('_toggleStickyNav: The Skybox is at minHeight or absent. Network bar is scrolling so nav is not pinned.');
+        
+                            skyboxSpacer.css({ 'height' : skyboxMaxHeight + 'px' });
+                            navBar.css({ 'position': 'relative', 'top': 0 });
+
+                            mantle.css({ 'margin-top' : 0 });
+                            
+                            if (bodyTag.hasClass(bodyNavClass)) {
+                                bodyTag.removeClass(bodyNavClass);
+                            }
+                        }
+                    } else if (skyboxHeight > skyboxMinHeight) {
+                        /* The ad is in an expanded state so we need to address the height of the spacer
+                         * and the position of the navigation rows below the ad.
+                         */
+                        // CBSi.log('_toggleStickyNav: The Skybox is expanded.');
+
+                        skyboxSpacer.css({ 'height' : skyboxMaxHeight + 'px' });
+                        navBar.css({ 'position': 'relative', 'top': 0 });
+
+                        mantle.css({ 'margin-top' : 0 });
+                        adSkin.css({'position' : 'absolute', 'top': 0 });
+                        
+                        if (bodyTag.hasClass(bodyNavClass)) {
+                            bodyTag.removeClass(bodyNavClass);
+                        }
+
+                        if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                            skyboxDiv.css({ 'height' : skyboxHeight + 'px' });
+                            skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                        }        
+                    }
+                } else {
+                    /*
+                     * The page is not scrolled at all so we want to set the spacer to a height of 0.
+                     */
+                    
+                    // CBSi.log('_toggleStickyNav: The page is not scrolled.');
+                    
+                    skyboxSpacer.css({ 'height' : 0 });
+                    navBar.css({ 'position': 'relative', 'top': 0 });
+
+                    mantle.css({ 'margin-top' : 0 });
+                    adSkin.css({'position' : 'absolute', 'top': 0 });
+                    
+                    if (bodyTag.hasClass(bodyNavClass)) {
+                        bodyTag.removeClass(bodyNavClass);
+                    }
+
+                    if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                        skyboxDiv.css({ 'position' : 'relative' , 'height' : skyboxHeight + 'px' });
+                        skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                    }
+                }
+            });
+        
+        if ($('.cbsGifAnimation').length) {CBSi.app.cbsGifAnimation.prototype.init();}
+        //setTimeout('CBSi.app.cbsGifAnimation.prototype.init();',3000);
+    });
+    </script>
+</span>
+<!-- no ClickTale -->
+     
+
+        
+<!-- Begin Tealium -->
+<script type="text/javascript">
+
+getTaboolaPlacements();
+var utag_data={
+
+    siteHier         : 'media|mlb|injuries',
+    siteSection      : 'media|mlb|||injuries|',
+    siteType         : 'desktop web',
+    userType         : 'anon',
+    userState        : 'not authenticated',
+    pageType         : 'injuries',
+    pageName         : '/mlb/injuries',
+    pageTypeId       : '6922',
+    pageOntologyId   : '22257',
+    pageViewGuid     : surround.vguid,
+    contentWidget    : surround.taboola,
+    country          : 'DK'
+}
+</script>
+<script type="text/javascript">
+(function(a,b,c,d){
+  a='https://tags.tiqcdn.com/utag/cbsi/cbssportssite/prod/utag.js';
+	b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+  a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+})();
+</script>
+
+<!-- End Tealium -->
+<!-- no refresh -->
+<!-- no dl recruit -->
+
+         <script type="text/javascript">
+           window._taboola = window._taboola || [];
+           _taboola.push({flush: true});
+         </script>
+      
+
+    
+</body>
+</html> 
+<!-- Page build info: WdyfjQoZUP0AADSvjDk 'ws5120.tm.cbsig.net' 13487 20171010 6:23:09 /spln/local/media/cache/full/spln/721/%2Fmlb%2Finjuries -->

@@ -1,0 +1,685 @@
+<!doctype html>
+<html>
+<head>
+	<script src="//cdn.optimizely.com/js/316424719.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, minimal-ui">
+		<meta name="apple-itunes-app" content="app-id=909683491">
+    <meta name="google-play-app" content="app-id=com.cbssports.collegenetwork.collegesportsliveapp"> 
+    
+    
+    <title>College Sports Live</title>
+    <link href="http://grfx.cstv.com/assets/collegesportslive/v1/app/css/fontello.css" rel="stylesheet"  type="text/css" />
+    <link href="http://grfx.cstv.com/assets/collegesportslive/v1/app/css/csl.min.css" rel="stylesheet" type="text/css" />
+    
+    <link href="css/splash-sell-15.css" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="http://grfx.cstv.com/scripts/common.js"></script>
+    <script type="text/javascript" src="http://grfx.cstv.com/scripts/oas-omni-controls.js"></script>
+    <script type='text/javascript' src="http://grfx.cstv.com/frontend/jquery/jquery-1.11.1.min.js"></script>
+    <script type='text/javascript' src="http://grfx.cstv.com/frontend/underscore/underscore-min-1.6.0.js"></script>
+    <script src="http://grfx.cstv.com/frontend/responsive/responsive-library.1.js"></script>
+    <script src="scripts/splash-plugins.js"></script>
+    <script src="http://grfx.cstv.com/scripts/smartbanner.js"></script>
+    
+    
+    
+ <!--============================================ START ALL TRACKING ======================================================-->   
+    
+    
+   <script type='text/javascript'>
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		(function() {
+		var gads = document.createElement('script');
+		gads.async = true;
+		gads.type = 'text/javascript';
+		var useSSL = 'https:' == document.location.protocol;
+		gads.src = (useSSL ? 'https:' : 'http:') +
+		'//www.googletagservices.com/tag/js/gpt.js';
+		var node = document.getElementsByTagName('script')[0];
+		node.parentNode.insertBefore(gads, node);
+		})();
+	</script>
+
+  
+  <script>(function() {
+    var _fbq = window._fbq || (window._fbq = []);
+    if (!_fbq.loaded) {
+      var fbds = document.createElement('script');
+      fbds.async = true;
+      fbds.src = '//connect.facebook.net/en_US/fbds.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(fbds, s);
+      _fbq.loaded = true;
+    }
+    _fbq.push(['addPixelId', '335237433333761']);
+  })();
+  window._fbq = window._fbq || [];
+  window._fbq.push(['track', 'PixelInitialized', {}]);
+  </script>
+  <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=335237433333761&amp;ev=PixelInitialized" /></noscript>
+
+
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '335237433333761');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=335237433333761&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <!-- Twitter tracking -->
+  <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+  <script type="text/javascript">twttr.conversion.trackPid('l6os7', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+  <noscript>
+  <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l6os7&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+  <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l6os7&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+  </noscript> 
+
+
+
+
+
+
+
+<!-- Google Code for Remarketing Tag -->
+<!-- ------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+------------------------------------------------- -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 950569026;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/950569026/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+<!--TRACKING_START-->
+<script>
+var utag_data = {
+    siteId: '225',
+    c2: '3000082',
+    pageViewGuid: v1(),
+    pageType: 'collegesportslive',
+    schoolId: cbsiAAData.school,
+    schoolName: cbsiAAData.fullname,
+    searchTerm: 'not set',
+    searchDimension: 'all|all|all|-:-',
+    siteHier: 'collegesportslive',
+    siteRsid: 'cbsicbscnsite-' + cbsiAAData.school, 
+    siteSection: 'collegesportslive',
+    siteType: 'desktop web',
+    userId: '',
+    userState: 'not authenticated',
+    userType: 'anon',
+}
+</script>
+
+<style type="text/css">
+#inseguitore{position:absolute;left:0;top:0;}
+</style>
+<div id="inseguitore">
+<!-- START Nielsen//NetRatings SiteCensus V5.3 -->
+<!-- COPYRIGHT 2007 Nielsen//NetRatings -->
+<script type="text/javascript">
+var _rsCI="us-cstv";
+var _rsCG="school";
+var _rsDN="//secure-us.imrworldwide.com/";
+var _rsPLfl=0;
+var _rsCL=1;
+</script>
+<script type="text/javascript" src="//secure-us.imrworldwide.com/v53.js"></script>
+<noscript>
+<div><img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-cstv&amp;cg=school&cc=1" alt=""/></div>
+</noscript>
+<!-- END Nielsen//NetRatings SiteCensus V5.3 --> 
+</div>
+
+<!-- CNET tag for reporting OAS traffic -->
+<script type="text/javascript" src="http://dw.cbsimg.net/js/cbsi/dw.js"></script>
+<script type="text/javascript">
+  DW.pageParams = {
+    siteId: '225'
+  };
+  DW.tagNielsen = false;
+  DW.clear();
+</script>
+<noscript>
+<img src="http://dw.cbsi.com/levt/video/e.gif?ts=1444248854&amp;sid=225&amp;im=img" border="0" height="1" width="1" alt="" />
+</noscript>
+
+<!-- Comscore tag -->
+<noscript>
+    <img src="http://b.scorecardresearch.com/b?c1=2&c2=3000023&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript> 
+<!-- <script language="JavaScript" type="text/javascript" src="//js.revsci.net/gateway/gw.js?csid=F09828&auto=t&bpid=cbsinteractive"></script> -->
+<script type='text/javascript'>var a=document.createElement("script");a.type="text/javascript";a.async=!0;var b=["http://2cd67c33d3c1727d5ff3-bfd746e25cf4c476fc5cefdc84cecc2b.r15.cf2.rackcdn.com","https://1e389cf1fc36fae04c77-bfd746e25cf4c476fc5cefdc84cecc2b.ssl.cf2.rackcdn.com"];a.src=("https:"==document.location.protocol?b[1]:b[0])+"/jgmvc0y9kwxw.js";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a,c);</script>
+<!--TRACKING_END-->
+
+
+ <!--============================================ END ALL TRACKING ======================================================-->   
+</head>
+<style>
+.lg-button-sd {
+    background: #f57421 none repeat scroll 0 0;
+    border: 1px solid #d1631c;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: "Roboto";
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 700;
+    height: 70px;
+    line-height: 70px;
+    margin: 30px auto;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out 0s;
+    width: 370px;
+}
+.h1orange{
+	color: #F57421 !important;
+	}
+
+</style>
+<body>
+
+
+
+<!-- begin Universal Container Tag - Impact Radius -->
+<script type="text/javascript">
+(function() {
+  var s = document.createElement('script'),
+  e = document.getElementsByTagName('script')[0];
+  s.src = '//d3cxv97fi8q177.cloudfront.net/foundation-A121062-2406-4629-b67b-8529a30308bc1.js';s.type = 'text/javascript';s.async = true;
+  e.parentNode.insertBefore(s, e);
+})();
+</script>
+<noscript><img src="//tl.r7ls.net/unscripted/121062" width="1" height="1"></noscript>
+<!-- end Universal Container Tag - Impact Radius -->
+
+<script src="//www.googleadservices.com/pagead/conversion.js"></script>
+<script src='//pixel.mathtag.com/event/js?mt_id=614712&mt_adid=130164&v1=&v2=&v3=&s1=&s2=&s3='></script>
+
+
+
+
+  <div id="splash-header">
+    <div class="container">
+      <div id="splash-header-logo">
+        <img src="http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-mast-logo.png" alt="College Sports Live" />
+      </div>
+
+      <div id="splash-nav">
+        <a id="splash-mobile-nav"><i class="icon-menu"></i></a>
+        <ul class="nav-closed">
+          <li class="schedule"><a href="http://www.collegesportslive.com" class="launch-site">Programming Schedule</a></li>
+          <li><a class="auto-popup-login add-slash" href="http://www.collegesportslive.com">Log In</a></li>
+          <li id="splash-signup"><a class="splash-subscribe" href="#?intcid=CLI9ebf6e2">Sign Up Now!</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="splash-bg"></div>
+
+  <div id="splash-promo">
+    <div id="splash-promo-wrap">
+
+      <ul id="splash-promo-slider">
+         <li data-bg-lg="http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-bg-photo-1.jpg" data-bg-sm="http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-bg-photo-1-sm2.jpg"  style="display: none;">
+          <h1>Your School. Your Sports. Unlimited Access.</h1>
+          <div class="short-divider"></div>
+          <h4>As Low as $9.95 a month</h4>
+          <a href="#?intcid=CLI2c82df7" class="lg-button splash-subscribe">Try It Now</a>
+        </li>
+       <li data-bg-lg="http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-bg-photo-2.jpg" data-bg-sm="http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-bg-photo-2-sm2.jpg"  style="display: none;">
+          <h1>Your School. Your Sports. Unlimited Access.</h1>
+          <div class="short-divider"></div>
+          <h4>As Low as $9.95 a month</h4>
+          <a href="#?intcid=CLI2c82df7" class="lg-button splash-subscribe">Try It Now</a>
+        </li>
+        <li data-bg-lg="http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-bg-photo-3.jpg" data-bg-sm="http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-bg-photo-3-sm2.jpg"  style="display: none;">
+          <h1>Your School. Your Sports. Unlimited Access.</h1>
+          <div class="short-divider"></div>
+          <h4>As Low as $9.95 a month</h4>
+          <a href="#?intcid=CLI2c82df7" class="lg-button splash-subscribe">Try It Now</a>
+        </li>
+      </ul> 
+    </div>
+
+    <a href="#splash-sect-1" id="scroll-down"><i class="fa fa-angle-down"></i></a>
+
+    <script src="http://grfx.cstv.com/frontend/bxslider-4/jquery.bxslider.min.js"></script>
+    <script>
+
+    var setPromoSize = function() {
+      var h  = $(window).height() - 33;
+      $("#splash-promo").css({'min-height': h});
+      $("#splash-bg").css({'height': h+50});
+    }
+
+    $(function() {
+
+      setPromoSize();
+
+      $(window).on("resize", function(){
+        setPromoSize();
+      })
+
+      $("body").on("click", "#scroll-down", function(e) {
+        e.preventDefault();
+        var sectTop = $("#splash-sect-1").offset().top;
+        $('html,body').animate({
+          scrollTop: sectTop-100
+        }, 450);
+      })
+
+      $('#splash-promo-slider').bxSlider({
+        adaptiveHeight: true,
+        mode: 'fade',
+        controls: false,
+        pager: true,
+        auto: true,
+        pause: 10000,
+        touchEnabled: false,
+        onSliderLoad: function() {
+          var lgOrSm = $(window).width() < 1024 ? 'sm' : 'lg';
+          $("#splash-bg").css({"background-image": 'url(' + $('#splash-promo-slider li:eq(0)').data('bg-' + lgOrSm) + ')' })
+        },
+        onSlideBefore: function($slideElement, oldIndex, newIndex) {
+          var lgOrSm = $(window).width() < 1024 ? 'sm' : 'lg';
+          $("#splash-bg").css({"background-image": 'url(' + $('#splash-promo-slider li:eq(' + newIndex + ')').data('bg-' + lgOrSm) + ')' })
+        }
+      });
+
+    });
+    </script>
+
+  </div>
+
+
+  <div id="splash-main">
+
+
+    <div id="splash-sect-1">
+      <div class="splash-container">
+        <h2>What is <span class="nowrap">College Sports Live?</span></h2>
+        <div class="short-divider"></div>
+        <div class="column-third">
+          <img src="http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-icon-your-school.png" alt="Your School" />
+          <h3>Your School</h3>
+          <p>Featuring over 50 schools, College Sports Live delivers exclusive coverage with customization and DVR functionality, to any of your screens.</p>
+          <p><a href="#" class="show-schools">Full List of Schools &raquo;</a></p>
+        </div>
+        <div class="column-third">
+          <img src="http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-icon-your-sports.png" alt="Your Sports" />
+          <h3>Your Sports</h3>
+          <p>Over 30 different Men's and Women's sports. 10,000 live events per year. College Sports Live is the most comprehensive collegiate sports streaming product available.</p>
+          
+        </div>
+        <div class="column-third">
+          <img src="http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-icon-unlimited-access.png" alt="unlimited Access" />
+          <h3>Unlimited Access</h3>
+          <p>Watch and listen to live events and on-demand videos, on your schedule, from anywhere. College Sports Live features more ways to watch, on multiple displays and devices.</p>
+        </div>
+        <div class="clear"></div>
+        <a href="#?intcid=CLI2c82df7" class="lg-button splash-subscribe">Try It Now</a>
+      </div>
+    </div>
+
+    <div id="splash-sect-2">
+      <div class="splash-container">
+        <h2>Get the App</h2>
+        <div class="short-divider"></div>
+        <p>Download the free app now and get in on the College Sports Live action, anytime anywhere!</p>
+        <a href="https://itunes.apple.com/us/app/college-sports-live/id909683491?mt=8&uo=4" target="_blank"><img class="app-store" src="http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-btn-apple-app.png" alt="App Store"/></a>
+        <a href="https://play.google.com/store/apps/details?id=com.cbssports.collegenetwork.collegesportsliveapp&hl=en" target="_blank"><img class="app-store last" src="http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-btn-google-app.png" alt="Google Play" /></a>
+        <img class="img-block centered" data-imageload="http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-graphic-tablet.png,http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-graphic-tablet-sm3.png" alt="Watch on your tablet" />
+
+      </div>
+    </div>
+
+    <div id="splash-sect-3">
+      <div class="splash-container">
+        <h2>Featuring More Ways to Watch</h2>
+        <div class="short-divider"></div>
+        <p>Watch & Listen to Sporting Events on Multiple Displays & Devices</p>
+        <p><a href="#" class="lg-button splash-subscribe">Try It Now</a></p>
+        <img class="img-block centered" data-imageload="http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-graphic-multidisplay-roku-fade.png,http://grfx.cstv.com/schools/cslive/graphics/csl-sell-15-graphic-multidisplay-300.png" alt="Watch on multiple devices" />
+
+      </div>
+    </div>
+
+    <div id="splash-faq">
+      &nbsp; <a href="https://cbsi.secure.force.com/CBSi/knowledgehome?referer=cbsallaccess.com" target="_blank">Frequently Asked Questions &raquo;</a>
+      <div id="social-box">
+        <a href="https://www.facebook.com/collegesportslive" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/watchcsl" target="_blank"><i class="fa fa-twitter"></i></a>
+      </div>
+    </div>
+    <br><br><br><br><br><br>
+    <br><br><br>
+
+    <div class="footer-b2b" style="text-align: center;">
+      <a href="http://www.cbsiam.com/" target="_blank"><img src="http://grfx.cstv.com/graphics/new-footer-06-white-logo.png" alt="CBSi Advanced Media"></a>
+    </div>
+    <br><br><br><br><br><br>
+    <br><br><br>
+  </div><!-- /splash-main -->
+
+  <script>
+  var winWidth = $(window).width(); 
+  $(document).responsiveimages();
+  $(window).smartresize(function() {
+    winWidth = $(window).width(); 
+  });
+  </script>
+
+
+
+  <div id="splash-modal-bg"></div>
+  <div id="splash-modal-schools">
+    <div id="splash-modal-close"><i class="fa fa-times"></i></div>
+    <h5><img id="splash-modal-logo" src="http://grfx.cstv.com/graphics/school-logos/cslive-highres.png" alt="College Sports Live" />List of Schools</h5>
+    <ul id="splash-school-list">
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/afa-sm.png" alt="Air Force" />Air Force</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/aub-sm.png" alt="Auburn" />Auburn</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/bay-sm.png" alt="Baylor" />Baylor</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/bosu-sm.png" alt="Boise State" />Boise State</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/colat-sm.png" alt="Colonial Athletic Association" />CAA</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/cmu-sm.png" alt="Central Michigan" />Central Michigan</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/coas-sm.png" alt="Coastal Carolina" />Coastal Carolina</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/denv-sm.png" alt="Denver" />Denver</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/depa-sm.png" alt="DePaul" />DePaul</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/fast-sm.png" alt="Fayetteville State" />Fayetteville State</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/fau-sm.png" alt="Florida Atlantic" />Florida Atlantic</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/gewa-sm.png" alt="George Washington" />George Washington</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/gu-sm.png" alt="Georgetown" />Georgetown</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/geot-sm.png" alt="Georgia Tech" />Georgia Tech</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/gonz-sm.png" alt="Georgia Tech" />Gonzaga</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/hou-sm.png" alt="Houston" />Houston</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/jhop-sm.png" alt="Johns Hopkins" />Johns Hopkins</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/latc-sm.png" alt="Lousiana Tech" />Lousiana Tech</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/locl-sm.png" alt="Loyola Maryland" />Loyola Maryland</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/loyo-sm.png" alt="Loyola Marymount" />Loyola Marymount</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/marq-sm.png" alt="Marquette" />Marquette</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/mars-sm.png" alt="Marshall" />Marshall</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/mioh-sm.png" alt="Miami of Ohio" />Miami (Ohio)</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/msu-sm.png" alt="Michigan State" />Michigan State</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/minn-sm.png" alt="Minnesota" />Minnesota</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/navy-sm.png" alt="Navy" />Navy</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/ntex-sm.png" alt="North Texas" />North Texas</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/nd-sm.png" alt="Notre Dame" />Notre Dame</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/oakl-sm.png" alt="Oakland" />Oakland</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/osu-sm.png" alt="Ohio State University" />Ohio State</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/ole-sm.png" alt="Ole Miss" />Ole Miss</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/psu-sm.png" alt="Penn State" />Penn State</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/prov-sm.png" alt="Providence" />Providence</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/rice-sm.png" alt="Rice" />Rice</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/scar-sm.png" alt="South Carolina" />South Carolina</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/smis-sm.png" alt="Southern Miss" />Southern Miss</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/stjo-sm.png" alt="St. John's" />St. John's</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/tcu-sm.png" alt="TCU" />TCU</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/conn-sm.png" alt="UCONN" />UCONN</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/mdes-sm.png" alt="UMES" />UMES</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/txar-sm.png" alt="Texas - Arlington" />UT Arlington</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/vand-sm.png" alt="Vanderbilt" />Vanderbilt</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/nova-sm.png" alt="Villanova" />Villanova</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/va-sm.png" alt="Virginia" />Virginia</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/wake-sm.png" alt="Wake Forest" />Wake Forest</li>
+      <li><img src="http://grfx.cstv.com/graphics/school-logos/wcar-sm.png" alt="Western Carolina" />Western Carolina</li>
+    </ul>
+</div>
+
+
+
+<script>
+
+var $app = {
+  params:  function(val) {
+    if (!val) return '';
+    var a = val.replace('?','').split('&');
+
+    if (a == "") return {};
+    var b = {};
+    for (var i = 0; i < a.length; ++i) {
+      var p = a[i].split('=');
+      if (p.length != 2) continue;
+      b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+    }
+    return b;
+  }
+};
+
+$(function(){ 
+
+      // SPLASH
+    $("body").on("click", "#splash-mobile-nav", function() {
+
+      if ($("#splash-nav ul").hasClass("nav-closed")) {
+        $("#splash-nav ul").addClass("nav-open");
+        $("#splash-nav ul").removeClass("nav-closed");
+      } else {
+        $("#splash-nav ul").addClass("nav-closed");
+        $("#splash-nav ul").removeClass("nav-open");
+      }
+
+    });
+
+
+  $("body").on("click", "#splash-modal-close, #splash-modal-bg", function(e) {
+    e.preventDefault();
+    $("#splash-modal-schools, #splash-modal-bg").hide();
+  });
+  $("body").on("click", ".show-schools", function(e) {
+    e.preventDefault();
+    $("#splash-modal-schools, #splash-modal-bg").fadeIn();
+  });
+
+
+  $("body").on("click", ".launch-site", function(e) {
+    e.preventDefault();
+
+    $.cookies.set('CSL_ignoreSplash', 'true');
+
+    if (window.location.search) {
+
+      var loc = $app.params(window.location.search);
+      var newLoc =  'http://www.collegesportslive.com/?';
+      if (window.location.search) {
+        _.each(loc, function(val, key) {
+          newLoc += '&'+key+'='+val;
+        });
+      }
+      newLoc = newLoc.replace('?&', '?');
+      newLoc = newLoc.replace('??', '?');
+      window.location.href = newLoc;
+
+      return;
+
+    } else {
+      window.location.href="http://www.collegesportslive.com/";
+      return;    
+    }
+
+  });
+
+  $("body").on("click", ".splash-subscribe", function(e) {
+
+      e.preventDefault();
+
+      var additional = "";
+      var loc;
+      if (window.location.search) {
+        loc = $app.params(window.location.search);
+        var href = $app.params($(this).attr('href'));
+        if (!loc.ftag && href.ftag) {
+          additional += "&ftag=" + href.ftag;
+        }
+        _.each(loc, function(val, key) {
+          additional += "&"+key+'='+val;
+        });
+      } else {
+        additional = $(this).attr('href').replace('?', '&');
+      }
+      additional = additional.replace('#', '');
+
+
+      loc = 'http://www.collegesportslive.com/';
+      loc = loc.replace(/\#/, '');
+      loc = loc.replace(/\?.*$/, '');
+
+
+      window.location.href = 'https://reg.cstv.com/register/?school_code=cslive&license_ids=' + additional + '&redir=' + loc;
+    });
+
+
+
+  $("body").on("click", ".auto-popup-login", function(e) {
+    e.preventDefault();
+
+    $.cookies.set('CSL_ignoreSplash', 'true');
+      var loc = $app.params(window.location.search);
+      var newLoc =  'http://www.collegesportslive.com/?show_login=true';
+      if (window.location.search) {
+        _.each(loc, function(val, key) {
+          newLoc += '&'+key+'='+val;
+        });
+      }
+      newLoc = newLoc.replace('?&', '?');
+      newLoc = newLoc.replace('??', '?');
+      window.location.href = newLoc;
+      return;
+  });
+
+
+  
+
+
+});
+</script>
+
+<script>
+  window.NaN_api = [
+    [313050, ''],
+    ['visit', 'landing']
+  ]; 
+  (function() {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = '//cdn.nanigans.com/NaN_tracker.js';
+    var h = document.getElementsByTagName('head')[0];
+    h.appendChild(s);
+  })();
+</script>
+
+ 
+<!--TRACKING_START-->
+<script type="text/javascript" src="//grfx.cstv.com/scripts/guid-1.0.js"></script>
+<script type="text/javascript">
+var utag_data;
+function get_page_title() {
+    if (document.querySelector(".StoryHeadline") !== null && document.querySelector(".StoryHeadline").innerHTML.length > 0) {
+        return document.querySelector(".StoryHeadline").innerHTML;
+    }
+
+    var metas = document.getElementsByTagName('meta');
+    for (i=0; i<metas.length; i++) {
+        if (metas[i].getAttribute("property") == "og:title") {
+            return metas[i].getAttribute("content");
+        }
+    }
+
+    return document.title || '';
+}
+ 
+utag_data = {
+    siteId: '225',
+    c2: '3000082',
+    pageViewGuid: v1(),
+    articleId: 'index',
+    articlePubDate: '',
+    articleTitle: get_page_title(),
+    articleType: '',
+    pageType: 'collegesportslive',
+    schoolId: 'cslive',
+    schoolName: 'College Sports Live',
+    searchTerm: '',
+    siteHier: 'collegesportslive',
+    siteRsid: 'cbsicbscnsite-cslive',
+    siteSection: 'collegesportslive',
+    siteType: 'desktop web',
+    sportName: '',
+};
+(function(a,b,c,d){
+   a='//tags.tiqcdn.com/utag/cbsi/cbscnsite/prod/utag.js';
+   b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+   a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+})();
+ 
+</script>
+
+<style type="text/css">
+#inseguitore{position:absolute;left:0;top:0;}
+</style>
+<div id="inseguitore">
+<!-- START Nielsen//NetRatings SiteCensus V5.3 -->
+<!-- COPYRIGHT 2007 Nielsen//NetRatings -->
+<script type="text/javascript">
+var _rsCI="us-cstv";
+var _rsCG="school";
+var _rsDN="//secure-us.imrworldwide.com/";
+var _rsPLfl=0;
+var _rsCL=1;
+</script>
+<script type="text/javascript" src="//secure-us.imrworldwide.com/v53.js"></script>
+<noscript>
+<div><img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-cstv&amp;cg=school&cc=1" alt=""/></div>
+</noscript>
+<!-- END Nielsen//NetRatings SiteCensus V5.3 --> 
+</div>
+
+<!-- CNET tag for reporting OAS traffic -->
+<script type="text/javascript" src="http://dw.cbsimg.net/js/cbsi/dw.js"></script>
+<script type="text/javascript">
+  DW.pageParams = {
+    siteId: '225'
+  };
+  DW.tagNielsen = false;
+  DW.clear();
+</script>
+<noscript>
+<img src="http://dw.cbsi.com/levt/video/e.gif?ts=1507631028&amp;sid=225&amp;im=img" border="0" height="1" width="1" alt="" />
+</noscript>
+
+<!-- Comscore tag -->
+<noscript>
+    <img src="http://b.scorecardresearch.com/b?c1=2&c2=3000023&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript> 
+<script type='text/javascript'>var a=document.createElement("script");a.type="text/javascript";a.async=!0;var b=["http://2cd67c33d3c1727d5ff3-bfd746e25cf4c476fc5cefdc84cecc2b.r15.cf2.rackcdn.com","https://1e389cf1fc36fae04c77-bfd746e25cf4c476fc5cefdc84cecc2b.ssl.cf2.rackcdn.com"];a.src=("https:"==document.location.protocol?b[1]:b[0])+"/jgmvc0y9kwxw.js";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a,c);</script>
+<!--TRACKING_END-->
+
+</body>
+</html>

@@ -1,0 +1,2481 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta property="fb:pages" content="53219688800" />		
+			<link href="https://www.nascar.com/wp-content/themes/ndms-2016/css/stainless.css?v=1.001" rel="stylesheet"/>	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://www.nascar.com/xmlrpc.php">
+
+	<style>
+		</style>
+	<title>NASCAR Official Home | Race results, schedule, standings, news, drivers</title>
+<!--[if lt IE 9]>
+<script src="https://www.nascar.com/wp-content/themes/ndms-2016/js/html5shiv.js"></script>
+<![endif]-->
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v4.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="NASCAR.com is the best source for race results, live updates, standings, schedules, driver stats for Monster Energy, XFINITY, Camping World Truck Series"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.nascar.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="NASCAR Official Home | Race results, schedule, standings, news, drivers" />
+<meta property="og:description" content="NASCAR.com is the best source for race results, live updates, standings, schedules, driver stats for Monster Energy, XFINITY, Camping World Truck Series" />
+<meta property="og:url" content="https://www.nascar.com/" />
+<meta property="og:site_name" content="Official Site Of NASCAR" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/10/Martin-Truex-Charlotte2-hero2-625x340.jpg" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/01/os-nascar-to-be-monster-energy-cup-series-starting-next-season-20161219-70x35.jpg" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/01/Xfinity-Logo-70x35.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/08/ncwts_navigation_320x1801-62x35.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/10/MENCS_2017_Charlotte_BofA500-190x110-1.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/themes/ndms-2016/images/right_arrow.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/04/NXS_2017_Charlotte_DrivefortheCure300-190x110.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/04/NCWTS_2017_Talladega_Freds250-190x110.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/themes/ndms-2016/images/nascar-right-carot.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/themes/ndms-2016/images/video-icon.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/10/mencs17-cha2-fl-thumb-425x226.jpg" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/themes/ndms-2016/images/video-article-icon.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/10/mencs17-cha2-burnout-thumb-425x226.jpg" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/10/2017-Oct8-Jarrett-main-425x226.jpg" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/10/robert-yates-davey-allison-main-425x226.jpg" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/themes/ndms-2016/images/gallery-article-icon.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/10/2017-Oct8-Truexwins-tile-425x226.jpg" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/10/1677257476001_5601603815001_5601557717001-vs-425x226.jpg" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/10/Bill-Elliott-Chase-Elliott-425x226.jpg" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/10/Tide-car-kenseth-425x226.jpg" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/10/1677257476001_5601919307001_5601899228001-vs-425x226.jpg" />
+<meta property="og:image" content="http://www.nascar.com/gallery-images/2017/10/05/thumbnail/hendrick-motorsports-paint-schemes-unveil+(1).jpg" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/10/dale-jr-helmet-425x226.jpg" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/10/better-half-dash-jennifer-anderson-wins-1006-425x226.jpg" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/06/june19-updated-fanatics-monster-gear-425x226.jpg" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/themes/ndms-2016/images/right_new_active.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/08/camping-series-70.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/02/hometracks-70x35.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/02/twitta.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/02/fb.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/02/youtube.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/02/insta.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/03/Snapchat-icon.png" />
+<meta property="og:image" content="http://www.nascar.com/wp-content/themes/ndms-2016/images/photo-icon.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="NASCAR.com is the best source for race results, live updates, standings, schedules, driver stats for Monster Energy, XFINITY, Camping World Truck Series" />
+<meta name="twitter:title" content="NASCAR Official Home | Race results, schedule, standings, news, drivers" />
+<meta name="twitter:site" content="@NASCAR" />
+<meta name="twitter:image" content="http://www.nascar.com/wp-content/uploads/sites/7/2017/10/Martin-Truex-Charlotte2-hero2-625x340.jpg" />
+<meta name="twitter:creator" content="@NASCAR" />
+<meta property="DC.date.issued" content="2017-02-14T22:19:38-04:00" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/www.nascar.com\/","name":"Official Site Of NASCAR","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.nascar.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"https:\/\/www.nascar.com\/","sameAs":["http:\/\/www.facebook.com\/NASCAR","https:\/\/instagram.com\/NASCAR","https:\/\/twitter.com\/NASCAR"],"@id":"#organization","name":"NASCAR","logo":"https:\/\/www.nascar.com\/wp-content\/uploads\/sites\/7\/2017\/03\/New-NASCAR-Logo.jpg"}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Official Site Of NASCAR &raquo; Feed" href="https://www.nascar.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Official Site Of NASCAR &raquo; Comments Feed" href="https://www.nascar.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.nascar.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.1"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b===c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dashicons-css'  href='https://www.nascar.com/wp-includes/css/dashicons.min.css?ver=4.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='https://www.nascar.com/wp-includes/js/thickbox/thickbox.css?ver=4.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ndms-video-styles-css'  href='https://www.nascar.com/wp-content/plugins/ndms-video/css/ndms-video.min.css?ver=4.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='vsr-css'  href='https://www.nascar.com/wp-content/mu-plugins/vsr/public/css/vsr-public.css?ver=0.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-panels-front-css'  href='https://www.nascar.com/wp-content/plugins/siteorigin-panels/inc/../css/front-flex.css?ver=2.5.10' type='text/css' media='all' />
+<link rel='stylesheet' id='ndms-content-sharing-css'  href='https://www.nascar.com/wp-content/plugins/ndms-content-sharing/public/css/ndms-content-sharing-public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='https://www.nascar.com/wp-content/themes/ndms-2016/genericons/genericons.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ndms-style-css'  href='https://www.nascar.com/wp-content/themes/ndms-2016/style.css?ver=4.8.1' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='ndms-ie-css'  href='https://www.nascar.com/wp-content/themes/ndms-2016/css/ie.css?ver=1.0' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='raceCenter-css'  href='https://www.nascar.com/wp-content/plugins/ndms_liveops/raceCenter/css/style.css?ver=4.8.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.nascar.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.nascar.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.nascar.com/wp-content/mu-plugins/vsr/public/js/vsr-public.js?ver=0.1.0'></script>
+<script type='text/javascript' src='https://www.nascar.com/wp-content/plugins/ndms_widgets/recentNewsList/js/script.js?ver=4.8.1'></script>
+<script type='text/javascript' src='https://www.nascar.com/wp-content/plugins/ndms-content-sharing/public/js/ndms-content-sharing-public.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://www.nascar.com/wp-content/plugins/ndms_liveops/raceCenter/js/raceCenter.js?ver=4.8.1'></script>
+<link rel='https://api.w.org/' href='https://www.nascar.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.nascar.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.nascar.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.1" />
+<link rel='shortlink' href='https://www.nascar.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.nascar.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nascar.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.nascar.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nascar.com%2F&#038;format=xml" />
+<style></style>				<style type="text/css" media="all"
+				       id="siteorigin-panels-layouts-head">/* Layout 1039 */ #pgc-1039-0-0 { width:72.0413%;width:calc(72.0413% - ( 0.27958740499457 * 30px ) ) } #pgc-1039-0-1 { width:27.9587%;width:calc(27.9587% - ( 0.72041259500543 * 30px ) ) } #pg-1039-0 , #pg-1039-1 , #pg-1039-2 , #pg-1039-3 , #pg-1039-4 , #pg-1039-5 , #pl-1039 .so-panel { margin-bottom:30px } #pgc-1039-1-0 , #pgc-1039-3-0 , #pgc-1039-4-0 , #pgc-1039-5-0 , #pgc-1039-6-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pgc-1039-2-0 { width:72.5826%;width:calc(72.5826% - ( 0.27417361460262 * 30px ) ) } #pgc-1039-2-1 { width:27.4174%;width:calc(27.4174% - ( 0.72582638539738 * 30px ) ) } #pl-1039 .so-panel:last-child { margin-bottom:0px } #pg-1039-1> .panel-row-style , #pg-1039-3> .panel-row-style , #pg-1039-5> .panel-row-style { background-color:#ffffff } #pg-1039-1.panel-no-style, #pg-1039-1.panel-has-style > .panel-row-style , #pg-1039-4.panel-no-style, #pg-1039-4.panel-has-style > .panel-row-style , #pg-1039-5.panel-no-style, #pg-1039-5.panel-has-style > .panel-row-style , #pg-1039-6.panel-no-style, #pg-1039-6.panel-has-style > .panel-row-style { -webkit-align-items:flex-start;align-items:flex-start } #pg-1039-4> .panel-row-style , #pg-1039-6> .panel-row-style { background-color:#000000 } @media (max-width:780px){ #pg-1039-0.panel-no-style, #pg-1039-0.panel-has-style > .panel-row-style , #pg-1039-1.panel-no-style, #pg-1039-1.panel-has-style > .panel-row-style , #pg-1039-2.panel-no-style, #pg-1039-2.panel-has-style > .panel-row-style , #pg-1039-3.panel-no-style, #pg-1039-3.panel-has-style > .panel-row-style , #pg-1039-4.panel-no-style, #pg-1039-4.panel-has-style > .panel-row-style , #pg-1039-5.panel-no-style, #pg-1039-5.panel-has-style > .panel-row-style , #pg-1039-6.panel-no-style, #pg-1039-6.panel-has-style > .panel-row-style { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-1039-0 .panel-grid-cell , #pg-1039-1 .panel-grid-cell , #pg-1039-2 .panel-grid-cell , #pg-1039-3 .panel-grid-cell , #pg-1039-4 .panel-grid-cell , #pg-1039-5 .panel-grid-cell , #pg-1039-6 .panel-grid-cell { margin-right:0 } #pg-1039-0 .panel-grid-cell , #pg-1039-1 .panel-grid-cell , #pg-1039-2 .panel-grid-cell , #pg-1039-3 .panel-grid-cell , #pg-1039-4 .panel-grid-cell , #pg-1039-5 .panel-grid-cell , #pg-1039-6 .panel-grid-cell { width:100% } #pgc-1039-0-0 , #pgc-1039-2-0 { margin-bottom:30px } #pl-1039 .panel-grid-cell { padding:0 } #pl-1039 .panel-grid .panel-grid-cell-empty { display:none } #pl-1039 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } </style><link rel="icon" href="https://www.nascar.com/wp-content/uploads/sites/7/2017/04/cropped-nascarfavicon2_transparent-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.nascar.com/wp-content/uploads/sites/7/2017/04/cropped-nascarfavicon2_transparent-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.nascar.com/wp-content/uploads/sites/7/2017/04/cropped-nascarfavicon2_transparent-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.nascar.com/wp-content/uploads/sites/7/2017/04/cropped-nascarfavicon2_transparent-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+#nascar-promoplayer .video-js .vjs-big-play-button{
+	display:none !important;
+}
+
+#nascar-promoplayer .video-js .vjs-tech{
+	height: 169px !important;
+	width: 300px !important;
+}
+
+/* 
+removes duplicate padding-left 
+*/
+.recent-news-container.list,
+.recent-news-container.grid {
+    padding-left: 0;
+}
+
+.salutes-wrapper{
+	padding-left: 30px;
+}
+.salutes-wrapper .excerpt-with-image{
+	padding-left: 0;
+}
+
+/*
+for salutes page id 831
+*/
+.page-id-831 .recent-news-item .recent-news-image {
+    width: 30%;
+    display: inline-block;
+}
+.salutes-placard{
+text-align:center;
+}
+
+@media screen and (max-width: 768px){
+.salutes-wrapper{
+	padding-left: 10px;
+}
+.salutes-placard .simple-image-container a{
+width:auto !important;
+}
+.salutes-header .simple-image-container{
+padding: 0;
+margin: 0;
+}
+
+.salutes-header-video .textwidget{
+padding: 0;
+}
+.recent-news-container.list .recent-news-item .excerpt-with-image h2, .recent-news-container.list .recent-news-item .excerpt-with-image h3, .recent-news-container.list .recent-news-item .excerpt-with-image .article-excerpt{
+	padding-left:0;
+text-align: center;
+}
+}
+		</style>
+	<style>
+    body{
+        background-color: #ededed;
+        font-size: 14px;
+        line-height: 1.7em;
+        font-family: Stainless-Regular,Helvetica,Arial,sans-serif;
+        color:#0a0a0a;
+    }
+
+    .secondary-font{
+	    font-family: ;
+    }
+
+    .primary-font,
+    button,
+    div.button{
+        font-family: Stainless-Regular,Helvetica,Arial,sans-serif;
+    }
+
+    h1{
+        font-size: 20px;
+        font-family: ;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    h2{
+        font-size: 18px;
+        color: #000000;
+    }
+    h3{
+        font-size: 16px;
+        color: #000000;
+    }
+
+    .inner-container, .light .single-gallery-widget, .article-page-container, .inner-container, .main-page-container{
+        background-color: #ffffff;
+    }
+    .content-item.light, .light h2 {
+        background-color: #ffffff;
+        color:#000000;
+    }
+    .content-item.light, .light h3 {
+        color:#000000;
+    }
+    .content-item.dark, .dark h3 {
+        color:#;
+    }
+    .article-excerpt{
+        color:#0a0a0a;
+        font-size:;
+    }
+    .article-page-container .entry-title, .main-page-container .entry-title{
+        font-size: ;
+        line-height: 1.3em;
+    }
+    .article-page-container .entry-content, .main-page-container .entry-content{
+        font-size: ;
+        line-height: 1.4em;
+    }
+    .content-item.light{
+        padding-left:15px;
+    }
+
+    .dark{
+        color:#ffffff;
+    }
+
+    .dark, .dark h2, .dark h1 {
+        background-color: #0a0101;
+        padding-left: 0px;
+        padding-top: 0px;
+        color:#;
+    }
+    .dark h1 {
+        color:#;
+    }
+    .content-teasers-container.dark{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        margin-right: 15px;
+    }
+    .dark .content-item{
+        width:295px;
+    }
+    .content-teasers-container.dark .content-item a:hover h2{
+        color:#ffffff !important;
+    }
+    .content-teasers-container.light .content-item a:hover h2{
+        color:#0a0a0a !important;
+    }
+    .dark .content-item.full-width{
+        width:100%;
+    }
+    .light, .light h2, .light h1 {
+        background-color: #ffffff;
+        color:#000000;
+    }
+    .light h1{
+        color:#000000;
+    }
+
+    .section-header.border-light{
+        background-color: #ffffff;
+        color:#0a0a0a;
+    }
+    .section-header.border-light .inner-section{
+        border-bottom-color: #0a0101;
+    }
+    .section-header.border-dark, .inner-section.dark{
+        background-color: #0a0101;
+        color:#ffffff;
+        border-bottom-color: #ffffff;
+    }
+    .section-header.border-dark .inner-section{
+        border-bottom-color: #ffffff;
+    }
+
+    @media screen and (max-width: 673px) {
+        .content-teasers-container.dark {
+            padding-left: 0;
+            padding-right: 0;
+            margin-right: 0;
+        }
+        .dark .content-item{
+            width:100%;
+        }
+    }
+    .content-teasers-container.dark .content-item:nth-child(even) {
+        padding-right: 0;
+    }
+    .riyad_title{
+         font-size: ;
+        }
+    a, a.light, .light a{
+        color: #016699;
+        display:inline-block;
+    }
+    .widget a:hover, a:hover{
+        color: #016699;
+    }
+    .driver-dropdown .dropdown-menu li a:hover {
+        background: #016699;
+    }
+    .widget a:hover, a:hover, a h3:hover{
+        color: #016699;
+    }
+
+    a, a.dark, .dark a{
+        color: #;
+        display:block;
+    }
+    .dark.widget a:hover,.dark .widget a:hover, .dark a:hover, a.dark:hover, .dark a h3:hover{
+        color: #;
+    }
+
+	.schedule-promo-title a:hover{
+		color:#016699;
+	}
+    .schedule-appearances-component .main-header-tab li.active{
+        background-color: #0a0a0a;
+    }
+    .schedule-appearances-component .main-header-tab li.active span{
+        color: #f7f7f7;
+    }
+
+    .site-footer, .alt-footer-outer{
+        background-color: #0a0a0a;
+    }
+    .site-footer .site-navigation a, .alt-footer-outer .site-navigation a{
+        font-size: 13px;
+        color: #757575;
+    }
+    footer .copyright-text{
+        color: #757575;
+    }
+
+    .header-wrap{
+	        }
+    #masthead {
+       background-color: #;
+        color: #fff;
+            }
+    .site-footer-c{
+            }
+    .toggled-on .menu-main-nav-container{
+        background-color: #;
+    }
+    .primary-navigation ul ul{
+        background-color: #;
+        color: #fff;
+    }
+    .primary-navigation .sub-menu,
+    .toggled-on .menu-toggle,
+    /*.menu-item.toggled-on*/
+    {
+            background-color: #;
+    }
+    .primary-navigation li:hover > a,
+    .primary-navigation li.focus > a {
+        background-color: #016699;
+    }
+    .primary-navigation li:hover > .navigation-header{
+        background-color: #;
+    }
+    nav.navigation.site-navigation.secondary-navigation{
+        display: none;
+    }
+    a:active,
+    a:hover {
+        color: #016699;
+    }
+    .schedule-appearances-component .main-header-tab li.active{
+        background-color: #0a0a0a;
+    }
+    #schedule-tab:hover, .schedule-appearances-component .main-header-tab li.active span:hover{
+        color: #;
+    }
+    .button, .btn{
+        font-size: 14px;
+    }
+    button, .btn , .light button, .light .btn, .button{
+        background-color: #0a0a0a;
+        font-size: 14px;
+        color: #f7f7f7;
+    }
+    button a, .btn, .light button a, .light .btn, .button a, button.light{
+        color: #f7f7f7;
+        font-size: 14px;
+    }
+    button a:hover, .btn:hover,.light button:hover, .light button a:hover, .light .btn:hover, .button a:hover{
+           color: #;
+    }
+    .dark button, .dark .btn, button.dark, .dark a, .dark.button{
+        color: #;
+    }
+    button.dark a{
+        color: #;
+    }
+    .dark button:hover, .dark .btn:hover, .dark.btn:hover, button.dark:hover, button.dark a:hover{
+        color: #;
+    }
+    .light .nolink:hover, .nolink.light:hover{
+        color: #f7f7f7;
+    }
+    h2.nolink.light:hover{
+        color: #000000;
+    }
+    .dark .nolink:hover, .nolink.dark:hover{
+        color: #;
+    }
+    .light .upcoming-header:hover{
+        color: #f7f7f7;
+    }
+    .dark .upcoming-header:hover{
+        color: #;
+    }
+    li.tab a, .light li.tab a, li.light.tab a, li.light a{
+        color: #;
+        font-size: 12px;
+    }
+    li.tab.active a, .light li.tab.active a{
+        color: #;
+        border-bottom: 4px solid #;
+    }
+    .dark li.tab a, .dark li.dark a, li.dark.tab a{
+        color: #;
+    }
+    .dark li.tab.active a, li.dark.tab.active a{
+        color: #;
+        border-bottom: 4px solid #;
+    }
+    .content-teasers-container h1:hover{
+        color: #000000 !important;
+    }
+    .content-teasers-container h2:hover{
+        color: #000000 !important;
+    }
+    .site-title a:hover {
+        color: # !important;
+    }
+    .site-navigation a {
+        color: #;
+        font-size: ;
+    }
+	.site-navigation a:hover {
+        color: #016699;
+    }
+    .site-navigation .current_page_item > a:hover,
+    .site-navigation .current_page_ancestor > a:hover,
+    .site-navigation .current-menu-item > a:hover,
+    .site-navigation .current-menu-ancestor > a:hover {
+        color: #;
+        /*background: transparent !important;*/
+    }
+    .secondary-navigation {
+        background-color: #262626;
+    }
+    .secondary-navigation a{
+        color: #ffffff;
+        font-size: 11px;
+        text-transform:uppercase;
+    }
+    .sub-menu li a{
+        font-size: ;
+    }
+    .site-navigation .secondary-navigation a:hover {
+            color: #016699 !important;
+    }
+    .primary-navigation .current_page_item > a:hover {
+        color: #;
+    }
+    .primary-navigation ul ul {
+        background-color: #;
+    }
+    .secondary-navigation ul ul {
+        background-color: #016699;
+    }
+    .secondary-navigation li:hover > a,
+    .secondary-navigation li.focus > a {
+        background-color: transparent;
+        color: #016699;
+    }
+    .secondary-navigation ul ul a:hover,
+    .secondary-navigation ul ul li.focus > a {
+        background-color: #;
+        color: #016699;
+    }
+
+    .primary-navigation .sub-menu a{
+        color: #    }
+    @media screen and (max-width: 900px) {
+        .primary-navigation ul ul,
+        .primary-navigation li:hover > a,
+        .primary-navigation ul ul a:hover,
+        .primary-navigation ul ul li.focus > a {
+            background-color: transparent;
+            color: #;
+        }
+    }
+    .primary-navigation .sub-menu li:hover {
+        background-color: #;
+    }
+    a.navigation-header:hover,{
+        background-color:# !important;
+    }
+    .search-toggle,
+    .search-box,
+    .search-toggle.active {
+        background-color: #;
+    }
+
+    .search-toggle:hover {
+        background-color: #;
+    }
+
+    .entry-title a,
+    .cat-links a,
+    .entry-meta a,
+    .widget a,
+    .widget-title,
+    .widget-title a,
+    .site-info a,
+    .content-sidebar .widget a,
+    .content-sidebar .widget .widget-title a,
+    .content-sidebar .widget_ridizain_ephemera .entry-meta a,
+    .ridizain-recent-post-widget-alt a {
+        color: #016699;
+    }
+
+    .entry-title a:hover,
+    .cat-links a:hover,
+    .entry-meta a:hover,
+    .entry-content .edit-link a:hover,
+    .page-links a:hover,
+    .post-navigation a:hover,
+    .image-navigation a:hover,
+    .widget a:hover,
+    .widget-title a:hover,
+    .site-info a:hover,
+    .content-sidebar .widget a:hover,
+    .content-sidebar .widget .widget-title a:hover,
+    .content-sidebar .widget_ridizain_ephemera .entry-meta a:hover,
+    .ridizain-recent-post-widget-alt a:hover {
+         color: #016699;
+    }
+    .content-sidebar .widget .widget-title {
+        border-top: 5px solid #;
+    }
+    .content-sidebar .widget_ridizain_ephemera .widget-title:before {
+        background-color: #;
+    }
+    .read-more.button{
+        border: 3px solid #;
+        background: #;
+    }
+    .read-more.button:hover {
+        border: 3px solid #;
+        background: #;
+    }
+    .paging-navigation a:hover {
+        border-top: 5px solid #;
+        color: #;
+    }
+    .entry-meta .tag-links a {
+        background-color: #;
+    }
+    .entry-meta .tag-links a:before {
+        border-right-color: #;
+    }
+    .entry-meta .tag-links a:hover {
+        background-color: #;
+    }
+    .entry-meta .tag-links a:hover:before {
+        border-right-color: #;
+    }
+    .entry-meta .tag-links a:hover:after {
+        background-color: #016699;
+    }
+    a{
+        display:inline-block;
+    }
+</style>
+
+	
+
+<script>
+ var digitalData = {
+   page:{
+     pageInfo: {
+       pageName: "nscr-en_US:homePage:home",
+       pageURL: window.location.href,
+       channel: "nscr-en_US",
+       title: "Home",
+       siteSubSection:":homePage:",
+       siteSubSection2:"home",
+       siteSubSection3:"",
+       deviceType: "desktop",
+       categoryListVar:  ""
+          }
+        }
+      };
+</script>
+
+<script>
+	var _comscore = _comscore || [];
+	_comscore.push({ c2:17728541 });
+	(function() {
+		var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+		s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+	})();
+</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c2=17728541"&cj=1" /></noscript>
+  
+<script type="text/javascript" src="//nexus.ensighten.com/nascar/Bootstrap.js?meky1j"></script>
+
+	
+<meta NascarAdAdUnitId="132" />
+
+<script type="text/javascript">
+    var NASCAR = window.NASCAR || {};
+    NASCAR.adTargets = {};
+    NASCAR.adTargets.franchise = '';
+
+    if (digitalData.page.pageInfo.categoryListVar) {
+        var catListVar = digitalData.page.pageInfo.categoryListVar.replace(/, /g,",");
+        catListVar=catListVar.replace(/ /g,"_");
+        NASCAR.adTargets.categoryListVar = catListVar.toLowerCase();
+    }
+
+    
+</script>
+
+<script type="text/javascript">
+          var NascarAdAdUnitId = 132;
+        var nascarBrightCoveCmsid = 2296;</script>
+
+<script networkId="73074296" lazyload="false"  refreshonfocusonly="false" type="text/javascript" src="//www.nascar.com/nscr_design_v12.6.0/clientlibs/common/base/nascarAd.js"></script><script type="text/javascript" src="//www.nascar.com/nscr_design_v12.6.0/clientlibs/common/base/nascarAd-video.js"></script>
+<script type="text/javascript" src="//native.sharethrough.com/assets/sfp.js"></script>
+
+<script class="kxct" data-id="rjexxnq08" data-timing="async" data-version="3.0" type="text/javascript">
+    window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+    (function(){
+        var k=document.createElement('script');k.type='text/javascript';k.async=true;
+        k.src=(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag/rjexxnq08.js';
+        var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+    }());
+</script>
+
+<script class="kxct" data-id="rjexxnq08" data-timing="async" data-version="3.0" type="text/javascript">
+    window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+    (function(){
+        var k=document.createElement('script');k.type='text/javascript';k.async=true;
+        k.src=(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag/rjexxnq08.js';
+        var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+    }());
+</script>
+
+<script class="kxint" type="text/javascript">
+        window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+        (function(){
+            function retrieve(n){
+                var m, k='nascar_'+n,ls=(function(){
+                    try{
+                        return window.localStorage;
+                    }catch(e){
+                        return null;
+                    }
+                })();
+
+            if (ls) {
+                return ls[k] || "";
+            } else if (navigator.cookieEnabled) {
+                m = document.cookie.match(k+'=([^;]*)');
+                return (m && unescape(m[1])) || "";
+            } else {
+                return '';
+            }
+        }
+
+        Krux.user = retrieve('user');
+        Krux.segments = retrieve('segs') ? retrieve('segs').split(',') : [];
+    })();
+</script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery(".scrollToTopIndicator").click(function(){
+				jQuery("html,body").animate({scrollTop:0},800);
+			});
+		});
+	</script>
+            <script type="text/javascript">
+            (function () {
+                window.setTimeout(function() {
+                    var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true;
+                    e.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.lightboxcdn.com/vendor/280d6d9d-bbf3-4788-979e-e4f5d1ad4bcf/lightbox_inline.js?mb=' + (new Date().getTime());
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s);
+                }, 500);
+            })();
+        </script>
+    </head>
+<body class="home page-template page-template-page-templates page-template-full-width page-template-page-templatesfull-width-php page page-id-1039 siteorigin-panels siteorigin-panels-before-js siteorigin-panels-home official-site-of-nascar site-id-7 group-blog masthead-fixed full-width grid" >
+<div id="ad_hover_01" style="height:0"></div><div id="ad_oop_skin_01" style="height:0"></div><div id="ad_impression_tracker_01" style="height:0"></div><div id="ad_impression_tracker_02" style="height:0"></div><div id="ad_impression_tracker_03" style="height:0"></div><div id="ad_impression_tracker_04" style="height:0"></div><img class='fixed-video-close-btn' src='/wp-content/themes/ndms-2016/images/close-ad.png' />
+<div id="page" class="hfeed site ">
+	<!-- NATIVE App check -->
+		<div class="header-wrap">
+				    <nav role="navigation" class="navigation site-navigation secondary-navigation">
+		    	<div class='inner-nav-container'>
+			    	<div class='top-nav-search-box'>
+			    	<div class="widget widget_search"><form role="search" method="get" id="searchform"
+    class="searchform" action="https://www.nascar.com/">
+    <div>
+        <label class="screen-reader-text" for="s"></label>
+        <input type="text" value="" name="s" id="s" />
+        <input type="submit" id="searchsubmit" value=" " />
+    </div>
+</form></div>					</div>
+					<div class='top-nav-search-box'>
+								    	</div>
+					<div class="top-nav-inner-container">
+						<div id="social" class="menu-social-icon-menu-container"><ul id="menu-social-icon-menu" class="menu"><li id="menu-item-41425" class="fa fa-lg fa-facebook-square menu-item menu-item-type-custom menu-item-object-custom menu-item-41425"><a href="https://www.facebook.com/NASCAR/">Facebook</a></li>
+<li id="menu-item-41426" class="fa fa-lg fa-youtube-play menu-item menu-item-type-custom menu-item-object-custom menu-item-41426"><a href="https://www.youtube.com/nascar">YouTube</a></li>
+<li id="menu-item-41427" class="fa fa-lg fa-twitter-square menu-item menu-item-type-custom menu-item-object-custom menu-item-41427"><a href="https://twitter.com/nascar">Twitter</a></li>
+<li id="menu-item-41428" class="fa fa-lg fa-instagram menu-item menu-item-type-custom menu-item-object-custom menu-item-41428"><a href="https://www.instagram.com/nascar/">Instagram</a></li>
+<li id="menu-item-41429" class="fa fa-snapchat menu-item menu-item-type-custom menu-item-object-custom menu-item-41429"><a href="https://www.snapchat.com/add/nascar">SnapChat</a></li>
+<li id="menu-item-41430" class="fa fa-lg fa-ticket menu-item menu-item-type-custom menu-item-object-custom menu-item-41430"><a href="https://www.nascar.com/buy-tickets/">Buy Tickets</a></li>
+</ul></div>						<div style='clear:both'></div>
+					</div>
+				</div>
+		    </nav>
+									<script type="text/javascript"
+						src="//www.nascar.com/etc/designs/nascar/clientlibs/common/navigation/js/nascar-nav-mobile.js"
+						show-login="true"
+						show-search="true"
+						show-header="true"
+						show-footer="false"
+						show-alertbar="true"
+						nav-root-id="nascarNav"></script>
+					<div id="nascarNav">
+					</div>
+					</div><!-- header-wrap -->
+ <!-- END NATIVE APP CHECK -->
+<div class="clearfix"></div>
+
+<script>
+    var gigyaScript="http://cdn.gigya.com/JS/socialize.js?apikey=3_s9qLgEJnnMMKsxqhMV1fgiRcax0L89AK9W4MMIh9wu5H7R_NwnwhK3894HCOpuPj"; //[confirmed]
+    if(location.protocol === "https:"){;
+        gigyaScript = gigyaScript.replace('http://cdn.gigya.com', 'https://cdns.gigya.com'); //[confirmed]
+    }
+</script>
+<script type="text/javascript">
+    String.prototype.format = String.prototype.f = function () {
+        var args = arguments;
+        return this.replace(/\{(\d+)\}/g, function (m, n) {
+            return args[n] ? args[n] : m;
+        });
+    };
+
+    // NASCAR Global Strings and all Ajax or non Ajax Paths which will be used in JS code
+    var NSCR = NSCR || {};
+    var locale = "en_us"; //[confirmed]
+    //BT tracking page load valiable
+    var bt_extra = { "PageName": ":::"};
+
+    /**
+     * Extending NSCR Object with all the String messages which will be used to show messages through JS.
+     */
+    NSCR.glblStringMsgs = { //[confirmed] for NSCR.glblStringMsgs namespace creation
+        "loading": "Loading...", // [confirmed]
+        "strAnd": "and", // [confirmed]
+        "somethingWentWrong": "The page you are looking for cannot be found. It may have changed, been removed, or be temporarily unavailable. If you are attempting to login, please close this window and refresh your browser window.",//[confirmed]
+        "ajaxURLMissing": "Ajax URL missing.", // [confirmed]
+        "fbPublishStreamError": "OOPS! Unable to update on this Social Network, please try later.",//[confirmed]
+        "fbInviteSuccess": "An invitation from NASCAR.COM posted successfully to your facebook wall." //[confirmed]
+    };
+
+    NSCR.config = NSCR.config || {}; //[confirmed] for NSCR.config namespace creation
+    NSCR.config.envir = 'dev'; // string: 'ue' || 'dev' [confirmed]
+    NSCR.config.gigyaApiKey = '2_Y82PzwJ_chSFImHXaIDJClnLyJzmk-VFOavSsaNTzl6m901s_NNxRAS0xJ3bd3_N'; // dummy key will be replaced with nascar key //[confirmed]
+    NSCR.config.lang = 'en';
+    NSCR.config.enabledSocialProviders = 'facebook, twitter, googleplus, yahoo'; //[confirmed]
+    NSCR.config.weekdays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    NSCR.config.months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    NSCR.config.validationFlag = true;
+    NSCR.config.dayInMS = (24 * 60 * 60 * 1000);
+    NSCR.config.fbExtraPermissions = 'email, user_events, read_stream';//[confirmed]
+    NSCR.config.fbAppAccessToken = '107357539434084|CChm2XwOY--iUqM8jnGuB-l6UxI';
+
+    jQuery.extend(NSCR.config, {
+        trackingState: true,// [confirmed]
+        mobileSizes: { //[confirmed]
+            lowerLimit: '280',
+            upperLimit: '700'
+        },
+        tabletSizes: { //[confirmed]
+            lowerLimit: '767',
+            upperLimit: '1024'
+        },
+        deviceNames: { // [confirmed]
+            mobile: "mobile",
+            tab: "tab",
+            web: "web"
+        },
+        cookie: { // [confirmed] for namespace creation
+            "authenticatedUser": { // [confirmed]
+                "name": 'u_i',
+                "domain": '.nascar.com',
+                "path":'/',
+                "expire": '',
+                "value": ''
+            },
+            "personalization":{ // [confirmed]
+                "name": 'p_c',
+                "domain": '.nascar.com',
+                "path":'/',
+                "expire": '',
+                "value": ''
+            },
+            "userSuccess":{ // [confirmed]
+                "name": 'u_s',
+                "domain": '.nascar.com',
+                "path":'/',
+                "expire": '',
+                "value": ''
+            },
+            "entitlements":{ // [confirmed]
+                "name": 'nascar_rv',
+                "domain": '.nascar.com',
+                "path":'/',
+                "expire": 30
+            },
+            "getLoginStatus":{ // [confirmed]
+                "name": 'g_l_s',
+                "domain": '.nascar.com',
+                "path":'/',
+                "expire": '',
+                "value": ''
+            },
+            "subscriptions":{ // [confirmed]
+                "name": 'u_sub',
+                "domain": '.nascar.com',
+                "path":'/'
+            },
+            "liveFyreToken":{ // [confirmed]
+                "name": 'nascar_lft',
+                "domain": '.nascar.com',
+                "path":'/',
+                "expire": '',
+                "value": ''
+            },
+            "gigUID":{ //[confirmed]
+                "name": 'gigya_uid',
+                "domain": '.nascar.com',
+                "path":'/',
+                "expire": '',
+                "value": ''
+            },
+            "loginStatus":{ // [confirmed]
+                "name": 'loginStatus',
+                "domain": '.nascar.com',
+                "path":'/',
+                "expire": '',
+                "value": ''
+            },
+            "intStream":{ // [confirmed]
+                "name": 'nascar_isp',
+                "domain": '.nascar.com',
+                "path":'/',
+                "expire": '',
+                "value": ''
+            }
+
+        }
+    });
+
+    NSCR.config.gigya = { //[confirmed]
+        gigyaRegistrationScreen: 'Lite-Registration-{0}-RegistrationLogin'.format(locale),
+        gigyaMobileRegistrationScreen: 'Lite-Registration-{0}-Mobile-RegistrationLogin'.format(locale)
+    };
+
+    NSCR.config.url = { // [confirmed] for namespace creation
+        defaultPath: { //[confirmed]
+            ue: '/404.  html',
+            dev: ''
+        },
+        'gigyaApiKey': { //[confirmed]
+            ue: '3_11F7LvAmxtZDUUBfdSkyQFEpeiOUZcviBXrST31SC-nDzNbtNh2mzSFonVThrr4J',
+            dev: '3_7bXPBcM1_1wAN3fUh44ZkZ6h2_JgobCTTQQAf60fxOqxdXylL6cVNhffvPBDG4MH'
+        },
+        gigyaEntitlementsEndPoint: 'https://www.nascar.com/endpoints/entitlements', //[confirmed]
+    };
+</script>
+
+<!-- Slider placeholder -->
+<div id="main" class="site-main">
+<div class="clearfix"></div>
+
+	<div id="main-content" class="main-content">
+
+	<div id="primary" class="full-width content-area">
+		<div id="content" class="site-content" role="main">
+				<div class="entry-content panel-row-style">
+		<div class='nascar-ad-container'><div class='nascar-advertisement ad_bnr_atf_01' id='ad_bnr_atf_01'></div></div><img class="close-mobile-ad" onclick="closeAdButton()" src="/wp-content/themes/ndms-2016/images/close-ad.png"><div id="pl-1039"  class="panel-layout" ><div id="pg-1039-0"  class="panel-grid panel-has-style" ><div class="topHeroRow has_sidebar panel-row-style panel-row-style-for-1039-0" ><div id="pgc-1039-0-0"  class="panel-grid-cell" ><link rel="stylesheet" type="text/css" href="https://www.nascar.com/wp-content/plugins/ndms_nascar/feedHero/css/hero.css"/>
+<link rel="stylesheet" type="text/css" href="https://www.nascar.com/wp-content/plugins/ndms_nascar/feedHero/css/heroSecondary.css"/>
+<script type="text/javascript" src="https://www.nascar.com/wp-content/plugins/ndms_nascar/feedHero/js/rightrail.js"></script>
+  	<div id="sortableHeroLeft">
+  					<ul id="sortableHeroMain" class="primary connectedSortable ui-sortable">
+				    <li data-type="article" data-published="undefined" data-author="" data-path="https://galleries.nascar.com/gallery/1535/take-5-charlotte-playoff-race" data-image="https://www.nascar.com/wp-content/uploads/sites/7/2017/10/Martin-Truex-Jr-625x340.jpg" data-title="Forecast for Miami" data-description="" class="article">
+				    				    	 	<a href="https://galleries.nascar.com/gallery/1535/take-5-charlotte-playoff-race">
+					            <img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/10/Martin-Truex-Jr-625x340.jpg">
+					            <span class="article-title">Forecast for Miami</span>
+					            <span class="article-subhead">Is the Charlotte winner more likely to become the Monster Energy Series champion?</span>
+					        </a>
+				  				    </li>
+				</ul>
+	  		<ul id='sortableHeroSecondary' >	  			<li data-type="article" data-published="2017-10-09" data-author="" data-path="https://www.nascar.com/news-media/2017/10/09/news-media20171009brad-keselowskis-throwback-tribute-to-dale-earnhardt-jr/" data-image="undefined" data-title="Kes's scheme honors Junior" data-description="" class="article">
+	                <a href="https://www.nascar.com/news-media/2017/10/09/news-media20171009brad-keselowskis-throwback-tribute-to-dale-earnhardt-jr/">
+	                	                	<span class="article-title">Kes's scheme honors Junior</span>
+	                </a>
+            	</li>
+        	  			<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/results/race_center/monster-energy-nascar-cup-series/bank-of-america-500/stn/race/" data-image="undefined" data-title="Complete race results" data-description="" class="article">
+	                <a href="https://www.nascar.com/results/race_center/monster-energy-nascar-cup-series/bank-of-america-500/stn/race/">
+	                	                	<span class="article-title">Complete race results</span>
+	                </a>
+            	</li>
+        	  			<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/playoff-standings/monster-energy-nascar-cup-series/" data-image="undefined" data-title="Updated playoffs standings" data-description="" class="article">
+	                <a href="https://www.nascar.com/playoff-standings/monster-energy-nascar-cup-series/">
+	                	                	<span class="article-title">Updated playoffs standings</span>
+	                </a>
+            	</li>
+        	  			<li data-type="article" data-published="2017-10-08" data-author="" data-path="https://www.nascar.com/news-media/2017/10/08/results-monster-energy-nascar-charlotte-motor-speedway" data-image="undefined" data-title="Truex Jr. scores overtime win" data-description="" class="article">
+	                <a href="https://www.nascar.com/news-media/2017/10/08/results-monster-energy-nascar-charlotte-motor-speedway">
+	                	                	<span class="article-title">Truex Jr. scores overtime win</span>
+	                </a>
+            	</li>
+        	  			<li data-type="article" data-published="2017-10-08" data-author="" data-path="https://www.nascar.com/news-media/2017/10/08/jimmie-johnson-pit-stop-no-penalty/" data-image="undefined" data-title="NASCAR on Jimmie pit stop" data-description="" class="article">
+	                <a href="https://www.nascar.com/news-media/2017/10/08/jimmie-johnson-pit-stop-no-penalty/">
+	                	                	<span class="article-title">NASCAR on Jimmie pit stop</span>
+	                </a>
+            	</li>
+        	  			<li data-type="article" data-published="2017-10-08" data-author="" data-path="https://www.nascar.com/news-media/2017/10/08/monster-energy-playoffs-charlotte/" data-image="undefined" data-title="Busch: 'I threw it away'" data-description="" class="article">
+	                <a href="https://www.nascar.com/news-media/2017/10/08/monster-energy-playoffs-charlotte/">
+	                	                	<span class="article-title">Busch: 'I threw it away'</span>
+	                </a>
+            	</li>
+        	  			<li data-type="article" data-published="2017-10-08" data-author="" data-path="https://www.nascar.com/news-media/2017/10/08/nascar-playoffs-update-standings-post-charlotte/" data-image="undefined" data-title="Analyzing the playoff cutline" data-description="" class="article">
+	                <a href="https://www.nascar.com/news-media/2017/10/08/nascar-playoffs-update-standings-post-charlotte/">
+	                	                	<span class="article-title">Analyzing the playoff cutline</span>
+	                </a>
+            	</li>
+        	  			<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/08/nascar-playoffs-standings-update-charlotte/" data-image="undefined" data-title="How the Playoffs look now" data-description="" class="article">
+	                <a href="https://www.nascar.com/news-media/2017/10/08/nascar-playoffs-standings-update-charlotte/">
+	                	                	<span class="article-title">How the Playoffs look now</span>
+	                </a>
+            	</li>
+        </ul>	<style>
+		.photo-video-tab-container{
+			width: 680px;
+			display: none;
+		}
+		.photo-video-tab{
+			display: inline-block;
+		    width: 145px;
+		    text-transform: uppercase;
+		    font-family: stainless-bold;
+		    border-bottom: 1px solid #016699;
+		    margin: 0 15px;
+		    padding: 0px 0px;
+		    text-align: center;
+		}
+		.photo-video-tab:nth-child(1){
+			margin-left: 30px;
+		}
+	</style>
+	<div class="photo-video-tab-container">
+	  <div class="photo-video-tab"><a href="#photo-section">Latest Galleries</a></div>
+      <div class="photo-video-tab"><a href="#video-section">Latest Videos</a></div>
+      <div class="photo-video-tab"><a href="http://www.nascar.com/race_center/series/monster-energy-nascar-cup-series/standings/">Standings</a></div>
+    </div>
+	</div>
+	</div><div id="pgc-1039-0-1"  class="panel-grid-cell" >
+
+<div class="race-center-container clearfix ">
+	<div class="title-container">
+		<!--div class="title" style="display:inline-block;margin-right: 5px;">Race Center</div-->
+                    <div style="display: inline-block; overflow:hidden; width:300px; height: 55px; vertical-align: middle;">
+                <div class="ad_ns_atf_01" id="ad_ns_atf_01"></div>
+            </div>
+            </div>
+	<div class="tabs">
+		<ul>
+			<li class="active">
+				<a href="#" data-target="tab-1">
+					<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/01/os-nascar-to-be-monster-energy-cup-series-starting-next-season-20161219-70x35.jpg"/>
+				</a>
+			</li>
+			<li >
+				<a href="#" data-target="tab-2">
+					<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/01/Xfinity-Logo-70x35.png"/>
+				</a>
+			</li>
+			<li >
+				<a href="#" data-target="tab-3">
+					<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/08/ncwts_navigation_320x1801-62x35.png"/>
+				</a>
+			</li>
+		</ul>
+	</div> <!-- tabs -->
+			<div id="tab-1" class="tab-panel active live">
+									<div class="race-center">
+							<a class="event-logo" href="http://www.nascar.com/weekend-schedule.html">
+								<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/10/MENCS_2017_Charlotte_BofA500-190x110-1.png"/>
+							</a>
+							<div class="event-info">
+								<h3>Charlotte Motor Speedway</h3>
+								<span>Sunday, October 8 | 1:00 PM ET</span>
+								<span> | </span>
+								<span>NBC</span>
+							</div>
+
+															<script type="text/javascript">
+									jQuery(document).ready(function() {
+							            var refreshData = "10";
+							            var refreshSecs = refreshData * 1000;
+
+							           jQuery.getJSON("https://www.nascar.com/live/feeds/series_1/4610/live_feed.json").done(function(data) {
+									    	getData(data);
+						                });
+
+							            function getData(data) {
+											var currentLap = data.lap_number;
+									        var currentFlagStatus = data.flag_state;
+
+											var currentLeaderFirstName='';
+											var currentLeaderLastName='';
+									        //var currentLeader;
+									        var currentLeaderVehicleNumber;
+										    jQuery(data.vehicles).each(function( i,content ) {
+									            var runningPosition = content.running_position;
+									            if(runningPosition===1){
+									                //currentLeader = content.driver.full_name;
+													currentLeaderFirstName=content.driver.first_name;
+													currentLeaderLastName=content.driver.last_name;
+									                currentLeaderVehicleNumber=content.vehicle_number;
+									                return false;
+									            }
+									        });
+										    jQuery(".race-center-series-1 .lap").text(currentLap);
+
+										    jQuery(".race-center-series-1 tr .status").attr('class', 'status');
+										    jQuery(".race-center-series-1 tr .status").addClass("flag-"+currentFlagStatus);
+										    if(currentFlagStatus == "4" || currentFlagStatus == "9"){
+										    	jQuery(".race-center-series-1 .titlebar th.col1Header").text("Result");
+										    }
+										    else{
+										    	jQuery(".race-center-series-1 .titlebar th.col1Header").text("Current Leader");
+										    }
+									        jQuery(".race-center-series-1 .leader-car-num").text(currentLeaderVehicleNumber);
+									        jQuery(".race-center-series-1 .leader-car-driver").html(currentLeaderFirstName + '<br/>' +currentLeaderLastName);
+										}
+
+										setInterval(function(){
+										    jQuery.getJSON("https://www.nascar.com/live/feeds/series_1/4610/live_feed.json").done(function(data) {
+										    	getData(data);
+							                });
+										}, refreshSecs);
+									});
+						        </script>
+								<table class="race-center-series-1">
+									<tbody>
+										<tr class="titlebar">
+												<th class="col1Header">Current Leader</th>
+											<th class="col2Header">Lap</th>
+											<th>Status</th>
+										</tr>
+										<tr>
+											<td class="name"><span class="leader-car-num"></span><span class="leader-car-driver"></span></td>
+											<td class="lap"></td>
+											<td class="status"><span></span></td>
+										</tr>
+									</tbody>
+								</table>
+														<div class="button">
+								<a href='https://www.nascar.com/results/race_center/monster-energy-nascar-cup-series/bank-of-america-500/stn/race/'> Race results<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/right_arrow.png' /></a>							</div>
+							
+						</div>	<!-- race-center -->
+							</div>
+				<div id="tab-2" class="tab-panel live">
+									<div class="race-center">
+							<a class="event-logo" href="http://www.nascar.com/weekend-schedule.html">
+								<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/04/NXS_2017_Charlotte_DrivefortheCure300-190x110.png"/>
+							</a>
+							<div class="event-info">
+								<h3>Charlotte Motor Speedway</h3>
+								<span>Saturday, October 7 | 3:00 PM ET</span>
+								<span> | </span>
+								<span>NBCSN</span>
+							</div>
+
+															<script type="text/javascript">
+									jQuery(document).ready(function() {
+							            var refreshData = "10";
+							            var refreshSecs = refreshData * 1000;
+
+							           jQuery.getJSON("https://www.nascar.com/live/feeds/series_2/4645/live_feed.json").done(function(data) {
+									    	getData(data);
+						                });
+
+							            function getData(data) {
+											var currentLap = data.lap_number;
+									        var currentFlagStatus = data.flag_state;
+
+											var currentLeaderFirstName='';
+											var currentLeaderLastName='';
+									        //var currentLeader;
+									        var currentLeaderVehicleNumber;
+										    jQuery(data.vehicles).each(function( i,content ) {
+									            var runningPosition = content.running_position;
+									            if(runningPosition===1){
+									                //currentLeader = content.driver.full_name;
+													currentLeaderFirstName=content.driver.first_name;
+													currentLeaderLastName=content.driver.last_name;
+									                currentLeaderVehicleNumber=content.vehicle_number;
+									                return false;
+									            }
+									        });
+										    jQuery(".race-center-series-2 .lap").text(currentLap);
+
+										    jQuery(".race-center-series-2 tr .status").attr('class', 'status');
+										    jQuery(".race-center-series-2 tr .status").addClass("flag-"+currentFlagStatus);
+										    if(currentFlagStatus == "4" || currentFlagStatus == "9"){
+										    	jQuery(".race-center-series-2 .titlebar th.col1Header").text("Result");
+										    }
+										    else{
+										    	jQuery(".race-center-series-2 .titlebar th.col1Header").text("Current Leader");
+										    }
+									        jQuery(".race-center-series-2 .leader-car-num").text(currentLeaderVehicleNumber);
+									        jQuery(".race-center-series-2 .leader-car-driver").html(currentLeaderFirstName + '<br/>' +currentLeaderLastName);
+										}
+
+										setInterval(function(){
+										    jQuery.getJSON("https://www.nascar.com/live/feeds/series_2/4645/live_feed.json").done(function(data) {
+										    	getData(data);
+							                });
+										}, refreshSecs);
+									});
+						        </script>
+								<table class="race-center-series-2">
+									<tbody>
+										<tr class="titlebar">
+												<th class="col1Header">Current Leader</th>
+											<th class="col2Header">Lap</th>
+											<th>Status</th>
+										</tr>
+										<tr>
+											<td class="name"><span class="leader-car-num"></span><span class="leader-car-driver"></span></td>
+											<td class="lap"></td>
+											<td class="status"><span></span></td>
+										</tr>
+									</tbody>
+								</table>
+														<div class="button">
+								<a href='https://www.nascar.com/results/race_center/xfinity-series/drive-for-the-cure-300-presented-by-blue-cross-and-blue-shield-of-north-carolina/stn/race/'> Race results<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/right_arrow.png' /></a>							</div>
+							
+						</div>	<!-- race-center -->
+							</div>
+				<div id="tab-3" class="tab-panel">
+									<div class="race-center">
+							<a class="event-logo" href="http://www.nascar.com/weekend-schedule.html">
+								<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/04/NCWTS_2017_Talladega_Freds250-190x110.png"/>
+							</a>
+							<div class="event-info">
+								<h3>Talladega Superspeedway</h3>
+								<span>Saturday, October 14 | 1:00 PM ET</span>
+								<span> | </span>
+								<span>FOX</span>
+							</div>
+
+														<div class="button">
+								<a href='https://www.nascar.com/nascar-camping-world-truck-series/schedule/'> Full Schedule<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/right_arrow.png' /></a>							</div>
+							
+						</div>	<!-- race-center -->
+							</div>
+		</div><!-- race-center-container -->
+
+<script>
+    if(AMPTManager){
+                AMPTManager.addPageLevelTarget("module","race-center");
+    }
+</script><div class='nascar-ad-container'><div class='nascar-advertisement ad_rect_atf_01 item-component' id='ad_rect_atf_01'></div></div>    <script type="text/javascript">
+    jQuery(document).ready(function(){
+      function checkBannerWidth(){
+        jQuery('.nascar-advertisement').each(function(){
+          var bannerAdWidth = jQuery(this).find('iframe').first().attr('width');
+          if(bannerAdWidth == null || bannerAdWidth == "undefined" || bannerAdWidth === 0){
+            bannerAdWidth = jQuery(this).find('iframe').first().css('width');
+          }
+          jQuery(this).css({'width':bannerAdWidth});
+        });
+      }
+      setInterval(function(){
+        checkBannerWidth();
+      }, 500);
+    });
+
+    </script>
+    </div></div></div><div id="pg-1039-1"  class="panel-grid panel-has-style" ><div class="panel-row-style panel-row-style-for-1039-1" ><div id="pgc-1039-1-0"  class="panel-grid-cell" ><link rel="stylesheet" type="text/css" href="https://www.nascar.com/wp-content/plugins/ndms_widgets/videoList/css/style.css?v=1.001"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		var target = ".video-list-container .video-list-grid.lower";
+		var target2 = ".video-list-container .video-list-grid.higher";
+
+		// Detect screen maximize
+		jQuery(window).on('resize', function(){
+	    if(screen.width === window.innerWidth){
+				jQuery(target).slick('unslick');
+	    }
+	  });
+
+		function addSlickSlider(target){
+		    jQuery(target).slick({
+		        variableWidth: true,
+		        prevArrow: false,
+		        nextArrow: false,
+		        responsive: [
+		        {
+		          breakpoint: 2000,
+		          settings: "unslick"
+		        },
+		        {
+		          breakpoint: 767,
+		          settings: {
+		            infinite: true,
+		            dots: false
+		          }
+		        }
+		      ]
+		    });
+		}
+
+		function addSlickSlider2(target){
+		    jQuery(target).slick({
+		        variableWidth: true,
+		        prevArrow: false,
+		        nextArrow: false,
+		        responsive: [
+		        {
+		          breakpoint: 2000,
+		          settings: "unslick"
+		        },
+		        {
+		          breakpoint: 767,
+		          settings: {
+		            infinite: true,
+		            dots: false
+		          }
+		        }
+		      ]
+		    });
+		}
+			});
+</script>
+
+		<div class="fiveWide from-feed video-list-container dark clearfix">
+			<a name="video-section"></a>
+			<div class="video-list-header clearfix">
+				<h3><span>Latest Videos</span></h3>
+				<a class='more-link' href='https://www.nascar.com/videos'> More Videos<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/nascar-right-carot.png' /></a>			</div>
+			<div class="video-list-grid higher">
+			<div class="video-list-item" style="width:20% !important;">						
+							<div class="video-image">
+								<a href="https://www.nascar.com/video/franchise/rearview-mirror/rearview-mirror-truex-takes-charlotte/" >
+									<div class="inner-video-image" style="height:90px;background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/10/charlotte-rearview-mirror-320x170.jpg');"></div>
+									<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/video-icon.png' />								</a>
+
+							</div>
+							<a href="https://www.nascar.com/video/franchise/rearview-mirror/rearview-mirror-truex-takes-charlotte/" >
+								<h3 style='font-size:14px;font-weight:normal'>Rearview Mirror: Truex takes Charlotte</h3>								
+							</a>
+						</div>
+						<div class="video-list-item" style="width:20% !important;">						
+							<div class="video-image">
+								<a href="https://www.nascar.com/video/franchise/crew-call/crew-call-no-78-team-charges-charlotte/" >
+									<div class="inner-video-image" style="height:90px;background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/10/crew-call-922-320x170.jpg');"></div>
+									<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/video-icon.png' />								</a>
+
+							</div>
+							<a href="https://www.nascar.com/video/franchise/crew-call/crew-call-no-78-team-charges-charlotte/" >
+								<h3 style='font-size:14px;font-weight:normal'>Crew call: the No. 78 team charges at Charlotte</h3>								
+							</a>
+						</div>
+						<div class="video-list-item" style="width:20% !important;;padding:0 10px">						
+							<div class="video-image">
+								<a href="https://www.nascar.com/video/franchise/tuned-in/scott-miller-explains-lack-penalty-no-48-team/" >
+									<div class="inner-video-image" style="height:90px;background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/10/scott-miller-on-lug-nuts-320x170.jpg');"></div>
+									<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/video-icon.png' />								</a>
+
+							</div>
+							<a href="https://www.nascar.com/video/franchise/tuned-in/scott-miller-explains-lack-penalty-no-48-team/" >
+								<h3 style='font-size:14px;font-weight:normal'>Scott Miller explains NASCAR’s decision on the No. 48</h3>								
+							</a>
+						</div>
+						<div class="video-list-item" style="width:20% !important;;padding:0 10px">						
+							<div class="video-image">
+								<a href="https://www.nascar.com/video/franchise/race-rewind/race-rewind-charlotte-in-15-bank-of-america-500/" >
+									<div class="inner-video-image" style="height:90px;background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/10/1677257476001_5602670707001_5602657811001-vs-320x170.jpg');"></div>
+									<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/video-icon.png' />								</a>
+
+							</div>
+							<a href="https://www.nascar.com/video/franchise/race-rewind/race-rewind-charlotte-in-15-bank-of-america-500/" >
+								<h3 style='font-size:14px;font-weight:normal'>Race Rewind: Charlotte in 15</h3>								
+							</a>
+						</div>
+						<div class="video-list-item" style="width:20% !important;">						
+							<div class="video-image">
+								<a href="https://www.nascar.com/video/franchise/trackside-live/trackside-live-replay-jamie-mcmurray-brad-keselowski-ty-dillon-take-the-stage/" >
+									<div class="inner-video-image" style="height:90px;background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/10/1677257476001_5602104976001_5602102667001-vs-320x170.jpg');"></div>
+									<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/video-icon.png' />								</a>
+
+							</div>
+							<a href="https://www.nascar.com/video/franchise/trackside-live/trackside-live-replay-jamie-mcmurray-brad-keselowski-ty-dillon-take-the-stage/" >
+								<h3 style='font-size:14px;font-weight:normal'>Trackside Live Replay: Jamie McMurray, Brad Keselowski, Ty Dillon take the stage</h3>								
+							</a>
+						</div>
+									</div>
+		</div>
+		<style>
+			@media screen and (max-width: 767px) {
+				.inner-video-image{
+					height:160px !important;
+				}
+				.video-list-container .video-list-item .video-image div:hover {
+				    -moz-transform: initial !important;
+				    -webkit-transform: initial !important;
+				    transform: initial !important;
+				}
+			}
+		</style>
+	</div></div></div><div id="pg-1039-2"  class="panel-grid panel-has-style" ><div class="has_sidebar panel-row-style panel-row-style-for-1039-2" ><div id="pgc-1039-2-0"  class="panel-grid-cell" ><link rel="stylesheet" type="text/css" href="https://www.nascar.com/wp-content/plugins/ndms_nascar/feedDualColNews/css/style.css?v=1.001"/>
+<div class="center-container lower clearfix">
+<ul id="sortableRightLower" data-componentname="secondaryRightColumn" class="lower2">	  		<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/09/sonoma-raceway-california-wild-fire-update/" data-title="Sonoma Raceway issues status update on North Bay fires" data-description="" class="sortableLI article">
+									<a href="https://www.nascar.com/news-media/2017/10/09/sonoma-raceway-california-wild-fire-update/">
+						<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/10/2017-Oct9-Sonomafire-main-425x226.jpg">
+						<span class="article-title">Sonoma Raceway issues status update on North Bay fires</span>
+											</a>
+		  					</li>
+	  			  		<li data-type="video" data-published="undefined" data-author="" data-path="https://www.nascar.com/video/franchise/rearview-mirror/rearview-mirror-truex-takes-charlotte/" data-title="Rearview Mirror: Truex takes Charlotte" data-description="" class="sortableLI article">
+									<a href="https://www.nascar.com/video/franchise/rearview-mirror/rearview-mirror-truex-takes-charlotte/">
+						<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/10/charlotte-rearview-mirror-425x226.jpg">
+						<span class="article-title">Rearview Mirror: Truex takes Charlotte</span>
+														<img class="galleryIcon fdcn_video" src="https://www.nascar.com/wp-content/themes/ndms-2016/images/video-article-icon.png" style="display: block;">
+					  					</a>
+		  					</li>
+	  			  		<li data-type="gallery" data-published="undefined" data-author="" data-path="https://galleries.nascar.com/gallery/1538/travelogue-steve-luvender-takes-on-charlotte-motor-speedway" data-title="Steve Luvender takes on Charlotte Motor Speedway" data-description="" class="sortableLI article">
+									<a href="https://galleries.nascar.com/gallery/1538/travelogue-steve-luvender-takes-on-charlotte-motor-speedway">
+						<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/10/Oct-9-Luvender-425x226.jpg">
+						<span class="article-title">Steve Luvender takes on Charlotte Motor Speedway</span>
+														<img class="galleryIcon fdcn_gallery" src="https://www.nascar.com/wp-content/themes/ndms-2016/images/gallery-article-icon.png" style="display: block;">
+					  					</a>
+		  					</li>
+	  			  		<li data-type="video" data-published="undefined" data-author="" data-path="https://www.nascar.com/video/franchise/race-rewind/race-rewind-charlotte-in-15-bank-of-america-500/" data-title="Race Rewind: Charlotte in 15" data-description="" class="sortableLI article">
+									<a href="https://www.nascar.com/video/franchise/race-rewind/race-rewind-charlotte-in-15-bank-of-america-500/">
+						<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/10/1677257476001_5602670707001_5602657811001-vs-425x226.jpg">
+						<span class="article-title">Race Rewind: Charlotte in 15</span>
+														<img class="galleryIcon fdcn_video" src="https://www.nascar.com/wp-content/themes/ndms-2016/images/video-article-icon.png" style="display: block;">
+					  					</a>
+		  		<div id='ad_rect_btf_02' style='padding-top:20px'></div><div id='ad_native_02' style='padding-top:20px'></div>			</li>
+	  			  		<li data-type="video" data-published="undefined" data-author="" data-path="https://www.nascar.com/video/franchise/up-to-speed/dale-jarrett-paces-field-honor-robert-yates/" data-title="Dale Jarrett paces the field in honor of Robert Yates" data-description="" class="sortableLI article">
+									<a href="https://www.nascar.com/video/franchise/up-to-speed/dale-jarrett-paces-field-honor-robert-yates/">
+						<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/10/2017-Oct8-Jarrett-main-425x226.jpg">
+						<span class="article-title">Dale Jarrett paces the field in honor of Robert Yates</span>
+														<img class="galleryIcon fdcn_video" src="https://www.nascar.com/wp-content/themes/ndms-2016/images/video-article-icon.png" style="display: block;">
+					  					</a>
+		  					</li>
+	  			  		<li data-type="video" data-published="undefined" data-author="" data-path="https://www.nascar.com/video/franchise/crew-call/crew-call-no-78-team-charges-charlotte/" data-title="Crew call: No. 78 team charges at Charlotte" data-description="" class="sortableLI article">
+									<a href="https://www.nascar.com/video/franchise/crew-call/crew-call-no-78-team-charges-charlotte/">
+						<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/10/crew-call-922-425x226.jpg">
+						<span class="article-title">Crew call: No. 78 team charges at Charlotte</span>
+														<img class="galleryIcon fdcn_video" src="https://www.nascar.com/wp-content/themes/ndms-2016/images/video-article-icon.png" style="display: block;">
+					  					</a>
+		  					</li>
+	  			  		<li data-type="video" data-published="undefined" data-author="" data-path="https://www.nascar.com/video/franchise/monster-energy-nascar-cup-highlights/patrick-collides-ragan-hard-charlotte-crash/" data-title="Patrick collides with Ragan in hard Charlotte crash" data-description="" class="sortableLI article">
+									<a href="https://www.nascar.com/video/franchise/monster-energy-nascar-cup-highlights/patrick-collides-ragan-hard-charlotte-crash/">
+						<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/10/mencs17-cha2-high-four-thumb-425x226.jpg">
+						<span class="article-title">Patrick collides with Ragan in hard Charlotte crash</span>
+														<img class="galleryIcon fdcn_video" src="https://www.nascar.com/wp-content/themes/ndms-2016/images/video-article-icon.png" style="display: block;">
+					  					</a>
+		  					</li>
+	  			  		<li data-type="gallery" data-published="undefined" data-author="" data-path="https://galleries.nascar.com/gallery/1534/nascarcasm-recaps-charlotte-in-photos" data-title="Jimmie's beard in stages; @nascarcasm recaps Charlotte" data-description="" class="sortableLI article">
+									<a href="https://galleries.nascar.com/gallery/1534/nascarcasm-recaps-charlotte-in-photos">
+						<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/10/2017-Oct-9-Jimmie-Paisley-Hendrick-425x226.jpg">
+						<span class="article-title">Jimmie's beard in stages; @nascarcasm recaps Charlotte</span>
+														<img class="galleryIcon fdcn_gallery" src="https://www.nascar.com/wp-content/themes/ndms-2016/images/gallery-article-icon.png" style="display: block;">
+					  					</a>
+		  					</li>
+	  			  		<li data-type="gallery" data-published="undefined" data-author="" data-path="https://galleries.nascar.com/gallery/1531/at-track-photos-charlotte-" data-title="Spins, wins and much more from Charlotte" data-description="" class="sortableLI article">
+									<a href="https://galleries.nascar.com/gallery/1531/at-track-photos-charlotte-">
+						<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/10/2017-Oct8-AllmendingerBuescher-main2-425x226.jpg">
+						<span class="article-title">Spins, wins and much more from Charlotte</span>
+														<img class="galleryIcon fdcn_gallery" src="https://www.nascar.com/wp-content/themes/ndms-2016/images/gallery-article-icon.png" style="display: block;">
+					  					</a>
+		  					</li>
+	  			  		<li data-type="video" data-published="undefined" data-author="" data-path="https://www.nascar.com/video/franchise/trackside-live/trackside-live-replay-dale-jr-bubba-wallace-and-michael-waltrip-take-the-stage/" data-title="Junior, Bubba and Michael Waltrip will crack you up" data-description="" class="sortableLI article">
+									<a href="https://www.nascar.com/video/franchise/trackside-live/trackside-live-replay-dale-jr-bubba-wallace-and-michael-waltrip-take-the-stage/">
+						<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/10/1677257476001_5601603815001_5601557717001-vs-425x226.jpg">
+						<span class="article-title">Junior, Bubba and Michael Waltrip will crack you up</span>
+														<img class="galleryIcon fdcn_video" src="https://www.nascar.com/wp-content/themes/ndms-2016/images/video-article-icon.png" style="display: block;">
+					  					</a>
+		  					</li>
+	  			  		<li data-type="video" data-published="undefined" data-author="" data-path="https://www.nascar.com/video/franchise/trackside-live/how-dale-jr-being-fired-led-to-his-racing-career/" data-title="How Dale Jr. being fired led to his racing career" data-description="" class="sortableLI article">
+									<a href="https://www.nascar.com/video/franchise/trackside-live/how-dale-jr-being-fired-led-to-his-racing-career/">
+						<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/10/1677257476001_5601919307001_5601899228001-vs-425x226.jpg">
+						<span class="article-title">How Dale Jr. being fired led to his racing career</span>
+														<img class="galleryIcon fdcn_video" src="https://www.nascar.com/wp-content/themes/ndms-2016/images/video-article-icon.png" style="display: block;">
+					  					</a>
+		  					</li>
+	  			  		<li data-type="article" data-published="undefined" data-author="" data-path="http://nas.cr/2j3p35S" data-title="Buy Monster gear!" data-description="" class="sortableLI article">
+									<a href="http://nas.cr/2j3p35S">
+						<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/06/june19-updated-fanatics-monster-gear-425x226.jpg">
+						<span class="article-title">Buy Monster gear!</span>
+											</a>
+		  					</li>
+	  		</ul><ul id="sortableLeftLower" data-componentname="secondaryLeftColumn" class="lower1">				<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/09/dale-earnhardt-jr-day-alabama/" data-title="Alabama governor declares Oct. 15 'Dale Earnhardt Jr. Day'" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/news-media/2017/10/09/dale-earnhardt-jr-day-alabama/">
+					<span class="article-title">Alabama governor declares Oct. 15 'Dale Earnhardt Jr. Day'</span>
+				</a>
+	  				</li>
+		  					<li data-type="video" data-published="undefined" data-author="" data-path="https://www.nascar.com/video/franchise/monster-energy-nascar-cup-highlights/kyle-busch-receives-medical-attention-grueling-race/" data-title="Kyle Busch gets medical care" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/video/franchise/monster-energy-nascar-cup-highlights/kyle-busch-receives-medical-attention-grueling-race/">
+					<span class="article-title">Kyle Busch gets medical care</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/09/martinsville-monster-energy-cup-series-organizational-test-playoffs/" data-title="Seven playoff teams set to test at Martinsville this week" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/news-media/2017/10/09/martinsville-monster-energy-cup-series-organizational-test-playoffs/">
+					<span class="article-title">Seven playoff teams set to test at Martinsville this week</span>
+				</a>
+	  				</li>
+		  	<div id='ad_native_01'></div>				<li data-type="video" data-published="undefined" data-author="" data-path="https://www.nascar.com/video/franchise/monster-energy-nascar-cup-victory-lane/martin-truex-jr-gets-emotional-charlotte-victory-lane/" data-title="Martin Truex Jr. gets emotional in Charlotte Victory Lane" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/video/franchise/monster-energy-nascar-cup-victory-lane/martin-truex-jr-gets-emotional-charlotte-victory-lane/">
+					<span class="article-title">Martin Truex Jr. gets emotional in Charlotte Victory Lane</span>
+				</a>
+	  				</li>
+		  					<li data-type="video" data-published="undefined" data-author="" data-path="https://www.nascar.com/video/franchise/monster-energy-nascar-cup-highlights/ryan-newman-wrecks-car-catches-fire-charlotte/" data-title="Newman's car catches fire after big wreck" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/video/franchise/monster-energy-nascar-cup-highlights/ryan-newman-wrecks-car-catches-fire-charlotte/">
+					<span class="article-title">Newman's car catches fire after big wreck</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://galleries.nascar.com/gallery/1518/second-best-drivers-with-most-runner-up-finishes-before-first-win" data-title="Elliott's sixth runner-up finish recalls drivers with the most second places" data-description="" class="sortableLI article ">
+				<a href="https://galleries.nascar.com/gallery/1518/second-best-drivers-with-most-runner-up-finishes-before-first-win">
+					<span class="article-title">Elliott's sixth runner-up finish recalls drivers with the most second places</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/09/dale-earnhardt-jr-to-be-inducted-into-texas-motorsports-hall-of-fame/" data-title="Dale Earnhardt Jr. to be inducted into Texas Motorsports Hall of Fame" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/news-media/2017/10/09/dale-earnhardt-jr-to-be-inducted-into-texas-motorsports-hall-of-fame/">
+					<span class="article-title">Dale Earnhardt Jr. to be inducted into Texas Motorsports Hall of Fame</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/06/dale-earnhardt-jr-charlotte-motor-speedway-concussion-research-gift/" data-title="Charlotte track's $100,000 gift to honor Dale Jr., fund concussion research" data-description="" class="sortableLI article subItem">
+				<a href="https://www.nascar.com/news-media/2017/10/06/dale-earnhardt-jr-charlotte-motor-speedway-concussion-research-gift/">
+					<span class="article-title">Charlotte track's $100,000 gift to honor Dale Jr., fund concussion research</span>
+				</a>
+	  				</li>
+		  					<li data-type="video" data-published="undefined" data-author="" data-path="https://www.nascar.com/video/franchise/monster-energy-nascar-cup-post-race-reactions/kyle-larson-charlotte-better-than-martin-truex-jr-playoffs/" data-title="Larson: ‘I feel like we’ve been better than the 78’" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/video/franchise/monster-energy-nascar-cup-post-race-reactions/kyle-larson-charlotte-better-than-martin-truex-jr-playoffs/">
+					<span class="article-title">Larson: ‘I feel like we’ve been better than the 78’</span>
+				</a>
+	  				</li>
+		  					<li data-type="video" data-published="undefined" data-author="" data-path="https://www.nascar.com/video/franchise/press-pass/martin-truex-jr-cole-pearn-charlotte-playoffs/" data-title="Cole Pearn: 'We're all in it together'" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/video/franchise/press-pass/martin-truex-jr-cole-pearn-charlotte-playoffs/">
+					<span class="article-title">Cole Pearn: 'We're all in it together'</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/08/monster-energy-playoffs-charlotte-kevin-harvick-most-laps-led-third-place/" data-title="Harvick leads the most laps, but finishes third at Charlotte" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/news-media/2017/10/08/monster-energy-playoffs-charlotte-kevin-harvick-most-laps-led-third-place/">
+					<span class="article-title">Harvick leads the most laps, but finishes third at Charlotte</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/08/stage-recap-for-charlotte-monster-energy-series-playoff-race/" data-title="Harvick sweeps stages, loads up on points" data-description="" class="sortableLI article subItem">
+				<a href="https://www.nascar.com/news-media/2017/10/08/stage-recap-for-charlotte-monster-energy-series-playoff-race/">
+					<span class="article-title">Harvick sweeps stages, loads up on points</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/08/13/2017-monster-energy-nascar-cup-series-stage-points-2/" data-title="Stage points awarded this season in Monster Energy Series" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/news-media/2017/08/13/2017-monster-energy-nascar-cup-series-stage-points-2/">
+					<span class="article-title">Stage points awarded this season in Monster Energy Series</span>
+				</a>
+	  				</li>
+		  					<li data-type="gallery" data-published="undefined" data-author="" data-path="https://galleries.nascar.com/gallery/864/all-of-martin-truex-jr.s-monster-energy-nascar-cup-series-wins" data-title="Nine wins for Truex Jr. in the last 13 months!" data-description="" class="sortableLI article ">
+				<a href="https://galleries.nascar.com/gallery/864/all-of-martin-truex-jr.s-monster-energy-nascar-cup-series-wins">
+					<span class="article-title">Nine wins for Truex Jr. in the last 13 months!</span>
+				</a>
+	  				</li>
+		  					<li data-type="gallery" data-published="undefined" data-author="" data-path="https://galleries.nascar.com/gallery/943/2017-monster-energy-nascar-cup-series-winners" data-title="Recap all the 2017 race winners" data-description="" class="sortableLI article subItem">
+				<a href="https://galleries.nascar.com/gallery/943/2017-monster-energy-nascar-cup-series-winners">
+					<span class="article-title">Recap all the 2017 race winners</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/07/results-xfinity-charlotte-motor-speedway" data-title="Alex Bowman shakes off rust for first XFINITY win at Charlotte" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/news-media/2017/10/07/results-xfinity-charlotte-motor-speedway">
+					<span class="article-title">Alex Bowman shakes off rust for first XFINITY win at Charlotte</span>
+				</a>
+	  				</li>
+		  					<li data-type="gallery" data-published="undefined" data-author="" data-path="https://galleries.nascar.com/gallery/1319/alex-bowman-through-the-years" data-title="Alex Bowman through the years" data-description="" class="sortableLI article subItem">
+				<a href="https://galleries.nascar.com/gallery/1319/alex-bowman-through-the-years">
+					<span class="article-title">Alex Bowman through the years</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/07/xfinity-series-playoffs-round-of-8-field-set/" data-title="Who's in, who's out: XFINITY Series Playoffs Round of 8 field set" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/news-media/2017/10/07/xfinity-series-playoffs-round-of-8-field-set/">
+					<span class="article-title">Who's in, who's out: XFINITY Series Playoffs Round of 8 field set</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/07/xfinity-playoff-bubble-charlotte-motor-speedway/" data-title="Reed edges Gaughan for final spot in XFINITY Round of 8" data-description="" class="sortableLI article subItem">
+				<a href="https://www.nascar.com/news-media/2017/10/07/xfinity-playoff-bubble-charlotte-motor-speedway/">
+					<span class="article-title">Reed edges Gaughan for final spot in XFINITY Round of 8</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/06/jennifer-anderson-tops-tammy-rice-better-half-dash-win/" data-title="Jennifer Anderson tops Tammy Rice for Better Half Dash win" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/news-media/2017/10/06/jennifer-anderson-tops-tammy-rice-better-half-dash-win/">
+					<span class="article-title">Jennifer Anderson tops Tammy Rice for Better Half Dash win</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/08/full-weekend-schedule-for-talladega/" data-title="Full weekend schedule for Talladega" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/news-media/2017/10/08/full-weekend-schedule-for-talladega/">
+					<span class="article-title">Full weekend schedule for Talladega</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/07/nascar-tv-schedule-week-of-october-9-15/" data-title="NASCAR TV schedule week of Oct. 9-15" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/news-media/2017/10/07/nascar-tv-schedule-week-of-october-9-15/">
+					<span class="article-title">NASCAR TV schedule week of Oct. 9-15</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/05/bellator-mma-fight-series-talladega/" data-title="Monster Energy Bellator MMA Fight Series visits Talladega" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/news-media/2017/10/05/bellator-mma-fight-series-talladega/">
+					<span class="article-title">Monster Energy Bellator MMA Fight Series visits Talladega</span>
+				</a>
+	  				</li>
+		  					<li data-type="gallery" data-published="undefined" data-author="" data-path="https://galleries.nascar.com/gallery/1528/hendrick-motorsports-unveils-all-four-2018-daytona-500-paint-schemes" data-title="Hendrick Motorsports unveils 2018 paint schemes" data-description="" class="sortableLI article ">
+				<a href="https://galleries.nascar.com/gallery/1528/hendrick-motorsports-unveils-all-four-2018-daytona-500-paint-schemes">
+					<span class="article-title">Hendrick Motorsports unveils 2018 paint schemes</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/06/dale-earnhardt-jr-season-finale-helmet-race-car-memorabilia-rick-hendrick" data-title="Dale Jr. on helmets, race cars - who gets his at season's end" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/news-media/2017/10/06/dale-earnhardt-jr-season-finale-helmet-race-car-memorabilia-rick-hendrick">
+					<span class="article-title">Dale Jr. on helmets, race cars - who gets his at season's end</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/02/robert-yates-dies-liver-cancer-nascar-hall-of-fame-2018/" data-title="Champion owner, engine builder Robert Yates dies at 74" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/news-media/2017/10/02/robert-yates-dies-liver-cancer-nascar-hall-of-fame-2018/">
+					<span class="article-title">Champion owner, engine builder Robert Yates dies at 74</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/03/nascar-brian-france-on-robert-yates/" data-title="Brian France statement" data-description="" class="sortableLI article subItem">
+				<a href="https://www.nascar.com/news-media/2017/10/03/nascar-brian-france-on-robert-yates/">
+					<span class="article-title">Brian France statement</span>
+				</a>
+	  				</li>
+		  					<li data-type="gallery" data-published="undefined" data-author="" data-path="https://galleries.nascar.com/gallery/1516/robert-yates-1943-2017" data-title="A life of racing: Robert Yates (1943-2017)" data-description="" class="sortableLI article subItem">
+				<a href="https://galleries.nascar.com/gallery/1516/robert-yates-1943-2017">
+					<span class="article-title">A life of racing: Robert Yates (1943-2017)</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/05/charlotte-road-course-length-turns-map/" data-title="Charlotte shows off road course" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/news-media/2017/10/05/charlotte-road-course-length-turns-map/">
+					<span class="article-title">Charlotte shows off road course</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://galleries.nascar.com/gallery/678/bill-elliott-through-the-years" data-title="Looking back at key moments in Bill Elliott's career" data-description="" class="sortableLI article ">
+				<a href="https://galleries.nascar.com/gallery/678/bill-elliott-through-the-years">
+					<span class="article-title">Looking back at key moments in Bill Elliott's career</span>
+				</a>
+	  				</li>
+		  					<li data-type="video" data-published="undefined" data-author="" data-path="https://www.nascar.com/video/franchise/garagecam-replay/gaughan-discusses-coming-together-las-vegas/" data-title="Gaughan discusses coming together for Las Vegas" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/video/franchise/garagecam-replay/gaughan-discusses-coming-together-las-vegas/">
+					<span class="article-title">Gaughan discusses coming together for Las Vegas</span>
+				</a>
+	  				</li>
+		  					<li data-type="video" data-published="undefined" data-author="" data-path="https://www.nascar.com/video/franchise/up-to-speed/hendrick-motorsports-reveals-2018-daytona-500-paint-schemes/" data-title="Hendrick unveils '18 schemes" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/video/franchise/up-to-speed/hendrick-motorsports-reveals-2018-daytona-500-paint-schemes/">
+					<span class="article-title">Hendrick unveils '18 schemes</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/video/franchise/up-to-speed/familiar-look-no-24-william-byron-2018-daytona-500/" data-title="Watch: Flames return to No. 24 paint scheme for William Byron" data-description="" class="sortableLI article subItem">
+				<a href="https://www.nascar.com/video/franchise/up-to-speed/familiar-look-no-24-william-byron-2018-daytona-500/">
+					<span class="article-title">Watch: Flames return to No. 24 paint scheme for William Byron</span>
+				</a>
+	  				</li>
+		  					<li data-type="gallery" data-published="undefined" data-author="" data-path="https://galleries.nascar.com/gallery/1529/nascarcasm-tweets-you-might-have-missed-week-of-october-6" data-title="How Jimmie could pay back Junior for autograph snafu, more tweets" data-description="" class="sortableLI article ">
+				<a href="https://galleries.nascar.com/gallery/1529/nascarcasm-tweets-you-might-have-missed-week-of-october-6">
+					<span class="article-title">How Jimmie could pay back Junior for autograph snafu, more tweets</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/03/jeff-gordon-welcomes-a-new-member-to-the-family/" data-title="Jeff Gordon welcomes a new (adorable) member to the family" data-description="" class="sortableLI article subItem">
+				<a href="https://www.nascar.com/news-media/2017/10/03/jeff-gordon-welcomes-a-new-member-to-the-family/">
+					<span class="article-title">Jeff Gordon welcomes a new (adorable) member to the family</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="http://nas.cr/2hReOn7" data-title="D4D combine set for New Smyrna" data-description="" class="sortableLI article ">
+				<a href="http://nas.cr/2hReOn7">
+					<span class="article-title">D4D combine set for New Smyrna</span>
+				</a>
+	  				</li>
+		  					<li data-type="article" data-published="undefined" data-author="" data-path="https://www.nascar.com/news-media/2017/10/07/iracing-championship-nascar-peak-antifreeze-series-miami" data-title="NASCAR PEAK Antifreeze Series to crown iRacing champion Tuesday" data-description="" class="sortableLI article ">
+				<a href="https://www.nascar.com/news-media/2017/10/07/iracing-championship-nascar-peak-antifreeze-series-miami">
+					<span class="article-title">NASCAR PEAK Antifreeze Series to crown iRacing champion Tuesday</span>
+				</a>
+	  				</li>
+		  	</ul><div style="clear:both"></div>
+<div id="moreNewsLink">
+	<a href="https://www.nascar.com/news">More News		<img src="https://www.nascar.com/wp-content/themes/ndms-2016/images/right_new_active.png" class="moreNewsCaret" style="display: inline;">
+	</a>
+</div>
+</div>
+<link rel="stylesheet" type="text/css" href="https://www.nascar.com/wp-content/plugins/ndms_widgets/recentArticlePromo/css/style.css"/>
+
+<div class="recent-article-promo-container clearfix">
+	<div class="recent-article-promo clearfix">
+		<a href="https://www.nascar.com/podcast.html" target="">
+			<div class="bg-img" style="opacity:1;background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/05/HPComponent_TheGlassCage_new_1844x1040_lightbutton-625x340.jpg');"></div>
+			<div class="promo-wrap">
+				<div class="promo-text">
+										
+				</div>				
+			</div>
+		</a>
+	</div>
+</div></div><div id="pgc-1039-2-1"  class="panel-grid-cell" ><div class='right-rail'><div class='floating-container'><link rel="stylesheet" type="text/css" href="https://www.nascar.com/wp-content/plugins/ndms_nascar/seriesNewsPromo/css/style.css"/>
+
+	<div class="series-news-promo-container secondary-font item-component clearfix">
+		<div class="series-news-image">
+			<a  href="https://www.nascar.com/news/monster-energy-nascar-cup-series/">
+				<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/01/os-nascar-to-be-monster-energy-cup-series-starting-next-season-20161219-70x35.jpg" />
+			</a>
+		</div>
+				<div class="links">
+			<a href="https://www.nascar.com/news/monster-energy-nascar-cup-series/">News</a>
+		    <a href="https://www.nascar.com/racecenter.html">Results</a>  
+		    <a href="https://www.nascar.com/monster-energy-nascar-cup-series/schedule/">Schedule</a>
+		</div>
+			</div>
+<link rel="stylesheet" type="text/css" href="https://www.nascar.com/wp-content/plugins/ndms_nascar/seriesNewsPromo/css/style.css"/>
+
+	<div class="series-news-promo-container secondary-font item-component clearfix">
+		<div class="series-news-image">
+			<a  href="https://www.nascar.com/news/xfinity-series/">
+				<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/01/Xfinity-Logo-70x35.png" />
+			</a>
+		</div>
+				<div class="links">
+			<a href="https://www.nascar.com/news/xfinity-series/">News</a>
+		    <a href="https://www.nascar.com/nxs-racecenter.html">Results</a>  
+		    <a href="https://www.nascar.com/nascar-xfinity-series/schedule/">Schedule</a>
+		</div>
+			</div>
+<link rel="stylesheet" type="text/css" href="https://www.nascar.com/wp-content/plugins/ndms_nascar/seriesNewsPromo/css/style.css"/>
+
+	<div class="series-news-promo-container secondary-font item-component clearfix">
+		<div class="series-news-image">
+			<a  href="https://www.nascar.com/news/camping-world-truck-series/">
+				<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/08/camping-series-70.png" />
+			</a>
+		</div>
+				<div class="links">
+			<a href="https://www.nascar.com/news/camping-world-truck-series/">News</a>
+		    <a href="https://www.nascar.com/ncwts-racecenter.html">Results</a>  
+		    <a href="https://www.nascar.com/nascar-camping-world-truck-series/schedule/">Schedule</a>
+		</div>
+			</div>
+<link rel="stylesheet" type="text/css" href="https://www.nascar.com/wp-content/plugins/ndms_nascar/seriesNewsPromo/css/style.css"/>
+
+	<div class="series-news-promo-container secondary-font item-component clearfix">
+		<div class="series-news-image">
+			<a  href="http://hometracks.nascar.com/">
+				<img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/02/hometracks-70x35.png" />
+			</a>
+		</div>
+			</div>
+<div class='nascar-ad-container'><div class='nascar-advertisement ad_rect_btf_01 item-component' id='ad_rect_btf_01'></div></div>    <script type="text/javascript">
+    jQuery(document).ready(function(){
+      function checkBannerWidth(){
+        jQuery('.nascar-advertisement').each(function(){
+          var bannerAdWidth = jQuery(this).find('iframe').first().attr('width');
+          if(bannerAdWidth == null || bannerAdWidth == "undefined" || bannerAdWidth === 0){
+            bannerAdWidth = jQuery(this).find('iframe').first().css('width');
+          }
+          jQuery(this).css({'width':bannerAdWidth});
+        });
+      }
+      setInterval(function(){
+        checkBannerWidth();
+      }, 500);
+    });
+
+    </script>
+    <div class='nascar-ad-container'><div class='nascar-advertisement ad_nfs_btf_01 item-component' id='ad_nfs_btf_01'></div></div>    <script type="text/javascript">
+    jQuery(document).ready(function(){
+      function checkBannerWidth(){
+        jQuery('.nascar-advertisement').each(function(){
+          var bannerAdWidth = jQuery(this).find('iframe').first().attr('width');
+          if(bannerAdWidth == null || bannerAdWidth == "undefined" || bannerAdWidth === 0){
+            bannerAdWidth = jQuery(this).find('iframe').first().css('width');
+          }
+          jQuery(this).css({'width':bannerAdWidth});
+        });
+      }
+      setInterval(function(){
+        checkBannerWidth();
+      }, 500);
+    });
+
+    </script>
+    </div><link rel="stylesheet" type="text/css" href="https://www.nascar.com/wp-content/plugins/ndms_widgets/socialTeaser/css/style.css"/>
+
+<style>
+	.social-teaser-container.newsletter-on .submitEmailButton{
+        color: #000;
+    }
+</style>
+
+<div class="social-teaser-container clearfix  newsletter-on">
+	<div  class="bg-img" style="background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/02/social-signup-bg.png');"></div>
+	<div class="social-teaser-content">
+		<h3>Follow NASCAR</h3>
+		<div class="icons">
+			<div class="icon"><a target="self" href="https://twitter.com/NASCAR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/02/twitta.png"/></a></div><div class="icon"><a target="self" href="https://www.facebook.com/NASCAR/"><img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/02/fb.png"/></a></div><div class="icon"><a target="self" href="https://www.instagram.com/nascar/"><img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/02/youtube.png"/></a></div><div class="icon"><a target="self" href="https://www.youtube.com/user/TheOfficialNASCAR"><img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/02/insta.png"/></a></div><div class="icon"><a target="self" href="https://www.snapchat.com/add/nascar"><img src="https://www.nascar.com/wp-content/uploads/sites/7/2017/03/Snapchat-icon.png"/></a></div>		</div>
+		
+					<div class="newsletter">
+			<form role="form" method="POST" action="https://cl.s6.exct.net/subscribe.aspx?lid=8591" enctype="multipart/form-data" id="subscribeForm" name="subscribeForm">
+				
+						
+	            <input type="hidden" id="SubAction" name="SubAction" value="sub" />
+	            <input type="hidden" id="thx" name="thx" value="http://www.nascar.com/content/nascar/en_us/newsletterthankyou.html">
+	            <input type="hidden" id="err" name="err" value="http://www.nascar.com/content/nascar/en_us/newsletterthankyou.html">
+	            <input type="hidden" id="usub" name="usub" value="http://www.nascar.com/content/nascar/en_us/newsletterthankyou.html">
+	            <input type="hidden" id="MID" name="MID" value="6277949">
+	            <input type="text" class="emailAddress" id="Email Address" name="Email Address" placeholder="Email Address" />
+	            <input type="submit" class="submitEmailButton" name="Submit" value="Sign Up" />
+	        </form>
+	        			</div>
+			</div>						
+</div></div></div></div></div><div id="pg-1039-3"  class="panel-grid panel-has-style" ><div class="panel-row-style panel-row-style-for-1039-3" ><div id="pgc-1039-3-0"  class="panel-grid-cell" ><div class='nascar-ad-container'><div class='nascar-advertisement ad_bnr_btf_01 item-component' id='ad_bnr_btf_01'></div></div>    <script type="text/javascript">
+    jQuery(document).ready(function(){
+      function checkBannerWidth(){
+        jQuery('.nascar-advertisement').each(function(){
+          var bannerAdWidth = jQuery(this).find('iframe').first().attr('width');
+          if(bannerAdWidth == null || bannerAdWidth == "undefined" || bannerAdWidth === 0){
+            bannerAdWidth = jQuery(this).find('iframe').first().css('width');
+          }
+          jQuery(this).css({'width':bannerAdWidth});
+        });
+      }
+      setInterval(function(){
+        checkBannerWidth();
+      }, 500);
+    });
+
+    </script>
+    </div></div></div><div id="pg-1039-4"  class="panel-grid panel-has-style" ><div class="full-width-container max-width-box panel-row-style panel-row-style-for-1039-4" ><div id="pgc-1039-4-0"  class="panel-grid-cell" ><link rel="stylesheet" type="text/css" href="https://www.nascar.com/wp-content/plugins/ndms_widgets/videoList/css/style.css?v=1.001"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		var target = ".video-list-container .video-list-grid.lower";
+		var target2 = ".video-list-container .video-list-grid.higher";
+
+		// Detect screen maximize
+		jQuery(window).on('resize', function(){
+	    if(screen.width === window.innerWidth){
+				jQuery(target).slick('unslick');
+	    }
+	  });
+
+		function addSlickSlider(target){
+		    jQuery(target).slick({
+		        variableWidth: true,
+		        prevArrow: false,
+		        nextArrow: false,
+		        responsive: [
+		        {
+		          breakpoint: 2000,
+		          settings: "unslick"
+		        },
+		        {
+		          breakpoint: 767,
+		          settings: {
+		            infinite: true,
+		            dots: false
+		          }
+		        }
+		      ]
+		    });
+		}
+
+		function addSlickSlider2(target){
+		    jQuery(target).slick({
+		        variableWidth: true,
+		        prevArrow: false,
+		        nextArrow: false,
+		        responsive: [
+		        {
+		          breakpoint: 2000,
+		          settings: "unslick"
+		        },
+		        {
+		          breakpoint: 767,
+		          settings: {
+		            infinite: true,
+		            dots: false
+		          }
+		        }
+		      ]
+		    });
+		}
+					addSlickSlider(target);
+			addSlickSlider(target2);
+			});
+</script>
+
+	<div class=" from-query video-list-container  clearfix">
+		<a name="video-section"></a>
+		<div class="video-list-header clearfix">
+			<h3><span>Latest Videos</span></h3>
+			<a class='more-link' href='https://www.nascar.com/videos'> More Videos<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/nascar-right-carot.png' /></a>		</div>
+		<div class="video-list-grid lower">
+		<div class="video-list-item" style="">
+					<div class="video-image">
+						<a href="https://www.nascar.com/video/franchise/rearview-mirror/rearview-mirror-truex-takes-charlotte/" >
+							<div style="background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/10/charlotte-rearview-mirror.jpg');"></div>
+							<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/video-icon.png' />						</a>
+
+					</div>
+					<a href="https://www.nascar.com/video/franchise/rearview-mirror/rearview-mirror-truex-takes-charlotte/" >
+						<h3>Rearview Mirror: Truex takes Charlotte</h3>
+					</a>
+				</div>
+				<div class="video-list-item" style="">
+					<div class="video-image">
+						<a href="https://www.nascar.com/video/franchise/crew-call/crew-call-no-78-team-charges-charlotte/" >
+							<div style="background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/10/crew-call-922.jpg');"></div>
+							<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/video-icon.png' />						</a>
+
+					</div>
+					<a href="https://www.nascar.com/video/franchise/crew-call/crew-call-no-78-team-charges-charlotte/" >
+						<h3>Crew call: the No. 78 team charges at Charlotte</h3>
+					</a>
+				</div>
+				<div class="video-list-item" style="">
+					<div class="video-image">
+						<a href="https://www.nascar.com/video/franchise/tuned-in/scott-miller-explains-lack-penalty-no-48-team/" >
+							<div style="background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/10/scott-miller-on-lug-nuts.jpg');"></div>
+							<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/video-icon.png' />						</a>
+
+					</div>
+					<a href="https://www.nascar.com/video/franchise/tuned-in/scott-miller-explains-lack-penalty-no-48-team/" >
+						<h3>Scott Miller explains NASCAR's decision on the No. 48</h3>
+					</a>
+				</div>
+				<div class="video-list-item" style="">
+					<div class="video-image">
+						<a href="https://www.nascar.com/video/franchise/race-rewind/race-rewind-charlotte-in-15-bank-of-america-500/" >
+							<div style="background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/10/1677257476001_5602670707001_5602657811001-vs.jpg');"></div>
+							<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/video-icon.png' />						</a>
+
+					</div>
+					<a href="https://www.nascar.com/video/franchise/race-rewind/race-rewind-charlotte-in-15-bank-of-america-500/" >
+						<h3>Race Rewind: Charlotte in 15</h3>
+					</a>
+				</div>
+				<div class="video-list-item" style="">
+					<div class="video-image">
+						<a href="https://www.nascar.com/video/franchise/trackside-live/trackside-live-replay-jamie-mcmurray-brad-keselowski-ty-dillon-take-the-stage/" >
+							<div style="background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/10/1677257476001_5602104976001_5602102667001-vs.jpg');"></div>
+							<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/video-icon.png' />						</a>
+
+					</div>
+					<a href="https://www.nascar.com/video/franchise/trackside-live/trackside-live-replay-jamie-mcmurray-brad-keselowski-ty-dillon-take-the-stage/" >
+						<h3>Trackside Live Replay: Jamie McMurray, Brad Keselowski, Ty Dillon take the stage</h3>
+					</a>
+				</div>
+				<div class="video-list-item" style="">
+					<div class="video-image">
+						<a href="https://www.nascar.com/video/franchise/press-pass/truex-charlotte-triumph-just-keeps-getting-better/" >
+							<div style="background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/10/mencs17-cha2-pp-truex-thumb.jpg');"></div>
+							<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/video-icon.png' />						</a>
+
+					</div>
+					<a href="https://www.nascar.com/video/franchise/press-pass/truex-charlotte-triumph-just-keeps-getting-better/" >
+						<h3>Truex after Charlotte triumph: 'It just keeps getting better'</h3>
+					</a>
+				</div>
+				<div class="video-list-item" style="">
+					<div class="video-image">
+						<a href="https://www.nascar.com/video/franchise/monster-energy-nascar-cup-race-recap/martin-truex-jr-advances-playoffs-charlotte-win/" >
+							<div style="background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/10/mencs17-cha2-rr-thumb.jpg');"></div>
+							<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/video-icon.png' />						</a>
+
+					</div>
+					<a href="https://www.nascar.com/video/franchise/monster-energy-nascar-cup-race-recap/martin-truex-jr-advances-playoffs-charlotte-win/" >
+						<h3>Martin Truex Jr. advances in Playoffs with Charlotte win</h3>
+					</a>
+				</div>
+				<div class="video-list-item" style="">
+					<div class="video-image">
+						<a href="https://www.nascar.com/video/franchise/press-pass/martin-truex-jr-cole-pearn-charlotte-playoffs/" >
+							<div style="background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/10/mencs17-cha2-pp-pearn-thumb1.jpg');"></div>
+							<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/video-icon.png' />						</a>
+
+					</div>
+					<a href="https://www.nascar.com/video/franchise/press-pass/martin-truex-jr-cole-pearn-charlotte-playoffs/" >
+						<h3>Martin Truex Jr.'s crew chief: 'We're all in it together'</h3>
+					</a>
+				</div>
+				<div class="video-list-item" style="">
+					<div class="video-image">
+						<a href="https://www.nascar.com/video/franchise/monster-energy-nascar-cup-post-race-reactions/kyle-larson-charlotte-better-than-martin-truex-jr-playoffs/" >
+							<div style="background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2017/10/mencs17-cha2-prr-larson-thumb.jpg');"></div>
+							<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/video-icon.png' />						</a>
+
+					</div>
+					<a href="https://www.nascar.com/video/franchise/monster-energy-nascar-cup-post-race-reactions/kyle-larson-charlotte-better-than-martin-truex-jr-playoffs/" >
+						<h3>Larson: 'I feel like we've been better than the 78'</h3>
+					</a>
+				</div>
+						</div>
+	</div>
+</div></div></div><div id="pg-1039-5"  class="panel-grid panel-has-style" ><div class="full-width-container max-width-box panel-row-style panel-row-style-for-1039-5" ><div id="pgc-1039-5-0"  class="panel-grid-cell" ><link rel="stylesheet" type="text/css" href="https://www.nascar.com/wp-content/plugins/ndms_widgets/photoList/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		var target = ".photo-list-container .photo-list-grid";
+
+		// Detect screen maximize
+		jQuery(window).on('resize', function(){
+	    if(screen.width === window.innerWidth){
+				jQuery(target).slick('unslick');
+	    }
+	  });
+
+		function addSlickSlider(target){
+		    jQuery(target).slick({
+		        variableWidth: true,
+		        prevArrow: false,
+		        nextArrow: false,
+		        responsive: [
+		        {
+		          breakpoint: 2000,
+		          settings: "unslick"
+		        },
+		        {
+		          breakpoint: 767,
+		          settings: {
+		            infinite: true,
+		            dots: false
+		          }
+		        }
+		      ]
+		    });
+		}
+
+		addSlickSlider(target);
+	});
+</script>
+	<a name="photo-section"></a>
+	<div class="photo-list-container light clearfix">		
+		<div class="photo-list-header clearfix">
+			<h3><span>Latest Galleries</span></h3>
+			<a class='more-link' href='https://www.nascar.com/galleries'> More Galleries<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/nascar-right-carot.png' /></a>		</div>
+		<div class="photo-list-grid">
+								<div class="photo-list-item">
+						<div class="photo-image">
+							<a href="https://galleries.nascar.com/gallery/1538/travelogue-steve-luvender-takes-on-charlotte-motor-speedway" >
+								<div style="background-image: url('https://images-galleries.nascar.com/gallery-images/2017/10/09/thumbnail/1.jpg');"></div>
+								<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/photo-icon.png' />							</a>
+
+						</div>
+						<a href="https://galleries.nascar.com/gallery/1538/travelogue-steve-luvender-takes-on-charlotte-motor-speedway" >
+							<h3>Travelogue: Steve Luvender takes on Charlotte Motor Speedway</h3>
+						</a>
+					</div>
+										<div class="photo-list-item">
+						<div class="photo-image">
+							<a href="https://galleries.nascar.com/gallery/1535/take-5-charlotte-playoff-race" >
+								<div style="background-image: url('https://images-galleries.nascar.com/gallery-images/2017/10/09/thumbnail/GettyImages-859099126.jpg');"></div>
+								<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/photo-icon.png' />							</a>
+
+						</div>
+						<a href="https://galleries.nascar.com/gallery/1535/take-5-charlotte-playoff-race" >
+							<h3>Take 5: Charlotte playoff race</h3>
+						</a>
+					</div>
+										<div class="photo-list-item">
+						<div class="photo-image">
+							<a href="https://galleries.nascar.com/gallery/1534/nascarcasm-recaps-charlotte-in-photos" >
+								<div style="background-image: url('https://images-galleries.nascar.com/gallery-images/2017/10/08/thumbnail/2017-October-CharlotteGallery-10.jpg');"></div>
+								<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/photo-icon.png' />							</a>
+
+						</div>
+						<a href="https://galleries.nascar.com/gallery/1534/nascarcasm-recaps-charlotte-in-photos" >
+							<h3>@nascarcasm recaps Charlotte in photos</h3>
+						</a>
+					</div>
+										<div class="photo-list-item">
+						<div class="photo-image">
+							<a href="https://galleries.nascar.com/gallery/1533/how-kyle-busch-is-crashing-the-championship-picture" >
+								<div style="background-image: url('https://images-galleries.nascar.com/gallery-images/2017/10/07/thumbnail/2017-Oct7-KyleBuschgraphic.jpg');"></div>
+								<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/photo-icon.png' />							</a>
+
+						</div>
+						<a href="https://galleries.nascar.com/gallery/1533/how-kyle-busch-is-crashing-the-championship-picture" >
+							<h3>How Kyle Busch is crashing the championship picture</h3>
+						</a>
+					</div>
+										<div class="photo-list-item">
+						<div class="photo-image">
+							<a href="https://galleries.nascar.com/gallery/1532/starting-lineup-for-bank-of-america-500" >
+								<div style="background-image: url('https://images-galleries.nascar.com/gallery-images/2017/10/06/thumbnail/17CLT3mt1070.jpg');"></div>
+								<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/photo-icon.png' />							</a>
+
+						</div>
+						<a href="https://galleries.nascar.com/gallery/1532/starting-lineup-for-bank-of-america-500" >
+							<h3>Starting lineup for Bank of America 500</h3>
+						</a>
+					</div>
+										<div class="photo-list-item">
+						<div class="photo-image">
+							<a href="https://galleries.nascar.com/gallery/1531/at-track-photos-charlotte-" >
+								<div style="background-image: url('https://images-galleries.nascar.com/gallery-images/2017/10/08/thumbnail/GettyImages-859102922 (1).jpg');"></div>
+								<img src='https://www.nascar.com/wp-content/themes/ndms-2016/images/photo-icon.png' />							</a>
+
+						</div>
+						<a href="https://galleries.nascar.com/gallery/1531/at-track-photos-charlotte-" >
+							<h3>At-track photos: Charlotte </h3>
+						</a>
+					</div>
+							</div>
+	</div>
+</div></div></div><div id="pg-1039-6"  class="panel-grid panel-has-style" ><div class="full-width-container max-width-box panel-row-style panel-row-style-for-1039-6" ><div id="pgc-1039-6-0"  class="panel-grid-cell" ><div style='text-align:center' class='iframe-widget '><iframe src='https://galleries.nascar.com/gallery/1076/talladega-superspeedway.noheader.homepage.noheader' height='470px'  allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' ></iframe></div>      <style>
+        .iframe-widget iframe{
+          width:100% !important;;
+        }
+        @media screen and (max-width: 767px) {
+        .iframe-widget iframe{
+          height:470px !important;
+        }
+      </style>
+    </div></div></div></div>    <script type="text/javascript">
+    jQuery(document).ready(function(){
+      function checkBannerWidth(){
+        jQuery('.nascar-advertisement').each(function(){
+          var bannerAdWidth = jQuery(this).find('iframe').first().attr('width');
+          if(bannerAdWidth == null || bannerAdWidth == "undefined" || bannerAdWidth === 0){
+            bannerAdWidth = jQuery(this).find('iframe').first().css('width');
+          }
+          jQuery(this).css({'width':bannerAdWidth});
+        });
+      }
+      setInterval(function(){
+        checkBannerWidth();
+      }, 500);
+    });
+
+    </script>
+	</div><!-- .entry-content -->
+		</div><!-- #content -->
+	</div><!-- #primary -->
+</div><!-- #main-content -->
+
+</div> <!-- #main --></div> <!-- #page --><div class='above-footer-widget'><div class='above-footer-inner'><div style='clear:both'></div></div></div>			<footer id="colophon" class="site-footer site-footer-nascar" role="contentinfo">
+			<style>
+.nascar-footer ul, .nascar-footer li {
+  list-style: none;
+  padding:0px;
+}
+
+.nascar-footer {
+    margin: 0;
+    font-family: "Arial","Helvetica",sans-serif;
+    font-size: 100%;
+    color: #000;
+}
+.nascar-footer footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: .1px;
+    background-color: ;
+}
+.nascar-footer .row {
+    max-width: 1000px;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+}
+.nascar-footer footer .nascar-footer-logo {
+    width: 100%;
+    margin: 0 auto 15px;
+    text-align: center;
+    padding-top: 18px;
+}
+.nascar-footer footer .nascar-footer-logo h3 {
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin: 15px 20px 0;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+}
+.nascar-footer footer .nascar-footer-logo h3 span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    font-size: 20px;
+}
+.nascar-footer-logo h3 span:before {
+    left: 100%;
+    margin-left: 90px;
+}
+.nascar-footer footer .nascar-footer-logo h3 span:after {
+    right: 100%;
+    margin-right: 90px;
+}
+.nascar-footer footer .nascar-footer-logo h3 span:before, .nascar-footer footer .nascar-footer-logo h3 span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    background: #757575;
+    width: 99999px;
+}
+.nascar-footer .row {
+    max-width: 1000px;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+}
+.nascar-footer .row div[class*=col-]:last-child {
+    margin: 0;
+}
+.nascar-footer .row .col-3 {
+    width: 100%;
+}
+.nascar-footer footer .footer-list-container {
+    padding: 0 20px;
+    overflow: hidden;
+}
+.nascar-footer footer .footer-list-container .footer-column.social-media {
+    margin-top: 2px;
+}
+.nascar-footer footer .footer-list-container .footer-column.social-media ul:first-child {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.nascar-footer footer .footer-list-container .footer-column.social-media ul li {
+    font-family: "Stainless-Regular","Arial","Helvetica",sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #000;
+    padding: 5px 0 5px;
+}
+.nascar-footer footer .footer-list-container .footer-column.social-media ul li a {
+    display: block;
+    color: #ccc;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
+}
+.nascar-footer footer .footer-list-container .footer-column.social-media ul li a span {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    padding-right: 20px;
+    background-repeat: no-repeat!important;
+}
+.nascar-footer footer .footer-list-container .footer-column {
+    width: 20%;
+    float: left;
+}
+.nascar-footer footer .footer-list-container .footer-column ul li:first-child {
+    color: #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #000;
+}
+.nascar-footer footer .footer-list-container .footer-column ul li {
+    font-family: "Stainless-Regular","Arial","Helvetica",sans-serif;
+    padding: 5px 0;
+}
+.nascar-footer footer .footer-list-container .footer-column ul li a {
+    display: inline-block;
+    color: #757575;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
+    font-family: "Stainless-Regular","Arial","Helvetica",sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    padding: 0;
+}
+.nascar-footer footer .footerLinkLogo {
+    display: inline-block;
+    float: right;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+.nascar-footer footer .disclaimer-container {
+    color: #666;
+    padding: 0 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.nascar-footer footer .disclaimer-container p {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    line-height: 14px;
+}
+.nascar-footer footer .disclaimer-container .copy-right{
+  color:;
+}
+@media (max-width: 700px) {
+  .nascar-footer footer {
+      padding-top: .1px;
+  }
+  .nascar-footer .row {
+    width: 100%;
+  }
+  .nascar-footer footer .nascar-footer-logo h3 {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .nascar-footer footer .nascar-footer-logo h3 span:before {
+    margin-left: 70px;
+  }
+  .nascar-footer footer .nascar-footer-logo h3 span:after {
+    margin-right: 70px;
+  }
+  .nascar-footer .row {
+    width: 100%;
+  }
+  .nascar-footer footer .row div[class*=col-]:last-child {
+    margin: 0 auto;
+  }
+  .nascar-footer footer .footer-list-container {
+    padding: 0 5px;
+  }
+  .nascar-footer footer .footer-column.social-media {
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #666;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nascar-footer footer .footer-list-container .footer-column {
+    float: none;
+    width: 100%;
+  }
+  .nascar-footer footer .footer-column.social-media ul:first-child {
+    margin-top: 0 !important;
+    margin-bottom: 0px;
+  }
+  .nascar-footer footer .footer-column.social-media ul {
+    float: left;
+    width: 50%;
+  }
+  .nascar-footer footer .footer-list-container .footer-column ul li:first-child {
+   font-size: 18px;
+ }
+ .nascar-footer footer .footer-column.social-media ul li {
+    text-align: left;
+    padding-left: 0;
+  }
+  .nascar-footer footer .footer-list-container .footer-column ul li {
+    text-align: center;
+    padding: 4px 0;
+  }
+  .nascar-footer footer .footer-column.social-media ul li a {
+    font-size: 14px;
+    width: 100%;
+    line-height: 36px;
+  }
+  .nascar-footer footer .footer-list-container .footer-column ul {
+    margin-top: 0;
+  }
+  .nascar-footer footer .footer-list-container .footer-column ul li:first-child {
+    font-size: 18px;
+  }
+  .nascar-footer footer .footer-list-container .footer-column ul li {
+    text-align: center;
+    padding: 4px 0;
+  }
+  .nascar-footer footer .footer-list-container .footer-column ul li a {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    line-height: 22px;
+}
+/*.nascar-footer footer .footerLinkLogo {
+    display: inline-block;
+    position: absolute;
+    left: 245px;
+    top: 437px;
+    text-align: left;
+}*/
+}
+
+</style>
+
+
+
+<div class="nascar-footer">
+<footer itemscope="" itemtype="http://schema.org/WPFooter">
+
+    <div class="row">
+        <div class="nascar-footer-logo">
+        <h3 class="logo" style="background:url('https://www.nascar.com/wp-content/themes/ndms-2016/images/social/footer/siteLogo-compressor.svg')"><span>&nbsp;</span></h3>        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <div class="footer-list-container">
+                <div class="footer-column social-media">
+                    <nav>
+                        <ul>
+                        <li><a itemprop="sameAs" href="https://www.facebook.com/nascar/" target="_blank"><span style="background:url('https://www.nascar.com/wp-content/themes/ndms-2016/images/social/footer/facebook_logo.png')"></span>Facebook</a></li><li><a itemprop="sameAs" href="https://www.twitter.com/nascar/" target="_blank"><span style="background:url('https://www.nascar.com/wp-content/themes/ndms-2016/images/social/footer/twitter_logo.png')"></span>Twitter</a></li><li><a itemprop="sameAs" href="https://www.youtube.com/nascar/" target="_blank"><span style="background:url('https://www.nascar.com/wp-content/themes/ndms-2016/images/social/footer/youtube_logo.png')"></span>Youtube</a></li>                        </ul>
+                        <ul>
+                          <li><a itemprop="sameAs" href="https://www.nascar.com/desksite" target="_blank"><span style="background:url('https://www.nascar.com/wp-content/themes/ndms-2016/images/social/footer/desksite_logo_lg.png')"></span>DeskSite</a></li><li><a itemprop="sameAs" href="https://plus.google.com/+NASCAR" target="_blank"><span style="background:url('https://www.nascar.com/wp-content/themes/ndms-2016/images/social/footer/google_logo.png')"></span>Google Plus</a></li><li><a itemprop="sameAs" href="https://www.instagram.com/nascar/" target="_blank"><span style="background:url('https://www.nascar.com/wp-content/themes/ndms-2016/images/social/footer/instagram_logo.png')"></span>Instagram</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                                <div class="footer-column"><nav><ul><li>INFORMATION</li><li><a href="http://support.nascar.com/ics/support/default.asp?deptID=5483" target="_0" itemprop="url">Help/Contact Us </a></li><li><a href="http://careers.nascar.com/nascar-now/%20" target="_0" itemprop="url">About NASCAR </a></li><li><a href="http://careers.nascar.com/" target="_0" itemprop="url">Careers </a></li><li><a href="https://www.nascar.com/en_us/sponsors.html" target="_0" itemprop="url">Official Sponsors </a></li><li><a href="https://www.nascar.com/terms-of-use/" target="_0" itemprop="url">Terms of Use </a></li><li><a href="https://www.nascar.com/privacy-policy/" target="_0" itemprop="url">Privacy Policy </a></li><li>
+                                <a id="nascar-etrust" consent="null">
+                                    <script type="text/javascript" src="//consent.truste.com/notice?domain=nascar.com&c=nascar-etrust&text=true&country=us" id="truste_0.2578774775262598"></script>
+                                    <script async="async" type="text/javascript" crossorigin="" src="//consent.truste.com/get?name=notice.js"></script>
+                                    <span class="footerLinkLogoContainer">
+                                      <span class="footerLinkLogo">
+                                        <img src="https://www.nascar.com/wp-content/themes/ndms-2016/images/social/footer/ad_choices_footer.png" style="height:10px; width:10px;">
+                                      </span>
+                                    </span>
+                                </a>
+                            </li><li><a href="http://support.nascar.com/ics/support/kbanswer.asp?deptID=5483&task=knowledge&questionID=1659" target="_0" itemprop="url">Advertising </a></li>
+                    </ul>
+                    </nav>
+                    </div>
+                      <div class="footer-column"><nav><ul><li>NASCAR PRODUCTS</li><li><a href="https://www.nascar.com/raceview" target="_0" itemprop="url">RaceView </a></li><li><a href="https://www.nascar.com/scanner" target="_0" itemprop="url">Scanner </a></li><li><a href="https://www.nascar.com/en_us/nascar-drive.html" target="_0" itemprop="url">Drive </a></li><li><a href="http://fantasygames.nascar.com/live/picks" target="_0" itemprop="url">Fantasy Live </a></li><li><a href="http://fantasygames.nascar.com/streak" target="_0" itemprop="url">Streak to the Finish </a></li><li><a href="https://www.nascar.com/mobile/" target="_0" itemprop="url">NASCAR Mobile </a></li><li><a href="http://store.nascar.com/" target="_0" itemprop="url">NASCAR Shop </a></li>
+                    </ul>
+                    </nav>
+                    </div>
+                      <div class="footer-column"><nav><ul><li>INITIATIVES</li><li><a href="http://green.nascar.com/" target="_0" itemprop="url">NASCAR Green </a></li><li><a href="http://www.nascarfoundation.org/" target="_0" itemprop="url">NASCAR Foundation </a></li><li><a href="http://hometracks.nascar.com/diversity" target="_0" itemprop="url">NASCAR Diversity </a></li><li><a href="https://www.nascar.com/en_us/news-media/articles/2014/1/10/nascar-fan-council-inquiries.html" target="_0" itemprop="url">NASCAR Fan Council </a></li>
+                    </ul>
+                    </nav>
+                    </div>
+                      <div class="footer-column"><nav><ul><li>MORE SITES</li><li><a href="http://www.imsa.com/" target="_0" itemprop="url">IMSA </a></li><li><a href="http://www.fanschoice.tv/" target="_0" itemprop="url">FansChoice.TV </a></li><li><a href="https://www.nascar.com/en_us/iracing-2017.html" target="_0" itemprop="url">iRacing </a></li><li><a href="http://www.accelerationnation.com/index.html" target="_0" itemprop="url">Acceleration Nation </a></li><li><a href="https://www.nascar.com/halloffame" target="_0" itemprop="url">NASCAR Hall of Fame </a></li><li><a href="https://www.nascar.com/sponsorship" target="_0" itemprop="url">Sponsorship </a></li><li><a href="https://www.onmc.com/" target="_0" itemprop="url">Official NASCAR Members Club </a></li>
+                    </ul>
+                    </nav>
+                    </div>
+                                  </div>
+        </div>
+    </div>
+    <div class="row divider">
+        <div class="col-3">
+            <div class="disclaimer-container">
+                <p itemsprop="text"></p>
+                <p class="copy-right"style="text-align: center;">NASCAR® and its marks are trademarks of the National Association for Stock Car Auto Racing, Inc. The RaceView® trademark is owned by Turner Sports, Inc. and used under license. All other trademarks are the property of their respective owners.                    <br>
+                    <br>Copyright © 2017 NASCAR Digital Media, LLC.    All rights reserved.    <BR> <BR>NASCAR.com is part of the NASCAR Digital Media Network.</p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+			</footer><!-- #colophon -->
+		<script type='text/javascript' src='https://www.nascar.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.nascar.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/www.nascar.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.nascar.com/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='https://www.nascar.com/wp-content/plugins/ndms-video/js/min/ndms-video.min.js?ver=4.8.1'></script>
+<script type='text/javascript' src='https://www.nascar.com/wp-content/themes/ndms-2016/js/functions.js?ver=1.0'></script>
+<script type='text/javascript' src='https://www.nascar.com/wp-includes/js/wp-embed.min.js?ver=4.8.1'></script>
+<script type="text/javascript">document.body.className = document.body.className.replace("siteorigin-panels-before-js","");</script><style>
+	#pg-690-0, #pg-690-1, #pl-690 .panel-grid-cell .so-panel {
+	    margin-bottom: 0px;
+	}
+	.panel-grid{
+		margin-bottom: 0px !important;
+	}
+	#pg-6-0, #pg-6-1, #pg-6-2 {
+	    margin-left: 0px;
+	    margin-right: 0px;
+	}
+	#pg-47-0, #pg-47-1, #pg-47-2, #pl-47 .panel-grid-cell .so-panel { margin-bottom:0px !important}
+	#pg-47-0, #pg-47-1, #pl-47 .panel-grid-cell .so-panel { margin-bottom:0px !important}
+	html { margin-top: 0 !important; }
+	* html body { margin-top: 0 !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 0 !important; }
+		* html body { margin-top: 0 !important; }
+		#wpadminbar{display: none}
+	}
+</style>
+
+
+<link rel="stylesheet" href="/wp-content/themes/ndms-2016/css/custom-nascar.css?v=1.0" type="text/css"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b29705ed33","applicationID":"34730070","transactionName":"YANTNUVZWEEAVUINXVlJZBNeF19cBVNOSkJfFg==","queueTime":0,"applicationTime":66,"atts":"TERQQw1DS08=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using redis
+Page cache debug info:
+Engine:             redis
+Cache key:          0f02a211a342e848193acf17bcf8ce3e_ssl
+Creation Time:      1507626691.000s
+Header info:
+X-Powered-By:        PHP/7.0.21
+Set-Cookie:          wfvt_3066884872=59dc8ec2d8e0e; expires=Tue, 10-Oct-2017 09:41:30 GMT; Max-Age=1800; path=/; HttpOnly
+Content-Type:        text/html; charset=UTF-8
+Link:                <https://www.nascar.com/wp-json/>; rel="https://api.w.org/"
+Link:                <https://www.nascar.com/>; rel=shortlink
+Set-Cookie:          PHPSESSID=jcqprtdre72f9i251bujefqca0; path=/
+Expires:             Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control:       no-store, no-cache, must-revalidate
+Pragma:              no-cache
+
+ Served from: www.nascar.com @ 2017-10-10 05:11:31 by W3 Total Cache -->

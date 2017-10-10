@@ -1,0 +1,612 @@
+<html><head>
+
+
+
+      <title>CBS Audience Services Info and Feedback</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+      <script type="text/javascript">
+      function checkForm() {
+            var form = document.forms.audsvcs;
+            var mtype = form.FEEDBACKTYPE;
+            var e_mail = form.EMAIL.value;
+            var EMAIL = form.EMAIL;
+            var category = form.CATEGORY.options[0];
+            /*choose a cbsnews category*/
+            if(category.selected==true){alert("Please select a CBS category!");form.CATEGORY.focus();return false}
+            /*email edit ????????????????????????????????????????????????????? check for spaces*/
+            if (e_mail.length < 1) {alert('Please enter your E-Mail address before submitting');EMAIL.focus();return false;}
+            /* split on the @ and .*/var fl = e_mail.split("@");if (fl.length != 2) {alert('Please enter a valid E-Mail address before submitting');EMAIL.focus();return false;}first = fl[0];last = fl[1];
+            if (first.length < 1){alert('Please enter a valid E-Mail address before submitting');EMAIL.focus();return false;}
+            if (last.length < 1){alert('Please enter a valid E-Mail address before submitting');EMAIL.focus();return false;}last = last.split(".");
+            if (last.length < 2){alert('Please enter a valid E-Mail address before submitting');EMAIL.focus();return false;}first = last[0];last = last[1];
+            if (first.length < 1) {alert('Please enter a valid E-Mail address before submitting');EMAIL.focus();return false;}
+            if (last.length < 1) {alert('Please enter a valid E-Mail address before submitting');EMAIL.focus();return false;}
+            if (form.MSG.value == ''){alert("You must enter a message to be sent.");return false;}return true;}
+            holder=this.window.name;
+            var lookUpTable = new Array('','3420','3410','3415','3475','3430','3425','3435','3480','3445','3465','3460','3455','','','')
+      function look_through(holder) {
+            for(var i=0; i<lookUpTable.length;i++)
+            {//alert(holder);
+                  if(holder==lookUpTable[i])
+                        {
+                        thisOne = i;
+                        thisOne = thisOne;
+                        return set_to(thisOne);
+                        }
+                  else set_to(0);
+            }
+      }
+      function set_to(thisOne){if (thisOne!=0){eval(document.cbsnews.CATEGORY.options[thisOne+0].selected = true);}else{eval(document.cbsnews.CATEGORY.options[0].selected = true);}}
+      </script>
+
+
+      
+
+
+<script language="JavaScript">
+var message = "Welcome to CBS Feedback";
+function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+document.onmousedown = rtclickcheck;
+</script> 
+</head><body><center><img src="audience_header_new5.gif" alt="" border="0" width="1024" height="114"></center><br>
+
+<center>
+
+<a href="#q_and_a.jpg"><img src="audience_headerf.jpg" alt="" border="0"></a><br>
+</center><br><br>
+
+
+
+
+<center><a href="http://www.cbs.com/shows/star-trek-discovery/" target="blank"><b><font size="5">Click Here for Information on Enjoying<br><img src="star_trek.jpg"><br>
+STAR TREK: DICOVERY on CBS All Access</font></b></a>
+</center>
+ <br><br>
+      <div>
+           <font face="Arial"> <form method="post" name="cbs" id="cbs" action="http://cgi.cbs.com/feedback/feedback.pl">
+            <p>
+                                 </p><br><br><br><table style="margin-left: 8px;" width="425">
+								 <div align="left"><img src="send_feedback.jpg"  border="0"></div>
+                  <tbody><tr>
+                        <td colspan="3" style="height: 19px;" class="subheadblack"><strong><label for="show"><br>
+                                                <font color="#000080"><font size="-1"><i>(For website issues, please see links below MESSAGE box.<br>
+                                                For local news or syndicated program issues, click <a href="http://audienceservices.cbs.com/feedback/cbs_affiliate_map.htm" target="blank">HERE</a> to<br>find and contact your local CBS affiliate.)<br><br>
+                                                For Any and All issues relating to CBS Sports, please visit:<br>
+                                                <a href="https://cbsi.secure.force.com/CBSi/sitefeedback?template=Template_SportsMedia&amp;referer=cbssports.com&amp;cfs=SFS_3&amp;data=gkNArgZryXwVfbRwAvsUW4iSHAayDOwlhnYEoJHPlSg">CBS Sports Q&amp;A Page</a>
+                                                <br><br><br>For Technical or Subscription issues with CBS ALL ACCESS, please call 888-274-5343.</i></font>
+												<br><br><br>CHOOSE CATEGORY:<br>
+                                                </font></label></strong></td>
+                  </tr>
+                  <tr>
+                        <td colspan="3" height="40">
+                              <input name="ERRORCURL" value="/fb_global_error.shtml" type="hidden">
+                              <input name="AFFILIATE" value="CBS" type="hidden">
+
+                              <select name="CATEGORY" id="show">
+							  
+                                    <option value="">Choose a CBS News or CBS Entertainment Program</option>
+
+                                     <option value=""></option>
+
+                                       																								
+                                                                               
+                                    <option value=""></option>
+                                                                       <option value="editorial_related|cbsaudiencenews@cbs.com|CBS NEWS|/feedback/fb_global_thanks.shtml">CBS NEWS (click here for General or select program below)</option><br><br>
+                                   <option value=""></option>
+                                     <option value="editorial_related|cbsaudiencenews@cbs.com,48hours@cbsnews.com|48 Hours|/feedback/fb_global_thanks.shtml">48 Hours</option>
+                                    <option value="editorial_related|cbsaudiencenews@cbs.com,60m@cbsnews.com|60  Minutes|/feedback/fb_global_thanks.shtml">60 Minutes</option>
+                                    <option value="editorial_related|cbsaudiencenews@cbs.com,60minsaasupport@cbsinteractive.com|60 Minutes ALL ACCESS|/feedback/fb_global_thanks.shtml">60 Minutes ALL ACCESS App</option>
+                                   <option value="editorial_related|cbsaudiencenews@cbs.com|CBS Evening News|/feedback/fb_global_thanks.shtml">CBS Evening News</option>
+                                    <option value="editorial_related|cbsaudiencenews@cbs.com|CBS Weekend News|/feedback/fb_global_thanks.shtml">CBS Weekend News</option>
+                                    <option value="editorial_related|cbsaudiencenews@cbs.com|CBS Overnight News|/feedback/fb_global_thanks.shtml">CBS Overnight News</option>
+                                   <option value="editorial_related|cbsaudiencenews@cbs.com|CBS This  Morning|/feedback/fb_global_thanks.shtml">CBS This Morning</option>
+                                    <option value="editorial_related|cbsaudiencenews@cbs.com|CBS  This Morning - Saturday|/feedback/fb_global_thanks.shtml">CBS This Morning - Saturday</option>
+                                    <option value="editorial_related|cbsaudiencenews@cbs.com|CBSN: ON ASSIGNMENT|/feedback/fb_global_thanks.shtml">CBSN: ON ASSIGNMENT</option>
+                                   <option value="editorial_related|cbsaudiencenews@cbs.com|Face the Nation|/feedback/fb_global_thanks.shtml">Face the Nation</option>
+                                    <option value="editorial_related|cbsaudiencenews@cbs.com|Sunday Morning|/feedback/fb_global_thanks.shtml">Sunday Morning</option>
+                                     <option value="editorial_related|cbsaudiencenews@cbs.com,cbsn-support@cbsinteractive.com|CBSN Streaming News Service|/feedback/fb_global_thanks.shtml">CBSN Streaming News Service</option>
+                                   
+
+                              <option value=""></option>
+							  
+							   <option value="tv_related|cbsaudienceent@cbs.com|The Case of: JonBenet Ramsey|/feedback/fb_global_thanks.shtml">The Case of: JonBenet Ramsey</option>
+                                                                       
+																	   
+	                             <option value=""></option>
+							   <option value="editorial_related|cbsaudienceent@cbs.com|CBS Sports|/feedback/fb_global_thanks.shtml">CBS SPORTS (Please visit Q@A page above for instructions)</option><br><br>
+                                                               <option value=""></option>
+	  							   
+                                                                        <option value=""></option>
+                                                                       <option value="editorial_related|cbsaudienceent@cbs.com,support.cbsentertainment@cbsinteractive.com|CBS All Access|/feedback/fb_global_thanks.shtml">CBS ALL ACCESS (see first Q&A item below comment area)</option><br><br>
+                                    								   <option value=""></option>
+                                                                       <option value=""></option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|CBS Late Night|/feedback/fb_global_thanks.shtml">LATE NIGHT (click on program below)</option>
+                                                                        <option value=""></option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Late Show With Stephen Colbert|/feedback/fb_global_thanks.shtml">The Late Show with Stephen Colbert</option>
+                                                                         <option value="tv_related|cbsaudienceent@cbs.com|Late Late Show with James Corden|/feedback/fb_global_thanks.shtml">The Late Late Show with James Corden</option>
+                                                                       <option value=""></option>
+                                                                        <option value=""></option>
+                                                                       <option value="tv_related|cbsaudienceent@cbs.com|CBS Primetime|/feedback/fb_global_thanks.shtml">PRIMETIME (click here for General or select program below)</option>
+                                                                        <option value=""></option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|2 Broke Girls|/feedback/fb_global_thanks.shtml">2 Broke Girls</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|9JKL|/feedback/fb_global_thanks.shtml">9JKL</option>
+                                                                       <option value="tv_related|cbsaudienceent@cbs.com|The Amazing Race|/feedback/fb_global_thanks.shtml">The Amazing Race</option>
+                                                                         <option value="tv_related|cbsaudienceent@cbs.com|The Big Bang Theory|/feedback/fb_global_thanks.shtml">The Big Bang Theory</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Big Brother|/feedback/fb_global_thanks.shtml">Big Brother</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Blue Bloods|/feedback/fb_global_thanks.shtml">Blue Bloods</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Bull|/feedback/fb_global_thanks.shtml">Bull</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|By the Book|/feedback/fb_global_thanks.shtml">By the Book</option>
+                                                                       <option value="tv_related|cbsaudienceent@cbs.com|Candy Crush|/feedback/fb_global_thanks.shtml">Candy Crush</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Code Black|/feedback/fb_global_thanks.shtml">Code Black</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Criminal  Minds|/feedback/fb_global_thanks.shtml">Criminal Minds</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Criminal Minds: Beyond Borders|/feedback/fb_global_thanks.shtml">Criminal Minds: Beyond Borders</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Doubt|/feedback/fb_global_thanks.shtml">Doubt</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Elementary|/feedback/fb_global_thanks.shtml">Elementary</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|The Good Fight|/feedback/fb_global_thanks.shtml">The Good Fight</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|The Great Indoors|/feedback/fb_global_thanks.shtml">The Great Indoors</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Hawaii Five-O|/feedback/fb_global_thanks.shtml">Hawaii Five-O</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Hunted|/feedback/fb_global_thanks.shtml">Hunted</option>
+                                                                       <option value="tv_related|cbsaudienceent@cbs.com|Instinct|/feedback/fb_global_thanks.shtml">Instinct</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Kevin Can Wait|/feedback/fb_global_thanks.shtml">Kevin Can Wait</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Life in Pieces|/feedback/fb_global_thanks.shtml">Life in Pieces</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|MacGyver|/feedback/fb_global_thanks.shtml">MacGyver</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Madam Secretary|/feedback/fb_global_thanks.shtml">Madam Secretary</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Man With a Plan|/feedback/fb_global_thanks.shtml">Man With a Plan</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Me, Myself & I|/feedback/fb_global_thanks.shtml">Me, Myself & I</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Mom|/feedback/fb_global_thanks.shtml">Mom</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|N C I S|/feedback/fb_global_thanks.shtml">NCIS</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|NCIS: Los Angeles|/feedback/fb_global_thanks.shtml">NCIS: Los Angeles</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|NCIS: New Orleans|/feedback/fb_global_thanks.shtml">NCIS: New Orleans</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|The Odd Couple|/feedback/fb_global_thanks.shtml">The Odd Couple</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Person of Interest|/feedback/fb_global_thanks.shtml">Person of Interest</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Pure Genius|/feedback/fb_global_thanks.shtml">Pure Genius</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Ransom|/feedback/fb_global_thanks.shtml">Ransom</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Salvation|/feedback/fb_global_thanks.shtml">Salvation</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Scorpion|/feedback/fb_global_thanks.shtml">Scorpion</option>
+                                                                         <option value="tv_related|cbsaudienceent@cbs.com|SEAL Team|/feedback/fb_global_thanks.shtml">SEAL Team</option>
+                                                                      <option value="editorial_related|cbsaudienceent@cbs.com,support.cbsentertainment@cbsinteractive.com|Star Trek: Discovery|/feedback/fb_global_thanks.shtml">Star Trek: Discovery on CBS All Access</option><br><br>
+                                    								    <option value="tv_related|cbsaudienceent@cbs.com|Superior Donuts|/feedback/fb_global_thanks.shtml">Superior Donuts</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Survivor|/feedback/fb_global_thanks.shtml">Survivor</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|S.W.A.T.|/feedback/fb_global_thanks.shtml">S.W.A.T.</option>
+                                                                       <option value="tv_related|cbsaudienceent@cbs.com|Training Day|/feedback/fb_global_thanks.shtml">Training Day</option>
+                                                                       <option value="tv_related|cbsaudienceent@cbs.com|Undercover Boss|/feedback/fb_global_thanks.shtml">Undercover Boss</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Wisdom of the Crowd|/feedback/fb_global_thanks.shtml">Wisdom of the Crowd</option>
+                                                                       <option value="tv_related|cbsaudienceent@cbs.com|Young Sheldon|/feedback/fb_global_thanks.shtml">Young Sheldon</option>
+                                                                       <option value="tv_related|cbsaudienceent@cbs.com|Zoo|/feedback/fb_global_thanks.shtml">Zoo</option>
+                                                                        <option value=""></option>
+                                                                        <option value=""></option>
+                                                                      <option value="tv_related|cbsaudienceent@cbs.com|CBS Daytime|/feedback/fb_global_thanks.shtml">DAYTIME (select below)</option>
+                                                                         <option value=""></option>
+                                                                       <option value="tv_related|yrbb@tvc.cbs.com, cbsaudienceent@cbs.com|Bold And The Beautiful,The|/feedback/fb_global_thanks.shtml">The Bold and the Beautiful</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Let's Make a Deal|/feedback/fb_global_thanks.shtml">Let's Make a Deal</option>
+                                                                        <option value="tv_related|pir@tvc.cbs.com, cbsaudienceent@cbs.com|Price Is Right, The|/feedback/fb_global_thanks.shtml">The Price is Right</option>
+                                                                        <option value="tv_related|gl@cbs.com, cbsaudienceent@cbs.com|The Talk, |/feedback/fb_global_thanks.shtml">The Talk</option>
+                                                                        <option value="tv_related|yrbb@tvc.cbs.com, cbsaudienceent@cbs.com|Young And The Restless,The|/feedback/fb_global_thanks.shtml">The Young and the Restless</option>
+                                                                        <option value=""></option>
+                                                                        <option value=""></option>
+                                                                       <option value="tv_related|cbsaudienceent@cbs.com|Movies Specials Other|/feedback/fb_global_thanks.shtml">MOVIES-SPECIALS-OTHER (select below)</option>
+                                                                        <option value=""></option>
+                                                                       <option value="tv_related|cbsaudienceent@cbs.com|CBS Interfaith Specials|/feedback/fb_global_thanks.shtml">CBS Interfaith Specials</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|CBS Movie|/feedback/fb_global_thanks.shtml">CBS Movie</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|CBS Special|/feedback/fb_global_thanks.shtml">CBS Special</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|CBS Original|/feedback/fb_global_thanks.shtml">CBS Original</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Classic CBS TV Show|/feedback/fb_global_thanks.shtml">Classic CBS TV Show</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|Commercials|/feedback/fb_global_thanks.shtml">Commercials or Promotional Spots</option>
+                                                                        <option value="tv_related|cbsaudienceent@cbs.com|CBS Cares|/feedback/fb_global_thanks.shtml">CBS Cares Spots</option>
+                                                                         <option value="tv_related|cbsaudienceent@cbs.com|Others NOT Listed|/feedback/fb_global_thanks.shtml">Other - Not Listed</option>
+                                                                       <option value=""></option>
+
+                                    <option value=""></option>
+
+
+                              </select><br><br><br>
+
+                        </td>
+                  </tr>
+                
+                                <tr>
+                        <td style="height: 19px; " class="subheadblack"><strong><font color="#000080">FROM:</font></strong></td>
+                  </tr>
+
+                  <tr style="padding-bottom: 10px;">
+                        <td class="bodysmall" style="padding-top: 10px; vertical-align: top;">
+                             
+							  <label for="fname">First Name:</label>
+                              <input id="fname" name="FNAME" size="25" maxlength="70" type="text">
+
+<br><br>
+                              <div class="input">
+                              <label for="lname">Last Name:</label>
+                              <input id="lname" name="LNAME" size="25" maxlength="70" type="text">
+                              </div>
+<br><br>
+                              <div class="input">
+                              <label for="email">E-Mail:</label>
+                                                          <input id="email" name="EMAIL" size="25" maxlength="70" type="text"><br><br><br>
+                              </div>
+                        </td>
+                  </tr>
+
+                
+                                  <tr>
+                        <td style="height: 19px; " class="subheadblack"><strong><label for="msg"><font color="#000080">** MESSAGE:</font></label></strong></td>
+                  </tr>
+                 </tbody></table><table style="margin-left:" width="425">
+                  <tbody><tr>  </tr><tr>
+                                    
+                        <td rowspan="3" width="10"><br></td>
+                        <td rowspan="3" width="400">
+                              <textarea id="msg" name="MSG" wrap="Physical" rows="7" cols="45"></textarea>
+                        </td>
+
+                  </tr>
+                                   <tr>
+
+                  </tr>
+                  <tr>
+                        <td class="bodysmall" style="vertical-align: top;" colspan="3">
+
+
+                                                <br>
+
+
+
+
+
+                        </td>
+                  </tr>
+            </tbody>
+                        </table>
+                         <div style="padding-top: 10px; width: 245px;">
+                                    <input value="RESET" style="font-face: Verdana, Serif; background-color: #CCD; color: #778; font-weight: bold; font-size: 10px; border: 1px solid #99A; float: left; margin-left: 12px; cursor:hand;" type="reset">
+                                    <input value="SUBMIT" onclick="return checkForm();" style="font-face: Verdana, Serif; background-color: #EEF; color: #778; font-weight: bold; font-size: 10px; border: 1px solid #99A; float: left; margin-left: 12px; cursor:hand;" type="submit">
+                           </div>
+            </form><br><br>
+
+</font>
+
+
+
+<font face="Arial"><font size="2">**Please be advised that this Feedback site is for programming comments and questions.<br>
+If you wish to contact the CBS Interactive staff about issues only dealing with website performance,<br>
+please visit the following feedback areas:<br><br>
+
+For CBS.com visit <a href="https://cbsi.secure.force.com/CBSi/sitefeedback?template=template_cbsent&amp;referer=cbs.com&amp;cfs=SFS_1" target="blank">CBS.com Site Feedback</a><br><br>
+For CBSNews.com visit <a href="https://cbsi.secure.force.com/CBSi/sitefeedback?template=template_mobilepp&amp;referer=mobilepp.com&amp;cfs=default" target="blank">CBS News Interactive</a>
+
+</font></font>
+<br><br><br><br><br><br>
+
+<center><a name="q_and_a.jpg"><img src="q_and_a.jpg" alt="" border="0"></a></center><a name="q_and_a.jpg">
+<br><br><br>
+<font size="2"><font color="#000080">
+<font face="arial">
+<font size="2" color="#000000" face="Arial">Q.  <i>Do I have to buy CBS ALL ACCESS to watch CBS Programs online?<br><br></i>
+A.  No.  Recent episodes of most CBS programs are still available for free viewing <br>
+<font color="#FFFFFF">....</font>at CBS.com.  The new All Access service provides a much larger number of episodes <br>
+<font color="#FFFFFF">....</font>and some programs from which we are contractually prohibited from streaming free of charge.
+<br><br>
+<font color="#FFFFFF">....</font>By hovering your mouse over SHOWS on the top menu at CBS.com and then clicking on the <br>
+<font color="#FFFFFF">....</font>program of your choice, you will be taken to the show page where, in most cases, <br>
+<font color="#FFFFFF">....</font>free episodes will be available to watch.<br><br>
+
+<font color="#FFFFFF">....</font>You may also click on VIDEOS on the top menu and be taken to a page featuring all <br>
+<font color="#FFFFFF">....</font>episodes for all programs that are currently available for free viewing.<br>
+
+<br>
+
+<a href="http://cbsi.force.com/CBSi/allaccess" target="blank"><img src="all_access_faq.jpg"></a>
+</center><br><br>
+
+ <br>
+<br><br>
+<font size="2"><font color="#000080">
+<font face="arial">
+<font size="2" color="#000000" face="Arial">
+<div><table bgcolor="#CCFFFF" border="0" width="100%" cellpadding="2" cellspacing="2">
+<tbody><tr valign="top">
+<td><font size="2" color="#000000" face="Arial">
+
+Q.  <i>How can I speak to Audience Services about a CBS program?<br><br></i>
+A.  You may telephone us at 212-975-3247 between the hours of 10AM and 11:30AM ET<br>
+<font color="#FFFFFF">....</font>or 2PM and 3:30PM ET Monday through Friday.<br><br>
+
+</font>
+</td>
+</tr>
+</tbody></table>
+</div><br><br><br>
+
+Q.  <i>How can I leave a recorded comment about a CBS program?<br><br></i>
+A.  If you telephone 212-975-3247 outside the above stated hours, you will hear a recording<br>
+<font color="#FFFFFF">....</font>and be given an opportunity to leave a comment.  Please be advised that we<br>
+<font color="#FFFFFF">....</font>do not, under any circumstances, return phone calls from viewers.
+
+<br><br><br>
+<font size="2" color="#000000" face="Arial">
+<div><table bgcolor="#CCFFFF" border="0" width="100%" cellpadding="2" cellspacing="2">
+<tbody><tr valign="top">
+<td><font size="2" color="#000000" face="Arial">
+<font face="arial">Q.  <i>How can I write to the performers who appear on my favorite CBS programs?<br><br></i>
+A.  Click <a href="http://audienceservices.cbs.com/feedback/cbs_production_companies_2017-2018.htm">HERE </a>to see a Production Company List for the 2017-2018 Season<br><br>
+</font>
+</font></td>
+</tr>
+</tbody></table>
+</div><br><br><br>
+
+Q.  <i>How come the background music is so loud on many tv shows?<br><br></i>
+A. Occasionally, we have found that viewers who experience an overly loud <br>
+background music playback sometimes have a stereo television and that <br>
+the "front surround" feature is activated.  This would move the rear surround, <br>
+usually music and sound effects, information to the main speakers.  <br>
+This can be corrected via your remote control, accessing MENU, and then the <br>
+audio or sound profile.  Set "Front Surround" to "OFF."  We have found that<br>
+some cable remotes have crossover signals (for instance their DVR button)<br>
+which activate the "Front Surround" on the adjacent television set.
+
+
+
+<br><br><br><br>
+<font size="2" color="#000000" face="Arial">
+<div><table bgcolor="#CCFFFF" border="0" width="100%" cellpadding="2" cellspacing="2">
+<tbody><tr valign="top">
+<td><font size="2" color="#000000" face="Arial">
+Q.  <i>How can I become a contestant on of one of CBS' reality programs?</i><br><br>
+A.  You may visit the CBS Casting page at <a href="http://www.cbs.com/casting/" target="blank"><b>http://www.cbs.com/casting</b></a><br><br>
+
+
+</font>
+</td>
+</tr>
+</tbody></table>
+</div>
+</font>
+<br><br><br>
+Q.  <i>How can I be sure and DVR my favorite Sunday Night program in case there is <br>
+an NFL or other sports event runover?<br><br></i>
+A. The easiest way to be sure you get the entire program or programs you wish to record <br>
+is to manually extend the recording time of the first program you wish to capture.  <br>
+Once you select a program to record on your DVR, click Record With Options.  This will <br>
+take you to a screen where you can add additional time to the End of Program time.  <br>
+By adding at least an extra hour to the end of program time you will ensure that the <br>
+program you have selected will be recorded in its entirety.
+
+
+
+<br><br><br><br>
+<font size="2" color="#000000" face="Arial">
+<div><table bgcolor="#CCFFFF" border="0" width="100%" cellpadding="2" cellspacing="2">
+<tbody><tr valign="top">
+<td><font size="2" color="#000000" face="Arial">
+Q.  <i>How may I obtain footage or transcripts from past or current CBS News programs?</i><br><br>
+A.  You may email the CBS News Archives at <a href="mailto:footage@cbsnews.com" target="blank"><b>footage@cbsnews.com</b></a><br><br>
+DVD's of recent 60 MINUTES segments may be available at:  <a href="http://www.amazon.com/60minutes" target="blank">http://www.amazon.com/60minutes</a><br><br>
+
+</font>
+</td>
+</tr>
+</tbody></table>
+</div>
+</font>
+<br><br><br>
+Q.  <i>How may I obtain tickets to LATE SHOW WITH STEPHEN COLBERT?</i><br><br>
+A.  You may visit this page for LATE SHOW tickets: <br>
+<font color="#FFFFFF">....</font></font></font></font></font></font></a><font size="2"><font color="#000080"><font face="arial"><font size="2" color="#000000" face="Arial"><font size="2" color="#000000" face="Arial"><a href="http://colbert.1iota.com/show/536/The-Late-Show-with-Stephen-Colbert" target="blank">http://www.showclix.com/event/TheLateShowWithStephenColbert/</a><br><br>
+<font color="#FFFFFF">..........................</font><font size="5">*<font color="#FFFFFF">...</font>*<font color="#FFFFFF">...</font>*</font><br><br>
+
+
+
+
+<font size="2" color="#000000" face="Arial">
+<div><table bgcolor="#CCFFFF" border="0" width="100%" cellpadding="2" cellspacing="2">
+<tbody><tr valign="top">
+<td><font size="2" color="#000000" face="Arial">
+Q.  <i>How may I obtain tickets for THE LATE LATE SHOW WITH JAMES CORDEN?</i><br><br>
+A.  You may visit this page for LATE LATE SHOW tickets: <br>
+<font color="#FFFFFF">....</font><a href="https://1iota.com/show/439/The-Late-Late-Show-with-James-Corden" target="blank">https://1iota.com/show/439/The-Late-Late-Show-with-James-Corden</a><br><br>
+</font>
+</td>
+</tr>
+</tbody></table>
+</div>
+</font>
+<br><br><br>
+
+Q.  <i>Are tickets to other CBS Programs available?</i><br><br>
+A.  For information on seeing a filming or taping of a CBS Broadcast in Los Angeles, <br>
+<font color="#FFFFFF">....</font>please call the CBS Ticket Office at 323-575-2448.<br>
+
+<br><br><br>
+
+<font size="2" color="#000000" face="Arial">
+<div><table bgcolor="#CCFFFF" border="0" width="100%" cellpadding="2" cellspacing="2">
+<tbody><tr valign="top">
+<td><font size="2" color="#000000" face="Arial">
+<q. <i="">How can I suggest a story to 60 MINUTES?<br><br>
+A.  If you wish to bring a matter to the attention of 60 MINUTES, you may do so in writing via postal mail.<br>
+  Please write to:<br><br>
+
+                   Story Editor<br>
+                   60 MINUTES<br>
+                   CBS News<br>
+                   524 West 57th Street<br>
+                   New York, NY  10019<br><br>
+
+60 MINUTES requests that all story suggestions be submitted in concise, written form.  <br>
+Please do not send any original documents or additional materials that would need to be returned.  <br>
+We receive a large number of story suggestions each week and cannot guarantee response or return of materials.<br>
+
+Alternately, you may send your request via email to <a href="mailto:60m@cbsnews.com">60m@cbsnews.com</a>.
+If a 60 MINUTES producer does not <br>
+contact you directly within 4 to 5 weeks, you may assume that CBS News is not going to report your story.<br>
+
+
+
+</q.></font>
+</td>
+</tr>
+
+
+<br><br><br><br>
+Q.  <i>How can I suggest a story for 48 HOURS?</i><br><br>
+A.  If you wish to bring a matter to the attention of 48 HOURS, you may do so in writing via postal mail.<br>
+Please write to:<br><br>
+
+                   Story Editor<br>
+                   48 HOURS<br>
+                   CBS News<br>
+                   524 West 57th Street<br>
+                   New York, NY  10019<br><br>
+
+48 HOURS requests that all story suggestions be submitted in concise, written form.  <br>
+Please do not send any original documents or additional materials that would need to be returned.  <br>
+We receive a large number of story suggestions each week and cannot guarantee response or return of materials.<br>
+
+Alternately, you may send your request via email to <a href="mailto:48hours@cbsnews.com">48hours@cbsnews.com</a>.
+If a 48 HOURS producer does not <br>
+contact you directly within 4 to 5 weeks, you may assume that CBS News is not going to report your story.<br>
+
+
+
+
+<br><br><br>
+
+<font size="2" color="#000000" face="Arial">
+<div><table bgcolor="#CCFFFF" border="0" width="100%" cellpadding="2" cellspacing="2">
+<tbody><tr valign="top">
+<td><font size="2" color="#000000" face="Arial">
+Q.  <i>How can I contact my local CBS affiliate?</i><br><br>
+A.  Click <a href="http://audienceservices.cbs.com/feedback/cbs_affiliate_map.htm" target="blank">HERE</a> to go to an interactive map where you can click on your city/CBS outlet and get direct contact information.<br><br>
+</font>
+</td>
+</tr>
+
+
+<br><br><br><br>
+Q.  <i>Whom do I contact with concerns about Closed-Captioning?</i><br><br>
+A.  Click <a href="http://www.cbs.com/closed-captioning/">HERE</a> to go to CBS' Closed Captioning Info Page.
+
+
+
+<br><br><br>
+</tbody></table>
+</div>
+</font>
+
+<p><br><br><br><br><br>
+<center><font size="4">Your Feedback helped CBS News produce this promotional spot:</font></center><br>
+
+<center><iframe src="http://player.vimeo.com/video/87761156?title=0&amp;byline=0&amp;portrait=0" width="700" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<br><br><br><br><br>
+<center><a href="http://audienceservices.cbs.com/feedback/cbsn.htm" target="blank"><font size="4">CBS NEWS LAUNCHES INTERACTIVE STREAMING NEWS NETWORK</font><br>
+<img src="cbsn.jpg" border="0"></a></center><br>
+
+
+
+<br><br><br><br>
+<center><a href="http://cbswatchmagazine.com/" target="blank"><img src="watch_cover.jpg" border="0"></a><br><br>
+<br><br><br><br>
+<a href="http://audienceservices.cbs.com/feedback/decades.htm" target="blank"><font size="5">Exciting News from CBS for Fans of Classic Television!</font><br>
+<img src="decades.jpg" border="0"></a>
+
+<br>
+<br><br>
+<br>
+<br><br>
+<center><a href="http://www.cbs.com/all-access/?intcid=CIA3fb568a" target="blank"><font size="4">Take a Tour of CBS ALL ACCESS!</font><br><br>
+<img src="all_access.jpg" border="0"></a></center><br>
+<br><br>
+<font size="5">To sign up, Click <a href="http://www.cbs.com/allaccess" target="blank">HERE</a> to visit CBS All Access
+<br><br></font>
+<a href="http://cbsi.force.com/CBSi/allaccess" target="blank"><img src="all_access_faq.jpg"></a>
+</center><br><br>
+
+ <br>
+ 
+ <br><br><br><br><br><br>
+<center><a href="http://www.cbs.com/"><img src="cbs_button.jpg" border="0"></a>  <a href="http://www.cbsnews.com/"><img src="cbs_news_button.jpg" border="0"></a></center>
+<p></p>
+
+
+<script language="JavaScript">
+
+        var now = new Date();
+        var hours = now.getHours();
+        var minutes = now.getMinutes();
+        var timeValue = "" + ((hours >12) ? hours -12 :hours)
+        timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+        timeValue += (hours >= 12) ? " P.M." : " A.M."
+        timerRunning = true;
+
+
+     mydate = new Date();
+     myday = mydate.getDay();
+     mymonth = mydate.getMonth();
+     myweekday= mydate.getDate();
+     weekday= myweekday;
+     myyear= mydate.getYear();
+     year = myyear
+
+     if(myday == 0)
+             day = " Sunday, "
+
+     else if(myday == 1)
+           day = " Monday, "
+
+     else if(myday == 2)
+             day = " Tuesday, "
+
+     else if(myday == 3)
+             day = " Wednesday, "
+
+     else if(myday == 4)
+             day = " Thursday, "
+
+     else if(myday == 5)
+             day = " Friday, "
+
+     else if(myday == 6)
+             day = " Saturday, "
+
+     if(mymonth == 0)
+              month = "January "
+
+     else if(mymonth ==1)
+              month = "February "
+
+     else if(mymonth ==2)
+             month = "March "
+
+     else if(mymonth ==3)
+            month = "April "
+
+     else if(mymonth ==4)
+              month = "May "
+
+     else if(mymonth ==5)
+              month = "June "
+
+     else if(mymonth ==6)
+              month = "July "
+
+     else if(mymonth ==7)
+            month = "August "
+
+     else if(mymonth ==8)
+           month = "September "
+
+     else if(mymonth ==9)
+          month = "October "
+
+     else if(mymonth ==10)
+          month = "November "
+
+     else if(mymonth ==11)
+          month = "December "
+
+     document.write("<P ALIGN=CENTER><FONT SIZE=-1 FACE=VERDANA,ARIAL>" + timeValue + " | " +day + month);
+     document.write(myweekday+","+ " 2016</FONT><BR><HR WIDTH=300 ALIGN=CENTER><P>");
+
+</script></body></html>

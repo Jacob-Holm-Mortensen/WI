@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html class="logged_out_user" lang="en"><head prefix="og: http://ogp.me/ns#"><!-- Fly Version: RELEASE_20171009 60298dc8f6316b5d3f2e0cafcae02e282eff5c4e (cbsnews prod_alt) --><title>                          MoneyWatch Tech News, Headlines and Video - CBS News  
+</title><meta charset="UTF-8"><meta name="robots" content="index, follow"><meta name="description" content="The latest MoneyWatch Tech news, headlines, stories, photos, and video from CBS News."><meta name="keywords" content="MoneyWatch Tech, MoneyWatch Tech news, MoneyWatch Tech headlines, MoneyWatch Tech  video, cbs news MoneyWatch Tech + cbsnews, cbsnews.com"><meta name="viewport" content="width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge"><link rel="preconnect dns-prefetch" href="//cbsnews1.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews2.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews3.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews4.cbsistatic.com"><link rel="canonical" href="https://www.cbsnews.com/moneywatch/tech/"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-16x16.png?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e" sizes="16x16"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-32x32.png?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e" sizes="32x32"><link rel="shortcut icon" type="image/x-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e"><link rel="apple-touch-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/apple-touch-icon.png?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e"><svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;" class="site-header__icon-definitions"><defs><symbol id="icon-social-email" viewbox="0 0 32 32"><path d="M29.844 24c1.371-2.355 2.156-5.078 2.156-8 0-8.836-7.164-16-16-16s-16 7.164-16 16 7.164 16 16 16c4.418 0 8.418-1.789 11.312-4.688l-2.832-2.832c-2.171 2.176-5.171 3.52-8.48 3.52-6.617 0-12-5.383-12-12s5.383-12 12-12 12 5.383 12 12c0 1.422-0.273 2.781-0.73 4.047l-0.032-0.047h-3.238v-11.957h-8c-4.418 0-8 3.582-8 8s3.582 8 8 8c1.836 0 3.508-0.645 4.859-1.684 0.727 0.969 1.836 1.641 3.141 1.641h5.844zM20 14.008v2.035c0 2.207-1.797 4-4 4s-4-1.793-4-4 1.797-4 4-4h4v1.965z"></path></symbol><symbol id="icon-social-youtube" viewbox="0 0 32 32"><path d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z"></path></symbol><symbol id="icon-social-instagram" viewbox="0 0 32 32"><path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path><path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path><path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path></symbol><symbol id="icon-social-twitter" viewbox="0 0 32 32"><path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path></symbol><symbol id="icon-social-facebook" viewbox="0 0 32 32"><path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path></symbol></defs></svg><style>
+      
+@font-face{font-family:'foundation-sans-black';src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.eot");src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.svg#svgFontName") format("svg");font-weight:900;font-style:normal}@font-face{font-family:'foundation-sans-bold';src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.eot");src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.svg#svgFontName") format("svg");font-weight:700;font-style:normal}@font-face{font-family:'foundation-sans-light';src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.eot");src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.svg#svgFontName") format("svg");font-weight:300;font-style:normal}@font-face{font-family:'museo-sans';src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot");src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.svg#svgFontName") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'museo-sans-500';src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.eot");src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.svg#svgFontName") format("svg");font-weight:bold;font-style:normal}@font-face{font-family:'proxima-nova';src:url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.eot");src:url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.woff") format("woff"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.svg#svgFontName") format("svg");font-weight:700;font-style:normal}h1,h2,h3,h4,h5,h6{font-family:"foundation-sans-bold", Helvetica, Roboto, sans-serif;font-weight:700}.site-header{font-family:"Proxima Nova", "proxima-nova", sans-serif;font-weight:700}
+
+
+    </style><link rel="stylesheet" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/css/main.moneywatch.desktop.css?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e"><!--[if lt IE 9]>
+    <script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js/libs/html5shiv-printshiv.js?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e"></script>
+    <![endif]--></head><body data-cms-edit='{"url":"https:\/\/cms.cbsnews.com\/content\/page\/create\/topic?pageId=9bb46c70-758d-11e2-9d12-0018fe8a00b0"}' class="desktop">
+        
+    <!-- src/CbsNews/CoreBundle/Resources/views/Layout/default.desktop.html.twig -->
+
+                <!-- comscorekw=moneywatch -->
+    
+
+    
+    <div id="fb-root"></div>
+                    <div id="intromercial-59dc9f4d367c7" class="ad-intromercial" data-ad="intromercial" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-59dc9f4d367c7 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-59dc9f4d367c7");
+    </script></div>
+
+    	<div class="body-container">
+
+        <!-- src/CbsNews/CoreBundle/Resources/views/Theme/moneywatch/header.desktop.html.twig -->
+
+
+
+<header class="site-header nocontent"><div id="breakingNewsBanner" data-component="ticker">
+        <include src="/feedfiles/breakingnews.desktop.html" onerror="continue"></include></div>
+
+    <div class="supplemental">
+    <div class="container">
+        <div class="col-9">
+            
+        <nav class="site-shows"><ul class="items"><li><a class="module-click-tracking" href="/" data-tracking="site header-show-nav|CBS News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/moneywatch/tech/ Show-nav|CBS News"}' aria-label="">CBS News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/evening-news/" data-tracking="site header-show-nav|CBS Evening News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/moneywatch/tech/ Show-nav|CBS Evening News"}' aria-label="">CBS Evening News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbs-this-morning/" data-tracking="site header-show-nav|CBS This Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/moneywatch/tech/ Show-nav|CBS This Morning"}' aria-label="">CBS This Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/48-hours/" data-tracking="site header-show-nav|48 Hours" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/moneywatch/tech/ Show-nav|48 Hours"}' aria-label="">48 Hours</a></li>
+                                                                        <li><a class="module-click-tracking" href="/60-minutes/" data-tracking="site header-show-nav|60 Minutes" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/moneywatch/tech/ Show-nav|60 Minutes"}' aria-label="">60 Minutes</a></li>
+                                                                        <li><a class="module-click-tracking" href="/sunday-morning/" data-tracking="site header-show-nav|Sunday Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/moneywatch/tech/ Show-nav|Sunday Morning"}' aria-label="">Sunday Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/face-the-nation/" data-tracking="site header-show-nav|Face The Nation" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/moneywatch/tech/ Show-nav|Face The Nation"}' aria-label="">Face The Nation</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbsn-originals/" data-tracking="site header-show-nav|CBSN Originals" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/moneywatch/tech/ Show-nav|CBSN Originals"}' aria-label="">CBSN Originals</a></li>
+            </ul></nav></div>
+        
+        <div class="col-3">
+            
+<form class="site-search" method="get" action="/search/">
+    <div class="search-wrapper" data-component="placeholder">
+        <input class="query" type="search" name="q" maxlength="255" placeholder="Search"></div>
+    <button class="submit core-search-header" type="submit">GO</button>
+</form>
+<ul class="login-wrapper logged-in"><li>
+        <!--<li class="site-section-tab"><a href="//secure-fly.cbsnews.com/user/registration/" data-user-show="register"><span>Join</span></a></li>-->
+                     <a class="site-login" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Channel Button"}'><span class="text">Log In</span></a>
+                <div class="menu-wrapper sign-in">
+            <span class="hover-padding"></span>
+            <span class="arrow"></span>
+            <ul class="login"><li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/login/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Login"}'>Log In</a>
+                    </li>
+                    <li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/registration/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Join CBSNews"}'>Join CBSNews.com</a>
+                    </li>
+                                                </ul></div>
+    </li>
+</ul></div>
+    </div>
+</div>
+    <div class="primary">
+        <div class="container">
+            <div class="logo moneywatch-logo" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Branding"}'><a href="/moneywatch/">CBS Moneywatch</a></div>
+
+            <nav class="site-sections"><ul class="items"><li><a href="/moneywatch/markets/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Markets"}'><span>Markets</span></a></li>
+                    <li><a href="/moneywatch/money/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Money"}'><span>Money</span></a></li>
+                    <li><a href="/moneywatch/work/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Work"}'><span>Work</span></a></li>
+                    <li><a href="/moneywatch/small-business/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Small Business"}'><span>Small Business</span></a></li>
+                    <li><a href="/moneywatch/retirement/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Retirement"}'><span>Retirement</span></a></li>
+                    <li><a href="/moneywatch/tech/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Tech"}'><span>Tech</span></a></li>
+                    <li><a href="/moneywatch/trending/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Trending"}'><span>Trending</span></a></li>
+                    <li><a href="/videos/topics/moneywatch/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Video"}'><span>Video</span></a></li>
+                </ul></nav><div id="moneywatch-ticker">
+                <div id="stock-quote" section="stock-quote"> <form section="srch" name="tsearch" class="universalSearch" action="/quote" method="get" onsubmit="window.location.href='//markets.cbsnews.com/'+this.symbol.value+'/quote/'; return false;"> <div class="searchBoxWrap"> <span><input class="input top-input-ticker placeholder" id="search-stock-query" type="text" name="symbol" value="" placeholder="Quote"></span> </div> <input type="hidden" value="Symbol"><button id="search-stock-submit" class="top-search-ticker" type="submit">Get</button> </form> </div>
+            </div>
+        </div>
+    </div>
+
+</header><div id="mantle_skin" class="content-primary show-topic show moneywatch-tech topic-door ">
+                            <div id="skin-59dc9f4d367c7" class="ad-skin" data-ad="skin" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing skin-59dc9f4d367c7 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("skin-59dc9f4d367c7");
+    </script></div>
+
+                                                                 <div id="leader-plus-top-59dc9f4d367c7" class="ad-leader-plus-top" data-ad="leader-plus-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-plus-top-59dc9f4d367c7 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-plus-top-59dc9f4d367c7");
+    </script></div>
+
+                    
+                    <div class="container">
+    <div class="row">
+                    <div class="row">
+    
+                
+    <div class="col-12 ">
+                                        </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                
+                
+    <div class="col-8 ">
+                                                        <div class="row">
+    
+            
+            
+    <div class="col-8 nocontent">
+                                    
+                                    
+                                            
+<section class="section section-lead" data-tb-region="Big News Area"><div class="hero-average" data-tb-region-item>
+        <h3 class="title"><a href="/news/how-to-cut-global-pollution-using-solar-cooking/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Category|MoneyWatch Tech|Lead|Asset|Headline-1"}'>How stoves can help solve a global pollution crisis</a></h3>
+
+        <p class="dek">
+Around the world, 3 billion people have to use dirty fuels for heat and cooking, giving entrepreneurs an idea</p>
+
+        <figure class="media-figure img-inset"><a href="/news/how-to-cut-global-pollution-using-solar-cooking/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Category|MoneyWatch Tech|Lead|Asset|Image-1"}'>
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/05/97c988dc-bc58-4d0c-b6fc-d1e9ce8bfb8a/thumbnail/620x350/18facb7b9b613c0da9853db30be8e915/charcoal-rtr353n8.jpg#" alt=" " height="350" width="620" srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/05/97c988dc-bc58-4d0c-b6fc-d1e9ce8bfb8a/thumbnail/620x350/18facb7b9b613c0da9853db30be8e915/charcoal-rtr353n8.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/05/97c988dc-bc58-4d0c-b6fc-d1e9ce8bfb8a/thumbnail/1240x700/ef98413476c2a8630b3f5b2656585622/charcoal-rtr353n8.jpg 2x"></span>
+            </a>
+        </figure></div>
+</section></div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-8 ">
+                                            <div class="row">
+                                
+            
+            
+    <div class="col-3 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    <div class="module module-listing" data-tb-region="Editor's Picks">
+    
+        
+    
+                                                                                
+
+<div class="listing-full-focus-with-label ">
+    <ul class="items"><li class="item standard" data-tb-region-item>
+        <h2 class="item-heading label" aria-label="Vanishing Act" title="Vanishing Act" tabindex="0">Vanishing Act</h2>
+    
+    <a href="/news/10-jobs-us-disappearing/">
+        <h3 class="title  " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Enterprise Journalism|Asset|Headline-1"}'>10 U.S. jobs vanishing at an alarming rate</h3>
+
+        <figure class="media-block overlay-show-mw" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Enterprise Journalism|Asset|Image-1"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2016/12/19/2c6b81cb-bf24-4bee-8a80-19ff94c9af61/thumbnail/220x140/57ef46cd7264a1e5fffe3a7ce0abaeba/istock-547406974.jpg#" alt=" " height="140" width="220" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2016/12/19/2c6b81cb-bf24-4bee-8a80-19ff94c9af61/thumbnail/220x140/57ef46cd7264a1e5fffe3a7ce0abaeba/istock-547406974.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2016/12/19/2c6b81cb-bf24-4bee-8a80-19ff94c9af61/thumbnail/440x280/c92af9a17e42b5a53ad41a1ee3565200/istock-547406974.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+            <figcaption class="meta-label"><span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"7121e12b-0472-4ebd-87ec-4b76c101dff8"}'></span>
+
+
+
+            </figcaption><p class="dek" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Enterprise Journalism|Asset|Dek-1"}'>
+Automation and changing consumer habits are pushing these occupations -- some that will surprise you -- to the wayside</p>
+        </figure></a>
+
+    
+
+    
+
+</li>
+
+                            
+                                                
+
+
+
+    
+
+<li class="item standard" data-tb-region-item>
+        <h2 class="item-heading label" aria-label="Bitcoin" title="Bitcoin" tabindex="0">Bitcoin</h2>
+    
+    <a href="/news/bitcoin-revolution-blockchain-wall-street-silicon-valley/">
+        <h3 class="title  " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Enterprise Journalism|Asset|Headline-2"}'>Inside the tech that could "change the face of modern finance"</h3>
+
+        <figure class="media-block overlay-show-mw" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Enterprise Journalism|Asset|Image-2"}'><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2016/05/02/95b70247-bbe2-4d46-842a-02b4a3ec0b3f/thumbnail/220x140/e3f2b7fa156d5c92d741bbd228d7ee27/bitcoin.jpg#" alt=" " height="140" width="220" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2016/05/02/95b70247-bbe2-4d46-842a-02b4a3ec0b3f/thumbnail/220x140/e3f2b7fa156d5c92d741bbd228d7ee27/bitcoin.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2016/05/02/95b70247-bbe2-4d46-842a-02b4a3ec0b3f/thumbnail/440x280/4c07b03f4e858a0824dba315e1aa2470/bitcoin.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+            <figcaption class="meta-label"><span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"bc3213d9-eb89-4aa2-ab99-3dc2a2ffd323"}'></span>
+
+
+
+            </figcaption><p class="dek" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Enterprise Journalism|Asset|Dek-2"}'>
+When it comes to digital currency, bitcoin has grabbed most of the headlines, but have we been missing the real story?</p>
+        </figure></a>
+
+    
+
+    
+
+</li>
+
+                </ul></div></div>
+
+                                                                
+                                    
+                                            
+            <div class="module module-listing">
+    
+    
+<div class="listing-full-focus-with-label  the-experts">
+    <ul class="items"><li class="item">
+            <h2 class="item-heading label">The Experts</h2>
+                <a href="/search/author/steve-vernon/">
+        <figure class="media-block"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2014/07/21/d5d98823-b8b3-4028-a112-8d63bb8993be/thumbnail/220x140/2334de49e1346a1fe5f813649373764c/steve-vernon220x140.jpg#" alt=" " height="140" width="220" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2014/07/21/d5d98823-b8b3-4028-a112-8d63bb8993be/thumbnail/220x140/2334de49e1346a1fe5f813649373764c/steve-vernon220x140.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2014/07/21/d5d98823-b8b3-4028-a112-8d63bb8993be/thumbnail/440x280/edd0ee043b29df1746f9e599394389bd/steve-vernon220x140.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><span class="author">Steve Vernon</span>
+    </a>
+    <a href="/news/financial-advice-should-put-your-needs-first/">
+        <h3 class="title ">Why financial advice should put your needs first</h3>
+    </a>
+</li>
+
+                            
+                                                
+
+
+
+    
+<li class="item">
+        <a href="/search/author/kathy-kristof/">
+        <figure class="media-block"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2014/07/09/d90b6e02-6be6-411e-bfe2-a614dfa10978/thumbnail/220x140/2f22a779ae1940fa801197111d816066/kristof-formal220x140.jpg#" alt=" " height="140" width="220" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2014/07/09/d90b6e02-6be6-411e-bfe2-a614dfa10978/thumbnail/220x140/2f22a779ae1940fa801197111d816066/kristof-formal220x140.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2014/07/09/d90b6e02-6be6-411e-bfe2-a614dfa10978/thumbnail/440x280/bfcca9eae369d7f7d1b29888ad56bc46/kristof-formal220x140.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><span class="author">Kathy Kristof</span>
+    </a>
+    <a href="/news/equifax-data-breach-credit-freeze-phishing-other-scams/">
+        <h3 class="title ">Equifax data breach: Beware these 3 scams</h3>
+    </a>
+</li>
+
+                            
+                                                
+
+
+
+    
+<li class="item">
+        <a href="/search/author/ray-martin/">
+        <figure class="media-block"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2014/07/09/3a69bc91-8e52-40f4-b62a-8b4978182b44/thumbnail/220x140/74bf5cc5364bd50e9235bbf82f8ccb90/ray-martin220x140.jpg#" alt=" " height="140" width="220" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2014/07/09/3a69bc91-8e52-40f4-b62a-8b4978182b44/thumbnail/220x140/74bf5cc5364bd50e9235bbf82f8ccb90/ray-martin220x140.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2014/07/09/3a69bc91-8e52-40f4-b62a-8b4978182b44/thumbnail/440x280/68f3b921aef6e9456e7bc00b76fef4a8/ray-martin220x140.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><span class="author">Ray Martin</span>
+    </a>
+    <a href="/news/how-the-irs-decides-if-you-have-a-business-or-a-hobby/">
+        <h3 class="title ">How the IRS decides if you have a business or a hobby</h3>
+    </a>
+</li>
+
+                </ul></div>    </div>    
+                                                                
+                                    
+                                            
+
+
+
+    
+    <div class="module module-listing" data-tb-region="Editor's Picks">
+    
+        
+    
+                                                                                
+
+<div class="listing-full-focus-with-label ">
+    <ul class="items"><li class="item standard" data-tb-region-item>
+        <h2 class="item-heading label" aria-label="Clash Of The Titans" title="Clash Of The Titans" tabindex="0">Clash Of The Titans</h2>
+    
+    <a href="/news/amazon-vs-facebook-which-tech-stock-is-best/">
+        <h3 class="title  " data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Enterprise Journalism|Asset|Headline-1"}'>Amazon vs. Facebook: Which tech stock is best?</h3>
+
+        <figure class="media-block overlay-show-mw" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Enterprise Journalism|Asset|Image-1"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2014/04/11/697ad626-ad9e-4c1d-a860-bd3d327e6efb/thumbnail/220x140/33d998b4ca300edbd1f6f2b9747f6550/facebook-like-dislike.jpg#" alt=" " height="140" width="220" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2014/04/11/697ad626-ad9e-4c1d-a860-bd3d327e6efb/thumbnail/220x140/33d998b4ca300edbd1f6f2b9747f6550/facebook-like-dislike.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2014/04/11/697ad626-ad9e-4c1d-a860-bd3d327e6efb/thumbnail/440x280/73a02da741d6bb83946e48642f11f303/facebook-like-dislike.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+            <figcaption class="meta-label"><span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"09805a46-9626-4098-8fb7-dd88e4d90ab6"}'></span>
+
+
+
+            </figcaption><p class="dek" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Enterprise Journalism|Asset|Dek-1"}'>
+The answer depends on which one has a stronger strategy for growing well beyond their already titanic status</p>
+        </figure></a>
+
+    
+
+    
+
+</li>
+
+                </ul></div></div>
+
+                                                                    </div>
+        
+            
+            
+    <div class="col-5 nocontent">
+                                    
+                                    
+                                            
+
+            
+                                                <div class="module module-listing">
+            <h2 class="module-heading title">Latest Features</h2>
+        
+<div class="listing-standard-lead " data-tb-region="Latest News">
+    <ul class="media-list items"><li data-tb-region-item>
+    
+    <a href="/news/elon-musk-tesla-can-rebuild-puerto-ricos-power-grid-ruined-by-hurricane-maria/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-1"}'>Elon Musk: Tesla can power up Puerto Rico</h3></a>
+
+    <a href="/news/elon-musk-tesla-can-rebuild-puerto-ricos-power-grid-ruined-by-hurricane-maria/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-1"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/30/8e95feed-e625-4263-ba66-2795c37b3983/thumbnail/140x90/b073368cde91547a8922d2279468dc50/puerto-rico-recovery-2017-9-30.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/30/8e95feed-e625-4263-ba66-2795c37b3983/thumbnail/140x90/b073368cde91547a8922d2279468dc50/puerto-rico-recovery-2017-9-30.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/30/8e95feed-e625-4263-ba66-2795c37b3983/thumbnail/280x180/b2ae10243109ddefb29a5a6ba88a5c6f/puerto-rico-recovery-2017-9-30.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/elon-musk-tesla-can-rebuild-puerto-ricos-power-grid-ruined-by-hurricane-maria/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-1"}'>
+            <p class="dek">
+CEO of Tesla pitches solar-powered replacement for island's electricity infrastructure destroyed by Hurricane Maria</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/aol-discontinuing-aim-pioneering-instant-messenger/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-2"}'>Logging off: AOL discontinuing pioneering Instant Messenger</h3></a>
+
+    <a href="/news/aol-discontinuing-aim-pioneering-instant-messenger/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-2"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/06/12fe9e4d-d244-4264-bae6-b75bf5b03804/thumbnail/140x90/74ba5f34a7c7a0e28d2622510dbaa78c/istock-471530967.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/06/12fe9e4d-d244-4264-bae6-b75bf5b03804/thumbnail/140x90/74ba5f34a7c7a0e28d2622510dbaa78c/istock-471530967.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/06/12fe9e4d-d244-4264-bae6-b75bf5b03804/thumbnail/280x180/d1b3ca9110f67d5b647e346445e54943/istock-471530967.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/aol-discontinuing-aim-pioneering-instant-messenger/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-2"}'>
+            <p class="dek">
+The online service said it's shutting down its AIM program after two decades, as consumers shift to social media and texting</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/netflix-price-increase-raising-prices-on-standard-premium-plans/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-3"}'>Netflix says it will raise prices</h3></a>
+
+    <a href="/news/netflix-price-increase-raising-prices-on-standard-premium-plans/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-3"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/19/ed2e2fd9-fef6-4aed-aad2-bec506f7fe78/thumbnail/140x90/95008303f80701b5701c15caff73f12a/stranger-things-season-two-01-620.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/19/ed2e2fd9-fef6-4aed-aad2-bec506f7fe78/thumbnail/140x90/95008303f80701b5701c15caff73f12a/stranger-things-season-two-01-620.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/19/ed2e2fd9-fef6-4aed-aad2-bec506f7fe78/thumbnail/280x180/fccf128b7783722eda247f7550a374e7/stranger-things-season-two-01-620.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/netflix-price-increase-raising-prices-on-standard-premium-plans/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-3"}'>
+            <p class="dek">
+Video streaming service to raise monthly charges for standard and premium plans in time for second season of spooky hit series</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                                            <div id="sponsor-content-top-59dc9f4d367c7" class="ad-sponsor-content-top" data-ad="sponsor-content-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing sponsor-content-top-59dc9f4d367c7 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("sponsor-content-top-59dc9f4d367c7");
+    </script></div>
+
+                    
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/new-car-infotainment-tech-causes-big-distractions-aaa-study-finds/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-4"}'>Car infotainment causes big distractions, AAA says</h3></a>
+
+    <a href="/news/new-car-infotainment-tech-causes-big-distractions-aaa-study-finds/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-4"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/05/0a609bb8-2b00-4f04-9a62-0fee6bddd61e/thumbnail/140x90/3a3cf92d3243b9e11254870da632126f/gettyimages-504558434.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/05/0a609bb8-2b00-4f04-9a62-0fee6bddd61e/thumbnail/140x90/3a3cf92d3243b9e11254870da632126f/gettyimages-504558434.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/05/0a609bb8-2b00-4f04-9a62-0fee6bddd61e/thumbnail/280x180/4226013eac335fa206d42023862de091/gettyimages-504558434.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/new-car-infotainment-tech-causes-big-distractions-aaa-study-finds/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-4"}'>
+            <p class="dek">
+Those big digital screens and high-tech features are taking drivers' eyes off the road</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/sonos-speaker-will-be-fluent-in-amazon-google-and-apple/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-5"}'>New Sonos speaker will be fluent in Amazon, Google, Apple</h3></a>
+
+    <a href="/news/sonos-speaker-will-be-fluent-in-amazon-google-and-apple/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-5"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/04/ed418ab8-420a-4e72-88ac-9e3207e1eed2/thumbnail/140x90/4458f6c8e36b779b2daf113800b083ad/sonos-one.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/04/ed418ab8-420a-4e72-88ac-9e3207e1eed2/thumbnail/140x90/4458f6c8e36b779b2daf113800b083ad/sonos-one.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/04/ed418ab8-420a-4e72-88ac-9e3207e1eed2/thumbnail/280x180/09d922ba0883b673fa8b57ea16197754/sonos-one.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/sonos-speaker-will-be-fluent-in-amazon-google-and-apple/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-5"}'>
+            <p class="dek">
+Wireless audio company's new voice-controlled speaker will work with tech giants' AI voice assistants</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/googles-pixel-2-and-2-xl-take-on-iphone-x/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-6"}'>Google takes on iPhone with Pixel 2 and 2 XL</h3></a>
+
+    <a href="/news/googles-pixel-2-and-2-xl-take-on-iphone-x/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-6"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/04/528ce28c-7c4f-4139-a19f-130f7b461e7e/thumbnail/140x90/a82675e65b593c7a9d75e2c7417c5c7f/google-rts1f4op.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/04/528ce28c-7c4f-4139-a19f-130f7b461e7e/thumbnail/140x90/a82675e65b593c7a9d75e2c7417c5c7f/google-rts1f4op.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/04/528ce28c-7c4f-4139-a19f-130f7b461e7e/thumbnail/280x180/d504aec4cb0174202cabf0cfad6e0628/google-rts1f4op.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/googles-pixel-2-and-2-xl-take-on-iphone-x/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-6"}'>
+            <p class="dek">
+The new phones come with a range of features designed to give the iPhone X a run for its money</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/your-yahoo-account-was-definitely-hacked-heres-what-to-do/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-7"}'>Your Yahoo account was definitely hacked &ndash; here's what to do</h3></a>
+
+    <a href="/news/your-yahoo-account-was-definitely-hacked-heres-what-to-do/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-7"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2016/12/15/997005d2-1bfa-4bd1-a99d-c8eb566be0ab/thumbnail/140x90/81f6caaec77078f9b8b5aa6fc62eb26b/yahoo-1204534-640x360.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2016/12/15/997005d2-1bfa-4bd1-a99d-c8eb566be0ab/thumbnail/140x90/81f6caaec77078f9b8b5aa6fc62eb26b/yahoo-1204534-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2016/12/15/997005d2-1bfa-4bd1-a99d-c8eb566be0ab/thumbnail/280x180/15225e6f235268325e69d75c383cb174/yahoo-1204534-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/your-yahoo-account-was-definitely-hacked-heres-what-to-do/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-7"}'>
+            <p class="dek">
+How to protect yourself after the data breach that we've now learned compromised all 3 billion Yahoo accounts</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/equifax-ex-ceo-hacked-data-wasnt-encrypted/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-8"}'>Equifax ex-CEO: Hacked data wasn't encrypted</h3></a>
+
+    <a href="/news/equifax-ex-ceo-hacked-data-wasnt-encrypted/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-8"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/03/e8635d8c-f898-46b3-ae06-7dae96cfba86/thumbnail/140x90/a9b1f609154bf313b4cc366a43c7f88e/smith-gettyimages-857114820.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/03/e8635d8c-f898-46b3-ae06-7dae96cfba86/thumbnail/140x90/a9b1f609154bf313b4cc366a43c7f88e/smith-gettyimages-857114820.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/03/e8635d8c-f898-46b3-ae06-7dae96cfba86/thumbnail/280x180/d1b6ca49993850f8f339f0cfb5c4d814/smith-gettyimages-857114820.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/equifax-ex-ceo-hacked-data-wasnt-encrypted/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-8"}'>
+            <p class="dek">
+A House committee hearing on the massive breach exposed a range of technological and human problems</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/yahoo-2013-hack-hit-3-billion-users-verizon-now-says/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-9"}'>Verizon says Yahoo hack hit all 3 billion users</h3></a>
+
+    <a href="/news/yahoo-2013-hack-hit-3-billion-users-verizon-now-says/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-9"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/07/27/6b391bab-b40f-4452-aa7d-0b3a48f85dfe/thumbnail/140x90/d8fdac95ef6476a1835eab71a1ff60dd/gettyimages-112778419.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/07/27/6b391bab-b40f-4452-aa7d-0b3a48f85dfe/thumbnail/140x90/d8fdac95ef6476a1835eab71a1ff60dd/gettyimages-112778419.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/07/27/6b391bab-b40f-4452-aa7d-0b3a48f85dfe/thumbnail/280x180/ef8350d7d896078173004cc4dd36e644/gettyimages-112778419.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/yahoo-2013-hack-hit-3-billion-users-verizon-now-says/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-9"}'>
+            <p class="dek">
+The communications giant, which purchased Yahoo in 2016, discovered the larger breach while integrating the companies</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/tesla-hits-a-snag-with-model-3-production/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-10"}'>Tesla's Model 3 production falls short</h3></a>
+
+    <a href="/news/tesla-hits-a-snag-with-model-3-production/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-10"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/07/29/c7f1d081-3819-4042-82e5-49a97de05326/thumbnail/140x90/f81b14af3028aeca66554b0c6e0cbc14/2017-07-29t050723z-880149662-rc1ffb5af600-rtrmadp-3-tesla-model-3.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/07/29/c7f1d081-3819-4042-82e5-49a97de05326/thumbnail/140x90/f81b14af3028aeca66554b0c6e0cbc14/2017-07-29t050723z-880149662-rc1ffb5af600-rtrmadp-3-tesla-model-3.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/07/29/c7f1d081-3819-4042-82e5-49a97de05326/thumbnail/280x180/91d8c2929c452e2d67bca71d4000e9f7/2017-07-29t050723z-880149662-rc1ffb5af600-rtrmadp-3-tesla-model-3.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/tesla-hits-a-snag-with-model-3-production/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-10"}'>
+            <p class="dek">
+Electric car maker is struggling to meet production targets for its first mass market vehicle</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/gm-to-release-two-all-electric-vehicles-in-next-18-months/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-11"}'>GM announces two new electric vehicles</h3></a>
+
+    <a href="/news/gm-to-release-two-all-electric-vehicles-in-next-18-months/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-11"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/04/20/1b5b85df-2901-4b95-bd86-85fa96f8bc6f/thumbnail/140x90/09b3d7f50d3442520ad56703db387f55/ap-444940340455.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/04/20/1b5b85df-2901-4b95-bd86-85fa96f8bc6f/thumbnail/140x90/09b3d7f50d3442520ad56703db387f55/ap-444940340455.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/04/20/1b5b85df-2901-4b95-bd86-85fa96f8bc6f/thumbnail/280x180/1498501dca24571e9ba9c00764f0852f/ap-444940340455.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/gm-to-release-two-all-electric-vehicles-in-next-18-months/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-11"}'>
+            <p class="dek">
+General Motors announced the upcoming debut of two all-electric vehicles, expects to launch 20 EVs globally by 2023</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/whole-foods-hack-investigating/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-12"}'>Whole Foods investigating credit hack</h3></a>
+
+    <a href="/news/whole-foods-hack-investigating/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-12"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/11/2497e059-0738-49ee-8bf1-e11557c0fea7/thumbnail/140x90/88fd58317655b795effbe2e93aa5212d/whole-foods-525848-1313575-640x360.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/05/11/2497e059-0738-49ee-8bf1-e11557c0fea7/thumbnail/140x90/88fd58317655b795effbe2e93aa5212d/whole-foods-525848-1313575-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/05/11/2497e059-0738-49ee-8bf1-e11557c0fea7/thumbnail/280x180/3677c97e8d46bc721e6531245aa7a033/whole-foods-525848-1313575-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/whole-foods-hack-investigating/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-12"}'>
+            <p class="dek">
+Grocery chain says someone gained "unauthorized access" to some of its credit payment systems</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/ikea-buys-taskrabbit-gig-economy-pioneer/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-13"}'>Ikea buys TaskRabbit, "gig economy" pioneer</h3></a>
+
+    <a href="/news/ikea-buys-taskrabbit-gig-economy-pioneer/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-13"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/28/653a2a95-3c9a-4671-af3f-c03cded2b477/thumbnail/140x90/141a50e099a9463253ed9b45f260cc45/ap-17271624313269.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/28/653a2a95-3c9a-4671-af3f-c03cded2b477/thumbnail/140x90/141a50e099a9463253ed9b45f260cc45/ap-17271624313269.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/28/653a2a95-3c9a-4671-af3f-c03cded2b477/thumbnail/280x180/6098e462d4909ff57263a744ff4727e2/ap-17271624313269.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/ikea-buys-taskrabbit-gig-economy-pioneer/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-13"}'>
+            <p class="dek">
+Swedish furniture giant acquires on-demand services provider in bid to ward off Amazon</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/face-id-iphone-x-10-things-we-learned/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-14"}'>10 things we know about Face ID on the iPhone X</h3></a>
+
+    <a href="/news/face-id-iphone-x-10-things-we-learned/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-14"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/12/90346ebe-2513-4c51-8204-265488b0d2a2/thumbnail/140x90g2/477a6db4d9d32c29425fdfb1beb5efe4/rtx3fycv.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/12/90346ebe-2513-4c51-8204-265488b0d2a2/thumbnail/140x90g2/477a6db4d9d32c29425fdfb1beb5efe4/rtx3fycv.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/12/90346ebe-2513-4c51-8204-265488b0d2a2/thumbnail/280x180g2/d52851b1295c61b74c5e02308ae55725/rtx3fycv.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/face-id-iphone-x-10-things-we-learned/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-14"}'>
+            <p class="dek">
+New details are emerging about how Apple's iPhone X will handle facial scanning and security</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/sprint-and-t-mobile-will-second-time-be-a-charm/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-15"}'>Sprint and T-Mobile: Will second time be a charm?</h3></a>
+
+    <a href="/news/sprint-and-t-mobile-will-second-time-be-a-charm/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-15"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/22/88acd6f3-8b55-4380-802b-3dfa6490f025/thumbnail/140x90/2ef667cb645f83b6385461956b1aa2f4/2017-09-22t133934z-400285420-rc149407ceb0-rtrmadp-3-sprint-m-a-tmobile.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/22/88acd6f3-8b55-4380-802b-3dfa6490f025/thumbnail/140x90/2ef667cb645f83b6385461956b1aa2f4/2017-09-22t133934z-400285420-rc149407ceb0-rtrmadp-3-sprint-m-a-tmobile.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/22/88acd6f3-8b55-4380-802b-3dfa6490f025/thumbnail/280x180/3809f16686bf0b18d65fd16ab92b9b85/2017-09-22t133934z-400285420-rc149407ceb0-rtrmadp-3-sprint-m-a-tmobile.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/sprint-and-t-mobile-will-second-time-be-a-charm/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-15"}'>
+            <p class="dek">
+Thwarted in a 2014 takeover attempt, Sprint appears to be making another run at the wireless service provider</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/amazon-echo-new-speaker/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-16"}'>Amazon rolls out new device</h3></a>
+
+    <a href="/news/amazon-echo-new-speaker/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-16"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/27/026fd464-225e-4532-97f3-00f0f3d16903/thumbnail/140x90/74e2bc4db0f8466aae3e8624d9e1d27b/echo.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/27/026fd464-225e-4532-97f3-00f0f3d16903/thumbnail/140x90/74e2bc4db0f8466aae3e8624d9e1d27b/echo.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/27/026fd464-225e-4532-97f3-00f0f3d16903/thumbnail/280x180/5feec6d3fb6cd4cf33013d1270401f80/echo.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/amazon-echo-new-speaker/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-16"}'>
+            <p class="dek">
+E-commerce giant introduces first new speaker in three years in a bid to dominate the smart home of the future</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                                                                
+                    
+
+
+ 
+
+
+
+<li data-tb-region-item>
+    
+    <a href="/news/how-to-cut-global-pollution-using-solar-cooking/"><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Headline-17"}'>How stoves can help solve a global pollution crisis</h3></a>
+
+    <a href="/news/how-to-cut-global-pollution-using-solar-cooking/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Image-17"}'>
+        <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/05/97c988dc-bc58-4d0c-b6fc-d1e9ce8bfb8a/thumbnail/140x90/e799f6aaead5107da6faa923874681e0/charcoal-rtr353n8.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/05/97c988dc-bc58-4d0c-b6fc-d1e9ce8bfb8a/thumbnail/140x90/e799f6aaead5107da6faa923874681e0/charcoal-rtr353n8.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/05/97c988dc-bc58-4d0c-b6fc-d1e9ce8bfb8a/thumbnail/280x180/0b4fc662d8433d17e1a4fc4c4e04d194/charcoal-rtr353n8.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure></a>
+
+    <div class="media-body">
+        <a href="/news/how-to-cut-global-pollution-using-solar-cooking/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|Hard News|Asset|Dek-17"}'>
+            <p class="dek">
+Around the world, 3 billion people have to use dirty fuels for heat and cooking, giving entrepreneurs an idea</p>
+        </a>
+            </div>
+
+    
+
+    
+
+</li>
+
+                </ul></div>
+</div>
+                                                                            
+                                    
+                                                    
+
+  <a class="load-more idle" href="https://www.cbsnews.com/latest/moneywatch/tech/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "MoneyWatch Tech|More Headlines|Link"}' data-invalid-url-rewritten-http=""><span class="load-more-text"> More in MoneyWatch Tech <span class="load-more-icon"></span></span></a>
+                                                                    </div>
+                                </div>
+                        </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-8 ">
+                                        </div>
+            </div>
+                            </div>
+        
+            
+            
+    <div class="col-4 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk CBSN Top DVR (RR)" id="module-right-rail-cbsn-top-dvr">
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <figure class="embed embed--type-iframe embed--float-none embed--size-large " data-ads='{"wordCount":50}'>
+  <div class="embed__content-wrapper">
+	<div class="embed__resizer"></div>
+	<iframe class="embed__content lazyload" data-src="https://www.cbsnews.com/cbsn-top-dvr/" data-width="300" data-height="420" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+  </div>
+</figure>
+</li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+                            <div id="marquee-top-59dc9f4d367c7" class="ad-marquee-top" data-ad="marquee-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing marquee-top-59dc9f4d367c7 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("marquee-top-59dc9f4d367c7");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-market-news-button-top">
+      <h2 class="module-heading title">Market News</h2>
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <figure class="embed embed--type-iframe embed--float-none embed--size-large " data-ads='{"wordCount":50}'>
+  <div class="embed__content-wrapper">
+	<div class="embed__resizer"></div>
+	<iframe class="embed__content lazyload" data-src="https://markets.cbsnews.com/widgets/markets/news" data-width="100%" data-height="500" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+  </div>
+</figure>
+</li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+                            <div id="mpu-top-59dc9f4d367c7" class="ad-mpu-top" data-ad="mpu-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-top-59dc9f4d367c7 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-top-59dc9f4d367c7");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-market-data-marquee300-top">
+      <h2 class="module-heading title">Market Data</h2>
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <figure class="embed embed--type-iframe embed--float-none embed--size-large " data-ads='{"wordCount":50}'>
+  <div class="embed__content-wrapper">
+	<div class="embed__resizer"></div>
+	<iframe class="embed__content lazyload" data-src="https://markets.cbsnews.com/widgets/markets/market_indices" data-width="100%" data-height="360" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+  </div>
+</figure>
+</li>
+                </ul></div>                                                                                        <div id="marquee300-top-59dc9f4d367c7" class="ad-marquee300-top" data-ad="marquee300-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing marquee300-top-59dc9f4d367c7 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("marquee300-top-59dc9f4d367c7");
+    </script></div>
+
+                </div>
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-watchlist-button-middle">
+      <h2 class="module-heading title">Stock Watchlist</h2>
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <figure class="embed embed--type-iframe embed--float-none embed--size-large " data-ads='{"wordCount":50}'>
+  <div class="embed__content-wrapper">
+	<div class="embed__resizer"></div>
+	<iframe class="embed__content lazyload" data-src="https://markets.cbsnews.com/widgets/watchlist/overview" data-width="100%" data-height="auto" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+  </div>
+</figure>
+</li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+
+<div class="module module-listing" id="module-right-rail-moneywatch-spotlight">
+    <h2 class="module-heading title">Moneywatch Spotlight</h2>
+
+    
+<div class="listing-mini-sub ">
+    <ul class="media-list items"><li>
+          <a href="/media/10-smart-home-features-to-help-you-age-in-place/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/05/9fa8c9b4-c0ad-4a56-afcf-5ca721857ba5/thumbnail/60x60/2f323952750ada5c8e8d6405ab675fe6/01-intro.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/05/9fa8c9b4-c0ad-4a56-afcf-5ca721857ba5/thumbnail/60x60/2f323952750ada5c8e8d6405ab675fe6/01-intro.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/05/9fa8c9b4-c0ad-4a56-afcf-5ca721857ba5/thumbnail/120x120/cd42c5a665c7696152ad0088052c3042/01-intro.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">10 smart home features to help you age in place
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/live-news/former-equifax-ceo-testifies-congress-richard-smith/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/03/7f0e8032-69fd-4622-bbb3-3983342a10e6/thumbnail/60x60/c468be3f13af9ff5861e46339a8ee95c/equifax-rtx3fbi2.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/03/7f0e8032-69fd-4622-bbb3-3983342a10e6/thumbnail/60x60/c468be3f13af9ff5861e46339a8ee95c/equifax-rtx3fbi2.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/03/7f0e8032-69fd-4622-bbb3-3983342a10e6/thumbnail/120x120/13e8b3973f5b405a29c4746c03c3c537/equifax-rtx3fbi2.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">Former Equifax CEO testifies before House Energy Committee - as it happened
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/media/the-9-most-lucrative-college-majors/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/28/a99dd172-ef3b-4553-a597-b5ef85ff5936/thumbnail/60x60/f0e5ccc56809b8e0ad689da89c51657c/istock-524538466.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/28/a99dd172-ef3b-4553-a597-b5ef85ff5936/thumbnail/60x60/f0e5ccc56809b8e0ad689da89c51657c/istock-524538466.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/28/a99dd172-ef3b-4553-a597-b5ef85ff5936/thumbnail/120x120/a683f385edfdd7158a0e258560dd39df/istock-524538466.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">The 9 most lucrative college majors
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/media/10-celebrity-owned-homes-for-sale/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/28/43d54399-d608-4e19-bd9e-0b5654b6a643/thumbnail/60x60/84fcfe67181d2d6b45e0f72d7999c4e5/01-intro.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/28/43d54399-d608-4e19-bd9e-0b5654b6a643/thumbnail/60x60/84fcfe67181d2d6b45e0f72d7999c4e5/01-intro.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/28/43d54399-d608-4e19-bd9e-0b5654b6a643/thumbnail/120x120/4d2b0378c99452edf362fdee633e105b/01-intro.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">10 celebrity-owned homes for sale
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/media/7-traits-of-people-who-struggle-financially/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/28/c0742478-1492-456c-b9e3-3013a8e95199/thumbnail/60x60/86e999e55638c657bdca3e00aa95e435/istock-628481968.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/28/c0742478-1492-456c-b9e3-3013a8e95199/thumbnail/60x60/86e999e55638c657bdca3e00aa95e435/istock-628481968.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/28/c0742478-1492-456c-b9e3-3013a8e95199/thumbnail/120x120/4ba019ff464164b1b5d0bcbaaa53e3e1/istock-628481968.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">7 traits of people who struggle financially
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                        </ul></div></div>
+
+
+                                                                
+                                    
+                                            
+
+                            <div id="resource-center-top-59dc9f4d367c7" class="ad-resource-center-top" data-ad="resource-center-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing resource-center-top-59dc9f4d367c7 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("resource-center-top-59dc9f4d367c7");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+<div class="module module-listing" id="module-most-discussed-cbs-news-right-rail">
+    <h2 class="module-heading title">Most Discussed on CBS News</h2>
+
+    
+<div class="listing-mini-sub ">
+    <ul class="media-list items"><li>
+          <a href="/news/man-treads-water-drifts-17-hours-kayak-sinks/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/10/d7330328-1160-44c2-aba9-5d190f320b9d/thumbnail/60x60/1609da99d518e2b4a05987ddc830ed42/rescued-kayaker-michael-diaz-100917.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/10/d7330328-1160-44c2-aba9-5d190f320b9d/thumbnail/60x60/1609da99d518e2b4a05987ddc830ed42/rescued-kayaker-michael-diaz-100917.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/10/d7330328-1160-44c2-aba9-5d190f320b9d/thumbnail/120x120/a138ec7bc17bae89597b968c768fb484/rescued-kayaker-michael-diaz-100917.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">Man treads water, drifts for 17 hours after kayak sinks
+            </h4>
+                            <div class="meta-label comment-count">
+                    
+    <span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"426b82f4-72e2-4331-934e-6aa8cf5927d1"}'></span>
+                </div>
+                    </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/cuba-attack-victim-we-were-ignored/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/10/8ab8123e-0d15-4bf3-8679-3f0f1e8ed295/thumbnail/60x60/3e87b3c18aae6911d263f85e4316c98c/ap-17276610141692.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/10/8ab8123e-0d15-4bf3-8679-3f0f1e8ed295/thumbnail/60x60/3e87b3c18aae6911d263f85e4316c98c/ap-17276610141692.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/10/8ab8123e-0d15-4bf3-8679-3f0f1e8ed295/thumbnail/120x120/860229bb195cfaad4159e940f4659acb/ap-17276610141692.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">Cuba health attack victim: We were ignored
+            </h4>
+                            <div class="meta-label comment-count">
+                    
+    <span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"e76683c2-907f-4cc6-8c88-cb6811d0b84b"}'></span>
+                </div>
+                    </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/traffic-fatalities-jump-by-5-6-percent-in-2016/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/02/18/9dbf9eb5-034e-47f0-a961-d886f50b3c67/thumbnail/60x60/3d0289dec73aaa1f468f20293a04e6e5/car-crash-insurance.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/02/18/9dbf9eb5-034e-47f0-a961-d886f50b3c67/thumbnail/60x60/3d0289dec73aaa1f468f20293a04e6e5/car-crash-insurance.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2016/02/18/9dbf9eb5-034e-47f0-a961-d886f50b3c67/thumbnail/120x120/5932bea3fa5c09cdd7f5e0191370ea73/car-crash-insurance.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">Driving just got a lot deadlier
+            </h4>
+                            <div class="meta-label comment-count">
+                    
+    <span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"d518d76f-7872-41d6-8f7a-ac6b7d0f3515"}'></span>
+                </div>
+                    </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/north-korea-sanctions-un-security-council-ban-cargo-ships/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/10/51b0c1c8-4e08-4566-8001-0111a626ca6b/thumbnail/60x60/49bc13921375afcc5f7e5b8f6edad006/north-korea-ship-176519239.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/10/51b0c1c8-4e08-4566-8001-0111a626ca6b/thumbnail/60x60/49bc13921375afcc5f7e5b8f6edad006/north-korea-ship-176519239.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/10/51b0c1c8-4e08-4566-8001-0111a626ca6b/thumbnail/120x120/2d35a5dc13beb5b54b6885af66f5bf82/north-korea-ship-176519239.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">U.N. clamps down on N. Korea's sanctions-dodging by sea
+            </h4>
+                            <div class="meta-label comment-count">
+                    
+    <span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"5e89684f-a692-4f97-bf25-661b57676776"}'></span>
+                </div>
+                    </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/paying-off-student-loans-early-doesnt-always-pay/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/28/94bb29cf-f616-4062-83e2-15fa4f468218/thumbnail/60x60/1cc2cf272c6721709916c9ea955f6551/istock-668087326.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/28/94bb29cf-f616-4062-83e2-15fa4f468218/thumbnail/60x60/1cc2cf272c6721709916c9ea955f6551/istock-668087326.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/28/94bb29cf-f616-4062-83e2-15fa4f468218/thumbnail/120x120/4db0d455789fa9ab14953d066dedeed5/istock-668087326.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">Paying off student loans early doesn't always pay
+            </h4>
+                            <div class="meta-label comment-count">
+                    
+    <span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"6d2fa62b-e106-4406-9f2e-3e482b7b307c"}'></span>
+                </div>
+                    </div>
+    </a>
+</li>
+
+                        </ul></div></div>
+
+
+                                                                
+                                    
+                                            
+
+                            <div id="mpu-bottom-59dc9f4d367c7" class="ad-mpu-bottom" data-ad="mpu-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-bottom-59dc9f4d367c7 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-bottom-59dc9f4d367c7");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-taboola-recommended-article">
+      <h2 class="module-heading title">Recommended</h2>
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <div data-taboola='{"mode":"alternating-thumbnails-rr","placement":"Right Rail Thumbnails"}'></div></li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-emergency-component">
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <script>var searchNav = document.querySelector('.site-nav__item--sports .site-nav__item-anchor'); searchNav&&searchNav.addEventListener('click', function () {window.location = this.href}, true);</script><style>.site-footer{ z-index:0; } .site-header{ z-index:2; } .content-primary{ z-index:1; } [tabindex]:focus {outline: 0; } .desktop .site-nav__item--shows:hover .site-nav__item-content-icon {top: 113px;right: auto;}.desktop .site-nav__item--shows:hover .site-nav__item-hed {font-size: 16px;max-height: none;float: none;margin: 0px;} .front-door .disqus-comment-count { display: none; } .topic-door .disqus-comment-count { display: none; } .listing-mini-sub .disqus-comment-count { display: none; } .desktop #mantle_skin[class*=cbs-this-morning] .hero-text .title a {color: #e4a21b;font-family: "museo-sans", Helvetica, Roboto, sans-serif;font-size: 30px;font-weight: 700;line-height: 1.1;letter-spacing: -0.05em;}</style></li>
+                </ul></div>                                                        </div>
+
+                                                                    </div>
+                                </div>
+                        </div>
+            </div>
+        </div>
+</div>
+
+            <div id="leader-bottom-59dc9f4d367c7" class="ad-leader-bottom" data-ad="leader-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-bottom-59dc9f4d367c7 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-bottom-59dc9f4d367c7");
+    </script></div>
+
+        </div>
+
+    
+                            
+<footer class="site-footer content-inverse nocontent"><div class="container">
+                            <div class="disclosure-moneywatch">
+            <p>Quotes delayed at least 15 minutes. Market data provided by <a href="https://www.theice.com/market-data" target="_blank">ICE Data Services</a>.
+            <a href="https://www.theice.com/market-data/disclaimer">ICE Limitations</a>.
+            </p><p>Powered and implemented by <a href="https://www.factset.com/" target="_blank">FactSet</a>.</p>
+            <p><a href="https://www.factset.com/legal-statement" target="_blank">Legal Statement</a>.</p>
+        </div>
+                <div class="row">
+            <div class="col-2 link-block">
+                <h5 class="title">CBSNews.com</h5>
+
+                <ul class="items"><li><a href="https://www.cbsnews.com/sitemap/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Site Map"}' data-invalid-url-rewritten-http="">Site Map</a></li>
+                    <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome2?categories=CBS_Interactive:CBSNews&amp;referer=cbsnews.com/main" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Help"}'>Help</a></li>
+                    <li><a href="http://audienceservices.cbs.com/feedback/feedback.htm" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Contact Us"}'>Contact Us</a></li>
+
+                    <li><a href="https://www.cbsnews.com/team/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|CBS Bios"}' data-invalid-url-rewritten-http="" data-vanity-rewritten="true">CBS Bios</a></li>
+                    <li><a href="https://cbs.avature.net/cbsnewscareers" data-omniture-track-data='{"clickProperty": "Site Footer|Careers"}'>Careers</a></li>
+                    <li><a href="http://www.cbsinteractive.com/careers" data-omniture-track-data='{"clickProperty": "Site Footer|CBSi Careers"}'>CBSi Careers</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-internship-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Internships"}' data-invalid-url-rewritten-http="">Internships</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-associates-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Development Programs"}' data-invalid-url-rewritten-http="">Development Programs</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">CBS Interactive</h5>
+
+                <ul class="items"><li><a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Privacy Policy"}'>Privacy Policy</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/adchoice" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Ad Choice"}'>Ad Choice</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Terms of Use"}'>Terms of Use</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/eula" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Mobile User Agreement"}'>Mobile User Agreement</a></li>
+                    <li><a href="http://www.cbscorporation.com/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|About CBS"}'>About CBS</a></li>
+                    <li><a href="http://www.cbsinteractive.com/advertise/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Advertise"}'>Advertise</a></li>
+                    <li><a href="http://cbsimedia.cbs.com/captioning/info.html" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Closed Captioning"}'>Closed Captioning</a></li>
+                    <li><a href="http://www.cbsstore.com/cbs-news-store-home/index.php?v=cbs-news&amp;ecid=PRF-CBS-300538&amp;pa=PRF-CBS-300538" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|CBS News Store"}'>CBS News Store</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">Follow Us</h5>
+
+                <ul class="items"><li><a href="https://www.facebook.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Facebook"}'>Facebook</a></li>
+                    <li><a href="https://twitter.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Twitter"}'>Twitter</a></li>
+                    <li><a href="/rss/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|RSS"}'>RSS</a></li>
+                    <li><a href="https://www.cbsnews.com/newsletters/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Email Newsletters"}' data-invalid-url-rewritten-http="">Email Newsletters</a></li>
+                    <li><a href="http://www.youtube.com/user/CBSNewsOnline" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|YouTube"}'>YouTube</a></li>
+                    <li><a href="https://www.cbsnews.com/radio/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Radio News"}' data-invalid-url-rewritten-http="">CBS News Radio</a></li>
+                    <li><a href="https://www.cbsnews.com/local/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Local"}' data-invalid-url-rewritten-http="">CBS Local</a></li>
+                </ul></div>
+
+            <div class="col-4 push-2">
+                <div class="site-brand">
+                    <div class="logo core-logo"><a href="/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer-Branding"}'>CBS News</a></div>
+                </div>
+
+                <form class="site-search" action="/search/" method="get" data-component="search" data-search-options='{"path":"https:\/\/www.cbsnews.com\/search\/","param":"q"}'>
+                    <input type="search" class="query" maxlength="255" name="q" placeholder="Search..."><button type="submit" class="submit core-search-footer">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="site-brand">
+                <p class="copyright">Copyright &copy; 2017 CBS Interactive Inc.<br>All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer></div> 
+
+                      
+
+    
+
+<script>
+    var CBSNEWS = CBSNEWS || {};
+        CBSNEWS.ad        = {"gpt":{"targeting":{"device":"desktop","ptype":"category_door","cid":"moneywatch-tech","env":"prod_alt"},"adConfig":{"network":{"dev":8264,"qa":8264,"prod":8264},"method":"async-inline","regions":[{"region":"uk","countries":["gb","fr","ie","za","bh","kw","om","qa","sa","ae","iq","eg","ye"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","ph","th","id","vn","hk","in"]}],"adUnits":{"intromercial":{"outOfPage":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"skin"}},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250],[300,1050]],"position":"top"},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"buttonTop":{"sizes":[[88,31]],"position":"top"},"scrollPrestitial":{"sizes":[[980,45]],"position":"top"},"marqueeBottom":{"sizes":[[234,60]],"position":"bottom"},"marquee300Top":{"sizes":[[300,60]],"position":"top"},"marquee300Middle":{"sizes":[[300,60]],"position":"middle"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"leaderBottom":{"sizes":[[728,90],[970,66]],"position":"bottom"},"desktopNativeTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"a832eb3c"}},"nativeShowTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"bf587c26"}},"desktopNativeMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"e0c5ba47"}},"desktopNativeBottom":{"sizes":[[11,11]],"position":"bottom"},"buttonMiddle":{"sizes":[[88,31]],"position":"middle"},"buttonBottom":{"sizes":[[88,31]],"position":"bottom"},"sponsorContentMiddle":{"sizes":[[381,211],[11,11]],"position":"middle","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentMiddle2":{"sizes":[[381,211],[11,11]],"position":"middle2","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentBottom":{"sizes":[[381,211],[11,11]],"position":"bottom","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentTop":{"sizes":[[381,211],[11,11]],"position":"top","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentSmallTop":{"sizes":[[301,151],[11,11]],"position":"top","customTargeting":{"strnativekey":"a2ac4296"}},"sponsorContentTextTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"a6c0ce8b"}},"sponsorBar980Top":{"sizes":[[980,36]],"position":"top"},"sponsorBar620Top":{"sizes":[[620,36]],"position":"top"}},"mobile":{"adUnits":{"intromercial":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileBanner1":{"sizes":[[320,50]],"position":1},"mobileBanner2":{"sizes":[[320,50]],"position":2},"mobileBanner3":{"sizes":[[320,50]],"position":3},"mobileMarquee320Top":{"sizes":[[320,60]],"position":"top"},"mobileSponsorContentTextTop":{"sizes":[[300,250],[11,11],"fluid"],"position":"top","customTargeting":{"strnativekey":"454fd857"}},"mobileSponsorcontentTextMiddle":{"sizes":[[300,250],[320,50],[11,11],"fluid"],"position":"middle","customTargeting":{"strnativekey":"454fd857"}},"mobileInlineFlexPos2":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":2,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexPos3":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":3,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexInc":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":"inc","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileNativeTop":{"sizes":[[11,11]],"position":"top"},"mobileNativeGalleryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"289740d4"}},"mobileSponsorcontentCdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"3c5782bf"}},"mobileSponsorcontentVdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"eba075cc"}}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"amp":{"adUnits":{"ampFlexTop":{"sizes":[[320,50],[300,250]],"position":"top"},"ampFlexBottom":{"sizes":[[320,50],[300,250]],"position":"bottom"},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"ampFlexPos2":{"sizes":[[320,50],[300,250]],"position":2},"ampFlexPos3":{"sizes":[[320,50],[300,250]],"position":3},"ampFlexInc":{"sizes":[[320,50],[300,250]],"position":"inc"},"ampSticky":{"sizes":[[320,50]],"position":"sticky"}}},"siteName":"cbsnews","collapseEmptyDiv":true,"setRefreshUnfilledSlots":false,"setClearUnfilledSlots":true,"disableInitialLoad":false,"disableInitialLoadCompanions":true,"enableHeaderBidding":true,"disableClearTargetingOnInit":true,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["intromercial","leader_top","leader_plus_top","skin","mpu_top","mpu_plus_top","marquee_top","marquee300_top","button_top","sponsor_content_top","sponsor_content_small_top","sponsor_content_text_top","sponsor_bar980_top","sponsor_bar620_top","desktop_native_top","native_show_top","mpu_middle","marquee300_middle","button_middle","desktop_native_middle","sponsor_content_middle","sponsor_content_middle2","desktop_native_bottom","button_bottom","mpu_bottom","leader_bottom","sponsor_content_bottom"],"disableInitialLoadRefresh":"false","disableAdIncrement":false,"enableRepeatedAds":false},"containerId":"59dc9f4d367c7","slotVars":{"network":"8264","siteName":"cbsnews","collapseEmptyDiv":"1","topics":"moneywatch/tech/home","platform":"desktop"},"adType":"gpt","adDivIds":["sponsor-content-top-59dc9f4d367c7","marquee-top-59dc9f4d367c7","mpu-top-59dc9f4d367c7","marquee300-top-59dc9f4d367c7","resource-center-top-59dc9f4d367c7","mpu-bottom-59dc9f4d367c7","intromercial-59dc9f4d367c7","skin-59dc9f4d367c7","leader-plus-top-59dc9f4d367c7","leader-bottom-59dc9f4d367c7"]},"cookieName":"cbsnews_ad","cookieServicePath":"/ad/ad-cookie/","session":4,"subSession":4,"useFirstPageTargeting":true};
+        CBSNEWS.bsFreq    = 100;
+        CBSNEWS.device    = 'desktop';
+        CBSNEWS.features  = CBSNEWS.features || {};
+        CBSNEWS.tracking  = {"isEnabled":true,"deviceType":"desktop","isDev":"2","pageType":"category_door","siteHier":["moneywatch","moneywatch tech"],"siteSection":"moneywatch","siteType":"responsive web","topicId":["9bb46c70-758d-11e2-9d12-0018fe8a00b0"],"topicName":["moneywatch","moneywatch tech"],"bkSiteId":3330,"limit":4,"siteName":"cbsnews","demographicKeys":["jobFunction","jobCategory","industry","computerProficiency","companySize","gender","ageGroup","country"],"tealium":{"profile":"cbsnewssite","env":"prod"}};
+        CBSNEWS.tracking._adData      = CBSNEWS.ad;
+        CBSNEWS.tracking.pageViewGuid = null; // Set in managers/tealium
+        CBSNEWS.user      = {
+            appId:          '1501',
+            environment:    'LIVE',
+            platform:       '',
+            publicHost:     'www.cbsnews.com',
+            secureHost:     'secure-fly.cbsnews.com',
+            ursVersion:     'v2.2',
+            ursClientToken: '9b0514bf29ca49e1',
+        };
+        CBSNEWS.disqus =  {
+            shortname: 'cbsnews-prod',
+            publicKey: '60EUVoZHyaBJqXJUxAKYfJgUh8NhuUyO88gGQ7aIw8HsbFOwAl9hLtoCyvyld2A8',
+            sso: {
+                name: 'CBSNews',
+                authLoginUrl: 'https://www.cbsnews.com/disqus/sso/login/',
+                authLogoutUrl: 'https://www.cbsnews.com/disqus/sso/logout/',
+                button: 'https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/images/core/logo.png?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e',
+                icon: 'https://cbsnews4.cbsistatic.com/fly/favicon.ico?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e',
+                loginUrl: 'https://secure-fly.cbsnews.com/user/registration/?redirectUrl=%2Fdisqus%2Flogin%2F ',
+                logoutUrl: 'https://www.cbsnews.com/user/logout/'
+            }
+        };
+
+
+    var features = ['beanstockSonobi', 'disqus', 'urs'];
+    features.forEach(function(feature) {
+        if (!CBSNEWS.features.hasOwnProperty(feature)) {
+            CBSNEWS.features[feature] = true;
+        }
+    });
+
+    var utag_data = CBSNEWS.tracking;
+
+    var require = {"baseUrl":"https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build","urlArgs":"v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e","config":{"version":{"fly/libs/base64":"0.3.0","fly/libs/easy-xdm-cbsi":"2.4.19.3","fly/libs/jquery.widget":"1.9.2","fly/libs/jquery.cookie":"1.2","fly/libs/jquery.mobile":"1.3.2","fly/libs/jquery.throttle-debounce":"1.1","fly/libs/lazysizes":"1.4.0","fly/libs/omniture.s-code":"1.0","fly/libs/urs":"1.0","fly/utils/data-prefix":"1.0","fly/utils/data-selector":"1.0","fly/utils/function-natives":"1.0","fly/utils/guid":"1.0","fly/utils/log":"1.0","fly/utils/object-helper":"1.0","fly/utils/string-helper":"1.0","fly/utils/string-vars":"1.0","fly/utils/url-helper":"1.0","fly/managers/components":"1.0","fly/managers/cookie":"1.0","fly/managers/debug":"1.0","fly/managers/ad":"2.0","fly/managers/gpt":"4.2","fly/managers/geo":"1.0","fly/managers/image-resolution":"1.0","fly/managers/recurly":"1.0","fly/managers/recurly-billing":"1.0","fly/managers/social-authentication":"1.0","fly/managers/tracking":"1.0","fly/managers/user":"1.0","fly/components/accordion":"1.0","fly/components/alert":"1.0","fly/components/base":"1.0","fly/components/carousel":"1.0","fly/components/credspark":"1.0","fly/components/dependent-field":"1.0","fly/components/dropdown":"1.0","fly/components/form-validate":"1.0","fly/components/iframe-messenger":"1.1","fly/components/image-gallery":"1.0","fly/components/disqus-count":"1.0","fly/managers/disqus":"1.0","fly/components/disqus":"1.0","fly/components/loading":"1.0","fly/components/load-more":"1.0","fly/components/nrelate":"1.0","fly/components/modal":"1.0","fly/components/modal-async":"1.0","fly/components/modal-iframe":"1.0","fly/components/scrollbar":"1.0","fly/components/social-button":"1.0","fly/components/social-counts":"1.1","fly/components/social-links":"1.0","fly/components/tabs":"1.0","fly/managers/clicktale":"1.0","fly/components/poll":"1.0","fly/managers/history":"1.0","libs/fontfaceobserver":"2.0.7","libs/riot":"2.6.2","mpx/libs/uvp":"2.6.1","mpx/libs/hls":"0.7.10.min","fly/components/fixate":"1.0","fly/components/image-gallery-thumb":"1.0"}},"shim":{"tealium":["jquery"]},"map":{"*":{"ima":"//imasdk.googleapis.com/js/sdkloader/ima3.js","gpt":"//www.googletagservices.com/tag/js/gpt.js","anvato":"https://w3.cdn.anvato.net/player/prod/scripts/anvload.js","nrelate":"//c7.static.nrcdn.com/common_js/0.52.1/nr_loader.min.js","urs":"//urs.cbsnews.com/sdk/urs.js","recirc":"//ddlmj2furo6f2.cloudfront.net/addontrain/recommendations/53f6c74c1344a01ee2000139.js","tealium":"//tags.tiqcdn.com/utag/cbsi/cbsnewssite/prod/utag.js","twitter":"https://platform.twitter.com/widgets.js","credspark":"//www.credspark.com/embed.js","yad":"https://s.yimg.com/uq/syndication/yad.js","newsgator":"//nmp.newsgator.com/ngbuzz/load.ashx/buzz","recurly":"https://js.recurly.com/v4/recurly.js","taboola":"//cdn.taboola.com/libtrc/cbsinteractive-cbsnews/loader.js","sharethrough":"//native.sharethrough.com/assets/tag.js","uvp":"//vidtech.cbsinteractive.com/uvpjs/2.5.3/CBSI-PLAYER.js","index_exchange":"//js-sec.indexww.com/ht/ls-cbsnews.js","sonobi":"//mtrx.go.sonobi.com/morpheus.cbsnews.9251.js"}}};
+</script><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e" as="script"><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.desktop.js?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e" as="script"><script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e" data-main="main.desktop" async defer></script></body></html>

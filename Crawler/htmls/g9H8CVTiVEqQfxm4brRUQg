@@ -1,0 +1,1623 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://ogp.me/ns/fb#"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwQBWFdXGwsAVFlUBgg="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script><meta content="en" http-equiv="Content-Language"><meta name="google" content="notranslate"><link rel="preconnect dns-prefetch" href="https://sportshub.cbsistatic.com"><link rel="preconnect dns-prefetch" href="https://sportsfly.cbsistatic.com"><link rel="preconnect dns-prefetch" href="https://sports.cbsimg.net"><title>LOOK: Florida will wear green uniforms for the first time ever vs. Texas A&amp;M - CBSSports.com</title><meta itemprop="name" content="LOOK: Florida will wear green uniforms for the first time ever vs. Texas A&amp;M - CBSSports.com"><meta name="description" content="The alternate uniforms are Gator inspired from the naming of Ben Hill Griffin Stadium 'The Swamp'"><meta itemprop="description" content="The alternate uniforms are Gator inspired from the naming of Ben Hill Griffin Stadium 'The Swamp'"><link rel="canonical" href="https://www.cbssports.com/college-football/news/look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m/"><link rel="amphtml" href="https://www.cbssports.com/college-football/news/look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m/amp/"><meta property="og:site_name" content="CBSSports.com"><meta property="og:title" content="LOOK: Florida will wear green uniforms for the first time ever vs. Texas A&amp;M"><meta property="og:description" content="The alternate uniforms are Gator inspired from the naming of Ben Hill Griffin Stadium 'The Swamp'"><meta property="og:image" content="https://sportshub.cbsistatic.com/i/r/2017/10/10/06dcb31a-8d3c-4025-b31e-07e5828abae6/thumbnail/770x433/b3b271cc37ed9e46e5e9cc9f947b0f38/fla2.jpg"><meta property="og:type" content="Article"><meta property="og:url" content="https://www.cbssports.com/college-football/news/look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m/"><meta itemprop="speakable" itemscope itemtype="http://schema.org/SpeakableSpecification" itemref="speakable-meta-1 speakable-meta-2"><meta id="speakable-meta-1" itemprop="cssSelector" content=".article-headline"><meta id="speakable-meta-2" itemprop="cssSelector" content=".article-subline"><meta property="fb:pages" content="25902406772"><meta property="fb:app_id" content="297742330311988"><meta property="fb:admins" content="100002967552623"><meta property="article:publisher" content="https://www.facebook.com/cbssports"><meta content="14885860" property="twitter:account_id"><meta content="summary" property="twitter:card"><meta content="https://www.cbssports.com/college-football/news/look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m/" property="twitter:url"><meta content="LOOK: Florida will wear green uniforms for the first time ever vs. Texas A&amp;M" property="twitter:title"><meta content="The alternate uniforms are Gator inspired from the naming of Ben Hill Griffin Stadium 'The Swamp'" property="twitter:description"><meta content="https://sportshub.cbsistatic.com/i/r/2017/10/10/06dcb31a-8d3c-4025-b31e-07e5828abae6/thumbnail/770x433/b3b271cc37ed9e46e5e9cc9f947b0f38/fla2.jpg" property="twitter:image"><meta content="@cbssports" property="twitter:site"><meta content="@BenKercheval" property="twitter:creator"><meta content="CBSSports.com features live scoring and news for NFL football, MLB baseball, NBA basketball, NHL hockey, college basketball and football. CBSSports.com is also your source for fantasy sports news." name="msapplication-tooltip"><meta content="https://www.cbssports.com/" name="msapplication-starturl"><meta content="width=1024;height=768" name="msapplication-window"><meta content="#1483b2" name="msapplication-navbutton-color"><link rel="alternate" href="android-app://com.handmark.sportcaster/cbssportsapp/https://www.cbssports.com/college-football/news/look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m/"><meta name="google-site-verification" content="EdjXVFTZ6BgUzS3Void8cMiXXzE6bXDvNg-Yjl3VZj8"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/core/webclips/touch-icon-iphone.png"><link rel="apple-touch-icon" sizes="76x76" href="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/core/webclips/touch-icon-ipad.png"><link rel="apple-touch-icon" sizes="120x120" href="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/core/webclips/touch-icon-iphone-retina.png"><link rel="apple-touch-icon" sizes="152x152" href="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/core/webclips/touch-icon-ipad-retina.png"><link rel="stylesheet" href="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/css/main.desktop.css"><link rel="stylesheet" href="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/css/icon-moon/icon-moon.css"><script type="text/javascript" src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediajs/js-build/libs/require-2.1.22.js"></script><script type="text/javascript">
+    require.config({"baseUrl":"https:\/\/sportsfly.cbsistatic.com\/fly-703\/bundles\/sportsmediajs\/js-build","urlArgs":"","config":{"version":{"fly\/components\/accordion":"1.0","fly\/components\/alert":"1.0","fly\/components\/base":"1.0","fly\/components\/carousel":"1.0","fly\/components\/dropdown":"1.0","fly\/components\/fixate":"1.0","fly\/components\/form-validate":"1.0","fly\/components\/image-gallery":"1.0","fly\/components\/iframe-messenger":"1.0","fly\/components\/load-more":"1.0","fly\/components\/load-more-article":"1.0","fly\/components\/load-more-scroll":"1.0","fly\/components\/loading":"1.0","fly\/components\/marketing-slider":"1.0","fly\/components\/modal":"1.0","fly\/components\/modal-iframe":"1.0","fly\/components\/network-bar":"1.0","fly\/components\/poll":"1.0","fly\/components\/search-player":"1.0","fly\/components\/social-button":"1.0","fly\/components\/social-counts":"1.0","fly\/components\/social-links":"1.0","fly\/components\/tabs":"1.0","fly\/components\/video":"1.0","fly\/libs\/easy-xdm":"2.4.17.1","fly\/libs\/jquery.cookie":"1.2","fly\/libs\/jquery.throttle-debounce":"1.1","fly\/libs\/jquery.widget":"1.9.2","fly\/libs\/omniture.s-code":"1.0","fly\/utils\/jquery-mobile-init":"1.0","fly\/libs\/jquery.mobile":"1.3.2","fly\/libs\/backbone":"1.0.0","fly\/libs\/underscore":"1.5.1","fly\/libs\/jquery.easing":"1.3","fly\/managers\/ad":"2.0","fly\/managers\/components":"1.0","fly\/managers\/cookie":"1.0","fly\/managers\/debug":"1.0","fly\/managers\/geo":"1.0","fly\/managers\/gpt":"4.2","fly\/managers\/history":"2.0","fly\/managers\/madison":"1.0","fly\/managers\/social-authentication":"1.0","fly\/managers\/tealium":"1.0","fly\/utils\/data-prefix":"1.0","fly\/utils\/data-selector":"1.0","fly\/utils\/function-natives":"1.0","fly\/utils\/guid":"1.0","fly\/utils\/log":"1.0","fly\/utils\/object-helper":"1.0","fly\/utils\/string-helper":"1.0","fly\/utils\/string-vars":"1.0","fly\/utils\/url-helper":"1.0","libs\/jshashtable":"2.1","libs\/select2":"3.5.1","libs\/jsonp":"2.4.0","libs\/jquery\/mobile":"1.4.5","libs\/modernizr.custom":"2.6.2","libs\/velocity":"1.2.2","libs\/dataTables":"1.10.6","libs\/dataTables.fixedColumns":"3.0.4","libs\/dataTables.fixedHeader":"2.1.2","libs\/dateformat":"1.0.3","libs\/waypoints\/infinite":"3.1.1","libs\/waypoints\/inview":"3.1.1","libs\/waypoints\/jquery.waypoints":"3.1.1","libs\/waypoints\/sticky":"3.1.1","libs\/jquery\/dotdotdot":"1.6.1","libs\/jquery\/flexslider":"2.1","libs\/jquery\/lazyload":"1.9.3","libs\/jquery\/maskedinput":"1.3.1","libs\/jquery\/marquee":"1.3.1","libs\/jquery\/numberformatter":"1.2.3","libs\/jquery\/placeholder":"0.2.4","libs\/jquery\/scrollbar":"0.1.6","libs\/jquery\/tablesorter":"2.0.5","libs\/jquery\/touchswipe":"1.6.18","libs\/jquery\/ui\/jquery.ui.core":"1.11.4","libs\/jquery\/ui\/jquery.ui.draggable":"1.11.4","libs\/jquery\/ui\/jquery.ui.mouse":"1.11.4","libs\/jquery\/ui\/jquery.ui.position":"1.11.4","libs\/jquery\/ui\/jquery.ui.slider":"1.11.4","libs\/jquery\/ui\/jquery.ui.sortable":"1.11.4","libs\/jquery\/ui\/jquery.ui.touch-punch":"0.2.3","libs\/jquery\/ui\/jquery.ui.autocomplete":"1.11.4","libs\/jquery\/ui\/jquery.ui.accordion":"1.11.4","libs\/jquery\/ui\/jquery.ui.tabs":"1.11.4","libs\/jquery\/ui\/jquery.ui.menu":"1.11.4","libs\/jquery\/ui\/jquery.ui.dialog":"1.11.4","libs\/jquery\/ui\/jquery.ui.resizable":"1.11.4","libs\/jquery\/ui\/jquery.ui.button":"1.11.4","libs\/jquery\/ui\/jquery.ui.tooltip":"1.11.4","libs\/jquery\/ui\/jquery.ui.effects":"1.11.4","libs\/jquery\/ui\/jquery.ui.datepicker":"1.11.4"}},"shim":{"liveconnection\/managers\/connection":{"deps":["liveconnection\/libs\/sockjs-0.3.4"]},"liveconnection\/libs\/sockjs-0.3.4":{"exports":"SockJS"},"libs\/setValueFromArray":{"exports":"set"},"libs\/getValueFromArray":{"exports":"get"},"fly\/libs\/jquery.mobile-1.3.2":["version!fly\/utils\/jquery-mobile-init"],"libs\/backbone.marionette":{"deps":["jquery","version!fly\/libs\/underscore","version!fly\/libs\/backbone"],"exports":"Marionette"},"fly\/libs\/underscore-1.5.1":{"exports":"_"},"fly\/libs\/backbone-1.0.0":{"deps":["version!fly\/libs\/underscore","jquery"],"exports":"Backbone"},"libs\/jquery\/ui\/jquery.ui.tabs-1.11.4":["jquery","version!libs\/jquery\/ui\/jquery.ui.core","version!fly\/libs\/jquery.widget"],"libs\/jquery\/flexslider-2.1":["jquery"],"libs\/dataTables.fixedColumns-3.0.4":["jquery","version!libs\/dataTables"],"libs\/dataTables.fixedHeader-2.1.2":["jquery","version!libs\/dataTables"]},"map":{"*":{"facebook":"https:\/\/connect.facebook.net\/en_US\/sdk.js","facebook-debug":"https:\/\/connect.facebook.net\/en_US\/all\/debug.js","google":"https:\/\/apis.google.com\/js\/plusone.js","google-signin":"https:\/\/apis.google.com\/js\/client:platform.js","google-csa":"https:\/\/www.google.com\/adsense\/search\/async-ads.js","google-javascript-api":"https:\/\/www.google.com\/jsapi","google-client-api":"https:\/\/apis.google.com\/js\/api:client.js","gpt":"https:\/\/www.googletagservices.com\/tag\/js\/gpt.js","recaptcha":"https:\/\/www.google.com\/recaptcha\/api\/js\/recaptcha_ajax.js","twitter":"https:\/\/platform.twitter.com\/widgets.js","mpx":"libs\/tpPdk","tealium":"\/\/tags.tiqcdn.com\/utag\/cbsi\/cbssportssite\/prod\/utag.js","taboola":"https:\/\/cdn.taboola.com\/libtrc\/cbsinteractive-cbssports\/loader.js","sharethrough":"https:\/\/native.sharethrough.com\/assets\/tag.js","newsroom":"https:\/\/c2.taboola.com\/nr\/cbsinteractive-cbssports\/newsroom.js","disqus":"\/\/cbs-sports-prod.disqus.com\/embed.js","disqus-commentcount":"\/\/cbs-sports-prod.disqus.com\/count.js"}}});
+
+        
+</script><script type="text/javascript">
+    //Set doc domain for video embed crossdomain fix
+    document.domain = "cbssports.com";
+
+            if ((top.location != self.location) && (document.referrer.indexOf("cbssports.com") == -1)) {
+            window.open(location.href, '_top');
+        }
+    
+    window.SportsPageVars = {
+        ads: {
+            enabled: true,
+            data: {"gpt":{"targeting":{"device":"desktop","ptype":"stories","cid":"look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m","env":"prod"},"adConfig":{"network":{"local":7336,"dev":7336,"qa":8264,"stage":8264,"prod":8264},"method":"async-inline","regions":[],"adUnits":{"intromercial":{"outOfPage":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"adSkinCallback"}},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,250],[300,600]],"position":"top"},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom","disableInitialLoad":false},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250],[970,90]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderboardCallback"}},"leaderTop":{"sizes":[[728,90],[970,66],[970,90]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderboardCallback"}},"buttonTop":{"sizes":[[88,31]],"position":"top"},"skyBox":{"sizes":[[980,45]],"position":"top"},"topStrip":{"sizes":[[5,5]],"position":"top","eventCallbacks":{"slotRenderEnded":"skyBoxCallback"}},"nflnetworkBarTop":{"sizes":[[750,50]],"position":"top"},"nflnetworkMarqueeTop":{"sizes":[[170,100]],"position":"top"},"nflnetworkMarquee2Top":{"sizes":[[400,45]],"position":"top"},"mobileNflnetworkTop":{"sizes":[[300,100]],"position":"top"},"leaderPlus2Bottom":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderMiddle":{"sizes":[[728,90],[970,66]],"position":"middle"},"leaderBottom":{"sizes":[[970,66],[728,90]],"position":"bottom"},"mMarqueeTop":{"sizes":[[356,365]],"position":"top"},"mRailTopLeft":{"sizes":[[170,360]],"position":"top"},"mRailBottomLeft":{"sizes":[[170,230]],"position":"bottom"},"mLeaderTop":{"sizes":[[1170,150]],"position":"top"},"mLeaderMiddle":{"sizes":[[1170,150]],"position":"middle"},"mRailTopRight":{"sizes":[[370,345]],"position":"top"},"mStoryInset":{"sizes":[[300,310]],"position":"top"},"mDropdown":{"sizes":[[220,350]],"position":"top"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"mpuTopGametracker":{"sizes":[[300,250]],"position":"top","disableInitialLoad":true,"eventCallbacks":{"slotRenderEnded":"clear20second"}},"sharethroughTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"a749ea2b"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughBottom":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"a749ea2b"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughArticle":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"433f2831"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughScoreboard":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"1KzYzb2nt1prfLivSYMjVJCV"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mpuHomeArenaFlex":{"sizes":[[11,11],[300,250]],"position":"top","customTargeting":{"strnativekey":"pHEZXrGTz8xAczhbvBryALrh"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeArenaMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"rSRFToMHkC84SmYyCbF6LsXG"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryBottom":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryBottom2":{"sizes":[[11,11]],"position":"bottom2","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryInc":{"sizes":[[11,11]],"position":"inc","disableInitialLoad":true,"customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"}},"videoThumbnailTop":{"sizes":[[171,231]],"position":"top"},"videoLiveEventSponsor":{"sizes":[[234,60]],"position":"top"}},"mobile":{"adUnits":{"intromercial":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"topStrip":{"sizes":[[5,5]],"position":"top","eventCallbacks":{"slotRenderEnded":"skyBoxCallback"}},"mobileNflnetworkMarqueeTop":{"sizes":[[300,100]],"position":"top"},"mobileNflnetworkTop":{"sizes":[[300,100]],"position":"top"},"mobileHomeFlexTop":{"sizes":[[11,11],[300,250]],"position":"top","customTargeting":{"strnativekey":"FPbxvZ35anf9AJRvNfe6i5bj"}},"mobileHomeFlexSilentMiddle":{"sizes":[[11,11],[300,250]],"position":"middle","customTargeting":{"strnativekey":"4QaKVuofR1D6XYNp5djXh8m5"}},"mobileHomeFlexBottom":{"sizes":[[11,11],[300,250]],"position":"bottom","customTargeting":{"strnativekey":"FPbxvZ35anf9AJRvNfe6i5bj"}},"mobileHomeFlexSilentBottom2":{"sizes":[[11,11],[300,250]],"position":"bottom2","customTargeting":{"strnativekey":"4QaKVuofR1D6XYNp5djXh8m5"}},"mobileArenaFlexSilentMiddle":{"sizes":[[11,11],[300,250]],"position":"middle","customTargeting":{"strnativekey":"p19egy6FqHCsS251t1yj2EBy"}},"mobileArenaFlexSilent":{"sizes":[[11,11],[300,250]],"position":"middle","customTargeting":{"strnativekey":"p19egy6FqHCsS251t1yj2EBy"}},"mobileArenaFlexSilentBottom2":{"sizes":[[11,11],[300,250]],"position":"bottom2","customTargeting":{"strnativekey":"p19egy6FqHCsS251t1yj2EBy"}},"mobileFlexSilentTop":{"sizes":[[11,11],[300,250]],"position":"top","customTargeting":{"strnativekey":"gubJdWNSqW4KERyShJGTxkGt"}},"mobileFlexTop":{"sizes":[[300,250],[11,11]],"position":"top","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexMiddle":{"sizes":[[320,50],[300,250],[11,11]],"position":"middle","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexMiddle2":{"sizes":[[320,50],[300,250],[11,11]],"position":"middle2","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexBottom":{"sizes":[[320,50],[300,250],[11,11]],"position":"bottom","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexInc":{"sizes":[[320,50],[300,250],[11,11]],"position":"inc","disableInitialLoad":true,"customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileBannerTop2":{"sizes":[[320,51]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileMpuBottom2":{"sizes":[[300,250]],"position":"bottom2"},"mpuMiddle":{"sizes":[[300,50]],"position":"middle"},"mpuTop":{"sizes":[[320,50]],"position":"top"},"mobileMpuTop":{"sizes":[[300,250]],"position":"top"},"mobileMpuMiddle":{"sizes":[[300,250]],"position":"middle"},"mobileMarketingMpuTop":{"sizes":[[320,100]],"position":"top"},"mobileMarketingMpuMiddle":{"sizes":[[320,100]],"position":"middle"},"mobileMarketingMpuBottom":{"sizes":[[320,100]],"position":"bottom"},"mobileNativeTop2":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"nJQjFMCYfivejGXoqNXYEKsY"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeTeamTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"pjJXawoyvqmBkden6uzUT6kQ"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeGtTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"83b0ae49"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeBottom2":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"nJQjFMCYfivejGXoqNXYEKsY"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughPos2":{"sizes":[[11,11]],"position":2,"customTargeting":{"strnativekey":"54ab0589"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryBottom":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryBottom2":{"sizes":[[11,11]],"position":"bottom2","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mMarqueeTop":{"sizes":[[356,365]],"position":"top"},"mobileMpuTopGametracker":{"sizes":[[300,250]],"position":"top","disableInitialLoad":true,"eventCallbacks":{"slotRenderEnded":"clear20second"}}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"siteName":"cbssports","collapseEmptyDiv":true,"setRefreshUnfilledSlots":false,"setClearUnfilledSlots":true,"disableInitialLoad":false,"disableInitialLoadCompanions":true,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["top_strip","leader_plus_top","leader_top","m_leader_top","skin","mpu_plus_top","mpu_top","mpu_top_gametracker","m_marquee_top","m_rail_top_left","m_rail_top_right","sharethrough_top","sharethrough_bottom","native_arena","native_arena_middle","native_arena_silent","leader_middle","m_leader_middle","mpu_middle","m_story_inset","m_dropdown","leader_plus2_bottom","leader_bottom","mpu_bottom","m_rail_bottom_left","native_story_top","native_story_middle","native_story_bottom","native_story_bottom2","video_live_event_sponsor"],"disableInitialLoadRefresh":true,"enableHeaderBidding":true,"disableClearTargetingOnInit":true,"enableRepeatedAds":true,"disableAdIncrement":false},"containerId":"fed385aa4eaef","slotVars":{"network":"8264","siteName":"cbssports","collapseEmptyDiv":"1","topics":"collegefootball\/media\/stories","platform":"desktop"},"adType":"gpt","adDivIds":["native-story-top-fed385aa4eaef","mpu-plus-top-fed385aa4eaef","mpu-middle-fed385aa4eaef","leader-bottom-fed385aa4eaef","intromercial-fed385aa4eaef","top-strip-fed385aa4eaef","skin-fed385aa4eaef","leader-top-fed385aa4eaef","nflnetwork-bar-top-fed385aa4eaef"]},"cookieName":"cbssports_ad","cookieServicePath":"\/ad\/ad-cookie\/","session":6,"subSession":4,"useFirstPageTargeting":true}
+        },
+        assetsVersion: {
+            version: 'fly-703'
+        },
+        device: "desktop",
+        environment: 'prod',
+        locale: 'en',
+        tracking: {
+            enabled: true
+        },
+        user: {
+            baseUrl: "https://www.cbssports.com",
+            'urls': {
+                                                                                                                                                                                                }
+        },
+        liveConnection: {
+            enabled: true
+        },
+        taboolaTag: {
+            enabled: true
+        }
+    };
+    // console.log(window.SportsPageVars);
+</script><script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediajs/js-build/fly/libs/guid-1.0.js"></script><script type="text/javascript">
+		    var __tealium_data_guid = null;
+		    if (typeof window.uuid.v1 === 'function'){
+		        __tealium_data_guid=window.uuid.v1();
+		    }
+
+		    var _utag_obj={"isEnabled":true,"articleAuthorId":["c6b3aabc-c062-48da-9492-127b7b863e47"],"articleAuthorName":["ben kercheval"],"articleId":"e6d80e54-e1ba-4ef2-a333-b9d1f160986b","articlePubDate":"2017-10-10 00:38:36","articleTitle":"look: florida will wear green uniforms for the first time ever vs. texas a&m","articleType":"content_article_vembed:story","deviceType":"desktop","isDev":"0","pageNum":"1","pageType":"stories","siteHier":["media","collegefootball","stories"],"siteSection":["media","collegefootball","","","stories",""],"siteType":"desktop web","topicId":["610ffa0b-e79d-11e3-8cf1-005056a033ed"],"topicName":["college football"],"userState":"not authenticated","userType":"anon","dwAccount":"cbsicbssportssite","dwHost":"dw.cbsi.com","siteId":175,"reportSuiteId":"cbsicbssportssite","bkSiteId":3344,"limit":4,"pageName":"\/college-football\/news\/look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m\/","pageTypeId":"6858","pageOntologyId":"23616","contentOrigin":"cbssports.com original","siteName":"cbssports","tealium":{"profile":"cbssportssite","env":"prod"}};    
+		    _utag_obj.pageViewGuid=__tealium_data_guid;
+		    var utag_data=_utag_obj;
+		</script><script>
+    var skyBoxScroll = function() {
+        if ($(window).scrollTop() != 0) {
+            window.scrollTo(window.pageXOffset, window.pageYOffset - 1);
+            window.scrollTo(window.pageXOffset, window.pageYOffset + 1);
+        }
+    }
+</script><script src="//js-sec.indexww.com/ht/ls-cbssports.js" async></script><script type="text/javascript" src="https://mtrx.go.sonobi.com/morpheus.cbssports.4073.js" async></script></head><body data-cms-edit='{"url":"http://cms.cbssports.com/content/article/e6d80e54-e1ba-4ef2-a333-b9d1f160986b"}' class=" skybox-auto-collapse">
+        <div id="cbs-site-data" style="display: none">
+        site: media | arena: collegefootball | pageType: stories | 
+        section:  | slug: look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m | sport: collegefootball | route: article_single.us | 
+        6-keys: media/spln/collegefootball/reg/free/stories
+    </div>
+
+    <div class="page-shell     article-page single-block-layout 
+     
+    ">
+        <div id="intromercial-fed385aa4eaef" class="ad-intromercial " data-ad="intromercial">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-fed385aa4eaef for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-fed385aa4eaef");
+    </script></div>
+
+    
+                    
+<link rel="stylesheet" href="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/css/header-footer/header-footer.desktop.css"><div id="skybox-above">
+        <div id="top-strip-fed385aa4eaef" class="ad-top-strip " data-ad="top-strip">
+    <script>
+        window.console && console.log && console.log("ADS: queuing top-strip-fed385aa4eaef for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("top-strip-fed385aa4eaef");
+    </script></div>
+
+    </div>
+<header id="cbs-site-header" class="cbs-site-header" data-component="siteHeader" data-site-header-options='{"currentSportOmnitureName":"CollegeFootball"}'><div id="cbs-network-bar" class="nav-network-bar">
+            <ul class="nav-networks"><li class="nav-networks-item is-selected">
+                    <a href="https://www.cbssports.com" om-event="">
+                        CBSSports.com
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="http://247sports.com/" target="_blank" om-event="">
+                        247Sports
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="http://www.maxpreps.com" target="_blank" om-event="">
+                        MaxPreps
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="http://www.scout.com/" target="_blank" om-event="">
+                        Scout
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="http://www.sportsline.com" target="_blank" om-event="">
+                        SportsLine
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="http://shop.cbssports.com/?utm_source=cbssportscom_hp&amp;utm_medium=bm_referral&amp;utm_term=kw--CBS_Sports" target="_blank" om-event="">
+                        Shop
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="https://www.golfbook.com/?utm_source=cbssports&amp;utm_medium=link&amp;utm_campaign=globaldesktop_nav" target="_blank" om-event="">
+                        Golfbook
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="https://www.stubhub.com/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHpdropdown-_-partCBSSports" target="_blank" om-event="">
+                        Tickets
+                    </a>
+                </li>
+                    </ul><div class="nav-follow-us">
+        <div class="nav-follow-us-item nav-follow-us-item-label">
+            Follow CBS Sports 
+        </div>
+
+                    
+
+<ul class="social-icons-bar"><li><a href="https://www.facebook.com/cbssports/" class="button-network icon-moon-facebook" target="_blank" rel="nofollow" aria-label="Facebook" title="Facebook" om-event="Brand Bar|Facebook"></a></li><li><a href="https://twitter.com/cbssports/" class="button-network icon-moon-twitter" target="_blank" rel="nofollow" aria-label="Twitter" title="Twitter" om-event="Brand Bar|Twitter"></a></li><li><a href="https://instagram.com/cbssports/" class="button-network icon-moon-instagram" target="_blank" rel="nofollow" aria-label="Instagram" title="Instagram" om-event="Brand Bar|Instagram"></a></li><li><a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" class="button-network icon-moon-flipboard" target="_blank" rel="nofollow" aria-label="Flipboard" title="Flipboard" om-event="Brand Bar|Flipboard"></a></li></ul></div>
+</div>
+    
+    
+
+
+
+
+                                                                                        
+
+        
+                                                                                                                                                                                                                                                                                                        
+    
+<div id="cbs-site-nav" class="cbs-site-nav">
+    <div class="site-nav-inner">
+        
+<div class="site-nav-logo">
+    <div class="cbs-logo-lockup">
+            
+        <div class="cbs-logo">
+            <a href="/" om-event="Arena Nav|CollegeFootball|Logo">
+                <span class="cbs-logo-icon icon-moon-cbs-icon"></span>
+            </a>
+        </div>
+    
+        <div id="cbs-logo-section" class="cbs-logo-section has-icon">
+            <div class="cbs-logo-pos">
+                <span class="logo-sport icon-moon-arena-text-ncaafb"></span>
+                <span class="logo-icon icon-moon-caret-down"></span>
+            </div>
+    
+                        <div class="cbs-logo-dropdown">
+                                    <ul class="nav-dropdown-col"><li class="nav-dropdown-item">
+                                    <span class="icon-sport icon-moon-cbs-icon"></span>
+                                    <a href="https://www.cbssports.com" om-event="Arena Nav|CollegeFootball|CollegeFootball|CBSSports">CBS Sports Home</a>
+                                </li>
+                            
+                            <li class="nav-dropdown-item ">
+                                                                                                    <span class="icon-sport icon-moon-arena-fantasy"></span>
+                                                                                                
+            <a href="/fantasy/" om-event="Arena Nav|CollegeFootball|CollegeFootball|Fantasy">
+            Fantasy
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                    <span class="icon-sport icon-moon-arena-nfl"></span>
+                                                                                                
+            <a href="/nfl/" om-event="Arena Nav|CollegeFootball|CollegeFootball|NFL">
+            NFL
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                    <span class="icon-sport icon-moon-arena-mlb"></span>
+                                                                                                
+            <a href="/mlb/" om-event="Arena Nav|CollegeFootball|CollegeFootball|MLB">
+            MLB
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item is-selected">
+                                                                                                    <span class="icon-sport icon-moon-arena-ncaafb"></span>
+                                                                                                
+            <a href="/college-football/" om-event="Arena Nav|CollegeFootball|CollegeFootball|NCAA FB">
+            NCAA FB
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                    <span class="icon-sport icon-moon-arena-golf"></span>
+                                                                                                
+            <a href="/golf/" om-event="Arena Nav|CollegeFootball|CollegeFootball|Golf">
+            Golf
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                    <span class="icon-sport icon-moon-arena-basketball"></span>
+                                                                                                
+            <a href="/nba/" om-event="Arena Nav|CollegeFootball|CollegeFootball|NBA">
+            NBA
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                    <span class="icon-sport icon-moon-arena-nhl"></span>
+                                                                                                
+            <a href="/nhl/" om-event="Arena Nav|CollegeFootball|CollegeFootball|NHL">
+            NHL
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                                            </ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item ">
+                                                                                                                                
+            <a href="/college-basketball/" om-event="Arena Nav|CollegeFootball|CollegeFootball|NCAA BB">
+            NCAA BB
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+            <a href="/boxing" om-event="Arena Nav|CollegeFootball|CollegeFootball|Boxing">
+            Boxing
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+            <a href="/wwe/" om-event="Arena Nav|CollegeFootball|CollegeFootball|WWE">
+            WWE
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+            <a href="/soccer/" om-event="Arena Nav|CollegeFootball|CollegeFootball|Soccer">
+            Soccer
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+            <a href="/mma/" om-event="Arena Nav|CollegeFootball|CollegeFootball|MMA">
+            MMA
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+            <a href="/tennis/" om-event="Arena Nav|CollegeFootball|CollegeFootball|Tennis">
+            Tennis
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+            <a href="/olympics/" om-event="Arena Nav|CollegeFootball|CollegeFootball|Olympics">
+            Olympics
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="http://www.maxpreps.com/national/national.htm" target="_blank" class="external-link" om-event="Arena Nav|CollegeFootball|CollegeFootball|High School">
+            High School 
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                                            </ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="http://sports.cbslocal.com/" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|CollegeFootball|CollegeFootball|CBS Local Sites">
+            CBS Local Sites 
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="http://www.nascar.com/en_us/sprint-cup-series.html?cid=syn_cbs_referrers_navlinks_01112013&amp;synid=syn_cbs_referrers_navlinks_01112013" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|CollegeFootball|CollegeFootball|NASCAR">
+            NASCAR 
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="https://www.americasbestracing.net/" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|CollegeFootball|CollegeFootball|Horse Racing">
+            Horse Racing 
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="http://www.pbr.com/" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|CollegeFootball|CollegeFootball|PBR">
+            PBR 
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="https://toughmudder.com/" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|CollegeFootball|CollegeFootball|Tough Mudder">
+            Tough Mudder 
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="http://www.bowl.com/" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|CollegeFootball|CollegeFootball|Bowling">
+            Bowling 
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="https://www.stubhub.com/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHomepagemodule-_-partCBSSports" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|CollegeFootball|CollegeFootball|Tickets">
+            Tickets 
+        </a>
+    
+                            </li>
+                                            </ul></div>
+        </div>
+    </div>
+</div>
+
+        
+        <nav class="site-nav-list"><ul><li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/college-football/" om-event="Arena Nav|CollegeFootball|Home">
+            Home
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/college-football/scoreboard/" om-event="Arena Nav|CollegeFootball|Scores">
+            Scores
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/collegefootball/rankings" om-event="Arena Nav|CollegeFootball|Rankings">
+            Rankings
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/collegefootball/standings" om-event="Arena Nav|CollegeFootball|Standings">
+            Standings
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/collegefootball/teams" om-event="Arena Nav|CollegeFootball|Teams">
+            Teams
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/collegefootball/stats" om-event="Arena Nav|CollegeFootball|Stats">
+            Stats
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/collegefootball/schedules" om-event="Arena Nav|CollegeFootball|Schedule">
+            Schedule
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/collegefootball/features/writers/expert/picks" om-event="Arena Nav|CollegeFootball|Expert Picks">
+            Expert Picks
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="http://www.sportsline.com/college-football/odds/" om-event="Arena Nav|CollegeFootball|Odds">
+            Odds
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/collegefootball/bowls/predictions" om-event="Arena Nav|CollegeFootball|Bowl Projections">
+            Bowl Projections
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/college-football/sec-live/" om-event="Arena Nav|CollegeFootball|SEC Live">
+            SEC Live
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/collegefootball/conferences/" om-event="Arena Nav|CollegeFootball|Conferences">
+            Conferences
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+                                    <a href="http://247sports.com/Season/2018-Football/CompositeRecruitRankings?InstitutionGroup=HighSchool" target="_blank" class="" om-event="Arena Nav|CollegeFootball|Top Recruits">
+            Top Recruits
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+                                    <a href="http://247sports.com/Season/2018-Football/CompositeTeamRankings" target="_blank" class="" om-event="Arena Nav|CollegeFootball|Top Classes">
+            Top Classes
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/podcasts/247sports-college-football/" om-event="Arena Nav|CollegeFootball|247Sports Podcast">
+            247Sports Podcast
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+                                    <a href="https://www.stubhub.com/ncaa-football-tickets/grouping/122/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHpdropdown-_-partCBSSports" target="_blank" rel="nofollow" class="" om-event="Arena Nav|CollegeFootball|Tickets">
+            Tickets
+        </a>
+    
+
+                                                                    </li>
+                
+                                                                        
+                    <li class="nav-list-item has-dropdown the-dots total-items-16">
+                        <span class="icon-more icon-moon-nav-more"></span>
+                        <ul class="site-nav-dropdown is-the-dots is-wide"><li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/college-football/" om-event="Arena Nav|CollegeFootball|More|Home">
+            Home
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/college-football/scoreboard/" om-event="Arena Nav|CollegeFootball|More|Scores">
+            Scores
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/collegefootball/rankings" om-event="Arena Nav|CollegeFootball|More|Rankings">
+            Rankings
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/collegefootball/standings" om-event="Arena Nav|CollegeFootball|More|Standings">
+            Standings
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/collegefootball/teams" om-event="Arena Nav|CollegeFootball|More|Teams">
+            Teams
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/collegefootball/stats" om-event="Arena Nav|CollegeFootball|More|Stats">
+            Stats
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/collegefootball/schedules" om-event="Arena Nav|CollegeFootball|More|Schedule">
+            Schedule
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/collegefootball/features/writers/expert/picks" om-event="Arena Nav|CollegeFootball|More|Expert Picks">
+            Expert Picks
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="http://www.sportsline.com/college-football/odds/" om-event="Arena Nav|CollegeFootball|More|Odds">
+            Odds
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/collegefootball/bowls/predictions" om-event="Arena Nav|CollegeFootball|More|Bowl Projections">
+            Bowl Projections
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/college-football/sec-live/" om-event="Arena Nav|CollegeFootball|More|SEC Live">
+            SEC Live
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/collegefootball/conferences/" om-event="Arena Nav|CollegeFootball|More|Conferences">
+            Conferences
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+                                    <a href="http://247sports.com/Season/2018-Football/CompositeRecruitRankings?InstitutionGroup=HighSchool" target="_blank" class="external-link" om-event="Arena Nav|CollegeFootball|More|Top Recruits">
+            Top Recruits 
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+                                    <a href="http://247sports.com/Season/2018-Football/CompositeTeamRankings" target="_blank" class="external-link" om-event="Arena Nav|CollegeFootball|More|Top Classes">
+            Top Classes 
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/podcasts/247sports-college-football/" om-event="Arena Nav|CollegeFootball|More|247Sports Podcast">
+            247Sports Podcast
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+                                    <a href="https://www.stubhub.com/ncaa-football-tickets/grouping/122/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHpdropdown-_-partCBSSports" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|CollegeFootball|More|Tickets">
+            Tickets 
+        </a>
+    
+                                </li>
+                                                    </ul></li>
+                            </ul></nav><div class="site-nav-side">
+    <ul class="site-nav-side-inner"><li class="nav-side-item games-item has-dropdown">
+                <span class="narrow-text">Play</span>
+                <span class="narrow-icon icon-item icon-moon-nav-games"></span>
+                                <div class="site-nav-dropdown is-dropdown-games align-right">
+                    <div class="nav-dropdown-inner">
+                                                    <div class="nav-dropdown-game">
+                                                                    <h6 class="nav-dropdown-title">
+                                                                                                                
+            <a href="/fantasy/games/football/?ttag=FFB16_os_drpdwn_feat_lk" om-event="Global Nav|CollegeFootball|Play|Games|Text">
+            Games
+        </a>
+    
+                                    </h6>
+                                                                                                    <div class="nav-game-wrap">
+                                                                                                                                                                            <div class="nav-game game-left">
+                                                <div class="nav-game-image">
+                                                    <a href="https://www.cbssports.com/fantasy/games/basketball/?ftag=SPM-10-10abh6c" om-event="Global Nav|CollegeFootball|Play|Fantasy basketball|Feature 1">
+                                                                    <figure class=" img"><img class=" is-lazy-image" alt="fantasybasketball-180x100.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/09/18/1b7c71c4-dc55-4636-a4b3-1dc245e2ea93/thumbnail/180x100/1aa2a90f45e39c3b9e26a4ff6ea20595/fantasybasketball-180x100.jpg" src="" height="100" width="180"></figure><p class="nav-game-text">
+                                                            Play Now
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <p class="nav-game-title">
+                                                                                    
+            <a href="/fantasy/games/basketball/?ftag=SPM-10-10abh6c" om-event="Global Nav|CollegeFootball|Play|Fantasy basketball|Feature 1">
+            FANTASY BASKETBALL
+        </a>
+    
+                                                </p>
+                                            </div>
+                                                                                                                                                                            <div class="nav-game game-right">
+                                                <div class="nav-game-image">
+                                                    <a href="https://www.cbssports.com/fantasy/games/hockey/?ftag=SPM-16-10abg0g" om-event="Global Nav|CollegeFootball|Play|Fantasy hockey|Feature 2">
+                                                                    <figure class=" img"><img class=" is-lazy-image" alt="180x100.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/09/18/7423042f-ba35-4a00-a58f-4334c8ae7b8f/thumbnail/180x100/5d3729819b4a693ac292aa8b7e7824ea/180x100.jpg" src="" height="100" width="180"></figure><p class="nav-game-text">
+                                                            Play Now
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <p class="nav-game-title">
+                                                                                    
+            <a href="/fantasy/games/hockey/?ftag=SPM-16-10abg0g" om-event="Global Nav|CollegeFootball|Play|Fantasy hockey|Feature 2">
+            FANTASY HOCKEY
+        </a>
+    
+                                                </p>
+                                            </div>
+                                                                            </div>
+                                                                                                                            </div>
+                                                    <div class="nav-dropdown-game">
+                                                                                                                                                                                                            <div class="nav-game-dropdown-text">
+                                                                                                                                
+            <a href="/fantasy/games/my-teams/" om-event="Global Nav|CollegeFootball|Play|View your leagues|Text">
+            View your Leagues
+        </a>
+    
+                                        </div>
+                                                                                                </div>
+                                                    <div class="nav-dropdown-game">
+                                                                    <h6 class="nav-dropdown-title">
+                                                                                                                
+            <a href="/fantasy/games/football?ttag=FF16_os_drpdwn_lk" om-event="Global Nav|CollegeFootball|Play|Fantasy football|Text">
+            Fantasy Football
+        </a>
+    
+                                    </h6>
+                                                                                                                                                            </div>
+                                                    <div class="nav-dropdown-game">
+                                                                    <h6 class="nav-dropdown-title">
+                                                                                                                
+            <a href="/fantasy/games/baseball/?ttag=FBB16_os_drpdwn_lk" om-event="Global Nav|CollegeFootball|Play|Fantasy baseball|Text">
+            Fantasy Baseball
+        </a>
+    
+                                    </h6>
+                                                                                                                                                            </div>
+                                                    <div class="nav-dropdown-game">
+                                                                    <h6 class="nav-dropdown-title">
+                                                                                                                
+            <a href="/fantasy/games/basketball/?ttag=FBK16_os_drpdwn_lk" om-event="Global Nav|CollegeFootball|Play|Fantasy basketball|Text">
+            Fantasy Basketball
+        </a>
+    
+                                    </h6>
+                                                                                                                                                            </div>
+                                                    <div class="nav-dropdown-game">
+                                                                    <h6 class="nav-dropdown-title">
+                                                                                                                
+            <a href="/fantasy/games/hockey/?ttag=FHK16_os_drpdwn_lk" om-event="Global Nav|CollegeFootball|Play|Fantasy hockey|Text">
+            Fantasy Hockey
+        </a>
+    
+                                    </h6>
+                                                                                                                                                            </div>
+                                            </div>
+                    <div class="nav-dropdown-bottom">
+                        <div class="nav-dropdown-button">
+                                                                                        
+            <a href="/fantasy/games/" om-event="Global Nav|CollegeFootball|Play|See All">
+            See All Sports Games
+        </a>
+    
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+                                <li class="nav-side-item watch-item has-dropdown">
+                <span class="narrow-text">Watch</span>
+                <span class="narrow-icon icon-item icon-moon-nav-watch"></span>
+                                <div class="site-nav-dropdown align-right">
+                    <div class="nav-dropdown-inner">
+                                                                                                                <h6 class="nav-dropdown-title">
+                                                                                                        
+            <a href="/watch/cbssportsnetwork/" om-event="Global Nav|CollegeFootball|Watch|Featured Video|Text">
+            Latest from CBS Sports Network
+        </a>
+    
+                                </h6>
+                                <div class="nav-dropdown-top">
+                                                                                                                            
+                                                                                                                        
+                
+            <a href="https://www.cbssports.com/watch/cbssportsnetwork/" class="" om-event="Global Nav|CollegeFootball|Watch|Featured Video|Image">
+            <div class="image-icon-overlay-wrap     ">
+                                                        <figure class=" img"><img class=" is-lazy-image" alt="sizzle-graphic.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/03/27/4a8a0cfb-8794-4c57-8cfd-53cc0ba8c2cd/thumbnail/270x152/9c9a1fc7cce2635410697bc3d20c71cc/sizzle-graphic.jpg" src="" height="152" width="270"></figure><div class="image-icon-overlay size-small type-video ">
+                </div>
+                            
+            
+                    </div>
+            </a>
+    
+             
+                                                                    </div>
+                                <ul><li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/watch/cbssportsnetwork/" om-event="Global Nav|CollegeFootball|Watch|Latest from CBS Sports Network">
+            Latest from CBS Sports Network
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/watch/cbssportsnetwork/" om-event="Global Nav|CollegeFootball|Watch|Watch CBS Sports Network">
+            Watch CBS Sports Network
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+                                    <a href="http://www.cbssportsnetwork.com/" target="_blank" rel="nofollow" class="external-link" om-event="Global Nav|CollegeFootball|Watch|CBSSN Channel Finder">
+            CBSSN Channel Finder 
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/cbssports" om-event="Global Nav|CollegeFootball|Watch|TV Shows &amp; Listings">
+            TV Shows &amp; Listings
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="https://www.cbs.com/all-access/live-tv/?ftag=AAM-00-10ade5c" om-event="Global Nav|CollegeFootball|Watch|NFL on All Access">
+            NFL on All Access
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/fantasy/football/show/fantasy-football-today/" om-event="Global Nav|CollegeFootball|Watch|Fantasy Football Today">
+            Fantasy Football Today
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/college-football/sec-live/" om-event="Global Nav|CollegeFootball|Watch|SEC Live">
+            SEC Live
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="http://www.collegesportslive.com/start/?ftag=CSL-01-10aaa6f" om-event="Global Nav|CollegeFootball|Watch|College Sports Live">
+            College Sports Live
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/general/video/show/the-score/" om-event="Global Nav|CollegeFootball|Watch|The Score">
+            The Score
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/video/player/247-sports-live" om-event="Global Nav|CollegeFootball|Watch|247Sports Live">
+            247Sports Live
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/general/show/reiters-block/" om-event="Global Nav|CollegeFootball|Watch|Reiter's Block">
+            Reiter's Block
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/general/video/show/minute-update/" om-event="Global Nav|CollegeFootball|Watch|Sports Minute">
+            Sports Minute
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/videos/" om-event="Global Nav|CollegeFootball|Watch|All Videos">
+            All Videos
+        </a>
+    
+                                </li>
+                                                                            </ul></div>
+                </div>
+            </li>
+        
+                                <li class="nav-side-item listen-item has-dropdown">
+                <span class="narrow-text">Listen</span>
+                <span class="narrow-icon icon-item icon-moon-nav-listen"></span>
+                                <div class="site-nav-dropdown align-right">
+                    <div class="nav-dropdown-inner">
+                                                                                                                                            <h6 class="nav-dropdown-title">
+                                    CBS Sports Radio
+                                </h6>
+                                <div class="nav-dropdown-top">
+                                                                            <div class="nav-dropdown-image">
+                                            <a href="http://radio.cbssports.com/" target="_blank" om-event="Global Nav|CollegeFootball|Listen|Featured Podcast|Image">
+                                                            <figure class=" img"><img class=" is-lazy-image" alt="cbssports-radio.png" data-lazy="https://sportshub.cbsistatic.com/i/r/2016/02/24/fb0619ed-f59a-47ac-ac37-d7f670af79f3/thumbnail/100x100/97e3cd55c0d67234988d134e0d362eeb/cbssports-radio.png" src="" height="100" width="100"></figure></a>
+                                        </div>
+                                                                        <div class="nav-dropdown-top-side">
+                                        <p class="nav-dropdown-top-title">
+                                                                                                                        
+                                    <a href="http://radio.cbssports.com/" target="_blank" class="external-link" om-event="Global Nav|CollegeFootball|Listen|Featured Podcast|Text">
+            Listen Live 
+        </a>
+    
+                                        </p>
+                                                                            </div>
+                                </div>
+                                                                                                                                                                                                        <h6 class="nav-dropdown-title">
+                                    Fantasy Football Today
+                                </h6>
+                                <div class="nav-dropdown-top">
+                                                                            <div class="nav-dropdown-image">
+                                            <a href="https://soundcloud.com/cbssportspodcasts/week-5-recap-backfield-battles" target="_blank" om-event="Global Nav|CollegeFootball|Listen|Featured Podcast|Image">
+                                                            <figure class=" img"><img class=" is-lazy-image" alt="podcast-fantasyfootball-logo.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/06/20/bea1c43d-f08f-480e-8ad9-e93ad015bcc1/thumbnail/100x100/c78f8ee89ba37f7d572069edbd2eb552/podcast-fantasyfootball-logo.jpg" src="" height="100" width="100"></figure></a>
+                                        </div>
+                                                                        <div class="nav-dropdown-top-side">
+                                        <p class="nav-dropdown-top-title">
+                                                                                                                        
+                                    <a href="https://soundcloud.com/cbssportspodcasts/week-5-recap-backfield-battles" target="_blank" rel="nofollow" class="external-link" om-event="Global Nav|CollegeFootball|Listen|Featured Podcast|Text">
+            Week 5 Recap - Backfield Battles 
+        </a>
+    
+                                        </p>
+                                                                                    <time class="nav-dropdown-top-date">
+                                                1d ago
+                                            </time></div>
+                                </div>
+                                                                    <ul><li class="nav-dropdown-item">
+                                                                                                        
+                                    <a href="http://sports.cbslocal.com/cbs-sports-radio-roundup/" target="_blank" rel="nofollow" class="external-link" om-event="Global Nav|CollegeFootball|Listen|CBS Sports Radio Roundup">
+            CBS Sports Radio Roundup 
+        </a>
+    
+                                </li>
+                                                                                                                                                                        <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/podcasts/jonah-keri/" om-event="Global Nav|CollegeFootball|Listen|The Jonah Keri Podcast">
+            The Jonah Keri Podcast
+        </a>
+    
+                                </li>
+                                                                                                                                                                        <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/podcast" om-event="Global Nav|CollegeFootball|Listen|Podcasts">
+            Podcasts
+        </a>
+    
+                                </li>
+                                                                                                                                                                        <li class="nav-dropdown-item">
+                                                                                                        
+                                    <a href="http://jimrome.com/" target="_blank" rel="nofollow" class="external-link" om-event="Global Nav|CollegeFootball|Listen|The Jim Rome Show">
+            The Jim Rome Show 
+        </a>
+    
+                                </li>
+                                                                            </ul></div>
+                </div>
+            </li>
+        
+                <li class="nav-side-item log-in-item">
+            <a href="https://www.cbssports.com/login?master_product=150&amp;xurl=https%3A%2F%2Fwww.cbssports.com%2Fcollege-football%2Fnews%2Flook-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m%2F" om-event="Global Nav|CollegeFootball|Log In">
+                <span class="the-button">Log In</span>
+            </a>
+        </li>
+
+                <li class="nav-side-item user-item has-dropdown">
+            <span class="the-button">
+                <span class="icon-item-button icon-moon-nav-avatar"></span>
+                <span class="icon-item-text">My Teams</span>
+            </span>
+
+                        <div class="site-nav-dropdown is-dropdown-user align-right">
+                <div id="nav-side-my-teams">
+                                            <div class="loader">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+                </div>
+                <div class="my-teams-component-bottom">
+                    <div class="bottom-row">
+                        <a href="/fantasy/games/my-teams/" om-event="Global Nav|CollegeFootball|Profile|Organize My Teams">Organize / See All Teams</a>
+                        <a href="http://cbsi.force.com/CBSi/cbssports" om-event="Global Nav|CollegeFootball|Profile|Help">Help</a>
+                    </div>
+                    <div class="bottom-row">
+                        <a href="https://www.cbssports.com/settings" om-event="Global Nav|CollegeFootball|Profile|Account Settings">Account Settings</a>
+                        <a href="https://www.cbssports.com/logout?end=https%3A%2F%2Fwww.cbssports.com%2Fcollege-football%2Fnews%2Flook-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m%2F" om-event="Global Nav|CollegeFootball|Profile|Sign Out">Log Out</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul></div>
+    </div>
+</div>
+</header><div class="page-marquee-container">
+                                </div>
+
+            <div id="mantle_skin" class="mantle-skin" data-component="adsSticky">
+                                                <span id="adSkinLeft" class="ad-skin-left"></span>
+                    <span id="adSkinRight" class="ad-skin-right"></span>
+                    <div id="skin-fed385aa4eaef" class="ad-skin " data-ad="skin">
+    <script>
+        window.console && console.log && console.log("ADS: queuing skin-fed385aa4eaef for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("skin-fed385aa4eaef");
+    </script></div>
+
+                
+    
+                
+                
+                            <div id="leader-top-wrap" class="leaderboard-wrap" data-component="adsLeaderboardCollapse">
+            <div id="leader-top-fed385aa4eaef" class="ad-leader-top " data-ad="leader-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-top-fed385aa4eaef for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-top-fed385aa4eaef");
+    </script></div>
+
+        </div>
+                    
+                <main id="page-content" class="highlander-page-container "><!--[if lt IE 10 ]> 
+                        <div class="upgrade-modal hide-upgrade" data-component='ieUpgradeMessage' > 
+                            <a class="icon-moon-close-x" id="close-upgrade-modal"></a>
+                            <div class="message">
+                                <strong>You are using an unsupported version of Internet Explorer.</strong><br/><br/>
+                                Your version of Internet Explorer is no longer supported by CBS Sports.<br/>
+                                Some features may not work correctly.<br/>
+                                Please upgrade to a modern browser:<br/><br/>
+                                <a href="http://windows.microsoft.com/en-US/internet-explorer/download-ie">1. Internet Explorer 11</a><br/>
+                                <a href="https://www.google.com/intl/en/chrome/browser/desktop/index.html">2. Google Chrome</a><br/>
+                                <a href="https://www.mozilla.org/en-US/firefox/new/">3. Firefox</a>
+                            </div>
+                        </div>
+                    <![endif]--><div class="reading-list-fixate hidden">
+
+	<div id="fantasy-reading-list" class="reading-list-wrapper" data-reading-list="wrapper" data-component="articleFixate" data-article-fixate-options='{"offset":{"top":60,"bottom":0},"guideTop":"#cbs-site-header"}'>
+
+        <div class="reading-list-label">Up next:</div>
+
+        <div class="reading-list">
+
+                                                                            
+                                <div class="item-wrapper" data-reading-list="container" data-component="articleReadingList">
+                                    <div class="item current" data-reading-list="item" section="ReadingList.1">
+
+                                                
+                        <a class="title" data-goto="e6d80e54-e1ba-4ef2-a333-b9d1f160986b" data-url="/college-football/news/look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m/">
+                            <div>
+                                <h5>LOOK: Florida will wear green uniforms for the first time ever vs. Texas A&amp;M</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                                                                        </div>
+                    </div>
+
+        <div class="reading-list-close"><div class="icon-moon-close-x"></div></div>
+
+    </div>
+</div>            <div id="reading-list-items-container" class="reading-list-container" data-container-asset-id="e6d80e54-e1ba-4ef2-a333-b9d1f160986b" data-teads-num="1">
+        
+                <div data-reading-list-item="e6d80e54-e1ba-4ef2-a333-b9d1f160986b" class="data-reading-list-item">
+                    <div class="fixate-top-anchor relative"></div>
+
+                    <div class="container article-content">
+                        <section id="content" class="row"><article itemscope itemtype="http://schema.org/Article" class="col-12"><meta itemprop="mainEntityOfPage" content="https://www.cbssports.com/college-football/news/look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m/"><meta itemprop="headline" content="LOOK: Florida will wear green uniforms for the first time ever vs. Texas A&amp;M"><meta itemprop="description" content="The alternate uniforms are Gator inspired from the naming of Ben Hill Griffin Stadium 'The Swamp'"><div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+    <meta itemprop="url" content="https://sportshub.cbsistatic.com/i/r/2017/10/10/06dcb31a-8d3c-4025-b31e-07e5828abae6/thumbnail/770x433/b3b271cc37ed9e46e5e9cc9f947b0f38/fla2.jpg"><meta itemprop="width" content="433"><meta itemprop="height" content="770"></div>
+<meta itemprop="keywords" content="College Football"><meta itemprop="url" content="https://www.cbssports.com/college-football/news/look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m/"><meta itemprop="datePublished" content="2017-10-10 00:38:36"><meta itemprop="thumbnailUrl" content="https://sportshub.cbsistatic.com/i/r/2017/10/10/06dcb31a-8d3c-4025-b31e-07e5828abae6/thumbnail/770x433/b3b271cc37ed9e46e5e9cc9f947b0f38/fla2.jpg"><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+    <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url" content="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/core/cbssports-logo-60x289.png"><meta itemprop="width" content="289"><meta itemprop="height" content="60"></div>
+    <meta itemprop="name" content="CBS Sports"></div>
+                                <div class="row">
+                                    
+                                                                            <div class="article-head">
+                                            <h1 class="article-headline">LOOK: Florida will wear green uniforms for the first time ever vs. Texas A&amp;M</h1>
+                                                                                            <h2 class="article-subline">The alternate uniforms are Gator inspired from the naming of Ben Hill Griffin Stadium 'The Swamp'</h2>
+                                                                                                                                        
+
+
+    <ul class="article-author row" itemscope itemtype="http://schema.org/Person" itemprop="author" section="author"><li class="headshot"> 
+                                                    <a href="/writers/ben-kercheval/" rel="author">
+                                            <figure class=" img"><img class=" is-lazy-image" alt="    Ben Kercheval
+ mugshot" data-lazy="https://sportshub.cbsistatic.com/i/r/2016/05/17/a7d6c2a4-806e-423a-85fb-73cb33f3e884/thumbnail/70x70/4bb3add3935d8fbc286f41fb85531aec/benkercheval.png" src="" height="70" width="70"></figure></a>
+                                            </li>
+                                    
+                                                <li class="author-name article-byline-last-author">
+                                            by
+                     
+                    <span itemprop="name">
+                        <a rel="author" href="/writers/ben-kercheval/">
+                            Ben Kercheval
+                        </a>
+                    </span>
+                </li>
+            
+                            <li class="twitter-handle">
+                                    <a href="https://twitter.com/intent/user/?screen_name=BenKercheval" target="_blank">
+            <span class="twitter">
+                @BenKercheval
+            </span>
+        </a>
+    
+                </li>
+            
+                    
+        <li class="date-published">
+                                                                   
+            <span class="date-original-reading-time">
+                <time datetime="2017-10-10 00:38:36 UTC">9h ago</time>
+                                • 1 min read
+            </span>
+                    </li><li>
+    </li></ul></div>
+                                                                    </div>
+
+                                    <div class="container">
+        <div class="row">
+                                    <div class="row">
+                <div class="col-12">
+                                                            </div>
+                    </div>
+                                    <div class="row">
+                <div class="col-12">
+                                                            <div class="row">
+                                                            <div class="row">
+                <div class="col-12">
+                                                            <div class="row">
+                                                        <div class="col-8">
+                                                                                    <div class="row">
+                <div class="col-8">
+                                
+            
+                    
+    
+                                                </div>
+                    </div>
+                                    <div class="row">
+                <div class="col-8">
+                                                            <div class="row">
+                                                        <div class="col-1">
+                                
+            
+                    
+
+        
+    
+
+
+
+
+    
+
+            <div class="fixation sharebar-fixate" id="fantasy-article-sharebar-component" data-component="articleFixate" data-article-fixate-options='{"offset":{"top":110,"bottom":0},"guideTop":"div[data-reading-list-item=e6d80e54-e1ba-4ef2-a333-b9d1f160986b] .fixate-sharebar-top-anchor","guideBottom":"div[data-reading-list-item=e6d80e54-e1ba-4ef2-a333-b9d1f160986b] .fixate-sharebar-bottom-anchor","customParentClass":"sharebar-fixate-col"}'>
+                            <ul class="share-wrapper side is-vertical" data-component="sharebar" data-sharebar-options='{"articleId":"e6d80e54-e1ba-4ef2-a333-b9d1f160986b","contentType":"article-share","description":"The alternate uniforms are Gator inspired from the naming of Ben Hill Griffin Stadium \u0027The Swamp\u0027","title":"LOOK: Florida will wear green uniforms for the first time ever vs. Texas A&amp;M","rawTitle":"","url":"https:\/\/www.cbssports.com\/college-football\/news\/look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m\/","via":"CBSSports","viewPanel":"","buttonsArray":["facebook","twitter","flipboard","email"]}'><li>
+                                            
+    
+    <span data-popup="facebook" class="button-share icon-moon-facebook" aria-label="Facebook" title="Facebook" om-event="Share Bar|Facebook"></span>
+
+                        </li><li>
+                                            
+    
+    <span data-popup="twitter" class="button-share icon-moon-twitter" aria-label="Twitter" title="Twitter" om-event="Share Bar|Twitter"></span>
+
+                        </li><li>
+                                            
+    
+    <span data-popup="flipboard" class="button-share icon-moon-flipboard" aria-label="Flipboard" title="Flipboard" om-event="Share Bar|Flipboard"></span>
+
+                        </li><li>
+                                            
+                        
+    <span data-popup="email" class="button-share icon-moon-envelope" aria-label="Email" title="Email" om-event="Share Bar|Email"></span>
+
+                        </li>                </ul></div>
+                                            </div>
+                                <div class="col-7">
+                                                                                    <div class="row">
+                <div class="col-7">
+                                
+            
+                        
+
+<div class="fixate-sharebar-top-anchor relative"></div>
+
+<div id="article-main-body" class="article article-main-body module" itemprop="articleBody" data-article-dynamic-ads-options='{"adUnitName":"native_story_inc","adContainerDivId":"#native-story-ad-"}' data-component='["warEnabler","articleDynamicAds"]'>
+
+    
+    <div class="row" data-use-autolinker="true">
+        
+        
+                            
+                
+        <div id="embedVideoContainer_275108006914" class="embedVideo embed-video-player  enable-watch-and-read">
+        <iframe id="embedVideo_275108006914" class="" src="https://www.cbssports.com/video/player/embed?args=player_id%3D275108006914%26channel%3Dcollegefootball%26pcid%3D1066476611515%26width%3D640%26height%3D360%26autoplay%3Dtrue%26comp_ads_enabled%3Dfalse%26lazy_load%3Dfalse%26resizable%3Dtrue%26domain%3Dcbssports.com%26watchAndRead%3D1%26css%3Dcss%252Fmedia%252Fvideo%252Fplayer%252Fembed%252Fhighlander-min.css%26war_w%3D432%26war_h%3D243%26js%3D" width="640" height="360" name="embedVideo_275108006914" marginwidth="0" marginheight="0" allowtransparency="true" allowfullscreen="true" scrolling="no" frameborder="0"></iframe>
+    </div><p><a href="/collegefootball/teams/page/FLA/florida-gators">Florida</a> will do something it's never done before in Saturday's game against <a href="/collegefootball/teams/page/TXAM/texas-aandm-aggies">Texas A&amp;amp;M</a>: It will take the field wearing a base layer uniform that's not blue, orange or white. It will also have the gator head logo on its helmet for the first time. </p><p>"The Swamp" was named by former coach Steve Spurrier. </p><p>"'The Swamp' is a place where only Gators get out alive," Spurrier said. "We feel comfortable there, but we hope our opponents feel tentative. A swamp is hot and sticky and can be dangerous. We feel this is an appropriate nickname for our stadium."  </p><p>Per a school release, Florida will wear these alternate uniforms inspired by the 25-year anniversary that Ben Hill Griffin Stadium became "The Swamp." </p><div id="native-story-ad-0">
+	<div id="native-story-top-fed385aa4eaef" class="ad-native-story-top " data-ad="native-story-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing native-story-top-fed385aa4eaef for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("native-story-top-fed385aa4eaef");
+    </script></div>
+</div><figure class="image-embed pull-none image-large"><span><div class="placeholder" data-large="https://sportshub.cbsistatic.com/i/r/2017/10/10/e224fd14-204e-48dd-a917-d36a1fa76962/thumbnail/670x377/378958c7d8915158a691592c69de7ded/fla1.jpg"><img class="high-res is-lazy-image" alt="fla1.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/10/10/e224fd14-204e-48dd-a917-d36a1fa76962/resize/670x377/71de2492a5e8a29306b76db145875e8c/fla1.jpg" src="" height="377" width="670"></div></span><figcaption class="image-embed-figcaption"><span class="image-embed-credit">
+                                                            Florida Athletics
+                                                    </span></figcaption></figure><figure class="image-embed pull-none image-large"><span><div class="placeholder" data-large="https://sportshub.cbsistatic.com/i/r/2017/10/10/7997eded-3840-4af6-8caa-fe0c58b38722/thumbnail/670x377/61c1fb263374161d4fab3110543020e8/fla2.jpg"><img class="high-res is-lazy-image" alt="fla2.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/10/10/7997eded-3840-4af6-8caa-fe0c58b38722/resize/670x377/641618b4e447fbc0fce6fa053f331694/fla2.jpg" src="" height="377" width="670"></div></span><figcaption class="image-embed-figcaption"><span class="image-embed-credit">
+                                                            Florida Athletics
+                                                    </span></figcaption></figure><figure class="image-embed pull-none image-large"><span><div class="placeholder" data-large="https://sportshub.cbsistatic.com/i/r/2017/10/10/02048417-a6bc-4cd3-b78f-d2c9e0ede546/thumbnail/670x377/42eccdb05fdd17ec2feda0ec00eb7637/fla3.jpg"><img class="high-res is-lazy-image" alt="fla3.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/10/10/02048417-a6bc-4cd3-b78f-d2c9e0ede546/resize/670x377/fc8d3a9ca2460f2cdde4d569f9f417bd/fla3.jpg" src="" height="377" width="670"></div></span><figcaption class="image-embed-figcaption"><span class="image-embed-credit">
+                                                            Florida Athletics
+                                                    </span></figcaption></figure><figure class="image-embed pull-none image-large"><span><div class="placeholder" data-large="https://sportshub.cbsistatic.com/i/r/2017/10/10/9eb84f1b-a13c-4afa-8f12-411b99478f0a/thumbnail/670x377/916d6fdaba094350a3125f9dc480cb87/fla4.jpg"><img class="high-res is-lazy-image" alt="fla4.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/10/10/9eb84f1b-a13c-4afa-8f12-411b99478f0a/resize/670x377/155fab0d22d07736b66039b0ea649e27/fla4.jpg" src="" height="377" width="670"></div></span><figcaption class="image-embed-figcaption"><span class="image-embed-credit">
+                                                            Florida Athletics
+                                                    </span></figcaption></figure><p>Per the release, the Gators will sport a "swamp green" helmet with the gator head logo. The swamp green jersey and pants feature tonal gator print and the gator logo, respectively. Additionally, the gloves and cleats to round out the uniform are custom for the game. </p>
+
+            </div>
+
+    
+</div>
+
+    
+<div class="author-bio-box">
+    <div class="author-bio-box-info">
+                                    <a class="author-bio-box-image" href="/writers/ben-kercheval/" itemprop="name" rel="author">
+                                <figure class=" img"><img class=" is-lazy-image" alt="    Ben Kercheval
+ mugshot" data-lazy="https://sportshub.cbsistatic.com/i/r/2016/05/17/a7d6c2a4-806e-423a-85fb-73cb33f3e884/thumbnail/170x170/6aff2a0350e56f42e03dfb11d3bb7786/benkercheval.png" src="" height="170" width="170"></figure></a>
+                            <div class="author-bio-box-profile">
+            <span class="author-bio-box-name">
+                                    <a href="/writers/ben-kercheval/" itemprop="name" rel="author"><strong>    Ben Kercheval
+</strong></a>
+                            </span>
+            <div class="author-bio-box-subline">
+                CBS Sports Writer
+            </div>
+        </div>
+    </div>
+            <a href="https://twitter.com/intent/user/?screen_name=BenKercheval" target="_blank"><span class="twitter-follow-capsule">follow</span></a>
+    
+    <div class="author-bio-box-dek">
+        <p>
+            Ben Kercheval joined CBS Sports in 2016 and has been covering college football since 2010. Before CBS, Ben worked at Bleacher Report, UPROXX Sports and NBC Sports. As a long-suffering North Texas graduate,...
+                            <a href="/writers/ben-kercheval/bio/" target="_blank">
+                    Full Bio
+                </a>
+                    </p>
+    </div>
+</div>
+                
+            
+                    
+
+    
+            
+        
+                        <div class="collapsible disqus-wrapper module" data-component="disqusComment" data-disqus-comment-options='{"toggleComment":true,"elementId":"disqusConversation-e6d80e54-e1ba-4ef2-a333-b9d1f160986b","articleId":"e6d80e54-e1ba-4ef2-a333-b9d1f160986b","title":"LOOK: Florida will wear green uniforms for the first time ever vs. Texas A&amp;M","url":"https:\/\/www.cbssports.com\/college-football\/news\/look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m\/","contextId":"e6d80e54-e1ba-4ef2-a333-b9d1f160986b"}'>
+    
+<!-- General comments -->
+<div id="article-comment" data-component="disqusComment">
+    <button id="show-article-comment-e6d80e54-e1ba-4ef2-a333-b9d1f160986b" class="disqus-toggle-button" type="button">
+        <span class="disqus-comment-count" data-disqus-identifier="e6d80e54-e1ba-4ef2-a333-b9d1f160986b">
+            Add a Comment
+        </span>
+    </button>
+
+    <div id="disqus-container-e6d80e54-e1ba-4ef2-a333-b9d1f160986b" class="disqusContainer comment" style="display:none;">
+        <div class="comment-heading-section">
+            <h4 class="comment-heading">Add a Comment</h4>
+            <div id="close-x-comment-e6d80e54-e1ba-4ef2-a333-b9d1f160986b" class="icon-moon-close-x"></div>
+        </div>
+        <div id="disqus_thread"></div>
+    </div>
+</div>
+    <div class="toggleComments" data-item="trigger">
+        <span class="show-comments">Show Comments</span>
+        <span class="hide-comments">Hide Comments</span>
+    </div>
+</div>    
+    <div class="fixate-sharebar-bottom-anchor relative"></div>
+    <div class="fixate-mpu-top-bottom-anchor relative"></div>
+    <div class="fixate-follow-us-bottom-anchor relative"></div>
+                                            </div>
+                    </div>
+                                    <div class="row">
+                <div class="col-7">
+                                                            </div>
+                    </div>
+                                                </div>
+                                                </div>
+                                    </div>
+                    </div>
+                                                </div>
+                                <div class="col-4">
+                                
+            
+                    
+
+                    <div id="mpu-plus-top-fed385aa4eaef" class="ad-mpu-plus-top " data-ad="mpu-plus-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-plus-top-fed385aa4eaef for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-plus-top-fed385aa4eaef");
+    </script></div>
+                    
+            
+                    
+
+                    <div id="mpu-middle-fed385aa4eaef" class="ad-mpu-middle " data-ad="mpu-middle">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-middle-fed385aa4eaef for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-middle-fed385aa4eaef");
+    </script></div>
+                    
+            
+                    
+    
+                                            </div>
+                                                </div>
+                                    </div>
+                    </div>
+                                    <div class="row">
+                <div class="col-12">
+                                
+            
+                    
+                            
+    
+            <script type="text/javascript">
+            window.SportsPageVars.tracking.taboolaPlacement = "desktop-5x1-article";
+        </script><div class="recommended-recirc taboola-recommends">
+            
+                                    
+    <div class="title-double-underline recommended-title taboola-title is-small">
+        <span class="title-text">
+            Around the Web
+        </span>
+        
+                
+                    <span class="title-text-side">
+                <a href="https://popup.taboola.com/en/" target="_blank" rel="nofollow">Promoted by Taboola<span class="recirc-ad-icon"></span></a>
+            </span>
+            </div>
+
+
+            <div id="taboola-look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m-bottom-page-thumbnails" data-taboola='{"mode":"alternating-thumbnails-L","container":"taboola-look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m-bottom-page-thumbnails","placement":"desktop-5x1-article","canonicalUrl":"https:\/\/www.cbssports.com\/college-football\/news\/look-florida-will-wear-green-uniforms-for-the-first-time-ever-vs-texas-a-m\/"}'>
+            </div>
+        </div>
+                    
+            
+                                    
+    
+            <div class="latest-news-box">
+                                    
+    <div class="title-double-underline latest-news-box-title is-small">
+        <span class="title-text">
+            Our Latest Stories
+        </span>
+        
+                
+            </div>
+
+
+                                                                <ul class="latest-news-box-row"><li class="col-4">
+                                                                                
+                                                        
+                
+            <a href="/college-football/news/alabama-clemson-iii-theres-a-wild-ride-ahead-so-dont-assume-thats-a-lock/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="usatsi-9052767-220956-lowres.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/10/09/2ee72619-4ecd-41a4-b6c6-5aacf490c1dc/thumbnail/368x210/707b348544454ad2c1caea4356edb594/usatsi-9052767-220956-lowres.jpg" src="" height="210" width="368"></figure></a>
+    
+                        <div class="latest-box-item-headlines">
+                            <h3 class="latest-box-item-title">
+                                <a href="/college-football/news/alabama-clemson-iii-theres-a-wild-ride-ahead-so-dont-assume-thats-a-lock/">
+                                    Don't be blinded by Alabama-Clemson III
+                                </a>
+                            </h3>
+                                                            <h4 class="latest-box-item-subline">Sure, an Alabama vs. Clemson rubber match would be great, but so would a number of other s...</h4>
+                                                    </div>
+                    </li>
+                                                                                                                <li class="col-4">
+                                                                                
+                                                        
+                
+            <a href="/college-football/news/brady-quinn-breaks-down-his-top-heisman-trophy-candidates-after-week-6/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="bryce-love-stanford.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/09/08/b6ead407-8f57-4b89-97c5-c5734d5fe20d/thumbnail/368x210/e261e87581dc3ab3b84916d9db9b5038/bryce-love-stanford.jpg" src="" height="210" width="368"></figure></a>
+    
+                        <div class="latest-box-item-headlines">
+                            <h3 class="latest-box-item-title">
+                                <a href="/college-football/news/brady-quinn-breaks-down-his-top-heisman-trophy-candidates-after-week-6/">
+                                    Brady Quinn's early Heisman candidates
+                                </a>
+                            </h3>
+                                                            <h4 class="latest-box-item-subline">You may find one surprise name on this list out of the Big Ten</h4>
+                                                    </div>
+                    </li>
+                                                                                                                <li class="col-4">
+                                                                                
+                                                        
+                
+            <a href="/college-football/news/look-lane-kiffin-trolls-nick-saban-alabama-over-rat-poison-comment/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="usatsi-10252522-220956-lowres.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/10/09/e0f84724-1861-4e04-a3bc-2f4a1d551316/thumbnail/368x210/735482953e9a0263592b22d1c42d0afb/usatsi-10252522-220956-lowres.jpg" src="" height="210" width="368"></figure></a>
+    
+                        <div class="latest-box-item-headlines">
+                            <h3 class="latest-box-item-title">
+                                <a href="/college-football/news/look-lane-kiffin-trolls-nick-saban-alabama-over-rat-poison-comment/">
+                                    Kiffin trolls Saban's rat poison quote
+                                </a>
+                            </h3>
+                                                            <h4 class="latest-box-item-subline">Twitter Kiffin remains the best Kiffin for the rest of the world</h4>
+                                                    </div>
+                    </li>
+                                                    </ul><ul class="latest-news-box-row"><li class="col-4">
+                                                                                
+                                                        
+                
+            <a href="/college-football/news/michigan-qb-wilton-speight-out-multiple-weeks-with-cracked-vertebrae/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="wilton-speight.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2016/11/26/370c233e-be0a-4c1b-9203-b4fc7e7be53f/thumbnail/368x210/29be7774a7d3c6ac484d66b86a1fb29c/wilton-speight.jpg" src="" height="210" width="368"></figure></a>
+    
+                        <div class="latest-box-item-headlines">
+                            <h3 class="latest-box-item-title">
+                                <a href="/college-football/news/michigan-qb-wilton-speight-out-multiple-weeks-with-cracked-vertebrae/">
+                                    Michigan QB likely out multiple weeks
+                                </a>
+                            </h3>
+                                                            <h4 class="latest-box-item-subline">Speight sustained his injury against Purdue in September</h4>
+                                                    </div>
+                    </li>
+                                                                                                                <li class="col-4">
+                                                                                
+                                                        
+                
+            <a href="/college-football/news/college-football-power-rankings-clemson-hangs-at-no-1-miami-makes-a-jump/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="clemson.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/10/07/ab492fec-80bf-454e-a5b9-c09581a1b2d4/thumbnail/368x210/01413278b1f06c0d84b02f6d978b84ee/clemson.jpg" src="" height="210" width="368"></figure></a>
+    
+                        <div class="latest-box-item-headlines">
+                            <h3 class="latest-box-item-title">
+                                <a href="/college-football/news/college-football-power-rankings-clemson-hangs-at-no-1-miami-makes-a-jump/">
+                                    Power Rankings: Clemson holds at No. 1
+                                </a>
+                            </h3>
+                                                            <h4 class="latest-box-item-subline">The Tigers and Hurricanes are two of four ACC teams in this week's rankings</h4>
+                                                    </div>
+                    </li>
+                                                                                                                <li class="col-4">
+                                                                                
+                                                        
+                
+            <a href="/college-football/news/oregon-state-parts-ways-with-coach-gary-andersen-cory-hall-takes-interim-role/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="NCAA Football: Oregon State at Southern California" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/10/09/54cef619-babb-42a8-9da6-5f7de3112e04/thumbnail/368x210/5056a08c07c4ad8b9fff3dfd6dcab022/usatsi-10332824.jpg" src="" height="210" width="368"></figure></a>
+    
+                        <div class="latest-box-item-headlines">
+                            <h3 class="latest-box-item-title">
+                                <a href="/college-football/news/oregon-state-parts-ways-with-coach-gary-andersen-cory-hall-takes-interim-role/">
+                                    Gary Andersen, Oregon State part ways
+                                </a>
+                            </h3>
+                                                            <h4 class="latest-box-item-subline">The Beavers are off to a 1-5 start this season and have been outscored 180-54 since Sept....</h4>
+                                                    </div>
+                    </li>
+                                                    </ul></div>
+                    
+            
+                    
+
+                    <div id="leader-bottom-fed385aa4eaef" class="ad-leader-bottom " data-ad="leader-bottom">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-bottom-fed385aa4eaef for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-bottom-fed385aa4eaef");
+    </script></div>
+                                                </div>
+                    </div>
+                                                </div>
+                                    </div>
+                    </div>
+                    </div>
+    </div>
+
+
+                            </article></section></div>
+                </div>
+            </div>
+                        </main></div>
+
+                            
+
+<footer id="cbs-site-footer" class="cbs-site-footer"><div class="site-footer-row">
+        <div class="site-footer-branding">
+            <span class="site-footer-logo" tabindex="0" role="img" aria-label="CBS Sports Digital" title="CBS Sports Digital"></span>
+        </div>
+    </div>
+
+    <div class="site-footer-row">
+        
+
+<ul class="social-icons-bar"><li><a href="https://www.facebook.com/cbssports/" class="button-social icon-moon-facebook" target="_blank" rel="nofollow" aria-label="Facebook" title="Facebook" om-event="Global Footer|Facebook"></a></li><li><a href="https://twitter.com/cbssports/" class="button-social icon-moon-twitter" target="_blank" rel="nofollow" aria-label="Twitter" title="Twitter" om-event="Global Footer|Twitter"></a></li><li><a href="https://plus.google.com/+CBSSportscom/posts/" class="button-social icon-moon-google-plus2" target="_blank" rel="nofollow" aria-label="Google+" title="Google+" om-event="Global Footer|Google+"></a></li><li><a href="https://www.youtube.com/user/cbssports/" class="button-social icon-moon-youtube-play" target="_blank" rel="nofollow" aria-label="YouTube" title="YouTube" om-event="Global Footer|YouTube"></a></li><li><a href="https://instagram.com/cbssports/" class="button-social icon-moon-instagram" target="_blank" rel="nofollow" aria-label="Instagram" title="Instagram" om-event="Global Footer|Instagram"></a></li><li><a href="https://www.pinterest.com/cbssports/" class="button-social icon-moon-pinterest" target="_blank" rel="nofollow" aria-label="Pinterest" title="Pinterest" om-event="Global Footer|Pinterest"></a></li><li><a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" class="button-social icon-moon-flipboard" target="_blank" rel="nofollow" aria-label="Flipboard" title="Flipboard" om-event="Global Footer|Flipboard"></a></li></ul></div>
+    
+            <div class="site-footer-row">
+            <ul class="site-footer-links"><li>
+                            <a href="https://www.cbssports.com/help" target="_blank" title="Help" om-event="Global Footer|Help">Help</a>
+                        </li>
+                                                                                <li>
+                            <a href="https://www.cbssports.com/info/aboutus" target="_blank" title="About Us" om-event="Global Footer|About Us">About Us</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://www.cbsinteractive.com/careers" target="_blank" title="Careers" om-event="Global Footer|Careers">Careers</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://www.cbsinteractive.com/advertise/" target="_blank" title="Advertise" om-event="Global Footer|Advertise">Advertise</a>
+                        </li>
+                                                                                <li>
+                            <a href="https://www.cbssports.com/sitemap" target="_blank" title="Site Map" om-event="Global Footer|Site Map">Site Map</a>
+                        </li>
+                                                                                <li>
+                            <a href="https://www.cbssports.com/settings/newsletters" target="_blank" title="Newsletters" om-event="Global Footer|Newsletters">Newsletters</a>
+                        </li>
+                                                                                <li>
+                            <a href="https://www.cbssports.com/mobile" target="_blank" title="Mobile Apps" om-event="Global Footer|Mobile Apps">Mobile Apps</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://collegenetwork.cbssports.com/" target="_blank" title="College Network" om-event="Global Footer|College Network">College Network</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://legalterms.cbsinteractive.com/adchoice" target="_blank" title="Ad Choice" om-event="Global Footer|Ad Choice">Ad Choice</a>
+                        </li>
+                                                                                <li>
+                            <a href="https://www.cbssports.com/info/closed-caption" target="_blank" title="Closed Captioning" om-event="Global Footer|Closed Captioning">Closed Captioning</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://legalterms.cbsinteractive.com/privacy" target="_blank" title="Privacy" om-event="Global Footer|Privacy">Privacy</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://legalterms.cbsinteractive.com/terms-of-use" target="_blank" title="Terms" om-event="Global Footer|Terms">Terms</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://legalterms.cbsinteractive.com/eula" target="_blank" title="Mobile User Agreement" om-event="Global Footer|Mobile User Agreement">Mobile User Agreement</a>
+                        </li>
+                                                </ul></div>
+    
+    <div class="site-footer-row">
+        <div class="site-footer-partners">
+            <div class="site-footer-button button1" tabindex="0" role="img" aria-label="Commissioner.com" title="Commissioner.com"></div>
+            <div class="site-footer-button button2" tabindex="0" role="img" aria-label="Commissioner.com" title="Commissioner.com"></div>
+            <div class="site-footer-button button3" tabindex="0" role="img" aria-label="Golfweb.com" title="Golfweb.com"></div>
+        </div>
+    </div>
+
+    <div class="site-footer-copyright">
+        <p class="site-footer-dates">© 2004-2017 CBS Interactive. All Rights Reserved.</p>
+        <p>CBS Sports is a registered trademark of CBS Broadcasting Inc. Commissioner.com is a registered trademark of CBS Interactive Inc.</p>
+        <p>Images by Getty Images and US Presswire</p>
+    </div>
+
+    </footer></div>
+
+    <div id="sticky-leaderboard" class="sticky-leaderboard">
+    <div class="sticky-leaderboard-unit">
+        <div id="nflnetwork-bar-top-fed385aa4eaef" class="ad-nflnetwork-bar-top " data-ad="nflnetwork-bar-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing nflnetwork-bar-top-fed385aa4eaef for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("nflnetwork-bar-top-fed385aa4eaef");
+    </script></div>
+
+    </div>
+</div>
+    
+
+    
+
+
+                                                                                                                                                                                                                    
+            
+
+
+
+
+
+    <script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery" src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediajs/js-build/jquery.js">
+    </script><script async type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="main.desktop" src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediajs/js-build/main.desktop.js">
+    </script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0710d28d2a","applicationID":"8008619","transactionName":"MgEHZ0ICW0JZUBYMDgtLJFBEClpfF1IQEQgGCABsQwpbVlRWTBAS","queueTime":0,"applicationTime":945,"atts":"HkYEEQoYSEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+    <head >
+        <link href='//fonts.googleapis.com/css?family=Roboto:300,700,400|Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+        <link rel="apple-touch-icon" href="https://cbsn1.cbsistatic.com/images/ios-bookmark-64.jpg" />
+        <link rel="apple-touch-icon" sizes="64x64" href="https://cbsn1.cbsistatic.com/images/ios-bookmark-64.jpg" />
+        <link rel="apple-touch-icon" sizes="114x114" href="https://cbsn1.cbsistatic.com/images/ios-bookmark-114.jpg" />
+        <meta name="apple-mobile-web-app-title" content="CBSN">
+
+        <title>Tuesday's Top Headlines - CBSN Live Video - CBS News</title>
+
+        <meta name="description" content="Watch &quot;Tuesday's Top Headlines&quot;, a CBSN video on CBSNews.com. View more CBSN videos and watch CBSN, a live news stream featuring original CBS News reporting.">
+        <meta name="keywords" content="CBSN, live news, live video, live video news, live breaking news, live national news, live u.s. news, live world news, live entertainment news, live political news, live business news, live health news, live technology news, cbs news, cbsnews.com">
+        <link rel="canonical" href="https://www.cbsnews.com/live/">
+        <link rel="amphtml" href="https://www.cbsnews.com/amp/live/">        <link rel="alternate" href="android-app://com.treemolabs.apps.cbsnews/https://www.cbsnews.com/live/">
+
+        <meta property="og:type" content="video"/>
+        <meta property="og:title" content="Tuesday's Top Headlines - CBSN Live Video - CBS News"/>
+        <meta property="og:url" content="https://www.cbsnews.com/live/"/>
+        <meta property="og:image" content="https://cbsnews2.cbsistatic.com/hub/i/2015/02/09/bb9b2060-bfbe-43d2-8878-0a154eac7a27/cbsn-generic.jpg"/>
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Tuesday's Top Headlines - CBSN Live Video - CBS News">
+        <meta name="twitter:url" content="https://www.cbsnews.com/live/">
+        <meta name="twitter:image" content="https://cbsnews2.cbsistatic.com/hub/i/2015/02/09/bb9b2060-bfbe-43d2-8878-0a154eac7a27/cbsn-generic.jpg">
+
+        <!--[if lt IE 9]>
+            <meta http-equiv="refresh" content="0; url=/error/browser/" />
+        <![endif]-->
+        
+
+        <link href="https://cbsn1.cbsistatic.com/styles/screen.css?v=659465893f4b667d4321131198802eb71fc93543" media="all" rel="stylesheet" type="text/css" />
+        <link href="https://cbsn1.cbsistatic.com/styles/print.css?v=659465893f4b667d4321131198802eb71fc93543" media="print" rel="stylesheet" type="text/css" />
+        <!--[if IE]>
+            <link href="https://cbsn2.cbsistatic.com/styles/ie.css?v=659465893f4b667d4321131198802eb71fc93543" media="all" rel="stylesheet" type="text/css" />
+        <![endif]-->
+
+
+        <script type="text/javascript" src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+        <script type="text/javascript" src="//vidtech.cbsinteractive.com/uvpjs/2.6.1/CBSI-PLAYER.js"></script>
+        <script type="text/javascript" src="https://cbsn1.cbsistatic.com/scripts/libs/jquery.min.js?v=659465893f4b667d4321131198802eb71fc93543"></script>
+        <script type="text/javascript" src="https://cbsn2.cbsistatic.com/scripts/libs/jquery-ui.min.js?v=659465893f4b667d4321131198802eb71fc93543"></script>
+        <script type="text/javascript" src="https://cbsn1.cbsistatic.com/scripts/libs/jquery.nanoscroller.min.js?v=659465893f4b667d4321131198802eb71fc93543"></script>
+        <script type="text/javascript" src="https://cbsn2.cbsistatic.com/scripts/libs/guid.js?v=659465893f4b667d4321131198802eb71fc93543"></script>
+        <script type="text/javascript" src="https://cbsn2.cbsistatic.com/scripts/Mode.js?v=659465893f4b667d4321131198802eb71fc93543"></script>
+        <script type="text/javascript" src="https://cbsn2.cbsistatic.com/scripts/MetadataManager.js?v=659465893f4b667d4321131198802eb71fc93543"></script>
+        <script type="text/javascript" src="https://cbsn1.cbsistatic.com/scripts/RundownManager.js?v=659465893f4b667d4321131198802eb71fc93543"></script>
+        <script type="text/javascript" src="https://cbsn2.cbsistatic.com/scripts/RelatedManager.js?v=659465893f4b667d4321131198802eb71fc93543"></script>
+        <script type="text/javascript" src="https://cbsn1.cbsistatic.com/scripts/PlaylistManager.js?v=659465893f4b667d4321131198802eb71fc93543"></script>
+        <script type="text/javascript" src="https://cbsn2.cbsistatic.com/scripts/Video.js?v=659465893f4b667d4321131198802eb71fc93543"></script>
+        <script type="text/javascript" src="https://cbsn2.cbsistatic.com/scripts/AdModel.js?v=659465893f4b667d4321131198802eb71fc93543"></script>
+        <script type="text/javascript" src="https://cbsn1.cbsistatic.com/scripts/NowPlaying.js?v=659465893f4b667d4321131198802eb71fc93543"></script>
+        <script type="text/javascript" src="https://cbsn2.cbsistatic.com/scripts/NativeAdManager.js?v=659465893f4b667d4321131198802eb71fc93543"></script>
+        <script type="text/javascript" src="https://cbsn1.cbsistatic.com/scripts/view.js?v=659465893f4b667d4321131198802eb71fc93543"></script>
+        
+<script type="text/javascript">
+    var pageViewGuid;
+    if (typeof window.uuid.v1 === 'function'){
+        pageViewGuid =window.uuid.v1();
+    }
+
+    var utag_data={"deviceType":"desktop","mediaId":"notSet", "mediaType": "content_video","pageType":"live_streaming_player","siteHier":["cbs news digital channel"],"siteSection":"cbs-news-digital-channel","siteType":"responsive web","topicId":["8a37c65b-cbd4-4bcb-b0d6-fb0eac279178"],"topicName":["cbs news digital channel"],"siteName":"cbsnews", "pageName": "/cbsn", "pageViewGuid": pageViewGuid, "siteId": "","tealium":{"profile":"cbsicansite,cbsicbsiall","env":"prod"}, "mediaPartnerId":"cbsnews", "mediaDistNetwork":"can"	};
+</script>
+
+        <script type="text/javascript" src="//tags.tiqcdn.com/utag/cbsi/cbsnewssite/prod/utag.js"></script>
+        <script type="application/javascript" src="https://cbsn2.cbsistatic.com/scripts/libs/fastclick.js?v=659465893f4b667d4321131198802eb71fc93543"></script>
+        <script type="text/javascript">
+            $(function() {
+                FastClick.attach(document.body);
+            });
+
+            // check android to disable viewport
+            var platform;
+            var ua = navigator.userAgent.toLowerCase();
+            var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+
+            //wait for ready
+            $(function() {
+                if(isAndroid) {
+                    function resizeAndroid(e) {
+                        $(document.body).addClass('android');
+                        //check for android 7in, that it is on landscape, then make it smaller so it fits on screen
+                        if (window.orientation == 90 || window.orientation == -90) {
+                            if(window.innerHeight < 605){
+                                $('meta[name=viewport]').attr('content','width=device-width, user-scalable=no, initial-scale=' + (window.innerHeight / 672));
+                            }
+                        } else {
+                            $('meta[name=viewport]').attr('content','width=device-width, user-scalable=no');
+                        }
+                    }
+
+                    // Listen for orientation changes
+                    window.addEventListener("orientationchange", function(e) {
+                        setTimeout(resizeAndroid, 100);
+                    }, false);
+
+                    resizeAndroid();
+                }
+            });
+
+            (function (w) {
+                "use strict";
+                var reXSS = /[^a-z0-9-_]/ig;
+                if (reXSS.test(w.location.hash)) {
+                  w.location.hash = w.location.hash.replace(reXSS, '');
+                }
+              })(window);
+
+            // check if inside iframe
+            if (window.self !== window.top) {
+                $("link[media=all]").attr("href","https://cbsn1.cbsistatic.com/styles/iframe.css?v=659465893f4b667d4321131198802eb71fc93543 ");
+            }
+
+            if(ua.indexOf("android") > -1) {
+                platform = "android";
+            } else if(navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
+                platform = "ios";
+                $('meta[name=viewport]').attr('content','width=device-width, initial-scale=1');
+            } else {
+                platform = "flash";
+            }
+
+
+            function blankAdCallback(width,height,pos) {
+                if(width == 260 && height == 66 && pos=="") {
+                    $('.nativeAds').addClass('hide');
+                }
+            }
+
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+            (function() {
+                var gads = document.createElement( 'script' );
+                gads.async = true;
+                gads.type = 'text/javascript';
+                var useSSL = 'https:' == document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+                var node = document.getElementsByTagName( 'script' )[0];
+                node.parentNode.insertBefore( gads, node );
+            })();
+
+        </script>
+    </head>
+    <!-- CBSN Live Video -->
+    <body
+        data-device="desktop"
+        data-share-obj="null"
+        data-stationlet=""
+        data-ref="cbsnews"
+        data-accessible="1"
+        data-load-share="false"
+        data-sierrawhiskey="false"
+        data-ad="8264"
+        data-env="prod"
+        data-static-host="https://cbsn2.cbsistatic.com"
+        data-base-host="https://www.cbsnews.com/live/"
+        data-rundown-host="//feeds-cbsn.cbsnews.com/"
+        data-story-obj="null"
+        class="desktop">
+        <div id="schema" itemprop="video" itemscope itemtype="https://schema.org/VideoObject">
+
+                <meta itemprop="thumbnailUrl" content="https://cbsnews1.cbsistatic.com/hub/i/2014/11/11/2375a2ad-a0a2-4fdc-a5aa-529e506f8bd2/slatelive600x337.jpg">
+                <meta itemprop="embedUrl" content="https://www.cbsnews.com/live/video/20171010101202-tuesdays-top-headlines/">
+                <meta itemprop="name" content="Tuesday's Top Headlines">
+                <meta itemprop="description" content="Watch &quot;Tuesday's Top Headlines&quot;, a CBSN video on CBSNews.com. View more CBSN videos and watch CBSN, a live news stream featuring original CBS News reporting.">
+                <meta itemprop="uploadDate" content="2017-10-10T10:12:02ZZ">
+                <meta itemprop="contentRating" content="MPAA PG-13">
+                <meta itemprop="videoQuality" content="720p"><div itemprop="author" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="CBS News"><meta itemprop="url" content="https://www.cbsnews.com"></div><div itemprop="publication" itemscope itemtype="https://schema.org/BroadcastEvent"><meta itemprop="isLiveBroadcast" content="true"><meta itemprop="startDate" content="2017-10-10T10:12:02ZZ"><meta itemprop="endDate" content="2017-10-10T12:12:02Z"></div>        </div>
+        <div class="eye-bg"></div>
+        <div class="video-gradient-bg">
+            <div class="video-extended">
+                <div class="headline-extended"></div>
+                <div class="tos-links">
+                    <a href="//www.cbsnews.com" rel="nofollow" target="_blank">CBS News</a> | <a href="//www.cbsnews.com/news/about-the-cbsn-live-streaming-video-channel/" rel="nofollow" target="_blank">About CBSN</a> | <a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow" target="_blank">Terms of Use</a> | <a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow" target="_blank">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="video">
+                <div class="menu">
+                    <input  type="checkbox" id="menu-toggle" name="menu-toggle"/>
+                    <label for="menu-toggle" id="menu-icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	class="mini-hamburger-icon-svg" viewBox="0 0 24 20" enable-background="new 0 0 24 20" xml:space="preserve">
+<g>
+	<rect x="6.312" y="3" class="mini-hamburger-icon-box" width="16" height="2"/>
+</g>
+<g>
+	<rect x="6.312" y="9.083" class="mini-hamburger-icon-box" width="16" height="2"/>
+</g>
+<g>
+	<rect x="6.312" y="15.166" class="mini-hamburger-icon-box" width="16" height="2"/>
+</g>
+<g>
+	<rect x="2" y="3" class="mini-hamburger-icon-box" width="2.177" height="2"/>
+</g>
+<g>
+	<rect x="2" y="9.083" class="mini-hamburger-icon-box" width="2.177" height="2"/>
+</g>
+<g>
+	<rect x="2" y="15.166" class="mini-hamburger-icon-box" width="2.177" height="2"/>
+</g>
+</svg>
+</label>
+                    <div class="scroll">
+                        <div class="playlist scroll-content" id="playlist">
+                            <ul class="dvr-list">
+
+                            </ul>
+                            <ul class="comingup-list">
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="live-preview">
+                    <div class="back-to-live-wrapper">
+                        <div id="back-to-live"></div>
+                    </div>
+                    <span class="live-text">live</span>
+                </div>
+                <div class="video-column">
+                    <div class="comingup-ticker">
+                        <div class="ticker-text">
+                            <span class="eye-icon"><svg version="1.1" id="Ticker_Eye_Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 class="ticker-eye-svg" viewBox="0 0 27 27" enable-background="new 0 0 27 27" xml:space="preserve">
+<g>
+	<path fill="#FFFFFF" d="M13.5,0c3.725,0,6.906,1.319,9.544,3.956C25.682,6.594,27,9.775,27,13.5c0,3.726-1.318,6.906-3.956,9.544
+		S17.225,27,13.5,27c-3.726,0-6.906-1.318-9.544-3.956S0,17.226,0,13.5c0-3.725,1.318-6.906,3.956-9.544C6.594,1.319,9.774,0,13.5,0
+		z M13.5,5.587c-2.75,0-5.269,0.707-7.557,2.119c-2.287,1.413-4.031,3.307-5.23,5.682c1.199,2.351,2.943,4.237,5.23,5.662
+		c2.288,1.425,4.807,2.138,7.557,2.138s5.287-0.725,7.612-2.175c2.25-1.399,3.976-3.274,5.175-5.625
+		c-1.199-2.375-2.925-4.262-5.175-5.663C18.787,6.3,16.25,5.587,13.5,5.587z M13.537,20.175c1.9,0,3.513-0.662,4.838-1.987
+		c1.325-1.324,1.987-2.938,1.987-4.837c0-1.875-0.662-3.475-1.987-4.8c-1.325-1.325-2.938-1.987-4.838-1.987
+		c-1.875,0-3.475,0.663-4.8,1.987c-1.325,1.326-1.987,2.925-1.987,4.8c0,1.9,0.662,3.513,1.987,4.837
+		C10.062,19.513,11.662,20.175,13.537,20.175z"/>
+</g>
+</svg>
+ </span>
+                            <span class="ticker-prefix"></span>
+                            <span class="ticker-headline"></span>
+                        </div>
+                    </div>
+                    <div class="video-player">
+    					<div id="digitalChannelPlayer">
+
+    					</div>
+                    </div>
+                    <div class="info-bar">
+                        <div class="headline">
+                            <span class="type live">live now</span>
+                            <div class="right-headline">
+                                <div class="box twitter">
+                                    <div class="share-wrap">
+                                        <a class="twitter-icon" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" class="twitter-svg">
+  <path class="twitter-circle" d="M21 .977C32.04.977 41.023 9.96 41.023 21S32.04 41.023 21 41.023.977 32.04.977 21 9.96.977 21 .977M21 0C9.402 0 0 9.402 0 21s9.402 21 21 21 21-9.402 21-21S32.598 0 21 0z"/>
+  <path class="twitter-logo" d="M31.907 15.9c-.68.302-1.41.505-2.177.597.783-.47 1.384-1.212 1.667-2.097-.732.434-1.544.75-2.407.92-.69-.737-1.677-1.197-2.767-1.197-2.093 0-3.79 1.697-3.79 3.79 0 .298.033.587.097.865-3.15-.158-5.944-1.667-7.813-3.96-.326.56-.513 1.21-.513 1.905 0 1.315.67 2.475 1.686 3.155-.62-.02-1.206-.19-1.717-.474v.048c0 1.837 1.307 3.37 3.04 3.717-.317.086-.652.132-.998.132-.244 0-.482-.024-.713-.068.482 1.506 1.882 2.602 3.54 2.632-1.296 1.017-2.93 1.623-4.707 1.623-.306 0-.608-.02-.904-.054 1.68 1.076 3.67 1.703 5.812 1.703 6.972 0 10.785-5.777 10.785-10.787 0-.164-.004-.328-.01-.49.74-.535 1.382-1.203 1.89-1.963z"/>
+</svg>
+</a>
+                                    </div>
+                                </div>
+                                <div class="box facebook">
+                                    <div class="share-wrap">
+                                        <a class="facebook-icon" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="42px" height="42px" viewBox="0 0 42 42" class="facebook-svg">
+  <path class="facebook-circle" d="M21 .977C32.04.977 41.023 9.96 41.023 21S32.04 41.023 21 41.023.977 32.04.977 21 9.96.977 21 .977M21 0C9.402 0 0 9.402 0 21s9.402 21 21 21 21-9.402 21-21S32.598 0 21 0z"/>
+  <path class="facebook-logo" d="M18.58 31.168v-9.542H16.06V18.19h2.523v-2.934c0-2.306 1.49-4.423 4.926-4.423 1.39 0 2.42.133 2.42.133l-.082 3.208s-1.05-.01-2.193-.01c-1.237 0-1.436.57-1.436 1.518v2.51h3.728l-.162 3.435h-3.566v9.542H18.58z"/>
+</svg>
+</a>
+                                    </div>
+                                </div>
+                                <div class="box email">
+                                    <div class="share-wrap">
+                                        <a class="email-icon" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="42px" height="42px" viewBox="0 0 42 42" class="email-svg">
+  <path class="email-circle" fill="#FFFFFF" d="M21 .977C32.04.977 41.023 9.96 41.023 21S32.04 41.023 21 41.023.977 32.04.977 21 9.96.977 21 .977M21 0C9.402 0 0 9.402 0 21s9.402 21 21 21 21-9.402 21-21S32.598 0 21 0z"/>
+  <g fill="#FFFFFF" class="email-logo">
+    <path d="M20.997 23.542l-2.39-2.093-6.837 5.86c.248.23.584.373.954.373H29.27c.37 0 .703-.144.95-.374l-6.832-5.86-2.39 2.092z"/>
+    <path d="M30.224 14.252c-.248-.232-.583-.374-.954-.374H12.723c-.37 0-.703.144-.95.377l9.223 7.906 9.228-7.908zM11.333 15.09v11.47l6.672-5.67M23.988 20.89l6.672 5.67V15.085"/>
+  </g>
+</svg>
+</a>
+                                    </div>
+                                </div>
+                                <div class="related box hide needsclick">
+                                    <div class="related-area click">
+                                        <span class="related-number"></span>
+                                        <span class="related-text text">Related</span>
+                                    </div>
+                                    <div class="related-videos scroll">
+                                        <div class="scroll-content">
+                                            <h3> Related Videos </h3>
+                                            <ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="view box">
+                                    <div class="view-area click">
+                                        <span class="popout-icon"><svg version="1.1" class="popout-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 22" enable-background="new 0 0 22 22" xml:space="preserve">
+<g>
+	<rect x="21" y="0" fill="#FFFFFF" width="1" height="7"/>
+	<rect x="15" y="0" fill="#FFFFFF" width="7" height="1"/>
+	
+		<rect x="14.182" y="3.318" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 33.7386 -6.3389)" fill="#FFFFFF" width="8" height="1"/>
+</g>
+<polygon fill="#FFFFFF" points="19,12 19,18 4,18 4,3 10,3 10,2 3,2 3,19 20,19 20,12 "/>
+<polygon fill="#FFFFFF" points="1,21 1,5 0,5 0,21 0,22 1,22 17,22 17,21 "/>
+</svg></span>
+                                        <span class="view-text text">Pop-Out</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="other">
+                            <div class="other-comingup">
+                                <ul class="comingup-dup-list">
+                                </ul>
+                            </div>
+                            <div class="other-logo">
+                                <div class="logo hide">
+                                    <h1 class="logo-cbsn-animate">Tuesday's Top Headlines</h1>
+                                    <span class="logo-animate"></span>
+                                </div>
+                                <div class="ad-container  hide">
+                                    <div id="companion" class="ads">
+                                        <span class="ad">
+        								    <script type="text/javascript">
+        	                                    googletag.cmd.push( function() {
+        	                                        googletag.display('companion');
+        	                                    });
+                                        	</script>
+        								</span>
+                                    </div>
+                                    <span class="cbsn-medium-logo"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-column">
+                    <div class="sticky">
+                        <h3>Available On</h3>
+                        <ul>
+                            <li><a href="https://itunes.apple.com/us/app/cbs-news/id334256223?mt=8&ftag=CNMaefebfc" class="appletv" target="_blank">
+                                <span class="img"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="50.458px" height="24.689px" viewBox="0 0 50.458 24.689" enable-background="new 0 0 50.458 24.689" xml:space="preserve">
+<g id="APPLETV">
+	<path fill="#FFFFFF" d="M16.563,12.942c0.034,3.683,3.236,4.922,3.27,4.939c-0.034,0.086-0.516,1.755-1.687,3.459
+		c-1.015,1.48-2.065,2.96-3.735,2.995c-1.635,0.034-2.151-0.964-4.027-0.964c-1.859,0-2.444,0.929-3.993,0.998
+		c-1.583,0.052-2.805-1.618-3.838-3.098c-2.082-3.029-3.683-8.554-1.532-12.271c1.067-1.859,2.977-3.029,5.043-3.046
+		c1.566-0.034,3.063,1.067,4.027,1.067s2.771-1.308,4.664-1.119c0.792,0.034,3.029,0.327,4.458,2.409
+		C19.093,8.382,16.546,9.862,16.563,12.942 M13.499,3.89c0.843-1.033,1.428-2.461,1.274-3.89c-1.222,0.052-2.702,0.809-3.597,1.842
+		c-0.792,0.912-1.48,2.375-1.291,3.769C11.245,5.714,12.656,4.905,13.499,3.89"/>
+	<path fill="#FFFFFF" d="M31.777,24.095c-1.05,0.293-2.134,0.43-3.236,0.43c-2.564,0-3.838-1.446-3.838-4.354V7.349h-2.22V5.025
+		h2.341V1.996l3.081-1.256v4.303h3.563v2.323h-3.545v12.116c0,0.929,0.155,1.566,0.447,1.945c0.293,0.379,0.826,0.551,1.566,0.551
+		c0.43,0,1.033-0.086,1.842-0.241V24.095z"/>
+	<path fill="#FFFFFF" d="M42.929,24.232h-3.786l-6.97-19.207h3.408l4.217,12.495c0.155,0.482,0.568,1.876,1.222,4.199l0.62-2.082
+		l0.688-2.1l4.371-12.529h3.39L42.929,24.232z"/>
+</g>
+</svg>
+</span>
+                                <span class="hover">INSTALL +</span>
+                            </a></li>
+                            <li><a href="https://channelstore.roku.com/details/27536/cbs-news?ftag=CNM7463b9d" class="roku" target="_blank">
+                                <span class="img"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="66.062px" height="20.709px" viewBox="0 0 66.062 20.709" enable-background="new 0 0 66.062 20.709" xml:space="preserve">
+<g id="ROKU">
+	<path fill="#FFFFFF" d="M17.925,20.137h-6.092l-4.837-6.713c-0.692,0-1.627,0-1.627,0v6.698H0V0h7.691
+		c4.434,0,8.054,3.015,8.054,6.725c0,2.263-1.387,4.284-3.499,5.52L17.925,20.137 M10.375,6.725c0-1.871-1.506-3.378-3.347-3.378
+		c-0.335,0-1.66,0-1.66,0v6.727h1.66C8.87,10.074,10.375,8.566,10.375,6.725z"/>
+	<path fill="#FFFFFF" d="M32.244,12.246c0,4.558-3.707,8.208-8.264,8.208c-4.556,0-8.235-3.65-8.235-8.208
+		c0-4.554,3.679-8.206,8.235-8.206C28.538,4.04,32.244,7.691,32.244,12.246 M23.98,7.933c-1.418,0-2.624,1.927-2.624,4.313
+		c0,2.386,1.206,4.316,2.624,4.316c1.451,0,2.655-1.93,2.655-4.316C26.635,9.86,25.431,7.933,23.98,7.933z"/>
+	<path fill="#FFFFFF" d="M44.844,4.374l-6.185,6.184V4.353h-5.368v15.769h5.368v-6.396l6.457,6.396h6.757l-8.206-8.207l6.797-6.794
+		v9.358c0,3.107,1.868,5.974,6.574,5.974c2.234,0,4.284-1.267,5.28-2.413l2.414,2.082h1.146V4.374h-5.368v8.204v1.992
+		c-0.605,1.055-1.447,1.718-2.749,1.718c-1.321,0-1.927-0.783-1.927-3.287V12.34V4.374H44.844z"/>
+</g>
+</svg>
+</span>
+                                <span class="hover">INSTALL +</span>
+                            </a></li>
+                            <li><a href="http://cbsn.ws/firetv?ftag=CNMebdb5fd" class="firetv" target="_blank">
+                                <span class="img"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="67px" height="24px" viewBox="0 0 67 24" enable-background="new 0 0 67 24" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#FDFDFE" d="M2.091,9.843H0V7.559h2.091V5.083C2.091,1.383,4.31,0,6.756,0c0.804,0,1.802,0.161,2.605,0.547
+			L8.782,2.831C8.203,2.605,7.624,2.476,7.045,2.476c-1.448,0-2.123,0.901-2.123,2.51v2.573h3.892l-0.74,2.284H4.922v12.932H2.091
+			V9.843z M11.002,2.605c0-0.997,0.74-1.801,1.801-1.801c1.094,0,1.866,0.772,1.866,1.801c0,1.03-0.805,1.834-1.866,1.834
+			C11.742,4.439,11.002,3.635,11.002,2.605 M11.42,7.559h2.831v15.216H11.42V7.559z"/>
+		<path fill="#FDFDFE" d="M17.016,7.559h2.38l0.322,1.866c1.608-1.705,2.895-2.251,4.278-2.251c0.643,0,1.351,0.161,1.801,0.45
+			l-0.998,2.509c-0.482-0.258-0.965-0.386-1.447-0.386c-1.094,0-2.091,0.579-3.506,1.962v11.066h-2.831V7.559z"/>
+		<path fill="#FDFDFE" d="M25.058,15.055c0-4.633,2.541-7.881,6.434-7.881c3.989,0,6.305,3.056,6.305,7.914v0.707h-9.844
+			c0.064,2.863,1.802,4.986,4.826,4.986c1.448,0,2.702-0.45,3.764-1.029l0.901,1.962c-1.416,0.901-3.282,1.383-5.018,1.383
+			C27.375,23.097,25.058,19.398,25.058,15.055 M34.87,13.672c-0.064-2.123-1.094-4.247-3.378-4.247c-2.188,0-3.507,1.93-3.539,4.247
+			H34.87z"/>
+	</g>
+	<polygon fill="#FDFDFE" points="60.426,22.699 66.646,2.805 64.909,2.805 59.379,20.494 53.849,2.805 52.112,2.805 58.331,22.699 	
+		"/>
+	<polygon fill="#FDFDFE" points="50.96,2.854 34.338,2.854 34.958,4.512 41.874,4.512 41.874,22.686 43.532,22.686 43.532,4.512 
+		50.339,4.512 	"/>
+</g>
+</svg>
+</span>
+                                <span class="hover">INSTALL +</span>
+                            </a></li>
+                            <li><a href="http://cbsn.ws/androidtv?ftag=CNMfef33d9" class="android" target="_blank">
+                                <span class="img"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="101.849px" height="17.396px" viewBox="0 0 101.849 17.396" enable-background="new 0 0 101.849 17.396"
+	 xml:space="preserve">
+<g id="ANDROID">
+	<path fill="#FFFFFF" d="M80.397,17.132V0.804h-3.102v4.823c-0.867-0.842-2.047-1.306-3.504-1.306c-3.554,0-6.255,2.889-6.255,6.506
+		c0,3.63,2.7,6.569,6.255,6.569c1.457,0,2.638-0.502,3.504-1.344v1.08H80.397L80.397,17.132z M74.129,14.406
+		c-1.909,0-3.454-1.595-3.454-3.58c0-1.947,1.545-3.567,3.454-3.567c1.269,0,2.474,0.628,3.077,1.67
+		c0.038,0.075,0.088,0.176,0.088,0.301v3.19c0,0.063-0.038,0.176-0.063,0.214C76.641,13.716,75.436,14.406,74.129,14.406
+		L74.129,14.406L74.129,14.406z M66.129,17.132V4.572h-3.102v12.56H66.129L66.129,17.132z M64.584,3.617
+		c0.992,0,1.796-0.816,1.796-1.809C66.38,0.804,65.576,0,64.584,0c-0.992,0-1.796,0.804-1.796,1.809
+		C62.788,2.801,63.591,3.617,64.584,3.617L64.584,3.617L64.584,3.617z M55.051,17.383c3.63,0,6.569-2.926,6.569-6.556
+		c0-3.617-2.939-6.506-6.569-6.506c-3.617,0-6.556,2.889-6.556,6.506C48.494,14.457,51.433,17.383,55.051,17.383L55.051,17.383
+		L55.051,17.383z M55.051,14.256c-1.884,0-3.416-1.532-3.416-3.429c0-1.884,1.532-3.416,3.416-3.416
+		c1.909,0,3.429,1.532,3.429,3.416C58.479,12.723,56.96,14.256,55.051,14.256L55.051,14.256L55.051,14.256z M45.241,17.132v-6.707
+		c0-1.984,1.042-3.04,3.027-3.04V4.321c-3.994,0-6.129,2.123-6.129,6.104v6.707H45.241L45.241,17.132z M40.494,17.132V0.804h-3.102
+		v4.823c-0.867-0.842-2.047-1.344-3.504-1.344c-3.554,0-6.255,2.926-6.255,6.544c0,3.63,2.7,6.556,6.255,6.556
+		c1.457,0,2.638-0.49,3.504-1.331v1.08H40.494L40.494,17.132z M34.226,14.406c-1.909,0-3.454-1.595-3.454-3.58
+		c0-1.947,1.545-3.567,3.454-3.567c1.269,0,2.474,0.628,3.077,1.67c0.038,0.075,0.088,0.176,0.088,0.301v3.178
+		c0,0.063-0.038,0.188-0.063,0.226C36.738,13.716,35.532,14.406,34.226,14.406L34.226,14.406L34.226,14.406z M26.338,17.132v-6.795
+		c0-3.341-2.6-6.016-5.916-6.016c-3.328,0-5.916,2.675-5.916,6.016v6.795h3.102v-6.795c0-1.645,1.156-2.901,2.813-2.901
+		c1.645,0,2.813,1.256,2.813,2.901v6.795H26.338L26.338,17.132z M12.861,17.132V4.572H9.759v1.055
+		C8.892,4.785,7.712,4.321,6.255,4.321C2.7,4.321,0,7.209,0,10.827c0,3.63,2.7,6.556,6.255,6.556c1.457,0,2.638-0.49,3.504-1.331
+		v1.08H12.861L12.861,17.132z M6.594,14.406c-1.909,0-3.454-1.595-3.454-3.58c0-1.947,1.545-3.567,3.454-3.567
+		c1.269,0,2.537,0.59,3.077,1.67c0.038,0.075,0.088,0.176,0.088,0.301v3.165c0,0.063-0.038,0.201-0.063,0.239
+		C9.106,13.716,7.9,14.406,6.594,14.406L6.594,14.406L6.594,14.406z"/>
+	<path fill="#FFFFFF" d="M88.548,17.283l0.013-2.236h-0.276c-1.821,0-3.102-1.093-3.102-2.939V6.644h3.278V4.572h-3.278V1.168
+		h-2.273v10.94c0,3.253,2.11,5.175,5.376,5.175H88.548L88.548,17.283z M96.75,17.132l5.099-12.573h-2.562l-4.17,10.902h0.867
+		l-4.182-10.89h-2.638l5.099,12.56H96.75L96.75,17.132z"/>
+</g>
+</svg>
+</span>
+                                <span class="hover">INSTALL +</span>
+                            </a></li>
+                            <li><a href="http://www.xbox.com/en-US/entertainment/xbox-one/live-apps?ftag=CNMfef33d9#ContentBlockList_6" class="xbox" target="_blank">
+                                <span class="img"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="77px" height="17px" viewBox="0 0 77 17" enable-background="new 0 0 77 17" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#FFFFFF" d="M4.029,1.393C4.02,1.4,4.014,1.408,4.004,1.415C4.051,1.365,4.12,1.312,4.163,1.284
+			C5.448,0.448,6.934,0,8.583,0c1.54,0,2.987,0.427,4.218,1.166c0.09,0.053,0.333,0.221,0.458,0.374
+			c-1.188-1.313-4.685,1.502-4.685,1.502C7.364,2.11,6.254,1.475,5.425,1.25C4.733,1.06,4.254,1.215,4.029,1.393L4.029,1.393z
+			 M14.609,2.634c-0.038-0.041-0.078-0.078-0.115-0.119c-0.299-0.33-0.67-0.411-1.001-0.389c-0.306,0.097-1.705,0.602-3.432,2.232
+			c0,0,1.942,1.889,3.133,3.822c1.191,1.933,1.901,3.451,1.465,5.558c1.325-1.459,2.135-3.395,2.135-5.524
+			C16.794,6.06,15.964,4.099,14.609,2.634L14.609,2.634z M11.641,9.005c-0.53-0.592-1.312-1.44-2.35-2.472
+			C9.067,6.309,8.826,6.075,8.574,5.832c0,0-0.377,0.377-0.87,0.876C7.071,7.344,6.254,8.176,5.8,8.659
+			c-0.808,0.863-3.123,3.573-3.254,5.09c0,0-0.515-1.203,0.617-3.98c0.739-1.817,2.971-4.545,3.903-5.434
+			c0,0-0.851-0.938-1.92-1.583L5.139,2.749c0,0-0.013-0.01-0.031-0.022C4.593,2.422,4.032,2.185,3.492,2.154
+			c-0.551,0.038-0.9,0.443-0.9,0.443C1.211,4.065,0.369,6.041,0.369,8.214c0,4.535,3.679,8.214,8.214,8.214
+			c2.407,0,4.573-1.038,6.076-2.687c0-0.003-0.172-1.088-1.278-2.641C13.122,10.735,12.171,9.601,11.641,9.005L11.641,9.005z
+			 M11.641,9.005"/>
+	</g>
+	<polygon id="polygon3021" fill="#FFFFFF" points="72.891,16.429 67.763,9.467 62.636,16.429 60.524,16.429 66.692,8.018 
+		61.06,0.372 63.171,0.372 67.763,6.608 72.349,0.372 74.459,0.372 68.831,8.018 75,16.429 	"/>
+	<path id="path3023" fill="#FFFFFF" d="M44.657,8.625c-0.335-0.286-0.698-0.506-1.051-0.67c1.165-0.633,1.929-1.828,1.929-3.215
+		c0-1.027-0.379-4.368-5.219-4.368h-6.52v6.922h-2.173c-0.283,0.367-0.921,1.249-1.166,1.611h3.339v7.522l6.52,0.001
+		c3.532,0,5.726-1.794,5.726-4.687C46.042,10.477,45.565,9.402,44.657,8.625 M35.598,2.048h4.718c1.278,0,3.415,0.318,3.415,2.552
+		c0,1.689-1.246,2.695-3.415,2.695h-4.718V2.048z M40.315,14.754h-4.718V8.908h4.718c1.789,0,3.929,0.494,3.929,2.798
+		C44.245,14.356,41.784,14.754,40.315,14.754"/>
+	<path id="path3025" fill="#FFFFFF" d="M54.523,0.002c-4.509,0-7.662,3.45-7.662,8.389c0,4.947,3.152,8.395,7.662,8.395
+		c4.506,0,7.649-3.448,7.649-8.395C62.172,3.452,59.029,0.002,54.523,0.002 M54.523,15.087c-3.436,0-5.843-2.754-5.843-6.696
+		c0-3.939,2.406-6.693,5.843-6.693c3.431,0,5.825,2.753,5.825,6.693C60.348,12.333,57.954,15.087,54.523,15.087"/>
+	<polygon id="polygon3027" fill="#FFFFFF" points="32.919,16.428 26.746,8.017 32.378,0.372 30.268,0.372 25.677,6.61 21.089,0.372 
+		18.986,0.372 24.614,8.017 18.442,16.428 20.557,16.428 25.68,9.467 30.806,16.428 	"/>
+</g>
+</svg>
+</span>
+                                <span class="hover">INSTALL +</span>
+                            </a></li>
+                        </ul>
+                        <h3>Follow CBSN</h3>
+                        <p class="social-icons">
+                            <a href="https://twitter.com/cbsnlive" target="_blank"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="44px" height="44px" viewBox="0 0 44 44" enable-background="new 0 0 44 44" xml:space="preserve">
+<path id="RING" fill="#FFFFFF" d="M22,2c11.028,0,20,8.972,20,20s-8.972,20-20,20S2,33.028,2,22S10.972,2,22,2 M22,1
+	C10.402,1,1,10.402,1,22s9.402,21,21,21s21-9.402,21-21S33.598,1,22,1L22,1z"/>
+<path id="TWITTER" fill="#FFFFFF" d="M31.121,17.963c-0.598,0.265-1.24,0.444-1.914,0.525c0.688-0.412,1.216-1.065,1.465-1.844
+	c-0.644,0.382-1.357,0.659-2.116,0.809c-0.608-0.648-1.474-1.052-2.432-1.052c-1.84,0-3.332,1.492-3.332,3.332
+	c0,0.261,0.029,0.515,0.086,0.759c-2.769-0.139-5.225-1.466-6.868-3.482c-0.287,0.492-0.451,1.065-0.451,1.675
+	c0,1.156,0.588,2.176,1.482,2.774c-0.546-0.017-1.06-0.167-1.509-0.417c0,0.014,0,0.028,0,0.042c0,1.615,1.149,2.961,2.673,3.267
+	c-0.28,0.076-0.574,0.117-0.878,0.117c-0.215,0-0.423-0.021-0.627-0.06c0.424,1.324,1.655,2.287,3.113,2.314
+	c-1.14,0.894-2.577,1.426-4.138,1.426c-0.269,0-0.534-0.016-0.795-0.047c1.475,0.945,3.226,1.497,5.108,1.497
+	c6.129,0,9.481-5.078,9.481-9.481c0-0.144-0.003-0.288-0.01-0.431C30.109,19.218,30.674,18.631,31.121,17.963z"/>
+</svg>
+</a>
+                            <a href="https://www.facebook.com/CBSNlive" target="_blank"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="44px" height="44px" viewBox="0 0 44 44" enable-background="new 0 0 44 44" xml:space="preserve">
+<path id="RING_2_" fill="#FFFFFF" d="M22.005,2c11.028,0,20,8.972,20,20s-8.972,20-20,20s-20-8.972-20-20S10.977,2,22.005,2
+	 M22.005,1c-11.598,0-21,9.402-21,21s9.402,21,21,21s21-9.402,21-21S33.603,1,22.005,1L22.005,1z"/>
+<g id="FACE">
+	<path fill="#FFFFFF" d="M19.634,16.517l0,2.464l-1.805,0l0,3.013l1.805,0l0,8.955l3.709,0l0-8.954l2.489,0
+		c0,0,0.233-1.445,0.347-3.025l-2.821,0l0-2.061c0-0.308,0.404-0.721,0.804-0.721l2.021,0l0-3.137l-2.748,0
+		C19.542,13.051,19.634,16.067,19.634,16.517L19.634,16.517z M19.634,16.517"/>
+</g>
+</svg>
+</a>
+                            <a href="https://instagram.com/cbsnlive/" target="_blank"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="44px" height="44px" viewBox="0 0 44 44" enable-background="new 0 0 44 44" xml:space="preserve">
+<path id="INSTAGRAM" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M16.797,14.99h10.422c0.99,0,1.8,0.81,1.8,1.8
+	v10.422c0,0.99-0.81,1.8-1.8,1.8H16.797c-0.99,0-1.8-0.81-1.8-1.8V16.789C14.997,15.799,15.807,14.99,16.797,14.99L16.797,14.99z
+	 M25.211,16.547c-0.347,0-0.631,0.284-0.631,0.631v1.511c0,0.347,0.284,0.631,0.631,0.631h1.585c0.347,0,0.631-0.284,0.631-0.631
+	v-1.511c0-0.347-0.284-0.631-0.631-0.631H25.211L25.211,16.547z M27.433,20.919h-1.234c0.117,0.381,0.18,0.785,0.18,1.203
+	c0,2.332-1.951,4.223-4.358,4.223c-2.407,0-4.358-1.891-4.358-4.223c0-0.418,0.063-0.822,0.18-1.203h-1.288v5.923
+	c0,0.307,0.251,0.557,0.557,0.557h9.764c0.307,0,0.557-0.251,0.557-0.557V20.919L27.433,20.919z M22.021,19.241
+	c-1.555,0-2.816,1.222-2.816,2.728c0,1.507,1.261,2.728,2.816,2.728c1.555,0,2.816-1.222,2.816-2.728
+	C24.837,20.463,23.576,19.241,22.021,19.241z"/>
+<path id="RING_1_" fill="#FFFFFF" d="M22.007,2c11.028,0,20,8.972,20,20s-8.972,20-20,20s-20-8.972-20-20S10.979,2,22.007,2
+	 M22.007,1c-11.598,0-21,9.402-21,21s9.402,21,21,21s21-9.402,21-21S33.605,1,22.007,1L22.007,1z"/>
+</svg>
+</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="resume-bg hide-resume">
+            <div class="resume-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="resume-svg" viewBox="0 0 330 330">
+  <circle fill="none" stroke="#FFFFFF" stroke-miterlimit="2" cx="164.817" cy="165.909" r="163" stroke-width="2" opacity=".15"/>
+  <path fill="#FFFFFF" d="M146.7 199.8l-.386-.044-1.013-.274c-1.102-.525-1.813-1.664-1.813-2.905V133.69c0-1.245.717-2.384 1.828-2.904.997-.498 2.41-.388 3.37.35l49.298 31.496c.76.632 1.196 1.542 1.196 2.496 0 .943-.45 1.88-1.2 2.5l-.174.128-49.18 31.408c-.55.41-1.228.636-1.927.636zm.268-65.638v61.93l48.484-30.963-48.484-30.968z"/>
+  <path fill="#FFFFFF" d="M164.815 256.543c-49.974 0-90.632-40.658-90.632-90.635 0-49.974 40.658-90.632 90.632-90.632 49.977 0 90.635 40.658 90.635 90.632 0 49.977-40.657 90.635-90.635 90.635zm0-178.01c-48.177 0-87.374 39.197-87.374 87.374 0 48.18 39.198 87.377 87.375 87.377 48.18 0 87.377-39.197 87.377-87.377 0-48.177-39.197-87.374-87.377-87.374z"/>
+  <g>
+    <circle class="resume-circle" cx="164.817" cy="165.909" r="163" fill="transparent"/>
+    <path fill="#FFFFFF" d="M146.7 199.8l-.386-.044-1.013-.274c-1.102-.525-1.813-1.664-1.813-2.905V133.69c0-1.245.717-2.384 1.828-2.904.997-.498 2.41-.388 3.37.35l49.298 31.496c.76.632 1.196 1.542 1.196 2.496 0 .943-.45 1.88-1.2 2.5l-.174.128-49.18 31.408c-.55.41-1.228.636-1.927.636zm.268-65.638v61.93l48.484-30.963-48.484-30.968z"/>
+    <path fill="#FFFFFF" d="M164.815 256.543c-49.974 0-90.632-40.658-90.632-90.635 0-49.974 40.658-90.632 90.632-90.632 49.977 0 90.635 40.658 90.635 90.632 0 49.977-40.657 90.635-90.635 90.635zm0-178.01c-48.177 0-87.374 39.197-87.374 87.374 0 48.18 39.198 87.377 87.375 87.377 48.18 0 87.377-39.197 87.377-87.377 0-48.177-39.197-87.374-87.377-87.374z"/>
+  </g>
+</svg>
+            </div>
+        </div>
+        <div class="still-watching-bg hide-still-watching">
+
+            <div class="still-watching-button">
+
+                <p class="still-watching-text">Still Watching?</p>
+                <svg version="1.1" class="still-watching-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve">
+<g id="Still_Watching_Layer_2">
+</g>
+<circle fill="none" class="still-watching-circle" stroke-width="3" stroke-miterlimit="10" cx="96.744" cy="97.341" r="91.204"/>
+<path class="still-watching-arrow" d="M96.744,97.341"/>
+<g>
+	<g>
+		
+			<rect x="47.888" y="110.46" transform="matrix(0.7071 0.7071 -0.7071 0.7071 99.249 -15.6883)" class="still-watching-arrow" width="41.348" height="3"/>
+	</g>
+	<g>
+		
+			<rect x="108.808" y="55.993" transform="matrix(0.7071 0.7071 -0.7071 0.7071 101.1389 -49.4888)" class="still-watching-arrow" width="3" height="82.697"/>
+	</g>
+</g>
+</svg>
+            </div>
+        </div>
+        <div class="rotate-screen">
+            <div class="rotate-screen-button">
+                <svg version="1.1" class="rotate-screen-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	  viewBox="0 0 250 250" enable-background="new 0 0 250 250" xml:space="preserve">
+<path id="ARROW" fill="#FFFFFF" d="M191.815,188.447c-34.596,34.596-90.887,34.596-125.482,0
+	c-34.589-34.589-34.584-90.875,0.012-125.471c34.394-34.395,90.512-34.563,125.098-0.373l2.53,2.501l1.641-30.229
+	c0.086-1.566,1.429-2.773,2.994-2.688c0.696,0.037,1.354,0.332,1.85,0.828c0.572,0.572,0.877,1.363,0.835,2.169l-1.964,36.21
+	c-0.081,1.451-1.237,2.607-2.689,2.688l-36.212,1.964c-0.805,0.044-1.592-0.257-2.164-0.829c-0.497-0.497-0.791-1.157-0.829-1.858
+	c-0.084-1.564,1.122-2.907,2.689-2.993l29.492-1.601l-2.614-2.546c-15.696-15.29-36.449-23.636-58.437-23.5
+	c-22.008,0.135-42.677,8.759-58.2,24.282c-32.378,32.378-32.383,85.054-0.012,117.426c32.377,32.377,85.059,32.378,117.437,0
+	c1.109-1.109,2.914-1.109,4.023,0C192.924,185.533,192.924,187.338,191.815,188.447z"/>
+</svg>
+                <p class="rotate-screen-text">Rotate Device</p>
+            </div>
+            <div class="rotate-cbsn-logo">
+
+            </div>
+        </div>
+    </body>
+</html>

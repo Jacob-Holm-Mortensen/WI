@@ -1,0 +1,131 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <base href="/">
+    	        <title>CBS-RADIO-NEWS on Radio.com</title>
+                <meta name="description" content="">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="music player radio">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+        <!-- Branch -->
+                <meta name="branch:deeplink:slug" content="cbs-radio-news" />
+                <!-- End Branch -->
+        <!-- Begin Twitter Card -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@radiodotcom" />
+        <meta name="twitter:title" content="Radio.com" />
+        <meta name="twitter:description" content="Play Radio" />
+        <meta name="twitter:image" content="//player.radio.com/static/v5/images/radiocom-logo-black.png" />
+        <!-- End Twitter Card -->
+        <!-- Begin Facebook OG -->
+        <meta property="og:title" content="Listen to CBS-RADIO-NEWS on Radio.com" />
+        <meta property="og:url" content="//player.radio.com" />
+        <meta property="og:image" content="//player.radio.com/static/v5/images/radiocom-logo-black.png">
+        <meta property="og:site_name" content="Radio.com">
+        <!-- End Facebook OG -->
+
+    		<script>
+		var _ts = { sync:false, auto:true }; 
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0]; 
+		g.src= '//player.cdn.targetspot.com/player/pool/ts_partner.js'; 
+		s.parentNode.insertBefore(g,s)}(document,'script')); 
+	</script> 
+
+    		<link rel="manifest" href="//player.radio.com/static/v5/manifest.json">
+	<link rel="icon" type="image/png" href="//player.radio.com/favicon.png">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4ddd05dc24272928" async="async"></script>
+	<script>
+		var globalTracker, player, addthis_config, addthis_share, TDSdk, ga;
+		var playPrerollFrequency = 0;
+		var basePathWithoutEnv = "//player.radio.com";
+		var basePath = basePathWithoutEnv;
+		var branchKey = "key_live_boErzJxoeEvYVUKoPscTOhlivAaPPik7";
+				var bkApiRegPageUrl = "https://my.radio.com"+"/mycbslocal/pages/";
+		var bkApiBaseUrl = "https://my.radio.com";
+		var nielsen = {
+			apid: "P892A8BC0-FAAA-452C-B2A9-771F07A021B1",
+			sfcode: "drm",
+			apn: "cbslocalplayer",
+			name: "nielsen",
+			nol_sdkDebug: "console"
+		}
+		var historyIDs = [];
+		var googletag = googletag || {};
+			googletag.cmd = googletag.cmd || [];
+		var slots = [],
+			tags,
+			doubleclick_prefix = '/4128/',
+			adRefreshInterval = 60000;
+		(function() {
+			var gads = document.createElement("script");
+				gads.async = true;
+				gads.type = "text/javascript";
+			var useSSL = "https:" == document.location.protocol;
+				gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+			var node =document.getElementsByTagName("script")[0];
+				node.parentNode.insertBefore(gads, node);
+		})();
+	</script>
+	<script src="//secure-drm.imrworldwide.com/novms/js/2/ggcmb400.js"></script>
+	<script> var debug = false; </script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<script src="//player.radio.com/static/v5/js/build/common-prime.min.js?1507630883"></script>
+	<script>
+		var webpackManifestPrime = (function() {
+			var json = null;
+			$.ajax({
+				'async': false,
+				'global': false,
+				'url': "//player.radio.com/static/v5/js/build/chunk-manifest-prime.json?1507630883",
+				'dataType': "json",
+				'success': function (data) {
+					json = data;
+				}
+			});
+			return json;
+		})();
+		var link = "//player.radio.com/static/v5/js/build/" + webpackManifestPrime["0"];
+		var element = document.createElement('script');
+		element.src = link;
+		document.getElementsByTagName('head')[0].appendChild(element);
+	</script>
+
+    </head>
+    <body>
+        <div class="branch-journeys-top"></div>
+        <app>
+            <div class="pre-app load-section"><i class="fa fa-circle-o-notch fa-spin"></i></div>
+        </app>
+        <script type="text/javascript" src="//sdk.listenlive.co/web/v/2.9.17-175/td-sdk.min.js" id="triton-sdk"></script>
+<!-- Begin Google Analytics Tag -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+</script>
+<!-- End Google Analytics Tag -->
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "3005086" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="//b.scorecardresearch.com/p?c1=2&amp;c2=3005086&amp;cv=2.0&amp;cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+    </body>
+</html>

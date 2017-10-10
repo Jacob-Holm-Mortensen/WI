@@ -2,6 +2,7 @@
 /comment
 /get_video
 /get_video_info
+/live_chat
 /login
 /results
 /signup

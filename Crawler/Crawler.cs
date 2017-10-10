@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using HtmlAgilityPack;
 using System.IO;
 using System.Text.RegularExpressions;
+using System.Threading;
 
 namespace SearchEngine
 {
@@ -20,6 +21,8 @@ namespace SearchEngine
         NearDuplicate near = new NearDuplicate();
         string baseDir = AppDomain.CurrentDomain.BaseDirectory.Replace("bin\\Debug\\", "");
         public HashSet<string> hosts = new HashSet<string>();
+        int threadCount = 8;
+        List<Thread> threads = new List<Thread>();
 
         // Runs the crawler process
         public void StartCrawling(string seed)
@@ -30,18 +33,41 @@ namespace SearchEngine
                 foreach (var file in new DirectoryInfo(baseDir + "RobotTXT\\").GetFiles()) file.Delete();
             DateTime start = DateTime.Now;
             foreach (var url in RetrieveUrls(seed)) AddToFrontier(url);
+
+            for (int i = 0; i < threadCount; i++)
+            {
+                Thread thread = new Thread(new ThreadStart(threadContent));
+                thread.IsBackground = true;
+                threads.Add(thread);
+                threads[threads.IndexOf(thread)].Start();
+            }
+
+            while (true)
+            {
+                Thread.Sleep(200);
+                if (threads.All(x => !x.IsAlive)) break;
+            }
+
+            Console.WriteLine("Crawl duration: " + (DateTime.Now - start) + "\nHosts:");
+            SaveLocationMapping();
+            foreach (var host in hosts) Console.WriteLine(host);
+        }
+
+        public void threadContent()
+        {
             while (backQueue.Count < 1000 && frontier.Count != 0)
             {
-                // Look at the next url in the frontier
-                string url = frontier.Dequeue();
+                string url;
+                lock (frontier)
+                {
+                    // Look at the next url in the frontier
+                    url = frontier.Dequeue();
+                }
                 frontierHashSet.Remove(url);
                 // Move to back queue and insert new urls in the end of the frontier
                 MoveWebPageToBackQueue(url);
             }
-            Console.WriteLine("Crawl duration: " + (DateTime.Now - start) + "\nHosts:");
-            SaveLocationMapping();
-            foreach (var host in hosts) Console.WriteLine(host);
-            Console.Read();
+            Console.WriteLine("thread stropped");
         }
 
         // Adds urls to the back queue if the url does not exist
@@ -69,9 +95,18 @@ namespace SearchEngine
                 {
                     foreach (var tempUrl in RetrieveUrls(url))
                     {
-                        AddToFrontier(tempUrl);
+                        lock (backQueue)
+                        {
+                            lock (frontier)
+                            {
+                                AddToFrontier(tempUrl);
+                            }
+                        }
                     }
-                    backQueue.Add(new WebPage(url, temp));
+                    lock (backQueue)
+                    {
+                        backQueue.Add(new WebPage(url, temp));
+                    }
                     SaveBackQueueElementToFile(url, temp);
                     Console.WriteLine("BackQueue: " + backQueue.Count() + ", Frontier: " + frontier.Count());
                 }
@@ -94,11 +129,17 @@ namespace SearchEngine
             {
                 var web = new HtmlWeb();
                 web.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36";
-                var doc = web.Load(url);
-                
-                return CheckUrls(doc.DocumentNode.Descendants("a")
+                try
+                {
+                    var doc = web.Load(url);
+                    return CheckUrls(doc.DocumentNode.Descendants("a")
                                                   .Select(a => a.GetAttributeValue("href", null))
                                                   .Where(u => !String.IsNullOrEmpty(u)), uri);
+                }
+                catch (Exception)
+                {
+
+                }
             }
             return new HashSet<string>();
         }

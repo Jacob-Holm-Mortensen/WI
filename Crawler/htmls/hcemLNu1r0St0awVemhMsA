@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en"><head prefix="og: http://ogp.me/ns#"><!-- Fly Version: RELEASE_20171009 60298dc8f6316b5d3f2e0cafcae02e282eff5c4e (cbsnews prod_alt) --><title>General Electric shifts gears under new CEO John Flannery - CBS News</title><meta charset="UTF-8"><meta name="robots" content="index, follow"><meta name="description" content="The industrial behemoth is shuffling top execs and announced an activist shareholder from Trian will join its board"><meta name="keywords" content="U.S., ge, general electric, Trian, business"><meta name="viewport" content="width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UQIHWFZbGwsEUFhQBgQ="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script><link rel="apple-touch-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/apple-touch-icon.png?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e"><meta property="al:web:url" content="https://www.cbsnews.com/news/general-electric-shifts-gears-under-new-ceo-john-flannery/"><meta property="al:ios:app_name" content="CBS News"><meta property="al:ios:app_store_id" content="334256223"><meta property="al:ios:url" content="cbsnewsapp://news/general-electric-shifts-gears-under-new-ceo-john-flannery/"><meta property="al:android:app_name" content="CBS News"><meta property="al:android:package" content="com.treemolabs.apps.cbsnews"><meta property="og:type" content="article"><meta property="og:url" content="https://www.cbsnews.com/news/general-electric-shifts-gears-under-new-ceo-john-flannery/"><meta property="og:title" content="General Electric shifts gears under new CEO John Flannery"><meta property="og:description" content="The industrial behemoth is shuffling top execs and announced an activist shareholder from Trian will join its board"><meta property="og:image" content="https://cbsnews1.cbsistatic.com/hub/i/2017/10/09/5cab3179-b26d-4e71-b4f8-62cfb7bd42af/ge2.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="fb:app_id" content="1536620209892267"><meta property="fb:pages" content="131459315949"><meta name="twitter:app:country" content="US"><meta name="twitter:app:name:iphone" content="CBS News"><meta name="twitter:app:id:iphone" content="334256223"><meta name="twitter:app:url:iphone" content="cbsnewsapp://news/general-electric-shifts-gears-under-new-ceo-john-flannery/"><meta name="twitter:app:name:ipad" content="CBS News"><meta name="twitter:app:id:ipad" content="334256223"><meta name="twitter:app:url:ipad" content="cbsnewsapp://news/general-electric-shifts-gears-under-new-ceo-john-flannery/"><meta name="twitter:app:name:googleplay" content="CBS News"><meta name="twitter:app:id:googleplay" content="com.treemolabs.apps.cbsnews"><meta name="twitter:app:url:googleplay" content="https://www.cbsnews.com/news/general-electric-shifts-gears-under-new-ceo-john-flannery/"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@cbsmoneywatch"><meta name="twitter:title" content="General Electric shifts gears under new CEO John Flannery"><meta name="twitter:description" content="The industrial behemoth is shuffling top execs and announced an activist shareholder from Trian will join its board"><meta name="twitter:image" content="https://cbsnews1.cbsistatic.com/hub/i/2017/10/09/5cab3179-b26d-4e71-b4f8-62cfb7bd42af/ge2.jpg"><script type="application/ld+json">
+      {"@context":"https:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.cbsnews.com\/news\/general-electric-shifts-gears-under-new-ceo-john-flannery\/"},"headline":"General Electric shifts gears under new CEO John Flannery","description":"The industrial behemoth is shuffling top execs and announced an activist shareholder from Trian will join its board","articleSection":["MoneyWatch","Markets"],"image":{"@context":"https:\/\/schema.org","@type":"ImageObject","height":630,"width":1200,"url":"https:\/\/cbsnews2.cbsistatic.com\/hub\/i\/r\/2017\/10\/09\/5cab3179-b26d-4e71-b4f8-62cfb7bd42af\/thumbnail\/1200x630\/2fe5c051c949dccf2643b29043c1a370\/ge2.jpg"},"keywords":["U.S.","ge","general electric","Trian","business"],"datePublished":"2017-10-09T11:24:25-0400","dateModified":"2017-10-09T11:24:25-0400","author":{"@type":"Person","name":"Jillian Harding"},"publisher":{"@context":"https:\/\/schema.org","@type":"Organization","name":"CBS News","url":"https:\/\/www.cbsnews.com\/","logo":{"@type":"ImageObject","url":"https:\/\/cbsnews4.cbsistatic.com\/fly\/bundles\/cbsnewscore\/images\/standalone\/cbsnews-logo-600x60.png","width":600,"height":60}},"articleBody":{"@context":"https:\/\/schema.org","@type":"Text","@id":"#article-entry"},"alternativeHeadline":"Management shakeup at General Electric","video":{"@context":"https:\/\/schema.org","@type":"VideoObject","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.cbsnews.com\/videos\/ge-ceo-chairman-jeff-immelt-to-step-down\/"},"name":"GE CEO & Chairman Jeff Immelt to step down","description":"Yahoo finance columnist Rick Newman discusses the shakeup at GE after news that CEO Jeff Immelt will be handing over corporate leadership to the head of the GE\u0027s health care business, John Flannery.","thumbnail":{"@context":"https:\/\/schema.org","@type":"ImageObject","height":630,"width":1200,"url":"https:\/\/cbsnews2.cbsistatic.com\/hub\/i\/r\/2017\/06\/12\/c79448a7-f48c-4190-9a7c-fee2ec028929\/thumbnail\/1200x630\/6d46446e52242d5d87ba890bd535452a\/0612-cbsn-xbd-geceostepsdown-1333624-640x360.jpg"},"thumbnailUrl":"https:\/\/cbsnews2.cbsistatic.com\/hub\/i\/r\/2017\/06\/12\/c79448a7-f48c-4190-9a7c-fee2ec028929\/thumbnail\/1200x630\/6d46446e52242d5d87ba890bd535452a\/0612-cbsn-xbd-geceostepsdown-1333624-640x360.jpg","uploadDate":"2017-06-12T10:19:58-0400","contentUrl":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/06\/12\/965390915923\/0612_CBSN_XBD_GECEOStepsDown_1333622_740.mp4","publisher":{"@context":"https:\/\/schema.org","@type":"Organization","name":"CBS News","url":"https:\/\/www.cbsnews.com\/","logo":{"@type":"ImageObject","url":"https:\/\/cbsnews4.cbsistatic.com\/fly\/bundles\/cbsnewscore\/images\/standalone\/cbsnews-logo-600x60.png","width":600,"height":60}},"duration":"PT0H02M21S","embedUrl":"https:\/\/www.cbsnews.com\/embed\/videos\/ge-ceo-chairman-jeff-immelt-to-step-down\/"}}
+    </script><script type="application/ld+json">
+      {"@context":"http:\/\/schema.org\/","@type":"WebPage","name":"General Electric shifts gears under new CEO John Flannery","url":"https:\/\/www.cbsnews.com\/news\/general-electric-shifts-gears-under-new-ceo-john-flannery\/","speakable":{"@type":"SpeakableSpecification","cssSelector":["article header h1","article [data-page=\"1\"] > p:first-of-type"]}}
+    </script><script type="application/ld+json">
+      {"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https:\/\/www.cbsnews.com\/moneywatch\/","name":"MoneyWatch"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https:\/\/www.cbsnews.com\/moneywatch\/markets\/","name":"Markets"}}]}
+    </script><meta property="article:author" content=""><meta property="article:publisher" content="https://www.facebook.com/CBSMoneyWatch"><meta name="news_keywords" content="U.S., ge, general electric, Trian, business"><link rel="alternate" href="android-app://com.treemolabs.apps.cbsnews/http/www.cbsnews.com/news/general-electric-shifts-gears-under-new-ceo-john-flannery/"><link rel="amphtml" href="https://www.cbsnews.com/amp/news/general-electric-shifts-gears-under-new-ceo-john-flannery/"><link rel="preconnect dns-prefetch" href="//cbsnews1.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews2.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews3.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews4.cbsistatic.com"><link rel="canonical" href="https://www.cbsnews.com/news/general-electric-shifts-gears-under-new-ceo-john-flannery/"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-16x16.png?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e" sizes="16x16"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-32x32.png?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e" sizes="32x32"><link rel="shortcut icon" type="image/x-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e"><link rel="apple-touch-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/apple-touch-icon.png?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e"><svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;" class="site-header__icon-definitions"><defs><symbol id="icon-social-email" viewbox="0 0 32 32"><path d="M29.844 24c1.371-2.355 2.156-5.078 2.156-8 0-8.836-7.164-16-16-16s-16 7.164-16 16 7.164 16 16 16c4.418 0 8.418-1.789 11.312-4.688l-2.832-2.832c-2.171 2.176-5.171 3.52-8.48 3.52-6.617 0-12-5.383-12-12s5.383-12 12-12 12 5.383 12 12c0 1.422-0.273 2.781-0.73 4.047l-0.032-0.047h-3.238v-11.957h-8c-4.418 0-8 3.582-8 8s3.582 8 8 8c1.836 0 3.508-0.645 4.859-1.684 0.727 0.969 1.836 1.641 3.141 1.641h5.844zM20 14.008v2.035c0 2.207-1.797 4-4 4s-4-1.793-4-4 1.797-4 4-4h4v1.965z"></path></symbol><symbol id="icon-social-youtube" viewbox="0 0 32 32"><path d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z"></path></symbol><symbol id="icon-social-instagram" viewbox="0 0 32 32"><path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path><path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path><path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path></symbol><symbol id="icon-social-twitter" viewbox="0 0 32 32"><path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path></symbol><symbol id="icon-social-facebook" viewbox="0 0 32 32"><path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path></symbol></defs></svg><style>
+      
+@font-face{font-family:'foundation-sans-black';src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.eot");src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Black.svg#svgFontName") format("svg");font-weight:900;font-style:normal}@font-face{font-family:'foundation-sans-bold';src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.eot");src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Bold.svg#svgFontName") format("svg");font-weight:700;font-style:normal}@font-face{font-family:'foundation-sans-light';src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.eot");src:url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.woff") format("woff"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/foundation-sans/FoundationSans-Light.svg#svgFontName") format("svg");font-weight:300;font-style:normal}@font-face{font-family:'museo-sans';src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot");src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.svg#svgFontName") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'museo-sans-500';src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.eot");src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.svg#svgFontName") format("svg");font-weight:bold;font-style:normal}@font-face{font-family:'proxima-nova';src:url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.eot");src:url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.woff") format("woff"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/proxima-nova/ProximaNova-bold.svg#svgFontName") format("svg");font-weight:700;font-style:normal}h1,h2,h3,h4,h5,h6{font-family:"foundation-sans-bold", Helvetica, Roboto, sans-serif;font-weight:700}.site-header{font-family:"Proxima Nova", "proxima-nova", sans-serif;font-weight:700}
+
+
+    </style><link rel="stylesheet" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/css/main.moneywatch.desktop.css?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e"><!--[if lt IE 9]>
+    <script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js/libs/html5shiv-printshiv.js?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e"></script>
+    <![endif]--></head><body data-cms-edit='{"url":"https:\/\/cms.cbsnews.com\/content\/article\/f974f794-8c78-4744-b85f-c65086a1e6e1"}' class="desktop
+ article has__article-hero-video-player">
+        
+    <!-- src/CbsNews/CoreBundle/Resources/views/Layout/default.desktop.html.twig -->
+
+                <!-- comscorekw=moneywatchmarkets -->
+    
+
+    
+    <div id="fb-root"></div>
+                    <div id="intromercial-59dc9f4c541bc" class="ad-intromercial" data-ad="intromercial" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-59dc9f4c541bc for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-59dc9f4c541bc");
+    </script></div>
+
+    	<div class="body-container">
+
+        <!-- src/CbsNews/CoreBundle/Resources/views/Theme/moneywatch/header.desktop.html.twig -->
+
+
+
+<header class="site-header nocontent"><div id="breakingNewsBanner" data-component="ticker">
+        <include src="/feedfiles/breakingnews.desktop.html" onerror="continue"></include></div>
+
+    <div class="supplemental">
+    <div class="container">
+        <div class="col-9">
+            
+        <nav class="site-shows"><ul class="items"><li><a class="module-click-tracking" href="/" data-tracking="site header-show-nav|CBS News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/general-electric-shifts-gears-under-new-ceo-john-flannery/ Show-nav|CBS News"}' aria-label="">CBS News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/evening-news/" data-tracking="site header-show-nav|CBS Evening News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/general-electric-shifts-gears-under-new-ceo-john-flannery/ Show-nav|CBS Evening News"}' aria-label="">CBS Evening News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbs-this-morning/" data-tracking="site header-show-nav|CBS This Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/general-electric-shifts-gears-under-new-ceo-john-flannery/ Show-nav|CBS This Morning"}' aria-label="">CBS This Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/48-hours/" data-tracking="site header-show-nav|48 Hours" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/general-electric-shifts-gears-under-new-ceo-john-flannery/ Show-nav|48 Hours"}' aria-label="">48 Hours</a></li>
+                                                                        <li><a class="module-click-tracking" href="/60-minutes/" data-tracking="site header-show-nav|60 Minutes" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/general-electric-shifts-gears-under-new-ceo-john-flannery/ Show-nav|60 Minutes"}' aria-label="">60 Minutes</a></li>
+                                                                        <li><a class="module-click-tracking" href="/sunday-morning/" data-tracking="site header-show-nav|Sunday Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/general-electric-shifts-gears-under-new-ceo-john-flannery/ Show-nav|Sunday Morning"}' aria-label="">Sunday Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/face-the-nation/" data-tracking="site header-show-nav|Face The Nation" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/general-electric-shifts-gears-under-new-ceo-john-flannery/ Show-nav|Face The Nation"}' aria-label="">Face The Nation</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbsn-originals/" data-tracking="site header-show-nav|CBSN Originals" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/news/general-electric-shifts-gears-under-new-ceo-john-flannery/ Show-nav|CBSN Originals"}' aria-label="">CBSN Originals</a></li>
+            </ul></nav></div>
+        
+        <div class="col-3">
+            
+<form class="site-search" method="get" action="/search/">
+    <div class="search-wrapper" data-component="placeholder">
+        <input class="query" type="search" name="q" maxlength="255" placeholder="Search"></div>
+    <button class="submit core-search-header" type="submit">GO</button>
+</form>
+<ul class="login-wrapper logged-in"><li>
+        <!--<li class="site-section-tab"><a href="//secure-fly.cbsnews.com/user/registration/" data-user-show="register"><span>Join</span></a></li>-->
+                     <a class="site-login" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Channel Button"}'><span class="text">Log In</span></a>
+                <div class="menu-wrapper sign-in">
+            <span class="hover-padding"></span>
+            <span class="arrow"></span>
+            <ul class="login"><li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/login/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Login"}'>Log In</a>
+                    </li>
+                    <li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/registration/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Join CBSNews"}'>Join CBSNews.com</a>
+                    </li>
+                                                </ul></div>
+    </li>
+</ul></div>
+    </div>
+</div>
+    <div class="primary">
+        <div class="container">
+            <div class="logo moneywatch-logo" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Branding"}'><a href="/moneywatch/">CBS Moneywatch</a></div>
+
+            <nav class="site-sections"><ul class="items"><li><a href="/moneywatch/markets/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Markets"}'><span>Markets</span></a></li>
+                    <li><a href="/moneywatch/money/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Money"}'><span>Money</span></a></li>
+                    <li><a href="/moneywatch/work/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Work"}'><span>Work</span></a></li>
+                    <li><a href="/moneywatch/small-business/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Small Business"}'><span>Small Business</span></a></li>
+                    <li><a href="/moneywatch/retirement/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Retirement"}'><span>Retirement</span></a></li>
+                    <li><a href="/moneywatch/tech/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Tech"}'><span>Tech</span></a></li>
+                    <li><a href="/moneywatch/trending/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Trending"}'><span>Trending</span></a></li>
+                    <li><a href="/videos/topics/moneywatch/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header|Channel-MoneyWatch-nav|Video"}'><span>Video</span></a></li>
+                </ul></nav><div id="moneywatch-ticker">
+                <div id="stock-quote" section="stock-quote"> <form section="srch" name="tsearch" class="universalSearch" action="/quote" method="get" onsubmit="window.location.href='//markets.cbsnews.com/'+this.symbol.value+'/quote/'; return false;"> <div class="searchBoxWrap"> <span><input class="input top-input-ticker placeholder" id="search-stock-query" type="text" name="symbol" value="" placeholder="Quote"></span> </div> <input type="hidden" value="Symbol"><button id="search-stock-submit" class="top-search-ticker" type="submit">Get</button> </form> </div>
+            </div>
+        </div>
+    </div>
+
+</header><div id="mantle_skin" class="content-primary article-page show">
+                                                <div id="leader-video-top-59dc9f4c541bc" class="ad-leader-video-top" data-ad="leader-video-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-video-top-59dc9f4c541bc for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-video-top-59dc9f4c541bc");
+    </script></div>
+
+    
+                	  <div class="container">
+    <div class="row">
+                    <div class="row">
+    
+            
+            
+    <div class="col-12 nocontent">
+                                    
+                                    
+                                            
+    
+
+    
+
+
+
+    
+<div id="videoContainer" class="article-video-container">
+
+    
+	<div class="article-video-bg"></div>
+	<div class="row col-12 article-video-player">
+
+		<div class="col-8">
+
+                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+        												                                
+                            
+                            
+                            
+                            
+
+			    <figure class="media-block"><div id="cbsNewsVideoPlayerMag" data-generic-playlist-options='{"prizmaEnabled":false,"selector":"#media-related-items li","url":"https:\/\/www.cbsnews.com\/videos\/ge-ceo-chairman-jeff-immelt-to-step-down","title":"GE CEO &amp; Chairman Jeff Immelt to step down","dek":"Yahoo finance columnist Rick Newman discusses the shakeup at GE after news that CEO Jeff Immelt will be handing over corporate leadership to the head of the GE\u0027s health care business, John Flannery.","pageType":"Article","device":"desktop","mpxRefId":"FLDI8GFcf6nnS27wTmvj_hR7CvYVFt5g","playerWidth":"100%","playerHeight":"100%","targetElement":"cbsNewsVideoPlayerMag","subscriber":false,"viewable":true,"is60minfranchise":"","is6048Preview":false,"is60Extra":false,"psite":"https:\/\/www.cbsnews.com"}' data-component='["genericPlaylist"]'></div>
+                        
+			        			        			    </figure></div>
+
+		<div class="col-4 article-video-list">
+
+			<div class="module module-listing">
+			    <ul data-component="tabs" class="tabs"><li class="first"><a data-item="trigger" href="#tab-content-1" class="selected-asset">Trending Videos</a> <a href="https://www.cbsnews.com/live/?ftag=CNMff9323f" class="cbsn-link" data-invalid-url-rewritten-http="">CBSN Live &raquo;</a></li>
+                    				</ul><div data-component="scrollbar" id="tab-content-1" class="tab-content selected-asset">
+					<div class="content">
+					   <ul class="media-list items" id="media-related-items" role="navigation" aria-label="Trending Videos"><li data-video-info='{"item":{"mediaRtmpDesktop":"ClYlLO664dXF","mediaRtmpMobileHigh":"yR20rem4MfJL","mediaRtmpMobileLow":"_P_kN7ftz0kT","mediaHls":"AFjTL_b2_U9L","mediaHlsTablet":"e5KrJ0Pv_cPB","mediaHlsPhone":"TQmqlNqQ1riz","mediaImage":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/2017\/06\/12\/c79448a7-f48c-4190-9a7c-fee2ec028929\/0612-cbsn-xbd-geceostepsdown-1333624-640x360.jpg","duration":141,"articleTitle":"General Electric shifts gears under new CEO John Flannery","uuid":"fb1e26b7-b4fc-440f-a245-7c4b29c3ba83","url":"https:\/\/www.cbsnews.com\/videos\/ge-ceo-chairman-jeff-immelt-to-step-down","slug":"ge-ceo-chairman-jeff-immelt-to-step-down","mpxRefId":"FLDI8GFcf6nnS27wTmvj_hR7CvYVFt5g","topicname":"CBSN","is60minfranchise":"","is6048Preview":false,"is60Extra":false,"viewable":true,"mediaHlsURI":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/06\/12\/965390915923\/0612_CBSN_XBD_GECEOStepsDown_1333625_0\/0612_CBSN_XBD_GECEOStepsDown_1333625_0.m3u8","mediaHlsURITablet":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/06\/12\/965390915923\/0612_CBSN_XBD_GECEOStepsDown_1333625_tablet.m3u8","mediaHlsURIPhone":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/06\/12\/965390915923\/0612_CBSN_XBD_GECEOStepsDown_1333625_phone.m3u8","mediaRtmpDesktopURI":"{manifest:none}rtmp:\/\/cp98363.edgefcs.net\/ondemand\/?auth=cbs&amp;aifp=v001&amp;slist={slistPrefix}{break}{slistFilePath}media\/2017\/06\/12\/965390915923\/0612_CBSN_XBD_GECEOStepsDown_1333622_796.mp4{slistFilePath}{manifest:f4m}http:\/\/cbsnews-vh.akamaihd.net\/z\/{slist::true:false}.csmil\/manifest.f4m{manifest:m3u}http:\/\/cbsnews-vh.akamaihd.net\/i\/{slist::true:false}.csmil\/master.m3u8{manifest}","mediaRtmpMobileHighURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/06\/12\/965390915923\/0612_CBSN_XBD_GECEOStepsDown_1333622_740.mp4","mediaRtmpMobileLowURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/06\/12\/965390915923\/0612_CBSN_XBD_GECEOStepsDown_1333622_240.mp4"}}' data-pid="ClYlLO664dXF">
+							    <a href="/videos/ge-ceo-chairman-jeff-immelt-to-step-down" class="video_slug">
+							        <figure class="media-figure img-inset-thumb item-click"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/06/12/c79448a7-f48c-4190-9a7c-fee2ec028929/thumbnail/140x88/1787e9ccb6fdd105f166aa965c9f5e14/0612-cbsn-xbd-geceostepsdown-1333624-640x360.jpg#" alt=" " height="88" width="140" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/06/12/c79448a7-f48c-4190-9a7c-fee2ec028929/thumbnail/140x88/1787e9ccb6fdd105f166aa965c9f5e14/0612-cbsn-xbd-geceostepsdown-1333624-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/06/12/c79448a7-f48c-4190-9a7c-fee2ec028929/thumbnail/280x176/eb1b76ab8a8326355e4d640c696115c0/0612-cbsn-xbd-geceostepsdown-1333624-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+							        </figure></a>
+								<div class="media-body">
+									<h4 class="topic">CBSN</h4>
+										<h3 class="title"><a href="/videos/ge-ceo-chairman-jeff-immelt-to-step-down" class="video_slug item-click" title="GE CEO &amp; Chairman Jeff Immelt to step down">
+                                                                                GE CEO &amp; Chairman Jeff Immelt to step down</a>
+							    </h3></div>
+							</li>
+
+                                                                            
+					        
+				        	
+				        					        	
+                                                                                                                                                                        
+                                                                                    
+                                                                                        
+                                                                                          
+
+                                                                                                                                                                                                                                          
+                                                                                        
+                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                
+				        	<li data-video-info='{"item":{"mediaRtmpDesktop":"c5Iy7UYeXfs9","mediaRtmpMobileHigh":"7ii4lndkrMfT","mediaRtmpMobileLow":"YHz00QFqzcYa","mediaHls":"8ueqKARtXRS6","mediaHlsTablet":"6SAycnkDVOdb","mediaHlsPhone":"KNocaXBBedkN","mediaImage":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/2017\/10\/10\/b75abc72-4ab6-4072-931b-882f60d4c238\/cbsn-1009-dariengap-1415793-640x360.jpg","duration":1656,"url":"https:\/\/www.cbsnews.com\/videos\/darien-gap-desperate-journey-to-america","uuid":"b86c8290-1570-4480-9c09-38abc4405551","slug":"darien-gap-desperate-journey-to-america","articleTitle":"Darien Gap: Desperate Journey","mpxRefId":"2HIOwct54gsgX9cd9Hr8lBKOf1Dhl_QS","topicname":"CBSN Originals - Custom","mediaRtmpDesktopURI":"{manifest:none}rtmp:\/\/cp98363.edgefcs.net\/ondemand\/?auth=cbs&amp;aifp=v001&amp;slist={slistPrefix}{break}{slistFilePath}media\/2017\/10\/09\/1066798147651\/DARIEN_The_Darien_Gap_PKG_MPX_1415791_796.mp4{slistFilePath}{manifest:f4m}http:\/\/cbsnews-vh.akamaihd.net\/z\/{slist::true:false}.csmil\/manifest.f4m{manifest:m3u}http:\/\/cbsnews-vh.akamaihd.net\/i\/{slist::true:false}.csmil\/master.m3u8{manifest}","mediaRtmpMobileHighURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066798147651\/DARIEN_The_Darien_Gap_PKG_MPX_1415791_740.mp4","mediaRtmpMobileLowURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066798147651\/DARIEN_The_Darien_Gap_PKG_MPX_1415791_240.mp4","mediaHlsURI":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066798147651\/DARIEN_The_Darien_Gap_PKG_MPX_1415799_0\/DARIEN_The_Darien_Gap_PKG_MPX_1415799_0.m3u8","is60minfranchise":false,"is6048Preview":false,"is60Extra":false,"viewable":true,"mediaHlsURITablet":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066798147651\/DARIEN_The_Darien_Gap_PKG_MPX_1415799_tablet.m3u8","mediaHlsURIPhone":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066798147651\/DARIEN_The_Darien_Gap_PKG_MPX_1415799_phone.m3u8"}}' data-pid="c5Iy7UYeXfs9">
+							    <a href="/videos/darien-gap-desperate-journey-to-america" class="video_slug">
+							        <figure class="media-figure img-inset-thumb item-click"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/10/b75abc72-4ab6-4072-931b-882f60d4c238/thumbnail/140x88/57b92fd04d721dafd4f311d4df8fd54a/cbsn-1009-dariengap-1415793-640x360.jpg#" alt=" " height="88" width="140" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/10/b75abc72-4ab6-4072-931b-882f60d4c238/thumbnail/140x88/57b92fd04d721dafd4f311d4df8fd54a/cbsn-1009-dariengap-1415793-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/10/b75abc72-4ab6-4072-931b-882f60d4c238/thumbnail/280x176/acec0166a17dd2497de702946d1fdb2d/cbsn-1009-dariengap-1415793-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+							        </figure></a>
+								<div class="media-body">
+                                    									<h4 class="topic">CBSN Originals - Custom</h4>
+                                        										<h3 class="title"><a href="/videos/darien-gap-desperate-journey-to-america" class="video_slug item-click" title="Darien Gap: Desperate Journey">Darien Gap: Desperate Journey</a>
+							    </h3></div>
+							</li>
+																												
+				        	
+				        					        	
+                                                                                                                                                                        
+                                                                                    
+                                                                                        
+                                                                                          
+
+                                                                                                                                                                                                                                          
+                                                                                        
+                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                
+				        	<li data-video-info='{"item":{"mediaRtmpDesktop":"48oyDZQ7Wg8V","mediaRtmpMobileHigh":"NFMa0kh0XMRl","mediaRtmpMobileLow":"IRuN_ZHKqr4B","mediaHls":"_FUXU15bbsdF","mediaHlsTablet":"HjBSGkQ1PSuc","mediaHlsPhone":"vctfTl9DYXcz","mediaImage":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/2017\/10\/09\/b2d90720-4658-4d4b-a59d-e7001c2635c7\/1009-unreasonable2-barclaysponsor-1415155-640x360.jpg","duration":171,"url":"https:\/\/www.cbsnews.com\/videos\/from-plastic-to-posh-purse","uuid":"da960f72-6659-4d91-86df-9291d3d3cec6","slug":"from-plastic-to-posh-purse","articleTitle":"From plastic to posh purse","mpxRefId":"YkiLzap0ug55nVy7jbPnAj4brw7z8js1","topicname":"MoneyWatch - Friday","mediaRtmpDesktopURI":"{manifest:none}rtmp:\/\/cp98363.edgefcs.net\/ondemand\/?auth=cbs&amp;aifp=v001&amp;slist={slistPrefix}{break}{slistFilePath}media\/2017\/10\/09\/1066344515647\/CressyWestlingFinal_NOMUSIC_MIXDOWN_1415202_796.mp4{slistFilePath}{manifest:f4m}http:\/\/cbsnews-vh.akamaihd.net\/z\/{slist::true:false}.csmil\/manifest.f4m{manifest:m3u}http:\/\/cbsnews-vh.akamaihd.net\/i\/{slist::true:false}.csmil\/master.m3u8{manifest}","mediaRtmpMobileHighURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066344515647\/CressyWestlingFinal_NOMUSIC_MIXDOWN_1415202_740.mp4","mediaRtmpMobileLowURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066344515647\/CressyWestlingFinal_NOMUSIC_MIXDOWN_1415202_240.mp4","mediaHlsURI":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066344515647\/CressyWestlingFinal_NOMUSIC_MIXDOWN_1415203_0\/CressyWestlingFinal_NOMUSIC_MIXDOWN_1415203_0.m3u8","is60minfranchise":false,"is6048Preview":false,"is60Extra":false,"viewable":true,"mediaHlsURITablet":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066344515647\/CressyWestlingFinal_NOMUSIC_MIXDOWN_1415203_tablet.m3u8","mediaHlsURIPhone":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066344515647\/CressyWestlingFinal_NOMUSIC_MIXDOWN_1415203_phone.m3u8"}}' data-pid="48oyDZQ7Wg8V">
+							    <a href="/videos/from-plastic-to-posh-purse" class="video_slug">
+							        <figure class="media-figure img-inset-thumb item-click"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/b2d90720-4658-4d4b-a59d-e7001c2635c7/thumbnail/140x88/d3ac57cd1ddfb1e8f6224f83f0691a43/1009-unreasonable2-barclaysponsor-1415155-640x360.jpg#" alt=" " height="88" width="140" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/b2d90720-4658-4d4b-a59d-e7001c2635c7/thumbnail/140x88/d3ac57cd1ddfb1e8f6224f83f0691a43/1009-unreasonable2-barclaysponsor-1415155-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/09/b2d90720-4658-4d4b-a59d-e7001c2635c7/thumbnail/280x176/f6e76ee9e0db61ba6a658014c50b8da0/1009-unreasonable2-barclaysponsor-1415155-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+							        </figure></a>
+								<div class="media-body">
+                                    									<h4 class="topic">MoneyWatch - Friday</h4>
+                                        										<h3 class="title"><a href="/videos/from-plastic-to-posh-purse" class="video_slug item-click" title="From plastic to posh purse">From plastic to posh purse</a>
+							    </h3></div>
+							</li>
+																												
+				        	
+				        					        	
+                                                                                                                                                                        
+                                                                                    
+                                                                                        
+                                                                                          
+
+                                                                                                                                                                                                                                          
+                                                                                        
+                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                
+                                                                                                                                                                                                
+				        	<li data-video-info='{"item":{"mediaRtmpDesktop":"u_9u8qAG27DJ","mediaRtmpMobileHigh":"aE9qU96mj2ej","mediaRtmpMobileLow":"hETgKqUuiG_w","mediaHls":"G7soOdGTdgsb","mediaHlsTablet":"nFD5fTQUeCn3","mediaHlsPhone":"FM_h0VdtiYV8","mediaImage":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/2017\/10\/10\/b119e621-b472-4f64-a72e-1379f002ab01\/darien-diary-bug-1415857-640x360.jpg","duration":531,"url":"https:\/\/www.cbsnews.com\/videos\/the-darien-gap-not-by-choice","uuid":"352f74af-7037-4cbf-8c33-0127e5612176","slug":"the-darien-gap-not-by-choice","articleTitle":"Why trek the Darien Gap?","mpxRefId":"ZQTEkixSXORL1ky9tuVGs4h23rdFKG0e","topicname":"CBSN Originals - Custom","mediaRtmpDesktopURI":"{manifest:none}rtmp:\/\/cp98363.edgefcs.net\/ondemand\/?auth=cbs&amp;aifp=v001&amp;slist={slistPrefix}{break}{slistFilePath}media\/2017\/10\/10\/1066947139706\/DARIEN_DIARY_BUG_V2_1415856_796.mp4{slistFilePath}{manifest:f4m}http:\/\/cbsnews-vh.akamaihd.net\/z\/{slist::true:false}.csmil\/manifest.f4m{manifest:m3u}http:\/\/cbsnews-vh.akamaihd.net\/i\/{slist::true:false}.csmil\/master.m3u8{manifest}","mediaRtmpMobileHighURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/10\/1066947139706\/DARIEN_DIARY_BUG_V2_1415856_740.mp4","mediaRtmpMobileLowURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/10\/1066947139706\/DARIEN_DIARY_BUG_V2_1415856_240.mp4","mediaHlsURI":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/10\/1066947139706\/DARIEN_DIARY_BUG_V2_1415862_0\/DARIEN_DIARY_BUG_V2_1415862_0.m3u8","is60minfranchise":false,"is6048Preview":false,"is60Extra":false,"viewable":true,"mediaHlsURITablet":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/10\/1066947139706\/DARIEN_DIARY_BUG_V2_1415862_tablet.m3u8","mediaHlsURIPhone":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/10\/1066947139706\/DARIEN_DIARY_BUG_V2_1415862_phone.m3u8"}}' data-pid="u_9u8qAG27DJ">
+							    <a href="/videos/the-darien-gap-not-by-choice" class="video_slug">
+							        <figure class="media-figure img-inset-thumb item-click"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/10/b119e621-b472-4f64-a72e-1379f002ab01/thumbnail/140x88/81e7b3a3f1907833650cef696d56f1a5/darien-diary-bug-1415857-640x360.jpg#" alt=" " height="88" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/10/b119e621-b472-4f64-a72e-1379f002ab01/thumbnail/140x88/81e7b3a3f1907833650cef696d56f1a5/darien-diary-bug-1415857-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/10/b119e621-b472-4f64-a72e-1379f002ab01/thumbnail/280x176/29cb236dc0058a5d601309b486632baa/darien-diary-bug-1415857-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+							        </figure></a>
+								<div class="media-body">
+                                    									<h4 class="topic">CBSN Originals - Custom</h4>
+                                        										<h3 class="title"><a href="/videos/the-darien-gap-not-by-choice" class="video_slug item-click" title="Why trek the Darien Gap?">Why trek the Darien Gap?</a>
+							    </h3></div>
+							</li>
+																												
+				        	
+				        					        	
+                                                                                                                                                                        
+                                                                                    
+                                                                                        
+                                                                                          
+
+                                                                                        
+                                                                                        
+                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                
+				        	<li data-video-info='{"item":{"mediaRtmpDesktop":"AgbpC1bZAB03","mediaRtmpMobileHigh":"Mv_arJNNagJI","mediaRtmpMobileLow":"E6I2DA8vvSdC","mediaHls":"bBtvtoS3wn4B","mediaHlsTablet":"GW_gMA8Uuqxj","mediaHlsPhone":"rvtio7HWpYRT","mediaImage":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/2017\/10\/09\/5c223641-d848-4a72-b5a5-316f6d43005d\/1009-en-villarreal-cafires-1415717-640x360.jpg","duration":156,"url":"https:\/\/www.cbsnews.com\/videos\/fast-moving-california-wildfires-threatening-thousands-of-homes","uuid":"eec45c41-5f2b-4151-b2c1-9d260f6158b4","slug":"fast-moving-california-wildfires-threatening-thousands-of-homes","articleTitle":"Calif. wildfires","mpxRefId":"FCGVCqyY85DaBgHyFdD2C9cA7tIT48UU","topicname":"CBS Evening News","mediaRtmpDesktopURI":"{manifest:none}rtmp:\/\/cp98363.edgefcs.net\/ondemand\/?auth=cbs&amp;aifp=v001&amp;slist={slistPrefix}{break}{slistFilePath}media\/2017\/10\/09\/1066700355937\/EN_1009_VillarrealREPLACEMENT_1415875_796.mp4{slistFilePath}{manifest:f4m}http:\/\/cbsnews-vh.akamaihd.net\/z\/{slist::true:false}.csmil\/manifest.f4m{manifest:m3u}http:\/\/cbsnews-vh.akamaihd.net\/i\/{slist::true:false}.csmil\/master.m3u8{manifest}","mediaRtmpMobileHighURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066700355937\/EN_1009_VillarrealREPLACEMENT_1415875_740.mp4","mediaRtmpMobileLowURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066700355937\/EN_1009_VillarrealREPLACEMENT_1415875_240.mp4","mediaHlsURI":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066700355937\/EN_1009_VillarrealREPLACEMENT_1415877_500\/EN_1009_VillarrealREPLACEMENT_1415877_500.m3u8","is60minfranchise":false,"is6048Preview":false,"is60Extra":false,"viewable":true,"mediaHlsURITablet":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066700355937\/EN_1009_VillarrealREPLACEMENT_1415877_tablet.m3u8","mediaHlsURIPhone":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066700355937\/EN_1009_VillarrealREPLACEMENT_1415877_phone.m3u8"}}' data-pid="AgbpC1bZAB03">
+							    <a href="/videos/fast-moving-california-wildfires-threatening-thousands-of-homes" class="video_slug">
+							        <figure class="media-figure img-inset-thumb item-click"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/09/5c223641-d848-4a72-b5a5-316f6d43005d/thumbnail/140x88/38eacc7ec031b6277661347db8e858b7/1009-en-villarreal-cafires-1415717-640x360.jpg#" alt=" " height="88" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/09/5c223641-d848-4a72-b5a5-316f6d43005d/thumbnail/140x88/38eacc7ec031b6277661347db8e858b7/1009-en-villarreal-cafires-1415717-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/09/5c223641-d848-4a72-b5a5-316f6d43005d/thumbnail/280x176/43c5ba519ab9ae6cfd3d0de457eafb93/1009-en-villarreal-cafires-1415717-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+							        </figure></a>
+								<div class="media-body">
+                                    									<h4 class="topic">CBS Evening News</h4>
+                                        										<h3 class="title"><a href="/videos/fast-moving-california-wildfires-threatening-thousands-of-homes" class="video_slug item-click" title="Calif. wildfires">Calif. wildfires</a>
+							    </h3></div>
+							</li>
+																												
+				        	
+				        					        	
+                                                                                                                                                                        
+                                                                                    
+                                                                                        
+                                                                                          
+
+                                                                                        
+                                                                                        
+                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                
+				        	<li data-video-info='{"item":{"mediaRtmpDesktop":"Hn3NGsTDDowl","mediaRtmpMobileHigh":"WYf3pJYBjDpq","mediaRtmpMobileLow":"yfNvxGhgqGfg","mediaHls":"YmWRgleyq8hP","mediaHlsTablet":"w3YVllmndMxZ","mediaHlsPhone":"OsjyOykLJ3_r","mediaImage":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/2017\/10\/09\/b890d042-5d72-4a2d-8480-49e5e4b55b99\/1009-en-yuucas-lvshooting-1415723-640x360.jpg","duration":105,"url":"https:\/\/www.cbsnews.com\/videos\/deposition-opens-new-window-into-las-vegas-shooter-stephen-paddocks-past","uuid":"9d340118-d872-45fe-ab62-6c8a1251af08","slug":"deposition-opens-new-window-into-las-vegas-shooter-stephen-paddocks-past","articleTitle":"Paddock deposition","mpxRefId":"skzc0WU1jWsixt__pTf1R8n1Xykjo_sz","topicname":"CBS Evening News","mediaRtmpDesktopURI":"{manifest:none}rtmp:\/\/cp98363.edgefcs.net\/ondemand\/?auth=cbs&amp;aifp=v001&amp;slist={slistPrefix}{break}{slistFilePath}media\/2017\/10\/09\/1066703939983\/EN_1009_YuccasREPLACEMENT_1415828_796.mp4{slistFilePath}{manifest:f4m}http:\/\/cbsnews-vh.akamaihd.net\/z\/{slist::true:false}.csmil\/manifest.f4m{manifest:m3u}http:\/\/cbsnews-vh.akamaihd.net\/i\/{slist::true:false}.csmil\/master.m3u8{manifest}","mediaRtmpMobileHighURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066703939983\/EN_1009_YuccasREPLACEMENT_1415828_740.mp4","mediaRtmpMobileLowURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066703939983\/EN_1009_YuccasREPLACEMENT_1415828_240.mp4","mediaHlsURI":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066703939983\/EN_1009_YuccasREPLACEMENT_1415832_0\/EN_1009_YuccasREPLACEMENT_1415832_0.m3u8","is60minfranchise":false,"is6048Preview":false,"is60Extra":false,"viewable":true,"mediaHlsURITablet":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066703939983\/EN_1009_YuccasREPLACEMENT_1415832_tablet.m3u8","mediaHlsURIPhone":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066703939983\/EN_1009_YuccasREPLACEMENT_1415832_phone.m3u8"}}' data-pid="Hn3NGsTDDowl">
+							    <a href="/videos/deposition-opens-new-window-into-las-vegas-shooter-stephen-paddocks-past" class="video_slug">
+							        <figure class="media-figure img-inset-thumb item-click"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/09/b890d042-5d72-4a2d-8480-49e5e4b55b99/thumbnail/140x88/f6686576364ddef410fef6f5b7d5dc41/1009-en-yuucas-lvshooting-1415723-640x360.jpg#" alt=" " height="88" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/09/b890d042-5d72-4a2d-8480-49e5e4b55b99/thumbnail/140x88/f6686576364ddef410fef6f5b7d5dc41/1009-en-yuucas-lvshooting-1415723-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/b890d042-5d72-4a2d-8480-49e5e4b55b99/thumbnail/280x176/cc2ca2d584d0ce9298093bd96adc03f3/1009-en-yuucas-lvshooting-1415723-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+							        </figure></a>
+								<div class="media-body">
+                                    									<h4 class="topic">CBS Evening News</h4>
+                                        										<h3 class="title"><a href="/videos/deposition-opens-new-window-into-las-vegas-shooter-stephen-paddocks-past" class="video_slug item-click" title="Paddock deposition">Paddock deposition</a>
+							    </h3></div>
+							</li>
+																												
+				        	
+				        					        	
+                                                                                                                                                                        
+                                                                                    
+                                                                                        
+                                                                                          
+
+                                                                                        
+                                                                                        
+                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                
+                                                                                                                                                                                                
+				        	<li data-video-info='{"item":{"mediaRtmpDesktop":"o6vXppErJiR4","mediaRtmpMobileHigh":"NtVK5oBpi_e8","mediaRtmpMobileLow":"654S5PQZXK7A","mediaHls":"KcxbXW_ZUOkv","mediaHlsTablet":"nEWKH8I7m3xi","mediaHlsPhone":"QTtxuINvZ5N3","mediaImage":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/2017\/10\/09\/eb3a9d3c-2aef-4060-bc36-83476efab685\/1009-en-brennan-trumpcorker-1415725-640x360.jpg","duration":126,"url":"https:\/\/www.cbsnews.com\/videos\/trump-picks-fight-with-sen-bob-corker-while-iran-deal-and-tax-reform-are-on-the-line","uuid":"82bb6c26-5c98-4f42-a898-86d17b219482","slug":"trump-picks-fight-with-sen-bob-corker-while-iran-deal-and-tax-reform-are-on-the-line","articleTitle":"Trump and Corker","mpxRefId":"UcckLabanouU_oLciezlYEGN__VZhN_h","topicname":"CBS Evening News","mediaRtmpDesktopURI":"{manifest:none}rtmp:\/\/cp98363.edgefcs.net\/ondemand\/?auth=cbs&amp;aifp=v001&amp;slist={slistPrefix}{break}{slistFilePath}media\/2017\/10\/09\/1066709571546\/EN_1009_BrennanTrumpREPLACEMENT_1415837_796.mp4{slistFilePath}{manifest:f4m}http:\/\/cbsnews-vh.akamaihd.net\/z\/{slist::true:false}.csmil\/manifest.f4m{manifest:m3u}http:\/\/cbsnews-vh.akamaihd.net\/i\/{slist::true:false}.csmil\/master.m3u8{manifest}","mediaRtmpMobileHighURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066709571546\/EN_1009_BrennanTrumpREPLACEMENT_1415837_740.mp4","mediaRtmpMobileLowURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066709571546\/EN_1009_BrennanTrumpREPLACEMENT_1415837_240.mp4","mediaHlsURI":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066709571546\/EN_1009_BrennanTrumpREPLACEMENT_1415843_500\/EN_1009_BrennanTrumpREPLACEMENT_1415843_500.m3u8","is60minfranchise":false,"is6048Preview":false,"is60Extra":false,"viewable":true,"mediaHlsURITablet":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066709571546\/EN_1009_BrennanTrumpREPLACEMENT_1415843_tablet.m3u8","mediaHlsURIPhone":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066709571546\/EN_1009_BrennanTrumpREPLACEMENT_1415843_phone.m3u8"}}' data-pid="o6vXppErJiR4">
+							    <a href="/videos/trump-picks-fight-with-sen-bob-corker-while-iran-deal-and-tax-reform-are-on-the-line" class="video_slug">
+							        <figure class="media-figure img-inset-thumb item-click"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/09/eb3a9d3c-2aef-4060-bc36-83476efab685/thumbnail/140x88/99f7f640e28b95bea202e190f3490084/1009-en-brennan-trumpcorker-1415725-640x360.jpg#" alt=" " height="88" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/09/eb3a9d3c-2aef-4060-bc36-83476efab685/thumbnail/140x88/99f7f640e28b95bea202e190f3490084/1009-en-brennan-trumpcorker-1415725-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/eb3a9d3c-2aef-4060-bc36-83476efab685/thumbnail/280x176/07892a2ff4c773a1a1a7ed9ee0ea67d7/1009-en-brennan-trumpcorker-1415725-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+							        </figure></a>
+								<div class="media-body">
+                                    									<h4 class="topic">CBS Evening News</h4>
+                                        										<h3 class="title"><a href="/videos/trump-picks-fight-with-sen-bob-corker-while-iran-deal-and-tax-reform-are-on-the-line" class="video_slug item-click" title="Trump and Corker">Trump and Corker</a>
+							    </h3></div>
+							</li>
+																												
+				        	
+				        					        	
+                                                                                                                                                                        
+                                                                                    
+                                                                                        
+                                                                                          
+
+                                                                                        
+                                                                                        
+                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                
+				        	<li data-video-info='{"item":{"mediaRtmpDesktop":"s8g0Ux_Pj5zn","mediaRtmpMobileHigh":"aY2OzrDypSMQ","mediaRtmpMobileLow":"ExppIOyxRobG","mediaHls":"2WqoXesXPPLT","mediaHlsTablet":"MK_dedNpw925","mediaHlsPhone":"sA0EbOH87W9W","mediaImage":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/2017\/10\/09\/74bb3ba6-562b-4245-bb79-1bdce0337ab9\/1009-en-tracy-chinasolar-1415739-640x360.jpg","duration":124,"url":"https:\/\/www.cbsnews.com\/videos\/while-u-s-moves-toward-coal-china-betting-big-on-solar","uuid":"086b365b-64ba-4d2a-be5b-7d434415539e","slug":"while-u-s-moves-toward-coal-china-betting-big-on-solar","articleTitle":"China\u0027s big solar bet","mpxRefId":"Lw77_zkgWiU94RQi2iFnN25ClD0h_0wr","topicname":"CBS Evening News","mediaRtmpDesktopURI":"{manifest:none}rtmp:\/\/cp98363.edgefcs.net\/ondemand\/?auth=cbs&amp;aifp=v001&amp;slist={slistPrefix}{break}{slistFilePath}media\/2017\/10\/09\/1066708547760\/1009_EN_Tracy_ChinaSolar_1415735_796.mp4{slistFilePath}{manifest:f4m}http:\/\/cbsnews-vh.akamaihd.net\/z\/{slist::true:false}.csmil\/manifest.f4m{manifest:m3u}http:\/\/cbsnews-vh.akamaihd.net\/i\/{slist::true:false}.csmil\/master.m3u8{manifest}","mediaRtmpMobileHighURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066708547760\/1009_EN_Tracy_ChinaSolar_1415735_740.mp4","mediaRtmpMobileLowURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066708547760\/1009_EN_Tracy_ChinaSolar_1415735_240.mp4","mediaHlsURI":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066708547760\/1009_EN_Tracy_ChinaSolar_1415751_500\/1009_EN_Tracy_ChinaSolar_1415751_500.m3u8","is60minfranchise":false,"is6048Preview":false,"is60Extra":false,"viewable":true,"mediaHlsURITablet":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066708547760\/1009_EN_Tracy_ChinaSolar_1415751_tablet.m3u8","mediaHlsURIPhone":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066708547760\/1009_EN_Tracy_ChinaSolar_1415751_phone.m3u8"}}' data-pid="s8g0Ux_Pj5zn">
+							    <a href="/videos/while-u-s-moves-toward-coal-china-betting-big-on-solar" class="video_slug">
+							        <figure class="media-figure img-inset-thumb item-click"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/74bb3ba6-562b-4245-bb79-1bdce0337ab9/thumbnail/140x88/e62b8c6f017a3c3fd358b473209b5874/1009-en-tracy-chinasolar-1415739-640x360.jpg#" alt=" " height="88" width="140" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/74bb3ba6-562b-4245-bb79-1bdce0337ab9/thumbnail/140x88/e62b8c6f017a3c3fd358b473209b5874/1009-en-tracy-chinasolar-1415739-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/09/74bb3ba6-562b-4245-bb79-1bdce0337ab9/thumbnail/280x176/fc087815b547fc2933307911c5a22dbe/1009-en-tracy-chinasolar-1415739-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+							        </figure></a>
+								<div class="media-body">
+                                    									<h4 class="topic">CBS Evening News</h4>
+                                        										<h3 class="title"><a href="/videos/while-u-s-moves-toward-coal-china-betting-big-on-solar" class="video_slug item-click" title="China's big solar bet">China's big solar bet</a>
+							    </h3></div>
+							</li>
+																												
+				        	
+				        					        	
+                                                                                                                                                                        
+                                                                                    
+                                                                                        
+                                                                                          
+
+                                                                                        
+                                                                                        
+                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                
+				        	<li data-video-info='{"item":{"mediaRtmpDesktop":"__czOjGvFhMW","mediaRtmpMobileHigh":"nKBbDbhoJNZF","mediaRtmpMobileLow":"xmHvlQ7521cP","mediaHls":"XqF6Jf_ItGxi","mediaHlsTablet":"y3F9iOO_wK4F","mediaHlsPhone":"qxXjO_rVrM9Q","mediaImage":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/2017\/10\/09\/697c815e-5b34-4e02-84de-95da68f5f0e8\/1009-en-goldman-penceanthem-1415749-640x360.jpg","duration":130,"url":"https:\/\/www.cbsnews.com\/videos\/pences-walk-out-from-nfl-game-draws-criticism-for-cost-planned-tweets","uuid":"a91f70e2-7f73-461a-8d07-ee89a70ade0d","slug":"pences-walk-out-from-nfl-game-draws-criticism-for-cost-planned-tweets","articleTitle":"Pence NFL walkout","mpxRefId":"h7b7jwsS02Ww9fZoE0G3R2LtjjltCXGw","topicname":"CBS Evening News","mediaRtmpDesktopURI":"{manifest:none}rtmp:\/\/cp98363.edgefcs.net\/ondemand\/?auth=cbs&amp;aifp=v001&amp;slist={slistPrefix}{break}{slistFilePath}media\/2017\/10\/09\/1066716739763\/EN_1009_GoldmanPenceREPLACEMENT_1415844_796.mp4{slistFilePath}{manifest:f4m}http:\/\/cbsnews-vh.akamaihd.net\/z\/{slist::true:false}.csmil\/manifest.f4m{manifest:m3u}http:\/\/cbsnews-vh.akamaihd.net\/i\/{slist::true:false}.csmil\/master.m3u8{manifest}","mediaRtmpMobileHighURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066716739763\/EN_1009_GoldmanPenceREPLACEMENT_1415844_740.mp4","mediaRtmpMobileLowURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066716739763\/EN_1009_GoldmanPenceREPLACEMENT_1415844_240.mp4","mediaHlsURI":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066716739763\/EN_1009_GoldmanPenceREPLACEMENT_1415845_500\/EN_1009_GoldmanPenceREPLACEMENT_1415845_500.m3u8","is60minfranchise":false,"is6048Preview":false,"is60Extra":false,"viewable":true,"mediaHlsURITablet":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066716739763\/EN_1009_GoldmanPenceREPLACEMENT_1415845_tablet.m3u8","mediaHlsURIPhone":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066716739763\/EN_1009_GoldmanPenceREPLACEMENT_1415845_phone.m3u8"}}' data-pid="__czOjGvFhMW">
+							    <a href="/videos/pences-walk-out-from-nfl-game-draws-criticism-for-cost-planned-tweets" class="video_slug">
+							        <figure class="media-figure img-inset-thumb item-click"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/09/697c815e-5b34-4e02-84de-95da68f5f0e8/thumbnail/140x88/346b86e0849ca7325a39fe2a78fb2438/1009-en-goldman-penceanthem-1415749-640x360.jpg#" alt=" " height="88" width="140" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/09/697c815e-5b34-4e02-84de-95da68f5f0e8/thumbnail/140x88/346b86e0849ca7325a39fe2a78fb2438/1009-en-goldman-penceanthem-1415749-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/09/697c815e-5b34-4e02-84de-95da68f5f0e8/thumbnail/280x176/b9d464f52630f9203c33613bfe4a6dc8/1009-en-goldman-penceanthem-1415749-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+							        </figure></a>
+								<div class="media-body">
+                                    									<h4 class="topic">CBS Evening News</h4>
+                                        										<h3 class="title"><a href="/videos/pences-walk-out-from-nfl-game-draws-criticism-for-cost-planned-tweets" class="video_slug item-click" title="Pence NFL walkout">Pence NFL walkout</a>
+							    </h3></div>
+							</li>
+																												
+				        	
+				        					        	
+                                                                                                                                                                        
+                                                                                    
+                                                                                        
+                                                                                          
+
+                                                                                        
+                                                                                        
+                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                
+				        	<li data-video-info='{"item":{"mediaRtmpDesktop":"RopEUAmu0VPy","mediaRtmpMobileHigh":"k6AlVCRer8SF","mediaRtmpMobileLow":"UiA05GeGyGLW","mediaHls":"aru8EI3_BR_5","mediaHlsTablet":"hoPKX8zLlJMq","mediaHlsPhone":"FvIXuMlVRrKr","mediaImage":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/2017\/10\/09\/e38d98df-506d-42f0-beae-5da3b98719cf\/1009-en-williams-raqqa-1415761-640x360.jpg","duration":167,"url":"https:\/\/www.cbsnews.com\/videos\/u-s-backed-militias-close-in-on-isis-self-proclaimed-capital-raqqa","uuid":"cf506ff5-db4e-4030-afdd-5d33f1d75152","slug":"u-s-backed-militias-close-in-on-isis-self-proclaimed-capital-raqqa","articleTitle":"Raqqa victory close","mpxRefId":"OZk_Z7eW_Kih_wDXRR_JEdc1Yy6FzywB","topicname":"CBS Evening News","mediaRtmpDesktopURI":"{manifest:none}rtmp:\/\/cp98363.edgefcs.net\/ondemand\/?auth=cbs&amp;aifp=v001&amp;slist={slistPrefix}{break}{slistFilePath}media\/2017\/10\/09\/1066723395614\/1009_EN_Williams_Raqqa_1415758_796.mp4{slistFilePath}{manifest:f4m}http:\/\/cbsnews-vh.akamaihd.net\/z\/{slist::true:false}.csmil\/manifest.f4m{manifest:m3u}http:\/\/cbsnews-vh.akamaihd.net\/i\/{slist::true:false}.csmil\/master.m3u8{manifest}","mediaRtmpMobileHighURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066723395614\/1009_EN_Williams_Raqqa_1415758_740.mp4","mediaRtmpMobileLowURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066723395614\/1009_EN_Williams_Raqqa_1415758_240.mp4","mediaHlsURI":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066723395614\/1009_EN_Williams_Raqqa_1415763_500\/1009_EN_Williams_Raqqa_1415763_500.m3u8","is60minfranchise":false,"is6048Preview":false,"is60Extra":false,"viewable":true,"mediaHlsURITablet":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066723395614\/1009_EN_Williams_Raqqa_1415763_tablet.m3u8","mediaHlsURIPhone":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066723395614\/1009_EN_Williams_Raqqa_1415763_phone.m3u8"}}' data-pid="RopEUAmu0VPy">
+							    <a href="/videos/u-s-backed-militias-close-in-on-isis-self-proclaimed-capital-raqqa" class="video_slug">
+							        <figure class="media-figure img-inset-thumb item-click"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/e38d98df-506d-42f0-beae-5da3b98719cf/thumbnail/140x88/3858fed8f67b5a629e74f3bb27e2b9f3/1009-en-williams-raqqa-1415761-640x360.jpg#" alt=" " height="88" width="140" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/e38d98df-506d-42f0-beae-5da3b98719cf/thumbnail/140x88/3858fed8f67b5a629e74f3bb27e2b9f3/1009-en-williams-raqqa-1415761-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/e38d98df-506d-42f0-beae-5da3b98719cf/thumbnail/280x176/06f9b40fc5b04a3c867b28efa8aaaca2/1009-en-williams-raqqa-1415761-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+							        </figure></a>
+								<div class="media-body">
+                                    									<h4 class="topic">CBS Evening News</h4>
+                                        										<h3 class="title"><a href="/videos/u-s-backed-militias-close-in-on-isis-self-proclaimed-capital-raqqa" class="video_slug item-click" title="Raqqa victory close">Raqqa victory close</a>
+							    </h3></div>
+							</li>
+																												
+				        	
+				        					        	
+                                                                                                                                                                        
+                                                                                    
+                                                                                        
+                                                                                          
+
+                                                                                        
+                                                                                        
+                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                
+				        	<li data-video-info='{"item":{"mediaRtmpDesktop":"PbN8Hq6bJIHg","mediaRtmpMobileHigh":"Pv12yvR8fIEW","mediaRtmpMobileLow":"xJ6bmzdBasO_","mediaHls":"pNRlmhF_B0yM","mediaHlsTablet":"4XqIymseEjXH","mediaHlsPhone":"T_cBDTQ8cDiE","mediaImage":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/2017\/10\/09\/9cea1b4d-4dc0-43f0-91c6-5ff8bb38b2d5\/1009-en-duncan-harveyweinstein-1415772-640x360.jpg","duration":142,"url":"https:\/\/www.cbsnews.com\/videos\/harvey-weinstein-accuser-lauren-sivan-tells-her-story-of-sexual-harassment-claims","uuid":"91a907a0-337c-4dbb-8b99-db09c66b6211","slug":"harvey-weinstein-accuser-lauren-sivan-tells-her-story-of-sexual-harassment-claims","articleTitle":"Weinstein accuser speaks","mpxRefId":"c1GgJIO3G8FuLMzwKox0vgO6SZjG4ZuE","topicname":"CBS Evening News","mediaRtmpDesktopURI":"{manifest:none}rtmp:\/\/cp98363.edgefcs.net\/ondemand\/?auth=cbs&amp;aifp=v001&amp;slist={slistPrefix}{break}{slistFilePath}media\/2017\/10\/09\/1066733635580\/1009_EN_Duncan_HarveyWeinstein_1415771_796.mp4{slistFilePath}{manifest:f4m}http:\/\/cbsnews-vh.akamaihd.net\/z\/{slist::true:false}.csmil\/manifest.f4m{manifest:m3u}http:\/\/cbsnews-vh.akamaihd.net\/i\/{slist::true:false}.csmil\/master.m3u8{manifest}","mediaRtmpMobileHighURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066733635580\/1009_EN_Duncan_HarveyWeinstein_1415771_740.mp4","mediaRtmpMobileLowURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066733635580\/1009_EN_Duncan_HarveyWeinstein_1415771_240.mp4","mediaHlsURI":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066733635580\/1009_EN_Duncan_HarveyWeinstein_1415776_0\/1009_EN_Duncan_HarveyWeinstein_1415776_0.m3u8","is60minfranchise":false,"is6048Preview":false,"is60Extra":false,"viewable":true,"mediaHlsURITablet":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066733635580\/1009_EN_Duncan_HarveyWeinstein_1415776_tablet.m3u8","mediaHlsURIPhone":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066733635580\/1009_EN_Duncan_HarveyWeinstein_1415776_phone.m3u8"}}' data-pid="PbN8Hq6bJIHg">
+							    <a href="/videos/harvey-weinstein-accuser-lauren-sivan-tells-her-story-of-sexual-harassment-claims" class="video_slug">
+							        <figure class="media-figure img-inset-thumb item-click"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/09/9cea1b4d-4dc0-43f0-91c6-5ff8bb38b2d5/thumbnail/140x88/f9a25f0447e8bc305513da21dfe2e246/1009-en-duncan-harveyweinstein-1415772-640x360.jpg#" alt=" " height="88" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/09/9cea1b4d-4dc0-43f0-91c6-5ff8bb38b2d5/thumbnail/140x88/f9a25f0447e8bc305513da21dfe2e246/1009-en-duncan-harveyweinstein-1415772-640x360.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/09/9cea1b4d-4dc0-43f0-91c6-5ff8bb38b2d5/thumbnail/280x176/09cc17f3a7054359de97a931c12e1aa8/1009-en-duncan-harveyweinstein-1415772-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+							        </figure></a>
+								<div class="media-body">
+                                    									<h4 class="topic">CBS Evening News</h4>
+                                        										<h3 class="title"><a href="/videos/harvey-weinstein-accuser-lauren-sivan-tells-her-story-of-sexual-harassment-claims" class="video_slug item-click" title="Weinstein accuser speaks">Weinstein accuser speaks</a>
+							    </h3></div>
+							</li>
+																												
+				        	
+				        					        	
+                                                                                                                                                                        
+                                                                                    
+                                                                                        
+                                                                                          
+
+                                                                                        
+                                                                                        
+                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                
+				        	<li data-video-info='{"item":{"mediaRtmpDesktop":"oXiKjEGDf9ch","mediaRtmpMobileHigh":"GA_k_v9F0B4Z","mediaRtmpMobileLow":"DxTZ9nHlAvBf","mediaHls":"aHkYkxNnP5C9","mediaHlsTablet":"b6eqXkUYc5cC","mediaHlsPhone":"pRP8F3W_HFg0","mediaImage":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/2017\/10\/09\/c6b09519-d192-4fe0-9edc-80ec624e2467\/1009-en-miller-suicideprevention-1415779-640x360.jpg","duration":154,"url":"https:\/\/www.cbsnews.com\/videos\/song-about-suicide-prevention-makes-unexpected-rise-up-the-charts","uuid":"98eca083-6d2b-4df2-b6a0-129ee62f162b","slug":"song-about-suicide-prevention-makes-unexpected-rise-up-the-charts","articleTitle":"Suicide prevention song","mpxRefId":"YUl5To2xeF0bckMKC4Rc6VZzdT233wJg","topicname":"CBS Evening News","mediaRtmpDesktopURI":"{manifest:none}rtmp:\/\/cp98363.edgefcs.net\/ondemand\/?auth=cbs&amp;aifp=v001&amp;slist={slistPrefix}{break}{slistFilePath}media\/2017\/10\/09\/1066755651689\/1009_EN_Miller_SuicidePrevention_1415778_796.mp4{slistFilePath}{manifest:f4m}http:\/\/cbsnews-vh.akamaihd.net\/z\/{slist::true:false}.csmil\/manifest.f4m{manifest:m3u}http:\/\/cbsnews-vh.akamaihd.net\/i\/{slist::true:false}.csmil\/master.m3u8{manifest}","mediaRtmpMobileHighURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066755651689\/1009_EN_Miller_SuicidePrevention_1415778_740.mp4","mediaRtmpMobileLowURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066755651689\/1009_EN_Miller_SuicidePrevention_1415778_240.mp4","mediaHlsURI":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066755651689\/1009_EN_Miller_SuicidePrevention_1415783_0\/1009_EN_Miller_SuicidePrevention_1415783_0.m3u8","is60minfranchise":false,"is6048Preview":false,"is60Extra":false,"viewable":true,"mediaHlsURITablet":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066755651689\/1009_EN_Miller_SuicidePrevention_1415783_tablet.m3u8","mediaHlsURIPhone":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066755651689\/1009_EN_Miller_SuicidePrevention_1415783_phone.m3u8"}}' data-pid="oXiKjEGDf9ch">
+							    <a href="/videos/song-about-suicide-prevention-makes-unexpected-rise-up-the-charts" class="video_slug">
+							        <figure class="media-figure img-inset-thumb item-click"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/c6b09519-d192-4fe0-9edc-80ec624e2467/thumbnail/140x88/cd5b87a32fdcb2511258fb1ce07b624f/1009-en-miller-suicideprevention-1415779-640x360.jpg#" alt=" " height="88" width="140" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/c6b09519-d192-4fe0-9edc-80ec624e2467/thumbnail/140x88/cd5b87a32fdcb2511258fb1ce07b624f/1009-en-miller-suicideprevention-1415779-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/c6b09519-d192-4fe0-9edc-80ec624e2467/thumbnail/280x176/ad31d34d5f033c3bd3b6a3899ef7fc36/1009-en-miller-suicideprevention-1415779-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+							        </figure></a>
+								<div class="media-body">
+                                    									<h4 class="topic">CBS Evening News</h4>
+                                        										<h3 class="title"><a href="/videos/song-about-suicide-prevention-makes-unexpected-rise-up-the-charts" class="video_slug item-click" title="Suicide prevention song">Suicide prevention song</a>
+							    </h3></div>
+							</li>
+																												
+				        	
+				        					        	
+                                                                                                                                                                        
+                                                                                    
+                                                                                        
+                                                                                          
+
+                                                                                                                                                                                                                                          
+                                                                                        
+                                                                                                                                
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                
+				        	<li data-video-info='{"item":{"mediaRtmpDesktop":"BJPAS5_1R8_h","mediaRtmpMobileHigh":"QBXCvzfo1Z9s","mediaRtmpMobileLow":"muc739s6rn3S","mediaHls":"PAccUaFnxFPK","mediaHlsTablet":"NtTl2_mtnWnb","mediaHlsPhone":"9FM9AqnAbCu8","mediaImage":"https:\/\/cbsnews1.cbsistatic.com\/hub\/i\/2017\/10\/10\/0c9da8e4-a5ee-406a-8d42-ec0414ef5371\/darien-on-the-other-side-mpx-1415814-640x360.jpg","duration":273,"url":"https:\/\/www.cbsnews.com\/videos\/darien-gap-fleeing-with-their-family","uuid":"8fefee8e-065d-4dac-95b6-f286d7072295","slug":"darien-gap-fleeing-with-their-family","articleTitle":"Crossing Darien with kids","mpxRefId":"4rRV5C8vQ2cz26Akm0NCyKnVLlLSqwwp","topicname":"CBSN Originals - Custom","mediaRtmpDesktopURI":"{manifest:none}rtmp:\/\/cp98363.edgefcs.net\/ondemand\/?auth=cbs&amp;aifp=v001&amp;slist={slistPrefix}{break}{slistFilePath}media\/2017\/10\/09\/1066802755918\/DARIEN_On_The_Other_Side_MPX_1415812_796.mp4{slistFilePath}{manifest:f4m}http:\/\/cbsnews-vh.akamaihd.net\/z\/{slist::true:false}.csmil\/manifest.f4m{manifest:m3u}http:\/\/cbsnews-vh.akamaihd.net\/i\/{slist::true:false}.csmil\/master.m3u8{manifest}","mediaRtmpMobileHighURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066802755918\/DARIEN_On_The_Other_Side_MPX_1415812_740.mp4","mediaRtmpMobileLowURI":"http:\/\/download.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066802755918\/DARIEN_On_The_Other_Side_MPX_1415812_240.mp4","mediaHlsURI":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066802755918\/DARIEN_On_The_Other_Side_MPX_1415815_500\/DARIEN_On_The_Other_Side_MPX_1415815_500.m3u8","is60minfranchise":false,"is6048Preview":false,"is60Extra":false,"viewable":true,"mediaHlsURITablet":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066802755918\/DARIEN_On_The_Other_Side_MPX_1415815_tablet.m3u8","mediaHlsURIPhone":"http:\/\/ipad-streaming.cbsnews.com\/media\/mpx\/2017\/10\/09\/1066802755918\/DARIEN_On_The_Other_Side_MPX_1415815_phone.m3u8"}}' data-pid="BJPAS5_1R8_h">
+							    <a href="/videos/darien-gap-fleeing-with-their-family" class="video_slug">
+							        <figure class="media-figure img-inset-thumb item-click"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/10/0c9da8e4-a5ee-406a-8d42-ec0414ef5371/thumbnail/140x88/ddf73407f4d26c7228d02ffe2c0cea12/darien-on-the-other-side-mpx-1415814-640x360.jpg#" alt=" " height="88" width="140" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/10/0c9da8e4-a5ee-406a-8d42-ec0414ef5371/thumbnail/140x88/ddf73407f4d26c7228d02ffe2c0cea12/darien-on-the-other-side-mpx-1415814-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/10/0c9da8e4-a5ee-406a-8d42-ec0414ef5371/thumbnail/280x176/67be387cd3e1fb714899e200f5d59366/darien-on-the-other-side-mpx-1415814-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+							        </figure></a>
+								<div class="media-body">
+                                    									<h4 class="topic">CBSN Originals - Custom</h4>
+                                        										<h3 class="title"><a href="/videos/darien-gap-fleeing-with-their-family" class="video_slug item-click" title="Crossing Darien with kids">Crossing Darien with kids</a>
+							    </h3></div>
+							</li>
+																																		</ul></div>
+				</div>
+
+				<div data-component="scrollbar" id="tab-content-2" class="tab-content">
+					<!-- display recent videos here -->
+					<div class="content">
+				        <ul class="media-list items "><li>
+							    <a href="/news/blade-runner-2049-alcon-sony-movie-industry-stocks/">
+							        <figure class="media-figure img-inset-thumb"></figure></a>
+								<div class="media-body">
+									<h4 class="topic">Markets</h4>
+										<h3 class="title"><a href="/news/blade-runner-2049-alcon-sony-movie-industry-stocks/">"Blade Runner 2049" rains on movie industry stocks</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/general-electric-shifts-gears-under-new-ceo-john-flannery/">
+							        <figure class="media-figure img-inset-thumb"></figure></a>
+								<div class="media-body">
+									<h4 class="topic">Markets</h4>
+										<h3 class="title"><a href="/news/general-electric-shifts-gears-under-new-ceo-john-flannery/">Management shakeup at General Electric</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/federal-flood-insurance-may-never-be-the-same/">
+							        <figure class="media-figure img-inset-thumb"></figure></a>
+								<div class="media-body">
+									<h4 class="topic">Markets</h4>
+										<h3 class="title"><a href="/news/federal-flood-insurance-may-never-be-the-same/">As Nate hits, federal flood insurance woes worsen</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/who-will-replace-janet-yellen-as-federal-reserve-chair/">
+							        <figure class="media-figure img-inset-thumb"></figure></a>
+								<div class="media-body">
+									<h4 class="topic">Markets</h4>
+										<h3 class="title"><a href="/news/who-will-replace-janet-yellen-as-federal-reserve-chair/">Who will Trump tap to replace Yellen at Fed?</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/how-to-play-wall-streets-wonder-market/">
+							        <figure class="media-figure img-inset-thumb"></figure></a>
+								<div class="media-body">
+									<h4 class="topic">Markets</h4>
+										<h3 class="title"><a href="/news/how-to-play-wall-streets-wonder-market/">How to play Wall Street's "Wonder Market"</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/amazon-whole-foods-customers-walmart-kroger-target/">
+							        <figure class="media-figure img-inset-thumb"></figure></a>
+								<div class="media-body">
+									<h4 class="topic">Markets</h4>
+										<h3 class="title"><a href="/news/amazon-whole-foods-customers-walmart-kroger-target/">Amazon's Whole Foods is stealing customers from everybody</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/u-s-hiring-report-33000-jobs-lost-after-hurricanes-slam-texas-florida/">
+							        <figure class="media-figure img-inset-thumb"></figure></a>
+								<div class="media-body">
+									<h4 class="topic">Markets</h4>
+										<h3 class="title"><a href="/news/u-s-hiring-report-33000-jobs-lost-after-hurricanes-slam-texas-florida/">U.S. loses 33,000 jobs after hurricanes slam Texas, Florida</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/the-trump-brands-shrinking-premium/">
+							        <figure class="media-figure img-inset-thumb"></figure></a>
+								<div class="media-body">
+									<h4 class="topic">Markets</h4>
+										<h3 class="title"><a href="/news/the-trump-brands-shrinking-premium/">The Trump brand's shrinking power</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/navient-accused-of-predatory-actions-against-student-borrowers/">
+							        <figure class="media-figure img-inset-thumb"></figure></a>
+								<div class="media-body">
+									<h4 class="topic">Markets</h4>
+										<h3 class="title"><a href="/news/navient-accused-of-predatory-actions-against-student-borrowers/">Navient accused of "predatory" actions against student borrowers</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/royal-caribbean-sued-over-hurricane-harvey-cruise/">
+							        <figure class="media-figure img-inset-thumb"></figure></a>
+								<div class="media-body">
+									<h4 class="topic">Markets</h4>
+										<h3 class="title"><a href="/news/royal-caribbean-sued-over-hurricane-harvey-cruise/">Royal Caribbean sued over Hurricane Harvey cruise</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/stock-market-record-highs-overbought/">
+							        <figure class="media-figure img-inset-thumb"></figure></a>
+								<div class="media-body">
+									<h4 class="topic">Markets</h4>
+										<h3 class="title"><a href="/news/stock-market-record-highs-overbought/">Can anything pull stock prices back to earth?</a>
+							    </h3></div>
+							</li>
+														<li>
+							    <a href="/news/equifax-ex-ceo-hacked-data-wasnt-encrypted/">
+							        <figure class="media-figure img-inset-thumb"></figure></a>
+								<div class="media-body">
+									<h4 class="topic">Markets</h4>
+										<h3 class="title"><a href="/news/equifax-ex-ceo-hacked-data-wasnt-encrypted/">Equifax ex-CEO: Hacked data wasn't encrypted</a>
+							    </h3></div>
+							</li>
+											        </ul></div>
+				</div>
+
+		     </div>
+		</div>
+
+	</div>
+</div>
+                                                                    </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                
+            
+                                
+    <div class="col-8 ">
+                                    
+                                    
+                                            
+    <!-- src/CbsNews/ArticleBundle/Resources/views/Single/article.desktop.html.twig -->
+<article id="article" class="article "><header><div class="byline">
+                                                              <span class="by">By</span>
+                        <span class="author">Jillian Harding</span>
+                                      
+                                            <span class="source">MoneyWatch</span>
+                    <span class="time">October 9, 2017, 11:24 AM</span></div>
+        
+        <h1 class="title" itemprop="headline">General Electric shifts gears under new CEO John Flannery</h1>
+
+		
+    </header><div class="social sharebar_expanded inline-sharebar theme-light  location-top" data-component="sharebar">
+
+
+    <ul data-component="socialCounts" data-social-counts-options='{"title":"General Electric shifts gears under new CEO John Flannery","description":"The industrial behemoth is shuffling top execs and announced an activist shareholder from Trian will join its board","url":"https:\/\/www.cbsnews.com\/news\/general-electric-shifts-gears-under-new-ceo-john-flannery\/","articleId":"f974f794-8c78-4744-b85f-c65086a1e6e1","showZeros":false}'><li class="std-social std-disqus">
+           <a class="sharebar-disqus toggle-comments" data-item="trigger" href="#comments" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Post Page|Social|Disqus"}'>
+                <span class="social-icon"></span>
+                
+    <span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"f974f794-8c78-4744-b85f-c65086a1e6e1"}'></span>
+                <span class="social-label">Comment</span>
+            </a>
+        </li>
+
+                
+        <li class="std-social std-facebook">
+           <a class="sharebar-facebook" data-item="trigger" data-counts data-popup="facebook" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Post Page|Social|Facebook"}'>
+                <span class="social-icon"></span>
+                <span class="social-count social-count-facebook"></span>
+                <span class="social-label" data-format-one="Share" data-format-other="Shares">Share</span>
+            </a>
+        </li>
+
+        <li class="std-social std-twitter">
+           <a class="sharebar-twitter" data-item="trigger" data-counts data-popup="twitter" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Post Page|Social|Twitter"}'>
+                <span class="social-icon"></span>
+                <span class="social-count social-count-twitter"></span>
+                Tweet
+            </a>
+        </li>
+
+        <li class="std-social std-stumble">
+            <a class="sharebar-stumble" data-item="trigger" data-counts data-popup="stumbleupon" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Post Page|Social|StumbleUpon"}'>
+                <span class="social-icon"></span>
+                <span class="social-count social-count-stumbleupon"></span>
+                Stumble
+            </a>
+        </li>
+
+        <li class="std-social last std-email">
+            <span class="emailImage btnImage"></span>
+            <a href="#" title="Email" class="sharebar-email" data-popup="email">
+                <span class="social-icon"></span>
+                Email
+            </a>
+        </li>
+    </ul></div>
+    
+    <div class="entry" itemscope itemtype="http://schema.org/Text" id="article-entry" itemid="#article-entry" data-use-autolinker="true">
+
+        
+        <div data-page="1" data-page-hidden="0" data-use-autolinker="false"><p>General Electric (<a href="https://markets.cbsnews.com/GE/charts/" target="_blank">GE</a>) is going through a big management shakeup with several top executives on their way out, a new chief financial officer on her way in, and an activist shareholder investor from the investment fund Trian joining the company's board of directors. </p><p>New CFO Jamie Miller, the former CEO of the GE Transportation division, has been at the Boston-headquartered industrial giant since 2008 and will begin her new role in November. She replaces company CFO Jeffrey Bornstein, who has been at GE for 28 years. </p><p>"Jamie's deep experience in finance, digital technology and business operations make her the right person for this role as GE continues to transform into a digital industrial company," CEO John Flannery said in a <a href="http://www.genewsroom.com/press-releases/ge-names-jamie-miller-cfo-jeff-bornstein-leave-company-284049" target="_blank">statement</a>. </p><div class="shortcode-gallery shortcode large left" id="shortcode-video" data-ads='{"extraWordCount":50}'>
+    <a id="relatedVideoContainer" data-open="modalAsync" data-modal-async-url="/videos/cc38cadb-12a6-4ab6-8d56-f4ec139e6773/xhr" data-modal-options='{"position": "absolute", "checkIE": "true"}' data-omniture-track="trackVideoOverlayView" data-omniture-track-data='{"siteSection":"Saturday","siteHier":["Saturday","CBS This Morning"],"pageType":"video","mediaTitle":"Dim future for GE\u0027s light bulb?","mediaId":"cc38cadb-12a6-4ab6-8d56-f4ec139e6773","mediaType":"content_video","topicId":["7f1b22b4-352e-11e3-8ce8-047d7b15b92e"],"topicName":["Saturday"]}' href="/videos/dim-future-for-ges-light-bulb">
+        <figure class="gallery overlay-video"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/08/8386b8d4-ff1e-4076-923b-a7e33697950c/thumbnail/380x240/d5fbb4df3e1b7ef221c73da2c4b73222/0408-satmo-gelightbulbs-1286681-640x360.jpg#" alt="Dim future for GE's light bulb? " height="240" width="380" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/08/8386b8d4-ff1e-4076-923b-a7e33697950c/thumbnail/380x240/d5fbb4df3e1b7ef221c73da2c4b73222/0408-satmo-gelightbulbs-1286681-640x360.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/04/08/8386b8d4-ff1e-4076-923b-a7e33697950c/thumbnail/760x480/27bcf97b6ba6550a2c708f4d2806e877/0408-satmo-gelightbulbs-1286681-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+
+            <figcaption><div class="meta">
+                    <span class="count">Play</span>
+                    <span class="label">Video</span>
+                </div>
+                <span class="topic">Saturday</span>
+                <h3 class="title">Dim future for GE's light bulb?</h3>
+                <p class="dek">
+                                            Selling its light bulbs to the world for more than 125 years, General Electric grew into one of the biggest conglomerates in the world. But accor...
+                                    </p>
+            </figcaption></figure></a>
+</div><p>Flannery, a longtime GE executive, <span class="link"><a href="https://www.cbsnews.com/news/general-electric-ceo-jeff-immelt-stepping-down-from-top-job/" data-invalid-url-rewritten-http="">took over as the CEO</a></span> in August. Cost-cutting and efforts to improve the company's stock are seen as top priorities. GE's stock performance was lackluster under the leadership of former CEO Jeffrey Immelt as he attempted a transformation that included the sales of its insurance, credit card, plastics and security divisions -- while investing heavily in technology. In <span class="link"><a href="https://www.cbsnews.com/news/general-electric-stock-performance-propels-exit-of-ge-ceo-jeff-immelt/" data-invalid-url-rewritten-http="">Immelt's 16 years at the helm</a></span>, GE's share price advanced 24 percent, adjusted for splits, while the broader stock market, as represented by the S&amp;P 500 index, shot up 125 percent. </p><p>Trian took a $2.5 billion investment in GE <a href="https://trianpartners.com/content/uploads/2016/08/GE-Comments-on-Investment-by-Trian-1.pdf" target="_blank">in 2015</a> and has been active in its push to reduce structural costs at the company, including changes in executive compensation programs. In a statement earlier this year, Trian <a href="https://trianpartners.com/content/uploads/2017/03/Press-Release-March-2017-FINAL.pdf" target="_blank">said</a> it had "intensified its dialogue with senior management regarding new initiatives to help ensure that GE can meet its financial commitments." </p><p>"Like other GE shareholders, I am disappointed by the recent performance of GE's stock," Trian founding partner Ed Garden said in a statement regarding his board appointment on Monday. "But I continue to believe that GE represents an attractive long-term investment opportunity with significant upside. We will remain focused on enhancing long-term value for GE shareholders."</p><p>Other notable departures announced over the weekend <a href="http://www.genewsroom.com/press-releases/beth-comstock-retire-ge-284050" target="_blank">include</a> vice chairs Beth Comstock and John Rice, who will<a href="http://www.genewsroom.com/press-releases/john-rice-retire-ge-284051" target="_blank"> leave</a> GE by the end of the year.&nbsp;</p><p>GE's stock was down nearly 3 percent in early trading on Monday.&nbsp;</p><p><em>The Associated Press contributed to this report.</em></p></div>
+    </div>
+
+	
+    
+
+            <div class="copyright">
+                                        &copy; 2017 CBS Interactive Inc.. All Rights Reserved.
+                    </div>
+    
+    
+
+             	
+
+<div class="social sharebar_expanded inline-sharebar theme-light  location-bottom" data-component="sharebar">
+
+
+    <ul data-component="socialCounts" data-social-counts-options='{"title":"General Electric shifts gears under new CEO John Flannery","description":"The industrial behemoth is shuffling top execs and announced an activist shareholder from Trian will join its board","url":"https:\/\/www.cbsnews.com\/news\/general-electric-shifts-gears-under-new-ceo-john-flannery\/","articleId":"f974f794-8c78-4744-b85f-c65086a1e6e1","showZeros":false}'><li class="std-social std-disqus">
+           <a class="sharebar-disqus toggle-comments" data-item="trigger" href="#comments" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Post Page|Social|Disqus"}'>
+                <span class="social-icon"></span>
+                
+    <span class="disqus-comment-count comment-count loaded" data-component="disqusCount" data-disqus-count-options='{"disqusIdentifier":"f974f794-8c78-4744-b85f-c65086a1e6e1"}'></span>
+                <span class="social-label">Comment</span>
+            </a>
+        </li>
+
+                
+        <li class="std-social std-facebook">
+           <a class="sharebar-facebook" data-item="trigger" data-counts data-popup="facebook" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Post Page|Social|Facebook"}'>
+                <span class="social-icon"></span>
+                <span class="social-count social-count-facebook"></span>
+                <span class="social-label" data-format-one="Share" data-format-other="Shares">Share</span>
+            </a>
+        </li>
+
+        <li class="std-social std-twitter">
+           <a class="sharebar-twitter" data-item="trigger" data-counts data-popup="twitter" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Post Page|Social|Twitter"}'>
+                <span class="social-icon"></span>
+                <span class="social-count social-count-twitter"></span>
+                Tweet
+            </a>
+        </li>
+
+        <li class="std-social std-stumble">
+            <a class="sharebar-stumble" data-item="trigger" data-counts data-popup="stumbleupon" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Post Page|Social|StumbleUpon"}'>
+                <span class="social-icon"></span>
+                <span class="social-count social-count-stumbleupon"></span>
+                Stumble
+            </a>
+        </li>
+
+        <li class="std-social last std-email">
+            <span class="emailImage btnImage"></span>
+            <a href="#" title="Email" class="sharebar-email" data-popup="email">
+                <span class="social-icon"></span>
+                Email
+            </a>
+        </li>
+    </ul></div>
+                    
+</article><div id="comments" class="comments  " data-component="comments" data-comments-options='{"deviceType":"desktop","contentType":"content_article"}'>
+        <!--
+        <div class="toggle-comments-container" >
+        <a class="toggle-comments" href="#article">
+            show
+            <span class="expand-article"> story </span>
+            <span class="expand-comments"> 
+    <span class="disqus-comment-count comment-count loaded" data-component='disqusCount' data-disqus-count-options='{"disqusIdentifier":"f974f794-8c78-4744-b85f-c65086a1e6e1"}'></span>
+ comments</span>
+            +
+        </a>
+        </div>
+
+      <div id="disqusConversation">
+      
+
+<div class="d-login">
+                        <a class="popup-link d-login__btn" data-component='popups' data-popups-options='{"selector":".popup-link","path":"\/\/secure-fly.cbsnews.com\/user\/login\/?ifmsgr=true","event":"click"}'>
+        
+            <svg xmlns="http://www.w3.org/2000/svg" class="d-login__icon" width="15" height="13">
+                <path fill="#656C7A" fill-rule="evenodd" d="M15 5.357C15 2.394 11.643 0 7.5 0S0 2.402 0 5.357c0 1.7 1.105 3.214 2.83 4.194-.394 1.4-.997 1.9-1.524 2.495-.126.15-.268.276-.226.486v.01c.042.2.217.334.402.317.326-.042.652-.1.954-.184 1.448-.368 2.754-1.055 3.85-2.026.394.042.804.067 1.214.067 4.143 0 7.5-2.394 7.5-5.357z"/>
+            </svg>Log in to comment
+        </a>
+    
+    <a class="d-login__link" href="/news/community-faqs/" target="_blank">Commenting FAQs</a> | <a class="d-login__link" href="/news/commenting-guidelines/" target="_blank">Community Guidelines</a>
+</div>
+
+<div id="postComments">
+    <div id="disqusContainer-f974f794-8c78-4744-b85f-c65086a1e6e1">
+        <a name="comments"></a>
+
+                <div data-component='disqus' data-disqus-options='{"id":"f974f794-8c78-4744-b85f-c65086a1e6e1","title":"General Electric shifts gears under new CEO John Flannery","url":"http:\/\/www.cbsnews.com\/news\/general-electric-shifts-gears-under-new-ceo-john-flannery\/","loadOnInit":true}' data-id='f974f794-8c78-4744-b85f-c65086a1e6e1' data-title='General Electric shifts gears under new CEO John Flannery' data-url='http://www.cbsnews.com/news/general-electric-shifts-gears-under-new-ceo-john-flannery/' data-load-on-init='true' ></div>
+    </div>
+</div>
+      </div>
+    -->
+</div>
+
+
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk taboola-thumbs-recirc" id="module-taboola-thumbs-recirc">
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <div data-taboola='{"mode":"thumbnails-a","placement":"Below Article Thumbnails"}'></div></li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                                                        <section class="section module-rem"><div class="row">
+        <div class="col-4">
+            <h2 class="title">Featured in Moneywatch</h2>
+                                                                                            
+
+<div class="listing-full ">
+    <ul class="media-list items"><li class="">
+    <a href="/media/20-coolest-places-to-retire-in-the-world/">
+        <figure class="media-block img-inset" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Post-REM Block|Article-1-Large Image"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2016/03/25/f7c9a3d1-a76b-4e79-a8ba-c608818db383/thumbnail/300x175/aa63396a508a18d35060f9f93ef4bd79/istock000039287558medium.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2016/03/25/f7c9a3d1-a76b-4e79-a8ba-c608818db383/thumbnail/300x175/aa63396a508a18d35060f9f93ef4bd79/istock000039287558medium.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2016/03/25/f7c9a3d1-a76b-4e79-a8ba-c608818db383/thumbnail/600x350/64139d952671dcecb364e1ddd53cb66c/istock000039287558medium.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Post-REM Block|Article-1-Headline"}'>20 of the coolest places to retire in the world</h3>
+
+        <p class="dek" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Post-REM Block|Article-1-Body"}'>
+Find out what activities and attractions make these 20 cities and town some of the best places to retire around the world</p>
+            </a>
+</li>
+
+                            
+                                                
+
+
+
+    
+    
+<li class="">
+    <a href="/media/10-products-you-should-never-buy-generic/">
+        <figure class="media-block img-inset" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Post-REM Block|Article-2-Large Image"}'><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/08/31/ab53a5bd-5d7e-42f4-ad01-44cec831537e/thumbnail/300x175/8de128b90f520106a85d8533c02e1b7d/istock-59353704-medium.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/08/31/ab53a5bd-5d7e-42f4-ad01-44cec831537e/thumbnail/300x175/8de128b90f520106a85d8533c02e1b7d/istock-59353704-medium.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2016/08/31/ab53a5bd-5d7e-42f4-ad01-44cec831537e/thumbnail/600x350/c3285adca841267d5af54f5923538698/istock-59353704-medium.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Post-REM Block|Article-2-Headline"}'>10 products you should never buy generic</h3>
+
+        <p class="dek" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Post-REM Block|Article-2-Body"}'>
+Generics are a great way to save money in lots of cases, but here is a look at some clear exceptions</p>
+            </a>
+</li>
+
+                </ul></div>        </div>
+
+        <div class="col-4">
+            <h2 class="title">Popular</h2>
+
+            <div data-taboola='{"mode":"alternating-thumbnails-e","placement":"Right Rail Below Article"}'></div>
+        </div>
+    </div>
+</section></div>
+        
+            
+            
+    <div class="col-4 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-market-data-marquee300-top">
+      <h2 class="module-heading title">Market Data</h2>
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <figure class="embed embed--type-iframe embed--float-none embed--size-large " data-ads='{"wordCount":50}'>
+  <div class="embed__content-wrapper">
+	<div class="embed__resizer"></div>
+	<iframe class="embed__content lazyload" data-src="https://markets.cbsnews.com/widgets/markets/market_indices" data-width="100%" data-height="360" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+  </div>
+</figure>
+</li>
+                </ul></div>                                                                                        
+                </div>
+
+                                                                
+                                    
+                                                
+
+                                                            <div id="marquee-video-top-59dc9f4c541bc" class="ad-marquee-video-top" data-ad="marquee-video-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing marquee-video-top-59dc9f4c541bc for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("marquee-video-top-59dc9f4c541bc");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+                            <div id="desktop-native-top-59dc9f4c541bc" class="ad-desktop-native-top" data-ad="desktop-native-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing desktop-native-top-59dc9f4c541bc for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("desktop-native-top-59dc9f4c541bc");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk CBSN Top DVR (RR)" id="module-right-rail-cbsn-top-dvr">
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <figure class="embed embed--type-iframe embed--float-none embed--size-large " data-ads='{"wordCount":50}'>
+  <div class="embed__content-wrapper">
+	<div class="embed__resizer"></div>
+	<iframe class="embed__content lazyload" data-src="https://www.cbsnews.com/cbsn-top-dvr/" data-width="300" data-height="420" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+  </div>
+</figure>
+</li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+                            <div id="mpu-middle-59dc9f4c541bc" class="ad-mpu-middle" data-ad="mpu-middle" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-middle-59dc9f4c541bc for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-middle-59dc9f4c541bc");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+<div class="module module-listing" id="module-right-rail-mw-latest-features">
+    <h2 class="module-heading title">Latest Features</h2>
+
+    
+<div class="listing-mini-sub ">
+    <ul class="media-list items"><li>
+          <a href="/news/traffic-fatalities-jump-by-5-6-percent-in-2016/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/02/18/9dbf9eb5-034e-47f0-a961-d886f50b3c67/thumbnail/60x60/3d0289dec73aaa1f468f20293a04e6e5/car-crash-insurance.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/02/18/9dbf9eb5-034e-47f0-a961-d886f50b3c67/thumbnail/60x60/3d0289dec73aaa1f468f20293a04e6e5/car-crash-insurance.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2016/02/18/9dbf9eb5-034e-47f0-a961-d886f50b3c67/thumbnail/120x120/5932bea3fa5c09cdd7f5e0191370ea73/car-crash-insurance.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">Driving just got a lot deadlier
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/paying-off-student-loans-early-doesnt-always-pay/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/28/94bb29cf-f616-4062-83e2-15fa4f468218/thumbnail/60x60/1cc2cf272c6721709916c9ea955f6551/istock-668087326.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/28/94bb29cf-f616-4062-83e2-15fa4f468218/thumbnail/60x60/1cc2cf272c6721709916c9ea955f6551/istock-668087326.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/09/28/94bb29cf-f616-4062-83e2-15fa4f468218/thumbnail/120x120/4db0d455789fa9ab14953d066dedeed5/istock-668087326.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">Paying off student loans early doesn't always pay
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/automation-robots-jobs-us-workers-replaced/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2016/10/24/70706d6e-e625-40b5-8851-14c0f57f3736/thumbnail/60x60/4d0fc1b4e3367e07aac04b56e8ac57ad/ap-16297211696644.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2016/10/24/70706d6e-e625-40b5-8851-14c0f57f3736/thumbnail/60x60/4d0fc1b4e3367e07aac04b56e8ac57ad/ap-16297211696644.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2016/10/24/70706d6e-e625-40b5-8851-14c0f57f3736/thumbnail/120x120/e86bf138e8c09cede2f200058c7e0f4c/ap-16297211696644.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">These jobs are most at risk for being automated
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/money-lessons-nfl-players-find-hard-to-learn/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2013/02/03/4eae58c7-a645-11e2-a3f0-029118418759/thumbnail/60x60/428c205e6aa6e64be7343afe2cacba59/43Stars_at_Superbowl.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2013/02/03/4eae58c7-a645-11e2-a3f0-029118418759/thumbnail/60x60/428c205e6aa6e64be7343afe2cacba59/43Stars_at_Superbowl.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2013/02/03/4eae58c7-a645-11e2-a3f0-029118418759/thumbnail/120x120/15bde16306aabd5f2949dc1682173456/43Stars_at_Superbowl.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">Money lessons NFL players find hard to learn
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/news/medicare-open-enrollment-prescription-drug-coverage/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/858dcdcb-a1d3-4e1a-825e-17c53874665a/thumbnail/60x60/a385d53ce4b978fc864b2669686c0f5c/istock-000003223413-large.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/858dcdcb-a1d3-4e1a-825e-17c53874665a/thumbnail/60x60/a385d53ce4b978fc864b2669686c0f5c/istock-000003223413-large.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/09/858dcdcb-a1d3-4e1a-825e-17c53874665a/thumbnail/120x120/7f2b719763a11333d07e38082520fa38/istock-000003223413-large.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">Time to review your Medicare Rx coverage
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                        </ul></div></div>
+
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-market-news-button-top">
+      <h2 class="module-heading title">Market News</h2>
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <figure class="embed embed--type-iframe embed--float-none embed--size-large " data-ads='{"wordCount":50}'>
+  <div class="embed__content-wrapper">
+	<div class="embed__resizer"></div>
+	<iframe class="embed__content lazyload" data-src="https://markets.cbsnews.com/widgets/markets/news" data-width="100%" data-height="500" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+  </div>
+</figure>
+</li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+
+<div class="module module-listing" id="module-right-rail-moneywatch-spotlight">
+    <h2 class="module-heading title">Moneywatch Spotlight</h2>
+
+    
+<div class="listing-mini-sub ">
+    <ul class="media-list items"><li>
+          <a href="/media/10-smart-home-features-to-help-you-age-in-place/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/05/9fa8c9b4-c0ad-4a56-afcf-5ca721857ba5/thumbnail/60x60/2f323952750ada5c8e8d6405ab675fe6/01-intro.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/05/9fa8c9b4-c0ad-4a56-afcf-5ca721857ba5/thumbnail/60x60/2f323952750ada5c8e8d6405ab675fe6/01-intro.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/05/9fa8c9b4-c0ad-4a56-afcf-5ca721857ba5/thumbnail/120x120/cd42c5a665c7696152ad0088052c3042/01-intro.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">10 smart home features to help you age in place
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/live-news/former-equifax-ceo-testifies-congress-richard-smith/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/03/7f0e8032-69fd-4622-bbb3-3983342a10e6/thumbnail/60x60/c468be3f13af9ff5861e46339a8ee95c/equifax-rtx3fbi2.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/03/7f0e8032-69fd-4622-bbb3-3983342a10e6/thumbnail/60x60/c468be3f13af9ff5861e46339a8ee95c/equifax-rtx3fbi2.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/03/7f0e8032-69fd-4622-bbb3-3983342a10e6/thumbnail/120x120/13e8b3973f5b405a29c4746c03c3c537/equifax-rtx3fbi2.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">Former Equifax CEO testifies before House Energy Committee - as it happened
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/media/the-9-most-lucrative-college-majors/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/28/a99dd172-ef3b-4553-a597-b5ef85ff5936/thumbnail/60x60/f0e5ccc56809b8e0ad689da89c51657c/istock-524538466.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/28/a99dd172-ef3b-4553-a597-b5ef85ff5936/thumbnail/60x60/f0e5ccc56809b8e0ad689da89c51657c/istock-524538466.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/28/a99dd172-ef3b-4553-a597-b5ef85ff5936/thumbnail/120x120/a683f385edfdd7158a0e258560dd39df/istock-524538466.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">The 9 most lucrative college majors
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/media/10-celebrity-owned-homes-for-sale/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/28/43d54399-d608-4e19-bd9e-0b5654b6a643/thumbnail/60x60/84fcfe67181d2d6b45e0f72d7999c4e5/01-intro.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/28/43d54399-d608-4e19-bd9e-0b5654b6a643/thumbnail/60x60/84fcfe67181d2d6b45e0f72d7999c4e5/01-intro.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/09/28/43d54399-d608-4e19-bd9e-0b5654b6a643/thumbnail/120x120/4d2b0378c99452edf362fdee633e105b/01-intro.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">10 celebrity-owned homes for sale
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                            
+                                                
+
+
+                     
+<li>
+          <a href="/media/7-traits-of-people-who-struggle-financially/">
+            <figure class="media-figure img-inset-thumb"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/28/c0742478-1492-456c-b9e3-3013a8e95199/thumbnail/60x60/86e999e55638c657bdca3e00aa95e435/istock-628481968.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/28/c0742478-1492-456c-b9e3-3013a8e95199/thumbnail/60x60/86e999e55638c657bdca3e00aa95e435/istock-628481968.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/09/28/c0742478-1492-456c-b9e3-3013a8e95199/thumbnail/120x120/4ba019ff464164b1b5d0bcbaaa53e3e1/istock-628481968.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><div class="media-body">
+            <h4 class="title">7 traits of people who struggle financially
+            </h4>
+                                                </div>
+    </a>
+</li>
+
+                        </ul></div></div>
+
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-watchlist-button-middle">
+      <h2 class="module-heading title">Stock Watchlist</h2>
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <figure class="embed embed--type-iframe embed--float-none embed--size-large " data-ads='{"wordCount":50}'>
+  <div class="embed__content-wrapper">
+	<div class="embed__resizer"></div>
+	<iframe class="embed__content lazyload" data-src="https://markets.cbsnews.com/widgets/watchlist/overview" data-width="100%" data-height="auto" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+  </div>
+</figure>
+</li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+                                                                                                
+                                    
+                                            
+
+                            <div id="mpu-bottom-59dc9f4c541bc" class="ad-mpu-bottom" data-ad="mpu-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-bottom-59dc9f4c541bc for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-bottom-59dc9f4c541bc");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-fd-mobile-app-promo">
+      <h2 class="module-heading title">New Fire TV App</h2>
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <a href="https://www.amazon.com/CBS-Interactive-News-Fire-TV/dp/B01MDKA8EH/ref=sr_1_1?ie=UTF8&amp;qid=1478793369&amp;sr=8-1">
+	<img class="lazyload" data-src="//cbsnews1.cbsistatic.com/hub/i/2016/11/10/92bcc585-b6c7-4e1b-b0a7-ae7310fb23d1/amazon-fire-right-rail-promo.jpg" alt="New Fire TV App" style="width:300px;height:333px;border:0;"></a></li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-emergency-component">
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <script>var searchNav = document.querySelector('.site-nav__item--sports .site-nav__item-anchor'); searchNav&&searchNav.addEventListener('click', function () {window.location = this.href}, true);</script><style>.site-footer{ z-index:0; } .site-header{ z-index:2; } .content-primary{ z-index:1; } [tabindex]:focus {outline: 0; } .desktop .site-nav__item--shows:hover .site-nav__item-content-icon {top: 113px;right: auto;}.desktop .site-nav__item--shows:hover .site-nav__item-hed {font-size: 16px;max-height: none;float: none;margin: 0px;} .front-door .disqus-comment-count { display: none; } .topic-door .disqus-comment-count { display: none; } .listing-mini-sub .disqus-comment-count { display: none; } .desktop #mantle_skin[class*=cbs-this-morning] .hero-text .title a {color: #e4a21b;font-family: "museo-sans", Helvetica, Roboto, sans-serif;font-size: 30px;font-weight: 700;line-height: 1.1;letter-spacing: -0.05em;}</style></li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-emergency-article-component">
+       
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"></ul></div>                                                        </div>
+
+                                                                    </div>
+                                </div>
+                        </div>
+            </div>
+        </div>
+</div>
+
+            <div id="leader-bottom-59dc9f4c541bc" class="ad-leader-bottom" data-ad="leader-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-bottom-59dc9f4c541bc for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-bottom-59dc9f4c541bc");
+    </script></div>
+
+        </div>
+
+    
+                            
+<footer class="site-footer content-inverse nocontent"><div class="container">
+                            <div class="disclosure-moneywatch">
+            <p>Quotes delayed at least 15 minutes. Market data provided by <a href="https://www.theice.com/market-data" target="_blank">ICE Data Services</a>.
+            <a href="https://www.theice.com/market-data/disclaimer">ICE Limitations</a>.
+            </p><p>Powered and implemented by <a href="https://www.factset.com/" target="_blank">FactSet</a>.</p>
+            <p><a href="https://www.factset.com/legal-statement" target="_blank">Legal Statement</a>.</p>
+        </div>
+                <div class="row">
+            <div class="col-2 link-block">
+                <h5 class="title">CBSNews.com</h5>
+
+                <ul class="items"><li><a href="https://www.cbsnews.com/sitemap/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Site Map"}' data-invalid-url-rewritten-http="">Site Map</a></li>
+                    <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome2?categories=CBS_Interactive:CBSNews&amp;referer=cbsnews.com/main" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Help"}'>Help</a></li>
+                    <li><a href="http://audienceservices.cbs.com/feedback/feedback.htm" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Contact Us"}'>Contact Us</a></li>
+
+                    <li><a href="https://www.cbsnews.com/team/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|CBS Bios"}' data-invalid-url-rewritten-http="" data-vanity-rewritten="true">CBS Bios</a></li>
+                    <li><a href="https://cbs.avature.net/cbsnewscareers" data-omniture-track-data='{"clickProperty": "Site Footer|Careers"}'>Careers</a></li>
+                    <li><a href="http://www.cbsinteractive.com/careers" data-omniture-track-data='{"clickProperty": "Site Footer|CBSi Careers"}'>CBSi Careers</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-internship-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Internships"}' data-invalid-url-rewritten-http="">Internships</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-associates-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Development Programs"}' data-invalid-url-rewritten-http="">Development Programs</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">CBS Interactive</h5>
+
+                <ul class="items"><li><a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Privacy Policy"}'>Privacy Policy</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/adchoice" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Ad Choice"}'>Ad Choice</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Terms of Use"}'>Terms of Use</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/eula" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Mobile User Agreement"}'>Mobile User Agreement</a></li>
+                    <li><a href="http://www.cbscorporation.com/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|About CBS"}'>About CBS</a></li>
+                    <li><a href="http://www.cbsinteractive.com/advertise/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Advertise"}'>Advertise</a></li>
+                    <li><a href="http://cbsimedia.cbs.com/captioning/info.html" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Closed Captioning"}'>Closed Captioning</a></li>
+                    <li><a href="http://www.cbsstore.com/cbs-news-store-home/index.php?v=cbs-news&amp;ecid=PRF-CBS-300538&amp;pa=PRF-CBS-300538" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|CBS News Store"}'>CBS News Store</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">Follow Us</h5>
+
+                <ul class="items"><li><a href="https://www.facebook.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Facebook"}'>Facebook</a></li>
+                    <li><a href="https://twitter.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Twitter"}'>Twitter</a></li>
+                    <li><a href="/rss/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|RSS"}'>RSS</a></li>
+                    <li><a href="https://www.cbsnews.com/newsletters/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Email Newsletters"}' data-invalid-url-rewritten-http="">Email Newsletters</a></li>
+                    <li><a href="http://www.youtube.com/user/CBSNewsOnline" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|YouTube"}'>YouTube</a></li>
+                    <li><a href="https://www.cbsnews.com/radio/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Radio News"}' data-invalid-url-rewritten-http="">CBS News Radio</a></li>
+                    <li><a href="https://www.cbsnews.com/local/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Local"}' data-invalid-url-rewritten-http="">CBS Local</a></li>
+                </ul></div>
+
+            <div class="col-4 push-2">
+                <div class="site-brand">
+                    <div class="logo core-logo"><a href="/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer-Branding"}'>CBS News</a></div>
+                </div>
+
+                <form class="site-search" action="/search/" method="get" data-component="search" data-search-options='{"path":"https:\/\/www.cbsnews.com\/search\/","param":"q"}'>
+                    <input type="search" class="query" maxlength="255" name="q" placeholder="Search..."><button type="submit" class="submit core-search-footer">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="site-brand">
+                <p class="copyright">Copyright &copy; 2017 CBS Interactive Inc.<br>All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer></div> 
+
+                    
+
+    
+
+<script>
+    var CBSNEWS = CBSNEWS || {};
+        CBSNEWS.ad        = {"gpt":{"targeting":{"device":"desktop","ptype":"news_item","cid":"general-electric-shifts-gears-under-new-ceo-john-flannery","env":"prod_alt"},"adConfig":{"network":{"dev":8264,"qa":8264,"prod":8264},"method":"async-inline","regions":[{"region":"uk","countries":["gb","fr","ie","za","bh","kw","om","qa","sa","ae","iq","eg","ye"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","ph","th","id","vn","hk","in"]}],"adUnits":{"marqueeVideoTop":{"sizes":[[300,60]],"isVideo":true,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"leaderVideoTop":{"sizes":[[728,90]],"isVideo":true,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"intromercial":{"outOfPage":true},"desktopNativeTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"a832eb3c"}},"desktopNativeMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"e0c5ba47"}},"desktopNativeBottom":{"sizes":[[11,11]],"position":"bottom"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"marqueeBottom":{"sizes":[[234,60]],"position":"bottom"},"leaderBottom":{"sizes":[[728,90],[970,66]],"position":"bottom"}},"mobile":{"adUnits":{"intromercial":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileBanner1":{"sizes":[[320,50]],"position":1},"mobileBanner2":{"sizes":[[320,50]],"position":2},"mobileBanner3":{"sizes":[[320,50]],"position":3},"mobileMarquee320Top":{"sizes":[[320,60]],"position":"top"},"mobileSponsorContentTextTop":{"sizes":[[300,250],[11,11],"fluid"],"position":"top","customTargeting":{"strnativekey":"454fd857"}},"mobileSponsorcontentTextMiddle":{"sizes":[[300,250],[320,50],[11,11],"fluid"],"position":"middle","customTargeting":{"strnativekey":"454fd857"}},"mobileInlineFlexPos2":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":2,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexPos3":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":3,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexInc":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":"inc","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileNativeTop":{"sizes":[[11,11]],"position":"top"},"mobileNativeGalleryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"289740d4"}},"mobileSponsorcontentCdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"3c5782bf"}},"mobileSponsorcontentVdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"eba075cc"}}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"amp":{"adUnits":{"ampFlexTop":{"sizes":[[320,50],[300,250]],"position":"top"},"ampFlexBottom":{"sizes":[[320,50],[300,250]],"position":"bottom"},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"ampFlexPos2":{"sizes":[[320,50],[300,250]],"position":2},"ampFlexPos3":{"sizes":[[320,50],[300,250]],"position":3},"ampFlexInc":{"sizes":[[320,50],[300,250]],"position":"inc"},"ampSticky":{"sizes":[[320,50]],"position":"sticky"}}},"siteName":"cbsnews","collapseEmptyDiv":true,"setRefreshUnfilledSlots":false,"setClearUnfilledSlots":true,"disableInitialLoad":false,"disableInitialLoadCompanions":true,"enableHeaderBidding":true,"disableClearTargetingOnInit":true,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["intromercial","leader_top","leader_plus_top","skin","mpu_top","mpu_plus_top","marquee_top","marquee300_top","button_top","sponsor_content_top","sponsor_content_small_top","sponsor_content_text_top","sponsor_bar980_top","sponsor_bar620_top","desktop_native_top","native_show_top","mpu_middle","marquee300_middle","button_middle","desktop_native_middle","sponsor_content_middle","sponsor_content_middle2","desktop_native_bottom","button_bottom","mpu_bottom","leader_bottom","sponsor_content_bottom"],"disableInitialLoadRefresh":"false","disableAdIncrement":false,"enableRepeatedAds":false},"containerId":"59dc9f4c541bc","slotVars":{"network":"8264","siteName":"cbsnews","collapseEmptyDiv":"1","topics":"moneywatch/markets","platform":"desktop"},"adType":"gpt","adDivIds":["marquee-video-top-59dc9f4c541bc","desktop-native-top-59dc9f4c541bc","mpu-middle-59dc9f4c541bc","mpu-bottom-59dc9f4c541bc","intromercial-59dc9f4c541bc","leader-video-top-59dc9f4c541bc","leader-bottom-59dc9f4c541bc"]},"cookieName":"cbsnews_ad","cookieServicePath":"/ad/ad-cookie/","session":4,"subSession":4,"useFirstPageTargeting":true};
+        CBSNEWS.bsFreq    = 100;
+        CBSNEWS.device    = 'desktop';
+        CBSNEWS.features  = CBSNEWS.features || {};
+        CBSNEWS.tracking  = {"isEnabled":true,"articleAuthorId":["e0a6d3b5-64c8-4f14-baac-7f99679177d7"],"articleAuthorName":["jillian harding"],"articleId":"f974f794-8c78-4744-b85f-c65086a1e6e1","articlePubDate":"2017-10-09 15:24:25","articleTitle":"general electric shifts gears under new ceo john flannery","articleType":"content_article","deviceType":"desktop","isDev":"2","pageType":"news_item","siteHier":["moneywatch","moneywatch markets"],"siteSection":"moneywatch","siteType":"responsive web","topicId":"8e91cdbc-758d-11e2-9d12-0018fe8a00b0","topicName":"moneywatch markets","bkSiteId":3330,"limit":4,"articleSource":"moneywatch","siteName":"cbsnews","demographicKeys":["jobFunction","jobCategory","industry","computerProficiency","companySize","gender","ageGroup","country"],"tealium":{"profile":"cbsnewssite","env":"prod"}};
+        CBSNEWS.tracking._adData      = CBSNEWS.ad;
+        CBSNEWS.tracking.pageViewGuid = null; // Set in managers/tealium
+        CBSNEWS.user      = {
+            appId:          '1501',
+            environment:    'LIVE',
+            platform:       '',
+            publicHost:     'www.cbsnews.com',
+            secureHost:     'secure-fly.cbsnews.com',
+            ursVersion:     'v2.2',
+            ursClientToken: '9b0514bf29ca49e1',
+        };
+        CBSNEWS.disqus =  {
+            shortname: 'cbsnews-prod',
+            publicKey: '60EUVoZHyaBJqXJUxAKYfJgUh8NhuUyO88gGQ7aIw8HsbFOwAl9hLtoCyvyld2A8',
+            sso: {
+                name: 'CBSNews',
+                authLoginUrl: 'https://www.cbsnews.com/disqus/sso/login/',
+                authLogoutUrl: 'https://www.cbsnews.com/disqus/sso/logout/',
+                button: 'https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/images/core/logo.png?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e',
+                icon: 'https://cbsnews4.cbsistatic.com/fly/favicon.ico?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e',
+                loginUrl: 'https://secure-fly.cbsnews.com/user/registration/?redirectUrl=%2Fdisqus%2Flogin%2F ',
+                logoutUrl: 'https://www.cbsnews.com/user/logout/'
+            }
+        };
+
+
+    var features = ['beanstockSonobi', 'disqus', 'urs'];
+    features.forEach(function(feature) {
+        if (!CBSNEWS.features.hasOwnProperty(feature)) {
+            CBSNEWS.features[feature] = true;
+        }
+    });
+
+    var utag_data = CBSNEWS.tracking;
+
+    var require = {"baseUrl":"https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build","urlArgs":"v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e","config":{"version":{"fly/libs/base64":"0.3.0","fly/libs/easy-xdm-cbsi":"2.4.19.3","fly/libs/jquery.widget":"1.9.2","fly/libs/jquery.cookie":"1.2","fly/libs/jquery.mobile":"1.3.2","fly/libs/jquery.throttle-debounce":"1.1","fly/libs/lazysizes":"1.4.0","fly/libs/omniture.s-code":"1.0","fly/libs/urs":"1.0","fly/utils/data-prefix":"1.0","fly/utils/data-selector":"1.0","fly/utils/function-natives":"1.0","fly/utils/guid":"1.0","fly/utils/log":"1.0","fly/utils/object-helper":"1.0","fly/utils/string-helper":"1.0","fly/utils/string-vars":"1.0","fly/utils/url-helper":"1.0","fly/managers/components":"1.0","fly/managers/cookie":"1.0","fly/managers/debug":"1.0","fly/managers/ad":"2.0","fly/managers/gpt":"4.2","fly/managers/geo":"1.0","fly/managers/image-resolution":"1.0","fly/managers/recurly":"1.0","fly/managers/recurly-billing":"1.0","fly/managers/social-authentication":"1.0","fly/managers/tracking":"1.0","fly/managers/user":"1.0","fly/components/accordion":"1.0","fly/components/alert":"1.0","fly/components/base":"1.0","fly/components/carousel":"1.0","fly/components/credspark":"1.0","fly/components/dependent-field":"1.0","fly/components/dropdown":"1.0","fly/components/form-validate":"1.0","fly/components/iframe-messenger":"1.1","fly/components/image-gallery":"1.0","fly/components/disqus-count":"1.0","fly/managers/disqus":"1.0","fly/components/disqus":"1.0","fly/components/loading":"1.0","fly/components/load-more":"1.0","fly/components/nrelate":"1.0","fly/components/modal":"1.0","fly/components/modal-async":"1.0","fly/components/modal-iframe":"1.0","fly/components/scrollbar":"1.0","fly/components/social-button":"1.0","fly/components/social-counts":"1.1","fly/components/social-links":"1.0","fly/components/tabs":"1.0","fly/managers/clicktale":"1.0","fly/components/poll":"1.0","fly/managers/history":"1.0","libs/fontfaceobserver":"2.0.7","libs/riot":"2.6.2","mpx/libs/uvp":"2.6.1","mpx/libs/hls":"0.7.10.min","fly/components/fixate":"1.0","fly/components/image-gallery-thumb":"1.0"}},"shim":{"tealium":["jquery"]},"map":{"*":{"ima":"//imasdk.googleapis.com/js/sdkloader/ima3.js","gpt":"//www.googletagservices.com/tag/js/gpt.js","anvato":"https://w3.cdn.anvato.net/player/prod/scripts/anvload.js","nrelate":"//c7.static.nrcdn.com/common_js/0.52.1/nr_loader.min.js","urs":"//urs.cbsnews.com/sdk/urs.js","recirc":"//ddlmj2furo6f2.cloudfront.net/addontrain/recommendations/53f6c74c1344a01ee2000139.js","tealium":"//tags.tiqcdn.com/utag/cbsi/cbsnewssite/prod/utag.js","twitter":"https://platform.twitter.com/widgets.js","credspark":"//www.credspark.com/embed.js","yad":"https://s.yimg.com/uq/syndication/yad.js","newsgator":"//nmp.newsgator.com/ngbuzz/load.ashx/buzz","recurly":"https://js.recurly.com/v4/recurly.js","taboola":"//cdn.taboola.com/libtrc/cbsinteractive-cbsnews/loader.js","sharethrough":"//native.sharethrough.com/assets/tag.js","uvp":"//vidtech.cbsinteractive.com/uvpjs/2.5.3/CBSI-PLAYER.js","index_exchange":"//js-sec.indexww.com/ht/ls-cbsnews.js","sonobi":"//mtrx.go.sonobi.com/morpheus.cbsnews.9251.js"}}};
+</script><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e" as="script"><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.desktop.js?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e" as="script"><script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=60298dc8f6316b5d3f2e0cafcae02e282eff5c4e" data-main="main.desktop" async defer></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8178a7f262","applicationID":"8449215","transactionName":"ZAZXNkNRCkEHBxAMX11MdAFFWQtcSQUWEVlQD1A9QlkKVQoB","queueTime":0,"applicationTime":1308,"atts":"SEFUQAtLGU8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

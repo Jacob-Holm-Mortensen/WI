@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" itemscope itemtype="http://schema.org/" >
+<head>
+    <link rel="SHORTCUT ICON" href="https://sports.cbsimg.net/favicon.ico">
+
+    <title>PGA Tour Golf Schedule - CBSSports.com </title>
+
+    <link href="https://sports.cbsimg.net/css/font/iconmoon/20170927/style.css?0009" rel="stylesheet" type="text/css" />
+            <link href="https://sports.cbsimg.net/css/phase4-min-v548.css" rel="stylesheet" type="text/css" />
+            <!--[if IE]>
+            <link href="https://sports.cbsimg.net/css/phase2-ie-min-v058.css" rel="stylesheet" type="text/css" />
+            <![endif]-->
+            <!-- no arena css -->
+<link href="https://sports.cbsimg.net/css/jquery/ui-tools-min-v030.css" rel="stylesheet" type="text/css"/>
+<style>
+.hdr_bg_text{
+    font-family:verdana,arial,helvetica,sans-serif;
+    color:#FFFFFF;
+    background-color:#3f5c19;
+}
+
+.bg_green{background-color:#3f5c19;}
+.tblHeader{background-color:#3f5c19; color:#FFFFFF; font-weight:bold;}
+.scorecardinfo{font-size:11px;font-family:verdana,arial,helvetica,sans-serif}
+.dropboxset{font-size:10px;font-family:verdana,arial,helvetica,sans-serif}
+.cntbase{font-family:arial,helvetica,sans-serif; font-size:11px;}
+td.feature_pad{padding: 3px 3px 3px 10px}
+    
+#GolfSplash {width: 764px; height: 594px; background: #ffffff url('https://sports.cbsimg.net/images/golf/new/splashbg.jpg') no-repeat top right; margin: 0px 5px; padding: 0px;}
+
+</style>
+    <!--[if lt IE 9]><script>var e = ("abbr,article,aside,audio,canvas,datalist,details,figure,figcaption,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video").split(',');for (var i = 0; i < e.length; i++) {document.createElement(e[i]);}</script><![endif]-->
+<script type="text/javascript">
+if(typeof CBSi=="undefined"||!CBSi){var CBSi={}}CBSi.namespace=function(){var b=arguments,g=null,e,c,f;for(e=0;e<b.length;e=e+1){f=b[e].split(".");g=CBSi;for(c=(f[0]=="CBSi")?1:0;c<f.length;c=c+1){g[f[c]]=g[f[c]]||{};g=g[f[c]]}}return g};CBSi.extend=function(d,e,c){if(!e||!d){throw new Error("extend failed, please check that all dependencies are included.")}var b=function(){};b.prototype=e.prototype;d.prototype=new b();d.prototype.constructor=d;d.superclass=e.prototype;if(e.prototype.constructor==Object.prototype.constructor){e.prototype.constructor=e}if(c){for(var a in c){if(c.hasOwnProperty(a)){d.prototype[a]=c[a]}}}};CBSi.panel={overlayManager:undefined,create:function(c,b){if(!this.overlayManager){this.overlayManager=new YAHOO.widget.OverlayManager()}if(!b.strings){b.strings={}}if(!b.strings.close){b.strings.close=""}var a=new YAHOO.widget.Panel(c,b);this.overlayManager.register(a);return a}};CBSi.fireEvent=function(b,c){if(document.createEvent){var a=document.createEvent("HTMLEvents");a.initEvent(c,true,true);return !b.dispatchEvent(a)}else{var a=document.createEventObject();return b.fireEvent("on"+c,a)}};CBSi.log=function(){};if(window.console&&window.console.log){CBSi.log=function(){if(CBSi.debugmode===""){return}var a=[];for(var b=0;b<arguments.length;b++){a.push(arguments[b])}console.log(a)}}else{if(window&&window.console){window.console.log=function(){}}else{window.console={};window.console.log=function(){}}if(console){console.log=function(){}}else{console={};console.log=function(){}}}CBSi.jsRenvInit=function(a){for(var b in a){CBSi[b]=a[b]}return};
+if (!CBSi.debugmode) CBSi.debugmode = ''; // For normandy--manually set if js only
+</script>
+<script id="jsRenv_script" type="text/javascript">CBSi.jsRenvInit({"takeoverIsBlank":0,"httpHost":"http://www.cbssports.com","project":"media","mediaHttpServer":"https://www.cbssports.com","pref":{"timezoneOffset":"4","timezoneAbbrev":"ET"},"feature":"schedule_pgatour","league_abbr":"pga","arena":"golf","imageServer":"https://sports.cbsimg.net","requestUri":"/golf/schedules"});</script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/yui/latest/yahoo-dom-event-connection-datasource-get-imageloader-animation-json-min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/jquery/jquery.1.8.2.min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/jquery/ui/jquery.1.9.2.custom.min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/global-min-v0086.js'></script>
+
+<script>
+//Dumping cookies that have been made browser/host only
+(function($){
+    //return;//Comment out to run code
+    //List of domains to check and see if the cookie has with it
+    var domains = ['.cbssports.com','.www.cbssports.com','www.cbssports.com','*.cbssports.com','cbssports.com', '.cbssports.com'];
+    //List of the names of cookies to match
+    var matches = ['CirclePoll','2013NCAAB','2013NFL','2013NCAAF'];
+    //Loop throught the cookies and find the matches
+    $.each(document.cookie.split(/; */), function()  {
+        var splitCookie = this.split('=');
+        for(m in matches){
+            if(splitCookie[0].match(RegExp(matches[m]))){
+                for(d in domains){
+                    console.log(splitCookie[0], 'cookie removed');
+                    //Try to delete the cookie with a domain and path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;domain=" + domains[d] + ";path=/";
+                    //Try to delete the cookie without a domain and path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;";
+                    //Try to delete the cookie without a path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;domain=" + domains[d] + ";";
+                    //Try to delete the cookie without a domain
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;path=/";
+                }
+            }
+        }
+
+    });
+})($);
+</script>
+
+
+
+
+
+    <script type="text/javascript">
+var surround=new Object();
+surround.cat = ['a','b','c','d','e','f'];
+surround.cookie = readCookie('surround');
+
+if (surround.cookie == false || surround.cookie == undefined) {
+    surround.pick = Math.floor(Math.random() * surround.cat.length);
+    surround.subsession = Math.floor(Math.random() * 4) + 1; /*subsessions 1-4*/
+    document.cookie=("surround="+surround.cat[surround.pick]+"|"+surround.subsession+";domain=.cbssports.com;path=/" );
+    surround.cookie = readCookie('surround');
+}
+if (surround.cookie) {surround.sessions=surround.cookie.split("|");}
+surround.vguid = v1();
+
+function blankAdCallback(width, height, position) {
+    // Skybox Ad - 5x5 top.
+    if (height == 5 && width == 5 && position == 'top') {
+        $('.ad-top-strip').removeAttr("data-skyboxminheight")
+            .removeAttr("data-skyboxmaxheight")
+            .removeAttr("data-skyboxheight");
+        $('body').removeClass('skybox-loaded')
+            .removeClass('skybox-loaded-dfp')
+            .removeClass('skybox-expanded')
+            .removeClass('skybox-collapsed');
+        window.scrollTo(window.pageXOffset, window.pageYOffset + 1);
+    }
+}
+</script>
+    <script>window.logged_in = "no";</script><script src="//cdn.optimizely.com/js/2788500260.js"></script>
+<script type="text/javascript">
+var cbsiadGlobal = { };
+if ( typeof(surround) == 'undefined' ) { surround = {}; }
+var dwTag = "&PGUID="+surround.vguid +"&cookiesOn=" +cbsiadGlobal.cookiesOn;
+</script>
+<script type="text/javascript" src="https://native.sharethrough.com/assets/tag.js" async></script><script type="text/javascript" src="https://js-sec.indexww.com/ht/ls-cbssports.js" async></script><script type="text/javascript" src="https://mtrx.go.sonobi.com/morpheus.cbssports.4073.js" async></script>
+<script type="text/javascript">
+if (!random) {var abc=Math.random() + ""; var random=abc.substring(2,abc.length);}
+var switchXFP="on";
+var adLookup="media/spln/golf/reg/free/schedule_pgatour";
+var adNetwork="8264";
+var xfpObj='vguid='+surround.vguid+'~user=anon~env=prod~arena=golf';
+</script>
+    
+   <script type="text/javascript">
+      xfpDomain='.cbssports.com';
+      xfpSlot='/8264/aw-cbssports/golf/media/pga_tour/schedule_pgatour';
+      // tracks if this is the first page the user has visited in this session
+      function xfpFirstPageCookie() {
+         if (xfpFirstPage) {return xfpFirstPage;}           // only run once per page, if already set, just return value
+         var xfpFirstPage = readCookie('XFP_FIRSTPAGE');    // get firstPage cookie
+         if (!xfpFirstPage) {                               // if cookie doesn't exist, this is the first page, so firstPage = 1
+            xfpFirstPage = 1;
+         } else if (xfpFirstPage == 1) {                    // else, this is the second page, set firstPage = 0
+            xfpFirstPage = 0;
+         }
+         var exp = new Date();
+         exp.setTime(exp.getTime() + xfpGetTimeToExpiration(.75)); // get number of milliseconds until 12:45am ET
+         document.cookie=('XFP_FIRSTPAGE ='+xfpFirstPage+";expires="+exp.toUTCString()+";domain="+xfpDomain+";path=/;");
+         return xfpFirstPage;                                // set and return the parameter DVAR_FIRSTPAGE = firstPage
+      }
+      // given the expiration hour in ET, return the number of milliseconds to
+      //   expiration from the given Date Object (defaults to current date)
+      function xfpGetTimeToExpiration(etExpireHour,dt) {
+         dt = dt || new Date();
+         var etUtcOffset = 5; // hours
+         if (isEDT(dt)) etUtcOffset = 4; // if in daylight savings time
+         var utcExpire = (etExpireHour+etUtcOffset)%24; // UTC expire time in hours
+         var utcTime = 60*dt.getUTCHours() + dt.getUTCMinutes(); // UTC time in mins
+         var minsToExpiration = 60*utcExpire - utcTime; // time to expiration
+         if (minsToExpiration < 0) minsToExpiration = 24*60 + minsToExpiration;
+         return 60000*minsToExpiration; // in milliseconds
+      }
+      // determine if Daylight Savings Time is being observed in the ET timezone
+      //   at the date/time of the given Date Object (defaults to current time)
+      function isEDT(dt) {
+         dt = dt || new Date(); // default to current date
+         var month = dt.getUTCMonth(); // get month in UTC
+         if (month > 2 && month < 10) return true; // in EDT if Apr to Oct
+         if (month < 2 || month > 10) return false; // not in EDT if Jan,Feb,Dec
+         var date = dt.getUTCDate(); // get day of month in UTC
+         var day = dt.getUTCDay(); // get day of week in UTC
+         if (month == 10) {  // November
+             if (date > 7) return false;  // after first week, not in EDT
+             if (day == 0) {  // Sunday of first week, check time
+               if (dt.getUTCHours() < 6) return true; //before 6am UTC, in EDT
+               return false;  // 6am UTC or later, not in EDT
+            }
+            if (date > day) return false; // Sunday has passed, not in EDT
+            return true;  // Sunday has not passed, in EDT
+         }
+         // March
+         if (date < 8) return false; // still first week, not in EDT
+         if (date > 14) return true; // after second week, in EDT
+         if (day == 0) { // Sunday of second week, check time
+             if (dt.getUTCHours() > 6) return true; // 7am UTC or later, in EDT
+             return false; // before 7am UTC, not in EDT
+         }
+         if (date - day > 7) return true;  // Sunday has passed, in EDT
+         return false; // Sunday has not passed, not in EDT
+      }
+      //sharethrough
+
+      var xfpFirstPage =  xfpFirstPageCookie();
+      var xfpSession    = (surround.cookie) ? surround.sessions[0] : 'off';
+      var xfpSubsession = (surround.cookie) ? surround.sessions[1] : 'off';
+
+      function xfpGetArgs(){
+         var args = new Object();
+         var query = location.search.substring(1); // get query string
+         var pairs = query.split("&");
+         for (var i=0; i < pairs.length; i++) {
+            var pos = pairs[i].indexOf('=');                         // Look for name "name=value"
+            if (pos == -1) continue;                                 // If not found, skip
+            var argname = pairs[i].substring(0,pos);                 // Extract the name
+            var value   = pairs[i].substring(pos+1);                 // Extract the value
+            value = decodeURIComponent(value);                       // Decode it, if needed
+            var adTarg = argname.match(/adTargeting_/);              // Do we have a match on adTargeting_<key>
+
+            // Set Targeting for spec'd out query parms
+            if (argname == 'env' || argname == 'session' || argname == 'subses' || argname == 'adRegion' || argname == 'ftag' || argname == 'ttag' || (adTarg)) {
+               // args[argname] = value;
+               if (adTarg) {argname = argname.substring(12);} // strip off adTargeting_ from the name if present
+               googletag.pubads().setTargeting(argname, value);      // Set Targeting
+               if (argname == 'ftag' || argname == 'ttag') {
+                  document.cookie=("xfpFtag="+value+";domain="+xfpDomain+";path=/" );
+                  newFtag = 1;
+               }
+               xfpObj += '~' +argname +'=' +value;
+            }
+         }
+
+         var xfpFtagVal = readCookie("xfpFtag");                  // check if we have an ftag cookie
+         var newFtag = 0;
+         if ((newFtag==0) && xfpFtagVal) {                        // If no new setting for ftag but we had an old one then
+            googletag.pubads().setTargeting('ftag', xfpFtagVal);  // Set Targeting
+            xfpObj += '~ftag=' +xfpFtagVal;
+         }
+      }
+      
+      function getTaboolaPlacements() {
+         var taboolaList = '';
+         $("div[data-taboola-placement]").each(function() {
+            $this = $(this);
+            if ($this.data('taboola-placement')) {
+              if (taboolaList != '') {taboolaList+='|';}
+              taboolaList += $this.data('taboola-placement');
+            }
+         });
+         surround.taboola=taboolaList;
+      }
+    </script>
+   <script type="text/javascript">
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+         var gads = document.createElement('script');
+         gads.async = true;
+         gads.type = 'text/javascript';
+         var useSSL = 'https:' == document.location.protocol;
+         gads.src = (useSSL ? 'https:' : 'http:') +'//www.googletagservices.com/tag/js/gpt.js';
+         var node = document.getElementsByTagName('script')[0];
+         node.parentNode.insertBefore(gads, node);
+      })();
+
+      var adSlots = {}; //var to hold ad slots.
+
+      googletag.cmd.push(function() {
+
+         adSlots["XFP_top_strip"] = googletag.defineSlot("/8264/aw-cbssports/golf/media/pga_tour/schedule_pgatour", [5,5], "top_strip").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_leader_top"] = googletag.defineSlot("/8264/aw-cbssports/golf/media/pga_tour/schedule_pgatour", [[728,90],[970,66],[970,90]], "leader_top").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_skin_ad_call"] = googletag.defineSlot("/8264/aw-cbssports/golf/media/pga_tour/schedule_pgatour", [1600,1000], "skin_ad_call").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_sky_top"] = googletag.defineSlot("/8264/aw-cbssports/golf/media/pga_tour/schedule_pgatour", [160,600], "sky_top").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_leader_plus2_bottom"] = googletag.defineSlot("/8264/aw-cbssports/golf/media/pga_tour/schedule_pgatour", [[728,90],[970,66]], "leader_plus2_bottom").addService(googletag.pubads()).setTargeting("pos", "bottom"); 
+         googletag.pubads().addEventListener("slotRenderEnded", function(event) {
+            var slotName = event.slot.getSlotElementId();
+            
+            if (slotName == 'leader_plus_top' || slotName == 'leader_top') {
+               // CBSi.log("ENTER Collapse empty leaderboard.");
+               var slotID = '#' + slotName;
+               // CBSi.log("Slot ID is " + slotName);
+               if ($(slotID).css('display') == 'none') {
+                   CBSi.log("Collapse empty leaderboard.");
+                   $('#leaderboard-wrap').css({ "display": "none" });
+               }
+            }
+         }); 
+         googletag.defineOutOfPageSlot("/8264/aw-cbssports/golf/media/pga_tour/schedule_pgatour","interstitial").addService(googletag.pubads());
+         googletag.pubads().setTargeting("ptype", "schedule");
+         googletag.pubads().setTargeting("firstpg", ""+xfpFirstPage);
+         googletag.pubads().setTargeting("session", xfpSession);
+         googletag.pubads().setTargeting("subses", ""+xfpSubsession);
+         googletag.pubads().setTargeting("vguid", surround.vguid); 
+         googletag.pubads().setTargeting("user", "anon"); 
+         googletag.pubads().setTargeting("env", "prod"); 
+
+         xfpGetArgs(); // to set/override targeting for env, session, subses, adRegion, ftag, ttag, and adTargeting_<key> if set by query string
+         googletag.pubads().enableAsyncRendering();
+         googletag.pubads().enableSingleRequest();
+         googletag.pubads().collapseEmptyDivs();
+         googletag.enableServices();
+         // googletag.display();  // Ad display is triggered via Sonobi.
+      });
+      var PR_UACT=0;
+      xfpObj += '~ptype=schedule~firstpg=' +xfpFirstPage +'~session='+xfpSession +'~subses='+xfpSubsession+'';
+      function getVideoAdSessionValues(videoId){return  "session="+xfpSession+";subses="+xfpSubsession+"";}
+   </script>
+   
+         <script type="text/javascript">
+         window._taboola = window._taboola || [];
+         _taboola.push({other : 'auto'});
+         !function (e, f, u) {
+             e.async = 1;
+             e.src = u;
+             f.parentNode.insertBefore(e, f);
+         }(document.createElement('script'), 
+         document.getElementsByTagName('script')[0], '//cdn.taboola.com/libtrc/cbsinteractive-cbssports/loader.js');
+         </script>
+      
+   
+    
+    <!-- no ClickTale -->
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /><meta name="description" content="Check out the PGA Tour schedule dates as well as the LPGA, European, Champions and Web.com Tours. Read about the golf courses on this year's PGA Tour."><meta property="og:title" content="PGA Tour Schedule" /><meta property="og:type" content="article"/><meta property="og:description" content=""/><meta property="og:image" content="http://sports.cbsimg.net/images/cbss/ui5/cbssportsv2_200x200.png"/><meta property="og:url" content="https://www.cbssports.com/golf/schedules"/><meta property="og:site_name" content="CBSSports.com"/><meta property="fb:app_id" content="297742330311988"/><meta itemprop="name" content="PGA Tour Schedule"/><meta itemprop="description" content=""/><meta name="vr:type" content="article"/><meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@cbssports" /><meta name="twitter:creator" content="@EyeOnGolf" /><meta name="twitter:url" content="https://www.cbssports.com/golf/schedules" /><meta name="twitter:title" content="PGA Tour Schedule" /><meta name="twitter:description" content="" /><meta name="twitter:image" content="http://sports.cbsimg.net/images/cbss/ui5/cbssportsv2_200x200.png" /><meta name="keywords" content="PGA tour schedule events tournaments, PGA golf tour schedule event information tee times field winners course information results, LPGA European Champions Web.com Tour, CBSSports Line, CBS SportsLine">
+<meta name="googlebot" content="NOODP">
+<meta property="fb:pages" content="25902406772" />
+
+<link rel="canonical" href="https://www.cbssports.com/golf/schedules">
+
+    <link rel="apple-touch-icon" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-ipad-retina.png">
+</head><body id="standardBody">
+<div id="tooltip" name="tooltip"></div> 
+
+<script type="text/javascript">if(top.location != self.location && (document.referrer.indexOf("cbssports.com") == -1)) {window.open(location.href, '_top');}</script>
+<div id="interstitial" style="position:absolute;top:-5000px;left:-5000px;">
+      <script type="text/javascript">
+         googletag.cmd.push(function() {
+             if (typeof index_headertag_lightspeed !== 'undefined') {
+                 var cb = (function () {
+                     return function () {
+                         var slots = googletag.pubads().getSlots();
+                         index_headertag_lightspeed.set_slot_targeting(slots);
+                          googletag.display("interstitial");
+                       };
+                 })();
+                 index_headertag_lightspeed.add_session_end_hook(cb, true);
+                 index_headertag_lightspeed.refresh();
+             } else {
+                 googletag.display("interstitial");
+             }
+         });
+      </script>
+   </div>
+<!--googleoff: snippet-->
+<div id="skybox-above">
+    <div id="top_strip" class="ad-top-strip">
+    <script type="text/javascript">
+    if (switchXFP != 'off') {
+        googletag.cmd.push(function() {
+            if (typeof index_headertag_lightspeed !== 'undefined') {
+                      var cb = (function () {
+                          return function () {
+                              var slots = googletag.pubads().getSlots();
+                              index_headertag_lightspeed.set_slot_targeting(slots);
+                               googletag.display("top_strip");
+                            };
+                      })();
+                      index_headertag_lightspeed.add_session_end_hook(cb, true);
+                      index_headertag_lightspeed.refresh();
+                  } else {
+                      googletag.display("top_strip");
+                  }
+        });
+        if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="top_strip" style="width:100%"><br>').insertBefore('#top-strip');
+    }
+    </script>
+    </div>
+</div>
+<script>
+var skyBoxScroll = function() {
+    if ($(window).scrollTop() != 0) {
+        window.scrollTo(window.pageXOffset, window.pageYOffset - 1);
+        window.scrollTo(window.pageXOffset, window.pageYOffset + 1);
+    }
+}
+</script><header id="site-header" class="site-header" data-component="nav" data-role="header" data-position="fixed" data-fullscreen="true">
+	<div id="nav-network-bar" class="nav-network-bar">
+	  <ul class="nav-networks">
+		<li class="nav-networks-item is-selected"> <a href="http://www.cbssports.com/" om-event="Brand Bar|CBSSports">CBSSports.com</a> </li>
+		<li class="nav-networks-item "> <a href="http://247sports.com" target="_blank" om-event="Brand Bar|247Sports"> 247Sports </a> </li>
+		<li class="nav-networks-item "> <a href="http://www.maxpreps.com" target="_blank" om-event="Brand Bar|MaxPreps"> MaxPreps </a> </li>
+		<li class="nav-networks-item "> <a href="http://www.sportsline.com" target="_blank" om-event="Brand Bar|SportsLine"> SportsLine </a> </li>
+		<li class="nav-networks-item "> <a href="http://shop.cbssports.com/?utm_source=cbssportscom_hp&utm_medium=bm_referral&utm_term=kw--CBS_Sports" target="_blank" om-event="Brand Bar|Shop"> Shop </a> </li>
+	  </ul>
+	  
+	  <ul class="nav-follow-us">
+		<li class="nav-follow-us-item nav-follow-us-item-label"> Follow CBS Sports </li>
+		<li class="nav-follow-us-item"> <a href="https://www.facebook.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Facebook"><span class="btn share icon-moon-facebook"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://twitter.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Twitter"><span class="btn share icon-moon-twitter"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://www.instagram.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Instagram"><span class="btn share icon-moon-instagram"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" target="_blank" rel="nofollow" om-event="Brand Bar|Flipboard"><span class="btn share icon-moon-flipboard"></span></a> </li>
+	  </ul>
+	</div>
+	<div id="cbs-site-nav" class="cbs-site-nav">
+		<div class="site-nav-inner">
+			<div class="site-nav-logo">
+				<div class="cbs-logo-lockup">
+					
+        
+        <div class="cbs-logo">
+            <a href="/" om-event="Arena Nav|Logo"> <span class="cbs-logo-icon icon-moon-cbs-icon"></span> </a>
+        </div>
+        
+            <div class="cbs-logo-section has-icon"><div class="cbs-logo-pos" data-arena="logo">
+                <span class="logo-sport icon-moon-arena-text-golf"></span>
+                <span class="logo-icon icon-moon-caret-down"></span>
+            </div> <div class="cbs-logo-dropdown"><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-cbs-icon"></span> <a href="/" om-event="Arena Nav|Golf|CBS Sports Home">CBS Sports Home</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-fantasy"></span> <a href="https://www.cbssports.com/fantasy/" om-event="Arena Nav|Golf|Fantasy">Fantasy</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-nfl"></span> <a href="https://www.cbssports.com/nfl/" om-event="Arena Nav|Golf|NFL">NFL</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-mlb"></span> <a href="https://www.cbssports.com/mlb/" om-event="Arena Nav|Golf|MLB">MLB</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-ncaafb"></span> <a href="https://www.cbssports.com/college-football/" om-event="Arena Nav|Golf|NCAA FB">NCAA FB</a> </li><li class="nav-dropdown-item is-selected"> <span class="icon-sport icon-moon-arena-golf"></span> <a href="https://www.cbssports.com/golf/" om-event="Arena Nav|Golf|Golf">Golf</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-basketball"></span> <a href="https://www.cbssports.com/nba/" om-event="Arena Nav|Golf|NBA">NBA</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-nhl"></span> <a href="https://www.cbssports.com/nhl/" om-event="Arena Nav|Golf|NHL">NHL</a> </li></ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/college-basketball/" om-event="Arena Nav|Golf|NCAA BB">NCAA BB</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/boxing" om-event="Arena Nav|Golf|Boxing">Boxing</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/wwe/" om-event="Arena Nav|Golf|WWE">WWE</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/soccer/" om-event="Arena Nav|Golf|Soccer">Soccer</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/mma/" om-event="Arena Nav|Golf|MMA">MMA</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/tennis/" om-event="Arena Nav|Golf|Tennis">Tennis</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/olympics/" om-event="Arena Nav|Golf|Olympics">Olympics</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.maxpreps.com/national/national.htm" om-event="Arena Nav|Golf|High School" target="_blank" class="external-link" rel="nofollow">High School</a> </li></ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class=""></span> <a href="http://sports.cbslocal.com/" om-event="Arena Nav|Golf|CBS Local Sites" target="_blank" class="external-link" rel="nofollow">CBS Local Sites</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.nascar.com/en_us/sprint-cup-series.html?cid=syn_cbs_referrers_navlinks_01112013&synid=syn_cbs_referrers_navlinks_01112013" om-event="Arena Nav|Golf|NASCAR" target="_blank" class="external-link" rel="nofollow">NASCAR</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.americasbestracing.net/" om-event="Arena Nav|Golf|Horse Racing" target="_blank" class="external-link" rel="nofollow">Horse Racing</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.pbr.com/" om-event="Arena Nav|Golf|PBR" target="_blank" class="external-link" rel="nofollow">PBR</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://toughmudder.com/" om-event="Arena Nav|Golf|Tough Mudder" target="_blank" class="external-link" rel="nofollow">Tough Mudder</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.bowl.com/" om-event="Arena Nav|Golf|Bowling" target="_blank" class="external-link" rel="nofollow">Bowling</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.stubhub.com/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHomepagemodule-_-partCBSSports" om-event="Arena Nav|Golf|Tickets" target="_blank" class="external-link" rel="nofollow">Tickets</a> </li></ul></div> </div></div></div>
+        
+        <nav class="site-nav-list">
+            <ul><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/golf/"  om-event="Arena Nav|Golf|Home">Home</a></li><li class="nav-list-item nav-list-item-flow is-selected"> <a href="https://www.cbssports.com/golf/schedules"  om-event="Arena Nav|Golf|Schedule">Schedule</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/golf/stats"  om-event="Arena Nav|Golf|Stats">Stats</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/golf/rankings"  om-event="Arena Nav|Golf|Rankings">Rankings</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/golf/players"  om-event="Arena Nav|Golf|Players">Players</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/golf/leaderboard/"  om-event="Arena Nav|Golf|Leaderboard">Leaderboard</a></li>
+                        <li class="nav-list-item hoverable the-dots" data-arena="extras">
+                            <span class="icon-more icon-moon-nav-more"></span>
+                            <div class="site-nav-dropdown ">
+                                <ul class="nav-dropdown-inner"><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/golf/tournaments/masters/"  om-event="Arena Nav|Golf|More|Masters">Masters</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.golfbook.com/?utm_source=cbssports&utm_medium=link&utm_campaign=golfdesktop_nav" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|Golf|More|GOLFBOOK">GOLFBOOK</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.stubhub.com/golf-tickets/category/111/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHpdropdown-_-partCBSSports" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|Golf|More|Tickets">Tickets</a></li></ul></div></li></ul>
+        </nav>
+			<div class="site-nav-side not-logged-in">
+				<ul class="site-nav-side-inner">
+					<li class="nav-side-item games-item hoverable" data-arena="play"> <span class="narrow-text">Play</span> <span class="narrow-icon icon-item icon-moon-nav-games"></span>
+					    <div class="site-nav-dropdown is-dropdown-games align-right">
+							<div class="nav-dropdown-inner">
+								
+        <div class="nav-dropdown-game">
+            <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/football/?ttag=FFB16_os_drpdwn_feat_lk" om-event="Global Nav|Home|Play|Games|Text">Games</a></h6>
+            <div class="nav-game-wrap">
+                <div class="nav-game game-left">
+                    <div class="nav-game-image">
+                        <a href="https://www.cbssports.com/fantasy/games/basketball/?ftag=SPM-10-10abh6c" om-event="Global Nav|Home|Play|FANTASY BASKETBALL|Feature 1"><img src="https://sportshub.cbsistatic.com/i/2017/09/18/1b7c71c4-dc55-4636-a4b3-1dc245e2ea93/fantasybasketball-180x100.jpg" alt="fantasybasketball-180x100.jpg"></a>
+                        <p class="nav-game-text">Play Now</p>
+                    </div>
+                    <p class="nav-game-title"><a href="https://www.cbssports.com/fantasy/games/basketball/?ftag=SPM-10-10abh6c" om-event="Global Nav|Home|Play|FANTASY BASKETBALL|Feature 1">FANTASY BASKETBALL</a></p>
+                </div>
+                <div class="nav-game game-right">
+                    <div class="nav-game-image">
+                        <a href="https://www.cbssports.com/fantasy/games/hockey/?ftag=SPM-16-10abg0g" om-event="Global Nav|Home|Play|FANTASY HOCKEY|Feature 2"><img src="https://sportshub.cbsistatic.com/i/2017/09/18/7423042f-ba35-4a00-a58f-4334c8ae7b8f/180x100.jpg" alt="180x100.jpg"></a>
+                        <p class="nav-game-text">Play Now</p>
+                    </div>
+                    <p class="nav-game-title"><a href="https://www.cbssports.com/fantasy/games/hockey/?ftag=SPM-16-10abg0g" om-event="Global Nav|Home|Play|FANTASY HOCKEY|Feature 2">FANTASY HOCKEY</a></p>
+                </div>
+            </div>
+            <div class="nav-game-dropdown-text" style="clear:both;">
+                <a href="https://www.cbssports.com/fantasy/games/my-teams/" om-event="Global Nav|Home|Play|View your Leagues|Text">View your Leagues</a>
+            </div>
+        </div>
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/football?ttag=FF16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Football|Text">Fantasy Football</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/baseball/?ttag=FBB16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Baseball|Text">Fantasy Baseball</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/basketball/?ttag=FBK16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Basketball|Text">Fantasy Basketball</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/hockey/?ttag=FHK16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Hockey|Text">Fantasy Hockey</a></h6>
+            </div>
+        
+    </div>
+    <div class="nav-dropdown-bottom">
+        <div class="nav-dropdown-button">
+            <a href="/fantasy/games/" om-event="Global Nav|Home|Play|See All">See All Sports Games</a>
+        </div>
+    </div>
+    
+							</div>
+						</div>
+					</li>
+					<li class="nav-side-item watch-item hoverable" data-arena="watch"> <span class="narrow-text">Watch</span> <span class="narrow-icon icon-item icon-moon-nav-watch"></span>
+						<div class="site-nav-dropdown align-right">
+							<div class="nav-dropdown-inner">
+								
+               <h6 class="nav-dropdown-title"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/" om-event="Global Nav|Golf|Watch|Featured Video|Text">Latest from CBS Sports Network </a></h6>
+               <div class="nav-dropdown-top">
+                    <a href="https://www.cbssports.com/watch/cbssportsnetwork/">
+                        <div class="image-icon-overlay-wrap">
+                            <figure class="img"><img src="https://sportshub.cbsistatic.com/i/2017/03/27/4a8a0cfb-8794-4c57-8cfd-53cc0ba8c2cd/sizzle-graphic.jpg" alt="sizzle_graphic" height="152" width="270"></figure>
+                        </div>
+                        <a href="https://www.cbssports.com/watch/cbssportsnetwork/" class="vidPlayLg" alt="sizzle_graphic" om-event="Global Nav|Golf|Watch|Featured Video|Image"></a>
+                    </a>
+               </div>
+           <ul><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/"  om-event="Global Nav|Golf|Watch|Latest from CBS Sports Network">Latest from CBS Sports Network</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/"  om-event="Global Nav|Golf|Watch|Watch CBS Sports Network">Watch CBS Sports Network</a> </li><li class="nav-dropdown-item"> <a href="http://www.cbssportsnetwork.com/" rel="nofollow" class="external-link" target="_blank"  om-event="Global Nav|Golf|Watch|CBSSN Channel Finder">CBSSN Channel Finder</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/cbssports"  om-event="Global Nav|Golf|Watch|TV Shows & Listings">TV Shows & Listings</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbs.com/all-access/live-tv/?ftag=AAM-00-10ade5c"  om-event="Global Nav|Golf|Watch|NFL on All Access">NFL on All Access</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/fantasy/football/show/fantasy-football-today/"  om-event="Global Nav|Golf|Watch|Fantasy Football Today">Fantasy Football Today</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/college-football/sec-live/"  om-event="Global Nav|Golf|Watch|SEC Live">SEC Live</a> </li><li class="nav-dropdown-item"> <a href="http://www.collegesportslive.com/start/?ftag=CSL-01-10aaa6f"  om-event="Global Nav|Golf|Watch|College Sports Live">College Sports Live</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/video/show/the-score/"  om-event="Global Nav|Golf|Watch|The Score">The Score</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/video/player/247-sports-live"  om-event="Global Nav|Golf|Watch|247Sports Live">247Sports Live</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/show/reiters-block/"  om-event="Global Nav|Golf|Watch|Reiter's Block">Reiter's Block</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/video/show/minute-update/"  om-event="Global Nav|Golf|Watch|Sports Minute">Sports Minute</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/videos/"  om-event="Global Nav|Golf|Watch|All Videos">All Videos</a> </li></ul>
+							</div>
+						</div>
+					</li>
+					<li class="nav-side-item hoverable" data-arena="listen"> <span class="narrow-text">Listen</span> <span class="narrow-icon icon-item icon-moon-nav-listen"></span>
+						<div class="site-nav-dropdown align-right">
+							<div class="nav-dropdown-inner">
+								
+                <h6 class="nav-dropdown-title"> CBS Sports Radio </h6>
+                <div class="nav-dropdown-top">
+                  <div class="nav-dropdown-image"> <a href="http://radio.cbssports.com/" rel="nofollow" target="_blank" om-event="Global Nav|Golf|Listen|Featured Podcast|Image"><img src="https://sportshub.cbsistatic.com/i/2016/02/24/fb0619ed-f59a-47ac-ac37-d7f670af79f3/cbssports-radio.png" alt="CBSSPORTS-radio"></a> </div>
+                  <div class="nav-dropdown-top-side">
+                    <p class="nav-dropdown-top-title"> <a href="http://radio.cbssports.com/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|Golf|Listen|Featured Podcast|Text"> Listen Live </a> </p>
+                    <time class="nav-dropdown-top-date">  </time>
+                  </div>
+                </div>
+            
+                <h6 class="nav-dropdown-title"> Fantasy Football Today </h6>
+                <div class="nav-dropdown-top">
+                  <div class="nav-dropdown-image"> <a href="https://soundcloud.com/cbssportspodcasts/week-5-recap-backfield-battles" rel="nofollow" target="_blank" om-event="Global Nav|Golf|Listen|Featured Podcast|Image"><img src="https://sportshub.cbsistatic.com/i/2017/06/20/bea1c43d-f08f-480e-8ad9-e93ad015bcc1/podcast-fantasyfootball-logo.jpg" alt="Podcast: Fantasy Football Today logo"></a> </div>
+                  <div class="nav-dropdown-top-side">
+                    <p class="nav-dropdown-top-title"> <a href="https://soundcloud.com/cbssportspodcasts/week-5-recap-backfield-battles"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|Golf|Listen|Featured Podcast|Text"> Week 5 Recap - Backfield Battles </a> </p>
+                    <time class="nav-dropdown-top-date"> 31h ago </time>
+                  </div>
+                </div>
+            <ul><li class="nav-dropdown-item"> <a href="http://sports.cbslocal.com/cbs-sports-radio-roundup/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|Golf|Listen|CBS Sports Radio Roundup">CBS Sports Radio Roundup</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/podcasts/jonah-keri/" om-event="Global Nav|Golf|Listen|The Jonah Keri Podcast">The Jonah Keri Podcast</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/podcast" om-event="Global Nav|Golf|Listen|Podcasts">Podcasts</a> </li><li class="nav-dropdown-item"> <a href="http://jimrome.com/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|Golf|Listen|The Jim Rome Show">The Jim Rome Show</a> </li></ul>
+							</div>
+						</div>
+					</li>
+					
+            <li class="nav-side-item log-in-item"> 
+                <span class="log-in-buttons"> 
+                    <a href="https://www.cbssports.com/login?master_product=150&xurl=https%3A%2F%2Fwww.cbssports.com%2Fgolf%2Fschedules" class="log-in-button" om-event="Global Nav|Golf|Log In"> <span class="the-button">Log In</span> </a> 
+                </span> 
+            </li>        
+        
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+<script type="text/javascript">
+ $(document).ready(function() {
+	var touchedNow;  			// Track which was just tapped now
+	var touchedLast  = 'none'; // Track which was last opened
+	var navItems 	 = $('.nav-list-item.hoverable, .nav-side-item.hoverable, .cbs-logo-section');
+	var navButtons   = $('.nav-list-item.hoverable > a, .nav-list-item.hoverable .icon-more, .nav-side-item.hoverable  span, .logo-sport');
+
+	navButtons.on("touchstart", function (e) {
+		var ua = navigator.userAgent.toLowerCase();
+		var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+		if (isAndroid) {
+			myWebview.zoomIn();
+			myWebview.zoomOut();
+		}
+		e.preventDefault();
+
+		$('body').addClass('touch-enabled');
+		var touchedParent = $(this).parent();
+		touchedNow = touchedParent.data( "arena" ); // record which nav link was clicked.
+		navItems.removeClass('is-tapped'); // remove 'is-tapped' from all links
+		if (touchedNow === touchedLast) {
+			// console.log('THE SAME ', touchedNow, touchedLast);
+			$('body').addClass('touch-enabled');
+			touchedLast = 'none';
+		} else {
+			// console.log('DIFFERENT ', touchedNow, touchedLast);
+			$('body').removeClass('touch-enabled');
+			touchedLast = touchedParent.data( "arena" );
+		}
+	});
+});
+
+</script>
+
+<style>
+#fantasy_promo_bar_row {
+    height:40px;
+    background-color: #185c2a;
+    line-height:40px;
+    -webkit-box-shadow: inset 0px 0px 6px 0px #000000;
+    -moz-box-shadow:    inset 0px 0px 6px 0px #000000;
+    box-shadow:         inset 0px 0px 6px 0px #000000;
+}
+#fantasy_promo_bar {
+    margin: 0 auto;
+    width: 960px;
+    font-size: 14px;
+    color: #FFF;
+    text-align: center;
+}
+#fantasy_promo_bar_label {
+    display: inline-block;
+    font-size: 12px;
+    color: #fff200;
+    text-transform: uppercase;
+    margin-left:3px;
+    margin-right: 3px;
+}
+a#fantasy_promo_bar_play:link,
+a#fantasy_promo_bar_play:visited{
+    display: inline-block;
+    text-align: center;
+    background-color: #3987d9;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 22px; line-height: 24px;
+    margin: 8px 8px;
+    font-size: 12px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration:none;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border-bottom: 2px solid #004a8e;
+}
+
+a#fantasy_promo_bar_play:hover{
+    background-color: #014a8f;
+}
+</style>
+
+<!--googleon: snippet-->
+<div id="mantle_skin">
+    <span id="adSkinLeft"></span>
+    <span id="adSkinRight"></span>
+    
+    <div id="skin_ad_call" style="max-height:1px !important">
+        <script type="text/javascript">
+        if (switchXFP != 'off') {
+            googletag.cmd.push(function() {
+                if (typeof index_headertag_lightspeed !== 'undefined') {
+                          var cb = (function () {
+                              return function () {
+                                  var slots = googletag.pubads().getSlots();
+                                  index_headertag_lightspeed.set_slot_targeting(slots);
+                                   googletag.display("skin_ad_call");
+                                };
+                          })();
+                          index_headertag_lightspeed.add_session_end_hook(cb, true);
+                          index_headertag_lightspeed.refresh();
+                      } else {
+                          googletag.display("skin_ad_call");
+                      }
+            });
+            if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="skin_ad_call" style="width:960px"><br>').insertBefore('#skin_ad_call');
+        }
+        </script>
+    </div>
+    
+    
+            <div id="leaderboard-wrap" align="center" style="min-height:66px; height: auto;">
+                <div id="leader_top" style="padding-top: 10px;">
+                    <script type="text/javascript">
+                    if (switchXFP != 'off') {
+                        googletag.cmd.push(function() {
+                            if (typeof index_headertag_lightspeed !== 'undefined') {
+                                      var cb = (function () {
+                                          return function () {
+                                              var slots = googletag.pubads().getSlots();
+                                              index_headertag_lightspeed.set_slot_targeting(slots);
+                                               googletag.display("leader_top");
+                                            };
+                                      })();
+                                      index_headertag_lightspeed.add_session_end_hook(cb, true);
+                                      index_headertag_lightspeed.refresh();
+                                  } else {
+                                      googletag.display("leader_top");
+                                  }
+                        });
+                        if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="leader_top" style="width:980px"><br>').insertBefore('#leader_top');
+                    }
+                    </script>
+                </div>
+            </div>
+            
+
+
+    
+    <div id="pageRow">
+    
+    <div id="pageContainer" section="layout;railRight">
+    <h1 class="pageTitle feature golf">PGA Tour Schedule</h1>
+    <ul class="optPrimary options tab"><li class="optsel"><a    class="optsel  " href="/golf/schedules/pga-tour" >PGA Tour</a></li><li class="tabSep"></li><li><a    class="opt  " href="/golf/schedules/lpga-tour" >LPGA Tour</a></li><li class="tabSep"></li><li><a    class="opt  " href="/golf/schedules/european-tour" >European Tour</a></li><li class="tabSep"></li><li><a    class="opt  " href="/golf/schedules/champions-tour" >Champions Tour</a></li><li class="tabSep"></li><li><a    class="opt  " href="/golf/schedules/web-tour" >Web.com Tour</a></li></ul>
+    
+        <div id="layoutRailRight">
+            <div class="column1">
+             
+<script type="text/javascript">
+    function loadTourPage(){
+        var selectedTour = document.getElementById("tour").value;
+    
+        if (selectedTour != "more"){
+            window.location = "/golf/schedules/" + selectedTour;
+        }
+    }
+</script>
+<table width="100%" border="0" cellspacing="1" cellpadding="0">
+<tr>
+<td align="right"><a href="https://www.stubhub.com/golf-tickets/category/111/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpCategoryschedulepages-_-partCBSSports" target="_blank" rel="nofollow"><b>Buy Golf Tickets</b></a></td>
+</tr>
+</table>
+<!--
+<p>
+&nbsp;
+</p>
+
+<br clear="all">
+
+<div class="SLTables1">
+
+<table  width="100%" cellspacing="1" cellpadding="2" border="0">
+
+<tr class="bg0">
+<td colspan="4">2008 PGA Tour Schedule</td>
+</tr>
+
+<tr class="bg1">
+<td>Date</td>
+<td>Tournament</td>
+<td>Course</td>
+<td>Location</td>
+</tr>
+
+
+
+
+<tr valign="top" class="bg2"><td>Dec. 31-Jan. 6	</td><td>Mercedes-Benz
+Championship	       </td><td>Plantation Course at Kapalua
+</td><td>	Kapalua, HI  </td></tr>
+<tr valign="top" class="bg2"><td>Jan. 7-13	</td><td>Sony Open in
+Hawaii		               </td><td>Waialae Country Club </td><td>
+Honolulu, HI		       </td></tr>
+<tr valign="top" class="bg2"><td>Jan. 14-20	</td><td>Bob Hope
+Chrysler Classic		            </td><td>The Classic Club,
+PGA West-Palmer Private, LaQuinta, Silver Rock </td><td> Palm Springs,
+CA  </td></tr>
+<tr valign="top" class="bg2"><td>Jan. 21-27	</td><td>Buick
+Invitational	               </td><td>Torrey Pines GC (South
+Course, North Course)	       </td><td>San Diego, CA	</td></tr>
+<tr valign="top" class="bg2"><td>Jan. 28- Feb. 3</td><td> FBR Open
+</td><td>	    TPC Scottsdale
+</td><td>Scottsdale, AZ		    </td></tr>
+<tr valign="top" class="bg2"><td>Feb. 4-10	</td><td>AT&T Pebble
+Beach National Pro-Am    </td><td>Pebble Beach Golf Links, Spyglass
+Hill, Poppy Hills	 </td><td>Pebble Beach, CA  </td></tr>
+<tr valign="top" class="bg2"><td>Feb. 11-17	</td><td>Northern
+Trust Open	               </td><td>Riviera Country Club
+</td><td>Pacific Palisades, CA			</td></tr>
+<tr valign="top" class="bg2"><td>Feb. 18-24	</td><td>World Golf
+Championships-Accenture Match Play Championship
+</td><td>		The Gallery at Dove Mountain </td><td>
+Tucson, AZ		</td></tr>
+<tr valign="top" class="bg2"><td>Feb. 18-24	</td><td>Mayakoba Golf
+Classic at Riviera Maya		      </td><td>El Camaleon Golf Club
+at Mayakoba	   </td><td>Riviera Maya, MX	  </td></tr>
+<tr valign="top" class="bg2"><td>Feb. 25-March 2</td><td>The Honda
+Classic		 </td><td>	      PGA National (Champion Course)
+</td><td>Palm Beach Gardens, FL	      </td></tr>
+<tr valign="top" class="bg2"><td>March 3-9	</td><td>PODS
+Championship	 </td><td>	       Innisbrook Resort & Golf Club
+(Copperhead Course)		       </td><td>Tampa Bay, FL
+</td></tr>
+<tr valign="top" class="bg2"><td>March 10-16	</td><td>Arnold Palmer
+Invitational presented by MasterCard   </td><td>		Bay
+Hill Golf Club and Lodge  </td><td>Orlando, FL
+</td></tr>
+<tr valign="top" class="bg2"><td>March 17-23	</td><td>World Golf
+Championships-CA Championship	       </td><td>	       Doral
+Golf Resort and Spa (Blue Course)      </td><td>Doral, FL
+</td></tr>
+<tr valign="top" class="bg2"><td>March 17-23	</td><td>Puerto Rico
+Open presented by Banco Popular	       </td><td>Coco Beach Golf &
+Country Club   </td><td>Rio Grande, Puerto Rico	     </td></tr>
+<tr valign="top" class="bg2"><td>March 24-30	     </td><td>Zurich
+Classic of New Orleans		       </td><td>     TPC Louisiana
+</td><td>New Orleans, LA	       </td></tr>
+<tr valign="top" class="bg2"><td>March 31-April 6</td><td>Shell Houston
+Open		 </td><td>	       Redstone Golf Club (Tournament
+Course) </td><td>		       Houston, TX   </td></tr>
+<tr valign="top" class="bg2"><td>April 7-13	</td><td>The
+Masters</td><td>	Augusta National Golf Club
+</td><td>Augusta, GA	</td></tr>
+<tr valign="top" class="bg2"><td>April 14-20	</td><td>Verizon
+Heritage	 </td><td>	       Harbour Town Golf Links
+</td><td>Hilton Head Island, SC	       </td></tr>
+<tr valign="top" class="bg2"><td>April 21-27	</td><td>EDS Byron
+Nelson Championship		       </td><td>	     TPC Four
+Seasons Resort			       </td><td>Irving, TX
+</td></tr>
+<tr valign="top" class="bg2"><td>April 28- May 4</td><td> Wachovia
+Championship	 </td><td>	       Quail Hollow Club
+</td><td>Charlotte, NC		       </td></tr>
+<tr valign="top" class="bg2"><td>May 5-11	</td><td>THE PLAYERS
+Championship	  </td><td>	     TPC Sawgrass (THE PLAYERS Stadium
+Course)		  </td><td>Ponte Vedra Beach, FL  </td></tr>
+<tr valign="top" class="bg2"><td>May 12-18    </td><td>AT&T Classic
+</td><td>	 TPC Sugarloaf	     </td><td>Duluth, GA    </td></tr>
+<tr valign="top" class="bg2"><td>May 19-25	      </td><td>Crowne
+Plaza Invitational at Colonial	     </td><td>	      Colonial Country
+Club  </td><td>Ft. Worth, TX	     </td></tr>
+<tr valign="top" class="bg2"><td>May 26- June 1 </td><td>	the
+Memorial Tournament presented by Morgan Stanley
+</td><td>	    Muirfield Village Golf Club
+</td><td>Dublin, OH	      </td></tr>
+<tr valign="top" class="bg2"><td>June 2-8	</td><td>Stanford
+St. Jude Championship		      </td><td>		TPC Southwind
+</td><td>	Memphis, TN	      </td></tr>
+<tr valign="top" class="bg2"><td>June 9-15	</td><td>U.S. Open
+</td><td>	Torrey Pines GC (South Course)	</td><td>San Diego, CA
+</td></tr>
+<tr valign="top" class="bg2"><td>June 16-22	</td><td>Travelers
+Championship	 </td><td>	      TPC River Highlands
+</td><td>Cromwell, CT		      </td></tr>
+<tr valign="top" class="bg2"><td>June 23-29	</td><td>Buick Open
+</td><td>	 Warwick Hills Golf and Country Club
+</td><td>Grand Blanc, MI       </td></tr>
+<tr valign="top" class="bg2"><td>June 30- July 6</td><td> AT&T
+National	 </td><td>	      Congressional Country Club (Blue
+Golf Course) </td><td>		      Bethesda, MD  </td></tr>
+<tr valign="top" class="bg2"><td>July 7-13	</td><td>John Deere
+Classic		 </td><td>	      TPC Deere Run
+</td><td>Silvis, IL		      </td></tr>
+<tr valign="top" class="bg2"><td>July 14-20	</td><td>The Open
+Championship	 </td><td>	      Royal Birkdale, Lancashire
+Course		 </td><td>Lancashire, UK    </td></tr>
+<tr valign="top" class="bg2"><td>July 14-20	</td><td>U.S. Bank
+Championship in Milwaukee	      </td><td>Brown Deer Park Golf
+Course	     </td><td>Milwaukee, WI   </td></tr>
+<tr valign="top" class="bg2"><td>July 21-27	</td><td>RBC Canadian
+Open		 </td><td>	      Glen Abbey Golf Club
+</td><td>Oakville, Ontario, CAN	      </td></tr>
+<tr valign="top" class="bg2"><td>July 28- Aug. 3</td><td> World Golf
+Championships-Bridgestone Invitational	  </td><td>	  Firestone
+Country Club		  </td><td>Akron, OH		  </td></tr>
+<tr valign="top" class="bg2"><td>July 28- Aug. 3</td><td> Legends
+Reno-Tahoe Open	 </td><td>Montreux Golf and Country Club
+</td><td>Reno, NV		   </td></tr>
+<tr valign="top" class="bg2"><td>Aug. 4-10	</td><td>PGA
+Championship	 </td><td>	      Oakland Hills Country Club
+</td><td>Bloomfield Township, MI </td></tr>
+<tr valign="top" class="bg2"><td>Aug. 11-17	</td><td>Wyndham
+Championship	 </td><td>	      TBD	</td><td>Greensboro,
+NC		 </td></tr>
+<tr valign="top" class="bg2"><td>Aug. 18-24	</td><td>The Barclays
+</td><td>	 Westchester Country Club	</td><td>Harrison, NY
+</td></tr>
+<tr valign="top" class="bg2"><td>Aug. 25- Sept. 1</td><td>Deutsche
+Bank Championship		      </td><td>		TPC Boston
+</td><td>Norton, MA		      </td></tr>
+<tr valign="top" class="bg2"><td>Sept. 1-7	</td><td>BMW
+Championship	 </td><td>	       Bellerive Country Club
+</td><td>	St. Louis, MO	       </td></tr>
+<tr valign="top" class="bg2"><td>Sept. 8-14	</td><td
+colspan="3">(OFF)</td></tr>
+<tr valign="top" class="bg2"><td>Sept. 15-21	</td><td>Ryder Cup		</td><td>Valhalla Golf Club	</td><td>Louisville,
+KY</td></tr>
+<tr valign="top" class="bg2"><td>Sept. 15-21	</td><td>Viking
+Classic		 </td><td>	       Annandale Golf Club
+</td><td>Madison, MS		       </td></tr>
+<tr valign="top" class="bg2"><td>Sept. 22-28	</td><td>THE TOUR
+Championship presented by Coca-Cola    </td><td>	     East Lake
+Golf Club    </td><td>Atlanta, GA      </td></tr>
+<tr valign="top" class="bg2"><td>Sept. 29-Oct. 5</td><td> Turning
+Stone Resort Championship	       </td><td>	  Atunyote
+Golf Club at Turning Stone Resort </td><td>		  Verona, NY
+</td></tr>
+<tr valign="top" class="bg2"><td>Oct. 6-12	</td><td>Valero Texas
+Open		 </td><td>	      La Cantera Golf Club </td><td>
+San Antonio, TX	 </td></tr>
+<tr valign="top" class="bg2"><td>Oct. 13-19	</td><td>Justin
+Timberlake Shriners Hospitals for Children Open		</td><td>
+TPC Summerlin </td><td>	      Las Vegas, NV		</td></tr>
+<tr valign="top" class="bg2"><td>Oct. 20-26
+</td><td>Frys.com Open		      </td><td>		Grayhawk Golf
+Club </td><td>	  Scottsdale, AZ      </td></tr>
+<tr valign="top" class="bg2"><td>Oct. 27- Nov. 2</td><td> Ginn sur Mer
+Classic		 </td><td>	      Ginn Hammock Beach Resort
+(Conservatory Course)		      </td><td>Palm Coast, FL
+</td></tr>
+<tr valign="top" class="bg2"><td>Nov. 3-9	</td><td>Children's
+Miracle Network Classic presented by Wal-Mart	</td><td>Walt Disney
+World Resort (Magnolia Course, Palm Course) </td><td>	      Lake
+Buena Vista, FL </td></tr>
+                                                
+                                                
+                                 
+</table>
+</div>
+
+
+<p>
+&nbsp;
+</p>
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<div class="SLTables1">
+<table border="0" cellspacing="1" width="100%" cellpadding="0">
+    <tr>
+        <td colspan="2" style="padding:3px;" class="bg0">
+            THIS WEEK'S PGA TOUR EVENT
+        </td>
+    </tr>
+    <tr class="bg2">
+        <td width="60%" valign="top" style="padding:3px;">
+            <span style="float:left; width:120; height:100%">
+                <img
+src="http://images.sportsline.com/u/photos/golf/img10396052.jpg"
+width="115" height="100" alt="Troy Matteson"/>
+            </span>
+            <div class="ctoptxt1">
+               <b>Frys.com Open</b><br/>
+            </div>
+            <div class="opt_sm">
+            <b>Purse: $4 million</b><br/>
+Troy Matteson returns to Las Vegas to make his first PGA Tour title defense at the Frys.com Open.
+
+
+            </div>
+        </td>
+        <td width="40%" valign="top">
+            <div class="opt_sm">
+            <table border="0" cellspacing="0" cellpadding="3" width="100%">
+                <tr class="bg1">
+                    <td>Event Information</td>
+                </tr>
+                <tr>
+                    <td>
+                  
+
+
+
+         <a href="http://www.sportsline.com/golf/leaderboard">Leaderboard</a><br/> 
+ <a href="http://www.sportsline.com/golf/tournaments/teetimes">Tee Times</a><br/> 
+                    <a href="http://www.sportsline.com/golf/tournaments/field">Field</a><br/>                    
+                  
+                  
+		     
+
+ <center><b><a href="http://www.sportsline.com/golf/tvtimes">Broadcast Times</a></b></center> 
+
+                    </td>
+                </tr>
+            </table>
+            </div>
+        </td>
+    </tr>
+</table>
+</div>
+-->
+
+
+
+
+
+
+
+
+ 
+<table class="data" width="100%" ><tr class="title"><td colspan="7">2018 PGA Tour Schedule</td></tr><tr class="label"  id="special" ><td align="left"><b>Date</td><td align="left"><b>Tournament</b></td><td align="left"><b>Location</b></td><td align="left"><b>Course</b></td><td align="left"><b>Purse</b></td><td align="left"><b>Network</b></td><td align="left"><b>Champion</b></td></tr><tr class="row1"  align="right"><td  align="left">Oct 5-8</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186115">Safeway Open</a></td><td  align="left">Napa, California</td><td  align="left">Silverado Resort and Spa - North Course</td><td  align="left">$6,200,000</td><td  align="left">GOLF</td><td  align="left">Brendan Steele</td></tr><tr class="row2"  align="right"><td  align="left">Oct 12-15</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1928676">CIMB Classic</a></td><td  align="left">Kuala Lumpur, Malaysia</td><td  align="left">TPC Kuala Lumpur - West Course</td><td  align="left">$7,000,000</td><td  align="left">&nbsp;</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Oct 19-22</td><td  align="left"><a href="/golf/leaderboard/pga-tour/2881657">THE CJ CUP @ NINE BRIDGES</a></td><td  align="left">Jeju-do, South Korea</td><td  align="left">Nine Bridges</td><td  align="left">$9,250,000</td><td  align="left">&nbsp;</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Oct 26-29</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1678247">World Golf Championships-HSBC Champions</a></td><td  align="left">Shanghai, China</td><td  align="left">Sheshan International</td><td  align="left">$9,750,000</td><td  align="left">&nbsp;</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Oct 26-29</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186111">Sanderson Farms Championship</a></td><td  align="left">Jackson, Mississippi</td><td  align="left">Country Club of Jackson</td><td  align="left">$4,300,000</td><td  align="left">GOLF</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Nov 2-5</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186114">Shriners Hospitals for Children Open</a></td><td  align="left">Las Vegas, Nevada</td><td  align="left">TPC Summerlin</td><td  align="left">$6,800,000</td><td  align="left">GOLF</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Nov 9-12</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186077">OHL Classic at Mayakoba</a></td><td  align="left">Playa del Carmen, Quintana Roo</td><td  align="left">El Camaleon Golf Club</td><td  align="left">$7,100,010</td><td  align="left">GOLF</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Nov 16-19</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1733528">The RSM Classic</a></td><td  align="left">Sea Island, Georgia</td><td  align="left">Sea Island Golf Club - Seaside Course, Sea Island Golf Club - Plantation Course</td><td  align="left">$6,200,000</td><td  align="left">&nbsp;</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Nov 30-Dec 3</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1291805">Hero World Challenge</a></td><td  align="left">Albany, Bahamas</td><td  align="left">Albany</td><td  align="left">$3,500,000</td><td  align="left">&nbsp;</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Jan 4-7</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186070">Sentry Tournament of Champions</a></td><td  align="left">Kapalua, Hawaii</td><td  align="left">Kapalua Resort - The Plantation Course</td><td  align="left">$6,300,000</td><td  align="left">GOLF</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Jan 11-14</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186071">Sony Open in Hawaii</a></td><td  align="left">Honolulu, Hawaii</td><td  align="left">Waialae Golf Course</td><td  align="left">$6,200,000</td><td  align="left">GOLF</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Jan 18-21</td><td  align="left"><a href="/golf/leaderboard/pga-tour/450076">CareerBuilder Challenge</a></td><td  align="left">La Quinta, California</td><td  align="left">TPC Stadium Course at PGA West, Jack Nicklaus Tournament Course at PGA West, La Quinta CC</td><td  align="left">$5,900,000</td><td  align="left">GOLF</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Jan 25-28</td><td  align="left"><a href="/golf/leaderboard/pga-tour/450078">Farmers Insurance Open</a></td><td  align="left">La Jolla, California</td><td  align="left">Torrey Pines - South Course, Torrey Pines - North Course</td><td  align="left">$6,900,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Feb 1-4</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186074">Waste Management Phoenix Open</a></td><td  align="left">Scottsdale, Arizona</td><td  align="left">TPC Scottsdale - Stadium Course</td><td  align="left">$6,900,000</td><td  align="left">GOLF</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Feb 8-11</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186075">AT&T Pebble Beach Pro-Am</a></td><td  align="left">Pebble Beach, California</td><td  align="left">&nbsp;</td><td  align="left">$7,400,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Feb 15-18</td><td  align="left"><a href="/golf/leaderboard/pga-tour/483487">Genesis Open</a></td><td  align="left">Pacific Palisades, California</td><td  align="left">Riviera Country Club</td><td  align="left">$7,200,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Feb 22-25</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186079">The Honda Classic</a></td><td  align="left">Palm Beach Gardens, Florida</td><td  align="left">PGA National Resort & Spa - The Champion Course</td><td  align="left">$6,600,000</td><td  align="left">GOLF/NBC</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Mar 1-4</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1377430">Puerto Rico Open</a></td><td  align="left">Rio Grande, Puerto Rico</td><td  align="left">&nbsp;</td><td  align="left">$3,000,000</td><td  align="left">GOLF</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Mar 1-4</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186082">World Golf Championships-Mexico Championship</a></td><td  align="left">Naucalpan de Juarez, Mexico</td><td  align="left">Club de Golf Chapultepec</td><td  align="left">$10,000,000</td><td  align="left">GOLF/NBC</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Mar 8-11</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186080">Valspar Championship</a></td><td  align="left">Palm Harbor, Florida</td><td  align="left">Innisbrook - Copperhead Course</td><td  align="left">$6,500,000</td><td  align="left">GOLF/NBC</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Mar 15-18</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186081">Arnold Palmer Invitational presented by Mastercard</a></td><td  align="left">Orlando, FL</td><td  align="left">Bay Hill Course</td><td  align="left">$8,900,000</td><td  align="left">GOLF/NBC</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Mar 21-25</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186078">World Golf Championships-Dell Technologies Match Play</a></td><td  align="left">Austin, Texas</td><td  align="left">&nbsp;</td><td  align="left">$10,000,000</td><td  align="left">GOLF/NBC</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Mar 22-25</td><td  align="left"><a href="/golf/leaderboard/pga-tour/2881659">Corales Puntacana Resort & Club Championship</a></td><td  align="left">Punta Cana, Dominican Republic</td><td  align="left">Corales Golf Club</td><td  align="left">$3,000,000</td><td  align="left">&nbsp;</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Mar 29-Apr 1</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186083">Houston Open</a></td><td  align="left">Humble, Texas</td><td  align="left">&nbsp;</td><td  align="left">$7,000,000</td><td  align="left">GOLF/NBC</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Apr 5-8</td><td  align="left"><a href="/golf/leaderboard/pga-tour/292758">The Masters</a></td><td  align="left">Augusta, Georgia</td><td  align="left">&nbsp;</td><td  align="left">$11,000,000</td><td  align="left">ESPN/CBS</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Apr 12-15</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186085">RBC Heritage</a></td><td  align="left">Hilton Head Island, South Carolina</td><td  align="left">Harbour Town Golf Links</td><td  align="left">$6,700,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Apr 19-22</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186113">Valero Texas Open</a></td><td  align="left">San Antonio, Texas</td><td  align="left">&nbsp;</td><td  align="left">$6,200,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Apr 26-29</td><td  align="left"><a href="/golf/leaderboard/pga-tour/493236">Zurich Classic of New Orleans</a></td><td  align="left">Avondale, Louisiana</td><td  align="left">TPC Louisiana</td><td  align="left">$7,200,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">May 3-6</td><td  align="left"><a href="/golf/leaderboard/pga-tour/396718">Wells Fargo Championship</a></td><td  align="left">Charlotte, North Carolina</td><td  align="left">Quail Hollow Club</td><td  align="left">$7,700,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">May 10-13</td><td  align="left"><a href="/golf/leaderboard/pga-tour/450085">THE PLAYERS Championship</a></td><td  align="left">Ponte Vedra Beach, Florida</td><td  align="left">&nbsp;</td><td  align="left">$10,500,000</td><td  align="left">GOLF/NBC</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">May 17-20</td><td  align="left"><a href="/golf/leaderboard/pga-tour/397177">AT&T Byron Nelson</a></td><td  align="left">Dallas, Texas</td><td  align="left">Trinity Forest</td><td  align="left">$7,700,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">May 24-27</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186091">DEAN & DELUCA Invitational</a></td><td  align="left">Fort Worth, Texas</td><td  align="left">Colonial Country Club Course</td><td  align="left">$7,100,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">May 31-Jun 3</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186092">the Memorial Tournament presented by Nationwide</a></td><td  align="left">Dublin, Ohio</td><td  align="left">Muirfield Village Golf Course</td><td  align="left">$8,900,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Jun 7-10</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186093">FedEx St. Jude Classic</a></td><td  align="left">Memphis, Tennessee</td><td  align="left">TPC Southwind</td><td  align="left">$6,600,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Jun 14-17</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186094">U.S. Open Championship</a></td><td  align="left">Southampton, New York</td><td  align="left">Shinnecock Hills</td><td  align="left">$12,000,000</td><td  align="left">FOX/FS1</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Jun 21-24</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186095">Travelers Championship</a></td><td  align="left">Cromwell, Connecticut</td><td  align="left">TPC River Highlands</td><td  align="left">$7,000,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Jun 28-Jul 1</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186097">The National</a></td><td  align="left">Cromwell, Connecticut</td><td  align="left">&nbsp;</td><td  align="left">$7,100,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Jul 5-8</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1727386">The Greenbrier Classic</a></td><td  align="left">White Sulphur Springs, West Virginia</td><td  align="left">The Old White TPC</td><td  align="left">$7,300,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Jul 12-15</td><td  align="left"><a href="/golf/leaderboard/pga-tour/432828">John Deere Classic</a></td><td  align="left">Silvis, Illinois</td><td  align="left">TPC Deere Run</td><td  align="left">$5,800,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Jul 19-22</td><td  align="left"><a href="/golf/leaderboard/pga-tour/2153137">Barbasol Championship</a></td><td  align="left">Silvis, Illinois</td><td  align="left">&nbsp;</td><td  align="left">$3,500,000</td><td  align="left">GOLF</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Jul 19-22</td><td  align="left"><a href="/golf/leaderboard/pga-tour/240401">British Open</a></td><td  align="left">Southport,  </td><td  align="left">Carnoustie Golf Links</td><td  align="left">$10,250,000</td><td  align="left">NBC/GOLF</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Jul 26-29</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186101">RBC Canadian Open</a></td><td  align="left">Oakville, Ontario</td><td  align="left">Glen Abbey</td><td  align="left">$6,200,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Aug 2-5</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186102">Barracuda Championship</a></td><td  align="left">Reno, Nevada</td><td  align="left">Montreux Golf and Country Club</td><td  align="left">$3,400,000</td><td  align="left">GOLF</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Aug 2-5</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186103">World Golf Championships - Bridgestone Invitational</a></td><td  align="left">Akron, OH</td><td  align="left">Firestone Country Club - South Course</td><td  align="left">$10,000,000</td><td  align="left">CBS/GOLF</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Aug 9-12</td><td  align="left"><a href="/golf/leaderboard/pga-tour/146676">PGA Championship</a></td><td  align="left">St. Louis, Missouri</td><td  align="left">Bellerive Country Club</td><td  align="left">$10,500,000</td><td  align="left">TNT/CBS</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Aug 16-19</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186105">Wyndham Championship</a></td><td  align="left">Greensboro, North Carolina</td><td  align="left">Sedgefield Country Club</td><td  align="left">$6,000,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Aug 23-26</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186106">THE NORTHERN TRUST</a></td><td  align="left">Paramus, New Jersey</td><td  align="left">Ridgewood Country Club</td><td  align="left">$9,000,000</td><td  align="left">GOLF/CBS</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Aug 31-Sep 3</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186107">Dell Technologies Championship</a></td><td  align="left">Norton, Massachusetts</td><td  align="left">TPC Boston</td><td  align="left">$9,000,000</td><td  align="left">GOLF/NBC</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Sep 6-9</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186108">BMW Championship</a></td><td  align="left">Newtown Square, Pennsylvania</td><td  align="left">Aronimink Golf Club</td><td  align="left">$9,000,000</td><td  align="left">GOLF/NBC</td><td  align="left"> </td></tr><tr class="row2"  align="right"><td  align="left">Sep 20-23</td><td  align="left"><a href="/golf/leaderboard/pga-tour/1186109">TOUR Championship</a></td><td  align="left">Atlanta, Georgia</td><td  align="left">East Lake Golf Course</td><td  align="left">$9,000,000</td><td  align="left">GOLF/NBC</td><td  align="left"> </td></tr><tr class="row1"  align="right"><td  align="left">Sep 28-30</td><td  align="left"><a href="/golf/leaderboard/pga-tour/150787">Ryder Cup</a></td><td  align="left">Paris, France</td><td  align="left">Le Golf National - Albatros Course</td><td  align="left">TBA</td><td  align="left">NBC/GOLF</td><td  align="left"> </td></tr></table>
+<div class="spacer10">&nbsp;</div>
+    
+                    <div class="spacer20">&nbsp;</div>
+                
+        <div id="taboola-bottom-of-the-page-thumbnails" data-taboola-placement="aw-cbssports/golf/media/pga_tour/schedule_pgatour desktop-2x4-bottom" om-event="aw-cbssports/golf/media/pga_tour/schedule_pgatour desktop-2x4-bottom"></div>
+        <script type="text/javascript">
+          window._taboola = window._taboola || [];
+          _taboola.push({
+            mode: 'alternating-thumbnails-z',
+            container: 'taboola-bottom-of-the-page-thumbnails',
+            placement: 'aw-cbssports/golf/media/pga_tour/schedule_pgatour desktop-2x4-bottom',
+            target_type: 'mix'
+          });
+        </script>
+            </div><!-- END layoutRailRight::column1-->
+            <div class="column2">
+                
+                
+                <div id="sky_top" class="mBottomStd">
+<script type="text/javascript">
+if (switchXFP != 'off') {
+    googletag.cmd.push(function() {
+        if (typeof index_headertag_lightspeed !== 'undefined') {
+                  var cb = (function () {
+                      return function () {
+                          var slots = googletag.pubads().getSlots();
+                          index_headertag_lightspeed.set_slot_targeting(slots);
+                           googletag.display("sky_top");
+                        };
+                  })();
+                  index_headertag_lightspeed.add_session_end_hook(cb, true);
+                  index_headertag_lightspeed.refresh();
+              } else {
+                  googletag.display("sky_top");
+              }
+    });
+    if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="sky_top" style="width:160px"><br>').insertBefore('#sky_top');
+}
+</script>
+</div>
+                
+                <div class="spacer10">&nbsp;</div>
+                <!-- AD for PGA : PGA DEF Not found --><div class="shoppingBox">
+
+ 
+
+ 
+
+<!-- include file generated Wed May 04 11:08:31 EDT 2016 --> 
+<!-- $Id: sbox_arena.jsp,v 1.18 2008-06-11 19:49:38 gorman Exp $ -->
+
+
+<h3 class="featureTitle"><span><strong>CBSSports</strong> Shop</span></h3>
+<div class="featureComponent">
+    <a href="http://shop.cbssports.com/THE_PLAYERS?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_PGAPlayers|cpn--no_coupon|offer--no_offer"><img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productImages/_2423000/ff_2423845_full.jpg&w=600" width="120" height="120" alt="Men's Under Armour Charcoal THE PLAYERS Tech Performance T-Shirt" class="border product"></a>
+    <p>2016 PLAYERS Championship Gear<br/>Get yours today <a href="http://shop.cbssports.com/THE_PLAYERS?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_PGAPlayers|cpn--no_coupon|offer--no_offer"><br>Shop Now</a></p>
+    <ul class="multiLine flush">
+    
+        
+           <li><a href="http://shop.cbssports.com/Golf_PGA_Championship?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_PGAChampionship|cpn--no_coupon|offer--no_offer">2016 PGA Championship Apparel</a></li>
+        
+           <li><a href="http://shop.cbssports.com/pages/CBS_Golf_Gear?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_GolfLicensed|cpn--no_coupon|offer--no_offer">Licensed Golf Merchandise</a></li>
+        
+           <li><a href="http://shop.cbssports.com/Golf_Ryder_Cup?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_PGARyderCup|cpn--no_coupon|offer--no_offer">2016 Ryder Cup Apparel</a></li>
+        
+    
+    </ul>
+</div>
+<div class="featureFooter"><a href="http://shop.cbssports.com/CBS_Golf?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_MoreGolf|cpn--no_coupon|offer--no_offer">Shop PGA Gear</a></div>
+
+
+</div>
+                
+<script type="text/javascript">netseer_tag_id = "19500";netseer_ad_width = "160";netseer_ad_height = "600";netseer_task = "ad";netseer_imp_type = "1";netseer_imp_src = "2";</script>
+<script src="https://ps.ns-cdn.com/dsatserving2/scripts/netseerads.js" type="text/javascript"></script>
+    
+            </div><!-- END layoutRailRight::column2-->
+            <div class="clearBoth"><!-- explicit clear --></div>
+        </div><!-- END layoutRailRight-->
+        <br clear="all">
+    </div><!-- END pageContainer-->
+</div><!-- END pageRow-->
+    <style>.footerAd {width: 970px;margin: 0 auto;padding: 10px 5px; background-color: #fff;overflow: hidden;text-align:center;position:relative;}</style>
+    
+    <div id="leader_plus2_bottom" class="footerAd">
+<script type="text/javascript">
+if (switchXFP != 'off') {
+    googletag.cmd.push(function() {
+        if (typeof index_headertag_lightspeed !== 'undefined') {
+                  var cb = (function () {
+                      return function () {
+                          var slots = googletag.pubads().getSlots();
+                          index_headertag_lightspeed.set_slot_targeting(slots);
+                           googletag.display("leader_plus2_bottom");
+                        };
+                  })();
+                  index_headertag_lightspeed.add_session_end_hook(cb, true);
+                  index_headertag_lightspeed.refresh();
+              } else {
+                  googletag.display("leader_plus2_bottom");
+              }
+    });
+    if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="leader_plus2_bottom" style="width:728px"><br>').insertBefore('#leader_plus2_bottom');
+}
+</script>
+</div>
+    <footer id="site-footer" class="site-footer">
+    <div class="site-footer-row">
+        <div class="site-footer-branding">
+            <span class="site-footer-logo"></span>
+        </div>
+    </div>
+    <div class="site-footer-row">
+        
+        <ul class="site-footer-follow">
+            <li><a href="https://www.facebook.com/CBSSports" target="_blank" rel="nofollow" om-event="Global Footer|Facebook"><span class="btn social icon-moon-facebook"></span></a></li>
+            <li><a href="https://twitter.com/cbssports" target="_blank" rel="nofollow" om-event="Global Footer|Twitter"><span class="btn social icon-moon-twitter"></span></a></li>
+            <li><a href="https://plus.google.com/+CBSSportscom/posts" target="_blank" rel="nofollow" om-event="Global Footer|Googleplus"><span class="btn social icon-moon-google-plus2"></span></a></li>
+            <li><a href="https://www.youtube.com/user/cbssports" target="_blank" rel="nofollow" om-event="Global Footer|Youtube-play"><span class="btn social icon-moon-youtube-play"></span></a></li>
+            <li><a href="https://instagram.com/cbssports/" target="_blank" rel="nofollow" om-event="Global Footer|Instagram"><span class="btn social icon-moon-instagram"></span></a></li>
+            <li><a href="https://www.pinterest.com/cbssports/" target="_blank" rel="nofollow" om-event="Global Footer|Pinterest"><span class="btn social icon-moon-pinterest"></span></a></li>
+            <li><a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" target="_blank" rel="nofollow" om-event="Global Footer|Flipboard"><span class="btn social icon-moon-flipboard"></span></a></li>
+            
+            
+            
+        </ul>
+    
+    </div>
+    <div class="site-footer-row">
+        <ul class="site-footer-links">
+            <li><a href="https://www.cbssports.com/help" target="_blank" om-event="Global Footer|Help ">Help </a></li><li><a href="https://www.cbssports.com/info/aboutus" target="_blank" om-event="Global Footer|About Us ">About Us </a></li><li><a href="http://www.cbsinteractive.com/careers" target="_blank" om-event="Global Footer|Careers ">Careers </a></li><li><a href="http://www.cbsinteractive.com/advertise/" target="_blank" om-event="Global Footer|Advertise ">Advertise </a></li><li><a href="https://www.cbssports.com/sitemap" target="_blank" om-event="Global Footer|Site Map ">Site Map </a></li><li><a href="https://www.cbssports.com/settings/newsletters" target="_blank" om-event="Global Footer|Newsletters ">Newsletters </a></li><li><a href="https://www.cbssports.com/mobile" target="_blank" om-event="Global Footer|Mobile Apps ">Mobile Apps </a></li><li><a href="http://collegenetwork.cbssports.com/" target="_blank" om-event="Global Footer|College Network ">College Network </a></li><li><a href="http://legalterms.cbsinteractive.com/adchoice" target="_blank" om-event="Global Footer|Ad Choice ">Ad Choice </a></li><li><a href="https://www.cbssports.com/info/closed-caption" target="_blank" om-event="Global Footer|Closed Captioning ">Closed Captioning </a></li><li><a href="http://legalterms.cbsinteractive.com/privacy" target="_blank" om-event="Global Footer|Privacy ">Privacy </a></li><li><a href="http://legalterms.cbsinteractive.com/terms-of-use" target="_blank" om-event="Global Footer|Terms ">Terms </a></li><li><a href="http://legalterms.cbsinteractive.com/eula" target="_blank" om-event="Global Footer|Mobile User Agreement ">Mobile User Agreement </a></li>
+        </ul>
+    </div>
+    
+
+    <div class="site-footer-row">
+        <div class="site-footer-partners">
+            
+        <div id="golfweb-logo"><img src="https://sports.cbsimg.net/images/cbss/hl/footer-golfweb.svg" alt="GolfWeb"></div>
+        
+        </div>
+    </div>
+    <div class="site-footer-copyright">
+        <p class="site-footer-dates">&copy; 2005-2017 CBS INTERACTIVE. ALL RIGHTS RESERVED.</p>
+        <p>CBS Sports is a registered trademark of CBS Broadcasting Inc.  GolfWeb is a registered service mark of GolfWeb Corporation.</p>
+       
+    </div>
+</footer>
+</div><!--mantle_skin-->
+    
+    <script type="text/javascript" src="https://sports.cbsimg.net/js/global-footer-min-v00101.js"></script>
+<span id="footerScripts">
+    <span id="footerScriptsExternal">
+        
+    </span>
+    <script id="footerScriptsRegistered" type="text/javascript">
+    
+    </script>
+    <script id="footerScriptsReady" type="text/javascript">
+    $(document).ready(function() {
+        
+        if ($('.updateTime, .gmtTime').length) {CBSi.widget.Time.update('body span');}
+        if ($('.tooltip').length) {CBSi.widget.ToolTip.init(CBSi.widget.ToolTip.cfg);}
+        if ($('.actionMenu').length) {
+            var actionMenuLeft = $(".actionMenu").position().left;
+            var userInfoLeft = (actionMenuLeft + 2) +"px";
+            $("#userInfo").css({"left":userInfoLeft});
+        }
+        $('body').delegate("[om-event]", "click", function(e) {
+            om.trackClick( {'item':$(this).attr("om-event")} );
+        });
+        
+            var adSkinLeft       = $('#adSkinLeft');
+            var adSkinRight      = $('#adSkinRight');
+            var adSkin           = $(adSkinLeft).add(adSkinRight);
+            var bodyNavClass 	 = 'is-sticky-nav';
+            var bodyTag          = $('body');
+            var mantle           = $('#mantle_skin');
+            var headerCont       = $('#site-header');
+            var navBar           = $('#cbs-site-nav');
+            var navBarHeight     = navBar.outerHeight();
+            var networkBar       = $('#nav-network-bar');
+            var networkBarHeight = networkBar.outerHeight();
+            var networkBarPadding = 8;
+            var promoBarHeight   = $('#fantasy_promo_bar_row').outerHeight();
+            var saagHeight       = $('#saagWrapper').outerHeight() || 0 ;
+            var skyBoxHeight     = $('#skybox-above').height();
+            var skyboxSpacerId   = 'skybox-nav-spacer';
+    
+            // Calculate when to make the nav bar sticky.
+            if (networkBar.length) {
+                // Create an empty spacer for behind the sticky nav.
+                // CBSi.log('_toggleStickyNav: There is a Network Bar on this page.');
+                headerCont.before('<div id="' + skyboxSpacerId + '" class="' + skyboxSpacerId + '" style="height: 0"></div>');
+            }
+        
+            var skyboxSpacer = $('#skybox-nav-spacer');
+        
+            $(window).on("scroll resize",function(e) {
+            
+                var windowScrollTop = parseInt($(this).scrollTop());
+                
+                // BEGIN Scroll code for Prestitial:
+                //check if scroll_prestitial is visible
+                var prestitialVisible = $('#scroll_prestitial:visible').length;
+                //CBSi.log('prestitialVisible ', prestitialVisible);
+
+                //get height of presitial element
+                var prestitialHeight = $('#scroll_prestitial iframe').height();
+                //CBSi.log('prestitialHeight ', prestitialHeight);
+
+                //Determine via tricky conditional states of DOM element if the
+                //  prestitial is still there
+                var hasPrestitial = 0;
+                if (prestitialHeight != null) {
+                    hasPrestitial = 1;
+                } else if (prestitialHeight > 0) {
+                    hasPrestitial = 1;
+                }
+                //finally check visibility but no height
+                if (prestitialVisible == 0) {
+                    hasPrestitial = 0;
+                } else if (prestitialVisible == 1 && prestitialHeight == 0) {
+                    hasPrestitial = 0;
+                }
+                // CBSi.log('hasPrestitial', hasPrestitial);
+                
+                var skyboxMaxHeight = parseInt($('.ad-top-strip').attr('data-skyboxmaxheight')) || 0;
+                var skyboxMinHeight = parseInt($('.ad-top-strip').attr('data-skyboxminheight')) || 0;
+                var skyboxHeight = ( (skyboxMaxHeight - windowScrollTop) < skyboxMinHeight  )
+                    ? skyboxMinHeight
+                    : skyboxMaxHeight - windowScrollTop;
+        
+                var skyboxDiv = $('.ad-top-strip div');
+                var skyboxIframe = $('.ad-top-strip div iframe');
+        
+                if ( windowScrollTop > 0 && hasPrestitial == 0) {
+                    /*
+                     * The page is now scrolling...
+                     */
+                    if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                        skyboxDiv.css({ 'position' : 'fixed' , 'height' : skyboxHeight + 'px' });
+                        skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                    }
+                                
+                    if (skyboxHeight <= skyboxMinHeight) {
+                     
+                        /*
+                         * The skybox ad is collapsed to its minumum height and it has added the class skybox-collapsed to the body tag.
+                         * Alternately, there is no skybox ad on the page.
+                         */
+                     
+                        if (windowScrollTop > skyboxMaxHeight - skyboxHeight + networkBarHeight) {
+                        
+                            /*
+                             * Tests to determine if the Navigation should pin.
+                             * Note that the navigation does not pin until after the network row has scrolled out of view.
+                             */
+
+                            /*
+                             * The skybox ad is minimized and the navigation should pin.
+                             */
+                             
+                            // CBSi.log('_toggleStickyNav: The Skybox is at minHeight or absent. The nav should pin.');
+        
+                            skyboxSpacer.css({ 'height' : skyboxMaxHeight + navBarHeight + 'px' });
+                            navBar.css({ 'position': 'fixed', 'top' : skyboxHeight + 'px' });
+        
+                            mantle.css({ 'margin-top': 0 });
+                            
+                            if (windowScrollTop > networkBarHeight + saagHeight ) {
+                                /*
+                                 * Even if the nav is pinned, the Scores At a Glance (SAAG) might still be scrolling so we do not pin the
+                                 * adSkinLeft and adSkinRight until the SAAG has scrolled out of view.
+                                 */
+                                adSkin.css({'position' : 'fixed', 'top': navBarHeight + skyboxMinHeight + 'px' });
+                            } else {
+                                adSkin.css({ 'position' : 'absolute', 'top': 0 });
+                            }
+        
+                            if (!bodyTag.hasClass(bodyNavClass)) {
+                                bodyTag.addClass(bodyNavClass);
+                            }
+        
+                        } else {
+
+                            /*
+                             * The skybox ad is minimized but the navigation is not yet pinned
+                             * because the network row is still partially visible.
+                             */
+
+                            // CBSi.log('_toggleStickyNav: The Skybox is at minHeight or absent. Network bar is scrolling so nav is not pinned.');
+        
+                            skyboxSpacer.css({ 'height' : skyboxMaxHeight + 'px' });
+                            navBar.css({ 'position': 'relative', 'top': 0 });
+
+                            mantle.css({ 'margin-top' : 0 });
+                            
+                            if (bodyTag.hasClass(bodyNavClass)) {
+                                bodyTag.removeClass(bodyNavClass);
+                            }
+                        }
+                    } else if (skyboxHeight > skyboxMinHeight) {
+                        /* The ad is in an expanded state so we need to address the height of the spacer
+                         * and the position of the navigation rows below the ad.
+                         */
+                        // CBSi.log('_toggleStickyNav: The Skybox is expanded.');
+
+                        skyboxSpacer.css({ 'height' : skyboxMaxHeight + 'px' });
+                        navBar.css({ 'position': 'relative', 'top': 0 });
+
+                        mantle.css({ 'margin-top' : 0 });
+                        adSkin.css({'position' : 'absolute', 'top': 0 });
+                        
+                        if (bodyTag.hasClass(bodyNavClass)) {
+                            bodyTag.removeClass(bodyNavClass);
+                        }
+
+                        if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                            skyboxDiv.css({ 'height' : skyboxHeight + 'px' });
+                            skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                        }        
+                    }
+                } else {
+                    /*
+                     * The page is not scrolled at all so we want to set the spacer to a height of 0.
+                     */
+                    
+                    // CBSi.log('_toggleStickyNav: The page is not scrolled.');
+                    
+                    skyboxSpacer.css({ 'height' : 0 });
+                    navBar.css({ 'position': 'relative', 'top': 0 });
+
+                    mantle.css({ 'margin-top' : 0 });
+                    adSkin.css({'position' : 'absolute', 'top': 0 });
+                    
+                    if (bodyTag.hasClass(bodyNavClass)) {
+                        bodyTag.removeClass(bodyNavClass);
+                    }
+
+                    if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                        skyboxDiv.css({ 'position' : 'relative' , 'height' : skyboxHeight + 'px' });
+                        skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                    }
+                }
+            });
+        
+        if ($('.cbsGifAnimation').length) {CBSi.app.cbsGifAnimation.prototype.init();}
+        //setTimeout('CBSi.app.cbsGifAnimation.prototype.init();',3000);
+    });
+    </script>
+</span>
+<!-- no ClickTale -->
+     
+
+        
+<!-- Begin Tealium -->
+<script type="text/javascript">
+
+getTaboolaPlacements();
+var utag_data={
+
+    siteHier         : 'media|golf|pga tour|schedule',
+    siteSection      : 'media|golf|||pga tour|schedule',
+    siteType         : 'desktop web',
+    userType         : 'anon',
+    userState        : 'not authenticated',
+    pageType         : 'schedule',
+    pageName         : '/golf/schedules',
+    pageTypeId       : '6863',
+    pageOntologyId   : '22868',
+    pageViewGuid     : surround.vguid,
+    contentWidget    : surround.taboola,
+    country          : 'DK'
+}
+</script>
+<script type="text/javascript">
+(function(a,b,c,d){
+  a='https://tags.tiqcdn.com/utag/cbsi/cbssportssite/prod/utag.js';
+	b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+  a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+})();
+</script>
+
+<!-- End Tealium -->
+<!-- no refresh -->
+<!-- no dl recruit -->
+
+         <script type="text/javascript">
+           window._taboola = window._taboola || [];
+           _taboola.push({flush: true});
+         </script>
+      
+
+    
+</body>
+</html><!-- Page build info: WdyfmAoZUN0AAAJ4fjo 'ws5091.tm.cbsig.net' 632 20171010 6:23:20 /spln/local/media/cache/full/spln/406/%2Fgolf%2Fschedules -->
