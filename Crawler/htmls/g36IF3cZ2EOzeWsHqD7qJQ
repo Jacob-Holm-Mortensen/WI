@@ -1,0 +1,694 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<head>
+<script src="/CBSi/static/111213/js/perf/stub.js" type="text/javascript"></script><script src="/faces/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript" type="text/javascript"></script><script src="/CBSi/static/111213/js/functions.js" type="text/javascript"></script><script src="/CBSi/jslibrary/1504299188000/sfdc/main.js" type="text/javascript"></script><script src="/CBSi/jslibrary/jslabels/1507493178000/en_US.js" type="text/javascript"></script><script src="/CBSi/static/111213/desktop/desktopAjax.js" type="text/javascript"></script><script src="/CBSi/static/111213/js/picklist4.js" type="text/javascript"></script><script src="/CBSi/EXT/ext-3.3.3/ext.js" type="text/javascript"></script><script src="/CBSi/jslibrary/1500591790000/sfdc/VFState.js" type="text/javascript"></script><script src="/CBSi/static/111213/js/scriptaculous-1.9/prototype.js" type="text/javascript"></script><script src="/CBSi/static/111213/js/scriptaculous-1.9/effects.js" type="text/javascript"></script><script src="/CBSi/jslibrary/1500591790000/sfdc/KnowledgeDlg.js" type="text/javascript"></script><link class="user" href="/CBSi/EXT/ext-3.3.3/resources/css/ext-all-notheme.css" rel="stylesheet" type="text/css" /><link class="user" href="/CBSi/sCSS/41.0/1507243750000/PortalDefault/default/gc/ExtCSS-SFDC.css" rel="stylesheet" type="text/css" /><link class="user" href="/CBSi/sCSS/41.0/1507243750000/PortalDefault/default/gc/knowledge.css" rel="stylesheet" type="text/css" /><link class="user" href="/CBSi/sCSS/41.0/1507243750000/PortalDefault/default/gc/knowledgeHome.css" rel="stylesheet" type="text/css" /><link class="user" href="/CBSi/static/100908/css/vote.css" rel="stylesheet" type="text/css" /><meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<meta HTTP-EQUIV="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT" />
+
+<script src="https://c.la1c1.salesforceliveagent.com/content/g/js/34.0/deployment.js" type="text/javascript"></script>
+<script type="text/javascript">liveagent.init('https://d.la1c1.salesforceliveagent.com/chat', '572E0000000CnsH', '00DE0000000ZiAl');</script>
+</head>
+<html lang="en">
+<head>
+<meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<meta HTTP-EQUIV="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT" />
+
+<meta charset="utf-8" />
+    <title>Big Brother Live Feed | CBS Entertainment</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta content="CBSi Customer Portal Development" name="description" />
+<meta content="sdmurphy@cbs.com,anthony.marciano@cbs.com" name="author" />
+<link href="/CBSi/resource/1424049639000/assets_responsive_shared/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="/CBSi/resource/1424049639000/assets_responsive_shared/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+<link href="/CBSi/resource/1361006810000/assets_mobilePrivacy/assets_mobilePrivacy/css/mobileprivacy_upgrade.css" rel="stylesheet" type="text/css" />
+<link href="/CBSi/resource/1424049638000/assets_cbsmobfeedback/css/upgrade_cbsmobfeedback.css" rel="stylesheet" type="text/css" />
+
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<link href="http://www.cbs.com/sitecommon/images/favicon.ico" rel="shortcut icon" />
+<style>
+body {
+    background: none repeat scroll 0 0 #ffffff;
+}
+#stripe {
+    position: relative;
+    top:7px
+}
+.hero-unit {
+background: url("/CBSi/resource/1424049638000/assets_bigbrother_m/images/block-50.png") repeat-x;
+}
+@media ( max-width : 480px) {
+    .hero-unit {
+        padding: 2%;
+    }
+    article {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+@media ( max-width : 380px) {
+    .hero-unit {
+        background: url("/CBSi/resource/1424049638000/assets_bigbrother_m/images/block-35.png") repeat-x;
+    }
+}
+select {
+    height: 30px;
+    width: 94%;
+}
+</style>
+
+    <script type="text/javascript">
+    
+      var _gaq = _gaq || [];
+      var pluginUrl = 
+       '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+      _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+      _gaq.push(
+      ['_setAccount', 'UA-41102958-11'],
+      ['_trackPageview'],
+      ['b._setAccount', 'UA-41102958-1'],
+      ['b._trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    </script>
+
+
+    <script>
+        if (typeof jQuery === 'undefined') {    
+            document.write('<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"><\/script>');   
+        }   
+    </script>
+    <script>
+        if (typeof j$ === 'undefined') {    
+            j$ = jQuery.noConflict();
+        }
+    </script>
+    
+</head>
+
+    <script language="JavaScript" type="text/javascript">
+    var omdata = {
+      is_dev:false,
+      context:{
+        section:"bigbrother.com",
+        page_type:"template_bigbrother",
+        content_title:"CBS Big Brother Help and Support",
+      }
+    }
+    </script>
+
+<body>
+    <div class="container" style="padding-left: 1%; padding-right: 1%; max-width: 1025px;">
+        <div class="container-fluid" style="padding-left: 2%; padding-right: 2%; position: relative; top: -28px">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="masthead">
+                        <div class="navbar">
+                            <div class="container">
+                                <div class="navbar navbar-inverse">
+                                    <div class="navbar-inner">
+                                        <button class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse" type="button">
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="brand" href="/CBSi/knowledgehome?referer=" id="cbs_logo" target="_self"><img src="/CBSi/resource/1424049638000/assets_cbs/assets_cbs/cbsent/CBSEntLogo.png" /></a>
+                                        <div class="nav-collapse collapse">
+                                            <ul class="nav">
+                                                <li class=""><a href="/CBSi/knowledgehome?referer=&amp;data=" style="color: #198abe;">All Answers</a>
+                                                </li>
+                                                <li class=""><a href="/CBSi/submitcase?template=&amp;referer=&amp;cfs=SFS_FT&amp;data=">Submit Question</a>
+                                                </li>
+                                                <li class=""><a href="/CBSi/sitefeedback?template=&amp;referer=&amp;cfs=SFS_FT&amp;data=">Feedback</a>
+                                                </li>                                                
+                                                                                               
+                                            </ul>                                           
+                                        </div>                                        
+                                    </div>                                   
+                                </div>                             
+                            </div>                          
+                        </div>
+                    </div>
+                    <div class="hero-unit" id="top" style="min-height: 400px;">  
+                <div id="stripe"><img src="/CBSi/resource/1424049638000/assets_bigbrother_m/images/bb_logo.png" /></div>
+                        
+
+
+
+
+
+
+                            <article>
+                                <br /><br /><span id="j_id0:j_id2:j_id5"><span id="j_id0:j_id2:j_id5:j_id6:j_id7"></span><div id="j_id0:j_id2:j_id5:j_id6:toolbar" style="display: none;"></div><div id="j_id0:j_id2:j_id5:j_id6:votingComponent" style="display: none;">
+<form id="j_id0:j_id2:j_id5:j_id6:voteForm" name="j_id0:j_id2:j_id5:j_id6:voteForm" method="post" action="/CBSi/ViewArticle?id=kA0E0000000Pdtz" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id0:j_id2:j_id5:j_id6:voteForm" value="j_id0:j_id2:j_id5:j_id6:voteForm" />
+<script id="j_id0:j_id2:j_id5:j_id6:voteForm:j_id17" type="text/javascript">attachArticleToCase=function(){A4J.AJAX.Submit('j_id0:j_id2:j_id5:j_id6:voteForm',null,{'similarityGroupingId':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id17','parameters':{'j_id0:j_id2:j_id5:j_id6:voteForm:j_id17':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id17'} } )};
+</script><script id="j_id0:j_id2:j_id5:j_id6:voteForm:j_id18" type="text/javascript">detachArticleToCase=function(){A4J.AJAX.Submit('j_id0:j_id2:j_id5:j_id6:voteForm',null,{'similarityGroupingId':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id18','parameters':{'j_id0:j_id2:j_id5:j_id6:voteForm:j_id18':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id18'} } )};
+</script><script id="j_id0:j_id2:j_id5:j_id6:voteForm:j_id19" type="text/javascript">attachArticleAndGoBackToCase=function(){A4J.AJAX.Submit('j_id0:j_id2:j_id5:j_id6:voteForm',null,{'similarityGroupingId':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id19','oncomplete':function(request,event,data){goBackToCaseUrl();},'parameters':{'j_id0:j_id2:j_id5:j_id6:voteForm:j_id19':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id19'} } )};
+</script><script id="j_id0:j_id2:j_id5:j_id6:voteForm:j_id20" type="text/javascript">detachArticleAndGoBackToCase=function(){A4J.AJAX.Submit('j_id0:j_id2:j_id5:j_id6:voteForm',null,{'similarityGroupingId':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id20','oncomplete':function(request,event,data){goBackToCaseUrl();},'parameters':{'j_id0:j_id2:j_id5:j_id6:voteForm:j_id20':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id20'} } )};
+</script><table class="voteFormPanel">
+<tbody>
+<tr>
+<td><input id="j_id0:j_id2:j_id5:j_id6:voteForm:viewCountNoIncrease" type="hidden" name="j_id0:j_id2:j_id5:j_id6:voteForm:viewCountNoIncrease" /></td>
+<td><div id="j_id0:j_id2:j_id5:j_id6:voteForm:j_id37"><table class="articleRendererBorderRight">
+<tbody>
+<tr>
+<td><span class="averageRatingPanel">Rate This Article</span></td>
+<td><span id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote"><script src="/CBSi/jslibrary/1500591790000/sfdc/Vote.js"></script><span id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline"><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:voteRankRenderer" class="starRatingPanel"><span id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:currentUserVote" style="display: none;">|vote=None|</span><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus"><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus.start" style="display: none"></div><script type="text/javascript">
+window.document.getElementById('j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus.start').onstart=function(){document.getElementById('j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingProcessing').style.visibility='visible';;};
+</script><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus.stop"></div><script type="text/javascript">
+window.document.getElementById('j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus.stop').onstop=function(){document.getElementById('j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingProcessing').style.visibility='hidden';;};
+</script></div><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingProcessing" style="position: absolute; visibility:hidden;">
+                Processing...</div><script id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:j_id84" type="text/javascript">starVote=function(starNumber){A4J.AJAX.Submit('j_id0:j_id2:j_id5:j_id6:voteForm',null,{'similarityGroupingId':'j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:j_id84','parameters':{'j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:j_id84':'j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:j_id84','starNumber':(typeof starNumber!='undefined'&&starNumber!=null)?starNumber:''} ,'status':'j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus'} )};
+</script><table class="stars mouseOut" onmouseout="mouseoutStarsPanel(this)" onmouseover="mouseoverStarsPanel(this)">
+<tbody>
+<tr>
+<td><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:votingStar1" onclick="starVote(1)" onmouseout="mouseoutStar(this)" onmouseover="mouseoverStar(this)" class="idleStar"></div></td>
+<td><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:votingStar2" onclick="starVote(2)" onmouseout="mouseoutStar(this)" onmouseover="mouseoverStar(this)" class="idleStar"></div></td>
+<td><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:votingStar3" onclick="starVote(3)" onmouseout="mouseoutStar(this)" onmouseover="mouseoverStar(this)" class="idleStar"></div></td>
+<td><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:votingStar4" onclick="starVote(4)" onmouseout="mouseoutStar(this)" onmouseover="mouseoverStar(this)" class="idleStar"></div></td>
+<td><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:votingStar5" onclick="starVote(5)" onmouseout="mouseoutStar(this)" onmouseover="mouseoverStar(this)" class="idleStar"></div></td>
+</tr>
+</tbody>
+</table>
+</div></span></span></td>
+<td><span class="averageRatingPanel">(Average Rating: No Rating)</span></td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+</tbody>
+</table>
+<div id="j_id0:j_id2:j_id5:j_id6:voteForm:j_id219"></div>
+</form><span id="ajax-view-state-page-container" style="display: none"><span id="ajax-view-state" style="display: none"><input type="hidden"  id="com.salesforce.visualforce.ViewState" name="com.salesforce.visualforce.ViewState" value="i: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" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateVersion" name="com.salesforce.visualforce.ViewStateVersion" value="201710081949290549" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateMAC" name="com.salesforce.visualforce.ViewStateMAC" value="AGV5SnViMjVqWlNJNklrRnFkMVJrVmpjdFN6VkZUbGw0V0VaZmNXdHFUSE5IVUVkNWFFZDNPR2RKTnkxQlNGaFJiRWR0UkZGY2RUQXdNMlFpTENKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUlzSW10cFpDSTZJbnRjSW5SY0lqcGNJakF3UkVVd01EQXdNREF3V21sQmJGd2lMRndpZGx3aU9sd2lNREF3TURBd01EQXdNREF3TURBd1hDSXNYQ0poWENJNlhDSjJabk5wWjI1cGJtZHJaWGxjSWl4Y0luVmNJanBjSWpBd05VVXdNREF3TURBeGNVZzFORndpZlNJc0ltTnlhWFFpT2xzaWFXRjBJbDBzSW1saGRDSTZNVFV3TnpZMk1UQXlNalU1TXl3aVpYaHdJam93ZlE9PS4uNW55OGd3TVZ1SHB2bnMzeUlsT0NZZjlISWswcE5nS2tOME1fUEhqYmxnbz0=" /></span></span></div><span id="j_id0:j_id2:j_id5:j_id6:articleVersionsHistoryRefresh"><span id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg"><script>window.sfdcPage = new ApexDetailPage();
+UserContext.initialize({"ampm":["AM","PM"],"isAccessibleMode":false,"uiSkin":"PortalDefault","salesforceURL":"https://cbsi.secure.force.com?refURL=http%3A%2F%2Fcbsi.secure.force.com%2FCBSi%2Farticles%2FFAQ%2FPrivacy-Policy","dateFormat":"M/d/yyyy","language":"en_US","locale":"en_US","userName":"cbsi@cbsi.force.com","userId":"005E0000001qH54","isCurrentlySysAdminSU":false,"renderMode":"RETRO","startOfWeek":"1","vfDomainPattern":"(?:[^.]+).na39.visual.force.com","auraDomain":"na39.lightning.force.com","dateTimeFormat":"M/d/yyyy h:mm a","orgPreferences":[{"index":257,"name":"TabOrganizer","value":true},{"index":113,"name":"GroupTasks","value":true}],"siteUrlPrefix":"/CBSi","isDefaultNetwork":true,"labelLastModified":"1507493178000","today":"10/10/2017 6:43 PM","timeFormat":"h:mm a","userPreferences":[{"index":112,"name":"HideInlineEditSplash","value":false},{"index":114,"name":"OverrideTaskSendNotification","value":false},{"index":115,"name":"DefaultTaskSendNotification","value":false},{"index":119,"name":"HideUserLayoutStdFieldInfo","value":false},{"index":116,"name":"HideRPPWarning","value":false},{"index":87,"name":"HideInlineSchedulingSplash","value":false},{"index":88,"name":"HideCRUCNotification","value":false},{"index":89,"name":"HideNewPLESplash","value":false},{"index":90,"name":"HideNewPLEWarnIE6","value":false},{"index":122,"name":"HideOverrideSharingMessage","value":false},{"index":91,"name":"HideProfileILEWarn","value":false},{"index":93,"name":"HideProfileElvVideo","value":false},{"index":97,"name":"ShowPicklistEditSplash","value":false},{"index":92,"name":"HideDataCategorySplash","value":false},{"index":128,"name":"ShowDealView","value":false},{"index":129,"name":"HideDealViewGuidedTour","value":false},{"index":132,"name":"HideKnowledgeFirstTimeSetupMsg","value":false},{"index":104,"name":"DefaultOffEntityPermsMsg","value":false},{"index":135,"name":"HideNewCsnSplash","value":false},{"index":101,"name":"HideBrowserWarning","value":false},{"index":139,"name":"HideDashboardBuilderGuidedTour","value":false},{"index":140,"name":"HideSchedulingGuidedTour","value":false},{"index":180,"name":"HideReportBuilderGuidedTour","value":false},{"index":183,"name":"HideAssociationQueueCallout","value":false},{"index":194,"name":"HideQTEBanner","value":false},{"index":193,"name":"HideChatterOnboardingSplash","value":false},{"index":195,"name":"HideSecondChatterOnboardingSplash","value":false},{"index":270,"name":"HideIDEGuidedTour","value":false},{"index":282,"name":"HideQueryToolGuidedTour","value":false},{"index":196,"name":"HideCSIGuidedTour","value":false},{"index":271,"name":"HideFewmetGuidedTour","value":false},{"index":272,"name":"HideEditorGuidedTour","value":false},{"index":205,"name":"HideApexTestGuidedTour","value":false},{"index":206,"name":"HideSetupProfileHeaderTour","value":false},{"index":207,"name":"HideSetupProfileObjectsAndTabsTour","value":false},{"index":213,"name":"DefaultOffArticleTypeEntityPermMsg","value":false},{"index":214,"name":"HideSelfInfluenceGetStarted","value":false},{"index":215,"name":"HideOtherInfluenceGetStarted","value":false},{"index":216,"name":"HideFeedToggleGuidedTour","value":false},{"index":268,"name":"ShowChatterTab178GuidedTour","value":false},{"index":275,"name":"HidePeopleTabDeprecationMsg","value":false},{"index":276,"name":"HideGroupTabDeprecationMsg","value":false},{"index":224,"name":"HideUnifiedSearchGuidedTour","value":false},{"index":226,"name":"ShowDevContextMenu","value":false},{"index":227,"name":"HideWhatRecommenderForActivityQueues","value":false},{"index":228,"name":"HideLiveAgentFirstTimeSetupMsg","value":false},{"index":232,"name":"HideGroupAllowsGuestsMsgOnMemberWidget","value":false},{"index":233,"name":"HideGroupAllowsGuestsMsg","value":false},{"index":234,"name":"HideWhatAreGuestsMsg","value":false},{"index":235,"name":"HideNowAllowGuestsMsg","value":false},{"index":236,"name":"HideSocialAccountsAndContactsGuidedTour","value":false},{"index":237,"name":"HideAnalyticsHomeGuidedTour","value":false},{"index":238,"name":"ShowQuickCreateGuidedTour","value":false},{"index":245,"name":"HideFilePageGuidedTour","value":false},{"index":250,"name":"HideForecastingGuidedTour","value":false},{"index":251,"name":"HideBucketFieldGuide","value":false},{"index":263,"name":"HideSmartSearchCallOut","value":false},{"index":265,"name":"HideSocialProfilesKloutSplashScreen","value":false},{"index":273,"name":"ShowForecastingQuotaAttainment","value":false},{"index":280,"name":"HideForecastingQuotaColumn","value":false},{"index":301,"name":"HideManyWhoGuidedTour","value":false},{"index":298,"name":"HideFileSyncBannerMsg","value":false},{"index":299,"name":"HideTestConsoleGuidedTour","value":false},{"index":302,"name":"HideManyWhoInlineEditTip","value":false},{"index":303,"name":"HideSetupV2WelcomeMessage","value":false},{"index":312,"name":"ForecastingShowQuantity","value":false},{"index":313,"name":"HideDataImporterIntroMsg","value":false},{"index":314,"name":"HideEnvironmentHubLightbox","value":false},{"index":316,"name":"HideSetupV2GuidedTour","value":false},{"index":317,"name":"HideFileSyncMobileDownloadDialog","value":false},{"index":322,"name":"HideEnhancedProfileHelpBubble","value":false},{"index":328,"name":"ForecastingHideZeroRows","value":false},{"index":330,"name":"HideEmbeddedComponentsFeatureCallout","value":false},{"index":341,"name":"HideDedupeMatchResultCallout","value":false},{"index":340,"name":"HideS1BrowserUI","value":false},{"index":346,"name":"HideS1Banner","value":false},{"index":358,"name":"HideEmailVerificationAlert","value":false},{"index":354,"name":"HideLearningPathModal","value":false},{"index":359,"name":"HideAtMentionsHelpBubble","value":false},{"index":368,"name":"LightningExperiencePreferred","value":false}],"networkId":""});
+</script>
+<form id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97" name="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97" method="post" action="/CBSi/ViewArticle?id=kA0E0000000Pdtz" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97" value="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97" />
+<script id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97:j_id98" type="text/javascript">articleVersionsHistory=function(articleId,versionNumber,languageId){A4J.AJAX.Submit('j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97',null,{'similarityGroupingId':'j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97:j_id98','oncomplete':function(request,event,data){showVersionsHistoryDlg();},'parameters':{'articleId':(typeof articleId!='undefined'&&articleId!=null)?articleId:'','languageId':(typeof languageId!='undefined'&&languageId!=null)?languageId:'','j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97:j_id98':'j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97:j_id98','versionNumber':(typeof versionNumber!='undefined'&&versionNumber!=null)?versionNumber:''} } )};
+</script><input id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97:viewCountNoIncrease" type="hidden" name="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97:viewCountNoIncrease" /><div id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97:j_id220"></div>
+</form><span id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id102">
+    <div id="j_id102_dialogScript">
+        <script type="text/javascript">
+            showVersionsHistoryDlg = function() {
+                var dialog = Knowledge.Dialog.getInstance({
+                    id: 'articleVersionListDlg_KnowledgeDialog',
+                    accessibleMode: false,
+                    componentId: 'articleVersionListDlg',
+                    title: 'Version History',
+                    width: 600,
+                    height: 400,
+                    initializerName: null,
+                    validatorName: null,
+                    encoderName: null
+                });
+                if(dialog.show) {
+                    dialog.show();
+                } else {
+                    alert("Error: Implementation error. Show() function not implemented");
+                }
+            }
+             //workaround for pages without header (when showheader="false")
+            if ((window.sfdcPage) && (sfdcPage.executeOnloadQueue)) sfdcPage.executeOnloadQueue();
+        </script>
+    </div></span>
+
+    <div id="articleVersionListDlg_dialogHolder" style="display: none;">
+        <div id="articleVersionListDlg_dialogContent">
+            <div class="versionListOverlayPanel">
+                <div class="versionListOverlay">
+                    <table cellpadding="0" cellspacing="0" class="overlayListHeader">
+                        <tr>
+                            <td class="secondVersionColumn" colspan="2">Version</td>
+                            <td class="thirdVersionColumn">Published on</td>
+                        </tr>
+                    </table><div id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id124" class="overlayList"><table cellspacing="1" cellpadding="0" class="overlayListTable versionOverlayList"></table></div>
+                </div>
+            </div>
+        </div><span id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id127">
+  <div id="j_id127_dialogActions"><span id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id127:j_id128:j_id131"><div id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id127:j_id128:j_id131:j_id132:j_id133" class="dialogAction">
+        <input class="dialogAction-name" type="hidden" value="articleVersionListDlg_close" />
+        <input class="dialogAction-label" type="hidden" value="Close" />
+        <input class="dialogAction-type" type="hidden" value="close" />
+        <input class="dialogAction-handler" type="hidden" value="" /></div></span>
+  </div></span>
+    </div></span></span><span id="j_id0:j_id2:j_id5:j_id6:propertiesPanelLabel" style="display: none;">
+            <span id="showProperties"><a href="#" onclick="togglePanel(Ext.get('j_id0:j_id2:j_id5:j_id6:propertiesPanel'),'showProperties','hideProperties');" title="Show Properties" target="_self" class="propertiesLink"><span id="j_id0:j_id2:j_id5:j_id6:j_id142" class="linkText">Show Properties</span></a>
+            </span>
+            <span id="hideProperties" style="display:none"><a href="#" onclick="togglePanel(Ext.get('j_id0:j_id2:j_id5:j_id6:propertiesPanel'),'showProperties','hideProperties');" title="Hide Properties" target="_self" class="propertiesLink"><span id="j_id0:j_id2:j_id5:j_id6:j_id146" class="linkText">Hide Properties</span></a>
+            </span></span><div id="j_id0:j_id2:j_id5:j_id6:propertiesPanel" style="display: none;"><div id="j_id0:j_id2:j_id5:j_id6:j_id149" class="propertiesPanel"><table class="propertiesTable">
+<tbody>
+<tr>
+<td class="propertiesTableColumn propertiesTableColumn1"><table>
+<tbody>
+<tr>
+<td class="labelColumn"><label for="j_id0:j_id2:j_id5:j_id6:firstPublicationDate">
+First Published</label></td>
+<td class="dataColumn"><span id="j_id0:j_id2:j_id5:j_id6:firstPublicationDate">2/15/2013 9:35 AM</span></td>
+</tr>
+<tr>
+<td class="labelColumn"><label for="j_id0:j_id2:j_id5:j_id6:lastModifiedDate">
+Last Modified</label></td>
+<td class="dataColumn"><span id="j_id0:j_id2:j_id5:j_id6:lastModifiedDate">7/1/2015 10:22 AM</span></td>
+</tr>
+<tr>
+<td class="labelColumn"><label for="j_id0:j_id2:j_id5:j_id6:publicationDate">
+Last Published</label></td>
+<td class="dataColumn"><span id="j_id0:j_id2:j_id5:j_id6:publicationDate">8/12/2014 4:43 PM</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="propertiesTableColumn propertiesTableColumn1"><table>
+<tbody>
+<tr>
+<td><table class="articleAudiencePanel">
+<tbody>
+<tr>
+<td><span class="articleAudience">Article Audience</span></td>
+</tr>
+<tr>
+<td><table>
+<tbody>
+<tr>
+<td>
+                    <tr>
+                        <td class="labelColumn"><span class="categoryGroupLabel">CBS Interactive</span></td>
+                        <td class="dataColumn"><span title="All &gt; mPrivacy">mPrivacy</span>
+                        </td>
+                    </tr></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class=" propertiesTableColumn"><table>
+<tbody>
+<tr>
+<td class="labelColumn"><label for="j_id0:j_id2:j_id5:j_id6:articleNumber">
+Article Number</label></td>
+<td class="dataColumn"><span id="j_id0:j_id2:j_id5:j_id6:articleNumber">000011592</span></td>
+</tr>
+<tr>
+<td class="labelColumn"><label for="j_id0:j_id2:j_id5:j_id6:summary">
+Summary</label></td>
+<td class="dataColumn"><span id="j_id0:j_id2:j_id5:j_id6:summary"></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div></div><div id="j_id0:j_id2:j_id5:j_id6:chatterPanel"></div>
+
+    <script>
+
+
+        function togglePanel(object,showLabel,hideLabel) {
+
+            var hiding = (object.dom.style.display != "none");
+
+            var animationCallback = function() {
+                if (hiding) {
+                    document.getElementById(showLabel).style.display = "block";
+                    document.getElementById(hideLabel).style.display = "none";
+                } else {
+                    document.getElementById(showLabel).style.display = "none";
+                    document.getElementById(hideLabel).style.display = "block";
+                }
+             };
+
+            var animationSettings = {useDisplay:true, duration:0.5, easing:"easeBoth", callback:animationCallback};
+
+            if(hiding) {
+                object.slideOut('t', animationSettings);
+            } else {
+                object.slideIn('t', animationSettings);
+            }
+        }         
+
+        function attachDetachArticleToCaseBackToCaseStart(b) {
+            if (b.isAttach) {
+                attachArticleAndGoBackToCase();
+            } else {
+                detachArticleAndGoBackToCase();
+            }
+        }
+
+        function goBackToCaseUrl() {
+            if (false) {
+                window.opener.location.reload(false);
+                window.close();
+            } else {
+                window.location = '';
+            }
+        }
+
+        function attachDetachArticleToCaseStart(b) {
+            if (b.isAttach) {
+                attachArticleToCase();
+                b.isAttach = false;
+                b.setText("Detach from case");
+                if(true) {
+                    b.backToCaseButton.isAttach = false;
+                    b.backToCaseButton.setText("Detach and Return to case");
+                }
+            } else {
+                detachArticleToCase();
+                b.isAttach = true;
+                b.setText("Attach to case");
+                if(true) {
+                    b.backToCaseButton.isAttach = true;
+                    b.backToCaseButton.setText("Attach and Return to case");
+                }
+            }
+        }
+
+        Ext.onReady(function() {
+            //the toolbar
+            var theTopicCP;
+            var toolbar = new Ext.Toolbar({
+                renderTo: 'j_id0:j_id2:j_id5:j_id6:toolbar',
+                cls: 'articleRendererToolbar'
+            });
+            
+            if(false) {
+                if(true) {
+                    if(false) {
+                        var attachButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id5:j_id6:toolbar:attachButton',
+                            handler: attachDetachArticleToCaseStart,
+                            text: 'Attach to case',
+                            isAttach: true
+                        });
+                        toolbar.addButton(attachButton);
+                    } else {
+                        var attachBackToCaseButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id5:j_id6:toolbar:attachBackToCaseButton',
+                            handler: attachDetachArticleToCaseBackToCaseStart,
+                            text: 'Attach and Return to case',
+                            isAttach: true
+                        });
+                        var attachButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id5:j_id6:toolbar:attachButton',
+                            handler: attachDetachArticleToCaseStart,
+                            text: 'Attach to case',
+                            isAttach: true,
+                            backToCaseButton: attachBackToCaseButton
+                        });
+                        toolbar.addButton(attachButton);
+                        toolbar.addButton(attachBackToCaseButton);
+                    }
+                } else {
+                    if(false) {
+                        var detachButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id5:j_id6:toolbar:detachButton',
+                            handler: attachDetachArticleToCaseStart,
+                            text: 'Detach from case',
+                            isAttach: false
+                        });
+                        toolbar.addButton(detachButton);
+                    } else {
+                        var detachBackToCaseButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id5:j_id6:toolbar:detachBackToCaseButton',
+                            handler: attachDetachArticleToCaseBackToCaseStart,
+                            text: 'Detach and Return to case',
+                            isAttach: false
+                        });
+                        var detachButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id5:j_id6:toolbar:detachButton',
+                            handler: attachDetachArticleToCaseStart,
+                            text: 'Detach from case',
+                            isAttach: false,
+                            backToCaseButton: detachBackToCaseButton
+                        });
+                        toolbar.addButton(detachButton);
+                        toolbar.addButton(detachBackToCaseButton);
+                    }
+                }
+            }
+
+            if(false && true && false) {
+             if(false) {
+              toolbar.add('<div class="toolbarPlaceHolder"><p>&#160;</p></div>');
+             } else {
+              return;
+             }
+            }
+                toolbar.add(Ext.fly('j_id0:j_id2:j_id5:j_id6:votingComponent').dom.innerHTML);
+
+            if(false) {
+             theTopicCP = toolbar.add('');
+            }
+           
+            toolbar.addFill();
+
+            if(true){
+             toolbar.add(Ext.fly('j_id0:j_id2:j_id5:j_id6:propertiesPanelLabel').dom.innerHTML);
+            }
+            toolbar.doLayout();
+            
+           if(false) {
+             var topicInToolBar = document.getElementById(theTopicCP.id);
+             topicInToolBar.appendChild(document.getElementById('knowledgeTopic'));
+      }
+        });
+
+    </script></span>
+            <table class="articletable">
+                <tr class="articlerow">
+                    <td class="articlecell"><h1 class="articletitle">CBS Interactive Privacy Policy</h1><hr /></td>
+                </tr>
+                <tr class="articlerow">
+                    <td class="articlecell"><h2></h2></td>
+                </tr>
+                <tr class="articlerow">
+                    <td class="articlecell"><p><script> if(!window.sfdcPage) { window.sfdcPage = new ApexDetailPage(); }UserContext.initialize({"ampm":["AM","PM"],"isAccessibleMode":false,"uiSkin":"PortalDefault","salesforceURL":"https://cbsi.secure.force.com?refURL=http%3A%2F%2Fcbsi.secure.force.com%2FCBSi%2Farticles%2FFAQ%2FPrivacy-Policy","dateFormat":"M/d/yyyy","language":"en_US","locale":"en_US","userName":"cbsi@cbsi.force.com","userId":"005E0000001qH54","isCurrentlySysAdminSU":false,"renderMode":"RETRO","startOfWeek":"1","vfDomainPattern":"(?:[^.]+).na39.visual.force.com","auraDomain":"na39.lightning.force.com","dateTimeFormat":"M/d/yyyy h:mm a","orgPreferences":[{"index":257,"name":"TabOrganizer","value":true},{"index":113,"name":"GroupTasks","value":true}],"siteUrlPrefix":"/CBSi","isDefaultNetwork":true,"labelLastModified":"1507493178000","today":"10/10/2017 6:43 PM","timeFormat":"h:mm a","userPreferences":[{"index":112,"name":"HideInlineEditSplash","value":false},{"index":114,"name":"OverrideTaskSendNotification","value":false},{"index":115,"name":"DefaultTaskSendNotification","value":false},{"index":119,"name":"HideUserLayoutStdFieldInfo","value":false},{"index":116,"name":"HideRPPWarning","value":false},{"index":87,"name":"HideInlineSchedulingSplash","value":false},{"index":88,"name":"HideCRUCNotification","value":false},{"index":89,"name":"HideNewPLESplash","value":false},{"index":90,"name":"HideNewPLEWarnIE6","value":false},{"index":122,"name":"HideOverrideSharingMessage","value":false},{"index":91,"name":"HideProfileILEWarn","value":false},{"index":93,"name":"HideProfileElvVideo","value":false},{"index":97,"name":"ShowPicklistEditSplash","value":false},{"index":92,"name":"HideDataCategorySplash","value":false},{"index":128,"name":"ShowDealView","value":false},{"index":129,"name":"HideDealViewGuidedTour","value":false},{"index":132,"name":"HideKnowledgeFirstTimeSetupMsg","value":false},{"index":104,"name":"DefaultOffEntityPermsMsg","value":false},{"index":135,"name":"HideNewCsnSplash","value":false},{"index":101,"name":"HideBrowserWarning","value":false},{"index":139,"name":"HideDashboardBuilderGuidedTour","value":false},{"index":140,"name":"HideSchedulingGuidedTour","value":false},{"index":180,"name":"HideReportBuilderGuidedTour","value":false},{"index":183,"name":"HideAssociationQueueCallout","value":false},{"index":194,"name":"HideQTEBanner","value":false},{"index":193,"name":"HideChatterOnboardingSplash","value":false},{"index":195,"name":"HideSecondChatterOnboardingSplash","value":false},{"index":270,"name":"HideIDEGuidedTour","value":false},{"index":282,"name":"HideQueryToolGuidedTour","value":false},{"index":196,"name":"HideCSIGuidedTour","value":false},{"index":271,"name":"HideFewmetGuidedTour","value":false},{"index":272,"name":"HideEditorGuidedTour","value":false},{"index":205,"name":"HideApexTestGuidedTour","value":false},{"index":206,"name":"HideSetupProfileHeaderTour","value":false},{"index":207,"name":"HideSetupProfileObjectsAndTabsTour","value":false},{"index":213,"name":"DefaultOffArticleTypeEntityPermMsg","value":false},{"index":214,"name":"HideSelfInfluenceGetStarted","value":false},{"index":215,"name":"HideOtherInfluenceGetStarted","value":false},{"index":216,"name":"HideFeedToggleGuidedTour","value":false},{"index":268,"name":"ShowChatterTab178GuidedTour","value":false},{"index":275,"name":"HidePeopleTabDeprecationMsg","value":false},{"index":276,"name":"HideGroupTabDeprecationMsg","value":false},{"index":224,"name":"HideUnifiedSearchGuidedTour","value":false},{"index":226,"name":"ShowDevContextMenu","value":false},{"index":227,"name":"HideWhatRecommenderForActivityQueues","value":false},{"index":228,"name":"HideLiveAgentFirstTimeSetupMsg","value":false},{"index":232,"name":"HideGroupAllowsGuestsMsgOnMemberWidget","value":false},{"index":233,"name":"HideGroupAllowsGuestsMsg","value":false},{"index":234,"name":"HideWhatAreGuestsMsg","value":false},{"index":235,"name":"HideNowAllowGuestsMsg","value":false},{"index":236,"name":"HideSocialAccountsAndContactsGuidedTour","value":false},{"index":237,"name":"HideAnalyticsHomeGuidedTour","value":false},{"index":238,"name":"ShowQuickCreateGuidedTour","value":false},{"index":245,"name":"HideFilePageGuidedTour","value":false},{"index":250,"name":"HideForecastingGuidedTour","value":false},{"index":251,"name":"HideBucketFieldGuide","value":false},{"index":263,"name":"HideSmartSearchCallOut","value":false},{"index":265,"name":"HideSocialProfilesKloutSplashScreen","value":false},{"index":273,"name":"ShowForecastingQuotaAttainment","value":false},{"index":280,"name":"HideForecastingQuotaColumn","value":false},{"index":301,"name":"HideManyWhoGuidedTour","value":false},{"index":298,"name":"HideFileSyncBannerMsg","value":false},{"index":299,"name":"HideTestConsoleGuidedTour","value":false},{"index":302,"name":"HideManyWhoInlineEditTip","value":false},{"index":303,"name":"HideSetupV2WelcomeMessage","value":false},{"index":312,"name":"ForecastingShowQuantity","value":false},{"index":313,"name":"HideDataImporterIntroMsg","value":false},{"index":314,"name":"HideEnvironmentHubLightbox","value":false},{"index":316,"name":"HideSetupV2GuidedTour","value":false},{"index":317,"name":"HideFileSyncMobileDownloadDialog","value":false},{"index":322,"name":"HideEnhancedProfileHelpBubble","value":false},{"index":328,"name":"ForecastingHideZeroRows","value":false},{"index":330,"name":"HideEmbeddedComponentsFeatureCallout","value":false},{"index":341,"name":"HideDedupeMatchResultCallout","value":false},{"index":340,"name":"HideS1BrowserUI","value":false},{"index":346,"name":"HideS1Banner","value":false},{"index":358,"name":"HideEmailVerificationAlert","value":false},{"index":354,"name":"HideLearningPathModal","value":false},{"index":359,"name":"HideAtMentionsHelpBubble","value":false},{"index":368,"name":"LightningExperiencePreferred","value":false}],"networkId":""});
+</script><span id="j_id0:j_id2:j_id200"><table  class="htmlDetailElementTable" border="0" cellpadding="0" cellspacing="0"><tr><td><div class="sfdc_richtext" id="j_id0:j_id2:j_id200j_id0:j_id2:j_id200_00NE0000001I8k7_div"><span style="color: #ff6600;"><b>Last Modified: May 28, 2015</b></span> <span style="float: right;">Click to review <a href="https://cbsi.secure.force.com/CBSi/template_archive_pp_05262015" target="_blank">previous version</a>.</span><br><br><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 14px;"><strong>Note:</strong> The CBS Interactive Privacy Policy has been updated. Please review the updated privacy policy carefully before using the CBS Interactive Web Services. By using any of the CBS Interactive Web Services, you consent to the terms of the updated Privacy Policy.<br><br><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mPrivacy-Policy-FAQ?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Click here</a> for more information about the updates and to review the previous version.</span></span>
+<hr></hr> <span style="font-size: 14px;">Welcome to the network of interactive services provided by CBS Interactive Inc., its affiliates and its subsidiaries (collectively “CBS Interactive,” “us,” or “we”). CBS Interactive is committed to protecting your privacy. CBS Interactive owns, operates, or provides access to, several interactive web sites, mobile and connected TV applications , or other online interactive features and services that provide an authorized link or URL to this Privacy Policy (collectively &quot;CBS Interactive Services&quot;, or &quot;Services&quot;). <br><br>This Privacy Policy describes, among other things, the types of information collected about you when you visit the CBS Interactive Services; how your information may be used and when it may be disclosed; how you can control the use and disclosure of your information; and how your information is protected. Trust is a cornerstone of our mission at CBS Interactive. We are committed to gaining and maintaining your trust by following a core set of <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mPrivacy-Principals?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Privacy Principles</a>.</span><br> 
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+<br><span style="color: #ff6600;">1. Scope of Privacy Policy<a name="Scope of Privacy Policy"></a></span><br><br>This Privacy Policy applies to information, including contact information, collected about you by the CBS Interactive Services. Please review this Privacy Policy carefully. In addition, please review our <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSInteractive-Terms-of-Use?template=template_tougl&amp;referer=tougl.com" target="_blank">Terms of Use; </a>which governs your use of the CBS Interactive Services.<br> 
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+<br><span style="color: #ff6600;">2. Information Collected<a name="Information Collected"></a></span><br><br><em><u>Information you provide directly to CBS Interactive Services</u></em>. You are not required to provide information about yourself when you visit a CBS Interactive Services. CBS Interactive Web Sites may ask you for different types of information when you register for certain services, access various content or features, or directly contact the Services including:<br> 
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Contact information, such as name, email address, postal address, phone number, facsimile number, and mobile number;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• User name, password, and password reminder questions and answers;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Age and date of birth;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Other demographic information, such as gender, job information, and postal code;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Public information, including profile information, you provide to the CBS Interactive Services for publication, such as your user name, comments, likes, interests, status, pictures and the address of your website;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Communications preferences, such as which newsletters you would like to receive;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Search queries;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• In limited circumstances, payment and identity verification information, such as credit card number, social security number or comparable national identifiers, and driver&#39;s license number where needed for payment, to complete a particular transaction, or to access a particular service (e.g., contests or paid subscriptions);</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Contact information about others when you provide information about others or refer a friend to a particular website or service (note: such information is used solely to facilitate the communications requested);</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Information posted in community discussions and other interactive online features;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Correspondence you send to us; and</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Information collected about you offline (including via facsimile, mail, or in person for sweepstakes entrance forms).</span><br> </div>
+<span style="font-size: 14px;"><em><u>Information we collect automatically on CBS Interactive Services</u></em>. CBS Interactive Services may collect certain information automatically, including:</span><br> 
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Your browser type and operating system;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Your Internet Protocol (IP) address, which is the number automatically assigned to your computer whenever you access the Internet and that can sometimes be used to derive your general geographic area;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Websites you visited before and after visiting a CBS Interactive Services;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Web pages and advertisements you view and links you click on within CBS Interactive Services;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Unique identifiers, including mobile device identification numbers that can identify the physical location of such devices in accordance with applicable law;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Information collected through <a href="http://cbsi.secure.force.com/CBSi/articles/FAQ/mCookies-Web-Beacons-and-Other-Similar-Technologies?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_blank">cookies, web beacons, and other</a><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mCookies-Web-Beacons-and-Other-Similar-Technologies?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self"> similar technologies</a>;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Information about your interactions with audio and video content, such as the type of content listened to (including music applications such as iTunes, Spotify and Last.fm) and content viewed, and information about your interactions with email messages, such as the links clicked on and whether the messages were opened or forwarded;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Upon request, your bandwidth speed and information about the software programs installed on your computer including registry key information; and</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Standard server log information.</span><br> </div>
+<span style="font-size: 14px;"><em><u>Information we obtain from other sources</u></em>. Where permitted by applicable law, we may collect information about you from other sources, including through interactive applications (e.g., mobile devices, third party services, and embedded audio and video players), from co-branded partners and websites (e.g., on our Facebook pages), and from commercially available sources (e.g., data aggregators and public databases). The following are examples of information we may collect from other sources:</span>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Name, postal address, and telephone number;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Demographic data, such as age, gender, and income level;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• If you access third party services (e.g., Facebook, Google+ or Twitter) through a CBS Interactive Service, or if you access a CBS Interactive Service via a third party service, your username and password for those services and other information available about or collected from you on those services, as described in our overview of <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mThird-Party-Social-Networking-Services?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Video Services and Social Networking Policy</a></span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Your interests and purchase behavior;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Publicly-observed data, such as activities on blogs, videos, and other online postings; and</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Other navigation data, such as web sites visited and advertisements viewed or clicked on.</span><br> </div>
+<span style="font-size: 14px;">This Privacy Policy does not cover the practices of third parties, including those that may disclose information to CBS Interactive.<br><br><em><u>Combining Information</u></em>. Please note that all of the information we collect about you may be combined, including to help us tailor our communications to you and to develop rich online content and services across the CBS Interactive Services.</span><br> 
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+<br><span style="color: #ff6600;">3. Use of Information<a name="Use of Information"></a></span><br><br>We only use payment and identity verification information, such as credit card numbers, driver&#39;s license numbers, social security numbers, or comparable national identifiers as necessary for completing a particular transaction or fulfilling a service (e.g., paid subscriptions or awarding prizes to contest winners) or as otherwise required by law.<br><br>We generally use other information we collect about you to:<br> 
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Fulfill your requests for products, services, and information, including to send you electronic newsletters, authorize a purchase, and complete a transaction that you have requested;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Enable you to participate in features such as surveys, polls, sweepstakes, and message boards;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Provide you with electronic newsletters, information, special offers and promotional materials on behalf of CBS Interactive Services, companies within our corporate family, and third parties, in accordance with applicable law;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Analyze the use of CBS Interactive Services and information about visitors to our Services to understand and improve our service offerings and, in accordance with our sharing policies, discussed below, to produce or disclose anonymous or aggregated data and statistics that might help third parties develop their own products and service offerings;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Customize the content you see when you visit a CBS Interactive Services;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Develop and provide advertising tailored to your interests, as described in our overview of <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mOnline-Advertising?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">CBS Interactive Online Advertising</a>;</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• Prevent potentially prohibited or illegal activities and otherwise in accordance with CBS Interactive&#39;s <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBS-Interactive--Terms-of-Use?categories=CBS_Interactive%3AmTOU&amp;popup=false&amp;referer=mobileTerms.com&amp;retURL=%2FCBSi%2Fapex%2Fknowledgehome%3Freferer%3DmobileTerms.com&amp;template=template_mobileTerms" target="_blank">Terms of Use</a>; and</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• For any other purposes disclosed to you at the time we collect your information or pursuant to your consent.</span><br> </div>
+
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+<br><span style="font-size: 14px;"><span style="color: #ff6600;">4. Disclosure of Information<a name="Disclosure of Information"></a></span><br><br>CBS Interactive is committed to maintaining your trust and we want you to understand when and with whom we may share information collected about you.</span><br> 
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• <em><u>With your consent.</u></em> With your consent, we may share your contact information with third party marketing partners. For example, CBS Interactive Services such as ZDNet.com and TechRepublic.com offer free access to relevant services (e.g., webcasts and white papers) if you allow your information to be shared with third parties so that they can contact you by email, telephone, postal mail or other common communication methods about their products or services.</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• <em><u>Authorized third party service providers.</u></em> We share your contact information with third party vendors who help us with specialized services, including customer support, email and text message deployment, business analytics, marketing, suppression list management and data processing. These third parties are allowed to use your contact information to help us provide our services and not for any other purpose. Also, authorized third party service providers may collect non-contact information about your visits to our Services with cookies, web beacons and other similar technologies that may be used to deliver advertisements or marketing tailored to your interests. For more information, visit our overview on <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mCookies-Web-Beacons-and-Other-Similar-Technologies?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_new">cookies, web beacons and other technologies (including Do Not Track)</a></span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• <em><u>Sweepstakes, contests, or promotions.</u></em> When you choose to enter a sweepstakes, contest, or other promotion, and in accordance with the terms and conditions of the promotions, your information may be disclosed to our sponsors and third parties who help design, administer and implement the promotion, including in connection with winner selection, prize fulfillment and aggregated data analysis. Your information also may be disclosed as required by law, such as on a winners list. Further, by entering a promotion, you are agreeing to the official rules that govern that promotion, including allowing our sponsors to use your name, voice, and likeness in advertising and marketing associated with the promotion in accordance with applicable law. All terms applicable to the particular promotion will be made available to you at the time you enter the promotion.</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• <em><u>Co-Branded Partners.</u></em> Co-Branded Partners are third parties with whom a CBS Interactive Service may jointly offer a service or feature. You can tell when you are accessing a service or feature offered by a Co-Branded Partner because the Co-Branded Partner&#39;s name will be featured prominently. You may be asked to provide information about yourself to register for a service offered by a Co-Branded Partner. In doing so, you may be providing your information to both us and the Co-Branded Partner, or we may share your information with the Co-Branded Partner. Please note that the Co-Branded Partner&#39;s privacy policy may also apply to its use of your information.</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• <em><u>CBS Interactive Services and other CBS businesses.</u></em> CBS Interactive and other business units of CBS Corporation, our parent company, continue to expand their online presence in order to offer users rich and deep interactive experiences. Where permitted by law, we may share information we collect about you within the family of <a href="http://www.cbsinteractive.com/brands/" target="_new">CBS Interactive Services </a>and with <a href="http://www.cbscorporation.com/" target="_new">CBS Corporation</a>, our parent company, and other <a href="http://www.cbscorporation.com/portfolio.php" target="_new">CBS-affiliated companies</a>, so that we can provide you with information about products and services that might interest you.  </span></div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• <em><u>Business transfers.</u></em> We may share your information in connection with a substantial corporate transaction, such as the sale of a CBS Interactive Service, a merger, consolidation, asset sale, or in the unlikely event of bankruptcy.</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• <em><u>Legal requirements.</u></em> We may disclose information about our users, including contact information, to respond to subpoenas, court orders, legal process, and other law enforcement measures, and to comply with other legal obligations, such as <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mRadio-and-FCC-Requirements?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">FCC requirements</a>.</span><br> </div>
+
+<div style="margin-left: 40px;"><span style="font-size: 14px;">• <em><u>Protect our Services and users.</u></em> We may disclose information to protect and defend the legal rights, interests, and safety of CBS Interactive Services, other CBS companies, and their employees, agents, and contractors (including enforcing our agreements); to protect the safety and security of users of the Services and members of the public; and as otherwise disclosed in our <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBS-Interactive--Terms-of-Use?categories=CBS_Interactive%3AmTOU&amp;popup=false&amp;referer=mobileTerms.com&amp;retURL=%2FCBSi%2Fapex%2Fknowledgehome%3Freferer%3DmobileTerms.com&amp;template=template_mobileTerms" target="_new">Terms of Use</a>.</span><br> </div>
+<span style="font-size: 14px;">Please note that we may share information with advertisers as described in our overview of <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mOnline-Advertising?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">CBS Interactive Online Advertising</a>. In addition, information collected about your interactions with audio and video content may be shared with third parties, including social networking services, such as Facebook, and video measurement and subscription services, including Nielsen TV Rating, as described in our <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mThird-Party-Social-Networking-Services?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Video Services and Social Networking Policy</a>. Finally, we also may share aggregated or anonymized information with third parties, to help us develop content and services we hope will interest you or to help these third parties develop their own products and service offerings including targeted marketing as described in our overview of <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mThird-Party-Online-Advertising?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_blank">Third Party Online Advertising</a>.</span><br> 
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+<br><span style="color: #ff6600;">5. Your Choices<a name="Your Choices"></a></span><br><br>You can choose to enjoy content and features on CBS Interactive Services without providing us directly with any information about you; however, as described above, some information may be collected automatically or be requested so that you can take advantage of certain features and services offered on CBS Interactive Services.<br><br>You can opt out of receiving commercial email or text messages from a particular CBS Interactive Services or other service by following the instructions contained in any such message or by <a href="https://cbsi.secure.force.com/CBSi/submitcase?template=template_mobilepp&amp;referer=mobilepp.com&amp;cfs=SFS_TOU_PP&amp;data" target="_blank">contacting us directly</a>. Please note that even if you unsubscribe to commercial messages, we may still need to send you communications relating to your use of the CBS Interactive Web Sites, such as service announcements.<br><br>You also have choices about whether cookies and other similar technologies are placed on your computer or mobile device. For more information, visit our overview on <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mCookies-Web-Beacons-and-Other-Similar-Technologies?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_blank">cookies, web beacons and other similar technologies</a> (including Do Not Track).<br><br>You also may choose to opt out of use of data that our authorized third party service providers or we collect about your visits to our business partners’ websites that may be used to deliver advertisements tailored to your interests. To opt out, visit the <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBS-Interactive-Business-Partner-Advertising-Opt-Out?retURL=%2FCBSi%2Fapex%2Fknowledgehome%3Freferer%3Dmobilepp.com%26data%3D&amp;popup=false&amp;categories=CBS_Interactive%3AmPrivacy&amp;template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=SFS_TOU_PP" target="_new">CBS Interactive Business Partner Advertising Opt-Out</a> page.<br><br>Finally, you also have choices about the collection and use of your information by third parties to display relevant advertisements, as described in our overview of Third Party Online Advertising.<br> 
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+<br><span style="color: #ff6600;">6. Access<a name="Access"></a></span><br><br>If you choose to share contact information with us, you may have the opportunity to update that information on a CBS Interactive Service. You also may update or amend your information by <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mContact-Information?template=template_mobilepp&amp;referer=mobilepp.com" target="_self">contacting us</a>. If you ask us to shut down your account or delete your information, we will disable your account within a reasonable period of time. Please note that we may need to retain some information about you in order to satisfy our legal and security obligations. For example, some of your information may remain in back-up storage even if you ask us to delete it. In some cases, you may be entitled under local laws to access or object to the processing of information that we hold relating to you.<br> 
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+<br><span style="color: #ff6600;">7. Protection of Information<a name="Protection of Information"></a></span><br><br>We are committed to protecting your information. We have adopted commercially reasonable technical, administrative, and physical procedures to help protect your information from loss, misuse, unauthorized access, and alteration. Please note that no data transmission or storage can be guaranteed to be 100% secure. We want you to feel confident using CBS Interactive Services but we cannot ensure or warrant the security of any information you transmit to us. Please refer to the <a href="http://www.ftc.gov/bcp/menus/consumer/data/idt.shtm" target="_new">U.S. Federal Trade Commission&#39;s web site</a> for information on how to protect yourself from identity theft.<br> 
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+<br><span style="color: #ff6600;">8. Transfer of Data Internationally<a name="Transfer of Data Internationally"></a></span><br><br>CBS Interactive is headquartered in the United States and has affiliate offices and partners in other countries. Please be aware that information you provide to us or that we obtain as a result of your use of the CBS Interactive Services may be collected in your country and subsequently transferred to the United States or another country in accordance with applicable law. The privacy and data protection laws in the country to which your information is transferred may not be equivalent to such laws in your country of residence. By using and participating in any CBS Interactive Services or providing us with your information, you consent to the collection, international<br>transfer, storage, and processing of your information.<br> 
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+<br><span style="color: #ff6600;">9. Visitors from Outside the United States<a name="Visitors from Outside the United States"></a></span><br><br>For additional information about CBS Interactive&#39;s privacy practices, as well as our affiliate offices and partners in some of the other countries where we operate, please click on the appropriate link for your jurisdiction: <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mInformation-for-Visitors-from-Australia?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Australia</a>, <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mInformation-for-Visitors-from-Canada?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Canada</a>, the <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSi-Information-for-Visitors-from-the-United-Kingdom?template=template_privacygl&amp;referer=privacygl.com&amp;data=&amp;cfs=default" target="_blank">United Kingdom</a>.<br> 
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+<br><span style="color: #ff6600;">10. California Visitors<a name="California Visitors"></a></span><br><br>For additional information for residents of the State of California <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBS-Interactive-Information-for-Visitors-from-California?retURL=%2FCBSi%2Fapex%2Fknowledgehome%3Freferer%3Dmobilepp.com%26data%3D&amp;popup=false&amp;categories=CBS_Interactive%3AmPrivacy&amp;template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=SFS_TOU_PP" target="_blank">click here</a>.<br> 
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+<br><span style="color: #ff6600;">11. Privacy Protections for Children<a name="Privacy Protections for Children"></a></span><br><br>Most CBS Interactive Services are intended for a general audience and do not knowingly collect or store contact information about children under the age of 13. Some CBS Interactive Services may ask for your full date of birth date to ensure that they are not collecting information from children under 13 or to identify when additional steps may need to be taken when information has been collected from children under 18. In those instances where a CBS Interactive Service has actual knowledge that it collects information from children or offers a service directed toward children as defined under applicable laws, it will comply with those laws. To read about our privacy policy for children, please see the <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mChildrens-Privacy-Policy?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Children&#39;s Privacy Policy</a>.<br> 
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+<br><span style="color: #ff6600;">12. User-Generated Content<a name="User-Generated Content"></a></span><br><br>Some CBS Interactive Services enable users to submit their own content for use in contests, blogs, on-air radio and TV broadcasts, online audio and video streams, videos, message boards, and other functions. Publication of User Generated Content on the CBS Interactive Services is subject to our <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSi-Terms-of-Use?template=template_tougl&amp;referer=tougl.com&amp;data=&amp;cfs=default" target="_new">Terms of Use</a>. Please remember that any information you disclose becomes public information and exercise caution when choosing to disclose your contact, financial, and other information in a submission. We cannot prevent such information from being used in a manner that may violate this Privacy Policy, the law, or your personal privacy and safety. <ins>You should also be aware that we may also engage a third party to provide some of the services associated with the b</ins><ins>logs, message boards and similar functions. This third party will collect and host the information that you submit to the CBS Interactive Services</ins> <ins>but will not use any of this information for purposes other than providing the service.</ins><br> 
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+<br><span style="color: #ff6600;">13. Third Party Websites and Services<a name="Third Party Sites"></a></span><br><br>Please note that some CBS Interactive Services may contain links to other websites and services. We are not responsible for the privacy practices of those websites, and we recommend that you review the privacy policies of each website that you visit. When you select a link to a third party web site from one of the CBS Interactive Services (e.g., if you link to PayPal to pay for a product or service offered by a CBS Interactive Service), you will be leaving the CBS Interactive Service. Any information that you disclose on the third party website will be governed by that website&#39;s privacy policy.<br> 
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+<br><span style="color: #ff6600;">14. Changes to This Privacy Policy<a name="Changes to This Privacy Policy"></a></span><br><br>We may update this Privacy Policy to reflect changes in our practices and service offerings. If we modify our Privacy Policy, we will update the &quot;Last Modified Date&quot; and such changes will be effective upon posting. If we make any material changes in the way we use your information, we will notify you by email through the email address you most recently provided to us or by prominently posting a prominent notice of the changes on the CBS Interactive Services.<br> 
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+<br><span style="color: #ff6600;">15. Questions<a name="Questions"></a></span><br><br>If you have questions regarding this Privacy Policy, please <a href="https://cbsi.secure.force.com/CBSi/submitcase?template=template_mobilepp&amp;referer=mobilepp.com&amp;cfs=default" target="_self">contact us</a> and we will endeavor to respond to your request within a reasonable period of time. You may also submit questions or comments using the postal address listed below:<br><br><strong>CBS Interactive Inc.</strong><br>235 Second Street<br>San Francisco, CA 94105<br>Attn: Legal Department<br><br>For international users, please <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mContact-Information?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">select this link</a> to find the address of your closest CBS Interactive office. We are committed to working with you to obtain a fair resolution of any privacy concern.<br> 
+<div align="right"><a href="#top"><span style="color: #FF6600;">« </span> Back To Top <span style="color: #FF6600;"> » </span></a></div>
+
+<hr></hr></div></td></tr>
+</table><script>j_id0__j_id2__j_id200 = window.onload; window.onload=function() { if (j_id0__j_id2__j_id200!= null) j_id0__j_id2__j_id200();};</script></span></p></td>
+                </tr>
+            </table>
+              <hr />
+            <br /><span id="j_id0:j_id2:j_id202"><span id="j_id0:j_id2:j_id202:j_id203:j_id204:1:j_id208">              
+                    <table id="articlelisttable" width="99%">
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" style="font-weight: bold;" width="20%">Related Article:</td>
+                            <td class="articlelistcell" width="80%"><a id="j_id0:j_id2:j_id202:j_id203:j_id204:1:articlelink" name="j_id0:j_id2:j_id202:j_id203:j_id204:1:articlelink" href="/CBSi/articles/FAQ/Privacy-Policy-Highlights?retURL=%2FCBSi%2Farticles%2FFAQ%2FPrivacy-Policy%3Fcategories%3DCBS_Interactive%253AmPrivacy%26amp%253Btemplate%3Dtemplate_mobilePrivacy%26amp%253Breferer%3Dmobileprivacy.com%26amp%253Bdata%3D%26amp%253Bcfs%3Ddefault&popup=false&categories=CBS_Interactive%3AmPrivacy&template=&referer=&data=&cfs=" target="_self">CBS Interactive Privacy Policy Highlights</a></td>
+                        </tr>                        
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" width="20%"></td>
+                            <td class="articlelistcell" width="80%"><span id="j_id0:j_id2:j_id202:j_id203:j_id204:1:articlelistabstract"></span></td>
+                        </tr>
+                    </table></span><span id="j_id0:j_id2:j_id202:j_id203:j_id204:2:j_id208">              
+                    <table id="articlelisttable" width="99%">
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" style="font-weight: bold;" width="20%">Related Article:</td>
+                            <td class="articlelistcell" width="80%"><a id="j_id0:j_id2:j_id202:j_id203:j_id204:2:articlelink" name="j_id0:j_id2:j_id202:j_id203:j_id204:2:articlelink" href="/CBSi/articles/FAQ/mPrivacy-Policy-FAQ?retURL=%2FCBSi%2Farticles%2FFAQ%2FPrivacy-Policy%3Fcategories%3DCBS_Interactive%253AmPrivacy%26amp%253Btemplate%3Dtemplate_mobilePrivacy%26amp%253Breferer%3Dmobileprivacy.com%26amp%253Bdata%3D%26amp%253Bcfs%3Ddefault&popup=false&categories=CBS_Interactive%3AmPrivacy&template=&referer=&data=&cfs=" target="_self">CBS Interactive Privacy Policy FAQ</a></td>
+                        </tr>                        
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" width="20%"></td>
+                            <td class="articlelistcell" width="80%"><span id="j_id0:j_id2:j_id202:j_id203:j_id204:2:articlelistabstract"></span></td>
+                        </tr>
+                    </table></span><span id="j_id0:j_id2:j_id202:j_id203:j_id204:3:j_id208">              
+                    <table id="articlelisttable" width="99%">
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" style="font-weight: bold;" width="20%">Related Article:</td>
+                            <td class="articlelistcell" width="80%"><a id="j_id0:j_id2:j_id202:j_id203:j_id204:3:articlelink" name="j_id0:j_id2:j_id202:j_id203:j_id204:3:articlelink" href="/CBSi/articles/FAQ/mPrivacy-Principles?retURL=%2FCBSi%2Farticles%2FFAQ%2FPrivacy-Policy%3Fcategories%3DCBS_Interactive%253AmPrivacy%26amp%253Btemplate%3Dtemplate_mobilePrivacy%26amp%253Breferer%3Dmobileprivacy.com%26amp%253Bdata%3D%26amp%253Bcfs%3Ddefault&popup=false&categories=CBS_Interactive%3AmPrivacy&template=&referer=&data=&cfs=" target="_self">CBS Interactive Privacy Principles</a></td>
+                        </tr>                        
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" width="20%"></td>
+                            <td class="articlelistcell" width="80%"><span id="j_id0:j_id2:j_id202:j_id203:j_id204:3:articlelistabstract"></span></td>
+                        </tr>
+                    </table></span></span>
+            <script>
+                j$('link' +
+                '[href$="ext-all-notheme.css"]' +
+                '[rel="stylesheet"]' +
+                '[type="text/css"]'
+                ).remove();         
+            </script> 
+                                <br /><br />
+                            </article>
+                        <div style="font-size: 13px;">
+                            <a href="#top"><span style="color: rgb(255, 102, 0);">&laquo;</span>Back To Top <span style="color: rgb(255, 102, 0);">&raquo;</span></a>
+                        </div>
+                        <br /><br />
+                    </div>
+                    <hr />
+
+
+    <script type="text/javascript">//<![CDATA[
+    var amc=amc||{};if(!amc.on){amc.on=amc.call=function(){}};
+    document.write("<scr"+"ipt type=\"text/javascript\" src=\"//www.adobetag.com/d2/v2/ZDItY2JzaW50ZXJhY3RpdmUtNDgxNC0xNzE2/amc.js\"></sc"+"ript>");
+    //]]></script>
+
+
+                    <footer style="text-align: center;">
+                    <div class="span12"><a href="http://www.cbscorporation.com/portfolio.php?division=94" style="color: #999999">CBS Entertainment</a> <span>|</span> <a href="http://www.cbscorporation.com/" style="color: #999999">About CBS Corporation</a> <span>|</span> <a href="http://www.cbscorporation.com/careers" style="color: #999999">Careers</a> <span>|</span> <a href="http://www.cbs.com/info/captioning/" style="color: #999999">Closed Captioning</a> <span>|</span> <a href="http://www.cbs.com/schedule/video-description/" style="color: #999999">Video Description</a> <span>|</span> <a href="http://cbsiprivacy.custhelp.com/app/answers/detail/a_id/1272/" style="color: #999999">Ad Choice</a> <span>|</span> <a href="http://legalterms.cbsinteractive.com/privacy" style="color:  #999999">Privacy Policy</a> <span>|</span> <a href="http://legalterms.cbsinteractive.com/tou" style="color: #999999">Terms of Use</a> <span>|</span> <a href="http://www.cbsinteractive.com/advertise/" style="color: #999999">Advertise</a> <span>|</span> <a href="http://www.cbs.com/casting/" style="color: #999999">Casting</a> <span>|</span> <a href="https://cbsi.secure.force.com/CBSi/sitefeedback?template=template_cbsfeedback&amp;referer=cbsfeedback.com&amp;cfs=SFS_Ent_Feedback&amp;data=" style="color: #999999">Feedback</a> <span>|</span> <a href="http://www.cbs.com/site-map" style="color: #999999">Site Map</a> <span>|</span> <a href="http://www.cbs.com/eye-lerts" style="color: #999999">Eye-lerts</a>
+                        <br />
+                        <div style="margin-top: 10px;">
+                            <a href="/CBSi/knowledgehome?referer=" target="_self"><img src="/CBSi/resource/1424049638000/assets_cbsi/assets_cbsi/shared/images/grey_cbs_logo.png" /></a>
+                        </div>
+                        <br />
+                        <div style="color: #999999; margin-top: 1px;">&copy;  CBS Interactive. All rights reserved.</div>
+                    </div>
+                    <br /><br />
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/jquery.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-transition.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-alert.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-modal.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-dropdown.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-tab.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-tooltip.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-popover.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-button.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-collapse.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-carousel.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-typeahead.js"></script>
+</body>
+    </html><script type="text/javascript">Sfdc.onReady(function(){
+	SfdcApp && SfdcApp.Visualforce && SfdcApp.Visualforce.VSManager && SfdcApp.Visualforce.VSManager.vfPrepareForms(["j_id0:j_id2:j_id5:j_id6:j_id95","j_id0:j_id2:j_id5:j_id6:voteForm","j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97","j_id0:j_id2:j_id5:j_id6:langForm"]);
+
+});</script>

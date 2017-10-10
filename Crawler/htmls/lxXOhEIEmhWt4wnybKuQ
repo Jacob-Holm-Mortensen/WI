@@ -1,0 +1,2565 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://ogp.me/ns/fb#"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta content="en" http-equiv="Content-Language"><meta name="google" content="notranslate"><link rel="preconnect dns-prefetch" href="https://sportshub.cbsistatic.com"><link rel="preconnect dns-prefetch" href="https://sportsfly.cbsistatic.com"><link rel="preconnect dns-prefetch" href="https://sports.cbsimg.net"><title>NFL Football - News, Scores, Stats, Standings, and Rumors - National Football League - CBSSports.com</title><meta itemprop="name" content="NFL Football - News, Scores, Stats, Standings, and Rumors - National Football League - CBSSports.com"><meta name="description" content="CBS Sports has the latest NFL FOOTBALL news, live scores, player stats, standings, fantasy games, and projections."><meta itemprop="description" content="CBS Sports has the latest NFL FOOTBALL news, live scores, player stats, standings, fantasy games, and projections."><link rel="canonical" href="https://www.cbssports.com/nfl/"><meta property="og:site_name" content="CBSSports.com"><meta property="og:title" content="NFL Football - News, Scores, Stats, Standings, and Rumors - National Football League"><meta property="og:description" content="CBS Sports has the latest NFL FOOTBALL news, live scores, player stats, standings, fantasy games, and projections."><meta property="og:image" content="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/fantasy/default-article-image-large.gif"><meta property="og:type" content="website"><meta property="og:url" content="https://www.cbssports.com/nfl/"><meta property="fb:pages" content="25902406772"><meta property="fb:app_id" content="297742330311988"><meta property="fb:admins" content="100002967552623"><meta property="article:publisher" content="https://www.facebook.com/cbssports"><meta content="14885860" property="twitter:account_id"><meta content="CBSSports.com features live scoring and news for NFL football, MLB baseball, NBA basketball, NHL hockey, college basketball and football. CBSSports.com is also your source for fantasy sports news." name="msapplication-tooltip"><meta content="https://www.cbssports.com/" name="msapplication-starturl"><meta content="width=1024;height=768" name="msapplication-window"><meta content="#1483b2" name="msapplication-navbutton-color"><link rel="alternate" href="android-app://com.handmark.sportcaster/cbssportsapp/https://www.cbssports.com/nfl/"><meta name="google-site-verification" content="EdjXVFTZ6BgUzS3Void8cMiXXzE6bXDvNg-Yjl3VZj8"><meta name="googlebot" content="NOODP"><link rel="next" href="https://www.cbssports.com/nfl/1/"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/core/webclips/touch-icon-iphone.png"><link rel="apple-touch-icon" sizes="76x76" href="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/core/webclips/touch-icon-ipad.png"><link rel="apple-touch-icon" sizes="120x120" href="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/core/webclips/touch-icon-iphone-retina.png"><link rel="apple-touch-icon" sizes="152x152" href="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/core/webclips/touch-icon-ipad-retina.png"><link rel="stylesheet" href="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/css/main.desktop.css"><link rel="stylesheet" href="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/css/icon-moon/icon-moon.css"><script type="text/javascript" src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediajs/js-build/libs/require-2.1.22.js"></script><script type="text/javascript">
+    require.config({"baseUrl":"https:\/\/sportsfly.cbsistatic.com\/fly-703\/bundles\/sportsmediajs\/js-build","urlArgs":"","config":{"version":{"fly\/components\/accordion":"1.0","fly\/components\/alert":"1.0","fly\/components\/base":"1.0","fly\/components\/carousel":"1.0","fly\/components\/dropdown":"1.0","fly\/components\/fixate":"1.0","fly\/components\/form-validate":"1.0","fly\/components\/image-gallery":"1.0","fly\/components\/iframe-messenger":"1.0","fly\/components\/load-more":"1.0","fly\/components\/load-more-article":"1.0","fly\/components\/load-more-scroll":"1.0","fly\/components\/loading":"1.0","fly\/components\/marketing-slider":"1.0","fly\/components\/modal":"1.0","fly\/components\/modal-iframe":"1.0","fly\/components\/network-bar":"1.0","fly\/components\/poll":"1.0","fly\/components\/search-player":"1.0","fly\/components\/social-button":"1.0","fly\/components\/social-counts":"1.0","fly\/components\/social-links":"1.0","fly\/components\/tabs":"1.0","fly\/components\/video":"1.0","fly\/libs\/easy-xdm":"2.4.17.1","fly\/libs\/jquery.cookie":"1.2","fly\/libs\/jquery.throttle-debounce":"1.1","fly\/libs\/jquery.widget":"1.9.2","fly\/libs\/omniture.s-code":"1.0","fly\/utils\/jquery-mobile-init":"1.0","fly\/libs\/jquery.mobile":"1.3.2","fly\/libs\/backbone":"1.0.0","fly\/libs\/underscore":"1.5.1","fly\/libs\/jquery.easing":"1.3","fly\/managers\/ad":"2.0","fly\/managers\/components":"1.0","fly\/managers\/cookie":"1.0","fly\/managers\/debug":"1.0","fly\/managers\/geo":"1.0","fly\/managers\/gpt":"4.2","fly\/managers\/history":"2.0","fly\/managers\/madison":"1.0","fly\/managers\/social-authentication":"1.0","fly\/managers\/tealium":"1.0","fly\/utils\/data-prefix":"1.0","fly\/utils\/data-selector":"1.0","fly\/utils\/function-natives":"1.0","fly\/utils\/guid":"1.0","fly\/utils\/log":"1.0","fly\/utils\/object-helper":"1.0","fly\/utils\/string-helper":"1.0","fly\/utils\/string-vars":"1.0","fly\/utils\/url-helper":"1.0","libs\/jshashtable":"2.1","libs\/select2":"3.5.1","libs\/jsonp":"2.4.0","libs\/jquery\/mobile":"1.4.5","libs\/modernizr.custom":"2.6.2","libs\/velocity":"1.2.2","libs\/dataTables":"1.10.6","libs\/dataTables.fixedColumns":"3.0.4","libs\/dataTables.fixedHeader":"2.1.2","libs\/dateformat":"1.0.3","libs\/waypoints\/infinite":"3.1.1","libs\/waypoints\/inview":"3.1.1","libs\/waypoints\/jquery.waypoints":"3.1.1","libs\/waypoints\/sticky":"3.1.1","libs\/jquery\/dotdotdot":"1.6.1","libs\/jquery\/flexslider":"2.1","libs\/jquery\/lazyload":"1.9.3","libs\/jquery\/maskedinput":"1.3.1","libs\/jquery\/marquee":"1.3.1","libs\/jquery\/numberformatter":"1.2.3","libs\/jquery\/placeholder":"0.2.4","libs\/jquery\/scrollbar":"0.1.6","libs\/jquery\/tablesorter":"2.0.5","libs\/jquery\/touchswipe":"1.6.18","libs\/jquery\/ui\/jquery.ui.core":"1.11.4","libs\/jquery\/ui\/jquery.ui.draggable":"1.11.4","libs\/jquery\/ui\/jquery.ui.mouse":"1.11.4","libs\/jquery\/ui\/jquery.ui.position":"1.11.4","libs\/jquery\/ui\/jquery.ui.slider":"1.11.4","libs\/jquery\/ui\/jquery.ui.sortable":"1.11.4","libs\/jquery\/ui\/jquery.ui.touch-punch":"0.2.3","libs\/jquery\/ui\/jquery.ui.autocomplete":"1.11.4","libs\/jquery\/ui\/jquery.ui.accordion":"1.11.4","libs\/jquery\/ui\/jquery.ui.tabs":"1.11.4","libs\/jquery\/ui\/jquery.ui.menu":"1.11.4","libs\/jquery\/ui\/jquery.ui.dialog":"1.11.4","libs\/jquery\/ui\/jquery.ui.resizable":"1.11.4","libs\/jquery\/ui\/jquery.ui.button":"1.11.4","libs\/jquery\/ui\/jquery.ui.tooltip":"1.11.4","libs\/jquery\/ui\/jquery.ui.effects":"1.11.4","libs\/jquery\/ui\/jquery.ui.datepicker":"1.11.4"}},"shim":{"liveconnection\/managers\/connection":{"deps":["liveconnection\/libs\/sockjs-0.3.4"]},"liveconnection\/libs\/sockjs-0.3.4":{"exports":"SockJS"},"libs\/setValueFromArray":{"exports":"set"},"libs\/getValueFromArray":{"exports":"get"},"fly\/libs\/jquery.mobile-1.3.2":["version!fly\/utils\/jquery-mobile-init"],"libs\/backbone.marionette":{"deps":["jquery","version!fly\/libs\/underscore","version!fly\/libs\/backbone"],"exports":"Marionette"},"fly\/libs\/underscore-1.5.1":{"exports":"_"},"fly\/libs\/backbone-1.0.0":{"deps":["version!fly\/libs\/underscore","jquery"],"exports":"Backbone"},"libs\/jquery\/ui\/jquery.ui.tabs-1.11.4":["jquery","version!libs\/jquery\/ui\/jquery.ui.core","version!fly\/libs\/jquery.widget"],"libs\/jquery\/flexslider-2.1":["jquery"],"libs\/dataTables.fixedColumns-3.0.4":["jquery","version!libs\/dataTables"],"libs\/dataTables.fixedHeader-2.1.2":["jquery","version!libs\/dataTables"]},"map":{"*":{"facebook":"https:\/\/connect.facebook.net\/en_US\/sdk.js","facebook-debug":"https:\/\/connect.facebook.net\/en_US\/all\/debug.js","google":"https:\/\/apis.google.com\/js\/plusone.js","google-signin":"https:\/\/apis.google.com\/js\/client:platform.js","google-csa":"https:\/\/www.google.com\/adsense\/search\/async-ads.js","google-javascript-api":"https:\/\/www.google.com\/jsapi","google-client-api":"https:\/\/apis.google.com\/js\/api:client.js","gpt":"https:\/\/www.googletagservices.com\/tag\/js\/gpt.js","recaptcha":"https:\/\/www.google.com\/recaptcha\/api\/js\/recaptcha_ajax.js","twitter":"https:\/\/platform.twitter.com\/widgets.js","mpx":"libs\/tpPdk","tealium":"\/\/tags.tiqcdn.com\/utag\/cbsi\/cbssportssite\/prod\/utag.js","taboola":"https:\/\/cdn.taboola.com\/libtrc\/cbsinteractive-cbssports\/loader.js","sharethrough":"https:\/\/native.sharethrough.com\/assets\/tag.js","newsroom":"https:\/\/c2.taboola.com\/nr\/cbsinteractive-cbssports\/newsroom.js","disqus":"\/\/cbs-sports-prod.disqus.com\/embed.js","disqus-commentcount":"\/\/cbs-sports-prod.disqus.com\/count.js"}}});
+
+        
+</script><script type="text/javascript">
+    //Set doc domain for video embed crossdomain fix
+    document.domain = "cbssports.com";
+
+            if ((top.location != self.location) && (document.referrer.indexOf("cbssports.com") == -1)) {
+            window.open(location.href, '_top');
+        }
+    
+    window.SportsPageVars = {
+        ads: {
+            enabled: true,
+            data: {"gpt":{"targeting":{"device":"desktop","ptype":"home-arena","cid":"nfl","env":"prod"},"adConfig":{"network":{"local":7336,"dev":7336,"qa":8264,"stage":8264,"prod":8264},"method":"async-inline","regions":[],"adUnits":{"intromercial":{"outOfPage":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"adSkinCallback"}},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,250],[300,600]],"position":"top"},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom","disableInitialLoad":false},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250],[970,90]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderboardCallback"}},"leaderTop":{"sizes":[[728,90],[970,66],[970,90]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderboardCallback"}},"buttonTop":{"sizes":[[88,31]],"position":"top"},"skyBox":{"sizes":[[980,45]],"position":"top"},"topStrip":{"sizes":[[5,5]],"position":"top","eventCallbacks":{"slotRenderEnded":"skyBoxCallback"}},"nflnetworkBarTop":{"sizes":[[750,50]],"position":"top"},"nflnetworkMarqueeTop":{"sizes":[[170,100]],"position":"top"},"nflnetworkMarquee2Top":{"sizes":[[400,45]],"position":"top"},"mobileNflnetworkTop":{"sizes":[[300,100]],"position":"top"},"leaderPlus2Bottom":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderMiddle":{"sizes":[[728,90],[970,66]],"position":"middle"},"leaderBottom":{"sizes":[[970,66],[728,90]],"position":"bottom"},"mMarqueeTop":{"sizes":[[356,365]],"position":"top"},"mRailTopLeft":{"sizes":[[170,360]],"position":"top"},"mRailBottomLeft":{"sizes":[[170,230]],"position":"bottom"},"mLeaderTop":{"sizes":[[1170,150]],"position":"top"},"mLeaderMiddle":{"sizes":[[1170,150]],"position":"middle"},"mRailTopRight":{"sizes":[[370,345]],"position":"top"},"mStoryInset":{"sizes":[[300,310]],"position":"top"},"mDropdown":{"sizes":[[220,350]],"position":"top"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"mpuTopGametracker":{"sizes":[[300,250]],"position":"top","disableInitialLoad":true,"eventCallbacks":{"slotRenderEnded":"clear20second"}},"sharethroughTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"a749ea2b"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughBottom":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"a749ea2b"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughArticle":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"433f2831"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughScoreboard":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"1KzYzb2nt1prfLivSYMjVJCV"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mpuHomeArenaFlex":{"sizes":[[11,11],[300,250]],"position":"top","customTargeting":{"strnativekey":"pHEZXrGTz8xAczhbvBryALrh"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeArenaMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"rSRFToMHkC84SmYyCbF6LsXG"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryBottom":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryBottom2":{"sizes":[[11,11]],"position":"bottom2","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryInc":{"sizes":[[11,11]],"position":"inc","disableInitialLoad":true,"customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"}},"videoThumbnailTop":{"sizes":[[171,231]],"position":"top"},"videoLiveEventSponsor":{"sizes":[[234,60]],"position":"top"}},"mobile":{"adUnits":{"intromercial":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"topStrip":{"sizes":[[5,5]],"position":"top","eventCallbacks":{"slotRenderEnded":"skyBoxCallback"}},"mobileNflnetworkMarqueeTop":{"sizes":[[300,100]],"position":"top"},"mobileNflnetworkTop":{"sizes":[[300,100]],"position":"top"},"mobileHomeFlexTop":{"sizes":[[11,11],[300,250]],"position":"top","customTargeting":{"strnativekey":"FPbxvZ35anf9AJRvNfe6i5bj"}},"mobileHomeFlexSilentMiddle":{"sizes":[[11,11],[300,250]],"position":"middle","customTargeting":{"strnativekey":"4QaKVuofR1D6XYNp5djXh8m5"}},"mobileHomeFlexBottom":{"sizes":[[11,11],[300,250]],"position":"bottom","customTargeting":{"strnativekey":"FPbxvZ35anf9AJRvNfe6i5bj"}},"mobileHomeFlexSilentBottom2":{"sizes":[[11,11],[300,250]],"position":"bottom2","customTargeting":{"strnativekey":"4QaKVuofR1D6XYNp5djXh8m5"}},"mobileArenaFlexSilentMiddle":{"sizes":[[11,11],[300,250]],"position":"middle","customTargeting":{"strnativekey":"p19egy6FqHCsS251t1yj2EBy"}},"mobileArenaFlexSilent":{"sizes":[[11,11],[300,250]],"position":"middle","customTargeting":{"strnativekey":"p19egy6FqHCsS251t1yj2EBy"}},"mobileArenaFlexSilentBottom2":{"sizes":[[11,11],[300,250]],"position":"bottom2","customTargeting":{"strnativekey":"p19egy6FqHCsS251t1yj2EBy"}},"mobileFlexSilentTop":{"sizes":[[11,11],[300,250]],"position":"top","customTargeting":{"strnativekey":"gubJdWNSqW4KERyShJGTxkGt"}},"mobileFlexTop":{"sizes":[[300,250],[11,11]],"position":"top","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexMiddle":{"sizes":[[320,50],[300,250],[11,11]],"position":"middle","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexMiddle2":{"sizes":[[320,50],[300,250],[11,11]],"position":"middle2","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexBottom":{"sizes":[[320,50],[300,250],[11,11]],"position":"bottom","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexInc":{"sizes":[[320,50],[300,250],[11,11]],"position":"inc","disableInitialLoad":true,"customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileBannerTop2":{"sizes":[[320,51]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileMpuBottom2":{"sizes":[[300,250]],"position":"bottom2"},"mpuMiddle":{"sizes":[[300,50]],"position":"middle"},"mpuTop":{"sizes":[[320,50]],"position":"top"},"mobileMpuTop":{"sizes":[[300,250]],"position":"top"},"mobileMpuMiddle":{"sizes":[[300,250]],"position":"middle"},"mobileMarketingMpuTop":{"sizes":[[320,100]],"position":"top"},"mobileMarketingMpuMiddle":{"sizes":[[320,100]],"position":"middle"},"mobileMarketingMpuBottom":{"sizes":[[320,100]],"position":"bottom"},"mobileNativeTop2":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"nJQjFMCYfivejGXoqNXYEKsY"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeTeamTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"pjJXawoyvqmBkden6uzUT6kQ"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeGtTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"83b0ae49"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeBottom2":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"nJQjFMCYfivejGXoqNXYEKsY"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughPos2":{"sizes":[[11,11]],"position":2,"customTargeting":{"strnativekey":"54ab0589"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryBottom":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryBottom2":{"sizes":[[11,11]],"position":"bottom2","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mMarqueeTop":{"sizes":[[356,365]],"position":"top"},"mobileMpuTopGametracker":{"sizes":[[300,250]],"position":"top","disableInitialLoad":true,"eventCallbacks":{"slotRenderEnded":"clear20second"}}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"siteName":"cbssports","collapseEmptyDiv":true,"setRefreshUnfilledSlots":false,"setClearUnfilledSlots":true,"disableInitialLoad":false,"disableInitialLoadCompanions":true,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["top_strip","leader_plus_top","leader_top","m_leader_top","skin","mpu_plus_top","mpu_top","mpu_top_gametracker","m_marquee_top","m_rail_top_left","m_rail_top_right","sharethrough_top","sharethrough_bottom","native_arena","native_arena_middle","native_arena_silent","leader_middle","m_leader_middle","mpu_middle","m_story_inset","m_dropdown","leader_plus2_bottom","leader_bottom","mpu_bottom","m_rail_bottom_left","native_story_top","native_story_middle","native_story_bottom","native_story_bottom2","video_live_event_sponsor"],"disableInitialLoadRefresh":true,"enableHeaderBidding":true,"disableClearTargetingOnInit":true,"enableRepeatedAds":true,"disableAdIncrement":false},"containerId":"2fd0824382795","slotVars":{"network":"8264","siteName":"cbssports","collapseEmptyDiv":"1","topics":"nfl\/media\/home","platform":"desktop"},"adType":"gpt","adDivIds":["mpu-home-arena-flex-2fd0824382795","mpu-middle-2fd0824382795","leader-bottom-2fd0824382795","intromercial-2fd0824382795","top-strip-2fd0824382795","skin-2fd0824382795","leader-top-2fd0824382795","nflnetwork-bar-top-2fd0824382795"]},"cookieName":"cbssports_ad","cookieServicePath":"\/ad\/ad-cookie\/","session":6,"subSession":4,"useFirstPageTargeting":true}
+        },
+        assetsVersion: {
+            version: 'fly-703'
+        },
+        device: "desktop",
+        environment: 'prod',
+        locale: 'en',
+        tracking: {
+            enabled: true
+        },
+        user: {
+            baseUrl: "https://www.cbssports.com",
+            'urls': {
+                                                                                                                                                                                                }
+        },
+        liveConnection: {
+            enabled: true
+        },
+        taboolaTag: {
+            enabled: true
+        }
+    };
+    // console.log(window.SportsPageVars);
+</script><script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediajs/js-build/fly/libs/guid-1.0.js"></script><script type="text/javascript">
+		    var __tealium_data_guid = null;
+		    if (typeof window.uuid.v1 === 'function'){
+		        __tealium_data_guid=window.uuid.v1();
+		    }
+
+		    var _utag_obj={"isEnabled":true,"deviceType":"desktop","isDev":"0","pageType":"home-arena","siteHier":["media","nfl","home"],"siteSection":["media","nfl","","","home",""],"siteType":"desktop web","topicId":[],"userId":"12675584","userState":"authenticated","userType":"registered","dwAccount":"cbsicbssportssite","dwHost":"dw.cbsi.com","siteId":175,"reportSuiteId":"cbsicbssportssite","bkSiteId":3344,"limit":4,"pageName":"\/nfl\/","pageTypeId":"2001","pageOntologyId":"22305","siteName":"cbssports","tealium":{"profile":"cbssportssite","env":"prod"}};    
+		    _utag_obj.pageViewGuid=__tealium_data_guid;
+		    var utag_data=_utag_obj;
+		</script><script>
+    var skyBoxScroll = function() {
+        if ($(window).scrollTop() != 0) {
+            window.scrollTo(window.pageXOffset, window.pageYOffset - 1);
+            window.scrollTo(window.pageXOffset, window.pageYOffset + 1);
+        }
+    }
+</script><script src="//js-sec.indexww.com/ht/ls-cbssports.js" async></script><script type="text/javascript" src="https://mtrx.go.sonobi.com/morpheus.cbssports.4073.js" async></script></head><body class="">
+        <div id="cbs-site-data" style="display: none">
+        site: media | arena: nfl | pageType: home-arena | 
+        section:  | slug: nfl | sport: football | route: topic_landing | 
+        6-keys: media/spln/nfl/reg/free/home
+    </div>
+
+    <div class="page-shell         single-block-layout arena-page
+">
+        <div id="intromercial-2fd0824382795" class="ad-intromercial " data-ad="intromercial">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-2fd0824382795 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-2fd0824382795");
+    </script></div>
+
+    
+                    
+<link rel="stylesheet" href="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/css/header-footer/header-footer.desktop.css"><div id="skybox-above">
+        <div id="top-strip-2fd0824382795" class="ad-top-strip " data-ad="top-strip">
+    <script>
+        window.console && console.log && console.log("ADS: queuing top-strip-2fd0824382795 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("top-strip-2fd0824382795");
+    </script></div>
+
+    </div>
+<header id="cbs-site-header" class="cbs-site-header" data-component="siteHeader" data-site-header-options='{"currentSportOmnitureName":"NFL"}'><div id="cbs-network-bar" class="nav-network-bar">
+            <ul class="nav-networks"><li class="nav-networks-item is-selected">
+                    <a href="https://www.cbssports.com" om-event="">
+                        CBSSports.com
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="http://247sports.com/" target="_blank" om-event="">
+                        247Sports
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="http://www.maxpreps.com" target="_blank" om-event="">
+                        MaxPreps
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="http://www.scout.com/" target="_blank" om-event="">
+                        Scout
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="http://www.sportsline.com" target="_blank" om-event="">
+                        SportsLine
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="http://shop.cbssports.com/?utm_source=cbssportscom_hp&amp;utm_medium=bm_referral&amp;utm_term=kw--CBS_Sports" target="_blank" om-event="">
+                        Shop
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="https://www.golfbook.com/?utm_source=cbssports&amp;utm_medium=link&amp;utm_campaign=globaldesktop_nav" target="_blank" om-event="">
+                        Golfbook
+                    </a>
+                </li>
+                                                                            <li class="nav-networks-item ">
+                    <a href="https://www.stubhub.com/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHpdropdown-_-partCBSSports" target="_blank" om-event="">
+                        Tickets
+                    </a>
+                </li>
+                    </ul><div class="nav-follow-us">
+        <div class="nav-follow-us-item nav-follow-us-item-label">
+            Follow CBS Sports 
+        </div>
+
+                    
+
+<ul class="social-icons-bar"><li><a href="https://www.facebook.com/cbssports/" class="button-network icon-moon-facebook" target="_blank" rel="nofollow" aria-label="Facebook" title="Facebook" om-event="Brand Bar|Facebook"></a></li><li><a href="https://twitter.com/cbssports/" class="button-network icon-moon-twitter" target="_blank" rel="nofollow" aria-label="Twitter" title="Twitter" om-event="Brand Bar|Twitter"></a></li><li><a href="https://instagram.com/cbssports/" class="button-network icon-moon-instagram" target="_blank" rel="nofollow" aria-label="Instagram" title="Instagram" om-event="Brand Bar|Instagram"></a></li><li><a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" class="button-network icon-moon-flipboard" target="_blank" rel="nofollow" aria-label="Flipboard" title="Flipboard" om-event="Brand Bar|Flipboard"></a></li></ul></div>
+</div>
+    
+    
+
+
+
+
+                                                                                        
+
+        
+                                                                                                                                                                                                                                                                                                        
+    
+<div id="cbs-site-nav" class="cbs-site-nav">
+    <div class="site-nav-inner">
+        
+<div class="site-nav-logo">
+    <div class="cbs-logo-lockup">
+            
+        <div class="cbs-logo">
+            <a href="/" om-event="Arena Nav|NFL|Logo">
+                <span class="cbs-logo-icon icon-moon-cbs-icon"></span>
+            </a>
+        </div>
+    
+        <div id="cbs-logo-section" class="cbs-logo-section has-icon">
+            <div class="cbs-logo-pos">
+                <span class="logo-sport icon-moon-arena-text-nfl"></span>
+                <span class="logo-icon icon-moon-caret-down"></span>
+            </div>
+    
+                        <div class="cbs-logo-dropdown">
+                                    <ul class="nav-dropdown-col"><li class="nav-dropdown-item">
+                                    <span class="icon-sport icon-moon-cbs-icon"></span>
+                                    <a href="https://www.cbssports.com" om-event="Arena Nav|NFL|NFL|CBSSports">CBS Sports Home</a>
+                                </li>
+                            
+                            <li class="nav-dropdown-item ">
+                                                                                                    <span class="icon-sport icon-moon-arena-fantasy"></span>
+                                                                                                
+            <a href="/fantasy/" om-event="Arena Nav|NFL|NFL|Fantasy">
+            Fantasy
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item is-selected">
+                                                                                                    <span class="icon-sport icon-moon-arena-nfl"></span>
+                                                                                                
+            <a href="/nfl/" om-event="Arena Nav|NFL|NFL|NFL">
+            NFL
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                    <span class="icon-sport icon-moon-arena-mlb"></span>
+                                                                                                
+            <a href="/mlb/" om-event="Arena Nav|NFL|NFL|MLB">
+            MLB
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                    <span class="icon-sport icon-moon-arena-ncaafb"></span>
+                                                                                                
+            <a href="/college-football/" om-event="Arena Nav|NFL|NFL|NCAA FB">
+            NCAA FB
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                    <span class="icon-sport icon-moon-arena-golf"></span>
+                                                                                                
+            <a href="/golf/" om-event="Arena Nav|NFL|NFL|Golf">
+            Golf
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                    <span class="icon-sport icon-moon-arena-basketball"></span>
+                                                                                                
+            <a href="/nba/" om-event="Arena Nav|NFL|NFL|NBA">
+            NBA
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                    <span class="icon-sport icon-moon-arena-nhl"></span>
+                                                                                                
+            <a href="/nhl/" om-event="Arena Nav|NFL|NFL|NHL">
+            NHL
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                                            </ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item ">
+                                                                                                                                
+            <a href="/college-basketball/" om-event="Arena Nav|NFL|NFL|NCAA BB">
+            NCAA BB
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+            <a href="/boxing" om-event="Arena Nav|NFL|NFL|Boxing">
+            Boxing
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+            <a href="/wwe/" om-event="Arena Nav|NFL|NFL|WWE">
+            WWE
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+            <a href="/soccer/" om-event="Arena Nav|NFL|NFL|Soccer">
+            Soccer
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+            <a href="/mma/" om-event="Arena Nav|NFL|NFL|MMA">
+            MMA
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+            <a href="/tennis/" om-event="Arena Nav|NFL|NFL|Tennis">
+            Tennis
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+            <a href="/olympics/" om-event="Arena Nav|NFL|NFL|Olympics">
+            Olympics
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="http://www.maxpreps.com/national/national.htm" target="_blank" class="external-link" om-event="Arena Nav|NFL|NFL|High School">
+            High School 
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                                            </ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="http://sports.cbslocal.com/" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|NFL|NFL|CBS Local Sites">
+            CBS Local Sites 
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="http://www.nascar.com/en_us/sprint-cup-series.html?cid=syn_cbs_referrers_navlinks_01112013&amp;synid=syn_cbs_referrers_navlinks_01112013" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|NFL|NFL|NASCAR">
+            NASCAR 
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="https://www.americasbestracing.net/" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|NFL|NFL|Horse Racing">
+            Horse Racing 
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="http://www.pbr.com/" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|NFL|NFL|PBR">
+            PBR 
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="https://toughmudder.com/" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|NFL|NFL|Tough Mudder">
+            Tough Mudder 
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="http://www.bowl.com/" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|NFL|NFL|Bowling">
+            Bowling 
+        </a>
+    
+                            </li>
+                                                                                                                                                                                                                                    
+                                
+                                                        
+                            <li class="nav-dropdown-item ">
+                                                                                                                                
+                                    <a href="https://www.stubhub.com/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHomepagemodule-_-partCBSSports" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|NFL|NFL|Tickets">
+            Tickets 
+        </a>
+    
+                            </li>
+                                            </ul></div>
+        </div>
+    </div>
+</div>
+
+        
+        <nav class="site-nav-list"><ul><li class="nav-list-item is-selected nav-item-overflow">
+                                                        
+            <a href="/nfl/" om-event="Arena Nav|NFL|Home">
+            Home
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/nfl/scoreboard/" om-event="Arena Nav|NFL|Scores">
+            Scores
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/nfl/schedules" om-event="Arena Nav|NFL|Schedule">
+            Schedule
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/nfl/standings" om-event="Arena Nav|NFL|Standings">
+            Standings
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                                                                    <li class="nav-list-item  nav-item-overflow fantasy-item">
+                                                        
+            <a href="/fantasy/football/" om-event="Arena Nav|NFL|Fantasy">
+            Fantasy
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/nfl/teams" om-event="Arena Nav|NFL|Teams">
+            Teams
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/nfl/features/writers/expert/picks" om-event="Arena Nav|NFL|Expert Picks">
+            Expert Picks
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="http://www.sportsline.com/nfl/odds/" om-event="Arena Nav|NFL|Odds">
+            Odds
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/nfl/features/writers/prisco/picks" om-event="Arena Nav|NFL|Prisco's Picks">
+            Prisco's Picks
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/nfl/powerrankings/" om-event="Arena Nav|NFL|Power Rankings">
+            Power Rankings
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/nfl/stats" om-event="Arena Nav|NFL|Stats">
+            Stats
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/nfl/injuries" om-event="Arena Nav|NFL|Injuries">
+            Injuries
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/nfl/transactions" om-event="Arena Nav|NFL|Transactions">
+            Transactions
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/nfl/players" om-event="Arena Nav|NFL|Players">
+            Players
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+            <a href="/nfl/draft/" om-event="Arena Nav|NFL|NFL Draft">
+            NFL Draft
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+                                    <a href="https://www.cbs.com/all-access/live-tv/?ftag=AAM-00-10ade5b" target="_blank" rel="nofollow" class="" om-event="Arena Nav|NFL|CBS All Access">
+            CBS All Access
+        </a>
+    
+
+                                                                    </li>
+                                                                            
+                                                                                    
+                                                                                                                                        
+                                                            
+                                                                                                        <li class="nav-list-item  nav-item-overflow">
+                                                        
+                                    <a href="https://www.stubhub.com/nfl-tickets/grouping/121/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHpdropdown-_-partCBSSports" target="_blank" rel="nofollow" class="" om-event="Arena Nav|NFL|Tickets">
+            Tickets
+        </a>
+    
+
+                                                                    </li>
+                
+                                                                        
+                    <li class="nav-list-item has-dropdown the-dots total-items-17">
+                        <span class="icon-more icon-moon-nav-more"></span>
+                        <ul class="site-nav-dropdown is-the-dots is-wide"><li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/nfl/" om-event="Arena Nav|NFL|More|Home">
+            Home
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/nfl/scoreboard/" om-event="Arena Nav|NFL|More|Scores">
+            Scores
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/nfl/schedules" om-event="Arena Nav|NFL|More|Schedule">
+            Schedule
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/nfl/standings" om-event="Arena Nav|NFL|More|Standings">
+            Standings
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/fantasy/football/" om-event="Arena Nav|NFL|More|Fantasy">
+            Fantasy
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/nfl/teams" om-event="Arena Nav|NFL|More|Teams">
+            Teams
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/nfl/features/writers/expert/picks" om-event="Arena Nav|NFL|More|Expert Picks">
+            Expert Picks
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="http://www.sportsline.com/nfl/odds/" om-event="Arena Nav|NFL|More|Odds">
+            Odds
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/nfl/features/writers/prisco/picks" om-event="Arena Nav|NFL|More|Prisco's Picks">
+            Prisco's Picks
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/nfl/powerrankings/" om-event="Arena Nav|NFL|More|Power Rankings">
+            Power Rankings
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/nfl/stats" om-event="Arena Nav|NFL|More|Stats">
+            Stats
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/nfl/injuries" om-event="Arena Nav|NFL|More|Injuries">
+            Injuries
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/nfl/transactions" om-event="Arena Nav|NFL|More|Transactions">
+            Transactions
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/nfl/players" om-event="Arena Nav|NFL|More|Players">
+            Players
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+            <a href="/nfl/draft/" om-event="Arena Nav|NFL|More|NFL Draft">
+            NFL Draft
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+                                    <a href="https://www.cbs.com/all-access/live-tv/?ftag=AAM-00-10ade5b" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|NFL|More|CBS All Access">
+            CBS All Access 
+        </a>
+    
+                                </li>
+                                                            <li class="nav-dropdown-item nav-dropdown-overflow">
+                                                                                                                                            
+                                    <a href="https://www.stubhub.com/nfl-tickets/grouping/121/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHpdropdown-_-partCBSSports" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|NFL|More|Tickets">
+            Tickets 
+        </a>
+    
+                                </li>
+                                                    </ul></li>
+                            </ul></nav><div class="site-nav-side">
+    <ul class="site-nav-side-inner"><li class="nav-side-item games-item has-dropdown">
+                <span class="narrow-text">Play</span>
+                <span class="narrow-icon icon-item icon-moon-nav-games"></span>
+                                <div class="site-nav-dropdown is-dropdown-games align-right">
+                    <div class="nav-dropdown-inner">
+                                                    <div class="nav-dropdown-game">
+                                                                    <h6 class="nav-dropdown-title">
+                                                                                                                
+            <a href="/fantasy/games/football/?ttag=FFB16_os_drpdwn_feat_lk" om-event="Global Nav|NFL|Play|Games|Text">
+            Games
+        </a>
+    
+                                    </h6>
+                                                                                                    <div class="nav-game-wrap">
+                                                                                                                                                                            <div class="nav-game game-left">
+                                                <div class="nav-game-image">
+                                                    <a href="https://www.cbssports.com/fantasy/games/basketball/?ftag=SPM-10-10abh6c" om-event="Global Nav|NFL|Play|Fantasy basketball|Feature 1">
+                                                                    <figure class=" img"><img class=" is-lazy-image" alt="fantasybasketball-180x100.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/09/18/1b7c71c4-dc55-4636-a4b3-1dc245e2ea93/thumbnail/180x100/1aa2a90f45e39c3b9e26a4ff6ea20595/fantasybasketball-180x100.jpg" src="" height="100" width="180"></figure><p class="nav-game-text">
+                                                            Play Now
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <p class="nav-game-title">
+                                                                                    
+            <a href="/fantasy/games/basketball/?ftag=SPM-10-10abh6c" om-event="Global Nav|NFL|Play|Fantasy basketball|Feature 1">
+            FANTASY BASKETBALL
+        </a>
+    
+                                                </p>
+                                            </div>
+                                                                                                                                                                            <div class="nav-game game-right">
+                                                <div class="nav-game-image">
+                                                    <a href="https://www.cbssports.com/fantasy/games/hockey/?ftag=SPM-16-10abg0g" om-event="Global Nav|NFL|Play|Fantasy hockey|Feature 2">
+                                                                    <figure class=" img"><img class=" is-lazy-image" alt="180x100.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/09/18/7423042f-ba35-4a00-a58f-4334c8ae7b8f/thumbnail/180x100/5d3729819b4a693ac292aa8b7e7824ea/180x100.jpg" src="" height="100" width="180"></figure><p class="nav-game-text">
+                                                            Play Now
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <p class="nav-game-title">
+                                                                                    
+            <a href="/fantasy/games/hockey/?ftag=SPM-16-10abg0g" om-event="Global Nav|NFL|Play|Fantasy hockey|Feature 2">
+            FANTASY HOCKEY
+        </a>
+    
+                                                </p>
+                                            </div>
+                                                                            </div>
+                                                                                                                            </div>
+                                                    <div class="nav-dropdown-game">
+                                                                                                                                                                                                            <div class="nav-game-dropdown-text">
+                                                                                                                                
+            <a href="/fantasy/games/my-teams/" om-event="Global Nav|NFL|Play|View your leagues|Text">
+            View your Leagues
+        </a>
+    
+                                        </div>
+                                                                                                </div>
+                                                    <div class="nav-dropdown-game">
+                                                                    <h6 class="nav-dropdown-title">
+                                                                                                                
+            <a href="/fantasy/games/football?ttag=FF16_os_drpdwn_lk" om-event="Global Nav|NFL|Play|Fantasy football|Text">
+            Fantasy Football
+        </a>
+    
+                                    </h6>
+                                                                                                                                                            </div>
+                                                    <div class="nav-dropdown-game">
+                                                                    <h6 class="nav-dropdown-title">
+                                                                                                                
+            <a href="/fantasy/games/baseball/?ttag=FBB16_os_drpdwn_lk" om-event="Global Nav|NFL|Play|Fantasy baseball|Text">
+            Fantasy Baseball
+        </a>
+    
+                                    </h6>
+                                                                                                                                                            </div>
+                                                    <div class="nav-dropdown-game">
+                                                                    <h6 class="nav-dropdown-title">
+                                                                                                                
+            <a href="/fantasy/games/basketball/?ttag=FBK16_os_drpdwn_lk" om-event="Global Nav|NFL|Play|Fantasy basketball|Text">
+            Fantasy Basketball
+        </a>
+    
+                                    </h6>
+                                                                                                                                                            </div>
+                                                    <div class="nav-dropdown-game">
+                                                                    <h6 class="nav-dropdown-title">
+                                                                                                                
+            <a href="/fantasy/games/hockey/?ttag=FHK16_os_drpdwn_lk" om-event="Global Nav|NFL|Play|Fantasy hockey|Text">
+            Fantasy Hockey
+        </a>
+    
+                                    </h6>
+                                                                                                                                                            </div>
+                                            </div>
+                    <div class="nav-dropdown-bottom">
+                        <div class="nav-dropdown-button">
+                                                                                        
+            <a href="/fantasy/games/" om-event="Global Nav|NFL|Play|See All">
+            See All Sports Games
+        </a>
+    
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+                                <li class="nav-side-item watch-item has-dropdown">
+                <span class="narrow-text">Watch</span>
+                <span class="narrow-icon icon-item icon-moon-nav-watch"></span>
+                                <div class="site-nav-dropdown align-right">
+                    <div class="nav-dropdown-inner">
+                                                                                                                <h6 class="nav-dropdown-title">
+                                                                                                        
+            <a href="/watch/cbssportsnetwork/" om-event="Global Nav|NFL|Watch|Featured Video|Text">
+            Latest from CBS Sports Network
+        </a>
+    
+                                </h6>
+                                <div class="nav-dropdown-top">
+                                                                                                                            
+                                                                                                                        
+                
+            <a href="https://www.cbssports.com/watch/cbssportsnetwork/" class="" om-event="Global Nav|NFL|Watch|Featured Video|Image">
+            <div class="image-icon-overlay-wrap     ">
+                                                        <figure class=" img"><img class=" is-lazy-image" alt="sizzle-graphic.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/03/27/4a8a0cfb-8794-4c57-8cfd-53cc0ba8c2cd/thumbnail/270x152/9c9a1fc7cce2635410697bc3d20c71cc/sizzle-graphic.jpg" src="" height="152" width="270"></figure><div class="image-icon-overlay size-small type-video ">
+                </div>
+                            
+            
+                    </div>
+            </a>
+    
+             
+                                                                    </div>
+                                <ul><li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/watch/cbssportsnetwork/" om-event="Global Nav|NFL|Watch|Latest from CBS Sports Network">
+            Latest from CBS Sports Network
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/watch/cbssportsnetwork/" om-event="Global Nav|NFL|Watch|Watch CBS Sports Network">
+            Watch CBS Sports Network
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+                                    <a href="http://www.cbssportsnetwork.com/" target="_blank" rel="nofollow" class="external-link" om-event="Global Nav|NFL|Watch|CBSSN Channel Finder">
+            CBSSN Channel Finder 
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/cbssports" om-event="Global Nav|NFL|Watch|TV Shows &amp; Listings">
+            TV Shows &amp; Listings
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="https://www.cbs.com/all-access/live-tv/?ftag=AAM-00-10ade5c" om-event="Global Nav|NFL|Watch|NFL on All Access">
+            NFL on All Access
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/fantasy/football/show/fantasy-football-today/" om-event="Global Nav|NFL|Watch|Fantasy Football Today">
+            Fantasy Football Today
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/college-football/sec-live/" om-event="Global Nav|NFL|Watch|SEC Live">
+            SEC Live
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="http://www.collegesportslive.com/start/?ftag=CSL-01-10aaa6f" om-event="Global Nav|NFL|Watch|College Sports Live">
+            College Sports Live
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/general/video/show/the-score/" om-event="Global Nav|NFL|Watch|The Score">
+            The Score
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/video/player/247-sports-live" om-event="Global Nav|NFL|Watch|247Sports Live">
+            247Sports Live
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/general/show/reiters-block/" om-event="Global Nav|NFL|Watch|Reiter's Block">
+            Reiter's Block
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/general/video/show/minute-update/" om-event="Global Nav|NFL|Watch|Sports Minute">
+            Sports Minute
+        </a>
+    
+                                </li>
+                                                                                                                                            <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/videos/" om-event="Global Nav|NFL|Watch|All Videos">
+            All Videos
+        </a>
+    
+                                </li>
+                                                                            </ul></div>
+                </div>
+            </li>
+        
+                                <li class="nav-side-item listen-item has-dropdown">
+                <span class="narrow-text">Listen</span>
+                <span class="narrow-icon icon-item icon-moon-nav-listen"></span>
+                                <div class="site-nav-dropdown align-right">
+                    <div class="nav-dropdown-inner">
+                                                                                                                                            <h6 class="nav-dropdown-title">
+                                    CBS Sports Radio
+                                </h6>
+                                <div class="nav-dropdown-top">
+                                                                            <div class="nav-dropdown-image">
+                                            <a href="http://radio.cbssports.com/" target="_blank" om-event="Global Nav|NFL|Listen|Featured Podcast|Image">
+                                                            <figure class=" img"><img class=" is-lazy-image" alt="cbssports-radio.png" data-lazy="https://sportshub.cbsistatic.com/i/r/2016/02/24/fb0619ed-f59a-47ac-ac37-d7f670af79f3/thumbnail/100x100/97e3cd55c0d67234988d134e0d362eeb/cbssports-radio.png" src="" height="100" width="100"></figure></a>
+                                        </div>
+                                                                        <div class="nav-dropdown-top-side">
+                                        <p class="nav-dropdown-top-title">
+                                                                                                                        
+                                    <a href="http://radio.cbssports.com/" target="_blank" class="external-link" om-event="Global Nav|NFL|Listen|Featured Podcast|Text">
+            Listen Live 
+        </a>
+    
+                                        </p>
+                                                                            </div>
+                                </div>
+                                                                                                                                                                                                        <h6 class="nav-dropdown-title">
+                                    Fantasy Football Today
+                                </h6>
+                                <div class="nav-dropdown-top">
+                                                                            <div class="nav-dropdown-image">
+                                            <a href="https://soundcloud.com/cbssportspodcasts/waiver-wire-4" target="_blank" om-event="Global Nav|NFL|Listen|Featured Podcast|Image">
+                                                            <figure class=" img"><img class=" is-lazy-image" alt="podcast-fantasyfootball-logo.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/06/20/bea1c43d-f08f-480e-8ad9-e93ad015bcc1/thumbnail/100x100/c78f8ee89ba37f7d572069edbd2eb552/podcast-fantasyfootball-logo.jpg" src="" height="100" width="100"></figure></a>
+                                        </div>
+                                                                        <div class="nav-dropdown-top-side">
+                                        <p class="nav-dropdown-top-title">
+                                                                                                                        
+                                    <a href="https://soundcloud.com/cbssportspodcasts/waiver-wire-4" target="_blank" rel="nofollow" class="external-link" om-event="Global Nav|NFL|Listen|Featured Podcast|Text">
+            Waiver Wire 
+        </a>
+    
+                                        </p>
+                                                                                    <time class="nav-dropdown-top-date">
+                                                4h ago
+                                            </time></div>
+                                </div>
+                                                                    <ul><li class="nav-dropdown-item">
+                                                                                                        
+                                    <a href="http://sports.cbslocal.com/cbs-sports-radio-roundup/" target="_blank" rel="nofollow" class="external-link" om-event="Global Nav|NFL|Listen|CBS Sports Radio Roundup">
+            CBS Sports Radio Roundup 
+        </a>
+    
+                                </li>
+                                                                                                                                                                        <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/podcasts/jonah-keri/" om-event="Global Nav|NFL|Listen|The Jonah Keri Podcast">
+            The Jonah Keri Podcast
+        </a>
+    
+                                </li>
+                                                                                                                                                                        <li class="nav-dropdown-item">
+                                                                                                        
+            <a href="/podcast" om-event="Global Nav|NFL|Listen|Podcasts">
+            Podcasts
+        </a>
+    
+                                </li>
+                                                                                                                                                                        <li class="nav-dropdown-item">
+                                                                                                        
+                                    <a href="http://jimrome.com/" target="_blank" rel="nofollow" class="external-link" om-event="Global Nav|NFL|Listen|The Jim Rome Show">
+            The Jim Rome Show 
+        </a>
+    
+                                </li>
+                                                                            </ul></div>
+                </div>
+            </li>
+        
+                <li class="nav-side-item log-in-item">
+            <a href="https://www.cbssports.com/login?master_product=150&amp;xurl=https%3A%2F%2Fwww.cbssports.com%2Fnfl%2F" om-event="Global Nav|NFL|Log In">
+                <span class="the-button">Log In</span>
+            </a>
+        </li>
+
+                <li class="nav-side-item user-item has-dropdown">
+            <span class="the-button">
+                <span class="icon-item-button icon-moon-nav-avatar"></span>
+                <span class="icon-item-text">My Teams</span>
+            </span>
+
+                        <div class="site-nav-dropdown is-dropdown-user align-right">
+                <div id="nav-side-my-teams">
+                                            <div class="loader">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+                </div>
+                <div class="my-teams-component-bottom">
+                    <div class="bottom-row">
+                        <a href="/fantasy/games/my-teams/" om-event="Global Nav|NFL|Profile|Organize My Teams">Organize / See All Teams</a>
+                        <a href="http://cbsi.force.com/CBSi/cbssports" om-event="Global Nav|NFL|Profile|Help">Help</a>
+                    </div>
+                    <div class="bottom-row">
+                        <a href="https://www.cbssports.com/settings" om-event="Global Nav|NFL|Profile|Account Settings">Account Settings</a>
+                        <a href="https://www.cbssports.com/logout?end=https%3A%2F%2Fwww.cbssports.com%2Fnfl%2F" om-event="Global Nav|NFL|Profile|Sign Out">Log Out</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul></div>
+    </div>
+</div>
+</header><link rel="stylesheet" href="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/css/header-footer/saag/saag.desktop.css"><div class="saag-component" id="saag-content" data-component="saagFavorites">
+    <div class="saag">
+        <div class="saag-wrapper">
+            
+
+<div class="league-dropdown" data-component="saagMenu" data-saag-menu-options='{"flyUrl":"\/load-saag\/xhr\/","flyData":[]}'>
+    <div class="selected-league" data-item="saag-menu-display">
+        <span class="league-name" data-item="saag-menu-text">NFL</span>
+        <span class="saag-subtitle">Scores</span>
+        <span class="icon-moon-caret-down"></span>
+    </div>
+    <div class="league-list" data-item="saag-list">
+        <ul><li data-to="nfl-scores-carousel" data-arena="nfl"><a href="">NFL</a></li>
+                                            <li data-to="mlb-scores-carousel" data-arena="mlb"><a href="">MLB</a></li>
+                                            <li data-to="nhl-scores-carousel" data-arena="nhl"><a href="">NHL</a></li>
+                                            <li data-to="ncaaf-scores-carousel" data-arena="collegefootball"><a href="">NCAAF</a></li>
+                                            <li data-to="nba-scores-carousel" data-arena="nba"><a href="">NBA</a></li>
+                    </ul></div>
+</div>
+
+<div class="full-scoreboard">
+        			<a href="/nfl/scoreboard/">All NFL Scores</a> 
+	</div>
+
+            
+                            
+
+<div id="nfl-scores-carousel" class="saag-content saag-carousel first" data-component="carousel" data-carousel-options='{"transitionType":"saagHorizontal", "incrementAmount":4, "autoplayDelay":0, "hidePreviousOnFirstSlide":true}'>
+    <div data-item="viewport">
+        <ul class="league-scores" data-item="canvas" data-component="formatDatetime"><li id="game-2814961" class="cover-scores " data-item="slide" data-jump="1" data-game-abbr="NFL_20171009_MIN@CHI">
+<a href="/nfl/gametracker/recap/NFL_20171009_MIN@CHI/">
+                        <div class="scorecard nfl post-game ">
+                <div class="away-team winner">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/MIN.svg" alt=""></div>
+                        <div class="team">MIN</div>
+                    
+
+                    <div class="score">20</div>
+                </div>
+                <div class="home-team">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/CHI.svg" alt=""></div>
+                        <div class="team">CHI</div>
+                    
+
+                    <div class="score">17</div>
+                </div>
+                <div class="current-status">
+                                            <span class="status-left">
+                            FINAL</span>
+                                    </div>
+            </div>
+            </a>
+</li>
+                                                                            
+
+
+
+
+
+    
+
+
+<li id="game-2814879" class="cover-scores " data-item="slide" data-jump="2" data-game-abbr="NFL_20171008_BUF@CIN">
+<a href="/nfl/gametracker/recap/NFL_20171008_BUF@CIN/">
+                        <div class="scorecard nfl post-game ">
+                <div class="away-team">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/BUF.svg" alt=""></div>
+                        <div class="team">BUF</div>
+                    
+
+                    <div class="score">16</div>
+                </div>
+                <div class="home-team winner">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/CIN.svg" alt=""></div>
+                        <div class="team">CIN</div>
+                    
+
+                    <div class="score">20</div>
+                </div>
+                <div class="current-status">
+                                            <span class="status-left">
+                            FINAL</span>
+                                    </div>
+            </div>
+            </a>
+</li>
+                                                                            
+
+
+
+
+
+    
+
+
+<li id="game-2814955" class="cover-scores " data-item="slide" data-jump="3" data-game-abbr="NFL_20171008_ARI@PHI">
+<a href="/nfl/gametracker/recap/NFL_20171008_ARI@PHI/">
+                        <div class="scorecard nfl post-game ">
+                <div class="away-team">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/ARI.svg" alt=""></div>
+                        <div class="team">ARI</div>
+                    
+
+                    <div class="score">7</div>
+                </div>
+                <div class="home-team winner">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/PHI.svg" alt=""></div>
+                        <div class="team">PHI</div>
+                    
+
+                    <div class="score">34</div>
+                </div>
+                <div class="current-status">
+                                            <span class="status-left">
+                            FINAL</span>
+                                    </div>
+            </div>
+            </a>
+</li>
+                                                                            
+
+
+
+
+
+    
+
+
+<li id="game-2814956" class="cover-scores " data-item="slide" data-jump="4" data-game-abbr="NFL_20171008_JAC@PIT">
+<a href="/nfl/gametracker/recap/NFL_20171008_JAC@PIT/">
+                        <div class="scorecard nfl post-game ">
+                <div class="away-team winner">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/JAC.svg" alt=""></div>
+                        <div class="team">JAC</div>
+                    
+
+                    <div class="score">30</div>
+                </div>
+                <div class="home-team">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/PIT.svg" alt=""></div>
+                        <div class="team">PIT</div>
+                    
+
+                    <div class="score">9</div>
+                </div>
+                <div class="current-status">
+                                            <span class="status-left">
+                            FINAL</span>
+                                    </div>
+            </div>
+            </a>
+</li>
+                                                                            
+
+
+
+
+
+    
+
+
+<li id="game-2814953" class="cover-scores " data-item="slide" data-jump="5" data-game-abbr="NFL_20171008_TEN@MIA">
+<a href="/nfl/gametracker/recap/NFL_20171008_TEN@MIA/">
+                        <div class="scorecard nfl post-game ">
+                <div class="away-team">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/TEN.svg" alt=""></div>
+                        <div class="team">TEN</div>
+                    
+
+                    <div class="score">10</div>
+                </div>
+                <div class="home-team winner">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/MIA.svg" alt=""></div>
+                        <div class="team">MIA</div>
+                    
+
+                    <div class="score">16</div>
+                </div>
+                <div class="current-status">
+                                            <span class="status-left">
+                            FINAL</span>
+                                    </div>
+            </div>
+            </a>
+</li>
+                                                                            
+
+
+
+
+
+    
+
+
+<li id="game-2814954" class="cover-scores " data-item="slide" data-jump="6" data-game-abbr="NFL_20171008_LAC@NYG">
+<a href="/nfl/gametracker/recap/NFL_20171008_LAC@NYG/">
+                        <div class="scorecard nfl post-game ">
+                <div class="away-team winner">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/LAC.svg" alt=""></div>
+                        <div class="team">LAC</div>
+                    
+
+                    <div class="score">27</div>
+                </div>
+                <div class="home-team">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/NYG.svg" alt=""></div>
+                        <div class="team">NYG</div>
+                    
+
+                    <div class="score">22</div>
+                </div>
+                <div class="current-status">
+                                            <span class="status-left">
+                            FINAL</span>
+                                    </div>
+            </div>
+            </a>
+</li>
+                                                                            
+
+
+
+
+
+    
+
+
+<li id="game-2814952" class="cover-scores " data-item="slide" data-jump="7" data-game-abbr="NFL_20171008_SF@IND">
+<a href="/nfl/gametracker/recap/NFL_20171008_SF@IND/">
+                        <div class="scorecard nfl post-game ">
+                <div class="away-team">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/SF.svg" alt=""></div>
+                        <div class="team">SF</div>
+                    
+
+                    <div class="score">23</div>
+                </div>
+                <div class="home-team winner">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/IND.svg" alt=""></div>
+                        <div class="team">IND</div>
+                    
+
+                    <div class="score">26</div>
+                </div>
+                <div class="current-status">
+                                            <span class="status-left">
+                            FINAL/OT</span>
+                                    </div>
+            </div>
+            </a>
+</li>
+                                                                            
+
+
+
+
+
+    
+
+
+<li id="game-2814950" class="cover-scores " data-item="slide" data-jump="8" data-game-abbr="NFL_20171008_NYJ@CLE">
+<a href="/nfl/gametracker/recap/NFL_20171008_NYJ@CLE/">
+                        <div class="scorecard nfl post-game ">
+                <div class="away-team winner">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/NYJ.svg" alt=""></div>
+                        <div class="team">NYJ</div>
+                    
+
+                    <div class="score">17</div>
+                </div>
+                <div class="home-team">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/CLE.svg" alt=""></div>
+                        <div class="team">CLE</div>
+                    
+
+                    <div class="score">14</div>
+                </div>
+                <div class="current-status">
+                                            <span class="status-left">
+                            FINAL</span>
+                                    </div>
+            </div>
+            </a>
+</li>
+                                                                            
+
+
+
+
+
+    
+
+
+<li id="game-2814951" class="cover-scores " data-item="slide" data-jump="9" data-game-abbr="NFL_20171008_CAR@DET">
+<a href="/nfl/gametracker/recap/NFL_20171008_CAR@DET/">
+                        <div class="scorecard nfl post-game ">
+                <div class="away-team winner">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/CAR.svg" alt=""></div>
+                        <div class="team">CAR</div>
+                    
+
+                    <div class="score">27</div>
+                </div>
+                <div class="home-team">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/DET.svg" alt=""></div>
+                        <div class="team">DET</div>
+                    
+
+                    <div class="score">24</div>
+                </div>
+                <div class="current-status">
+                                            <span class="status-left">
+                            FINAL</span>
+                                    </div>
+            </div>
+            </a>
+</li>
+                                                                            
+
+
+
+
+
+    
+
+
+<li id="game-2814958" class="cover-scores " data-item="slide" data-jump="10" data-game-abbr="NFL_20171008_BAL@OAK">
+<a href="/nfl/gametracker/recap/NFL_20171008_BAL@OAK/">
+                        <div class="scorecard nfl post-game ">
+                <div class="away-team winner">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/BAL.svg" alt=""></div>
+                        <div class="team">BAL</div>
+                    
+
+                    <div class="score">30</div>
+                </div>
+                <div class="home-team">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/OAK.svg" alt=""></div>
+                        <div class="team">OAK</div>
+                    
+
+                    <div class="score">17</div>
+                </div>
+                <div class="current-status">
+                                            <span class="status-left">
+                            FINAL</span>
+                                    </div>
+            </div>
+            </a>
+</li>
+                                                                            
+
+
+
+
+
+    
+
+
+<li id="game-2814957" class="cover-scores " data-item="slide" data-jump="11" data-game-abbr="NFL_20171008_SEA@LAR">
+<a href="/nfl/gametracker/recap/NFL_20171008_SEA@LAR/">
+                        <div class="scorecard nfl post-game ">
+                <div class="away-team winner">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/SEA.svg" alt=""></div>
+                        <div class="team">SEA</div>
+                    
+
+                    <div class="score">16</div>
+                </div>
+                <div class="home-team">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/LAR.svg" alt=""></div>
+                        <div class="team">LAR</div>
+                    
+
+                    <div class="score">10</div>
+                </div>
+                <div class="current-status">
+                                            <span class="status-left">
+                            FINAL</span>
+                                    </div>
+            </div>
+            </a>
+</li>
+                                                                            
+
+
+
+
+
+    
+
+
+<li id="game-2814959" class="cover-scores " data-item="slide" data-jump="12" data-game-abbr="NFL_20171008_GB@DAL">
+<a href="/nfl/gametracker/recap/NFL_20171008_GB@DAL/">
+                        <div class="scorecard nfl post-game ">
+                <div class="away-team winner">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/GB.svg" alt=""></div>
+                        <div class="team">GB</div>
+                    
+
+                    <div class="score">35</div>
+                </div>
+                <div class="home-team">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/DAL.svg" alt=""></div>
+                        <div class="team">DAL</div>
+                    
+
+                    <div class="score">31</div>
+                </div>
+                <div class="current-status">
+                                            <span class="status-left">
+                            FINAL</span>
+                                    </div>
+            </div>
+            </a>
+</li>
+                                                                            
+
+
+
+
+
+    
+
+
+<li id="game-2814960" class="cover-scores " data-item="slide" data-jump="13" data-game-abbr="NFL_20171008_KC@HOU">
+<a href="/nfl/gametracker/recap/NFL_20171008_KC@HOU/">
+                        <div class="scorecard nfl post-game ">
+                <div class="away-team winner">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/KC.svg" alt=""></div>
+                        <div class="team">KC</div>
+                    
+
+                    <div class="score">42</div>
+                </div>
+                <div class="home-team">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/HOU.svg" alt=""></div>
+                        <div class="team">HOU</div>
+                    
+
+                    <div class="score">34</div>
+                </div>
+                <div class="current-status">
+                                            <span class="status-left">
+                            FINAL</span>
+                                    </div>
+            </div>
+            </a>
+</li>
+                                                                            
+
+
+
+
+
+    
+
+
+<li id="game-2814878" class="cover-scores " data-item="slide" data-jump="14" data-game-abbr="NFL_20171005_NE@TB">
+<a href="/nfl/gametracker/recap/NFL_20171005_NE@TB/">
+                        <div class="scorecard nfl post-game ">
+                <div class="away-team winner">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/NE.svg" alt=""></div>
+                        <div class="team">NE</div>
+                    
+
+                    <div class="score">19</div>
+                </div>
+                <div class="home-team">
+                                            <div class="logo"><img src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediacss/images/team-logos/nfl/TB.svg" alt=""></div>
+                        <div class="team">TB</div>
+                    
+
+                    <div class="score">14</div>
+                </div>
+                <div class="current-status">
+                                            <span class="status-left">
+                            FINAL</span>
+                                    </div>
+            </div>
+            </a>
+</li>
+                                                        </ul></div>
+            <div data-to="prev" class="prev-btn" style="visibility: hidden;">
+            <div class="prev"></div>
+        </div>
+        <div data-to="next" class="next-btn" style="visibility: hidden;">
+            <div class="next"></div>
+        </div>
+    </div>
+                            
+
+<div id="mlb-scores-carousel" class="saag-content saag-carousel off" data-component="carousel" data-carousel-options='{"transitionType":"saagHorizontal", "incrementAmount":4, "autoplayDelay":0, "hidePreviousOnFirstSlide":true}'>
+    <div data-item="viewport">
+        <ul class="league-scores" data-item="canvas" data-component="formatDatetime"></ul></div>
+            <div data-to="prev" class="prev-btn" style="visibility: hidden;">
+            <div class="prev"></div>
+        </div>
+        <div data-to="next" class="next-btn" style="visibility: hidden;">
+            <div class="next"></div>
+        </div>
+    </div>
+                            
+
+<div id="nhl-scores-carousel" class="saag-content saag-carousel off" data-component="carousel" data-carousel-options='{"transitionType":"saagHorizontal", "incrementAmount":4, "autoplayDelay":0, "hidePreviousOnFirstSlide":true}'>
+    <div data-item="viewport">
+        <ul class="league-scores" data-item="canvas" data-component="formatDatetime"></ul></div>
+            <div data-to="prev" class="prev-btn" style="visibility: hidden;">
+            <div class="prev"></div>
+        </div>
+        <div data-to="next" class="next-btn" style="visibility: hidden;">
+            <div class="next"></div>
+        </div>
+    </div>
+                            
+
+<div id="ncaaf-scores-carousel" class="saag-content saag-carousel off" data-component="carousel" data-carousel-options='{"transitionType":"saagHorizontal", "incrementAmount":4, "autoplayDelay":0, "hidePreviousOnFirstSlide":true}'>
+    <div data-item="viewport">
+        <ul class="league-scores" data-item="canvas" data-component="formatDatetime"></ul></div>
+            <div data-to="prev" class="prev-btn" style="visibility: hidden;">
+            <div class="prev"></div>
+        </div>
+        <div data-to="next" class="next-btn" style="visibility: hidden;">
+            <div class="next"></div>
+        </div>
+    </div>
+                            
+
+<div id="nba-scores-carousel" class="saag-content saag-carousel off" data-component="carousel" data-carousel-options='{"transitionType":"saagHorizontal", "incrementAmount":4, "autoplayDelay":0, "hidePreviousOnFirstSlide":true}'>
+    <div data-item="viewport">
+        <ul class="league-scores" data-item="canvas" data-component="formatDatetime"></ul></div>
+            <div data-to="prev" class="prev-btn" style="visibility: hidden;">
+            <div class="prev"></div>
+        </div>
+        <div data-to="next" class="next-btn" style="visibility: hidden;">
+            <div class="next"></div>
+        </div>
+    </div>
+                    </div>
+    </div>
+</div>
+                
+                    <div class="page-marquee-container">
+                            </div>
+
+            <div id="mantle_skin" class="mantle-skin" data-component="adsSticky">
+                                    <span id="adSkinLeft" class="ad-skin-left"></span>
+                    <span id="adSkinRight" class="ad-skin-right"></span>
+                    <div id="skin-2fd0824382795" class="ad-skin " data-ad="skin">
+    <script>
+        window.console && console.log && console.log("ADS: queuing skin-2fd0824382795 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("skin-2fd0824382795");
+    </script></div>
+
+                
+                
+                                    <div id="leader-top-wrap" class="leaderboard-wrap" data-component="adsLeaderboardCollapse">
+                        <div id="leader-top-2fd0824382795" class="ad-leader-top " data-ad="leader-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-top-2fd0824382795 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-top-2fd0824382795");
+    </script></div>
+
+                    </div>
+                
+                                
+                <main id="page-content" class="highlander-page-container "><!--[if lt IE 10 ]> 
+                        <div class="upgrade-modal hide-upgrade" data-component='ieUpgradeMessage' > 
+                            <a class="icon-moon-close-x" id="close-upgrade-modal"></a>
+                            <div class="message">
+                                <strong>You are using an unsupported version of Internet Explorer.</strong><br/><br/>
+                                Your version of Internet Explorer is no longer supported by CBS Sports.<br/>
+                                Some features may not work correctly.<br/>
+                                Please upgrade to a modern browser:<br/><br/>
+                                <a href="http://windows.microsoft.com/en-US/internet-explorer/download-ie">1. Internet Explorer 11</a><br/>
+                                <a href="https://www.google.com/intl/en/chrome/browser/desktop/index.html">2. Google Chrome</a><br/>
+                                <a href="https://www.mozilla.org/en-US/firefox/new/">3. Firefox</a>
+                            </div>
+                        </div>
+                    <![endif]--><div class="top-marquee-wrap">
+            <div class="top-marquee-main">
+                
+    
+    
+
+                        
+    
+                
+        <div class="article-list-marquee-wrap covers-5">
+                                
+                                        
+                                        
+                                        
+                        
+                                        
+                        
+                                    
+                                                                                        
+                                            
+                                        
+                                                            <div class="article-list-marquee-col article-list-marquee-left">
+                        <div class="article-list-marquee-item dek-slide-in">
+                                    
+                                                                                                                        
+                
+            <a href="/nfl/news/ben-roethlisbergers-skills-may-be-declining-but-the-steelers-arent-helping-him/" class="" aria-label="Does Big Ben really not have it anymore?" om-event="New Desktop Design|NFL|Cover Treatment - 3|Cover 1|Image">
+            <div class="image-icon-overlay-wrap has-title  is-large  ">
+                                            <div class="background-image article-list-dynamic-image" style="background-image: url('        https://sportshub.cbsistatic.com/i/r/2017/10/10/4567ea3a-73d6-4aac-9ca1-09581b6a6cc0/thumbnail/650x550/0857bd4fdf149f8792708414fc5f6bd9/ben-roethlisberger.jpg')">
+                </div>
+            
+            
+            
+                            <div class="image-icon-text-overlay">
+                                            
+                                                    <h1 class="image-icon-title">
+                                Does Big Ben really not have it anymore?
+                                                            </h1>
+                        
+                                                                            <div class="image-icon-dek">
+                                After one of the worst games of his career, is Ben Roethlisberger on the decline? One thing is for certain: The Steelers aren't helping him.
+                            </div>
+                                                                                                                                </div>
+                    </div>
+            </a>
+    
+             
+                        </div>
+                    </div>
+                                                            
+                                        
+                                        
+                                        
+                        
+                                        
+                        
+                                    
+                                                                                        
+                                                                                
+            
+                                                                                    <div class="article-list-marquee-col article-list-marquee-right">
+                                                                        <div class="article-list-marquee-right-row smaller-title">
+                                                                                    <div class="article-list-marquee-col">
+                                                                <div class="article-list-marquee-item dek-slide-in">
+                                                
+                                                                                                                        
+                
+            <a href="/nfl/news/pete-priscos-nfl-week-6-picks-panthers-over-eagles-chiefs-remain-perfect/" class="" aria-label="Prisco: Chiefs edge Steelers" om-event="New Desktop Design|NFL|Cover Treatment - 3|Cover 2|Image">
+            <div class="image-icon-overlay-wrap has-title    ">
+                                            <div class="background-image article-list-dynamic-image" style="background-image: url('        https://sportshub.cbsistatic.com/i/r/2017/09/27/fde02f3f-c29d-48c7-95be-5a5ab2dddfba/thumbnail/380x300/8dbbd674a3b281c63c13fd4bed4e7ac7/alex-smith.jpg')">
+                </div>
+            
+            
+            
+                            <div class="image-icon-text-overlay">
+                                                                                                                                                                <div class="image-icon-bug ">
+                                Week 6 picks
+                            </div>
+                        
+                                                    <h2 class="image-icon-title">
+                                Prisco: Chiefs edge Steelers
+                                                            </h2>
+                        
+                                                                                                                                                        </div>
+                    </div>
+            </a>
+    
+             
+                                    </div>
+                                                            </div>
+                                                                                                                                    
+                                        
+                                        
+                                        
+                        
+                                        
+                        
+                                    
+                                                                                        
+                                                                                
+            
+                                                                                                                                                <div class="article-list-marquee-col">
+                                                                <div class="article-list-marquee-item dek-slide-in">
+                                                
+                                                                                                                        
+                
+            <a href="/nfl/news/nfl-week-6-picks-panthers-pound-eagles-chargers-shock-raiders-in-oakland/" class="" aria-label="Breech: Panthers pound Eagles" om-event="New Desktop Design|NFL|Cover Treatment - 3|Cover 3|Image">
+            <div class="image-icon-overlay-wrap has-title    ">
+                                            <div class="background-image article-list-dynamic-image" style="background-image: url('        https://sportshub.cbsistatic.com/i/r/2017/10/10/f3f14d7d-5f51-41f8-a638-0860cfe8dc96/thumbnail/380x300/dfbc285ffef6ae444c1fb52518b0be05/cam-newton.jpg')">
+                </div>
+            
+            
+            
+                            <div class="image-icon-text-overlay">
+                                                                                                                                                                <div class="image-icon-bug ">
+                                Week 6 picks
+                            </div>
+                        
+                                                    <h2 class="image-icon-title">
+                                Breech: Panthers pound Eagles
+                                                            </h2>
+                        
+                                                                                                                                                        </div>
+                    </div>
+            </a>
+    
+             
+                                    </div>
+                                                            </div>
+                                                                                </div>
+                                                                                                        
+                                        
+                                        
+                                        
+                        
+                                        
+                        
+                                    
+                                                                                        
+                                                                                
+            
+                                                                                                                <div class="article-list-marquee-right-row smaller-title">
+                                                                                    <div class="article-list-marquee-col">
+                                                                <div class="article-list-marquee-item dek-slide-in">
+                                                
+                                                                                                                        
+                
+            <a href="/nfl/news/nfl-power-rankings-jaguars-jets-rolling-giants-raiders-reeling-in-odd-2017/" class="" aria-label="Up is down in 2017" om-event="New Desktop Design|NFL|Cover Treatment - 3|Cover 4|Image">
+            <div class="image-icon-overlay-wrap has-title    ">
+                                            <div class="background-image article-list-dynamic-image" style="background-image: url('        https://sportshub.cbsistatic.com/i/r/2017/10/10/d25e4bf4-50e5-40ed-bed8-e589a76bdb80/thumbnail/380x300/1d45240e750f1e516bcc32ee63861de3/oct-10-pr.jpg')">
+                </div>
+            
+            
+            
+                            <div class="image-icon-text-overlay">
+                                                                                                                                                                <div class="image-icon-bug ">
+                                NFL Power Rankings
+                            </div>
+                        
+                                                    <h2 class="image-icon-title">
+                                Up is down in 2017
+                                                            </h2>
+                        
+                                                                                                                                                        </div>
+                    </div>
+            </a>
+    
+             
+                                    </div>
+                                                            </div>
+                                                                                                                                    
+                                        
+                                        
+                                        
+                        
+                                        
+                        
+                                    
+                                                                                        
+                                                                                
+            
+                                                                                                                                                <div class="article-list-marquee-col">
+                                                                <div class="article-list-marquee-item dek-slide-in">
+                                                
+                                                                                                                        
+                
+            <a href="/nfl/news/the-eagles-are-out-to-another-hot-start-but-beating-panthers-will-make-it-feel-real/" class="" aria-label="Eagles trying to prove hot start is real" om-event="New Desktop Design|NFL|Cover Treatment - 3|Cover 5|Image">
+            <div class="image-icon-overlay-wrap has-title    ">
+                                            <div class="background-image article-list-dynamic-image" style="background-image: url('        https://sportshub.cbsistatic.com/i/r/2017/10/08/d0bb4f87-d0a3-44df-8098-4f6c5ec480f7/thumbnail/380x300/5c6a646b278245223a0d1beb89f9f6b5/carson-wentz.jpg')">
+                </div>
+            
+            
+            
+                            <div class="image-icon-text-overlay">
+                                            
+                                                    <h2 class="image-icon-title">
+                                Eagles trying to prove hot start is real
+                                                            </h2>
+                        
+                                                                                                                                                        </div>
+                    </div>
+            </a>
+    
+             
+                                    </div>
+                                                            </div>
+                                                                                </div>
+                                                                    </div>
+                                                            </div>
+            </div>
+            <div class="top-marquee-side">
+                
+    
+    <ul class="article-list-stack theme-dark"><li class="article-list-stack-item">
+                <a href="/nfl/news/saints-trade-adrian-peterson-to-cardinals-for-conditional-draft-pick/" om-event="New Desktop Design|NFL|Headline Stack|Headline 1">
+                    <h3 class="article-list-stack-item-title">
+                        Report: Peterson done with Saints, traded to Cardinals
+                    </h3>
+                                        <div class="article-list-stack-sport">
+                                                                                                                                                                            Jared Dubin
+
+                                            </div>
+                </a>
+            </li>
+                                                                                    
+            <li class="article-list-stack-item">
+                <a href="/nfl/news/nfl-owners-to-discuss-rule-change-requiring-players-to-stand-during-anthem/" om-event="New Desktop Design|NFL|Headline Stack|Headline 2">
+                    <h3 class="article-list-stack-item-title">
+                        NFL owners to talk new rule for players during anthem
+                    </h3>
+                                        <div class="article-list-stack-sport">
+                                                                                                                                                                            Jared Dubin
+
+                                            </div>
+                </a>
+            </li>
+                                                                                    
+            <li class="article-list-stack-item">
+                <a href="/nfl/news/steve-smith-bears-play-calling-set-up-glennon-to-fail-trubisky-to-succeed/" om-event="New Desktop Design|NFL|Headline Stack|Headline 3">
+                    <h3 class="article-list-stack-item-title">
+                        Steve Smith: Bears set up Glennon to fail
+                    </h3>
+                                        <div class="article-list-stack-sport">
+                                                                                                                                                                            Sean Wagner-McGough
+
+                                            </div>
+                </a>
+            </li>
+                                                                                    
+            <li class="article-list-stack-item">
+                <a href="/nfl/news/watch-josh-gordon-eyeing-return-to-nfl-comes-clean-about-drug-use-rehab/" om-event="New Desktop Design|NFL|Headline Stack|Headline 4">
+                    <h3 class="article-list-stack-item-title">
+                        Browns' Gordon eyes NFL return, details drug use
+                    </h3>
+                                        <div class="article-list-stack-sport">
+                                                                                                                                                                            Jared Dubin
+
+                                            </div>
+                </a>
+            </li>
+                                                                                    
+            <li class="article-list-stack-item">
+                <a href="/nfl/news/mike-ditka-on-nfl-protests-no-oppression-in-the-last-100-years-that-i-know-of/" om-event="New Desktop Design|NFL|Headline Stack|Headline 5">
+                    <h3 class="article-list-stack-item-title">
+                        Ditka on protests: 'No oppression in last 100 years'
+                    </h3>
+                                        <div class="article-list-stack-sport">
+                                                                                                                                                                            Pete Blackburn
+
+                                            </div>
+                </a>
+            </li>
+                                                                                    
+            <li class="article-list-stack-item">
+                <a href="/nfl/news/president-trump-rips-nfl-for-getting-tax-breaks-while-disrespecting-anthem-flag/" om-event="New Desktop Design|NFL|Headline Stack|Headline 6">
+                    <h3 class="article-list-stack-item-title">
+                        Trump targets NFL's tax breaks over protests
+                    </h3>
+                                        <div class="article-list-stack-sport">
+                                                                                                                                                                            Jared Dubin
+
+                                            </div>
+                </a>
+            </li>
+            </ul></div>
+        </div>
+    
+        <div class="container">
+        <div class="row">
+                                    <div class="row">
+                <div class="col-12">
+                                                            <div class="row">
+                                                        <div class="col-9">
+                                
+            
+                    
+                                
+    
+                                            </div>
+                                <div class="col-3">
+                                
+            
+                    
+                
+    
+                                            </div>
+                                                </div>
+                                    </div>
+                    </div>
+                                    <div class="row">
+                <div class="col-12">
+                                
+            
+                    
+    
+    
+                
+                                
+                        
+    
+
+
+
+                
+    <div class="article-list-content-blocks-wrap ">
+                <ul class="col-4"><li class="article-list-content-block first-block">
+                            
+                                                                                                                        
+                
+            <a href="/nfl/news/adam-gase-tells-dolphins-players-to-stand-for-the-anthem-or-stay-in-tunnel/" class="" aria-label="Dolphins give players anthem ultimatum" om-event="New Desktop Design|NFL|Content Block 1|Image">
+            <div class="image-icon-overlay-wrap has-title    ">
+                                                        <figure class=" img"><img class=" is-lazy-image" alt="adam-gase.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/04/21/806fa29e-10fe-4b7b-b0c3-7ac4dc4beb10/thumbnail/370x585/3d79c9d0672e1fd0c7a5feda6a5f7edd/adam-gase.jpg" src="" height="585" width="370"></figure><div class="image-icon-text-overlay">
+                                            
+                                                    <h3 class="image-icon-title">
+                                Dolphins give players anthem ultimatum
+                                                            </h3>
+                        
+                                                                            <div class="image-icon-dek">
+                                Adam Gase, after multiple conversations with players, says it's stand -- or stay in the tunnel.
+                            </div>
+                                                                                                                                </div>
+                    </div>
+            </a>
+    
+             
+                </li>
+
+                                            
+                                                    
+                                                    
+                                                                                                
+                                
+                                                    
+                <li class="article-list-content-block ">
+                            
+                                                                                                                        
+                
+            <a href="/nfl/news/brandon-marshalls-season-is-over-making-the-giants-wr-depth-chart-unrecognizable/" class="" aria-label="Brandon Marshall hints at retirement" om-event="New Desktop Design|NFL|Content Block 2|Image">
+            <div class="image-icon-overlay-wrap has-title    ">
+                                                        <figure class=" img"><img class=" is-lazy-image" alt="brandon-marshall.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/10/10/03e7ce6c-2f47-4eb7-a99a-cacf64c928ac/thumbnail/370x208/97bcbdebb7d5766ada2777df708a8a34/brandon-marshall.jpg" src="" height="208" width="370"></figure><div class="image-icon-text-overlay">
+                                            
+                                                    <h3 class="image-icon-title">
+                                Brandon Marshall hints at retirement
+                                                            </h3>
+                        
+                                                                                                                                                        </div>
+                    </div>
+            </a>
+    
+             
+                </li>
+
+                                    </ul><ul id="content-block-middle-column" class="col-4 content-block-column"><li class="article-list-content-middle">
+                        
+                                                                                                                        
+                
+            <a href="/nfl/news/florida-man-sets-himself-on-fire-after-losing-cowboys-packers-bet-to-his-wife/" class="" om-event="New Desktop Design|NFL|Content Block 4|Image">
+            <div class="image-icon-overlay-wrap     ">
+                                                        <figure class=" img"><img class=" is-lazy-image" alt="aaron-rodgers.png" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/10/06/0739fa8e-be1f-47c6-91db-b36bc8923ffb/thumbnail/370x208/5422672e5a738c4cab3f79abf522e4ed/aaron-rodgers.png" src="" height="208" width="370"></figure></div>
+            </a>
+    
+             
+                
+                                    <h3 class="article-list-content-block-subtitle">
+                                                        
+            <a href="/nfl/news/florida-man-sets-himself-on-fire-after-losing-cowboys-packers-bet-to-his-wife/" om-event="New Desktop Design|NFL|Content Block 4|Headline">
+            Cowboys fan sets himself on fire after losing bet
+        </a>
+    
+                    </h3>
+                                
+                                    <div class="article-list-content-block-subdek">
+                        Aaron Rodgers and the Packers burned the Cowboys and then this idiot burned himself.
+                    </div>
+                            </li>
+            
+                        
+    
+
+                
+    
+        
+    
+    <ul class="article-list-wrapper "><li class="article-list-item-wrap">
+    <div class="article-list-item">
+                            <div class="article-list-item-image">
+                        
+                                                                                                                        
+                
+            <a href="/nfl/news/jerry-jones-trump-told-me-anthem-rules-players-need-consequences-for-protesting/" class="" aria-label="Jerry: Trump told me about NFL's anthem rules" om-event="New Desktop Design|NFL|Content Block 5|Image">
+            <div class="image-icon-overlay-wrap     ">
+                                                        <figure class=" img"><img class=" is-lazy-image" alt="jerry-jones.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/09/01/611eb2a3-293e-4fd8-bca6-d47ee4a1c0ca/thumbnail/100x100/7d713fd7a47e8103441e0329a4b21abd/jerry-jones.jpg" src="" height="100" width="100"></figure></div>
+            </a>
+    
+             
+            </div>
+        
+        <div class="article-list-item-content">
+            <h3 class="article-list-item-title">
+                                                
+            <a href="/nfl/news/jerry-jones-trump-told-me-anthem-rules-players-need-consequences-for-protesting/" om-event="New Desktop Design|NFL|Content Block 5|Headline">
+            Jerry: Trump told me about NFL's anthem rules
+        </a>
+    
+            </h3>
+
+            <div class="article-list-item-details ">
+                                                                                                                                                                                        Will Brinson
+
+                                                </div>
+        </div>
+
+            </div>
+</li>
+                    
+
+
+    
+    
+
+
+
+<li class="article-list-item-wrap">
+    <div class="article-list-item">
+                            <div class="article-list-item-image">
+                        
+                                                                                                                        
+                
+            <a href="/nfl/news/nfl-week-6-early-odds-patriots-favored-big-over-jets-in-battle-for-top-of-afc-east/" class="" aria-label="Early Week 6 odds: Patriots favored big" om-event="New Desktop Design|NFL|Content Block 5|Image">
+            <div class="image-icon-overlay-wrap     ">
+                                                        <figure class=" img"><img class=" is-lazy-image" alt="tom-brady.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/10/05/5b9a5c0e-e246-4436-99ad-827d3d6b6fef/thumbnail/100x100/1ee145a3c71f0d55800a6640974bf4b9/tom-brady.jpg" src="" height="100" width="100"></figure></div>
+            </a>
+    
+             
+            </div>
+        
+        <div class="article-list-item-content">
+            <h3 class="article-list-item-title">
+                                                
+            <a href="/nfl/news/nfl-week-6-early-odds-patriots-favored-big-over-jets-in-battle-for-top-of-afc-east/" om-event="New Desktop Design|NFL|Content Block 5|Headline">
+            Early Week 6 odds: Patriots favored big
+        </a>
+    
+            </h3>
+
+            <div class="article-list-item-details ">
+                                                                                                                                                                                        John Breech
+
+                                                </div>
+        </div>
+
+            </div>
+</li>
+                    
+
+
+    
+    
+
+
+
+<li class="article-list-item-wrap">
+    <div class="article-list-item">
+                            <div class="article-list-item-image">
+                        
+                                                                                                                        
+                
+            <a href="/nfl/news/cam-newton-reportedly-stunned-by-fallout-from-sexist-remark-says-it-was-sarcasm/" class="" aria-label="Cam says sexist remark was sarcasm" om-event="New Desktop Design|NFL|Content Block 5|Image">
+            <div class="image-icon-overlay-wrap     ">
+                                                        <figure class=" img"><img class=" is-lazy-image" alt="cam-newton-female-reporter-10-04-17.png" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/10/04/257cb1db-3176-452f-8291-cce9c7d5d88a/thumbnail/100x100/33b6e07f32db474ebd35025fd44a171e/cam-newton-female-reporter-10-04-17.png" src="" height="100" width="100"></figure></div>
+            </a>
+    
+             
+            </div>
+        
+        <div class="article-list-item-content">
+            <h3 class="article-list-item-title">
+                                                
+            <a href="/nfl/news/cam-newton-reportedly-stunned-by-fallout-from-sexist-remark-says-it-was-sarcasm/" om-event="New Desktop Design|NFL|Content Block 5|Headline">
+            Cam says sexist remark was sarcasm
+        </a>
+    
+            </h3>
+
+            <div class="article-list-item-details ">
+                                                                                                                                                                                        John Breech
+
+                                                </div>
+        </div>
+
+            </div>
+</li>
+                    
+
+
+    
+    
+
+
+
+<li class="article-list-item-wrap">
+    <div class="article-list-item">
+                            <div class="article-list-item-image">
+                        
+                                                                                                                        
+                
+            <a href="/nfl/news/new-trailer-for-star-wars-the-last-jedi-to-debut-during-monday-night-football/" class="" aria-label="'Star Wars: The Last Jedi' trailer debuts on MNF" om-event="New Desktop Design|NFL|Content Block 5|Image">
+            <div class="image-icon-overlay-wrap     ">
+                                                        <figure class=" img"><img class=" is-lazy-image" alt="last-jedi.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/10/08/fdf5e7da-e84d-45b9-8f34-75297275ef34/thumbnail/100x100/5984724d8373c0a08efd38aa364c23fb/last-jedi.jpg" src="" height="100" width="100"></figure></div>
+            </a>
+    
+             
+            </div>
+        
+        <div class="article-list-item-content">
+            <h3 class="article-list-item-title">
+                                                
+            <a href="/nfl/news/new-trailer-for-star-wars-the-last-jedi-to-debut-during-monday-night-football/" om-event="New Desktop Design|NFL|Content Block 5|Headline">
+            'Star Wars: The Last Jedi' trailer debuts on MNF
+        </a>
+    
+            </h3>
+
+            <div class="article-list-item-details ">
+                                                                                                                                                                                        Jared Dubin
+
+                                                </div>
+        </div>
+
+            </div>
+</li>
+            </ul></ul><ul class="col-4"><li class="article-list-content-block ad-item">
+                <div id="mpu-home-arena-flex-2fd0824382795" class="ad-mpu-home-arena-flex " data-ad="mpu-home-arena-flex">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-home-arena-flex-2fd0824382795 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-home-arena-flex-2fd0824382795");
+    </script></div>
+
+            </li>
+
+                            
+                                                    
+                                                    
+                                                                                                
+                                                                        
+                <li class="article-list-content-block last-block">
+                            
+                                                                                                                        
+                
+            <a href="/nfl/news/vikings-vs-bears-final-score-things-to-know-minnesota-spoils-trubiskys-debut/" class="" aria-label="Vikings ruin Trubisky's debut with Bears" om-event="New Desktop Design|NFL|Content Block 3|Image">
+            <div class="image-icon-overlay-wrap has-title    ">
+                                                        <figure class=" img"><img class=" is-lazy-image" alt="NFL: Minnesota Vikings at Chicago Bears" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/10/10/63a7a12f-ab9b-423c-af3c-dc47c68d13c6/thumbnail/370x510/50a5a998f33c13ece1558c242b0dcaee/usatsi-10338608.jpg" src="" height="510" width="370"></figure><div class="image-icon-text-overlay">
+                                                                                                                                                                <div class="image-icon-bug ">
+                                MNF Takeaways
+                            </div>
+                        
+                                                    <h3 class="image-icon-title">
+                                Vikings ruin Trubisky's debut with Bears
+                                                            </h3>
+                        
+                                                                            <div class="image-icon-dek">
+                                The Vikings survived a scare from the Bears, using a key interception of Mitch Trubisky to seal the win.
+                            </div>
+                                                                                                                                </div>
+                    </div>
+            </a>
+    
+             
+                </li>
+                                    </ul></div>
+                                                    </div>
+                    </div>
+                                    <div class="row">
+                <div class="col-12">
+                                
+            
+                        
+            
+                
+                
+                    
+                                                                        
+                                        
+        
+
+                                                                                                                                                                        
+                            
+                                                                                        
+<section class="arena-pack-list-wrapper load-more-content-wrapper"><div id="" data-component="loadMore" data-load-more-options='{"loader":{"classes":{"base":"button-type-lines"},"text":{"idle":"See More"},"tracking":"New Desktop Design|NFL|See More","omEventTarget":"arena-pack-list-wrapper load-more-content-wrapper"},"url":"\/component\/load-more\/xhr\/","data":{"endpoint":"\/api\/component\/listing\/c624be13-d26b-4c6e-bee8-858c1fc4abf1\/content\/54f09404-6b2c-4f87-ad40-20cd5209d927","params":[],"view":"door_9_pack","familyName":"listing","typeName":"filtered_listing","offset":26,"initialLimit":9,"colspan":"","lastAssetId":"","twoWeekLimit":false,"limit":9,"template":"SportsMediaComponentBundle:Core:article_list_pack.html.twig","pushStateOffset":0,"itemsPerRow":3,"trackingXhrArray":{"1":"topic_landing","2":"content_block","3":"item"},"trackingXhrReplaceArray":{"1":"NFL"},"dedup":["ae8c44a0-2ff1-4d9d-b8fb-c011267c544a","58c42976-110e-4ed0-bec6-bacaa078d750","b84adc29-6050-45ee-8be2-b63688e6ce9d","99a003a3-29ad-4fb4-8af5-971c7c0f9382","563b71bb-206d-4fc4-b9dd-bfe87d316eee","103045f3-38ad-48e7-bfd8-cb449e5ee3f7","0d9abc4c-7703-4d35-b472-6faea6239e22","aa8dfd2d-0250-42c8-bed1-6564a0749094","63f94a6d-c0bd-4b8b-a6dd-b42993b28c8a","8d111313-6b66-4e00-9157-5659affb1425","7625fa74-dafe-41ed-a3cd-8fe3a53472e3","04f75d96-94b8-4f52-9c64-d0929725857c","aad1d71d-a92e-4d5f-85ba-ee6e165635ad","8853d180-57ed-4b13-add7-3f1a1ef2610f","26bc16a5-95f7-42f0-8ac8-6ef7f2727ae0","4f8b6fee-5e28-406d-a258-8ad1051bce2d","e3572f7b-cb0b-4672-bd39-0e1c9fef5e99","ea115e47-d810-4216-90b2-f9d5872f89a1","d787b63d-7224-4973-af5e-7a68b6c94837"]},"numPinned":1,"pushState":{"baseRoute":"\/nfl\/","route":"\/nfl\/{page}\/","enabled":true,"currentPage":1}}'>
+                        
+    
+                    </div>
+    
+        </section></div>
+                    </div>
+                                    <div class="row">
+                <div class="col-12">
+                                
+            
+                    
+                
+                                
+                
+                
+                
+                
+                
+                
+        
+    <div id="highlander-newsletter" class="highlander-newsletter  button-blue " data-component="newsletterSignUp" data-newsletter-sign-up-options='{"containerId":"#highlander-newsletter","inputEmailName":"emailAddress"}'>
+        <div class="block-top-bar"></div>
+    
+                <div class="form-not-sent">
+                            <h3 class="highlander-newsletter-title">
+                    Breaking Sports News Straight to Your Inbox
+                </h3>
+                
+                            <p class="highlander-newsletter-info">
+                    CBS Sports Daily Newsletter
+                </p>
+                
+            <form name="newsletterForm" action="#" method="post">
+                <input type="hidden" name="action" value="optIn"><input type="hidden" name="custId" value=""><input type="hidden" name="masterProductId" value="23708"><input type="hidden" name="mCode" value="m23661"><input type="hidden" name="source" value="CBS Sports Daily Newsletter"><input type="hidden" name="userLogin" value=""><input type="text" name="emailAddress" class="highlander-newsletter-input-text" placeholder="Email Address" required="" value=""><input type="submit" id="sports-newsletter-signup" class="highlander-newsletter-button" value="Sign Up" om-event="New Desktop Design|NFL|Newsletter - Subscribe Now" disabled></form>
+    
+                    </div>
+    
+                <div class="form-sent">
+            <div class="highlander-newsletter-icon">
+                <span class="icon-moon-check"></span>
+            </div>
+    
+            <h5 class="highlander-newsletter-title">
+                Thanks for signing up!
+            </h5>
+    
+            <p class="highlander-newsletter-info">
+                Keep an eye on your inbox for the latest sports news.
+            </p>
+        </div>
+    
+                <div class="form-fail">
+            <h5 class="highlander-newsletter-title">
+                Sorry!
+            </h5>
+    
+            <p class="highlander-newsletter-info">
+                There was an error processing your subscription.
+            </p>
+        </div>
+    </div>
+    
+                                                </div>
+                    </div>
+                                    <div class="row">
+                <div class="col-12">
+                                                            <div class="row">
+                                                        <div class="col-8">
+                                
+            
+                    
+            
+    
+
+
+            
+    <div class="article-list-block door-shopping">
+        <header class="article-list-block-top"><h5 class="title-double-underline article-list-shop-title is-small">
+        <span class="title-text">
+            CBS Sports Shop
+        </span>
+        
+                
+                    <span class="title-text-side">
+                <a href="http://shop.cbssports.com/CBS_NFL?utm_source=cbssportscom_sbc&amp;utm_medium=bm_referral&amp;utm_term=kw--CBS_MoreNFL%7Ccpn--no_coupon%7Coffer--no_offer" target="_blank">Shop NFL Fan Gear</a>
+            </span>
+            </h5>
+
+        </header><ul class="door-shopping-list"><li class="door-shopping-item">
+                        <div class="door-shopping-inner">
+                            <div class="door-shopping-item-image">
+                                        
+                                                                                                                        
+                
+            <a href="http://shop.cbssports.com/NFL_Training_Camp_Gear/source/bm-referral_CBS_NFLIMAGE_TrainingCamp" class="" target="_blank">
+            <div class="image-icon-overlay-wrap     ">
+                                                        <figure class=" img"><img class=" is-lazy-image" alt="thumb.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/08/01/0193e025-fce3-46d8-8a74-cc9289f7f923/thumbnail/170x170/e8d4281b16887c2d4c957c4a9a5f9da8/thumb.jpg" src="" height="170" width="170"></figure></div>
+            </a>
+    
+             
+                            </div>
+                            <div class="door-shopping-item-title">
+                                                                
+                                    <a href="http://shop.cbssports.com/NFL_Training_Camp_Gear/source/bm-referral_CBS_NFLIMAGE_TrainingCamp" target="_blank" class="external-link">
+            NFL Training Camp Gear 
+        </a>
+    
+                            </div>
+                        </div>
+                    </li>
+                                                            
+                                    <li class="door-shopping-item">
+                        <div class="door-shopping-inner">
+                            <div class="door-shopping-item-image">
+                                        
+                                                                                                                        
+                
+            <a href="http://shop.cbssports.com/NFL_New_Era/source/bm-referral_CBS_NFLIMAGE_NewEra" class="" target="_blank">
+            <div class="image-icon-overlay-wrap     ">
+                                                        <figure class=" img"><img class=" is-lazy-image" alt="thumb.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/08/01/13bf5abf-9e24-4129-aa8c-85860c3d9d93/thumbnail/170x170/d96e78d8d658997fa96edd4473f1f3ec/thumb.jpg" src="" height="170" width="170"></figure></div>
+            </a>
+    
+             
+                            </div>
+                            <div class="door-shopping-item-title">
+                                                                
+                                    <a href="http://shop.cbssports.com/NFL_New_Era/source/bm-referral_CBS_NFLIMAGE_NewEra" target="_blank" class="external-link">
+            NFL New Era Hats 
+        </a>
+    
+                            </div>
+                        </div>
+                    </li>
+                                                            
+                                    <li class="door-shopping-item">
+                        <div class="door-shopping-inner">
+                            <div class="door-shopping-item-image">
+                                        
+                                                                                                                        
+                
+            <a href="http://shop.cbssports.com/NFL_Hall_Of_Fame_Gear/source/bm-referral_CBS_NFLIMAGE_HOF" class="" target="_blank">
+            <div class="image-icon-overlay-wrap     ">
+                                                        <figure class=" img"><img class=" is-lazy-image" alt="thumb.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/08/01/5f295264-b21d-464b-89df-979ceb050d48/thumbnail/170x170/9bcfcc1dbb093cf1fd3b22a6d993e61b/thumb.jpg" src="" height="170" width="170"></figure></div>
+            </a>
+    
+             
+                            </div>
+                            <div class="door-shopping-item-title">
+                                                                
+                                    <a href="http://shop.cbssports.com/NFL_Hall_Of_Fame_Gear/source/bm-referral_CBS_NFLIMAGE_HOF" target="_blank" class="external-link">
+            NFL Hall OF Fame 
+        </a>
+    
+                            </div>
+                        </div>
+                    </li>
+                                    </ul></div>
+    
+    
+                                            </div>
+                                <div class="col-4">
+                                
+            
+                    
+
+                    <div id="mpu-middle-2fd0824382795" class="ad-mpu-middle " data-ad="mpu-middle">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-middle-2fd0824382795 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-middle-2fd0824382795");
+    </script></div>
+                                                </div>
+                                                </div>
+                                    </div>
+                    </div>
+                                    <div class="row">
+                <div class="col-12">
+                                
+            
+                    
+
+    
+            <script type="text/javascript">
+            window.SportsPageVars.tracking.taboolaPlacement = "desktop-5x1-main";
+        </script><div class="recommended-recirc taboola-recommends">
+            
+                                    
+    <div class="title-double-underline recommended-title taboola-title is-small">
+        <span class="title-text">
+            Around the Web
+        </span>
+        
+                
+                    <span class="title-text-side">
+                <a href="https://popup.taboola.com/en/" target="_blank" rel="nofollow">Promoted by Taboola<span class="recirc-ad-icon"></span></a>
+            </span>
+            </div>
+
+
+            <div id="taboola-homepage-thumbnails" data-taboola='{"mode":"thumbnails-c","container":"taboola-homepage-thumbnails","placement":"desktop-5x1-main"}'>
+            </div>
+        </div>
+                    
+            
+                    
+
+                    <div id="leader-bottom-2fd0824382795" class="ad-leader-bottom " data-ad="leader-bottom">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-bottom-2fd0824382795 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-bottom-2fd0824382795");
+    </script></div>
+                                                </div>
+                    </div>
+                    </div>
+    </div>
+
+                </main></div>
+
+                            
+
+<footer id="cbs-site-footer" class="cbs-site-footer"><div class="site-footer-row">
+        <div class="site-footer-branding">
+            <span class="site-footer-logo" tabindex="0" role="img" aria-label="CBS Sports Digital" title="CBS Sports Digital"></span>
+        </div>
+    </div>
+
+    <div class="site-footer-row">
+        
+
+<ul class="social-icons-bar"><li><a href="https://www.facebook.com/cbssports/" class="button-social icon-moon-facebook" target="_blank" rel="nofollow" aria-label="Facebook" title="Facebook" om-event="Global Footer|Facebook"></a></li><li><a href="https://twitter.com/cbssports/" class="button-social icon-moon-twitter" target="_blank" rel="nofollow" aria-label="Twitter" title="Twitter" om-event="Global Footer|Twitter"></a></li><li><a href="https://plus.google.com/+CBSSportscom/posts/" class="button-social icon-moon-google-plus2" target="_blank" rel="nofollow" aria-label="Google+" title="Google+" om-event="Global Footer|Google+"></a></li><li><a href="https://www.youtube.com/user/cbssports/" class="button-social icon-moon-youtube-play" target="_blank" rel="nofollow" aria-label="YouTube" title="YouTube" om-event="Global Footer|YouTube"></a></li><li><a href="https://instagram.com/cbssports/" class="button-social icon-moon-instagram" target="_blank" rel="nofollow" aria-label="Instagram" title="Instagram" om-event="Global Footer|Instagram"></a></li><li><a href="https://www.pinterest.com/cbssports/" class="button-social icon-moon-pinterest" target="_blank" rel="nofollow" aria-label="Pinterest" title="Pinterest" om-event="Global Footer|Pinterest"></a></li><li><a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" class="button-social icon-moon-flipboard" target="_blank" rel="nofollow" aria-label="Flipboard" title="Flipboard" om-event="Global Footer|Flipboard"></a></li></ul></div>
+    
+            <div class="site-footer-row">
+            <ul class="site-footer-links"><li>
+                            <a href="https://www.cbssports.com/help" target="_blank" title="Help" om-event="Global Footer|Help">Help</a>
+                        </li>
+                                                                                <li>
+                            <a href="https://www.cbssports.com/info/aboutus" target="_blank" title="About Us" om-event="Global Footer|About Us">About Us</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://www.cbsinteractive.com/careers" target="_blank" title="Careers" om-event="Global Footer|Careers">Careers</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://www.cbsinteractive.com/advertise/" target="_blank" title="Advertise" om-event="Global Footer|Advertise">Advertise</a>
+                        </li>
+                                                                                <li>
+                            <a href="https://www.cbssports.com/sitemap" target="_blank" title="Site Map" om-event="Global Footer|Site Map">Site Map</a>
+                        </li>
+                                                                                <li>
+                            <a href="https://www.cbssports.com/settings/newsletters" target="_blank" title="Newsletters" om-event="Global Footer|Newsletters">Newsletters</a>
+                        </li>
+                                                                                <li>
+                            <a href="https://www.cbssports.com/mobile" target="_blank" title="Mobile Apps" om-event="Global Footer|Mobile Apps">Mobile Apps</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://collegenetwork.cbssports.com/" target="_blank" title="College Network" om-event="Global Footer|College Network">College Network</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://legalterms.cbsinteractive.com/adchoice" target="_blank" title="Ad Choice" om-event="Global Footer|Ad Choice">Ad Choice</a>
+                        </li>
+                                                                                <li>
+                            <a href="https://www.cbssports.com/info/closed-caption" target="_blank" title="Closed Captioning" om-event="Global Footer|Closed Captioning">Closed Captioning</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://legalterms.cbsinteractive.com/privacy" target="_blank" title="Privacy" om-event="Global Footer|Privacy">Privacy</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://legalterms.cbsinteractive.com/terms-of-use" target="_blank" title="Terms" om-event="Global Footer|Terms">Terms</a>
+                        </li>
+                                                                                <li>
+                            <a href="http://legalterms.cbsinteractive.com/eula" target="_blank" title="Mobile User Agreement" om-event="Global Footer|Mobile User Agreement">Mobile User Agreement</a>
+                        </li>
+                                                </ul></div>
+    
+    <div class="site-footer-row">
+        <div class="site-footer-partners">
+            <div class="site-footer-button button1" tabindex="0" role="img" aria-label="Commissioner.com" title="Commissioner.com"></div>
+            <div class="site-footer-button button2" tabindex="0" role="img" aria-label="Commissioner.com" title="Commissioner.com"></div>
+            <div class="site-footer-button button3" tabindex="0" role="img" aria-label="Golfweb.com" title="Golfweb.com"></div>
+        </div>
+    </div>
+
+    <div class="site-footer-copyright">
+        <p class="site-footer-dates">© 2004-2017 CBS Interactive. All Rights Reserved.</p>
+        <p>CBS Sports is a registered trademark of CBS Broadcasting Inc. Commissioner.com is a registered trademark of CBS Interactive Inc.</p>
+        <p>Images by Getty Images and US Presswire</p>
+    </div>
+
+    </footer></div>
+
+    <div id="sticky-leaderboard" class="sticky-leaderboard">
+    <div class="sticky-leaderboard-unit">
+        <div id="nflnetwork-bar-top-2fd0824382795" class="ad-nflnetwork-bar-top " data-ad="nflnetwork-bar-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing nflnetwork-bar-top-2fd0824382795 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("nflnetwork-bar-top-2fd0824382795");
+    </script></div>
+
+    </div>
+</div>
+    
+
+    
+
+
+                                                                                                                                                                                                                                                                                
+            
+
+
+
+
+
+    <script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery" src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediajs/js-build/jquery.js">
+    </script><script async type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="main.desktop" src="https://sportsfly.cbsistatic.com/fly-703/bundles/sportsmediajs/js-build/main.desktop.js">
+    </script></body></html>

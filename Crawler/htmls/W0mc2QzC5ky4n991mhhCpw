@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="format-detection" content="telephone=no">
+
+	<title>CBS Sports Network</title>
+
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://www.cbssportsnetwork.com/xmlrpc.php">
+
+	<link rel="stylesheet" type="text/css" href="https://www.cbssportsnetwork.com/wp-content/themes/cbs/assets/css/styles.css">
+
+	<!--[if lt IE 9]>
+	<script src="https://www.cbssportsnetwork.com/wp-content/themes/cbs/js/html5shiv/dist/html5shiv.min.js"></script>
+	<![endif]-->
+	<meta name='robots' content='noindex,follow' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='flowplayer-css-css'  href='https://www.cbssportsnetwork.com/wp-content/plugins/easy-video-player/lib/skin/skin.css?ver=62d281851e50eb9bebac293a765a1be6' type='text/css' media='all' />
+<link rel='stylesheet' id='pc_google_analytics-frontend-css'  href='https://www.cbssportsnetwork.com/wp-content/plugins/pc-google-analytics/assets/css/frontend.css?ver=1.0.0' type='text/css' media='all' />
+      <script>
+      if (document.location.protocol != "https:") {
+          document.location = document.URL.replace(/^http:/i, "https:");
+      }
+      </script>
+      <script type='text/javascript' src='https://www.cbssportsnetwork.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.cbssportsnetwork.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.cbssportsnetwork.com/wp-content/plugins/easy-video-player/lib/flowplayer.min.js?ver=62d281851e50eb9bebac293a765a1be6'></script>
+<script type='text/javascript' src='https://www.cbssportsnetwork.com/wp-content/plugins/pc-google-analytics/assets/js/frontend.min.js?ver=1.0.0'></script>
+<link rel='https://api.w.org/' href='https://www.cbssportsnetwork.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.cbssportsnetwork.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.cbssportsnetwork.com/wp-includes/wlwmanifest.xml" /> 
+
+<!-- This content is generated with the Easy Video Player plugin v1.1.6 - http://noorsplugin.com/wordpress-video-plugin/ --><script>flowplayer.conf.embed = false;flowplayer.conf.keyboard = false;</script><!-- Easy Video Player plugin -->	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		ga('create', 'UA-25678029-1', 'auto');
+		ga('send', 'pageview');
+		
+		</script>
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//www.cbssportsnetwork.com/?wordfence_logHuman=1&hid=0945A689CA0D41E2C28EECC7B40A05DA');
+</script>
+	<style>
+		html {
+			margin: 0 !important;
+		}
+		#wpadminbar {
+			display: none !important;
+		}
+	</style>	
+</head>
+
+<body data-rsssl=1 class="home blog">
+	<header class="header">
+		<div class="container-fluid">
+			<div class="row">
+				<a href="https://www.cbssportsnetwork.com/" class="header-logo">CBS</a>
+
+
+				<div class="dropdown clearfix">
+					<button type="button" class="menu-toggle" data-toggle="dropdown" aria-expanded="false">
+						<span class="icon icon-menu"></span>
+					</button>
+
+					<div class="header-channel-finder pull-right">
+						
+		<div class="channel-finder  js-channel-finder ">
+			<div class="form-block inline">
+				<h4>FIND US</h4>
+
+				<form class="js-channel-finder-form" novalidate>
+					<div class="input-group input-group-sm">
+						<input type="text" class="form-control  js-zipcode-input" placeholder="ZIP CODE">
+
+						<span class="input-group-btn">
+							<button type="submit" class="btn btn-default">
+								<span class="icon icon-search"></span> Submit							</button>
+						</span>
+					</div>
+				</form>
+			</div>
+
+			<div class="form-block-reply hidden  js-channel-finder-results">
+				<div class="form-block-reply-title">
+					<div class="form-block-reply-close  js-channel-finder-close">
+						<span class="icon icon-close-reply"></span>
+					</div>
+
+					<strong>CHANNEL FINDER</strong> : RESULTS FOR ZC. <span class="form-block-reply-code  js-channel-finder-code"></span>			
+				</div>
+
+				<div class="reply_flex">
+					
+				</div>
+
+				<div class="form-block-reply-bottom">
+					<div class="form-block-reply-tip">Click <span class="icon icon-play-channel"></span> to login and watch live</div>
+				</div>
+			</div>
+		</div>
+		
+						
+					</div>
+
+					
+<div class="header-banner pull-right">
+	<div>
+		<div class="header-banner-text">BOISE ST AT 19 SAN DIEGO ST</div>
+
+		<div class="header-banner-date">
+			SATURDAY 10:30 PM ET
+			<span class="header-banner-date-format"></span>
+		</div>
+	</div>
+</div>
+
+					
+
+
+					<div class="dropdown-menu dropdown-main-nav">
+						<nav class="main-nav"><ul id="main-menu" class="list-unstyled"><li id="menu-item-45" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-45 main-nav-item"><a class="main-nav-link" href="https://www.cbssportsnetwork.com/">Home</a></li>
+<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121 main-nav-item"><a class="main-nav-link" href="https://www.cbssportsnetwork.com/tv-schedule/">TV Schedule</a></li>
+<li id="menu-item-192" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-192 main-nav-item"><a class="main-nav-link" href="#social">Follow Us</a></li>
+<li id="menu-item-279" class="js-channel-finder-anchor menu-item menu-item-type-custom menu-item-object-custom menu-item-279 main-nav-item"><a class="main-nav-link" href="#channel-finder">Channel Finder</a></li>
+</ul></nav>					</div>
+				</div>
+			</div>
+		</div>
+	</header>	
+
+
+	<main class="l-page">
+
+       
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="https://3743995.fls.doubleclick.net/activityi;src=3743995;type=pages353;cat=cbssp976;u1=home;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="https://3743995.fls.doubleclick.net/activityi;src=3743995;type=pages353;cat=cbssp976; u1=home;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+
+<div class="posts">
+	
+	
+	
+
+
+<article id="post-1505" class="post-billboard post-1505 post type-post status-publish format-image has-post-thumbnail hentry category-shows post_format-post-format-image">
+			
+					<div class="post-item-image">
+		      	<img width="1200" height="660" src="https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/IMG_4939.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/IMG_4939.jpg 1200w, https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/IMG_4939-300x165.jpg 300w, https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/IMG_4939-768x422.jpg 768w, https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/IMG_4939-1024x563.jpg 1024w" sizes="(max-width: 1200px) 100vw, 1200px" />		    </div>
+				
+	
+
+		<div class="post-item-info">
+			<div class="container-desktop">				<h2>We Need To Talk</h2>
+			     
+		      	<p>Tuesday  |  8 PM ET</p>
+
+
+		      	
+		      	
+
+		      	
+
+				
+
+		        
+
+		         	
+		    </div>	    </div>
+
+
+	    	      <div class="post-channel-finder">
+	        <div class="container-desktop">		
+	    
+		<div class="channel-finder  js-channel-finder js-channel-finder-hide">
+			<div class="form-block ">
+				<h4>FIND US</h4>
+
+				<form class="js-channel-finder-form" novalidate>
+					<div class="input-group input-group-sm">
+						<input type="text" class="form-control  js-zipcode-input" placeholder="ZIP CODE">
+
+						<span class="input-group-btn">
+							<button type="submit" class="btn btn-default">
+								<span class="icon icon-search"></span> Find provider							</button>
+						</span>
+					</div>
+				</form>
+			</div>
+
+			<div class="form-block-reply hidden  js-channel-finder-results">
+				<div class="form-block-reply-title">
+					<div class="form-block-reply-close  js-channel-finder-close">
+						<span class="icon icon-close-reply"></span>
+					</div>
+
+					<strong>CHANNEL FINDER</strong> : RESULTS FOR ZC. <span class="form-block-reply-code  js-channel-finder-code"></span>			
+				</div>
+
+				<div class="reply_flex">
+					
+				</div>
+
+				<div class="form-block-reply-bottom">
+					<div class="form-block-reply-tip">Click <span class="icon icon-play-channel"></span> to login and watch live</div>
+				</div>
+			</div>
+		</div>
+		
+			    	</div>	      </div>
+	    
+    </article><!-- #post-## -->
+
+
+
+<article id="post-1378" class="post-1378 post type-post status-publish format-image has-post-thumbnail hentry category-football category-icf post_format-post-format-image">
+	<div class="container-desktop">		
+					<div class="post-item-image">
+		      	<img width="1200" height="660" src="https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/IMG_4940.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/IMG_4940.jpg 1200w, https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/IMG_4940-300x165.jpg 300w, https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/IMG_4940-768x422.jpg 768w, https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/IMG_4940-1024x563.jpg 1024w" sizes="(max-width: 1200px) 100vw, 1200px" />		    </div>
+				
+	
+
+		<div class="post-item-info">
+							<h2>Inside College Football</h2>
+			     
+		      	<p>Tuesday | 9 PM ET</p>
+
+
+		      	
+		      	
+
+		      	
+
+				
+
+		        
+
+		         	
+		    	    </div>
+
+
+	    
+    </div></article><!-- #post-## -->
+
+
+
+<article id="post-1325" class="post-1325 post type-post status-publish format-image has-post-thumbnail hentry category-icf post_format-post-format-image">
+	<div class="container-desktop">		
+					<div class="post-item-image">
+		      	<img width="1200" height="660" src="https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/boise_sandiego_state.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/boise_sandiego_state.jpg 1200w, https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/boise_sandiego_state-300x165.jpg 300w, https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/boise_sandiego_state-768x422.jpg 768w, https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/boise_sandiego_state-1024x563.jpg 1024w" sizes="(max-width: 1200px) 100vw, 1200px" />		    </div>
+				
+	
+
+		<div class="post-item-info">
+							<h2>COLLEGE FOOTBALL</h2>
+			     
+		      	
+
+		      	
+		      	
+
+		      	
+
+				
+
+		        		            <ul class="event-schedule list-unstyled">
+
+		              <li class="event-schedule-item">
+		                  <p class="event-schedule-day">Saturday</p>
+
+		                  <div class="event-schedule-place clearfix">
+		                    <span class="pull-right">10:30 PM ET</span>
+
+		                    Boise St at San Diego St		                  </div>
+		              </li>
+
+		            </ul>   
+		        
+
+		        		            <div class="post-item-download">
+		                		                    <div class="post-item-download-image">
+		                      <img alt=""  src="https://www.cbssportsnetwork.com/wp-content/uploads/2016/05/football_schedule_2013.jpg" />		                    </div>
+		                
+		                <div class="post-item-download-info">
+		                  <p class="text-large"><strong>2017 TV Schedule</strong></p>
+
+		                  <a href="https://www.cbssportsnetwork.com/sites/pdf/2017_cf_schedule.pdf" class="post-item-download-link" target="_blank">DOWNLOAD PDF &gt;</a>
+		                </div>
+		            </div>
+		         	
+		    	    </div>
+
+
+	    
+    </div></article><!-- #post-## -->
+
+
+
+<article id="post-806" class="post-806 post type-post status-publish format-image has-post-thumbnail hentry category-pbr post_format-post-format-image">
+	<div class="container-desktop">		
+					<div class="post-item-image">
+		      	<img width="1200" height="660" src="https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/IMG_4936.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/IMG_4936.jpg 1200w, https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/IMG_4936-300x165.jpg 300w, https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/IMG_4936-768x422.jpg 768w, https://www.cbssportsnetwork.com/wp-content/uploads/2017/09/IMG_4936-1024x563.jpg 1024w" sizes="(max-width: 1200px) 100vw, 1200px" />		    </div>
+				
+	
+
+		<div class="post-item-info">
+							<h2>PBR</h2>
+			     
+		      	
+
+		      	
+		      	
+
+		      	
+
+				
+
+		        		            <ul class="event-schedule list-unstyled">
+
+		              <li class="event-schedule-item">
+		                  <p class="event-schedule-day">Sunday</p>
+
+		                  <div class="event-schedule-place clearfix">
+		                    <span class="pull-right">2 PM ET</span>
+
+		                    FRONTIER COMMUNICATIONS RALEIGH INVITATIONAL		                  </div>
+		              </li>
+
+		            </ul>   
+		        
+
+		        		            <div class="post-item-download">
+		                		                    <div class="post-item-download-image">
+		                      <img alt=""  src="https://www.cbssportsnetwork.com/wp-content/uploads/2016/07/PBR_1.jpg" />		                    </div>
+		                
+		                <div class="post-item-download-info">
+		                  <p class="text-large"><strong>TV SCHEDULE</strong></p>
+
+		                  <a href="https://www.cbssportsnetwork.com/sites/pdf/2017_PBR_SCHEDULE.pdf" class="post-item-download-link" target="_blank">DOWNLOAD PDF &gt;</a>
+		                </div>
+		            </div>
+		         	
+		    	    </div>
+
+
+	    
+    </div></article><!-- #post-## -->
+
+
+
+<article id="post-1115" class="post-1115 post type-post status-publish format-video has-post-thumbnail hentry category-shows post_format-post-format-video">
+  <div class="container-desktop">    
+    <div class="post-item-image">    
+            
+              <div class="post-item-video">
+          <div style="width: 640px;" class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+<video class="wp-video-shortcode" id="video-1115-1" width="640" height="360" poster="https://www.cbssportsnetwork.com/wp-content/uploads/2017/04/tiki_tierney_billboard-1.jpg" preload="metadata" controls="controls"><source type="video/mp4" src="https://cbssn.akamaized.net/Tiki_Tierney.mp4?_=1" /><a href="https://cbssn.akamaized.net/Tiki_Tierney.mp4">https://cbssn.akamaized.net/Tiki_Tierney.mp4</a></video></div>        </div>
+          </div>
+
+        
+
+    <div class="post-item-info">    
+              <h2>Tiki and Tierney</h2>
+
+        <p><span class="s1"><strong>WEEKDAYS 3 PM ET</strong></span></p>
+<p><span class="s1"><strong><br />
+</strong></span>Each weekday, former NFL Pro Bowl running back, Tiki Barber and radio and TV personality, Brandon Tierney tackle and analyze the day&#8217;s top stories and interview the biggest names in sports live from New York City.</p>
+          
+        
+
+                        <style>
+          ul.event-schedule.list-unstyled li + li {
+            border-top: 1px solid #ccc;
+            padding: 5px 0;
+          }
+        </style>
+        
+       
+                          
+          </div>
+
+
+    
+  </div></article><!-- #post-## -->
+
+
+
+<article id="post-1156" class="post-1156 post type-post status-publish format-image has-post-thumbnail hentry category-shows post_format-post-format-image">
+	<div class="container-desktop">		
+					<div class="post-item-image">
+		      	<img width="800" height="440" src="https://www.cbssportsnetwork.com/wp-content/uploads/2016/08/schein_800x440b-2.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://www.cbssportsnetwork.com/wp-content/uploads/2016/08/schein_800x440b-2.jpg 800w, https://www.cbssportsnetwork.com/wp-content/uploads/2016/08/schein_800x440b-2-300x165.jpg 300w, https://www.cbssportsnetwork.com/wp-content/uploads/2016/08/schein_800x440b-2-768x422.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />		    </div>
+				
+	
+
+		<div class="post-item-info">
+							<h2>TIME TO SCHEIN</h2>
+			     
+		      	<p class="p1"><strong>WEEKDAYS  6 PM ET</strong></p>
+<p>&nbsp;</p>
+<p class="p1">Adam Schein brings his unique opinions to this one-hour daily show that will tackle the latest and greatest in sports. It is not just his wealth of knowledge and a 21st century rolodex, but his distinctive take that will make this show Schein.</p>
+
+
+		      	
+		      	
+
+		      	
+
+				
+
+		        
+
+		         	
+		    	    </div>
+
+
+	    
+    </div></article><!-- #post-## -->
+</div>
+
+
+		<div class="container-desktop">
+			<div class="post-channel-finder">
+		        
+		<div class="channel-finder  js-channel-finder js-channel-finder-hide">
+			<div class="form-block ">
+				<h4>FIND US</h4>
+
+				<form class="js-channel-finder-form" novalidate>
+					<div class="input-group input-group-sm">
+						<input type="text" class="form-control  js-zipcode-input" placeholder="ZIP CODE">
+
+						<span class="input-group-btn">
+							<button type="submit" class="btn btn-default">
+								<span class="icon icon-search"></span> Find provider							</button>
+						</span>
+					</div>
+				</form>
+			</div>
+
+			<div class="form-block-reply hidden  js-channel-finder-results">
+				<div class="form-block-reply-title">
+					<div class="form-block-reply-close  js-channel-finder-close">
+						<span class="icon icon-close-reply"></span>
+					</div>
+
+					<strong>CHANNEL FINDER</strong> : RESULTS FOR ZC. <span class="form-block-reply-code  js-channel-finder-code"></span>			
+				</div>
+
+				<div class="reply_flex">
+					
+				</div>
+
+				<div class="form-block-reply-bottom">
+					<div class="form-block-reply-tip">Click <span class="icon icon-play-channel"></span> to login and watch live</div>
+				</div>
+			</div>
+		</div>
+		
+				    </div>
+
+
+			<div class="email-signup">
+				<div class="form-block">
+					<h4>EMAIL SIGNUP</h4>
+
+					<script type="text/javascript" src="https://app.e2ma.net/app2/audience/tts_signup_refresh/1371807/f64e527feaa1d55c4ed4c5acd60b0dc2/1367225/"></script>
+					<script type="text/javascript">signupFormObj.drawForm();</script>
+				</div>		
+			</div>
+		</div>
+
+	</main><!-- .l-page -->
+
+
+	<footer class="l-footer">
+		<div class="container-fluid">
+			<div class="text-center">
+				<a href="#" class="footer-logo">CBS</a>
+			</div>
+
+
+			<div id="social" class="social-links">
+				<a href="https://www.facebook.com/cbssportsnetwork" class="social-link fb" target="_blank"></a>
+
+				<a href="https://twitter.com/CBSSportsNet" class="social-link twit" target="_blank"></a>
+
+				<a href="https://www.youtube.com/user/CBSSports" class="social-link ytube" target="_blank"></a>
+
+				<a href="https://www.instagram.com/cbssports" class="social-link inst" target="_blank"></a>
+			</div>
+
+
+			<nav class="menu-footer-menu-container"><ul id="footer-menu" class="footer-menu"><li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118 footer-menu-item"><a class="footer-menu-link" href="https://www.cbssportsnetwork.com/about-us/">About Us</a></li>
+<li id="menu-item-136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136 footer-menu-item"><a class="footer-menu-link" href="https://www.cbssportsnetwork.com/campusreps/">Campus Reps</a></li>
+<li id="menu-item-186" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186 footer-menu-item"><a class="footer-menu-link" href="https://affiliates.cbssportsnetwork.com/alr/Login.aspx?ReturnUrl=%2falr">Launch CBSSN</a></li>
+<li id="menu-item-135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135 footer-menu-item"><a class="footer-menu-link" href="https://cbs.avature.net/cbssncareers">Careers</a></li>
+<li id="menu-item-187" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-187 footer-menu-item"><a class="footer-menu-link" href="https://www.cbspressexpress.com/cbs-sports-network/talent">Talent</a></li>
+<li id="menu-item-144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144 footer-menu-item"><a class="footer-menu-link" href="https://www.cbssportsnetwork.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-143 footer-menu-item"><a class="footer-menu-link" href="https://www.cbssportsnetwork.com/faqs/">FAQs</a></li>
+<li id="menu-item-142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-142 footer-menu-item"><a class="footer-menu-link" href="http://legalterms.cbsinteractive.com/privacy">Privacy Policy</a></li>
+<li id="menu-item-145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-145 footer-menu-item"><a class="footer-menu-link" href="http://legalterms.cbsinteractive.com/terms-of-use">Terms Of Use</a></li>
+<li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-149 footer-menu-item"><a class="footer-menu-link" href="https://www.cbssportsnetwork.com/certifications/">Certifications</a></li>
+</ul></nav>		</div>
+	</footer>
+
+	<script>
+		var baseUrl = 'https://www.cbssportsnetwork.com/wp-content/themes/cbs';
+	</script>
+
+	<script src="https://www.cbssportsnetwork.com/wp-content/themes/cbs/js/all.min.js"></script>
+
+	
+<div id="channel-finder-modal">
+    <div class="modal-scrollable">
+        <div class="channel-finder-modal-image">
+          <img src="https://www.cbssportsnetwork.com/wp-content/uploads/2017/10/channel_finder_boise_st_sdsu.jpg">
+        </div>
+
+        <div class="channel-finder-modal-form">
+          
+		<div class="channel-finder  js-channel-finder ">
+			<div class="form-block inline">
+				<h4>FIND US</h4>
+
+				<form class="js-channel-finder-form" novalidate>
+					<div class="input-group input-group-sm">
+						<input type="text" class="form-control  js-zipcode-input" placeholder="ZIP CODE">
+
+						<span class="input-group-btn">
+							<button type="submit" class="btn btn-default">
+								<span class="icon icon-search"></span> Submit							</button>
+						</span>
+					</div>
+				</form>
+			</div>
+
+			<div class="form-block-reply hidden  js-channel-finder-results">
+				<div class="form-block-reply-title">
+					<div class="form-block-reply-close  js-channel-finder-close">
+						<span class="icon icon-close-reply"></span>
+					</div>
+
+					<strong>CHANNEL FINDER</strong> : RESULTS FOR ZC. <span class="form-block-reply-code  js-channel-finder-code"></span>			
+				</div>
+
+				<div class="reply_flex">
+					
+				</div>
+
+				<div class="form-block-reply-bottom">
+					<div class="form-block-reply-tip">Click <span class="icon icon-play-channel"></span> to login and watch live</div>
+				</div>
+			</div>
+		</div>
+		
+		        </div>
+    </div>
+</div>
+
+  <script>
+    $(function () {
+      $.fancybox.open({
+        src: '#channel-finder-modal',
+        type: 'inline',
+        opts: {
+          baseClass: 'channel-finder-modal',
+          animationDuration: 1500,
+          clickContent: false,
+          clickSlide: false,
+          mobile: {
+            clickContent: false,
+            clickSlide: false
+          }
+        }
+      });
+    });
+  </script>
+
+
+	<link rel='stylesheet' id='mediaelement-css'  href='https://www.cbssportsnetwork.com/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.22.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='https://www.cbssportsnetwork.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=62d281851e50eb9bebac293a765a1be6' type='text/css' media='all' />
+</body>
+</html>

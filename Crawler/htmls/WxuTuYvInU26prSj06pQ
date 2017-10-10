@@ -1,0 +1,1829 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+    <script type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js" async></script>
+            <script type="text/javascript" src="//js-sec.indexww.com/ht/ls-cbs.js" async></script>
+    
+    <meta charset="utf-8">
+    <title>CBS TV Network Primetime, Daytime, Late Night and Classic Television Shows</title>
+
+            <link rel="shortcut icon" href="http://wwwimage5.cbsstatic.com/sitecommon/images/favicon.ico"/>
+    
+    <link rel="canonical" href="http://www.cbs.com"/>
+    <meta name="description" content="television, TV, video, CBS TV, Columbia Broadcast System, watch online video, watch tv, soap opera video, David Letterman, CSI, Big Brother, NCIS, The Price is Right, the Young and the Restless, Guiding Light, As the World Turns, Survivor, Two and a Half Men, The Amazing Race, Star Trek, Jericho."/>
+
+    <meta property="fb:app_id" content="30708972585"/>
+    <meta property="fb:pages" content="47360808996"/>
+    <meta property="og:title" content="CBS TV Network Primetime, Daytime, Late Night and Classic Television Shows"/>
+    <meta property="og:description" content="television, TV, video, CBS TV, Columbia Broadcast System, watch online video, watch tv, soap opera video, David Letterman, CSI, Big Brother, NCIS, The Price is Right, the Young and the Restless, Guiding Light, As the World Turns, Survivor, Two and a Half Men, The Amazing Race, Star Trek, Jericho."/>
+    <meta property="og:image" content="http://wwwimage.cbsstatic.com/assets/images/homepage/2011/CBS_eye.jpg"/>
+    <meta name="twitter:image" content="http://wwwimage.cbsstatic.com/assets/images/homepage/2011/CBS_eye.jpg"/>
+    <meta name="apple-itunes-app" content="app-id=530168168"/>
+    <meta name="application-name" content=""/>
+    <meta name="msapplication-TileImage" content="http://wwwimage.cbsstatic.com/assets/images/site/cbs_pin.png"/>
+    <meta name="msapplication-TileColor" content="#3070b1"/>
+    <meta name="msApplication-ID" content="App"/>
+    <meta name="CBS.Win8_dx3spxfjvhtp4" content="App"/>
+
+    <link rel="stylesheet" href="http://wwwimage.cbsstatic.com/assets/build/css/homepage.min.css?20171006-000313" />
+    <script src="http://wwwimage.cbsstatic.com/assets/build/js/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://wwwimage.cbsstatic.com/assets/min/js/cbs/cbs.min.js?20171006-000313"></script>
+    
+    <script type="text/javascript">
+        var DW_referer = "", DW_srcURL = "/", DW_ctype = "", DW_cval = "";
+    </script>
+
+    <script src="https://cdn.optimizely.com/js/1557470023.js"></script>
+
+</head>
+
+<body id="masterPageWrapper" class="all-access_">
+<div id="scroll_prestitial" style="padding-top: 0px; width: 100%;"></div>
+<div id="skin-top"></div>
+
+
+<style>
+    @font-face
+    {
+      font-family : 'Lato';
+      src         : url('/assets/fonts/Lato/lato-regular-webfont.woff2') format('woff2'),
+      url('/assets/fonts/Lato/lato-regular-webfont.woff') format('woff');
+      font-weight : normal;
+      font-style  : normal;
+    }
+
+    @font-face
+    {
+      font-family : 'Lato';
+      src         : url('/assets/fonts/Lato/lato-hairline-webfont.woff2') format('woff2'),
+      url('/assets/fonts/Lato/lato-hairline-webfont.woff') format('woff');
+      font-weight : 100;
+      font-style  : normal;
+    }
+
+    @font-face
+    {
+      font-family : 'Lato';
+      src         : url('/assets/fonts/Lato/lato-hairlineitalic-webfont.woff2') format('woff2'),
+      url('/assets/fonts/Lato/lato-hairlineitalic-webfont.woff') format('woff');
+      font-weight : 100;
+      font-style  : italic;
+    }
+
+    @font-face
+    {
+      font-family : 'Lato';
+      src         : url('/assets/fonts/Lato/lato-light-webfont.woff2') format('woff2'),
+      url('/assets/fonts/Lato/lato-light-webfont.woff') format('woff');
+      font-weight : 200;
+      font-style  : normal;
+    }
+
+    @font-face
+    {
+      font-family : 'Lato';
+      src         : url('/assets/fonts/Lato/lato-lightitalic-webfont.woff2') format('woff2'),
+      url('/assets/fonts/Lato/lato-lightitalic-webfont.woff') format('woff');
+      font-weight : 200;
+      font-style  : italic;
+    }
+
+    @font-face
+    {
+      font-family : 'Lato';
+      src         : url('/assets/fonts/Lato/lato-italic-webfont.woff2') format('woff2'),
+      url('/assets/fonts/Lato/lato-italic-webfont.woff') format('woff');
+      font-weight : normal;
+      font-style  : italic;
+    }
+
+    @font-face
+    {
+      font-family : 'Lato';
+      src         : url('/assets/fonts/Lato/lato-bold-webfont.woff2') format('woff2'),
+      url('/assets/fonts/Lato/lato-bold-webfont.woff') format('woff');
+      font-weight : bold;
+      font-style  : normal;
+    }
+
+    @font-face
+    {
+      font-family : 'Lato';
+      src         : url('/assets/fonts/Lato/lato-bolditalic-webfont.woff2') format('woff2'),
+      url('/assets/fonts/Lato/lato-bolditalic-webfont.woff') format('woff');
+      font-weight : bold;
+      font-style  : italic;
+    }
+
+    @font-face
+    {
+      font-family : 'Lato';
+      src         : url('/assets/fonts/Lato/lato-black-webfont.woff2') format('woff2'),
+      url('/assets/fonts/Lato/lato-black-webfont.woff') format('woff');
+      font-weight : 800;
+      font-style  : normal;
+    }
+
+    @font-face
+    {
+      font-family : 'Lato';
+      src         : url('/assets/fonts/Lato/lato-blackitalic-webfont.woff2') format('woff2'),
+      url('/assets/fonts/Lato/lato-blackitalic-webfont.woff') format('woff');
+      font-weight : 800;
+      font-style  : italic;
+    }
+
+    @font-face
+    {
+      font-family : 'Oswald';
+      src         : url('/assets/fonts/Oswald/oswald-regular-webfont.woff2') format('woff2'),
+      url('/assets/fonts/Oswald/oswald-regular-webfont.woff') format('woff');
+      font-weight : normal;
+      font-style  : normal;
+    }
+
+    @font-face
+    {
+      font-family : 'Oswald';
+      src         : url('/assets/fonts/Oswald/oswald-light-webfont.woff2') format('woff2'),
+      url('/assets/fonts/Oswald/oswald-light-webfont.woff') format('woff');
+      font-weight : 200;
+      font-style  : normal;
+    }
+
+    @font-face
+    {
+      font-family : 'Oswald';
+      src         : url('/assets/fonts/Oswald/oswald-bold-webfont.woff2') format('woff2'),
+      url('/assets/fonts/Oswald/oswald-bold-webfont.woff') format('woff');
+      font-weight : bold;
+      font-style  : normal;
+    }
+
+
+
+    @font-face
+    {
+      font-family : 'Maven Pro';
+      src         : url('/assets/fonts/MavenProRegular.woff') format('woff');
+      font-weight : normal;
+      font-style  : normal;
+    }
+
+    @font-face
+    {
+      font-family : 'Maven Pro';
+      src         : url('/assets/fonts/MavenProBold.woff') format('woff');
+      font-weight : bold;
+      font-style  : normal;
+    }
+
+    @font-face
+    {
+      font-family : 'Istok Web';
+      src         : url('/assets/fonts/IstokWeb.woff') format('woff');
+      font-weight : bold;
+      font-style  : normal;
+    }
+</style>
+
+
+
+<script type="text/javascript">
+    CBS.Host = 'http://www.cbs.com';
+    CBS.Registry.facebook_app_id = "30708972585";
+    CBS.Registry.google_client_id = "622419776613.apps.googleusercontent.com";
+    CBS.Registry.user_auth = false;
+    CBS.Registry.ssl = true;
+    CBS.Registry.host = "www.cbs.com";
+    CBS.Registry.imageHost = 'http://wwwimage.cbsstatic.com';
+    CBS.Registry.platform = {"isMobile":false,"isWebView":false,"current":"DESKTOP","isHandheld":false};
+    CBS.Registry.chromecast.receiver_id = "0BBDC217";
+    CBS.Registry.recurly_public_key = "ewr1-Tos8OMtfKABulJFWhaRxsX";
+    CBS.Registry.enableIX = true;
+
+        CBS.Registry.login.authToken = 'S1lxZlNHNEpDbUlhN3hBQVJyZ2YwREEweEN6a1ZtL0xPRlc2QmVCZ1Y0az0=';
+    
+    
+
+    
+
+    $(function () {
+        $('#shows-link').focus(function () {
+            $('#shows-link').trigger('mouseover');
+
+
+        });
+        $('#shows-link').focusout(function () {
+            $('#shows-link').trigger('mouseout');
+        });
+    });
+    try {
+        CBS.UserAuthStatus = false;
+    } catch (e) {
+    }
+
+</script>
+
+<div id="loginModal" class="isHidden">
+    <iframe name="cbsLoginIframe" id="cbsLoginIframe" style="display:none;"></iframe>
+    <!-- This is the Forgot Password view -->
+
+    <div id='forgotPasswordView' style='display: none;'> <!-- This is initially hidden -->
+        <div class="messageContainer">
+            <div> Forgot your password?</div>
+            <div id='forgotPasswordHeader'> Enter your email address below and we'll send you an email with instructions
+                to create a new password.
+            </div>
+        </div>
+        <form target='cbsLoginIframe' action='//www.cbs.com/account/forgot_password'
+              onsubmit="return GlobalLogin.submitForgotPassword(this)" method='POST'>
+            <input name='email' type="text" placeholder="Email">
+            <div id='cancelSendContainer'>
+                <div onclick="GlobalLogin.closeModal();"> Cancel</div>
+                <input type='submit' value='Send Password'>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- End of forgotPasswordView -->
+
+    <!-- This is the Forgot Password Confirmation View -->
+
+    <div id='forgotPasswordConfirmationView' style='display:none;'>
+
+        <div class="messageContainer">
+            <div> Email Sent</div>
+            <div> Instructions to change your password should arrive in your inbox in a few moments.</div>
+        </div>
+
+        <div onclick="GlobalLogin.closeModal()">Done</div>
+
+    </div>
+
+    <!-- End of Forgot Password Confirmation View -->
+
+    <!-- This is the Logged In View -->
+    <div id="profileView" style='display: none;'> <!-- Should be hidden initially -->
+        <a href="/user/settings">Profile</a>
+        <a href="/all-access/account/">Account</a>
+                <a href="https://cbsi.secure.force.com/CBSi/knowledgehome?referer=cbs.com">Help </a>
+        <a href="javascript:CBSAccount.session.logout()">Sign Out</a>
+    </div>
+    <!-- End of Logged In view -->
+
+</div>
+<!-- Begin of new header -->
+<header id="globalHeaderContainer" class="transparent">
+    <section class="widthWrapper">
+        <div id="globalNav">
+            <div class="lrGutter">
+                <a href="/" id="cbsLogo" class="left "></a>
+
+                <nav id="globalNavItems" class="left">
+                    <div class="globalShowsDropDownWrapper">
+                        <a href="/shows/" id="initGlobalShowsDropDown" data-role="main-nav-item"  class="">SHOWS<span class="showsArrow"></span></a>
+                        <div id="globalShowsDropDown" class="expanded">
+                            <div class="spacer"></div>
+                            <div class="showList">
+
+                                <section class="widthWrapper">
+                                    <div class="lrGutter">
+                                        <a href="javascript:void(0);" class="close"></a>
+                                        <div id='menuHeader' class="section">
+    <h4>
+        <span class="selectedCategory">All</span>
+        <a href="/shows/originals/">Originals</a>
+        <a href="/shows/drama/">Drama</a>
+        <a href="/shows/comedy/">Comedy</a>
+        <a href="/shows/reality/">Reality</a>
+        <a href="/shows/primetime/">Primetime</a>
+        <a href="/shows/late-night/">Late Night</a>
+        <a href="/shows/daytime/">Daytime</a>
+        <a href="/shows/classics/">Classics</a>
+        <a href="/shows/specials/">Specials</a>
+        <a href="/shows/news/">News</a>
+    </h4>
+
+</div>
+
+<div id='menuSection' class="section">
+    <ul class="menu-section-items selectedCategory">
+        <li class="show-list-item"><a href="/recommended/news/1007425/cbs-all-access-acquires-1-a-thrilling-new-series-about-money-and-murder-/" target="_parent" class="show-nav-link">$1</a></li><li class="show-list-item"><a href="/shows/48_hours/" target="_parent" class="show-nav-link">48 Hours</a></li><li class="show-list-item"><a href="/shows/60_minutes/" target="_parent" class="show-nav-link">60 Minutes</a></li><li class="show-list-item"><a href="/shows/emmy-awards/" target="_parent" class="show-nav-link">69th Primetime Emmy® Awards</a></li><li class="show-list-item"><a href="/shows/seventh_heaven/" target="_parent" class="show-nav-link">7th Heaven</a></li><li class="show-list-item"><a href="/shows/9jkl/" target="_parent" class="show-nav-link">9JKL</a></li><li class="show-list-item"><a href="/shows/academy_of_country_music/" target="_parent" class="show-nav-link">Academy of Country Music Awards</a></li><li class="show-list-item"><a href="/shows/acm-honors/" target="_parent" class="show-nav-link">ACM Honors</a></li><li class="show-list-item"><a href="/shows/after-trek/" target="_parent" class="show-nav-link">After Trek</a></li><li class="show-list-item"><a href="/shows/amazing_race/" target="_parent" class="show-nav-link">The Amazing Race</a></li><li class="show-list-item"><a href="/shows/american-gothic/" target="_parent" class="show-nav-link">American Gothic</a></li><li class="show-list-item"><a href="/shows/angel-from-hell/" target="_parent" class="show-nav-link">Angel From Hell</a></li><li class="show-list-item"><a href="/shows/beauty-and-the-beast/" target="_parent" class="show-nav-link">Beauty and the Beast</a></li><li class="show-list-item"><a href="/shows/beverly-hills-90210/" target="_parent" class="show-nav-link">Beverly Hills 90210</a></li><li class="show-list-item"><a href="/shows/big_bang_theory/" target="_parent" class="show-nav-link">The Big Bang Theory</a></li><li class="show-list-item"><a href="/shows/big_brother/" target="_parent" class="show-nav-link">Big Brother</a></li><li class="show-list-item"><a href="/shows/big-brother-over-the-top/" target="_parent" class="show-nav-link">Big Brother: Over the Top</a></li><li class="show-list-item"><a href="/shows/blue_bloods/" target="_parent" class="show-nav-link">Blue Bloods</a></li><li class="show-list-item"><a href="/shows/the_bold_and_the_beautiful/" target="_parent" class="show-nav-link">The Bold and the Beautiful</a></li><li class="show-list-item"><a href="/shows/the_brady_bunch/" target="_parent" class="show-nav-link">The Brady Bunch</a></li><li class="show-list-item"><a href="/shows/braindead/" target="_parent" class="show-nav-link">BrainDead</a></li><li class="show-list-item"><a href="/recommended/news/1007549/dance-the-night-away-with-bruno-mars-on-wednesday-nov-29/" target="_parent" class="show-nav-link">Bruno Mars: 24K Magic Live</a></li><li class="show-list-item"><a href="/shows/bull/" target="_parent" class="show-nav-link">Bull</a></li><li class="show-list-item"><a href="/recommended/news/1007531/celebrate-the-carol-burnett-show-s-50th-anniversary-on-sunday-dec-3/" target="_parent" class="show-nav-link">Carol Burnett 50th Anniversary</a></li><li class="show-list-item"><a href="/shows/caroline-in-the-city/" target="_parent" class="show-nav-link">Caroline in the City</a></li><li class="show-list-item"><a href="/cbs_cares/" target="_parent" class="show-nav-link">CBS Cares</a></li><li class="show-list-item"><a href="/shows/cbs-dream-team/" target="_parent" class="show-nav-link">The CBS Dream Team...It's Epic</a></li><li class="show-list-item"><a href="/shows/cbs_evening_news/" target="_parent" class="show-nav-link">CBS Evening News</a></li><li class="show-list-item"><a href="http://www.cbssports.com/" target="_parent" class="show-nav-link">CBS Sports</a></li><li class="show-list-item"><a href="/shows/cbs-sunday-morning/" target="_parent" class="show-nav-link">CBS Sunday Morning</a></li><li class="show-list-item"><a href="/shows/cbs_this_morning/" target="_parent" class="show-nav-link">CBS This Morning</a></li><li class="show-list-item"><a href="/shows/cbsn-on-assignment/" target="_parent" class="show-nav-link">CBSN: On Assignment</a></li><li class="show-list-item"><a href="/shows/cheers/" target="_parent" class="show-nav-link">Cheers</a></li><li class="show-list-item"><a href="/shows/code-black/" target="_parent" class="show-nav-link">Code Black</a></li><li class="show-list-item"><a href="/shows/criminal_minds/" target="_parent" class="show-nav-link">Criminal Minds</a></li><li class="show-list-item"><a href="/shows/csi/" target="_parent" class="show-nav-link">CSI: Crime Scene Investigation</a></li><li class="show-list-item"><a href="/shows/csi-miami/" target="_parent" class="show-nav-link">CSI: Miami</a></li><li class="show-list-item"><a href="/shows/elementary/" target="_parent" class="show-nav-link">Elementary</a></li><li class="show-list-item"><a href="/shows/everybody_hates_chris/" target="_parent" class="show-nav-link">Everybody Hates Chris</a></li><li class="show-list-item"><a href="/shows/extant/" target="_parent" class="show-nav-link">Extant</a></li><li class="show-list-item"><a href="/shows/face-the-nation/" target="_parent" class="show-nav-link">Face the Nation</a></li><li class="show-list-item"><a href="/shows/family_ties/" target="_parent" class="show-nav-link">Family Ties</a></li><li class="show-list-item"><a href="/shows/flashpoint/" target="_parent" class="show-nav-link">Flashpoint</a></li><li class="show-list-item"><a href="/shows/frasier/" target="_parent" class="show-nav-link">Frasier</a></li><li class="show-list-item"><a href="/shows/the-game/" target="_parent" class="show-nav-link">The Game</a></li><li class="show-list-item"><a href="/shows/the-good-fight/" target="_parent" class="show-nav-link">The Good Fight</a></li><li class="show-list-item"><a href="/shows/the_good_wife/" target="_parent" class="show-nav-link">The Good Wife</a></li><li class="show-list-item"><a href="/shows/grammys/" target="_parent" class="show-nav-link">GRAMMY® Awards</a></li><li class="show-list-item"><a href="/shows/the-guardian/" target="_parent" class="show-nav-link">The Guardian</a></li><li class="show-list-item"><a href="/shows/hawaii_five_0/" target="_parent" class="show-nav-link">Hawaii Five-0</a></li><li class="show-list-item"><a href="/shows/hawaii-five-O-classic/" target="_parent" class="show-nav-link">Hawaii Five-0 Classic</a></li><li class="show-list-item"><a href="/shows/i_love_lucy/" target="_parent" class="show-nav-link">I Love Lucy</a></li><li class="show-list-item"><a href="/shows/jag/" target="_parent" class="show-nav-link">JAG</a></li><li class="show-list-item"><a href="/shows/jericho/" target="_parent" class="show-nav-link">Jericho</a></li><li class="show-list-item"><a href="/shows/kennedy_center_honors/" target="_parent" class="show-nav-link">Kennedy Center Honors</a></li><li class="show-list-item"><a href="/shows/kevin-can-wait/" target="_parent" class="show-nav-link">Kevin Can Wait</a></li><li class="show-list-item"><a href="/shows/late-late-show/" target="_parent" class="show-nav-link">The Late Late Show with James Corden</a></li><li class="show-list-item"><a href="/shows/the-late-show-with-stephen-colbert/" target="_parent" class="show-nav-link">The Late Show with Stephen Colbert</a></li><li class="show-list-item"><a href="/shows/lets_make_a_deal/" target="_parent" class="show-nav-link">Let's Make a Deal</a></li><li class="show-list-item"><a href="/shows/life-in-pieces/" target="_parent" class="show-nav-link">Life in Pieces</a></li><li class="show-list-item"><a href="/shows/life-unexpected/" target="_parent" class="show-nav-link">Life Unexpected</a></li><li class="show-list-item"><a href="/shows/limitless/" target="_parent" class="show-nav-link">Limitless</a></li><li class="show-list-item"><a href="/shows/macgyver/" target="_parent" class="show-nav-link">MacGyver</a></li><li class="show-list-item"><a href="/shows/macgyver-classic/" target="_parent" class="show-nav-link">MacGyver Classic</a></li><li class="show-list-item"><a href="/shows/madam-secretary/" target="_parent" class="show-nav-link">Madam Secretary</a></li><li class="show-list-item"><a href="/shows/man-with-a-plan/" target="_parent" class="show-nav-link">Man With A Plan</a></li><li class="show-list-item"><a href="/shows/me-myself-and-i/" target="_parent" class="show-nav-link">Me, Myself & I</a></li><li class="show-list-item"><a href="/shows/medium/" target="_parent" class="show-nav-link">Medium</a></li><li class="show-list-item"><a href="/shows/melrose_place/" target="_parent" class="show-nav-link">Melrose Place</a></li><li class="show-list-item"><a href="/recommended/news/1007347/michael-jackson-s-halloween-to-air-on-cbs-this-fall/" target="_parent" class="show-nav-link">Michael Jackson's Halloween</a></li><li class="show-list-item"><a href="/shows/mission-impossible/" target="_parent" class="show-nav-link">Mission Impossible</a></li><li class="show-list-item"><a href="/shows/mom/" target="_parent" class="show-nav-link">Mom</a></li><li class="show-list-item"><a href="/shows/nash-bridges/" target="_parent" class="show-nav-link">Nash Bridges</a></li><li class="show-list-item"><a href="/shows/ncis/" target="_parent" class="show-nav-link">NCIS</a></li><li class="show-list-item"><a href="/shows/ncis_los_angeles/" target="_parent" class="show-nav-link">NCIS: Los Angeles</a></li><li class="show-list-item"><a href="/shows/ncis-new-orleans/" target="_parent" class="show-nav-link">NCIS: New Orleans</a></li><li class="show-list-item"><a href="/shows/nfl-on-cbs/" target="_parent" class="show-nav-link">NFL on CBS</a></li><li class="show-list-item"><a href="/shows/no-activity/" target="_parent" class="show-nav-link">No Activity</a></li><li class="show-list-item"><a href="/shows/the-odd-couple/" target="_parent" class="show-nav-link">The Odd Couple</a></li><li class="show-list-item"><a href="/shows/the-odd-couple-classic/" target="_parent" class="show-nav-link">The Odd Couple Classic</a></li><li class="show-list-item"><a href="/shows/perry_mason/" target="_parent" class="show-nav-link">Perry Mason</a></li><li class="show-list-item"><a href="/shows/the_price_is_right/" target="_parent" class="show-nav-link">The Price Is Right</a></li><li class="show-list-item"><a href="/shows/ransom/" target="_parent" class="show-nav-link">Ransom</a></li><li class="show-list-item"><a href="/shows/swat/" target="_parent" class="show-nav-link">S.W.A.T.</a></li><li class="show-list-item"><a href="/shows/sabrina-the-teenage-witch/" target="_parent" class="show-nav-link">Sabrina The Teenage Witch</a></li><li class="show-list-item"><a href="/shows/salvation/" target="_parent" class="show-nav-link">Salvation</a></li><li class="show-list-item"><a href="/shows/scorpion/" target="_parent" class="show-nav-link">Scorpion</a></li><li class="show-list-item"><a href="/shows/seal-team/" target="_parent" class="show-nav-link">SEAL Team</a></li><li class="show-list-item"><a href="/shows/star_trek/" target="_parent" class="show-nav-link">Star Trek</a></li><li class="show-list-item"><a href="/shows/star_trek_animated/" target="_parent" class="show-nav-link">Star Trek The Animated Series</a></li><li class="show-list-item"><a href="/shows/star_trek_deep_space_nine/" target="_parent" class="show-nav-link">Star Trek: Deep Space Nine</a></li><li class="show-list-item"><a href="/shows/star-trek-discovery/" target="_parent" class="show-nav-link">Star Trek: Discovery</a></li><li class="show-list-item"><a href="/shows/enterprise/" target="_parent" class="show-nav-link">Star Trek: Enterprise</a></li><li class="show-list-item"><a href="/shows/star_trek_the_next_generation/" target="_parent" class="show-nav-link">Star Trek: The Next Generation</a></li><li class="show-list-item"><a href="/shows/star_trek_voyager/" target="_parent" class="show-nav-link">Star Trek: Voyager</a></li><li class="show-list-item"><a href="/recommended/news/1007422/new-cbs-all-access-series-strange-angel-will-explore-science-and-the-occult/" target="_parent" class="show-nav-link">Strange Angel</a></li><li class="show-list-item"><a href="/shows/superior-donuts/" target="_parent" class="show-nav-link">Superior Donuts</a></li><li class="show-list-item"><a href="/shows/survivor/" target="_parent" class="show-nav-link">SURVIVOR™</a></li><li class="show-list-item"><a href="/shows/the_talk/" target="_parent" class="show-nav-link">The Talk</a></li><li class="show-list-item"><a href="/shows/taxi/" target="_parent" class="show-nav-link">Taxi</a></li><li class="show-list-item"><a href="/shows/tony_awards/" target="_parent" class="show-nav-link">Tony Awards®</a></li><li class="show-list-item"><a href="/shows/touched-by-an-angel/" target="_parent" class="show-nav-link">Touched by an Angel</a></li><li class="show-list-item"><a href="/shows/the_twilight_zone/" target="_parent" class="show-nav-link">The Twilight Zone</a></li><li class="show-list-item"><a href="/shows/twin_peaks/" target="_parent" class="show-nav-link">Twin Peaks</a></li><li class="show-list-item"><a href="/shows/under-the-dome/" target="_parent" class="show-nav-link">Under The Dome</a></li><li class="show-list-item"><a href="/shows/undercover_boss/" target="_parent" class="show-nav-link">Undercover Boss</a></li><li class="show-list-item"><a href="/shows/victorias_secret/" target="_parent" class="show-nav-link">Victoria's Secret Fashion Show</a></li><li class="show-list-item"><a href="/shows/watch_magazine/" target="_parent" class="show-nav-link">Watch! Magazine</a></li><li class="show-list-item"><a href="/shows/wings/" target="_parent" class="show-nav-link">Wings</a></li><li class="show-list-item"><a href="/shows/wisdom-of-the-crowd/" target="_parent" class="show-nav-link">Wisdom Of The Crowd</a></li><li class="show-list-item"><a href="/shows/xq-super-school-live/" target="_parent" class="show-nav-link">XQ Super School Live</a></li><li class="show-list-item"><a href="/shows/the_young_and_the_restless/" target="_parent" class="show-nav-link">The Young and the Restless</a></li><li class="show-list-item"><a href="/shows/young-sheldon/" target="_parent" class="show-nav-link">Young Sheldon</a></li><li class="show-list-item"><a href="/shows/zoo/" target="_parent" class="show-nav-link">Zoo</a></li>
+    </ul>
+</div>
+
+                                    </div>
+                                </section>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="/watch" data-role="main-nav-item"   aa-link="global nav|full episodes|2|click" class="">FULL EPISODES</a>
+
+                                            <a href="/live-tv/stream/" data-role="main-nav-item"  aa-link="global nav|live tv|3|click" class="">LIVE TV</a>
+                    
+                    <a href="/schedule/" data-role="main-nav-item"   aa-link="global nav|schedule|4|click" class="">SCHEDULE</a>
+                    <a href="/movies/" data-role="main-nav-item"   aa-link="global nav|movies|5|click" class=""> MOVIES </a>
+
+
+                    <section id="globalNavMore" class="global-nav-dropdown">
+                        <div class='navItem more' id='globalMoreButton'> MORE <span class="moreArrow"></span> </div>
+                        <ul class="dropdown-items">
+                            <li><a href="http://www.cbsstore.com/" data-role="main-nav-item"   aa-link="global nav|shop|6|click"> SHOP</a></li>
+                            <li><a href="/user/mycbs" data-role="main-nav-item"   aa-link="global nav|my cbs|7|click"> MY CBS </a></li>
+                            <li><a href="/live-tv/stream/tveverywhere" data-role="main-nav-item"   aa-link="global nav|tv provider|8|click">TV PROVIDER</a></li>
+                            <li><a href="http://cbsnews.com" data-role="main-nav-item"   aa-link="global nav|cbs news|9|click"> CBS NEWS </a></li>
+                            <li><a href="http://cbssports.com" data-role="main-nav-item"   aa-link="global nav|cbs sports|10|click"> CBS SPORTS </a></li>
+                        </ul>
+                    </section>
+                </nav>
+                <div class="_s_ left"></div>
+
+                <div id="globalSearch" class="left">
+                    <a href="javascript:void(0);"></a>
+                </div>
+                
+                                    <div id="globalUserBar" class="right ">
+
+                                                   <a id="globalBarUserLink" href="https://www.cbs.com/user/signup/">
+                                <span id="userBarName">SIGN IN</span>
+                            </a>
+                        
+                                                    <a href="/all-access/?intcid=CIAb4ac575" class="left aa-btn "
+                                >
+                                Try CBS All Access                            </a>
+                        
+                    </div>
+                            </div>
+        </div>
+    </section>
+
+</header> <!-- End of #globalHeaderContainer -->
+<!-- search -->
+<div id="globalSearchBox">
+    <section class="widthWrapper">
+        <div class="lrGutter">
+            <div class="header">
+                <div></div>
+                <div>Search</div>
+                <a href="javascript:void(0);" class="close"></a>
+            </div>
+            <input type="search" id='ui-site-search-box'>
+
+            <div class="autoCompleteRes"></div>
+        </div>
+    </section>
+</div>
+<!-- end search -->
+<script>
+    var CBSHeader = null;
+    var GlobalLogin;
+
+    $(document).ready(function () {
+        CBSHeader = new CBS.Header();
+
+        CBSHeader.init();
+        GlobalLogin = new Login("loginModal");
+    });
+</script>
+
+<script type="text/javascript">
+    $.getScript("http://wwwimage.cbsstatic.com/assets/min/js/cbs/ads/cbs.ads.min.js?20171006-000313")
+</script>
+
+<main>
+
+    <section id="marquee" class="cbs-marquee-container">
+    <!-- Marquee -->
+            <div id="homepage-marquee" class="cbs-marquee">
+            <ul>
+                                    <li style="background-image: url('http://wwwimage5.cbsstatic.com/base/files/064bc2cf92d414ca_aa_3392_std_accolades_02_mq_hp_980-tif-2000x440.jpg')"
+                        class="slide-js"
+                        data-tracking="Home|Marquee|Star Trek Accolades - Anony/Reg||1">
+                                                    <a href="https://www.cbs.com/all-access/?cbscidmt=discovery&intcid=CIA-00-10aea7g"
+                               target="_self" class="slide-cta-js click-wrapper" >
+                                                <section class="grid-row lrGutter">
+                            <h2><br/></h2>
+                            <p class="tuneInTime"></p>
+                            <p class="episodeTitle">
+                                                                                                                            </p>
+                                                    </section>
+                        </a>                    </li>
+                                    <li style="background-image: url('http://wwwimage5.cbsstatic.com/base/files/859e5a5e4fbfce3a_aa_3091_fullseasons_genericupdate-01-mq-1wf-hp_980_2000x440.jpg')"
+                        class="slide-js"
+                        data-tracking="Home|Marquee|Watch Full Season Stacking - Anony/Reg||2">
+                                                    <a href="http://www.cbs.com/all-access/?intcid=CIA-00-10ade8a"
+                               target="_self" class="slide-cta-js click-wrapper" >
+                                                <section class="grid-row lrGutter">
+                            <h2><br/></h2>
+                            <p class="tuneInTime"></p>
+                            <p class="episodeTitle">
+                                                                                                                            </p>
+                                                    </section>
+                        </a>                    </li>
+                                    <li style="background-image: url('http://wwwimage4.cbsstatic.com/base/files/marquee/slide_b666b88e-6036-43fd-a2fe-d1367ae46d5e.jpg')"
+                        class="slide-js"
+                        data-tracking="Home|Marquee|9JKL - Full Episode|Watch Full Episode|3">
+                                                    <a href="http://www.cbs.com/shows/9jkl/video/?ftag=MKT-01-10aaa6b"
+                               target="_self" class="slide-cta-js click-wrapper button-slide" >
+                                                <section class="grid-row lrGutter">
+                            <h2>9JKL<br/></h2>
+                            <p class="tuneInTime">Mondays 8:30/7:30c</p>
+                            <p class="episodeTitle">
+                                Season 1 Episode 2                                                                <span class="separator"></span>
+                                                                Relationship Guy                            </p>
+                                                        <p class="buttons">
+                                                                    <span class="button slide-hoverable" >
+                                        Watch Full Episode                                    </span>
+                                                            </p>
+                                                    </section>
+                        </a>                    </li>
+                                    <li style="background-image: url('http://wwwimage5.cbsstatic.com/base/files/marquee/slide_3c96a14a-90ca-4aa6-9594-f1f6279b083a.jpg')"
+                        class="slide-js"
+                        data-tracking="Home|Marquee|Me, Myself, & I - Full Episode|Watch Full Episode|4">
+                                                    <a href="http://www.cbs.com/shows/me-myself-and-i/video/?ftag=MKT-01-10aaa6c"
+                               target="_self" class="slide-cta-js click-wrapper button-slide" >
+                                                <section class="grid-row lrGutter">
+                            <h2>Me, Myself, & I<br/></h2>
+                            <p class="tuneInTime">Mondays 9:30/8:30c</p>
+                            <p class="episodeTitle">
+                                Season 1 Episode 3                                                                <span class="separator"></span>
+                                                                The Card                            </p>
+                                                        <p class="buttons">
+                                                                    <span class="button slide-hoverable" >
+                                        Watch Full Episode                                    </span>
+                                                            </p>
+                                                    </section>
+                        </a>                    </li>
+                                    <li style="background-image: url('http://wwwimage2.cbsstatic.com/base/files/marquee/a7e5d65e2011ec64_ncis_mq_web_1400x440.jpg')"
+                        class="slide-js"
+                        data-tracking="Home|Marquee|NCIS - Preview|Watch Preview|5">
+                                                    <a href="http://www.cbs.com/shows/ncis/video/tLqAUAPx402qjCj4X1jAtgcbX710XKye/ncis-exit-strategy-preview-/?ftag=MKT-01-10aaa6d"
+                               target="_self" class="slide-cta-js click-wrapper button-slide" >
+                                                <section class="grid-row lrGutter">
+                            <h2>NCIS<br/></h2>
+                            <p class="tuneInTime">Tuesdays 8/7c</p>
+                            <p class="episodeTitle">
+                                Season 15 Episode 3                                                                <span class="separator"></span>
+                                                                Exit Strategy                            </p>
+                                                        <p class="buttons">
+                                                                    <span class="button slide-hoverable" >
+                                        Watch Preview                                    </span>
+                                                            </p>
+                                                    </section>
+                        </a>                    </li>
+                                    <li style="background-image: url('http://wwwimage1.cbsstatic.com/base/files/marquee/407e040d37d7937d_bull_mq_web_1400x440.jpg')"
+                        class="slide-js"
+                        data-tracking="Home|Marquee|Bull - Preview|Watch Preview|6">
+                                                    <a href="http://www.cbs.com/shows/bull/video/tq9cjGjI1wekrywoUeKpsz81Rdpsb0nS/bull-a-business-of-favors-preview-/?ftag=MKT-01-10aaa6e"
+                               target="_self" class="slide-cta-js click-wrapper button-slide" >
+                                                <section class="grid-row lrGutter">
+                            <h2>Bull<br/></h2>
+                            <p class="tuneInTime">Tuesdays 9/8c</p>
+                            <p class="episodeTitle">
+                                Season 2 Episode 3                                                                <span class="separator"></span>
+                                                                A Business of Favors                            </p>
+                                                        <p class="buttons">
+                                                                    <span class="button slide-hoverable" >
+                                        Watch Preview                                    </span>
+                                                            </p>
+                                                    </section>
+                        </a>                    </li>
+                            </ul>
+        </div>
+    </section>
+
+
+<div id="adSkinLeft"></div>
+<div id="adSkinRight"></div>
+
+
+<div id="stickyAds" style="position: relative">
+    <style>
+
+#classicsLeadderAd{
+	background-color: #000;
+}
+#classicsLeadderAd div#cbs-pushdown-wrapper {
+	position:relative;
+	text-align:center;
+	width:970px;
+	margin: auto;
+	padding: 10px 0 10px 0;
+}
+
+div#cbs-pushdown-wrapper {
+	position:relative;
+	text-align:center;
+	width:970px;
+	margin:10px auto;
+}
+
+div#stickyAds div#cbs-pushdown-wrapper {
+    margin:0 auto;
+}
+
+div#masterTopWrapper {background-position:bottom !important}
+div#masterPageWrapper {zoom:1}
+</style>
+
+
+<div id="cbs-pushdown-wrapper">
+	<div id="leader-plus-top"></div>
+</div>
+
+
+<!--[if lte IE 7]>
+<script language="javascript" type="text/javascript">
+	function ieRedrawFixCollapsed () {
+		jQuery(".cbs-mod-rc").css({position: 'relative'});
+		jQuery(".cbs-mod-rc-2x").css({position: 'relative'});
+		jQuery(".playBtnOverlay").css({position: 'relative'});
+	}
+	function ieRedrawFixExpanded () {
+		jQuery(".cbs-mod-rc").css({position: 'static'});
+		jQuery(".cbs-mod-rc-2x").css({position: 'static'});
+		jQuery(".playBtnOverlay").css({position: 'static'});
+	}
+</script>
+<![endif]-->
+
+        	<style>div#page, div#cbs-page {background-position:0 93px} div#ad728x90-wrapper {width:970px; margin:0 auto}  div#leader-top:empty {padding:0}</style>
+		<div id="ad728x90-wrapper"><div id="leader-top"></div><div class="clear"></div></div>
+    
+	    </div>
+
+
+<section id="skin" style="overflow: hidden;">
+
+    <!--<section class="ad ad--728x90 grid-row"></section>-->
+
+    
+    
+<section id="homepage-latest-episodes" class="grid-row grid-row--vspace" aa-region="full episodes">
+    <div class="latest-episodes-list lrGutter">
+        <h2 class="title">Latest Full Episodes</h2>
+                <div style="clear: both;"></div>
+        <ul class="eight episode-list">
+                            <li class="episode ">
+
+                    <a class="link" itemscope itemtype="http://schema.org/TVEpisode" href="/shows/scorpion/video/Jv_BgXHjSuWyqoulU2oUuMa0X6GObWlU/scorpion-grow-a-deer-a-female-deer/" data-tracking="|Scorpion|S4|Ep3|10/09/17|Grow a Deer, A Female Deer|1|free|"  aa-link="home|grid|full episodes|Scorpion - Grow a Deer, A Female Deer|1|click">
+                        <meta itemprop="name" content="Grow a Deer, A Female Deer" />
+                        <meta itemprop="description" content="Scorpion - Grow a Deer, A Female Deer" />
+                        <span itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+                            <meta itemprop="url" content="/shows/scorpion/video/Jv_BgXHjSuWyqoulU2oUuMa0X6GObWlU/scorpion-grow-a-deer-a-female-deer/">
+                            <meta itemprop="name" content="Scorpion - Grow A Deer, A Female Deer">
+                            <meta itemprop="description" content="">
+                            <meta itemprop="thumbnailUrl" content="http://wwwimage3.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/861/687/2017/10/09/1063906883723/CBS_SCORPION_403_IMAGE_NO_LOGO_thumb_Master.jpg">
+                            <meta itemprop="uploadDate" content="2017-10-09T19:00:00-07:00">
+                        </span>
+
+                        <div class="thumb-wrapper available">
+                            <img class="thumb" src="http://wwwimage3.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/861/687/2017/10/09/1063906883723/CBS_SCORPION_403_IMAGE_NO_LOGO_thumb_Master.jpg" alt="Scorpion - Grow a Deer, A Female Deer"/>
+                            <div class="cta"></div>
+                        </div>
+                        <div class="info-wrapper">
+                            <div class="ep-title"  itemprop="partOfSeries" itemscope itemtype="http://schema.org/TVSeries">
+                                <span itemprop="name">Scorpion</span>
+                            </div>
+                            <div class="sub-title">
+                                                                    <span itemprop="partOfSeason" itemscope itemtype="http://schema.org/TVSeason">
+                                                                            <meta itemprop="seasonNumber" content="4"/>
+                                    <meta itemprop="name" content="Season 4"/>
+                                    S4                                </span>
+                                    <span itemprop="episodeNumber" content="3">Episode 3</span>
+                                    |                                 <span itemprop="publication" itemscope itemtype="http://schema.org/BroadcastEvent">
+                                    <meta itemprop="startDate" content="2017-10-09T19:00:00-07:00"/>
+                                    10/09/17                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                                <li class="episode ">
+
+                    <a class="link" itemscope itemtype="http://schema.org/TVEpisode" href="/shows/me-myself-and-i/video/M1BYhtKjKXGeqnup6oV9B3P3kZSSeV3B/me-myself-and-i-the-card/" data-tracking="|Me, Myself & I|S1|Ep3|10/09/17|The Card|2|free|"  aa-link="home|grid|full episodes|Me, Myself & I - The Card|2|click">
+                        <meta itemprop="name" content="The Card" />
+                        <meta itemprop="description" content="Me, Myself & I - The Card" />
+                        <span itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+                            <meta itemprop="url" content="/shows/me-myself-and-i/video/M1BYhtKjKXGeqnup6oV9B3P3kZSSeV3B/me-myself-and-i-the-card/">
+                            <meta itemprop="name" content="Me Myself and I - The Card">
+                            <meta itemprop="description" content="">
+                            <meta itemprop="thumbnailUrl" content="http://wwwimage3.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/856/807/2017/10/09/1063901763834/CBS_ME_MYSELF_I_103_IMAGE_NO_LOGO_thumb_Master.jpg">
+                            <meta itemprop="uploadDate" content="2017-10-09T18:30:00-07:00">
+                        </span>
+
+                        <div class="thumb-wrapper available">
+                            <img class="thumb" src="http://wwwimage3.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/856/807/2017/10/09/1063901763834/CBS_ME_MYSELF_I_103_IMAGE_NO_LOGO_thumb_Master.jpg" alt="Me, Myself & I - The Card"/>
+                            <div class="cta"></div>
+                        </div>
+                        <div class="info-wrapper">
+                            <div class="ep-title"  itemprop="partOfSeries" itemscope itemtype="http://schema.org/TVSeries">
+                                <span itemprop="name">Me, Myself & I</span>
+                            </div>
+                            <div class="sub-title">
+                                                                    <span itemprop="partOfSeason" itemscope itemtype="http://schema.org/TVSeason">
+                                                                            <meta itemprop="seasonNumber" content="1"/>
+                                    <meta itemprop="name" content="Season 1"/>
+                                    S1                                </span>
+                                    <span itemprop="episodeNumber" content="3">Episode 3</span>
+                                    |                                 <span itemprop="publication" itemscope itemtype="http://schema.org/BroadcastEvent">
+                                    <meta itemprop="startDate" content="2017-10-09T18:30:00-07:00"/>
+                                    10/09/17                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                                <li class="episode ">
+
+                    <a class="link" itemscope itemtype="http://schema.org/TVEpisode" href="/shows/kevin-can-wait/video/lpzdjtXDAbpKEEQHMVNy6Kr0eoQ7ZW_m/kevin-can-wait-kevin-goes-nuts/" data-tracking="|Kevin Can Wait|S2|Ep3|10/09/17|Kevin Goes Nuts|3|free|"  aa-link="home|grid|full episodes|Kevin Can Wait - Kevin Goes Nuts|3|click">
+                        <meta itemprop="name" content="Kevin Goes Nuts" />
+                        <meta itemprop="description" content="Kevin Can Wait - Kevin Goes Nuts" />
+                        <span itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+                            <meta itemprop="url" content="/shows/kevin-can-wait/video/lpzdjtXDAbpKEEQHMVNy6Kr0eoQ7ZW_m/kevin-can-wait-kevin-goes-nuts/">
+                            <meta itemprop="name" content="Kevin Can wait - Kevin Goes Nuts">
+                            <meta itemprop="description" content="">
+                            <meta itemprop="thumbnailUrl" content="http://wwwimage3.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/848/499/2017/10/09/1063893059966/CBS_KEVIN_CAN_WAIT_203_IMAGE_CIAN_NO_LOGO_thumb_Master.jpg">
+                            <meta itemprop="uploadDate" content="2017-10-09T18:00:00-07:00">
+                        </span>
+
+                        <div class="thumb-wrapper available">
+                            <img class="thumb" src="http://wwwimage3.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/848/499/2017/10/09/1063893059966/CBS_KEVIN_CAN_WAIT_203_IMAGE_CIAN_NO_LOGO_thumb_Master.jpg" alt="Kevin Can Wait - Kevin Goes Nuts"/>
+                            <div class="cta"></div>
+                        </div>
+                        <div class="info-wrapper">
+                            <div class="ep-title"  itemprop="partOfSeries" itemscope itemtype="http://schema.org/TVSeries">
+                                <span itemprop="name">Kevin Can Wait</span>
+                            </div>
+                            <div class="sub-title">
+                                                                    <span itemprop="partOfSeason" itemscope itemtype="http://schema.org/TVSeason">
+                                                                            <meta itemprop="seasonNumber" content="2"/>
+                                    <meta itemprop="name" content="Season 2"/>
+                                    S2                                </span>
+                                    <span itemprop="episodeNumber" content="3">Episode 3</span>
+                                    |                                 <span itemprop="publication" itemscope itemtype="http://schema.org/BroadcastEvent">
+                                    <meta itemprop="startDate" content="2017-10-09T18:00:00-07:00"/>
+                                    10/09/17                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                                <li class="episode last">
+
+                    <a class="link" itemscope itemtype="http://schema.org/TVEpisode" href="/shows/9jkl/video/94Bb7YnbBNn8958ly03EWjO9ZU1gmUI7/9jkl-relationship-guy/" data-tracking="|9JKL|S1|Ep2|10/09/17|Relationship Guy|4|free|"  aa-link="home|grid|full episodes|9JKL - Relationship Guy|4|click">
+                        <meta itemprop="name" content="Relationship Guy" />
+                        <meta itemprop="description" content="9JKL - Relationship Guy" />
+                        <span itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+                            <meta itemprop="url" content="/shows/9jkl/video/94Bb7YnbBNn8958ly03EWjO9ZU1gmUI7/9jkl-relationship-guy/">
+                            <meta itemprop="name" content="9JKL - Relationship Guy">
+                            <meta itemprop="description" content="">
+                            <meta itemprop="thumbnailUrl" content="http://wwwimage2.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/843/619/2017/10/09/1063887939753/CBS_9JKL_104_IMAGE_NO_LOGO_thumb_Master.jpg">
+                            <meta itemprop="uploadDate" content="2017-10-09T17:30:00-07:00">
+                        </span>
+
+                        <div class="thumb-wrapper available">
+                            <img class="thumb" src="http://wwwimage2.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/843/619/2017/10/09/1063887939753/CBS_9JKL_104_IMAGE_NO_LOGO_thumb_Master.jpg" alt="9JKL - Relationship Guy"/>
+                            <div class="cta"></div>
+                        </div>
+                        <div class="info-wrapper">
+                            <div class="ep-title"  itemprop="partOfSeries" itemscope itemtype="http://schema.org/TVSeries">
+                                <span itemprop="name">9JKL</span>
+                            </div>
+                            <div class="sub-title">
+                                                                    <span itemprop="partOfSeason" itemscope itemtype="http://schema.org/TVSeason">
+                                                                            <meta itemprop="seasonNumber" content="1"/>
+                                    <meta itemprop="name" content="Season 1"/>
+                                    S1                                </span>
+                                    <span itemprop="episodeNumber" content="2">Episode 2</span>
+                                    |                                 <span itemprop="publication" itemscope itemtype="http://schema.org/BroadcastEvent">
+                                    <meta itemprop="startDate" content="2017-10-09T17:30:00-07:00"/>
+                                    10/09/17                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                                <li class="episode ">
+
+                    <a class="link" itemscope itemtype="http://schema.org/TVEpisode" href="/shows/big_bang_theory/video/Sq_o7H2aaaBVsf9EciCTFwn1HQYsll1f/the-big-bang-theory-the-relaxation-integration/" data-tracking="|The Big Bang Theory|S11|Ep3|10/09/17|The Relaxation Integration|5|free|"  aa-link="home|grid|full episodes|The Big Bang Theory - The Relaxation Integration|5|click">
+                        <meta itemprop="name" content="The Relaxation Integration" />
+                        <meta itemprop="description" content="The Big Bang Theory - The Relaxation Integration" />
+                        <span itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+                            <meta itemprop="url" content="/shows/big_bang_theory/video/Sq_o7H2aaaBVsf9EciCTFwn1HQYsll1f/the-big-bang-theory-the-relaxation-integration/">
+                            <meta itemprop="name" content="The Big Bang Theory - The Relaxation Integration">
+                            <meta itemprop="description" content="">
+                            <meta itemprop="thumbnailUrl" content="http://wwwimage5.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/832/382/2017/10/09/1063876163525/CBS_BIG_BANG_1103_IMGE_CIAN_NO_LOGO_thumb_Master.jpg">
+                            <meta itemprop="uploadDate" content="2017-10-09T17:00:00-07:00">
+                        </span>
+
+                        <div class="thumb-wrapper available">
+                            <img class="thumb" src="http://wwwimage5.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/832/382/2017/10/09/1063876163525/CBS_BIG_BANG_1103_IMGE_CIAN_NO_LOGO_thumb_Master.jpg" alt="The Big Bang Theory - The Relaxation Integration"/>
+                            <div class="cta"></div>
+                        </div>
+                        <div class="info-wrapper">
+                            <div class="ep-title"  itemprop="partOfSeries" itemscope itemtype="http://schema.org/TVSeries">
+                                <span itemprop="name">The Big Bang Theory</span>
+                            </div>
+                            <div class="sub-title">
+                                                                    <span itemprop="partOfSeason" itemscope itemtype="http://schema.org/TVSeason">
+                                                                            <meta itemprop="seasonNumber" content="11"/>
+                                    <meta itemprop="name" content="Season 11"/>
+                                    S11                                </span>
+                                    <span itemprop="episodeNumber" content="3">Episode 3</span>
+                                    |                                 <span itemprop="publication" itemscope itemtype="http://schema.org/BroadcastEvent">
+                                    <meta itemprop="startDate" content="2017-10-09T17:00:00-07:00"/>
+                                    10/09/17                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                                <li class="episode ">
+
+                    <a class="link" itemscope itemtype="http://schema.org/TVEpisode" href="/shows/madam-secretary/video/PZm_3lN0t7Emb7zSipG_JEyWjBmFPUtT/madam-secretary-news-cycle/" data-tracking="|Madam Secretary|S4|Ep1|10/08/17|News Cycle|6|free|"  aa-link="home|grid|full episodes|Madam Secretary - News Cycle|6|click">
+                        <meta itemprop="name" content="News Cycle" />
+                        <meta itemprop="description" content="Madam Secretary - News Cycle" />
+                        <span itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+                            <meta itemprop="url" content="/shows/madam-secretary/video/PZm_3lN0t7Emb7zSipG_JEyWjBmFPUtT/madam-secretary-news-cycle/">
+                            <meta itemprop="name" content="Madam Secretary - News Cycle">
+                            <meta itemprop="description" content="">
+                            <meta itemprop="thumbnailUrl" content="http://wwwimage5.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/156/63/2017/10/08/1056724547968/CBS_MADAM_SECRETARY_401_NO_LOGO_IMAGE_thumb_Master.jpg">
+                            <meta itemprop="uploadDate" content="2017-10-08T19:00:00-07:00">
+                        </span>
+
+                        <div class="thumb-wrapper available">
+                            <img class="thumb" src="http://wwwimage5.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/156/63/2017/10/08/1056724547968/CBS_MADAM_SECRETARY_401_NO_LOGO_IMAGE_thumb_Master.jpg" alt="Madam Secretary - News Cycle"/>
+                            <div class="cta"></div>
+                        </div>
+                        <div class="info-wrapper">
+                            <div class="ep-title"  itemprop="partOfSeries" itemscope itemtype="http://schema.org/TVSeries">
+                                <span itemprop="name">Madam Secretary</span>
+                            </div>
+                            <div class="sub-title">
+                                                                    <span itemprop="partOfSeason" itemscope itemtype="http://schema.org/TVSeason">
+                                                                            <meta itemprop="seasonNumber" content="4"/>
+                                    <meta itemprop="name" content="Season 4"/>
+                                    S4                                </span>
+                                    <span itemprop="episodeNumber" content="1">Episode 1</span>
+                                    |                                 <span itemprop="publication" itemscope itemtype="http://schema.org/BroadcastEvent">
+                                    <meta itemprop="startDate" content="2017-10-08T19:00:00-07:00"/>
+                                    10/08/17                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                                <li class="episode ">
+
+                    <a class="link" itemscope itemtype="http://schema.org/TVEpisode" href="/shows/ncis_los_angeles/video/93XL3OODtZiieyUirg3lNIU3bT6qFspY/ncis-los-angeles-se-murio-el-payaso/" data-tracking="|NCIS: Los Angeles|S9|Ep2|10/08/17|Se Murio El Payaso|7|free|"  aa-link="home|grid|full episodes|NCIS: Los Angeles - Se Murio El Payaso|7|click">
+                        <meta itemprop="name" content="Se Murio El Payaso" />
+                        <meta itemprop="description" content="NCIS: Los Angeles - Se Murio El Payaso" />
+                        <span itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+                            <meta itemprop="url" content="/shows/ncis_los_angeles/video/93XL3OODtZiieyUirg3lNIU3bT6qFspY/ncis-los-angeles-se-murio-el-payaso/">
+                            <meta itemprop="name" content="NCIS Los Angeles - Se Murio El Payaso">
+                            <meta itemprop="description" content="">
+                            <meta itemprop="thumbnailUrl" content="http://wwwimage3.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/805/530/2017/10/08/1063848003535/CBS_NCISLA_825_IMAGE_CLEAN_thumb_Master.jpg">
+                            <meta itemprop="uploadDate" content="2017-10-08T18:00:00-07:00">
+                        </span>
+
+                        <div class="thumb-wrapper available">
+                            <img class="thumb" src="http://wwwimage3.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/805/530/2017/10/08/1063848003535/CBS_NCISLA_825_IMAGE_CLEAN_thumb_Master.jpg" alt="NCIS: Los Angeles - Se Murio El Payaso"/>
+                            <div class="cta"></div>
+                        </div>
+                        <div class="info-wrapper">
+                            <div class="ep-title"  itemprop="partOfSeries" itemscope itemtype="http://schema.org/TVSeries">
+                                <span itemprop="name">NCIS: Los Angeles</span>
+                            </div>
+                            <div class="sub-title">
+                                                                    <span itemprop="partOfSeason" itemscope itemtype="http://schema.org/TVSeason">
+                                                                            <meta itemprop="seasonNumber" content="9"/>
+                                    <meta itemprop="name" content="Season 9"/>
+                                    S9                                </span>
+                                    <span itemprop="episodeNumber" content="2">Episode 2</span>
+                                    |                                 <span itemprop="publication" itemscope itemtype="http://schema.org/BroadcastEvent">
+                                    <meta itemprop="startDate" content="2017-10-08T18:00:00-07:00"/>
+                                    10/08/17                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                                <li class="episode last">
+
+                    <a class="link" itemscope itemtype="http://schema.org/TVEpisode" href="/shows/star-trek-discovery/video/MtzkoIrzFX7wPRW8EKZAdDlYkTHrTJym/star-trek-discovery-the-butcher-s-knife-cares-not-for-the-lamb-s-cry/" data-tracking="|Star Trek: Discovery|S1|Ep4|10/08/17|The Butcher's Knife Cares Not for the Lamb's Cry|8|pay|"  aa-link="home|grid|full episodes|Star Trek: Discovery - The Butcher&#039;s Knife Cares Not for the Lamb&#039;s Cry|8|click">
+                        <meta itemprop="name" content="The Butcher's Knife Cares Not for the Lamb's Cry" />
+                        <meta itemprop="description" content="Star Trek: Discovery - The Butcher&#039;s Knife Cares Not for the Lamb&#039;s Cry" />
+                        <span itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+                            <meta itemprop="url" content="/shows/star-trek-discovery/video/MtzkoIrzFX7wPRW8EKZAdDlYkTHrTJym/star-trek-discovery-the-butcher-s-knife-cares-not-for-the-lamb-s-cry/">
+                            <meta itemprop="name" content="Star Trek Discovery - The Butcher's Knife Cares Not for the Lamb's Cry">
+                            <meta itemprop="description" content="">
+                            <meta itemprop="thumbnailUrl" content="http://wwwimage4.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/406/455/2017/10/08/1065577027972/CBS_STD_104_HD_IMAGE_FINAL_1920x1080_thumb_Master.jpg">
+                            <meta itemprop="uploadDate" content="2017-10-08T17:00:00-07:00">
+                        </span>
+
+                        <div class="thumb-wrapper available">
+                            <img class="thumb" src="http://wwwimage4.cbsstatic.com/thumbnails/videos/w270/CBS_Production_Entertainment_VMS/406/455/2017/10/08/1065577027972/CBS_STD_104_HD_IMAGE_FINAL_1920x1080_thumb_Master.jpg" alt="Star Trek: Discovery - The Butcher&#039;s Knife Cares Not for the Lamb&#039;s Cry"/>
+                            <div class="cta subscribe"></div>
+                        </div>
+                        <div class="info-wrapper">
+                            <div class="ep-title"  itemprop="partOfSeries" itemscope itemtype="http://schema.org/TVSeries">
+                                <span itemprop="name">Star Trek: Discovery</span>
+                            </div>
+                            <div class="sub-title">
+                                                                    <span itemprop="partOfSeason" itemscope itemtype="http://schema.org/TVSeason">
+                                                                            <meta itemprop="seasonNumber" content="1"/>
+                                    <meta itemprop="name" content="Season 1"/>
+                                    S1                                </span>
+                                    <span itemprop="episodeNumber" content="4">Episode 4</span>
+                                    |                                 <span itemprop="publication" itemscope itemtype="http://schema.org/BroadcastEvent">
+                                    <meta itemprop="startDate" content="2017-10-08T17:00:00-07:00"/>
+                                    10/08/17                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                        </ul>
+        <a class="load-more">Load More</a>
+        <div class="loading-more">
+            <img src="/assets/images/site/loader.gif" alt="Loading More Latest Episodes">
+        </div>
+    </div>
+</section>
+
+
+<script type="text/javascript">
+    $(function() {
+
+                var currentLatestEpisodesPage = 1;
+        function loadMoreLatestEpisodes(){
+            $.ajax({
+                type: 'GET',
+                url: '/carousels/homepage/loadmore/' + currentLatestEpisodesPage + '/',
+                dataType: 'json',
+                success: function (data) {
+                    $('#homepage-latest-episodes .loading-more').hide();
+                    $( "#homepage-latest-episodes .episode-list" ).append( data.html );
+                    $('#homepage-latest-episodes .load-more').show();
+                    currentLatestEpisodesPage++;
+                    Homepage.tracking.latestEpisodesExtra(data.cids);
+                }
+            });
+        }
+
+        function loadMoreClick(){
+            $('#homepage-latest-episodes .load-more').hide();
+            $('#homepage-latest-episodes .loading-more').show();
+            loadMoreLatestEpisodes();
+        }
+        $('#homepage-latest-episodes .load-more').click(loadMoreClick);
+    });
+</script>
+<section id="clips-carousel" class="black-wrapper background-image">
+    <div class="clips-carousel grid-row grid-row--vspace">
+        <div class="clips-wrapper lrGutter">
+            <div id="clips-list" class="clips">
+            </div>
+        </div>
+    </div>
+</section>    <section id="showsCarousel" class="grid-row grid-row--vspace lrGutter shrinks-on-ad-skin">
+        
+    <div class="header">
+        <div class="title"> Featured Shows </div>
+        <div class="spacer"></div>
+        <div class="previous disabled"></div>
+        <div class="buttonSpacer"></div>
+        <div class="next "></div>
+    </div>
+    <div class="overflowContainer">
+        <div class="carousel fontLato" >
+                            <div class="showItem" itemscope itemtype="http://schema.org/TVSeries">
+                    <span class="schema" itemprop="name"> Star Trek: Discovery </span>
+                    <a itemprop="url" href="http://www.cbs.com/shows/star-trek-discovery/">
+                        <img src="http://wwwimage2.cbsstatic.com/thumbnails/photos/w170/show_asset/35/78/51/a3ac5ff803dacc45_stdis_poster_1396x1768.jpg" alt="Star Trek: Discovery">
+                        <div class="episodeCount">
+                                                            <span class="episodes" itemprop="numberOfEpisodes"> 4 </span> Episodes                                                    </div>
+                    </a>
+                </div>    
+                            <div class="showItem" itemscope itemtype="http://schema.org/TVSeries">
+                    <span class="schema" itemprop="name"> NFL on CBS </span>
+                    <a itemprop="url" href="http://www.cbs.com/shows/nfl-on-cbs/">
+                        <img src="http://wwwimage4.cbsstatic.com/thumbnails/photos/w170/show_asset/82/04/50/c5ba803b8b37d0fe_nfl_poster_1396x1768.jpg" alt="NFL on CBS">
+                        <div class="episodeCount">
+                                                                                                                </div>
+                    </a>
+                </div>    
+                            <div class="showItem" itemscope itemtype="http://schema.org/TVSeries">
+                    <span class="schema" itemprop="name"> Wisdom Of The Crowd </span>
+                    <a itemprop="url" href="http://www.cbs.com/shows/wisdom-of-the-crowd/">
+                        <img src="http://wwwimage4.cbsstatic.com/thumbnails/photos/w170/show_asset/02/92/04/2c04f31628a7d4d9_wotc_poster_1396x1768.jpg" alt="Wisdom Of The Crowd">
+                        <div class="episodeCount">
+                                                            <span class="episodes" itemprop="numberOfEpisodes"> 2 </span> Episodes                                                    </div>
+                    </a>
+                </div>    
+                            <div class="showItem" itemscope itemtype="http://schema.org/TVSeries">
+                    <span class="schema" itemprop="name"> Criminal Minds </span>
+                    <a itemprop="url" href="http://www.cbs.com/shows/criminal_minds/">
+                        <img src="http://wwwimage2.cbsstatic.com/thumbnails/photos/w170/show_asset/87/28/66/0d24877620f7df01_cm_poster_1396x1768.jpg" alt="Criminal Minds">
+                        <div class="episodeCount">
+                                                            <span class="episodes" itemprop="numberOfEpisodes"> 2 </span> Episodes                                                    </div>
+                    </a>
+                </div>    
+                            <div class="showItem" itemscope itemtype="http://schema.org/TVSeries">
+                    <span class="schema" itemprop="name"> NCIS </span>
+                    <a itemprop="url" href="http://www.cbs.com/shows/ncis/">
+                        <img src="http://wwwimage4.cbsstatic.com/thumbnails/photos/w170/show_asset/87/31/00/cd2ea52029e1a923_ncis_poster_1396x1768.jpg" alt="NCIS">
+                        <div class="episodeCount">
+                                                            <span class="episodes" itemprop="numberOfEpisodes"> 331 </span> Episodes                                                    </div>
+                    </a>
+                </div>    
+                            <div class="showItem" itemscope itemtype="http://schema.org/TVSeries">
+                    <span class="schema" itemprop="name"> Madam Secretary </span>
+                    <a itemprop="url" href="http://www.cbs.com/shows/madam-secretary/">
+                        <img src="http://wwwimage2.cbsstatic.com/thumbnails/photos/w170/show_asset/87/20/39/920bacb5fdee1dc2_ms_poster_1396x1768.jpg" alt="Madam Secretary">
+                        <div class="episodeCount">
+                                                            <span class="episodes" itemprop="numberOfEpisodes"> 69 </span> Episodes                                                    </div>
+                    </a>
+                </div>    
+                            <div class="showItem" itemscope itemtype="http://schema.org/TVSeries">
+                    <span class="schema" itemprop="name"> Scorpion </span>
+                    <a itemprop="url" href="http://www.cbs.com/shows/scorpion/">
+                        <img src="http://wwwimage3.cbsstatic.com/thumbnails/photos/w170/show_asset/87/20/74/573c7aab36ce6be7_scp_poster_1396x1768.jpg" alt="Scorpion">
+                        <div class="episodeCount">
+                                                            <span class="episodes" itemprop="numberOfEpisodes"> 74 </span> Episodes                                                    </div>
+                    </a>
+                </div>    
+                            <div class="showItem" itemscope itemtype="http://schema.org/TVSeries">
+                    <span class="schema" itemprop="name"> MacGyver </span>
+                    <a itemprop="url" href="http://www.cbs.com/shows/macgyver/">
+                        <img src="http://wwwimage2.cbsstatic.com/thumbnails/photos/w170/show_asset/57/39/27/727abf4f7d6eda15_mcg_poster_1396x1768.jpg" alt="MacGyver">
+                        <div class="episodeCount">
+                                                            <span class="episodes" itemprop="numberOfEpisodes"> 23 </span> Episodes                                                    </div>
+                    </a>
+                </div>    
+             
+        </div>
+    </div>
+    </section>
+    <!-- Schedule -->
+    <section id="homepage-schedule" class="grid-row grid-row--vspace lrGutter shrinks-on-ad-skin">
+    <h2>Schedule:</h2>
+    <div id="schedule-filter" class="menuContainer"><div class="dropdown_title"><span class="filter-caption">Tuesday, October 10th</span><span class="arrow-down"></span></div>
+        <ul>
+                    <li><a data-tracking="home|schedule|day|10/10/2017|click">Tuesday, October 10th</a></li>
+                    <li><a data-tracking="home|schedule|day|10/11/2017|click">Wednesday, October 11th</a></li>
+                    <li><a data-tracking="home|schedule|day|10/12/2017|click">Thursday, October 12th</a></li>
+                    <li><a data-tracking="home|schedule|day|10/13/2017|click">Friday, October 13th</a></li>
+                    <li><a data-tracking="home|schedule|day|10/14/2017|click">Saturday, October 14th</a></li>
+                    <li><a data-tracking="home|schedule|day|10/15/2017|click">Sunday, October 15th</a></li>
+                    <li><a data-tracking="home|schedule|day|10/16/2017|click">Monday, October 16th</a></li>
+                    <li><a data-tracking="home|schedule|day|10/17/2017|click">Tuesday, October 17th</a></li>
+                    <li><a data-tracking="home|schedule|day|10/18/2017|click">Wednesday, October 18th</a></li>
+                    <li><a data-tracking="home|schedule|day|10/19/2017|click">Thursday, October 19th</a></li>
+                </ul>
+    </div>
+    <ul id="schedule-carousel" class="schedule-carousel">
+                                <li>
+
+                                    <div class="schedule-item duration-60 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Exit Strategy">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            8/7c                            <meta itemprop="startDate" content="2017-10-10T17:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/ncis/" target="_self" class="show-title" itemprop="name" content="NCIS" data-tracking="home|schedule|show|NCIS|0-0|click">
+                                NCIS                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="A Business of Favors">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            9/8c                            <meta itemprop="startDate" content="2017-10-10T18:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/bull/" target="_self" class="show-title" itemprop="name" content="Bull" data-tracking="home|schedule|show|Bull|0-1|click">
+                                Bull                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 last" itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="The Asset">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            10/9c                            <meta itemprop="startDate" content="2017-10-10T19:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/ncis-new-orleans/" target="_self" class="show-title" itemprop="name" content="NCIS: New Orleans" data-tracking="home|schedule|show|NCIS: New Orleans|0-2|click">
+                                NCIS: New Orleans                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                
+            </li>
+
+                                <li>
+
+                                    <div class="schedule-item duration-60 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="My Kisses Are Very Private">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            8/7c                            <meta itemprop="startDate" content="2017-10-11T17:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/survivor/" target="_self" class="show-title" itemprop="name" content="Survivor" data-tracking="home|schedule|show|Survivor|1-0|click">
+                                Survivor                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Boarding Party">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            9/8c                            <meta itemprop="startDate" content="2017-10-11T18:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/seal-team/" target="_self" class="show-title" itemprop="name" content="SEAL Team" data-tracking="home|schedule|show|SEAL Team|1-1|click">
+                                SEAL Team                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 last" itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Blue Angel">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            10/9c                            <meta itemprop="startDate" content="2017-10-11T19:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/criminal_minds/" target="_self" class="show-title" itemprop="name" content="Criminal Minds" data-tracking="home|schedule|show|Criminal Minds|1-2|click">
+                                Criminal Minds                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                
+            </li>
+
+                                <li>
+
+                                    <div class="schedule-item duration-180 last" itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            8/7c                            <meta itemprop="startDate" content="2017-10-12T17:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/nfl-on-cbs/" target="_self" class="show-title" itemprop="name" content="CBS Thursday Night Football: Philadelphia @ Carolina" data-tracking="home|schedule|show|CBS Thursday Night Football: Philadelphia @ Carolina|2-0|click">
+                                CBS Thursday Night Football: Philadelphia @ Carolina                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                
+            </li>
+
+                                <li>
+
+                                    <div class="schedule-item duration-60 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Roulette Wheel + Wire">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            8/7c                            <meta itemprop="startDate" content="2017-10-13T17:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/macgyver/" target="_self" class="show-title" itemprop="name" content="MacGyver" data-tracking="home|schedule|show|MacGyver|3-0|click">
+                                MacGyver                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Kau pahi, ko'u kua. Kau pu, ko'u po'o (Your knife, my back. My gun, your head.)">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            9/8c                            <meta itemprop="startDate" content="2017-10-13T18:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/bull/" target="_self" class="show-title" itemprop="name" content="Hawaii Five-0" data-tracking="home|schedule|show|Hawaii Five-0|3-1|click">
+                                Hawaii Five-0                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 last" itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="The Enemy of My Enemy">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            10/9c                            <meta itemprop="startDate" content="2017-10-13T19:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/blue_bloods/" target="_self" class="show-title" itemprop="name" content="Blue Bloods" data-tracking="home|schedule|show|Blue Bloods|3-2|click">
+                                Blue Bloods                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                
+            </li>
+
+                                <li>
+
+                                    <div class="schedule-item duration-60 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Scissors">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            8/7c                            <meta itemprop="startDate" content="2017-10-14T17:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/macgyver/" target="_self" class="show-title" itemprop="name" content="MacGyver" data-tracking="home|schedule|show|MacGyver|4-0|click">
+                                MacGyver                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Crazy Train">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            9/8c                            <meta itemprop="startDate" content="2017-10-14T18:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/ncis_los_angeles/" target="_self" class="show-title" itemprop="name" content="NCIS: Los Angeles" data-tracking="home|schedule|show|NCIS: Los Angeles|4-1|click">
+                                NCIS: Los Angeles                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 last" itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            10/9c                            <meta itemprop="startDate" content="2017-10-14T19:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/48_hours/" target="_self" class="show-title" itemprop="name" content="48 Hours" data-tracking="home|schedule|show|48 Hours|4-2|click">
+                                48 Hours                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                
+            </li>
+
+                                <li>
+
+                                    <div class="schedule-item duration-30 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            7/6c                            <meta itemprop="startDate" content="2017-10-15T16:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/nfl-on-cbs/" target="_self" class="show-title" itemprop="name" content="NFL OVERRUN - 10/15/17" data-tracking="home|schedule|show|NFL OVERRUN - 10/15/17|5-0|click">
+                                NFL OVERRUN - 10/15/17                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            7:30/6:30c                            <meta itemprop="startDate" content="2017-10-15T16:30:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/60_minutes/" target="_self" class="show-title" itemprop="name" content="60 Minutes" data-tracking="home|schedule|show|60 Minutes|5-1|click">
+                                60 Minutes                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Machine Learning">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            8:30/7:30c                            <meta itemprop="startDate" content="2017-10-15T17:30:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/wisdom-of-the-crowd/" target="_self" class="show-title" itemprop="name" content="Wisdom of the Crowd" data-tracking="home|schedule|show|Wisdom of the Crowd|5-2|click">
+                                Wisdom of the Crowd                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Assets">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            9:30/8:30c                            <meta itemprop="startDate" content="2017-10-15T18:30:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/ncis_los_angeles/" target="_self" class="show-title" itemprop="name" content="NCIS: Los Angeles" data-tracking="home|schedule|show|NCIS: Los Angeles|5-3|click">
+                                NCIS: Los Angeles                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 last" itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Off The Record">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            10:30/9:30c                            <meta itemprop="startDate" content="2017-10-15T19:30:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/madam-secretary/" target="_self" class="show-title" itemprop="name" content="Madam Secretary" data-tracking="home|schedule|show|Madam Secretary|5-4|click">
+                                Madam Secretary                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                
+            </li>
+
+                                <li>
+
+                                    <div class="schedule-item duration-30 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="The Explosion Implosion">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            8/7c                            <meta itemprop="startDate" content="2017-10-16T17:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/big_bang_theory/" target="_self" class="show-title" itemprop="name" content="Big Bang Theory, The" data-tracking="home|schedule|show|Big Bang Theory, The|6-0|click">
+                                Big Bang Theory, The                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-30 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Cool Friend Luke">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            8:30/7:30c                            <meta itemprop="startDate" content="2017-10-16T17:30:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/9jkl/" target="_self" class="show-title" itemprop="name" content="9JKL" data-tracking="home|schedule|show|9JKL|6-1|click">
+                                9JKL                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-30 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Plus One Is The Loneliest Number">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            9/8c                            <meta itemprop="startDate" content="2017-10-16T18:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/kevin-can-wait/" target="_self" class="show-title" itemprop="name" content="Kevin Can Wait" data-tracking="home|schedule|show|Kevin Can Wait|6-2|click">
+                                Kevin Can Wait                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-30 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Star Wars">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            9:30/8:30c                            <meta itemprop="startDate" content="2017-10-16T18:30:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/me-myself-and-i/" target="_self" class="show-title" itemprop="name" content="Me, Myself and I" data-tracking="home|schedule|show|Me, Myself and I|6-3|click">
+                                Me, Myself and I                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 last" itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Nuke Kids on the Block">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            10/9c                            <meta itemprop="startDate" content="2017-10-16T19:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/scorpion/" target="_self" class="show-title" itemprop="name" content="Scorpion" data-tracking="home|schedule|show|Scorpion|6-4|click">
+                                Scorpion                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                
+            </li>
+
+                                <li>
+
+                                    <div class="schedule-item duration-60 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Skeleton Crew">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            8/7c                            <meta itemprop="startDate" content="2017-10-17T17:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/ncis/" target="_self" class="show-title" itemprop="name" content="NCIS" data-tracking="home|schedule|show|NCIS|7-0|click">
+                                NCIS                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="The Illusion of Control">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            9/8c                            <meta itemprop="startDate" content="2017-10-17T18:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/bull/" target="_self" class="show-title" itemprop="name" content="Bull" data-tracking="home|schedule|show|Bull|7-1|click">
+                                Bull                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 last" itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Dead Man Calling">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            10/9c                            <meta itemprop="startDate" content="2017-10-17T19:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/ncis-new-orleans/" target="_self" class="show-title" itemprop="name" content="NCIS: New Orleans" data-tracking="home|schedule|show|NCIS: New Orleans|7-2|click">
+                                NCIS: New Orleans                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                
+            </li>
+
+                                <li>
+
+                                    <div class="schedule-item duration-60 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="I Don't Like Having Snakes Around">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            8/7c                            <meta itemprop="startDate" content="2017-10-18T17:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/survivor/" target="_self" class="show-title" itemprop="name" content="Survivor" data-tracking="home|schedule|show|Survivor|8-0|click">
+                                Survivor                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 " itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Ghosts of Christmas Future">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            9/8c                            <meta itemprop="startDate" content="2017-10-18T18:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/seal-team/" target="_self" class="show-title" itemprop="name" content="SEAL Team" data-tracking="home|schedule|show|SEAL Team|8-1|click">
+                                SEAL Team                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                                    <div class="schedule-item duration-60 last" itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="Killer App">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            10/9c                            <meta itemprop="startDate" content="2017-10-18T19:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/criminal_minds/" target="_self" class="show-title" itemprop="name" content="Criminal Minds" data-tracking="home|schedule|show|Criminal Minds|8-2|click">
+                                Criminal Minds                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                
+            </li>
+
+                                <li>
+
+                                    <div class="schedule-item duration-180 last" itemscope="" itemtype="http://schema.org/TVEpisode">
+                        <meta itemprop="name" content="">
+
+                        <div class="airdate" itemprop="publication" itemscope="" itemtype="http://schema.org/BroadcastEvent">
+                            8/7c                            <meta itemprop="startDate" content="2017-10-19T17:00:00-0700">
+                        </div>
+                        <div class="show" itemprop="partOfSeries" itemscope="" itemtype="http://schema.org/TVSeries">
+                            <a href="http://www.cbs.com/shows/nfl-on-cbs/" target="_self" class="show-title" itemprop="name" content="CBS Thursday Night Football: Kansas City @ Oakland" data-tracking="home|schedule|show|CBS Thursday Night Football: Kansas City @ Oakland|9-0|click">
+                                CBS Thursday Night Football: Kansas City @ Oakland                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                
+            </li>
+
+            </ul>
+    <a class="button" href="/live-tv/">Watch Live TV</a>
+</section>    
+    <section class="leader-ad-content-well grid-row--vspace">
+        <div class="leader-ad-container">
+            <div id="leader-middle"></div>
+        </div>
+    </section>
+
+    <!-- What's New -->
+    <section id="whats-new" class="grid-row grid-row--vspace lrGutter shrinks-on-ad-skin">
+        
+<script>
+        var adChunk3 = []; 
+</script>
+
+<div id="whatsNewContainer" style='position:relative;' aa-region="whats new">
+    <div class='menuTitle'>What's New  </div>
+    <div style='clear: both;'></div>    
+    <table> <!-- What's new table -->
+        <tr>
+            <!-- Big Item #1 -->
+            <td colspan=2 rowspan=2 class="itemSlot slot1 big">
+                <a class="url" href="http://www.cbs.com/shows/star-trek-discovery/photos/1007865/check-out-new-photos-from-episode-4-of-star-trek-discovery/?ftag=MKT-01-10aaa7b"><img  class="fade" src="/assets/images/whats_new/gradient_fade.png" ><div class="icon photo"></div><img  class="itemImage" src="http://wwwimage5.cbsstatic.com/thumbnails/photos/w770/episode_4.jpg" alt="Check Out New Photos From Episode 4 Of Star Trek: Discovery" ><div class="borderContainer"><div class="title">Check Out New Photos From Episode 4 Of Star Trek: Discovery</div><div class="description">Take a look at these new photos from Episode 4, featuring actors Sonequa Martin-Green, Doug Jones, Jason Isaacs, Anthony Rapp, and more. Stream all-new episodes Sundays at 8:30 PM ET/ 5:30 PM PT, exclusively on CBS All Access.
+</div><div class="showName"></div></div></a>            </td>
+            <td class='adCell'> <!-- THis is a native ad --> 
+                                <div class="nativeAdContainer mpu-middle-container cbs-show-mod-blog cbs-show-mod-ad ad-width mpu-middle_15076624841">
+                    <div id="native_middle"></div>
+                    <script>
+                        CBS.Promises.Ads.onLoad(function() {
+                                                        var isXHR = false;
+                            var type = 'NativeDynamic';
+                            var container = "native_middle";
+                            var size = [[11,11]];
+                            var position = 'native';
+
+                            CBSAds.containers[type] = container;
+                            CBSAds.defineDynamicAd({
+                                "type":type,
+                                "size":size,
+                                "container":container,
+                                "position":position,
+                                "strnativekey":"EctVRSGeJ3kY2RhQbxR3kS29"}, isXHR);
+                        });
+                    </script>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="itemSlot slot2">
+                <a class="url" href="http://www.cbs.com/shows/big_brother/news/sme/601/big-brother-may-be-over-but-these-hot-and-heavy-showmances-are-still-going-strong/7376/jody-and-marlena-keep-dating-beyond-big-brother/?ftag=MKT-01-10aaa7c"><img  class="fade" src="/assets/images/whats_new/gradient_fade.png" ><div class="icon document"></div><img  class="itemImage" src="http://wwwimage1.cbsstatic.com/thumbnails/photos/w370/couples.jpg" alt="Big Brother May Be Over But these Hot And Heavy Showmances Are Still Going Strong" ><div class="borderContainer"><div class="title">Big Brother May Be Over But these Hot And Heavy Showmances Are Still Going Strong</div><div class="showName"></div></div></a>            </td>
+        </tr>
+        <tr>
+            <td class="itemSlot slot3">
+                <a class="url" href="http://www.cbs.com/shows/grammys/news/1007704/watch-grammys-greatest-stories-a-60th-anniversary-special-on-friday-nov-24/?ftag=MKT-01-10aaa6d"><img  class="fade" src="/assets/images/whats_new/gradient_fade.png" ><div class="icon document"></div><img  class="itemImage" src="http://wwwimage1.cbsstatic.com/thumbnails/photos/w370/greatest_stories.jpg" alt="Watch GRAMMYS Greatest Stories: A 60th Anniversary Special On Friday, Nov. 24" ><div class="borderContainer"><div class="title">Watch GRAMMYS Greatest Stories: A 60th Anniversary Special On Friday, Nov. 24</div><div class="showName"></div></div></a>            </td>
+            <td class="itemSlot slot4">
+                <a class="url" href="http://www.cbs.com/shows/ncis/news/1007687/torres-stakeout-partner-mysteriously-disappears-on-ncis/?ftag=MKT-01-10aaa6e"><img  class="fade" src="/assets/images/whats_new/gradient_fade.png" ><div class="icon document"></div><img  class="itemImage" src="http://wwwimage4.cbsstatic.com/thumbnails/photos/w370/ncis_32.jpg" alt="Torres' Stakeout Partner Mysteriously Disappears On NCIS" ><div class="borderContainer"><div class="title">Torres' Stakeout Partner Mysteriously Disappears On NCIS</div><div class="showName"></div></div></a>            </td>
+            <td class='adCell'> <!-- This is a 300x250 ad -->
+                                <div class="whatsNewAdCell mpu-middle-container cbs-show-mod-blog cbs-show-mod-ad ad-width mpu-middle_15076624842"><div id="mpu-middle_15076624842"></div></div>
+                <script>
+                    CBS.Promises.Ads.onLoad(function() {
+                        var isXHR = false;
+                        var type = "MPUMiddleDynamic";
+                        var container = "mpu-middle_15076624842";
+                        var size = [[300, 250]];
+                        var position = 'middle';
+
+                        CBSAds.containers[type] = container;
+                        CBSAds.defineDynamicAd({
+                            "type":type,
+                            "size":size,
+                            "container":container,
+                            "position":position}, isXHR);
+                    });
+
+                </script>              
+            </td>
+        </tr>
+        <tr>
+            <td class="itemSlot slot5">
+                <a class="url" href="http://www.cbs.com/shows/late-late-show/news/1007712/james-corden-graffitis-david-boreanaz-s-new-seal-team-billboard"><img  class="fade" src="/assets/images/whats_new/gradient_fade.png" ><div class="icon document"></div><img  class="itemImage" src="http://wwwimage4.cbsstatic.com/thumbnails/photos/w370/blog/0e7ff4fa1b94227d_sealteam-promo.jpg" alt="James Corden Graffitis David Boreanaz's New SEAL Team Billboard" ><div class="borderContainer"><div class="title">James Corden Graffitis David Boreanaz's New SEAL Team Billboard</div><div class="showName">The Late Late Show with James Corden</div></div></a>            </td>
+            <!-- Big Item #2 -->
+            <td colspan=2 rowspan=2 class="itemSlot slot6 big">
+                <a class="url" href="http://www.cbs.com/shows/big_bang_theory/news/1007690/the-council-of-sheldons-assembles-on-the-big-bang-theory"><img  class="fade" src="/assets/images/whats_new/gradient_fade.png" ><div class="icon document"></div><img  class="itemImage" src="http://wwwimage5.cbsstatic.com/thumbnails/photos/w770/blog/67296be873805635_sheldon_council_1920x1080.jpg" alt="The Council Of Sheldons Assembles On The Big Bang Theory" ><div class="borderContainer"><div class="title">The Council Of Sheldons Assembles On The Big Bang Theory</div><div class="description"></div><div class="showName">The Big Bang Theory</div></div></a>            </td>
+        </tr>
+        <tr>
+            <td class="itemSlot slot7">
+                <a class="url" href="http://www.cbs.com/shows/9jkl/news/1007695/eve-s-one-night-stand-advice-makes-andrew-think-twice-on-9jkl"><img  class="fade" src="/assets/images/whats_new/gradient_fade.png" ><div class="icon document"></div><img  class="itemImage" src="http://wwwimage2.cbsstatic.com/thumbnails/photos/w370/blog/5bdf4b20cc8a9c5a_9jkl_eve_andrew_1920.jpg" alt="Eve's One-Night Stand Advice Makes Andrew Think Twice On 9JKL" ><div class="borderContainer"><div class="title">Eve's One-Night Stand Advice Makes Andrew Think Twice On 9JKL</div><div class="showName">9JKL</div></div></a>            </td>
+        </tr>
+    </table>
+    <div style='text-align:center;'>
+        <a href="javascript:void(0)" class="loadMoreButton" value='Load More'> 
+            <div> Load More </div>
+        </a>
+    </div>
+</div>
+
+<script>
+
+    
+    var WhatsNewHomepage;
+    var startOffset = 3;
+    var contentFeedEndpoint = "/whatsNew/home/fetchContentFeed/";
+    window.addEventListener("DOMContentLoaded", function() {
+        WhatsNewHomepage = new WhatsNewHomepageModule(startOffset, "#whatsNewContainer", contentFeedEndpoint); //The whatsNew Home module is in homepage/whatsNew.js
+            });
+
+
+</script>
+
+
+
+    </section>
+    
+        <section id="movies-carousel-section" class="grid-row grid-row--vspace lrGutter shrinks-on-ad-skin">
+    </section>
+
+    <section id="upsell" class="grid-row grid-row--vspace lrGutter shrinks-on-ad-skin" data-title="HP Upsell Flex AD - All Access " data-message="Try 1 Week Free">
+            <style type="text/css">
+        #upsell .allAccessContainer .allAccessPageWrapper {
+            background: url("http://wwwimage4.cbsstatic.com/base/files/upsell/ba31669bc40fed97_cbs_std_mq_flex_1400x339_v3_try.jpg") no-repeat; /* This CSS declaration must be of higher specifiy than the fallback background defined in _upsell.scss */
+            background-position: center;
+            background-color: black;
+        }
+
+    </style>
+    <a style='display:block;' href="/all-access/?cbscidmt=discovery&intcid=CIA-00-10aea1e">
+        <div class="blackBackground"></div>
+        <div class="allAccessContainer"> <!-- Note, the banner background will not extend the entire page if any of the parent containers are defined as position: relative -->
+            <div class="allAccessPageWrapper">
+
+                    <div class="allAccessHeader"></div>
+
+            </div>
+        </div> <!-- End of all-access banner -->
+    </a>
+    </section>
+
+</section>
+
+</main>
+
+<script type="text/javascript" src="//dw.cbsi.com/js/dw.js"></script>
+
+<script type="text/javascript" src="/assets/build/js/homepage.min.js?20171006-000313"></script>
+
+<script type="text/javascript">
+        var __page_uuid = '';
+    try {
+        __page_uuid = uuid.v4();
+    } catch (e) {
+        __page_uuid = "350c31e9-4fdf-47a9-84e4-488264f1565f";
+    }
+
+    DW.pageParams = {UID: CBS.getUID(), siteid: DW_siteid, onid: onidFinal, viewguid: __page_uuid, pguid: __page_uuid, ptid: DW_ptid, ctype: DW_ctype, cval: DW_cval, ursuid: DW_ursuid};
+</script>
+
+<footer>
+    <!-- Footer -->
+    <div id="cbs-footer">
+        <div class="clear"></div>
+
+<div id="cbs-footer-v2-wrapper"  aa-region='global footer'>
+
+    <div id="cbs-footer-v2-container">
+        <div class="footer-column" id="footerLinksCol1">
+            <div class="footer-column-header">
+                Site Navigation
+            </div>
+            <ul>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbs.com/shows/" title="Shows" alt="Shows"  aa-link="global footer|site navigation|shows|1|click">Shows</a>
+                </li>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbs.com/watch/" title="Videos" alt="Video"  aa-link="global footer|site navigation|videos|2|click">Videos</a>
+                </li>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbs.com/live-tv/" title="Live TV" alt="Live TV"  aa-link="global footer|site navigation|live tv|3|click">Live TV</a>
+                </li>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbs.com/user/mycbs/" title="My CBS" alt="My CBS"  aa-link="global footer|site navigation|my cbs|4|click">My CBS</a>
+                </li>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbs.com/schedule/" title="Schedule" alt="Schedule"  aa-link="global footer|site navigation|schedule|5|click">Schedule</a>
+                </li>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbsstore.com/" title="Shop" alt="Shop" target="_blank"  aa-link="global footer|site navigation|shop|6|click">Shop</a>
+                </li>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbsnews.com/" target="_blank" title="CBS News" alt="CBS News"  aa-link="global footer|site navigation|cbs news|7|click">CBS News</a>
+                </li>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbssports.com/" target="_blank" title="CBS Sports" alt="CBS Sports"  aa-link="global footer|site navigation|cbs sports|8|click">CBS Sports</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-column" id="footerLinksCol2">
+            <div class="footer-column-header">
+                Privacy/Terms
+            </div>
+            <ul>
+
+                <li class="footer-column-item company">
+                    <a href="http://legalterms.cbsinteractive.com/adchoice/" target="_blank" title="Ad Choice" alt="Ad Choice"  aa-link="global footer|privacy-terms|ad choice|9|click">Ad Choice</a>
+                </li>
+                <li class="footer-column-item company">
+                    <a href="http://www.cbs.com/closed-captioning/" target="_blank" title="Closed Captioning" alt="Closed Captioning"  aa-link="global footer|privacy-terms|closed captioning|10|click">Closed Captioning</a>
+                </li>
+                <li class="footer-column-item company">
+                    <a href="http://legalterms.cbsinteractive.com/privacy/" target="_blank" title="Privacy Policy" alt="Privacy Policy"  aa-link="global footer|privacy-terms|privacy policy|11|click">Privacy Policy</a>
+                </li>
+                <li class="footer-column-item company">
+                    <a href="http://legalterms.cbsinteractive.com/terms-of-use/" target="_blank" title="Terms of Use" alt="Terms of Use"  aa-link="global footer|privacy-terms|terms of use|12|click">Terms of Use</a>
+                </li>
+                <li class="footer-column-item company">
+                    <a href="http://legalterms.cbsinteractive.com/cookies" target="_blank" title="Cookies" alt="Cookies"  aa-link="global footer|privacy-terms|cookies|13|click">Cookies</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-column" id="footerLinksCol3">
+            <div class="footer-column-header">
+                Information
+            </div>
+            <ul>
+                <li class="footer-column-item information">
+                    <a href="http://audienceservices.cbs.com/feedback/feedback.htm" target="_blank" title="Broadcast Feedback" alt="Broadcast Feedback"  aa-link="global footer|information|broadcast feedback|14|click">Broadcast Feedback</a>
+                </li>
+                <li class="footer-column-item information">
+                    <a href="http://www.cbs.com/casting/" target="_blank" title="Casting" alt="Casting"  aa-link="global footer|information|casting|15|click">Casting</a>
+                </li>
+                <li class="footer-column-item information">
+                    <a href="http://www.tvguidelines.org/ratings.htm" target="_blank" title="Ratings Guidelines" alt="Ratings Guidelines"  aa-link="global footer|information|ratings guidelines|16|click">Ratings Guidelines</a>
+                </li>
+                <li class="footer-column-item information">
+                    <a href="https://cbsi.secure.force.com/CBSi/sitefeedback2?template=cbsent15&referer=cbs.com/ent&categories=CBS_Entertainment:CBS_Entertainment&cfs=SFS_1&data=" target="_blank" title="Site Feedback" alt="Site Feedback"  aa-link="global footer|information|site feedback|17|click">Site Feedback</a>
+                </li>
+                <li class="footer-column-item information">
+                    <a href="http://www.cbscorporation.com/" target="_blank" title="About CBS Corporation" alt="About CBS Corporation"  aa-link="global footer|information|about cbs corporation|18|click">About CBS Corporation</a>
+                </li>
+                <li class="footer-column-item information">
+                    <a href="http://www.cbsinteractive.com/advertise/" target="_blank" title="Advertise" alt="Advertise"  aa-link="global footer|information|advertise|19|click">Advertise</a>
+                </li>
+                <li class="footer-column-item information">
+                    <a href="http://cbscorporation.jobs/jobs/" target="_blank" title="Careers" alt="Careers"  aa-link="global footer|information|careers|20|click">Careers</a>
+                </li>
+                <li class="footer-column-item information">
+                    <a href="https://cbsi.secure.force.com/CBSi/knowledgehome2?referer=cbs.com/ent&categories=CBS_Entertainment:CBS_Entertainment" target="_blank" title="Help" alt="Help"  aa-link="global footer|information|help|21|click">Help</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-column" id="footerLinksCol4">
+            <div class="footer-column-header">
+                Follow Us
+            </div>
+            <ul>
+                <li class="footer-column-item follow-us-letter left-padding-extra">
+                    <a href="http://www.cbs.com/newsletter/" target="_blank" title="CBS Newsletter" title="CBS Newsletter"  aa-link="global footer|follow us|cbs newsletter|22|click">CBS Newsletter</a>
+                </li>
+                <li class="footer-column-item follow-us-fb left-padding-extra">
+                    <a href="https://www.facebook.com/CBS" target="_blank" title="Facebook" alt="Facebook"  aa-link="global footer|follow us|facebook|1|click">Facebook</a>
+                </li>
+                <li class="footer-column-item follow-us-twt left-padding-extra">
+                    <a href="http://twitter.com/cbs" target="_blank" title="Twitter" alt="Twitter"  aa-link="global footer|follow us|twitter|1|click">Twitter</a>
+                </li>
+                <li class="footer-column-item follow-us-youtube left-padding-extra">
+                    <a href="https://www.youtube.com/user/CBS" target="_blank" title="YouTube" alt="YouTube"  aa-link="global footer|follow us|youtube|1|click">YouTube</a>
+                </li>
+                <li class="footer-column-item follow-us-gp left-padding-extra">
+                    <a href="https://plus.google.com/+CBS" target="_blank" title="Google Plus" alt="Google Plus"  aa-link="global footer|follow us|google plus|1|click">Google Plus</a>
+                </li>
+                <li class="footer-column-item instagram left-padding-extra">
+                    <a href="https://www.instagram.com/cbstv/" target="_blank" title="Instagram" alt="Instagram"  aa-link="global footer|follow us|instagram|1|click">Instagram</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="bottom-term-wrapper">
+        <div id="term-left">By viewing our video content you are accepting the terms of our <a href="http://legalterms.cbsinteractive.com/video-services" target="_blank">Video Services Policy</a>.</div>
+        <div id="term-right">&copy; 2017 CBS Interactive. All rights reserved.</div>
+    </div>
+    <div id="cbs-accepts-terms">
+        <div id="footer-cbs-eye">
+            <img src="http://wwwimage.cbsstatic.com/assets/images/homepage/2016/cbs.svg" border="0" />
+        </div>
+    </div>
+</div>
+
+<div id="interstitial" style="position:absolute;top:-5000px;left:-5000px;"></div>
+<div id="magnet-bottom"></div>
+<style>
+    <!-- TODO: refactor CSS -->
+    #magnet-bottom { margin:0; padding:0; position:fixed; left:0; bottom:0; z-index:6900; text-align:center; width:100%; }
+    #magnet-bottom iframe { margin:0 auto; padding:0; box-shadow:0px 0px 10px #333; -moz-box-shadow:0px 0px 10px #333; -webkit-box-shadow:0px 0px 10px #333; }
+
+    body.skinAd div.cbs-show-content-right {width: 300px;}
+    div##stickyAds{z-index: 9; !important;}
+    div#cbs-show-page{overflow: hidden !important;}
+    div#stickyheader {z-index: 5000000 !important;}
+    div#masterPageWrapper {display: block !important}
+    iframe[width="1600"]{display: none}
+    /*div#leader-plus-top {padding: 10px 0 }*/
+    div#leader-plus-top:empty, div#leader-top:empty { padding:0 }
+    div#leader-middle {padding-top: 10px }
+    div#leader-middle:empty { padding-top:0 }
+    div#leader-top > div, div#leader-top > div > table, div#leader-top > div > div, div#leader-top > div > iframe {text-align: center; margin: 0 auto !important}
+    div#leader-plus-top > div > table, div#leader-plus-top > div > div, div#leader-plus-top > div > iframe {text-align: center; margin: 0 auto !important}
+</style>
+
+
+<script type="text/javascript">
+    function setCookie(name,value,expires,path,domain){var today=new Date();today.setTime(today.getTime());if(expires){expires=expires*1000*60*60*24}var expires_date=new Date(today.getTime()+(expires));document.cookie=name+"="+escape(value)+((expires)?";expires="+expires_date.toGMTString():"")+((path)?";path="+path:"")+((domain)?";domain="+domain:"")}function getCookie(name){var c_name=name+"=";var dc=document.cookie;if(dc.length>=0){s_index=dc.indexOf(c_name);if(s_index!=-1){s_index+=c_name.length;e_index=dc.indexOf(";",s_index);if(e_index==-1){e_index=dc.length}return unescape(dc.substring(s_index,e_index))}}return null}function check(){if(getCookie("CBS")){return}else{}};
+
+    try {
+        CBS.Registry.yahoo_widgets = false;
+
+        DW.yahoo = false;
+        DW.detectYahoo = false;
+        DW.tagYahoo = false;
+    } catch (e) {
+    }
+
+    DW.clear();
+    var rnowReference;
+    function rnowCenter() {
+        rnowReference = window.open("/info/user_services/help/helpcenter.php?ref=" + window.location.toString(), "RightNow", "width=850,height=806,resizable,scrollbars=yes,toolbar=yes,menubar=no,location=no,status=1");
+    }
+</script>
+
+<script>
+
+
+    $('#footerLinksCol1 a, #footerLinksCol2 a, #footerLinksCol3 a, #footerLinksCol4 a').click(function(e){
+        $('#footerLinksCol1 a, #footerLinksCol2 a, #footerLinksCol3 a, #footerLinksCol4 a').removeClass('hover');
+        $(this).addClass('hover');
+
+        var clickedFirst = $('#footerLinksCol1 a.hover');
+        var clickedSecond = $('#footerLinksCol2 a.hover');
+        var clickedThird = $('#footerLinksCol3 a.hover');
+        var clickedFourth = $('#footerLinksCol4 a.hover');
+
+        // get element position
+        var posFirst = $(clickedFirst).parent().index();
+        var posSecond = $(clickedSecond).parent().index();
+        var posThird = $(clickedThird).parent().index();
+        var posFourth = $(clickedFourth).parent().index();
+
+        // determine clicked link position in term of the entire footer
+        var pos1 = (posFirst >= 0)? posFirst : 0;
+        var pos2 = (posSecond >= 0)? posSecond + $('#footerLinksCol1 a').length : 0;
+        var pos3 = (posThird >= 0)? posThird + $('#footerLinksCol1 a').length + $('#footerLinksCol2 a').length : 0;
+        var pos4 = (posFourth >= 0)? posFourth + $('#footerLinksCol1 a').length + $('#footerLinksCol2 a').length + $('#footerLinksCol3 a').length: 0;
+
+        // retrieve the link text which was clicked
+        var linkTxt1 = (posFirst >= 0)? $(clickedFirst).html() : '';
+        var linkTxt2 = (posSecond >= 0)? $(clickedSecond).html() : '';
+        var linkTxt3 = (posThird >= 0)? $(clickedThird).html() : '';
+        var linkTxt4 = (posFourth >= 0)? $(clickedFourth).html() : '';
+
+        var pos = pos1 + pos2 + pos3 + pos4; // only one variable will have value.  All other will be empty.
+        var linkTxt = linkTxt1 + linkTxt2 + linkTxt3 + linkTxt4; // only one variable will have value.  All other will be empty.
+        om.trackClick({item:"footer|" + linkTxt + "|" + pos + "|click"});
+    });
+
+    /*
+     this.getTealiumGlobalNavData = function() {
+     var clicked = $('.nav-menu .nav-item a.hover');
+     var pos = $(clicked).parent().index();
+     return "global nav|" + $(clicked).html() + "|" + pos + "|click";
+     }*/
+
+
+
+</script>
+
+<script type="text/javascript">
+    utag_data = CBS.Tracking.SetTracking( {"DW_page_type":"HOME","__CBS_HOME__":true,"pageSection":"CBS_HOMEPAGE","tealium":{"userType":null,"user_status":null,"deviceType":"desktop","siteType":"responsive web","showId":0,"showTitle":null,"showDayPart":"other","showGenre":"other"},"tealiumOverride":[],"BK_sb":null,"meta_title":"","raw":{"tealium":{"userType":null,"user_status":null,"deviceType":"desktop","siteType":"responsive web","showId":0,"showTitle":null,"showDayPart":"other","showGenre":"other"},"tealiumOverride":[],"user":null}});
+
+    (function(a,b,c,d) {
+        a='//tags.tiqcdn.com/utag/cbsi/cbscomsite/prod/utag.js';
+        b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+        a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+
+        try {
+        CBS.Promises.Ads.onLoad(function() {
+                        CBSAds.adServer = __ad_server = "8264";
+            CBSAds.path = utag_data.path;
+            CBSAds.policy = [{"type":"Prestitial","size":[[980,45]],"position":"top","sequence":1},{"type":"LeaderPlusTop","size":[[728,90],[970,66],[970,250]],"position":"top","sequence":3},{"type":"SkinTop","size":[[1600,1000]],"position":"top","sequence":5},{"type":"Magnet","size":[[468,60]],"position":"top","sequence":6},{"type":"Interstitial","size":[[0]],"position":"top","sequence":7},{"type":"LeaderMiddle","size":[[728,90],[970,66]],"position":"middle","sequence":9}];
+            CBSAds.pageType = utag_data.pageType;
+
+            
+            
+                        CBSAds.lazyLoad = true;
+            
+            CBSAds.render();
+        });
+    } catch (e) {
+        console.error('Error during ads rendering: ' + e);
+    }
+    </script>
+
+
+
+    </div>
+</footer>
+
+<script type="text/javascript">
+    var __n = "##CBS_COM##";
+
+    (function () {
+        var vl = document.createElement('script');
+        vl.type = 'text/javascript';
+        vl.async = true;
+        vl.src = document.location.protocol + '//static.vilynx.com/plugins/cbs-vilynx.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(vl, s);
+    }());
+
+    function renderAdCallback() {
+        if (document.createEvent) { // W3C
+            /**
+            * The following code manually triggers a 'resize' event for the lightning carousel so that the Vilynx thumbnails get resized correclty after the ad skin changes the layout.
+            */
+            var resizeEvent = document.createEvent('Event');
+            resizeEvent.initEvent('resize', true, true);
+            window.dispatchEvent(resizeEvent);
+
+        } else { // Internet Explorer creates events differently from other browsers
+            var event = document.createEventObject();
+            document.documentElement.fireEvent("onresize", event);
+        }
+    }
+</script>
+</body>
+</html>

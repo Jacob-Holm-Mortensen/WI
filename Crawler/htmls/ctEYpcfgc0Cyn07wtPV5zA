@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" class="">
+<head>
+
+        <script type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js" async></script>
+        <script type="text/javascript" src="//js-sec.indexww.com/ht/ls-cbs.js" async></script>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta content="app-id=530168168" name="apple-itunes-app">
+    <meta property="og:site_name" content="CBS"/>
+
+            <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1.0, user-scalable=no" />
+    
+    
+    
+            <meta property="og:title" content="Watch Magazine - CBS.com"/>
+    
+            <meta property="og:description" content=""/>
+    
+            <meta property="og:type" content="article"/>
+    
+    <meta property="og:image" content=""/>
+
+
+    
+    
+        
+    
+
+    
+                    
+            <meta name="application-name" content=""/>            <meta name="msapplication-TileImage" content="http://wwwimage4.cbsstatic.com/assets/images/site/cbs_pin.png"/>            <meta name="msapplication-TileColor" content="#3070b1"/>            <meta name="msApplication-ID" content="App"/>            <meta name="CBS.Win8_dx3spxfjvhtp4" content="App"/>
+                        
+    
+    <meta property="fb:app_id" content="30708972585"/>
+    <meta property="fb:pages" content="47360808996"/>
+            <meta property="description" content=""/>
+        <meta name="twitter:widgets:csp" content="on">
+
+    <title>Watch Magazine - CBS.com</title>
+
+
+            <link rel="shortcut icon" href="http://wwwimage1.cbsstatic.com/sitecommon/images/favicon.ico"/>
+    
+            <link rel="canonical" href="http://www.cbs.com/shows/watch_magazine/"/>
+                <link rel="stylesheet" type="text/css" href="http://wwwimage.cbsstatic.com/assets/min/css/min/com.cbs.min.css?20171006-000313" />
+<link rel="stylesheet" type="text/css" href="http://wwwimage.cbsstatic.com/assets/min/css/2017/shows/watch_magazine.min.css?20171006-000313" />
+<link rel="stylesheet" type="text/css" href="http://wwwimage.cbsstatic.com/assets/min/css/2015/r1/shows/watch_magazine/landing_page.min.css?20171006-000313" />
+<link rel="stylesheet" type="text/css" href="http://wwwimage.cbsstatic.com/assets/min/css/min/com.cbs.show.landing.v2.min.css?20171006-000313" />
+<link rel="stylesheet" href="http://wwwimage.cbsstatic.com/assets/build/css/shows.min.css?20171006-000313">        <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="/assets/css/2012/r1/ie.css"/>
+    <![endif]-->
+
+        <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="/assets/css/2012/r1/ie78.css"/>
+    <![endif]-->
+
+    <script type="text/javascript" src="/assets/js/require.js"></script>
+<script type="text/javascript">
+    require.config({baseUrl: '/assets/js/cbs/'});
+</script>
+    <script type="text/javascript" src="/assets/min/js/min/com.cbs.min.js?20171006-000313"></script>
+<script type="text/javascript" src="/assets/min/js/min/com.cbs.show.landing.v2.min.js?20171006-000313"></script>
+        <script>
+        CBS.Registry.cpab = {};
+        CBS.Registry.cpab.isCF = !!'';
+    </script>
+
+    
+    <script language="JavaScript">var DW_page_type = "HOME";</script>
+            <script language="JavaScript" type="text/javascript" src="/assets/js/dw_site/watch_magazine.js?20171006-000313"></script>
+                <script language="JavaScript" type="text/javascript" src="/assets/js/dw_site/v1_5/watch_magazine.js?20171006-000313"></script>
+                <script language="JavaScript" type="text/javascript" src="/assets/min/js/dw_global_mr45.min.js"></script>
+            <script type="text/javascript" src="//dw.cbsi.com/js/dw.js"></script>
+    
+<script type="text/javascript">
+    var DW_referer = "";
+    var DW_srcURL = "http%3A%2F%2Fwww.cbs.com%2Fshows%2Fwatch_magazine%2F";
+    var DW_ctype = "";
+    var DW_cval = "";
+
+        DW_ursuid = "";
+    
+    var __page_uuid = '';
+    try {
+        __page_uuid = uuid.v4();
+    } catch (e){
+        __page_uuid = "09e294d1-a584-4990-8826-2ddd51b0afb9";
+    }
+
+    $.cookie('__page_uuid', __page_uuid, {path: '/'});
+
+    DW.pageParams = { UID: CBS.getUID(), siteid: DW_siteid, onid: onidFinal, pguid: __page_uuid, viewguid: __page_uuid, v16: __page_uuid, ptid: DW_ptid, ctype: DW_ctype, cval: DW_cval, ursuid: DW_ursuid, rsid: 'cnetcbscomsite' };
+
+</script>
+    <script type="text/javascript">
+        window.fbAsyncInit = function() {
+            FB.init({appId: '30708972585', status: true, cookie: true, xfbml: true, version: 'v2.5'});
+        };
+
+        (function() {
+            var fb = document.createElement('script');
+            fb.type = 'text/javascript';
+            fb.async = true;
+            fb.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'connect.facebook.net/en_US/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(fb, s);
+        })();
+
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+
+                var show = new CBS.Show({id:44828});
+        
+    </script>
+
+            <script type="text/javascript">window._taboola = window._taboola || [];
+                _taboola.push({other:"auto"});
+                !function (e, f, u) {
+                e.async = 1;
+                e.src = u;
+                f.parentNode.insertBefore(e, f);
+                }(document.createElement("script"),
+                document.getElementsByTagName("script")[0],
+                "//cdn.taboola.com/libtrc/cbsinteractive-cbscom/loader.js");
+                CBS.Registry.context_override.contentWidget = "Below Main Column Thumbnails";
+                $( document ).ready(function() { CBS.Tracking.clickTrackTaboola("Below Main Column Thumbnails"); });</script>    
+    <script src="//tags.tiqcdn.com/utag/cbsi/main/prod/utag.sync.js"></script>
+
+    <script type="text/javascript" src="//native.sharethrough.com/assets/sfp.js" async></script>
+    <script src="/assets/build/js/shows.min.js?20171006-000313"></script></head>
+
+
+<body id="showHome"
+      class="all-access_ cbs-show-landing page_type_HOME ORIGINALS ">
+    <!--[if IE]>
+    <div id="IEroot">
+    <![endif]-->
+
+        <div id="cbs-ad-skin"></div>
+
+<div id="cbs-page" class='show_home_page' >
+        <div id="masterPageWrapper"><!-- ad skin is applied to this div -->
+
+        <div id="skin-top">
+
+        </div>
+
+        <div id="secondaryPageWrapper"><!-- page shadow is applied to this div -->
+
+
+                    <div id="stickyheader">
+                        <div id="substickyheader">
+                            <div id="show_nav_stick">
+                                                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                                        <div id="cbs-show-page">
+                                                                        
+
+<style>
+
+    .skinAd div#masterPageWrapper, div#masterPageWrapper {
+        top: 150px;
+    }
+
+    div.featured-copy-wrapper {
+        border-left: none !important;
+    }
+
+    div.featured-copy-wrapper div.featured-copy-container {
+        padding: 17px 20px 0 0;
+
+    }
+    div.featured-copy-wrapper a {
+        font-family: "Playfair Display",sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    #cbs-show-content-aggregate-list div.featured-copy-wrapper p {
+        color: #e51937;
+        font-family: Roboto,sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding: 10px 0 0 0;
+        text-transform: uppercase;
+    }
+
+    #cbs-show-content-aggregate-list a:hover {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    div.cbs-show-mod-photo-gallery-item div.featured-copy-wrapper div.featured-copy-container {
+        padding: 20px 0 0 !important;
+    }
+
+
+    div.featured-copy-wrapper p{
+        font-size: 14px !important;
+    }
+
+    #leader-bottom {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    @media (min-width: 0) {
+        #cbs-show-content-aggregate-list {
+            margin-top: 20px !important;
+        }
+    }
+
+    @media (min-width: 1245px) { 
+        #cbs-show-content-aggregate-list {
+            margin-top: 30px !important;
+        }
+
+        body.skinAd #cbs-show-content-aggregate-list {
+            margin-top: 20px !important;
+        }
+    }
+    
+</style>
+
+
+
+
+<script type="text/javascript">
+
+    CBS.Registry.host = "www.cbs.com";
+
+
+    WebFontConfig = {
+        google: {families: ['Maven Pro:400,700', 'Istok Web', 'Lato:900,700,400,300,100:latin',"Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic","Playfair Display:regular,italic,700,700italic,900,900italic","Playfair Display SC:regular,italic,700,700italic,900,900italic"]}       //    { families: ['Maven Pro:400,700', 'Istok Web', 'Lato:400,300,100:latin'] }
+    };
+    if (typeof WebFontActiveCallbacks !== 'undefined') {
+        WebFontConfig.active = function() {
+            for (var i = 0; i < WebFontActiveCallbacks.length; i++) {
+                WebFontActiveCallbacks[i]();
+            }
+        }
+    }
+    (function() {
+
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+    })();
+
+
+    jQuery(document).ready(function(){
+
+        jQuery(window).scroll(function(){
+
+            var window_top = jQuery(window).scrollTop();
+
+            if (window_top > 150) {
+                $('.loog').addClass('logoSmall');
+                $('.nav-div').addClass('nav-up');
+            }
+
+            if (window_top < 150) {
+                $('.loog').removeClass('logoSmall');
+                $('.nav-div').removeClass('nav-up');
+            }
+
+        });
+
+    });
+
+
+
+
+
+</script>
+
+<div id='globalShowHeader' class="showHeader showNavBar" style="height: 44px;position: absolute; top: -44px;"></div>
+<div id="globalHeaderContainer" style="height: 52px;"></div><div id="globalSearchBox"></div>
+<div id="watchHeader">
+<div class="logo-div"><img class="loog" src="/assets/images/2017/watch_magazine/watch_logo.png" style="height: 74px;"></div>
+
+<div class="nav-div">
+    <div class="home2 nav" data-ix="new-interaction-2">
+        <div class="div-block-2">
+            <a target="_blank" href="http://www.facebook.com/pages/CBS-Watch-Magazine/26174277254?sk=wall"> <img class="fb social_button" src="/assets/images/2017/watch_magazine/FB-color.svg"></a>
+            <a target="_blank" href="https://twitter.com/#!/cbswatchmag"> <img class="tw social_button" src="/assets/images/2017/watch_magazine/TW-color.svg"></a>
+            <a target="_blank" href="https://www.youtube.com/user/CBSWatchMag"> <img class="yt social_button" src="/assets/images/2017/watch_magazine/yt-color.svg"></a>
+            <a target="_blank" href="https://www.instagram.com/cbswatchmag/"><img class="in social_button" src="/assets/images/2017/watch_magazine/INSTA-color.svg"></a>
+            <a target="_blank" href="https://www.pinterest.com/cbswatchmag/"> <img class="pin social_button" src="/assets/images/2017/watch_magazine/Pinterest-color.svg"></a>
+        </div>
+
+
+        <div class="_1 home2 navlinks">
+
+            <a class="navlink current" href="/shows/watch_magazine/">Home</a>
+            <a class="navlink " href="/shows/watch_magazine/archive/">Stories</a>
+            <a class="navlink " href="/shows/watch_magazine/photos/">Photos</a>
+            <a class="navlink " href="/shows/watch_magazine/video/">Video</a>
+            <a class="navlink " href="/shows/watch_magazine/checklist/">Checklist</a>
+        </div>
+
+
+        <div class="div-block">
+            <div style="float: left;">
+            <a href="https://secure.palmcoastd.com/pcd/eSv?iMagId=23401&i4Ky=IR18" target="_blank">
+                <img class="image" src="/assets/images/2017/watch_magazine/mag_thumb_1.jpg" width="60">
+            </a>
+            </div>
+            <div class="text-block">
+                Subscribe to our Magazine<br />and Get 2nd Year FREE!<br />1-800-532-8190
+                <div style="margin-top: 20px;">
+                <a class="navlink subscribe" href="https://secure.palmcoastd.com/pcd/eSv?iMagId=23401&i4Ky=IR18" target="_blank">Subscribe</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</div>
+
+<link rel='stylesheet' href='/assets/css/shows/marquee_watch_magazine.css'>
+<!-- <div id="marqueeContainer" style="background-color: black;"> -->
+<div id="marqueeContainer">
+    <div id="headerAndMarqueeContainer">
+        <div class="slideContainer"  id="showMarqueeContainer" style='background: url("http://wwwimage1.cbsstatic.com/thumbnails/photos/3/marquee/9171737187fbfa11_watchmag_mq_web_1400x440.jpg"); background-repeat: no-repeat; background-position: bottom center; background-color: black;'>                            <div id="leContainer" class=" has-no-tuneInTime">
+                    <div id='showName'>
+                        <div></div>
+                                            </div>
+                    <div id='marqueeTextContainer'>
+
+                        <div id='tuneInTime'>  </div>
+
+                        <div id="marqueeButtonContainer">
+                                                            <!-- This is the not subscribed 'else' conditional, typically Try One Week Free -->
+                                <div id='notSubscribedContainer'>
+
+                                    <div> <!-- This container div is Used for the flex layout -->
+                                        <div class='episodeCountContainer fullWidth'>
+                                            &nbsp;                                        </div>
+                                        <a href='http://www.cbs.com/shows/watch_magazine/video/' class='marqueeButtonLink' id="tryAllAccessButton">
+                                            <div> Watch Clips </div>
+                                        </a>
+                                    </div>
+
+                                                                    </div>
+                                                    </div>
+                    </div> <!-- End of #marqueeTextContainer -->
+            </div><!-- End of #leContainer -->
+
+        
+        
+
+        </div><!-- End of #showMarqueeContainer -->
+
+    </div> <!-- End of #headerAndMarqueeContainer -->
+        </div>
+
+
+<script>
+    var showMarquee;
+    function renderAdCallback(adObj) {
+        if(typeof(showMarquee) !== "undefined"){
+            if (navigator.userAgent.indexOf("Firefox") > 0) { //For some reason Firefox doesn't calculate the page height correctly at the moment this callback is fired. Delaying the callback by a second seems to fix it.
+                setTimeout(function(){
+                    showMarquee.setScrollContainerHeight();
+                }, 1000);
+            } else {
+                showMarquee.setScrollContainerHeight();
+            }
+        }
+    }
+
+    if(typeof(window.runningTests) === "undefined"){
+        window.runningTests  = {};
+    }
+    if(window.runningTests && typeof(window.runningTests.showLandingMarquee) !== "undefined" && window.runningTests.showLandingMarquee === true) {
+        document.addEventListener("DOMContentLoaded", function() {
+            CBS.Marquee.BlankShowLanding();
+        });
+    }else{
+        if (typeof ShowMarquee === 'undefined') {
+            //throw "marqueeModule must be defined globally and is imported from show/marquee.js";
+        }
+
+        /*var MarqueeShowHeader;
+        document.addEventListener("DOMContentLoaded", function() {
+            showMarquee = new ShowMarquee();
+        });*/
+
+
+    }
+
+</script>
+
+
+
+    <div id="adSkinLeft"></div>
+<div id="adSkinRight"></div>
+
+
+<div id="stickyAds" style="position: relative">
+    <style>
+
+#classicsLeadderAd{
+	background-color: #000;
+}
+#classicsLeadderAd div#cbs-pushdown-wrapper {
+	position:relative;
+	text-align:center;
+	width:970px;
+	margin: auto;
+	padding: 10px 0 10px 0;
+}
+
+div#cbs-pushdown-wrapper {
+	position:relative;
+	text-align:center;
+	width:970px;
+	margin:10px auto;
+}
+
+div#stickyAds div#cbs-pushdown-wrapper {
+    margin:0 auto;
+}
+
+div#masterTopWrapper {background-position:bottom !important}
+div#masterPageWrapper {zoom:1}
+</style>
+
+
+<div id="cbs-pushdown-wrapper">
+	<div id="leader-plus-top"></div>
+</div>
+
+
+<!--[if lte IE 7]>
+<script language="javascript" type="text/javascript">
+	function ieRedrawFixCollapsed () {
+		jQuery(".cbs-mod-rc").css({position: 'relative'});
+		jQuery(".cbs-mod-rc-2x").css({position: 'relative'});
+		jQuery(".playBtnOverlay").css({position: 'relative'});
+	}
+	function ieRedrawFixExpanded () {
+		jQuery(".cbs-mod-rc").css({position: 'static'});
+		jQuery(".cbs-mod-rc-2x").css({position: 'static'});
+		jQuery(".playBtnOverlay").css({position: 'static'});
+	}
+</script>
+<![endif]-->
+
+        	<style>div#page, div#cbs-page {background-position:0 93px} div#ad728x90-wrapper {width:970px; margin:0 auto}  div#leader-top:empty {padding:0}</style>
+		<div id="ad728x90-wrapper"><div id="leader-top"></div><div class="clear"></div></div>
+    
+	    </div>
+
+
+<div id="cbs-show-content" class="container video-v2">
+
+    <div class="cbs-show-content-full">
+
+
+
+
+        <!-- This is the OLD What's New Module section, What's New: -->
+        <div id="oldWhatsNew" style="margin-bottom: 60px;">
+            <!-- This is the What's new panel -->
+<style>
+    #idPaginate:hover {
+        text-decoration: none;
+    }
+    .section-dividers {
+        align-items: center;
+        border-bottom: 3px solid #e51937;
+        display: flex;
+        float: none;
+        height: 14px;
+        justify-content: center;
+        margin: 0 auto 70px;
+        max-width: 1170px;
+        padding-top: 0;
+    }
+
+    .section-names {
+        background-color: #fff;
+        color: #000;
+        font-family: Roboto,sans-serif;
+        margin-top: 19px;
+        padding-bottom: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+        width: auto;
+    }
+
+
+    .cbs-show-content-wrapper {
+        padding-top: 0px !important;
+    }
+
+</style>
+<script type="text/javascript">
+    
+        var noData = false;
+        var loading = false;
+        var page = 1;
+        var theState;
+        var timer;
+        var currentType = 'all';
+        var totalItemsfound = 467;
+        var size = 4;
+
+        function reloadAds()
+        {
+            googletag.cmd.push(function() {  googletag.pubads().refresh();  });
+        }
+
+        function loadNewContent()
+        {
+
+
+            $(".load-more-posts").show();
+            theUrl = '/shows/watch_magazine/feeds-more/' + parseInt(page + 1)+'/'+currentType;
+
+
+            if (totalItemsfound < size){
+            $(".load-more-posts").hide();
+             }
+
+
+            jQuery('#loader').show();
+
+            jQuery.ajax({
+                type:'GET',
+                url: theUrl,
+                dataType: 'json',
+                success:function(data){
+                    if(data === 'false') {
+
+                        jQuery('#loader').hide();
+                        $(".load-more-posts").hide();
+                    } else {
+                        var parts = window.location.pathname.split('/');
+                        if (!parts[parts.length - 1]) {
+                            parts.pop();
+                        }
+
+                        if (!isNaN(parts[parts.length - 1])) {
+                            parts.pop();
+                        }
+
+                        var pushStateUrl = parts.join('/') + '/' + (page + 1) + "/";
+                        History.pushState({state:(page+1)}, "Watch! Magazine Feeds - Page " + (page+1) + " - CBS.com",  pushStateUrl);
+                        if(data != "" && data !== 'false'){
+
+
+
+                            loading = false;
+
+                            jQuery("#idContainer").append(data.html);
+
+                            jQuery('#loader').hide();
+
+                            page = page+1;
+                            totalItemsfound = data.totalItemsfound;
+
+
+                            if (totalItemsfound <= page * size) {
+                                $(".load-more-posts").hide();
+                            }
+
+                        }
+                    }
+                },
+                complete: function() {
+                    if (typeof showMarquee != "undefined") {
+                        //showMarquee.setScrollContainerHeight();
+                    }
+                }
+            });
+
+
+        }
+
+        function loadNewFilteredContent(type,typeTitle)
+        {
+            currentType = type;
+            $('div#dropdown').hide();
+            page = 0;
+
+            $(".load-more-posts").show();
+            theUrl = '/shows/watch_magazine/feeds-change/' + type;
+
+
+            jQuery('#loader').show();
+
+            jQuery("#idContainer").empty();
+            jQuery.ajax({
+                type:'GET',
+                url: theUrl,
+                dataType: 'json',
+                success:function(data){
+                    if(data.success === 'false' || data.totalItemsfound == 0 ) {
+                        jQuery('#loader').hide();
+                        $('#rankingBy').empty();
+                        $('#rankingBy').text(typeTitle);
+
+                        $('#idContainer').empty();
+                        $('#idContainer').html("<div style='font-size: 16px; margin-left: 10px;margin-top: 40px;'>No content available.</div>");
+                        $(".load-more-posts").hide();
+                        $('#rankingBy').text(typeTitle);
+
+
+                    } else {
+                        //History.pushState({state:(page+1)}, "Watch! Magazine Feeds - Page " + (page+1) + " - CBS.com",  "/shows/watch_magazine/adaptive-test/whats-new/" + (page+1) + "/");
+                        if(data != "" && data !== 'false'){
+                            loading = false;
+                            jQuery("#idContainer").append(data.html);
+                            jQuery('#loader').hide();
+                            $('#rankingBy').empty();
+                            $('#rankingBy').text(typeTitle);
+                            totalItemsfound = data.totalItemsfound;
+
+                            page = page+1;
+                            if ((totalItemsfound < size) || (totalItemsfound < (page * size ))){
+                                $(".load-more-posts").hide();
+                            }
+
+
+                        }
+                    }
+                }
+            });
+
+
+        }
+
+        jQuery(document).ready(function () {
+            if (totalItemsfound < size){
+                $(".load-more-posts").hide();
+
+            }
+            jQuery("#idPaginate").bind('click', function() {
+                loadNewContent();
+            });
+
+        });
+
+        History.Adapter.bind(window, 'statechange', function() {
+            var State = History.getState();
+            theState = State.data['state'];
+
+            // remove div refresh ads if user clicks back button
+            if(theState < page || theState === undefined) {
+                theDiv = "#photo_unit_" + page;
+                jQuery(theDiv).remove();
+                page = page-1;
+                loading = true;
+                // sets timeout so scroll doesn't hit when div is removed as user will be at bottom of page
+                setTimeout(function(){ loading = false },1000);
+                reloadAds();
+            }
+
+            // returns { data: { params: params }, title: "Search": url: "?search" }
+            //console.log(State);
+
+            // or you could recall search() because that's where this state was saved
+    //        if (State.url == "?search") {
+    //            search(data.params);
+    //        }
+
+        });
+        function hitUtag(utag_data) {
+        alert("pre utag");
+        utag.view(utag_data);
+        alert("post utag");
+    }
+
+</script>
+
+<style>
+    #mpu-top.stick { position: fixed; top:0; }
+</style>
+
+
+
+<div id="cbs-show-content-aggregate-list" class="container">
+    <!-- full-width well container 953px -->
+    <div class="cbs-show-content-full hide"></div>
+
+    <div class="cbs-show-content-wrapper index"><!-- left column well container 631px -->
+
+        
+
+
+
+        <div class="section-dividers w-clearfix"><h1 class="section-names">What's New</h1></div>
+
+
+        <!-- THis contains the aggregate-list aka What's New -->
+        <div id="idContainer" class="clearfix">
+            
+<script>
+    </script>
+
+<script>
+    var adChunk3 = [];
+
+    $(function () {
+       // CBS.Registry.ShareThroughElements.show_landing = $("div.native-wrapper").first();
+    });
+
+</script>
+
+
+<style>
+
+
+
+
+</style>
+
+
+
+<div id="photo_unit_1">
+    
+
+                        
+                        <div class="cbs-show-mod-photo-gallery-item-large container " >
+
+
+
+
+
+
+                        <div class="featured-wrapper">
+                            <div class="featured-image-wrapper">
+                                <a href="http://www.cbs.com/shows/watch_magazine/photos/1007206/pauley-perrette-goes-glam-and-the-results-are-ravishing/"
+
+                                    
+                                   >
+                                    <img
+                                        src="http://wwwimage4.cbsstatic.com/thumbnails/photos/w570/gallery/c6b66a936ad58448_pauley_promo.jpg"
+                                        border="0" alt="Pauley Perrette Goes Glam And The Results Are Ravishing"
+                                        title="Pauley Perrette Goes Glam And The Results Are Ravishing"
+                                    /></a></div>
+
+
+                                <div class="featured-copy-wrapper">
+                                    <div class="featured-copy-container">
+
+                                    <a href="http://www.cbs.com/shows/watch_magazine/photos/1007206/pauley-perrette-goes-glam-and-the-results-are-ravishing/">
+                                        Pauley Perrette Goes Glam And The Results Are Ravishing                                    </a>
+
+                                        <p>Photo Gallery</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                       
+                        
+                    
+
+                        
+                        <div class="cbs-show-mod-photo-gallery-item-large container no-right-margin" >
+
+
+
+
+
+
+                        <div class="featured-wrapper">
+                            <div class="featured-image-wrapper">
+                                <a href="http://www.cbs.com/shows/watch_magazine/archive/1007697/dynasty-s-on-trend-fashion/"
+
+                                    
+                                   >
+                                    <img
+                                        src="http://wwwimage5.cbsstatic.com/thumbnails/photos/w570/blog/b065480fae80f9c6_promo.jpg"
+                                        border="0" alt="Dynasty's On Trend Fashion"
+                                        title="Dynasty's On Trend Fashion"
+                                    /></a></div>
+
+
+                                <div class="featured-copy-wrapper">
+                                    <div class="featured-copy-container">
+
+                                    <a href="http://www.cbs.com/shows/watch_magazine/archive/1007697/dynasty-s-on-trend-fashion/">
+                                        Dynasty's On Trend Fashion                                    </a>
+
+                                        <p>Story</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                       
+                        
+                    
+
+                        
+                            <div class="cbs-show-mod-photo-gallery-item container  ">
+
+                                <div class="featured-wrapper">
+                                    <div class="featured-image-wrapper">
+                                        <a href="http://www.cbs.com/shows/watch_magazine/archive/1007689/getting-to-know-zoe-perry/"
+
+                                            
+                                            >
+                                            <img
+                                                src="http://wwwimage4.cbsstatic.com/thumbnails/photos/w370/blog/0c340af6957b8832_promo.jpg"
+                                                border="0" alt="Getting To Know Zoe Perry"
+                                                title="Getting To Know Zoe Perry"
+                                                /></a></div>
+
+
+                                    <div class="featured-copy-wrapper">
+                                        <div class="featured-copy-container">
+
+                                            <a href="http://www.cbs.com/shows/watch_magazine/archive/1007689/getting-to-know-zoe-perry/">
+                                                Getting To Know Zoe Perry                                            </a>
+
+                                            <p>Story</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        
+                        
+                    
+
+                        
+                            <div class="cbs-show-mod-photo-gallery-item container margin-left-10 ">
+
+                                <div class="featured-wrapper">
+                                    <div class="featured-image-wrapper">
+                                        <a href="http://www.cbs.com/shows/watch_magazine/archive/1007672/quotable-scott-bakula-in-his-own-words/"
+
+                                            
+                                            >
+                                            <img
+                                                src="http://wwwimage4.cbsstatic.com/thumbnails/photos/w370/blog/d7dce138468f8892_promo.jpg"
+                                                border="0" alt="Quotable: Scott Bakula, In His Own Words"
+                                                title="Quotable: Scott Bakula, In His Own Words"
+                                                /></a></div>
+
+
+                                    <div class="featured-copy-wrapper">
+                                        <div class="featured-copy-container">
+
+                                            <a href="http://www.cbs.com/shows/watch_magazine/archive/1007672/quotable-scott-bakula-in-his-own-words/">
+                                                Quotable: Scott Bakula, In His Own Words                                            </a>
+
+                                            <p>Story</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        
+                        
+                            
+                        <div class="mpu-middle-wrapper cbs-show-mod-photo-gallery-item container " style="margin-right: 0 !important;">
+
+                            <div class="mpu-middle-container cbs-show-mod-blog cbs-show-mod-ad ad-width mpu-middle_15076625544">
+                                <div id="mpu-middle_15076625544"></div>
+                                <script language="JavaScript">
+                                    CBS.Promises.Ads.onLoad(function() {
+                                        var isXHR = false;
+                                        var type = "MPUMiddleDynamic";
+                                        var container = "mpu-middle_15076625544";
+                                        var size = [[300, 250]];
+                                        var position = "middle";
+
+                                        CBSAds.containers[type] = container;
+                                        CBSAds.defineDynamicAd({
+                                            "type":type,
+                                            "size":size,
+                                            "container":container,
+                                            "position":position}, isXHR);
+                                    });
+                                </script>
+                            </div>
+
+                            </div>
+                    </div><script type="text/javascript">var context1 = new Object();
+      function merge_options(obj1,obj2){
+        var obj3 = {};
+        for (var attrname in obj1) { obj3[attrname] = obj1[attrname]; }
+        for (var attrname in obj2) { obj3[attrname] = obj2[attrname]; }
+        return obj3;
+       }
+       try{ 
+       var env = getCookie("s_tagEnv");
+        if (env==null || env=="")
+        {
+          if(window.location.hostname == "www.cbs.com" || window.location.hostname == "mirrorman.net"){
+            
+            document.cookie="s_tagEnv=live; path=/";
+          }else{
+            document.cookie="s_tagEnv=stage; path=/";
+          }
+
+        }
+        context1 = new Object();
+      if(DW_ptid != "undefined"){
+       context1.page_type_id = DW_ptid.toString().replace(/\:/g,"");
+       }
+       if(DW.pageParams.pguid != "undefined"){
+       context1.page_guid = DW.pageParams.pguid;
+       } 
+       context1.content_title ="Watch Magazine CBS com";context1.page_type ="HOME";context1.page_type = context1.page_type.toLowerCase();context1.content_type = context1.page_type;context1.show_id =44828;context1.show_title ="Watch Magazine";
+       if (typeof dvar_daypart != 'undefined' && typeof dvar_genre != 'undefined' && typeof dvar_seccategory != 'undefined' && typeof context1.show_title != 'undefined'){
+         context1.section = dvar_daypart + '|' + dvar_genre + '|' + context1.show_title.toLowerCase() + '|' + dvar_seccategory;
+       } else if(typeof dvar_genre != 'undefined' && typeof dvar_genre != '' && typeof context1.show_title != 'undefined'){
+         context1.section = dvar_genre + '|' + context1.show_title;
+         }else{
+         context1.section = context1.page_type;
+          };
+       
+      if(DW_onid != "undefined"){
+        try{
+        context1.ontology_id = DW_onid.replace(/\:/g,"");
+        }catch(e){
+
+        }
+
+       }
+       context1.user_status = false;context1.device_exp = 'desktop';
+        }catch(e){
+
+        }
+      var omdata = {"context":context1};</script>    <script>
+        if (typeof context1 == 'object') {
+
+            for (var i in context1) {
+
+                if (i == 'content_title')
+                    utag_data[i] = document.title;
+                else
+                    utag_data[i] = context1[i];
+            }
+            //jQuery(document).ready(function() {
+            //utag.view(utag_data);//hitUtag(utag_data);
+            //});
+
+        }
+    </script>
+
+        </div>
+
+        <div id="loader" style="width:100%; margin:0 auto 30px; text-align:center; display:none; clear:both;"><img src="/assets/images/site/loader.gif" height="35" width="35" border="0" /></div>
+
+                    <!--<div class="load-more-divider">
+            <div class="load-more-divider-side"></div>-->
+            <!--<div class="load-more-divider-middle">--><a id="idPaginate" href="javascript:void(0);" class="load-more-posts clearfix">Load More</a><!--<div class="clear"></div></div>-->
+            <!--<div class="load-more-divider-side"></div>
+            </div>-->
+        
+        <div class="clear"></div>
+
+        <noscript><!-- PAGINATION IF JAVASCRIPT IS DISABLED -->
+            <div id="idPaginate" style="text-align:center;" class="clearfix">&nbsp;&nbsp;<a href="/page/2">Next Page</a></div>
+        </noscript>
+
+    </div>
+
+
+    <div class="clear"></div>
+
+</div>
+<div id="yahoo-page-beacon-p-landing" data-widget="yahoo" data-role="beacon"></div>
+
+<script>
+    
+
+
+
+</script>
+
+        </div>
+        <!-- End of OLD What's New -->
+
+        
+<script type="text/javascript">
+    
+
+        var videoModuleLoading = false;
+        var videoModPage = 0;
+        var totalVideoItemsfound = 50;
+        var videoModsize = 3;
+
+        function loadNewVideoContent()
+        {
+
+
+            $(".load-more-video-posts").show();
+            theUrl = '/shows/watch_magazine/video-mod-more/' + parseInt(videoModPage + 1)+'/';
+
+
+            if (totalVideoItemsfound < videoModsize){
+            $(".load-more-video-posts").hide();
+             }
+
+
+            jQuery('#videoloader').show();
+
+            jQuery.ajax({
+                type:'GET',
+                url: theUrl,
+                dataType: 'json',
+                success:function(data){
+                    if(data === 'false') {
+
+                        jQuery('#videoloader').hide();
+                        $(".load-more-video-posts").hide();
+                    } else {
+                        var parts = window.location.pathname.split('/');
+                        if (!parts[parts.length - 1]) {
+                            parts.pop();
+                        }
+
+                        if (!isNaN(parts[parts.length - 1])) {
+                            parts.pop();
+                        }
+
+
+                        if(data != "" && data !== 'false'){
+
+
+
+                            videoModuleLoading = false;
+
+                            jQuery("#idVideoModContainer").append(data.html);
+
+                            jQuery('#videoloader').hide();
+
+                            videoModPage = videoModPage+1;
+                            totalVideoItemsfound = data.totalItemsfound;
+
+
+                            if (totalVideoItemsfound <= videoModPage * videoModsize || data.hideLoadMore ) {
+                                $(".load-more-video-posts").hide();
+                            }
+
+                        }
+                    }
+                },
+                complete: function() {
+                    if (typeof showMarquee != "undefined") {
+                        //showMarquee.setScrollContainerHeight();
+                    }
+                }
+            });
+
+
+        }
+
+        jQuery(document).ready(function () {
+            if (totalVideoItemsfound < videoModsize){
+                $(".load-more-video-posts").hide();
+
+            }
+            jQuery("#idPaginateVideo").bind('click', function() {
+                loadNewVideoContent();
+            });
+
+        });
+
+
+        function hitUtag(utag_data) {
+        alert("pre utag");
+        utag.view(utag_data);
+        alert("post utag");
+    }
+
+</script>
+
+
+
+<div id="cbs-show-content-aggregate-list" class="container">
+    <!-- full-width well container 953px -->
+    <div class="cbs-show-content-full hide"></div>
+
+    <div class="cbs-show-content-wrapper index"><!-- left column well container 631px -->
+        
+
+        <div class="clear"></div>
+
+
+        <div class="section-dividers w-clearfix"><h1 class="section-names">Video</h1></div>
+
+
+        <!-- THis contains the aggregate-list aka What's New -->
+        <div id="idVideoModContainer" class="clearfix">
+            <style>
+
+
+
+
+</style>
+
+
+
+
+
+
+
+        <div  id="section-238129" class="floatLeft width100 margin0 target cf  ">
+            <div class="floatLeft  width100">
+
+
+                
+
+
+                    <div class="_2-column-section">
+                        <div class="_1 _2-column-image">
+                            <a href="/shows/watch_magazine/video/FA30997E-84B5-69C6-17C7-E9E00264D0BE/hanging-out-with-david-boreanaz/">
+                                <img src="http://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2017/10/05/1062601795863/BoreanazVidThumbnail_1228398_640x360.jpg" width="100%" />
+                            </a>
+                        </div>
+
+
+                        <div class="_2-column-metadaya">
+                            <a href="/shows/watch_magazine/video/FA30997E-84B5-69C6-17C7-E9E00264D0BE/hanging-out-with-david-boreanaz/">
+                                <h1 class="large marquee-metedata-headline">
+                                    Hanging Out With David Boreanaz                                </h1>
+                                <div class="home-2-subcopy mainhome">
+                                    SEAL Team star David Boreanaz takes us behind-the-scenes of his cool cover photo shoot.                                </div>
+                                <div>
+                                    <div class="content-indicator video">video</div>
+                                    <div class="content-indicator time video">   10/05/17 | 1:12</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
+                    
+
+
+                    <div class="_2-column-section">
+                        <div class="_1 _2-column-image">
+                            <a href="/shows/watch_magazine/video/DC79585B-30C3-B22C-2BA6-BB5DBD4F4A07/television-s-biggest-stars-like-you-ve-never-seen-them-before/">
+                                <img src="http://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2017/09/25/1054701635621/WatchReelFINALInternet_1220238_640x360.jpg" width="100%" />
+                            </a>
+                        </div>
+
+
+                        <div class="_2-column-metadaya">
+                            <a href="/shows/watch_magazine/video/DC79585B-30C3-B22C-2BA6-BB5DBD4F4A07/television-s-biggest-stars-like-you-ve-never-seen-them-before/">
+                                <h1 class="large marquee-metedata-headline">
+                                    Television's Biggest Stars Like You've Never Seen Them Before                                </h1>
+                                <div class="home-2-subcopy mainhome">
+                                    From amazing locations to stunning fashion and photography, get a rare and glamorous behind-the-scenes look at how CBS Watch! captures the best in entertainment.                                </div>
+                                <div>
+                                    <div class="content-indicator video">video</div>
+                                    <div class="content-indicator time video">   09/25/17 | 2:09</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
+                    
+
+
+                    <div class="_2-column-section">
+                        <div class="_1 _2-column-image">
+                            <a href="/shows/watch_magazine/video/C855FF5E-0D6B-4BA8-D720-A708A6C5C969/all-that-glitters-with-sonequa-martin-green/">
+                                <img src="http://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2017/09/22/1052243011803/Sonequa_video_thumbnail_1217434_640x360.jpg" width="100%" />
+                            </a>
+                        </div>
+
+
+                        <div class="_2-column-metadaya">
+                            <a href="/shows/watch_magazine/video/C855FF5E-0D6B-4BA8-D720-A708A6C5C969/all-that-glitters-with-sonequa-martin-green/">
+                                <h1 class="large marquee-metedata-headline">
+                                    All That Glitters With Sonequa Martin-Green                                </h1>
+                                <div class="home-2-subcopy mainhome">
+                                    Star Trek: Discovery's Sonequa Martin-Green shines bright like a diamond in her glamorous photo shoot for CBS Watch! Magazine.                                </div>
+                                <div>
+                                    <div class="content-indicator video">video</div>
+                                    <div class="content-indicator time video">   09/24/17 | 1:14</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
+                                </div>
+        </div>
+
+        <div class="clear"></div>
+
+
+
+
+                </div>
+
+        <div id="videoloader" style="width:100%; margin:0 auto 30px; text-align:center; display:none; clear:both;"><img src="/assets/images/site/loader.gif" height="35" width="35" border="0" /></div>
+
+                        <a id="idPaginateVideo" href="javascript:void(0);" class="load-more-video-posts clearfix">Load More</a>
+        
+        <div class="clear"></div>
+
+     
+    </div>
+
+
+    <div class="clear"></div>
+
+</div>
+
+
+
+
+        <div id="leader-bottom"></div>
+        
+<div class="clear"></div>
+
+
+
+        <div class="about-container">
+
+
+            <div class="home2-about-section">
+                <div class="footer-main-div">
+                                        <div class="about home2-section-header-text">About Watch!</div>
+                    <div class="home2-about-paragraph">
+
+
+                        <div id="watch-about-copy-parent" style="height: 138px; overflow:hidden;">
+                            <div id="watch-about-copy" style="height: auto; display: inline;" class="home2-about-paragraph">
+
+
+                                <p>
+As the official magazine of CBS, <em>Watch!</em> offers a rare, glamorous window into the lives of television&#39;s biggest stars. With distinctive photography by top tier talents and first class stories curated by industry veterans, <em>Watch!</em> has steadily become one of the most elegant, sophisticated publications steadily growing today.
+</p>
+
+<p>
+This intriguing amalgam of celebrity, culture, fashion, travel, and beauty reaches one million readers across the country with entertaining interviews and images featuring talent from CBS, Showtime, The CW, CBS All Access, Simon &amp; Schuster, CBS Films, Pop TV, and beyond.
+</p>
+
+<p>
+The magazine&#39;s digital properties present readers with richer pathways to continue the journey beyond the velvet rope. Timely, behind-the-scenes videos and photo galleries bring the reader closer to their favorite characters and their favorite shows. The digital version of <em>Watch!</em> can be found at <a href="http://www.cbswatchmagazine.com" target="_blank">cbswatchmagazine.com</a> as well as on a variety of platforms, including Zinio, Magzter, and Apple News. The bi-monthly print magazine is enjoyed by subscribers and sold on newsstands at Barnes &amp; Noble, Hudson News, Target, and Walmart.
+</p>
+
+
+                            </div>
+                            <a style="color: #fff;" href="/shows/watch_magazine/about/" style="" class="about-read-more">Read More</a>
+                        </div>
+
+
+
+                    </div>
+
+                    
+
+                    <div class="home-footer-rights-logo">
+                        <div class="home-2-rights">
+                            <ul>
+
+                                <li class="footer-column-item company">
+                                    <a href="http://legalterms.cbsinteractive.com/adchoice/" target="_blank" title="Ad Choice" alt="Ad Choice">Ad Choice</a>
+                                </li>
+                                <li class="footer-column-item company">
+                                    <a href="http://www.cbs.com/closed-captioning/" target="_blank" title="Closed Captioning" alt="Closed Captioning">Closed Captioning</a>
+                                </li>
+                                <li class="footer-column-item company">
+                                    <a href="http://legalterms.cbsinteractive.com/privacy/" target="_blank" title="Privacy Policy" alt="Privacy Policy">Privacy Policy</a>
+                                </li>
+                                <li class="footer-column-item company">
+                                    <a href="http://legalterms.cbsinteractive.com/terms-of-use/" target="_blank" title="Terms of Use" alt="Terms of Use">Terms of Use</a>
+                                </li>
+                                <li class="footer-column-item company">
+                                    <a href="http://legalterms.cbsinteractive.com/cookies" target="_blank" title="Cookies" alt="Cookies">Cookies</a>
+                                </li>
+
+                                <li class="footer-column-item company">
+                                    <a href="http://mediakit.cbswatchmagazine.com/" target="_blank" title="Media Kit" alt="Media Kit">Media Kit</a>
+                                </li>
+                                <li class="footer-column-item company">
+                                    <a href="#" onclick="return false;">Subscribe 1-800-532-8190</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="footer-last-line">
+                            <div class="home-2-rights">By viewing our video content you are accepting the terms of our&nbsp;
+                                Video Services Policy. &copy; 2017 CBS Interactive. All rights reserved.
+                            </div>
+
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+<script>
+    $(document).ready(function() {
+        TruncateToHeight.truncate({
+            contentElementId: 'watch-about-copy',
+            heightElementId: 'watch-about-copy-parent'
+        })
+    });
+ </script>
+
+
+
+
+        <div class="clear"></div>
+
+
+
+
+
+
+
+      </div>
+
+    <div class="clear"></div>
+
+    <script type="text/javascript">
+        $("#masterPageWrapper").adMarquee("#marqueeContainer");
+
+        window._taboola = window._taboola || [];
+        _taboola.push({
+            mode: 'thumbnails-a',
+            container: 'taboola-below-content-homepage',
+            placement: 'Below Content Thumbnails',
+            target_type: 'mix'
+        });
+    </script>
+</div>
+
+
+
+<script>
+    var CBSHeader = null;
+    var GlobalLogin;
+
+    $(document).ready(function () {
+        CBSHeader = new CBS.Header();
+
+        CBSHeader.init();
+        GlobalLogin = new Login("loginModal");
+    });
+</script>
+                        <div class="clear"></div>
+                    </div>
+
+            <div id="cbs-footer">
+                        <div class="clear"></div>
+
+<div id="cbs-footer-v2-wrapper"  aa-region='global footer'>
+
+    <div id="cbs-footer-v2-container">
+        <div class="footer-column" id="footerLinksCol1">
+            <div class="footer-column-header">
+                Site Navigation
+            </div>
+            <ul>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbs.com/shows/" title="Shows" alt="Shows"  aa-link="global footer|site navigation|shows|1|click">Shows</a>
+                </li>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbs.com/watch/" title="Videos" alt="Video"  aa-link="global footer|site navigation|videos|2|click">Videos</a>
+                </li>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbs.com/live-tv/" title="Live TV" alt="Live TV"  aa-link="global footer|site navigation|live tv|3|click">Live TV</a>
+                </li>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbs.com/user/mycbs/" title="My CBS" alt="My CBS"  aa-link="global footer|site navigation|my cbs|4|click">My CBS</a>
+                </li>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbs.com/schedule/" title="Schedule" alt="Schedule"  aa-link="global footer|site navigation|schedule|5|click">Schedule</a>
+                </li>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbsstore.com/" title="Shop" alt="Shop" target="_blank"  aa-link="global footer|site navigation|shop|6|click">Shop</a>
+                </li>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbsnews.com/" target="_blank" title="CBS News" alt="CBS News"  aa-link="global footer|site navigation|cbs news|7|click">CBS News</a>
+                </li>
+                <li class="footer-column-item navigation">
+                    <a href="http://www.cbssports.com/" target="_blank" title="CBS Sports" alt="CBS Sports"  aa-link="global footer|site navigation|cbs sports|8|click">CBS Sports</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-column" id="footerLinksCol2">
+            <div class="footer-column-header">
+                Privacy/Terms
+            </div>
+            <ul>
+
+                <li class="footer-column-item company">
+                    <a href="http://legalterms.cbsinteractive.com/adchoice/" target="_blank" title="Ad Choice" alt="Ad Choice"  aa-link="global footer|privacy-terms|ad choice|9|click">Ad Choice</a>
+                </li>
+                <li class="footer-column-item company">
+                    <a href="http://www.cbs.com/closed-captioning/" target="_blank" title="Closed Captioning" alt="Closed Captioning"  aa-link="global footer|privacy-terms|closed captioning|10|click">Closed Captioning</a>
+                </li>
+                <li class="footer-column-item company">
+                    <a href="http://legalterms.cbsinteractive.com/privacy/" target="_blank" title="Privacy Policy" alt="Privacy Policy"  aa-link="global footer|privacy-terms|privacy policy|11|click">Privacy Policy</a>
+                </li>
+                <li class="footer-column-item company">
+                    <a href="http://legalterms.cbsinteractive.com/terms-of-use/" target="_blank" title="Terms of Use" alt="Terms of Use"  aa-link="global footer|privacy-terms|terms of use|12|click">Terms of Use</a>
+                </li>
+                <li class="footer-column-item company">
+                    <a href="http://legalterms.cbsinteractive.com/cookies" target="_blank" title="Cookies" alt="Cookies"  aa-link="global footer|privacy-terms|cookies|13|click">Cookies</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-column" id="footerLinksCol3">
+            <div class="footer-column-header">
+                Information
+            </div>
+            <ul>
+                <li class="footer-column-item information">
+                    <a href="http://audienceservices.cbs.com/feedback/feedback.htm" target="_blank" title="Broadcast Feedback" alt="Broadcast Feedback"  aa-link="global footer|information|broadcast feedback|14|click">Broadcast Feedback</a>
+                </li>
+                <li class="footer-column-item information">
+                    <a href="http://www.cbs.com/casting/" target="_blank" title="Casting" alt="Casting"  aa-link="global footer|information|casting|15|click">Casting</a>
+                </li>
+                <li class="footer-column-item information">
+                    <a href="http://www.tvguidelines.org/ratings.htm" target="_blank" title="Ratings Guidelines" alt="Ratings Guidelines"  aa-link="global footer|information|ratings guidelines|16|click">Ratings Guidelines</a>
+                </li>
+                <li class="footer-column-item information">
+                    <a href="https://cbsi.secure.force.com/CBSi/sitefeedback2?template=cbsent15&referer=cbs.com/ent&categories=CBS_Entertainment:CBS_Entertainment&cfs=SFS_1&data=" target="_blank" title="Site Feedback" alt="Site Feedback"  aa-link="global footer|information|site feedback|17|click">Site Feedback</a>
+                </li>
+                <li class="footer-column-item information">
+                    <a href="http://www.cbscorporation.com/" target="_blank" title="About CBS Corporation" alt="About CBS Corporation"  aa-link="global footer|information|about cbs corporation|18|click">About CBS Corporation</a>
+                </li>
+                <li class="footer-column-item information">
+                    <a href="http://www.cbsinteractive.com/advertise/" target="_blank" title="Advertise" alt="Advertise"  aa-link="global footer|information|advertise|19|click">Advertise</a>
+                </li>
+                <li class="footer-column-item information">
+                    <a href="http://cbscorporation.jobs/jobs/" target="_blank" title="Careers" alt="Careers"  aa-link="global footer|information|careers|20|click">Careers</a>
+                </li>
+                <li class="footer-column-item information">
+                    <a href="https://cbsi.secure.force.com/CBSi/knowledgehome2?referer=cbs.com/ent&categories=CBS_Entertainment:CBS_Entertainment" target="_blank" title="Help" alt="Help"  aa-link="global footer|information|help|21|click">Help</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-column" id="footerLinksCol4">
+            <div class="footer-column-header">
+                Follow Us
+            </div>
+            <ul>
+                <li class="footer-column-item follow-us-letter left-padding-extra">
+                    <a href="http://www.cbs.com/newsletter/" target="_blank" title="CBS Newsletter" title="CBS Newsletter"  aa-link="global footer|follow us|cbs newsletter|22|click">CBS Newsletter</a>
+                </li>
+                <li class="footer-column-item follow-us-fb left-padding-extra">
+                    <a href="https://www.facebook.com/CBS" target="_blank" title="Facebook" alt="Facebook"  aa-link="global footer|follow us|facebook|1|click">Facebook</a>
+                </li>
+                <li class="footer-column-item follow-us-twt left-padding-extra">
+                    <a href="http://twitter.com/cbs" target="_blank" title="Twitter" alt="Twitter"  aa-link="global footer|follow us|twitter|1|click">Twitter</a>
+                </li>
+                <li class="footer-column-item follow-us-youtube left-padding-extra">
+                    <a href="https://www.youtube.com/user/CBS" target="_blank" title="YouTube" alt="YouTube"  aa-link="global footer|follow us|youtube|1|click">YouTube</a>
+                </li>
+                <li class="footer-column-item follow-us-gp left-padding-extra">
+                    <a href="https://plus.google.com/+CBS" target="_blank" title="Google Plus" alt="Google Plus"  aa-link="global footer|follow us|google plus|1|click">Google Plus</a>
+                </li>
+                <li class="footer-column-item instagram left-padding-extra">
+                    <a href="https://www.instagram.com/cbstv/" target="_blank" title="Instagram" alt="Instagram"  aa-link="global footer|follow us|instagram|1|click">Instagram</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="bottom-term-wrapper">
+        <div id="term-left">By viewing our video content you are accepting the terms of our <a href="http://legalterms.cbsinteractive.com/video-services" target="_blank">Video Services Policy</a>.</div>
+        <div id="term-right">&copy; 2017 CBS Interactive. All rights reserved.</div>
+    </div>
+    <div id="cbs-accepts-terms">
+        <div id="footer-cbs-eye">
+            <img src="http://wwwimage.cbsstatic.com/assets/images/homepage/2016/cbs.svg" border="0" />
+        </div>
+    </div>
+</div>
+
+<div id="interstitial" style="position:absolute;top:-5000px;left:-5000px;"></div>
+<div id="magnet-bottom"></div>
+<style>
+    <!-- TODO: refactor CSS -->
+    #magnet-bottom { margin:0; padding:0; position:fixed; left:0; bottom:0; z-index:6900; text-align:center; width:100%; }
+    #magnet-bottom iframe { margin:0 auto; padding:0; box-shadow:0px 0px 10px #333; -moz-box-shadow:0px 0px 10px #333; -webkit-box-shadow:0px 0px 10px #333; }
+
+    body.skinAd div.cbs-show-content-right {width: 300px;}
+    div##stickyAds{z-index: 9; !important;}
+    div#cbs-show-page{overflow: hidden !important;}
+    div#stickyheader {z-index: 5000000 !important;}
+    div#masterPageWrapper {display: block !important}
+    iframe[width="1600"]{display: none}
+    /*div#leader-plus-top {padding: 10px 0 }*/
+    div#leader-plus-top:empty, div#leader-top:empty { padding:0 }
+    div#leader-middle {padding-top: 10px }
+    div#leader-middle:empty { padding-top:0 }
+    div#leader-top > div, div#leader-top > div > table, div#leader-top > div > div, div#leader-top > div > iframe {text-align: center; margin: 0 auto !important}
+    div#leader-plus-top > div > table, div#leader-plus-top > div > div, div#leader-plus-top > div > iframe {text-align: center; margin: 0 auto !important}
+</style>
+
+
+<script type="text/javascript">
+    function setCookie(name,value,expires,path,domain){var today=new Date();today.setTime(today.getTime());if(expires){expires=expires*1000*60*60*24}var expires_date=new Date(today.getTime()+(expires));document.cookie=name+"="+escape(value)+((expires)?";expires="+expires_date.toGMTString():"")+((path)?";path="+path:"")+((domain)?";domain="+domain:"")}function getCookie(name){var c_name=name+"=";var dc=document.cookie;if(dc.length>=0){s_index=dc.indexOf(c_name);if(s_index!=-1){s_index+=c_name.length;e_index=dc.indexOf(";",s_index);if(e_index==-1){e_index=dc.length}return unescape(dc.substring(s_index,e_index))}}return null}function check(){if(getCookie("CBS")){return}else{}};
+
+    try {
+        CBS.Registry.yahoo_widgets = false;
+
+        DW.yahoo = false;
+        DW.detectYahoo = false;
+        DW.tagYahoo = false;
+    } catch (e) {
+    }
+
+    DW.clear();
+    var rnowReference;
+    function rnowCenter() {
+        rnowReference = window.open("/info/user_services/help/helpcenter.php?ref=" + window.location.toString(), "RightNow", "width=850,height=806,resizable,scrollbars=yes,toolbar=yes,menubar=no,location=no,status=1");
+    }
+</script>
+
+<script>
+
+
+    $('#footerLinksCol1 a, #footerLinksCol2 a, #footerLinksCol3 a, #footerLinksCol4 a').click(function(e){
+        $('#footerLinksCol1 a, #footerLinksCol2 a, #footerLinksCol3 a, #footerLinksCol4 a').removeClass('hover');
+        $(this).addClass('hover');
+
+        var clickedFirst = $('#footerLinksCol1 a.hover');
+        var clickedSecond = $('#footerLinksCol2 a.hover');
+        var clickedThird = $('#footerLinksCol3 a.hover');
+        var clickedFourth = $('#footerLinksCol4 a.hover');
+
+        // get element position
+        var posFirst = $(clickedFirst).parent().index();
+        var posSecond = $(clickedSecond).parent().index();
+        var posThird = $(clickedThird).parent().index();
+        var posFourth = $(clickedFourth).parent().index();
+
+        // determine clicked link position in term of the entire footer
+        var pos1 = (posFirst >= 0)? posFirst : 0;
+        var pos2 = (posSecond >= 0)? posSecond + $('#footerLinksCol1 a').length : 0;
+        var pos3 = (posThird >= 0)? posThird + $('#footerLinksCol1 a').length + $('#footerLinksCol2 a').length : 0;
+        var pos4 = (posFourth >= 0)? posFourth + $('#footerLinksCol1 a').length + $('#footerLinksCol2 a').length + $('#footerLinksCol3 a').length: 0;
+
+        // retrieve the link text which was clicked
+        var linkTxt1 = (posFirst >= 0)? $(clickedFirst).html() : '';
+        var linkTxt2 = (posSecond >= 0)? $(clickedSecond).html() : '';
+        var linkTxt3 = (posThird >= 0)? $(clickedThird).html() : '';
+        var linkTxt4 = (posFourth >= 0)? $(clickedFourth).html() : '';
+
+        var pos = pos1 + pos2 + pos3 + pos4; // only one variable will have value.  All other will be empty.
+        var linkTxt = linkTxt1 + linkTxt2 + linkTxt3 + linkTxt4; // only one variable will have value.  All other will be empty.
+        om.trackClick({item:"footer|" + linkTxt + "|" + pos + "|click"});
+    });
+
+    /*
+     this.getTealiumGlobalNavData = function() {
+     var clicked = $('.nav-menu .nav-item a.hover');
+     var pos = $(clicked).parent().index();
+     return "global nav|" + $(clicked).html() + "|" + pos + "|click";
+     }*/
+
+
+
+</script>
+
+<script type="text/javascript">
+    utag_data = CBS.Tracking.SetTracking( {"DW_page_type":"HOME","pageSection":"Show Home","tealium":{"userType":null,"mediaPartnerId":"cbs","mediaDistNetwork":"can","deviceType":"desktop","siteType":"responsive web","showId":44828,"showTitle":"Watch! Magazine","showDayPart":"originals","showGenre":"other"},"tealiumOverride":[],"BK_sb":null,"meta_title":"Watch Magazine - CBS.com","raw":{"tealium":{"userType":null,"mediaPartnerId":"cbs","mediaDistNetwork":"can","deviceType":"desktop","siteType":"responsive web","showId":44828,"showTitle":"Watch! Magazine","showDayPart":"originals","showGenre":"other"},"tealiumOverride":[],"user":null}});
+
+    (function(a,b,c,d) {
+        a='//tags.tiqcdn.com/utag/cbsi/cbscomsite/prod/utag.js';
+        b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+        a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+
+        try {
+        CBS.Promises.Ads.onLoad(function() {
+                        CBSAds.adServer = __ad_server = "8264";
+            CBSAds.path = utag_data.path;
+            CBSAds.policy = [{"type":"LeaderPlusTop","size":[[728,90],[970,66],[970,250]],"position":"top","sequence":3},{"type":"SkinTop","size":[[1600,1000]],"position":"top","sequence":5},{"type":"Interstitial","size":[[0]],"position":"top","sequence":7},{"type":"LeaderBottom","size":[[728,90],[970,66]],"position":"bottom","sequence":12}];
+            CBSAds.pageType = utag_data.pageType;
+
+            
+            
+            
+            CBSAds.render();
+        });
+    } catch (e) {
+        console.error('Error during ads rendering: ' + e);
+    }
+    </script>
+
+<script type="application/ld+json">{"@context":"http://schema.org","@id":"http://www.cbs.com/shows/watch_magazine/","@type":"TVSeries","name":"Watch! Magazine","url":"http://www.cbs.com/shows/watch_magazine/","sameAs":"","potentialAction":[{"@type":"ViewAction","inLanguage":"en","target":{"@type":"EntryPoint","urlTemplate":"http://www.cbs.com/shows/watch_magazine/","actionPlatform":["http://schema.org/DesktopWebPlatform","http://schema.org/MobileWebPlatform","http://schema.org/IOSPlatform"]}},{"@type":"ViewAction","inLanguage":"en","target":{"@type":"EntryPoint","urlTemplate":"android-app://com.cbs.app/cbs/http://www.cbs.com/shows/watch_magazine/","actionPlatform":"http://schema.org/AndroidPlatform"}}]}</script>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="cbs-badge-notices-wrapper"></div>
+
+            <div id="fb-root"></div>
+        </div> <!-- cbs-page -->
+    <!--[if IE]>
+    </div>
+    <![endif]-->
+
+        <script type="text/javascript">
+            window.twttr = (function(d, s, id) {
+                var t, js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+                return window.twttr || (t = {
+                        _e: [], ready: function(f) {
+                            t._e.push(f)
+                        }
+                    });
+            }(document, "script", "twitter-wjs"));
+
+        </script>
+
+        <script type="text/javascript">
+            var __n = "##CBS_COM##";
+        </script>
+
+
+        <div id="native_top"></div>
+
+        <script type="text/javascript">
+            window._taboola = window._taboola || [];
+            _taboola.push({flush: true});
+        </script>
+
+                        <script>
+                (function () {
+                    var vl = document.createElement('script');
+                    vl.type = 'text/javascript';
+                    vl.async = true;
+                    vl.src = document.location.protocol + '//static.vilynx.com/plugins/cbs-vilynx.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(vl, s);
+                }());
+                function renderAdCallback() {
+                    if (document.createEvent) { // W3C
+                        var event = document.createEvent('Event');
+                        event.initEvent('resize', true, true);
+                        window.dispatchEvent(event);
+                    }
+                    else { // IE
+                        var event=document.createEventObject();
+                        document.documentElement.fireEvent("resize",event);
+                    }
+                }
+            </script>
+        
+    
+
+</body>
+</html>

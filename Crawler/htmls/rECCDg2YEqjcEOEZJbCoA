@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8" />
+	<title>CBS Sports Radio</title>
+	<meta name="description" content="CBS Sports Radio" />
+	<link rel="pingback" href="http://radio.cbssports.com/xmlrpc.php" />
+	<meta name="keywords" content="vibNews" />
+	
+<!-- WP Header - Start -->
+	<meta name="google-site-verification" content="ORYgk6I73gG2O1_W4_3ZxV0mKLlflfZw3X2lRN027is" />
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=radio.cbssports.com&amp;id=47578332&amp;t=1507662165&amp;back=http%3A%2F%2Fradio.cbssports.com%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s7.addthis.com' />
+<link rel='dns-prefetch' href='//apis.google.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//cbssportsradio.wordpress.com' />
+<link rel='dns-prefetch' href='//wayne.cbslocal.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="CBS Sports Radio &raquo; Feed" href="http://radio.cbssports.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CBS Sports Radio &raquo; Comments Feed" href="http://radio.cbssports.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CBS Sports Radio &raquo; Home Section Comments Feed" href="http://radio.cbssports.com/home-section/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link rel='stylesheet' id='all-css-0-1' href='https://s0.wp.com/_static/??-eJy1kdFOwzAMRX8I1xto2hPiW7LUdGltJ9TJqv49acWkDl4KEk/RTe49unZwSuCjZtKMUiBx6YIaTslHAZPANH9TjTd7wk0sX0nI8BYS+osBR+8Y7yCJbeH66lrDGlzOfYDesP8oNM74Tq46Rg7dNT+IRoL+rc1qAnHqOhrXXg830JINOaZ98KCeS018cYpc1AUGDjr8TzviqjT/XOTmAzkMldRTTs4PsKrf7j1ODN6NsRjxIpq72AeyPDPtsy4jbod6k9fj6XA+vjyfD6f+E9nI/YU=' type='text/css' media='all' />
+<link rel='stylesheet' id='cbs-custom-css-css'  href='http://wayne.cbslocal.com/cbs-local-custom-css/jim-rome/cbssportsshows-css-web.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2-1' href='https://s1.wp.com/_static/??-eJx9UNEOgjAM/CHrBMWEB+O3jNHAdN0W2oGfbwkh+sRLc3e96yU1SwaXomAUIyMSspl9Nq5jCMnZYHIog49sKPUl6JbRiU8qOP4RuJ6VnszfMSqwR12aUHXKVlYHYe8tBu2KchRbfD+gbEUbBsHPYYTyfS9a4Wjdmw8rsrqh6/KEzKCTfCHY/rDmnvSomkvdtk1d3V5fl6tvew==' type='text/css' media='all' />
+<link rel='stylesheet' id='cbs-font-awesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css?ver=4.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cbs-google-font-lato-css'  href='https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900&#038;ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-6-1' href='https://s2.wp.com/_static/??-eJytkM0OwiAQhF9IXGvCwYPxWSiuuApsw0/7+lKaqk2TxoO3mezMFwYYOqHZJ/QJ0h0dRuipA91GYVkrC53NhnwEx9dsy3Wgq8EUQce33he9gy+Qy2KuzfHImpQVVCJLM5UJPKfpOIstqkGuz0vEfmHEzSoKW9WArWVTpKkTPnZV+uk7akg45ZXBUIlOhee42OVIGjRbDustf2Fzj2EIlHDEX9y5kQd5OspGyscL+FCxcA==' type='text/css' media='all' />
+<link rel='stylesheet' id='cbs-external-css-css'  href='http://wayne.cbslocal.com/cbs-local-custom-css/jim-rome/cbssportsshows-css-web.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-8-1' href='https://s1.wp.com/wp-content/themes/h4/global.css?m=1420737423h' type='text/css' media='all' />
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJy1kmFPAyEMhv+QjOmyJX4w/hbG9W5lpSCUW+avt7do9HTR2wcTkqb0eV8K1J6yQfbUOqg26HppUM7vYRXqnf0NMBGH4gRWEfkD9okFWKwcIKpkxGz9vhpK3pH96tQ39oKJ683KnOjcI9HNwrBIkakNyNXG1DXSqusuYg1mfFjk8PlOPTglCuFwkFmy+Mm+d3OBTHTsBijTSbMNozc9Ssr/YQ2kGcuP/wqTwx4JTKtQFGXRkenTFS6nKtpHVehKdT58yCPC6U8sgGTnj6ZAxdfJ9Tk+3W/Xu8ftZrNbhzeW5hQF'></script>
+<script type='text/javascript' src='//s7.addthis.com/js/300/addthis_widget.js?ver=1.0.0#pubid=ra-4ddd05dc24272928'></script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyFjEsOwyAMBS9UsKoERVlUPQt1LAVkPsEQlNuXLrrOcp7mDfSsMMVKsULdKZDA6TLgRxQntAwuIrdtzF7AbjuJO0l7ecDdcfj+aFQuSJ0V2pKaEP9A/0EHF0frHV7PeTXGLNM6+y+0azU6'></script>
+<script type='text/javascript' src='http://apis.google.com/js/plusone.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJydjEsOwjAMBS9EmpaWBQvEWdLEDa6cD3FC6e0JYtMNAlW2ZD153sglCvSaigGWc917gbTKglKHBI1D38x8kF+pBY2F/JvLauQtpYPP4LPMN3CVfWCUemRBQSvaND+n0YGK8zitomvaOrtFoxIxcK4kKwv7PRPBkwkNpH/7lsKo6C86UrHoWbpgCtVvYUgigUXOSWUM/u3b5mq9uks3nE9tfxz6bn4BpEiuKg=='></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cbssportsradio.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/P3dDis-7' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=http%3A%2F%2Fradio.cbssports.com%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=http%3A%2F%2Fradio.cbssports.com%2F&amp;for=wpcom-auto-discovery" /><link rel="shortcut icon" type="image/x-icon" href="http://1.gravatar.com/blavatar/1ffa3760d065439d7d3bba3480bbc9de?s=32" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="http://1.gravatar.com/blavatar/1ffa3760d065439d7d3bba3480bbc9de?s=32" sizes="16x16" />
+<link rel="apple-touch-icon-precomposed" href="http://1.gravatar.com/blavatar/1ffa3760d065439d7d3bba3480bbc9de?s=114" />
+<link rel='openid.server' href='http://cbssportsradio.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://cbssportsradio.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://radio.cbssports.com/osd.xml" title="CBS Sports Radio" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+	<link rel="canonical" href="http://radio.cbssports.com/" />
+	<meta name="application-name" content="CBS Sports Radio" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="CBS Sports Radio" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://radio.cbssports.com/feed/;icon-uri=http://1.gravatar.com/blavatar/1ffa3760d065439d7d3bba3480bbc9de?s=16" />
+					<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:image" content="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/facebook/facebook-share-260x260.png">
+		
+					<meta name="twitter:title" content="CBS Sports Radio" />
+					<meta name="twitter:description" content="CBS Sports Radio" />
+					<meta name="twitter:site" content="/CBSSportsRadio" />
+		
+		
+					<meta property="og:title" content="CBS Sports Radio" />
+					<meta property="og:image" content="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/facebook/facebook-share-260x260.png" />
+					<meta property="og:image:secure_url" content="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/facebook/facebook-share-260x260.png" />
+					<meta property="og:description" content="CBS Sports Radio" />
+					<meta property="og:type" content="website" />
+					<meta property="og:url" content="http://radio.cbssports.com" />
+					<meta property="article:publisher" content="https://www.facebook.com/CBSSportsRadio" />
+					<meta property="article:author" content="https://www.facebook.com/CBSSportsRadio" />
+		
+		<style type="text/css" id="syntaxhighlighteranchor"></style>
+<script>cbs_lib.load_script("//cdn.taboola.com/libtrc/cbslocal-sc/tfa.js", function() { window._tfa = window._tfa || []; _tfa.push({ notify: "action",name: "page_view" }); });</script>
+
+<!-- Rev - Start -->
+<script type="text/javascript">!function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");</script><script type="text/javascript">cbs_ads.partners.add("amazon", "3063");</script><script type="text/javascript">var googletag = googletag || {};googletag.cmd = googletag.cmd || [];googletag.cmd.push(cbs_ads.onload);(function() {var gads = document.createElement("script");gads.async = true;gads.type = "text/javascript";var useSSL = "https:" == document.location.protocol;gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";var node = document.getElementsByTagName("script")[0];node.parentNode.insertBefore(gads, node);})();</script>
+<script type="text/javascript" src="//native.sharethrough.com/assets/tag.js" async></script><script type="text/javascript">cbs_ads.partners.add("sharethrough", true);</script>
+<!-- Rev - End -->
+
+<script>cbs_ads.init("4128","CBS.SPORTSRADIO","home",["home","section","homepage"],{"page_type":"home"});cbs_ads.refresh.set_timer("1");</script>		<link rel="stylesheet" id="custom-css-css" type="text/css" href="https://s2.wp.com/?custom-css=1&#038;csblog=3dDis&#038;cscache=6&#038;csrev=225" />
+		<!-- WP Header - End -->
+
+	<script type="text/javascript">
+		//<![CDATA[
+			
+			
+					//]]>
+	</script>
+
+</head>
+
+<body class="home page-template-default page page-id-7 desktop-display-type  mp6 customizer-styles-applied market-template-music highlander-enabled highlander-light section" style="background: #033963;">
+
+	<div id="wrapper" class="body-wrapper">
+
+
+
+
+<header id="page-header" class="page-header-type-modular modular-header-station" style="">
+	<div class="wrapper">
+	<div id="page-header-inner" style="background-image:url(https://cbssportsradio.files.wordpress.com/2016/05/1200x150transparent.png);">
+
+					
+
+		<div id="header-rows" class="header-row">
+							<div class="header-row-top header-row">
+																		<div id="page-header-top-left" class="header-cell">
+															</div>
+																								<div id="page-header-top-right" class="header-cell">
+								<div id="component-search" class="header-component"><form action="http://radio.cbssports.com/search/" class="search"><input type="text" class="query" name="q" id="s" size="31" placeholder="Search" /><input type="reset" class="reset" value="Reset" /><input type="submit" class="submit" value="Search" /></form></div>
+							</div>
+															</div>
+			
+			<div class="header-row-inner header-row">
+													<div id="page-header-tall-left" class="header-cell">
+						<a href="http://radio.cbssports.com" id="component-logo" class="header-component"><img src="https://cbssportsradio.files.wordpress.com/2016/02/logo_header_240x73.png" alt="CBS Sports Radio" /></a>
+					</div>
+				
+													<div id="page-header-tall-right">
+						<div id="component-sponsored-ad" class="header-component">
+<div class="sponsored-by ad-size-120x60">
+
+			<strong class="disclosure">Sponsored By</strong>
+	
+	<div id="reptile_10_wrapper" class="ad-block-wrapper cbs-ad-unit-wrapper sponsor-unit"><span id="ad_10"><div id="reptile_10" class="ad-block" data-ad_size="[[120,60]]" data-ad_location="header"><script>cbs_load_ad_by_tile("10");</script></div></span></div>
+</div></div>
+					</div>
+				
+				<div class="header-row-middle-and-bottom header-row">
+											<div class="header-row-middle header-row">
+																																							<div id="page-header-middle-right" class="header-cell">
+																			</div>
+																					</div>
+					
+											<div class="header-row-bottom header-row">
+																																							<div id="page-header-bottom-right" class="header-cell">
+										<div id="component-social" class="header-component follow-us social-follow-items size-24x24 "><a href="https://www.facebook.com/CBSSportsRadio" class="facebook" target="_blank">Facebook</a><a href="https://twitter.com/CBSSportsRadio" class="twitter" target="_blank">Twitter</a><a href="https://www.youtube.com/channel/UCKTDCaYUdR2Wpv9_3a2DlMw" class="youtube" target="_blank">YouTube</a></div>
+									</div>
+																					</div>
+					
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	</div>
+</header>
+
+<header id="main-header" class="old-main-header">
+<nav class="main-nav">
+	<ul id="menu-header-menu" class="menu"><li id="menu-item-60" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="/"><strong>Home</strong></a></li>
+<li id="menu-item-125" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://radio.cbssports.com/category/shows/"><strong>Shows</strong></a></li>
+<li id="menu-item-229" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://radio.cbssports.com/stations/"><strong>Stations</strong></a></li>
+<li id="menu-item-64" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://cbssports.com"><strong>CBSSports.com</strong></a></li>
+<li id="menu-item-358" class="menu-item menu-item-type-custom menu-item-object-custom"><a target="_blank" href="http://player.radio.com/listen/station/cbs-sports-radio"><strong>Listen Live</strong></a></li>
+</ul></nav>
+<nav class="sub-nav">
+			</li>
+	</nav></header>		<section class="page-ad-container page-pencil-ad-container-top">
+			<div id="reptile_1_wrapper" class="ad-block-wrapper cbs-ad-unit-wrapper"><span id="ad_1"><div id="reptile_1" class="ad-block" data-ad_size="[[970,66],[728,90],[970,250]]" data-ad_location="top"><script>cbs_load_ad_by_tile("1");</script></div></span></div>		</section>
+		
+<div id="page-content" class="main-white page-block-container">
+
+<section class="page-columns">
+
+	<section class="page-column two-column columns-left">
+
+					<section class="column-item" id="dynamic-lead">
+						<section class="dynamic-lead-slideshow dl-style-dl-2-columns">
+			<div id="section-dl" class="canvas">
+				<ul class="slides">
+																	<li id="image-20773" class="">
+
+							
+															<a class="node" href="http://da.radio.cbssports.com/2017/10/10/former-85-bear-says-he-doesnt-see-a-leader-in-jay-cutler/"  >
+							
+							<img width="625" height="352" src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-850747838.jpg?w=625&amp;h=352&amp;crop=1" class="thumbnail wp-post-image" alt="" srcset="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-850747838.jpg?w=625&amp;h=352&amp;crop=1 625w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-850747838.jpg?w=150&amp;h=85&amp;crop=1 150w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-850747838.jpg?w=300&amp;h=169&amp;crop=1 300w" sizes="(max-width: 625px) 100vw, 625px" />
+							<div class="flexslider-caption">
+								<p class="title">Former '85 Bear Says He Doesn't See A Leader In Jay...</p>
+																	<p class="excerpt">
+																					Otis Wilson discussed numerous topics on The DA Show on Tuesday, including Jay Cutler, Doug...																			</p>
+															</div>
+
+															</a>
+													</li>
+																	<li id="image-20766" class="">
+
+							
+															<a class="node" href="http://gioandjones.radio.cbssports.com/2017/10/10/dodd-i-just-laughed-at-nick-sabans-rat-poison-rant/"  >
+							
+							<img width="625" height="352" src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-490166178.jpg?w=625&amp;h=352&amp;crop=1" class="thumbnail wp-post-image" alt="" srcset="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-490166178.jpg?w=625&amp;h=352&amp;crop=1 625w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-490166178.jpg?w=150&amp;h=85&amp;crop=1 150w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-490166178.jpg?w=300&amp;h=169&amp;crop=1 300w" sizes="(max-width: 625px) 100vw, 625px" />
+							<div class="flexslider-caption">
+								<p class="title">Dodd: I Just Laughed At Nick Saban's Rat-Poison Rant</p>
+																	<p class="excerpt">
+																					Nick Saban is a better quote after a win than a loss, Dennis Dodd has discovered, and Saturday...																			</p>
+															</div>
+
+															</a>
+													</li>
+																	<li id="image-20760" class="">
+
+							
+															<a class="node" href="http://ferrall.radio.cbssports.com/2017/10/10/mlb-analyst-girardi-a-great-baseball-mind-shouldnt-be-fired/"  >
+							
+							<img width="625" height="352" src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-683113488.jpg?w=625&amp;h=352&amp;crop=1" class="thumbnail wp-post-image" alt="" srcset="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-683113488.jpg?w=625&amp;h=352&amp;crop=1 625w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-683113488.jpg?w=150&amp;h=85&amp;crop=1 150w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-683113488.jpg?w=300&amp;h=169&amp;crop=1 300w" sizes="(max-width: 625px) 100vw, 625px" />
+							<div class="flexslider-caption">
+								<p class="title">MLB Analyst: Girardi "A Great Baseball Mind," Shouldn't...</p>
+																	<p class="excerpt">
+																					Many Yankees fans want Joe Girardi fired despite the fact that he's one win away from the ALCS....																			</p>
+															</div>
+
+															</a>
+													</li>
+																	<li id="image-20755" class="">
+
+							
+															<a class="node" href="http://radio.cbssports.com/2017/10/09/meale-oklahoma-loss-means-nothing-sooners-playoff-hopes-still-alive-for-now/"  >
+							
+							<img width="625" height="352" src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-842730234.jpg?w=625&amp;h=352&amp;crop=1" class="thumbnail wp-post-image" alt="" srcset="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-842730234.jpg?w=625&amp;h=352&amp;crop=1 625w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-842730234.jpg?w=150&amp;h=85&amp;crop=1 150w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-842730234.jpg?w=300&amp;h=169&amp;crop=1 300w" sizes="(max-width: 625px) 100vw, 625px" />
+							<div class="flexslider-caption">
+								<p class="title">Meale: Oklahoma Loss Means Nothing; Sooners' Playoff...</p>
+																	<p class="excerpt">
+																					A top-five team lost for the second week in a row. What does this mean? We don't know yet, Tony...																			</p>
+															</div>
+
+															</a>
+													</li>
+																	<li id="image-20737" class="">
+
+							
+															<a class="node" href="http://da.radio.cbssports.com/2017/10/09/beuerlein-rodgers-playing-better-right-now-than-he-ever-has/"  >
+							
+							<img width="625" height="352" src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-859137004.jpg?w=625&amp;h=352&amp;crop=1" class="thumbnail wp-post-image" alt="" srcset="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-859137004.jpg?w=625&amp;h=352&amp;crop=1 625w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-859137004.jpg?w=150&amp;h=85&amp;crop=1 150w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-859137004.jpg?w=300&amp;h=169&amp;crop=1 300w" sizes="(max-width: 625px) 100vw, 625px" />
+							<div class="flexslider-caption">
+								<p class="title">Beuerlein: Rodgers Playing Better Right Now Than He...</p>
+																	<p class="excerpt">
+																					Aaron Rodgers dazzled Sunday afternoon, while Deshaun Watson dazzled Sunday night. Steve...																			</p>
+															</div>
+
+															</a>
+													</li>
+									</ul>
+			</div>
+							<div id="section-dl-menu" class="menu">
+					<ul class="slides">
+																				<li class=""><img width="111" height="62" src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-850747838.jpg?w=111&amp;h=62&amp;crop=1" class="attachment-thumb-111x62 size-thumb-111x62 wp-post-image" alt="" srcset="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-850747838.jpg?w=111&amp;h=62&amp;crop=1 111w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-850747838.jpg?w=222&amp;h=124&amp;crop=1 222w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-850747838.jpg?w=150&amp;h=84&amp;crop=1 150w" sizes="(max-width: 111px) 100vw, 111px" />
+<strong>Former '85 Bear Says He Doesn't See A Leader In Jay...</strong></li>
+																				<li class=""><img width="111" height="62" src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-490166178.jpg?w=111&amp;h=62&amp;crop=1" class="attachment-thumb-111x62 size-thumb-111x62 wp-post-image" alt="" srcset="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-490166178.jpg?w=111&amp;h=62&amp;crop=1 111w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-490166178.jpg?w=222&amp;h=124&amp;crop=1 222w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-490166178.jpg?w=150&amp;h=84&amp;crop=1 150w" sizes="(max-width: 111px) 100vw, 111px" />
+<strong>Dodd: I Just Laughed At Nick Saban's Rat-Poison Rant</strong></li>
+																				<li class=""><img width="111" height="62" src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-683113488.jpg?w=111&amp;h=62&amp;crop=1" class="attachment-thumb-111x62 size-thumb-111x62 wp-post-image" alt="" srcset="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-683113488.jpg?w=111&amp;h=62&amp;crop=1 111w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-683113488.jpg?w=222&amp;h=124&amp;crop=1 222w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-683113488.jpg?w=150&amp;h=84&amp;crop=1 150w" sizes="(max-width: 111px) 100vw, 111px" />
+<strong>MLB Analyst: Girardi "A Great Baseball Mind,"...</strong></li>
+																				<li class=""><img width="111" height="62" src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-842730234.jpg?w=111&amp;h=62&amp;crop=1" class="attachment-thumb-111x62 size-thumb-111x62 wp-post-image" alt="" srcset="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-842730234.jpg?w=111&amp;h=62&amp;crop=1 111w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-842730234.jpg?w=222&amp;h=124&amp;crop=1 222w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-842730234.jpg?w=150&amp;h=84&amp;crop=1 150w" sizes="(max-width: 111px) 100vw, 111px" />
+<strong>Meale: Oklahoma Loss Means Nothing; Sooners' Playoff...</strong></li>
+																				<li class=""><img width="111" height="62" src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-859137004.jpg?w=111&amp;h=62&amp;crop=1" class="attachment-thumb-111x62 size-thumb-111x62 wp-post-image" alt="" srcset="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-859137004.jpg?w=111&amp;h=62&amp;crop=1 111w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-859137004.jpg?w=222&amp;h=124&amp;crop=1 222w, https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-859137004.jpg?w=150&amp;h=84&amp;crop=1 150w" sizes="(max-width: 111px) 100vw, 111px" />
+<strong>Beuerlein: Rodgers Playing Better Right Now Than He...</strong></li>
+											</ul>
+				</div>
+					</section>
+
+		
+					<script type="text/javascript">
+				jQuery(function($) {					
+					$('#section-dl-menu').flexslider({
+						asNavFor: '#section-dl',
+						animation: false,
+						animationLoop: false,
+						controlNav: false,
+						direction: 'horizontal',
+						itemWidth: 115,
+						itemMargin: 8,
+						keyboard: false,
+						pauseOnAction: true,
+						slideshow: false,
+						useCSS: false,
+						video: true
+					});
+					$('#section-dl').flexslider({
+						sync: '#section-dl-menu',
+						animation: "fade",
+						animationLoop: true,
+						controlNav: false,
+						directionNav: false,
+						keyboard: false,
+						pauseOnAction: true,
+						slideshow: true,
+						slideshowSpeed: 5000,
+						animationSpeed: 800,
+						video: true,
+						start: function() {
+
+							var ua = navigator.userAgent.toLowerCase();
+							if (ua.indexOf('ipad') > -1) return;
+							
+							$('#section-dl-menu .flex-active-slide .wrapper').on('click', function(e){
+								var $active_slide_links = $('#section-dl.canvas li.flex-active-slide a.node');
+								if ($active_slide_links.length == 1) {
+									//trigger and attached events
+									$active_slide_links.trigger('click');
+									// and if default triger doesn't work (and it won't), redirect manually
+									if ($active_slide_links.attr('target') == '_blank') {
+										window.open($active_slide_links.attr('href'));
+									} else {
+										window.location = $active_slide_links.attr('href');
+									}
+								}
+							});	
+						},
+						after: function() {
+
+							var ua = navigator.userAgent.toLowerCase();
+							if (ua.indexOf('ipad') > -1) return;
+							
+							$('#section-dl-menu .flex-active-slide .wrapper').on('click', function(e){
+								var $active_slide_links = $('#section-dl.canvas li.flex-active-slide a.node');
+								if ($active_slide_links.length == 1) {
+									//trigger and attached events
+									$active_slide_links.trigger('click');
+									// and if default triger doesn't work (and it won't), redirect manually
+									if ($active_slide_links.attr('target') == '_blank') {
+										window.open($active_slide_links.attr('href'));
+									} else {
+										window.location = $active_slide_links.attr('href');
+									}
+								}
+							});
+						},
+						before: function() {
+
+							$( '.dl-canvas-video iframe' ).on('click', function() {
+								$('#section-dl-menu .flex-active-slide .wrapper').off('click');
+							})
+
+							$('#section-dl-menu .flex-active-slide .wrapper').off('click');
+
+							var slide_video_player_ids = [];
+							$('#section-dl ul.slides li.video-content .dl-canvas-video iframe').each(function(){
+								slide_video_player_ids.push($(this).attr('id'));
+							});
+							if (slide_video_player_ids.length > 0) {
+								for (var i in slide_video_player_ids) {
+									if (typeof anvp[slide_video_player_ids[i]] != 'undefined') {
+										anvp[slide_video_player_ids[i]].pause();
+									}
+								}
+							}
+						}
+					});
+				});
+			</script>
+							</section>
+		
+	
+		<div id="embed-list-1" class="embed-item embed-list blogroll-item" ><div class="wrapper">
+<header class="block-head-wrapper"><h4 class="title">CBS Sports Radio</h4></header><div class="block-content-wrapper and-list layout-catalog aspect-ratio-16-9 enable-type-icons"><a href="http://radio.cbssports.com/2017/10/10/former-85-bear-says-he-doesnt-see-a-leader-in-jay-cutler/" title="Former &#039;85 Bear Says He Doesn&#039;t See A Leader In Jay Cutler" class="cbs-thumbnail-link item-1507647511" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-850747838.jpg?w=310&#038;h=174&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Former &#039;85 Bear Says He Doesn&#039;t See A Leader In Jay Cutler</strong><em class="description">Otis Wilson discussed numerous topics on The DA Show on Tuesday, including Jay Cutler, Doug Flutie, Dave Duerson, and CTE</em></div></a><a href="http://radio.cbssports.com/2017/10/10/mlb-analyst-cody-bellinger-dodgers-back-on-track/" title="MLB Analyst: Cody Bellinger, Dodgers Back On Track" class="cbs-thumbnail-link item-1507645353" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-859599134.jpg?w=310&#038;h=174&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">MLB Analyst: Cody Bellinger, Dodgers Back On Track</strong><em class="description">The Dodgers stumbled toward the finish line but are back in the NLCS after sweeping Arizona on Monday</em></div></a><a href="http://radio.cbssports.com/2017/10/10/dodd-i-just-laughed-at-nick-sabans-rat-poison-rant/" title="Dodd: I Just Laughed At Nick Saban&#039;s Rat-Poison Rant" class="cbs-thumbnail-link item-1507642864" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-490166178.jpg?w=310&#038;h=174&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Dodd: I Just Laughed At Nick Saban&#039;s Rat-Poison Rant</strong><em class="description">Nick Saban is a better quote after a win than a loss, Dennis Dodd has discovered, and Saturday was no exception</em></div></a><a href="http://radio.cbssports.com/2017/10/10/mlb-analyst-girardi-a-great-baseball-mind-shouldnt-be-fired/" title="MLB Analyst: Girardi &quot;A Great Baseball Mind,&quot; Shouldn&#039;t Be Fired" class="cbs-thumbnail-link item-1507640294" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-683113488.jpg?w=310&#038;h=174&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">MLB Analyst: Girardi &quot;A Great Baseball Mind,&quot; Shouldn&#039;t Be Fired</strong><em class="description">Many Yankees fans want Joe Girardi fired despite the fact that he&#039;s one win away from the ALCS. MLB analyst Paul Severino disagrees</em></div></a><a href="http://radio.cbssports.com/2017/10/09/beuerlein-rodgers-playing-better-right-now-than-he-ever-has/" title="Beuerlein: Rodgers Playing Better Right Now Than He Ever Has" class="cbs-thumbnail-link item-1507566366" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-859137004.jpg?w=310&#038;h=174&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Beuerlein: Rodgers Playing Better Right Now Than He Ever Has</strong><em class="description">Aaron Rodgers dazzled Sunday afternoon, while Deshaun Watson dazzled Sunday night. Steve Beuerlein discussed both on The DA Show</em></div></a></div>
+</div></div><div id="embed-list-2" class="embed-item embed-list blogroll-item" ><div class="wrapper">
+<header class="block-head-wrapper"><h4 class="title"><a href="http://radio.cbssports.com/category/columns/">Columns</a></h4></header><div class="block-content-wrapper and-list layout-catalog aspect-ratio-16-9 enable-type-icons"><a href="http://radio.cbssports.com/2017/10/09/meale-oklahoma-loss-means-nothing-sooners-playoff-hopes-still-alive-for-now/" title="Meale: Oklahoma Loss Means Nothing; Sooners&#039; Playoff Hopes Still Alive – For Now" class="cbs-thumbnail-link item-1507587096" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-842730234.jpg?w=310&#038;h=174&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Meale: Oklahoma Loss Means Nothing; Sooners&#039; Playoff Hopes Still Alive – For Now</strong><em class="description">A top-five team lost for the second week in a row. What does this mean? We don&#039;t know yet, Tony Meale says. It&#039;s Week 7.</em></div></a><a href="http://radio.cbssports.com/2017/10/05/the-weekly-cfp-week-6/" title="The Weekly CFP: Week 6" class="cbs-thumbnail-link item-1507227524" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-856034024.jpg?w=310&#038;h=174&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">The Weekly CFP: Week 6</strong><em class="description">USC is out, Michigan is in, and if you haven&#039;t been taking Georgia seriously, well, it&#039;s time, CBS Sports Radio columnist Tony Meale says</em></div></a><a href="http://radio.cbssports.com/2017/10/04/feinstein-flacco-is-back-under-the-microscope-luckily-for-baltimore-he-can-take-it/" title="Feinstein: Flacco Is Back Under The Microscope; Luckily For Baltimore, He Can Take It" class="cbs-thumbnail-link item-1507131010" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2017/10/gettyimages-848668714.jpg?w=310&#038;h=174&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Feinstein: Flacco Is Back Under The Microscope; Luckily For Baltimore, He Can Take It</strong><em class="description">Joe Flacco is used to being criticized. That&#039;s what happens when you&#039;re the highest-paid player on a team riding a two-game losing streak</em></div></a><a href="http://radio.cbssports.com/2017/09/27/feinstein-trumps-nfl-comments-miss-mark-protest-is-important-cte-is-real/" title="Feinstein: Trump&#039;s NFL Comments Miss Mark; Protest Is Important, CTE Is Real" class="cbs-thumbnail-link item-1506524111" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2017/09/gettyimages-853284144.jpg?w=310&#038;h=174&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Feinstein: Trump&#039;s NFL Comments Miss Mark; Protest Is Important, CTE Is Real</strong><em class="description">John Feinstein weighed in on Donald Trump&#039;s criticism of the NFL and its players</em></div></a><a href="http://radio.cbssports.com/2017/09/25/the-weekly-cfp-week-5/" title="The Weekly CFP: Week 5" class="cbs-thumbnail-link item-1506367100" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2017/09/gettyimages-852689286.jpg?w=310&#038;h=174&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">The Weekly CFP: Week 5</strong><em class="description">Tony Meale&#039;s biggest takeaway from this past weekend? Forget the rankings. There are a lot of flawed teams in college football</em></div></a></div>
+</div></div><div id="embed-list-3" class="embed-item embed-list blogroll-item" ><div class="wrapper">
+<header class="block-head-wrapper"><h4 class="title">CBS Sports Radio Stations</h4></header><div class="block-content-wrapper and-list layout-grid and-columns-3 aspect-ratio-3-2 enable-type-icons"><a href="http://player.radio.com/listen/station/cbs-sports-radio-1300" title="Baltimore, MD" class="cbs-thumbnail-link item-1363193391" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/baltim_live_150x150_am.png?w=150&#038;h=150&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Baltimore, MD</strong></div></a><a href="http://player.radio.com/listen/station/cbs-sports-radio-1270" title="Detroit, MI" class="cbs-thumbnail-link item-1363193138" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/detroit_live_150x150_am.png?w=150&#038;h=150&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Detroit, MI</strong></div></a><a href="http://player.radio.com/listen/station/cbs-sports-radio-650" title="Houston, TX" class="cbs-thumbnail-link item-1363193029" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2016/02/houston_150x150.png?w=150&#038;h=150&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Houston, TX</strong></div></a><a href="http://player.radio.com/listen/station/cbs-sports-radio-1140" title="Las Vegas, NV" class="cbs-thumbnail-link item-1363192919" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/las_vegas_listen_live_150x150_am.png?w=150&#038;h=150&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Las Vegas, NV</strong></div></a><a href="http://radio.cbssports.com/stations/" title=" " class="cbs-thumbnail-link item-1362433933" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2016/02/affiliate-station-button1.png?w=138&#038;h=138&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title"> </strong></div></a><a href="http://player.radio.com/listen/station/cbs-sports-radio" title="Riverside" class="cbs-thumbnail-link item-1362419346" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/riverside_150x1501.png?w=150&#038;h=150&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Riverside</strong></div></a><a href="http://player.radio.com/listen/station/cbs-sports-radio-1580" title="Washington, DC" class="cbs-thumbnail-link item-1362418647" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/washington_live_150x150_am.png?w=150&#038;h=150&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Washington, DC</strong></div></a></div>
+</div></div><div id="embed-list-4" class="embed-item embed-list blogroll-item" ><div class="wrapper">
+<div class="block-content-wrapper and-list layout-grid and-columns-3 aspect-ratio-3-2 enable-type-icons"><a href="http://player.radio.com/listen/station/929-the-game" title="Atlanta, GA" class="cbs-thumbnail-link item-1360793441" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/thegame.png?w=130&#038;h=130&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Atlanta, GA</strong></div></a><a href="http://player.radio.com/listen/station/1057-the-fan" title="Baltimore, MD" class="cbs-thumbnail-link item-1360793252" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/baltsports.png?w=130&#038;h=130&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Baltimore, MD</strong></div></a><a href="http://betaplayer.radio.com/player/the-fan-610-wfnz" title="Charlotte, NC" class="cbs-thumbnail-link item-1360793209" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/wfnzthefan-wilburn.png?w=130&#038;h=130&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Charlotte, NC</strong></div></a><a href="http://player.radio.com/listen/station/985-the-sports-hub" title="Boston, MA" class="cbs-thumbnail-link item-1360793196" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/04/985-large.png?w=150&#038;h=130&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Boston, MA</strong></div></a><a href="http://player.radio.com/listen/station/670-the-score" title="Chicago, IL" class="cbs-thumbnail-link item-1360793124" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/chicagoscore.png?w=130&#038;h=130&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Chicago, IL</strong></div></a><a href="http://player.radio.com/listen/station/923-the-fan" title="Cleveland, OH" class="cbs-thumbnail-link item-1360793040" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/clevelandfan.png?w=130&#038;h=130&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Cleveland, OH</strong></div></a><a href="http://player.radio.com/listen/station/1053-the-fan" title="Dallas, TX" class="cbs-thumbnail-link item-1360792948" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/dfwfan.png?w=130&#038;h=130&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Dallas, TX</strong></div></a><a href="http://player.radio.com/listen/station/971-the-ticket" title="Detroit, MI" class="cbs-thumbnail-link item-1360792881" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/detroitticket.png?w=130&#038;h=130&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Detroit, MI</strong></div></a><a href="http://player.radio.com/listen/station/sportsradio-610" title="Houston, TX" class="cbs-thumbnail-link item-1360792810" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/houston610.png?w=130&#038;h=130&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Houston, TX</strong></div></a><a href="http://player.radio.com/listen/station/560-wqam-sports-radio" title="Miami, FL" class="cbs-thumbnail-link item-1360792788" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2016/02/560wqam-150x150.png?w=150&#038;h=150&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Miami, FL</strong></div></a><a href="http://player.radio.com/listen/station/sports-radio-66-wfan-ny" title="New York, NY" class="cbs-thumbnail-link item-1360792739" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/wfan.png?w=130&#038;h=130&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">New York, NY</strong></div></a><a href="http://player.radio.com/listen/station/sportsradio-94wip" title="Philadelphia, PA" class="cbs-thumbnail-link item-1360030479" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/phillywif.png?w=130&#038;h=130&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Philadelphia, PA</strong></div></a><a href="http://player.radio.com/listen/station/93-7-the-fan" title="Pittsburgh, PA" class="cbs-thumbnail-link item-1360030427" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/pittsburghfan.png?w=130&#038;h=130&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Pittsburgh, PA</strong></div></a><a href="http://player.radio.com/listen/station/the-fan-1090" title="Seattle, WA" class="cbs-thumbnail-link item-1360030267" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/seattle.png?w=130&#038;h=130&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Seattle, WA</strong></div></a><a href="http://player.radio.com/listen/station/1067-the-fan" title="Washington, DC" class="cbs-thumbnail-link item-1360030066" ><div class="thumbnail-wrapper"><span class="balance"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/images/global/blank_1x1.gif" data-src="https://cbssportsradio.files.wordpress.com/2013/03/dcfan.png?w=130&#038;h=130&#038;crop=1"></span></div><div class="title-wrapper"><strong class="title">Washington, DC</strong></div></a></div>
+</div></div>
+		
+	</section>
+
+	
+<aside class="sidebar right-bar">
+	<div id="listen-live-button" class="listen-live-action"><div id="reptile_30_wrapper" class="ad-block-wrapper cbs-ad-unit-wrapper listen-live-ad-block"><span id="ad_30"><div id="reptile_30" class="ad-block" data-ad_size="[[88,31]]" data-ad_location=""><script>cbs_load_ad_by_tile("30");</script></div></span></div><a class="listen-live-logo aa-watch-live-button click-event-target" href="http://player.radio.com/listen/station/cbs-sports-radio" target="_self" title="Listen to Live Radio" style=""></a><a class="wrapper aa-watch-live-button click-event-target" href="http://player.radio.com/listen/station/cbs-sports-radio" target="_self"><p class="listen-live-text listen">Listen Live</p></a></div><div id="reptile_2_wrapper" class="ad-block-wrapper cbs-ad-unit-wrapper"><span id="ad_2"><div id="reptile_2" class="ad-block" data-ad_size="[[300,250]]" data-ad_location="top"><script>cbs_load_ad_by_tile("2");</script></div></span></div><div id="text-5" class="block sidebar-widget widget_text">			<div class="textwidget"><img src="https://cbssportsradio.files.wordpress.com/2014/08/followus_rr.png" width="299" height="53" alt="Social Media" usemap="#socialmedia">
+
+<map name="socialmedia">
+  <area shape="rect" coords="209,10,243,45" href="https://www.facebook.com/CBSSportsRadio" alt="Facebook">
+<area shape="rect" coords="249,10,283,45" href="https://twitter.com/CBSSportsRadio" alt="Twitter">
+ </map></div>
+		</div><div id="text-9" class="block sidebar-widget widget_text">			<div class="textwidget"><img src="https://cbssportsradio.files.wordpress.com/2015/05/call-in-number.png" /></div>
+		</div><div id="reptile_31_wrapper" class="ad-block-wrapper cbs-ad-unit-wrapper sidebar-injected-ad"><span id="ad_31"><div id="reptile_31" class="ad-block" data-ad_size="[[300,250]]" data-ad_location="middle"><script>cbs_load_ad_by_tile("31");</script></div></span></div><div id="text-8" class="block sidebar-widget widget_text"><h3 class="title">Shows</h3>			<div class="textwidget"><div style="clear:both;"><ul style="float:left;width:145px;">
+<li class="show_photo_widget"><a href="http://gioandjones.radio.cbssports.com/" target="blank"><img src="https://cbsmoorejones.files.wordpress.com/2015/01/145x80_giojones.png" />
+Gio And Jones<br /></a>
+<a href="http://mojo.radio.cbssports.com/" class="blue_text" target="blank">6AM-9AM ET</span></a></li>
+
+
+<li class="show_photo_widget"><a href="http://jimrome.com/" target="blank"><img src="https://cbssportsradio.files.wordpress.com/2016/08/jimrome.png" />
+The Jim Rome Show</a><br />
+<a href="http://jimrome.com/" class="blue_text" target="blank">12PM-3PM ET</a></li>
+
+
+<li class="show_photo_widget"><a href="http://reiter.radio.cbssports.com/" target="blank"><img src="https://cbssportsradio.files.wordpress.com/2017/04/reiter-145x80_showgraphic.png" />
+
+Reiter Than You</a><br />
+<a href="http://reiter.radio.cbssports.com/" class="blue_text" target="blank">6PM-10PM ET</a></li>
+
+
+<li class="show_photo_widget"><a href="http://amylawrence.radio.cbssports.com/" target="blank"><img src="https://cbssportsradio.files.wordpress.com/2016/01/145x80_amylawrence_2.png" />
+After Hours with Amy Lawrence</a><br />
+<a href="http://da.radio.cbssports.com/" class="blue_text" target="blank">2AM-6AM ET</a></li>
+
+</ul>
+
+
+
+<ul style="float:right;width:145px;">
+
+<li class="show_photo_widget"><a href="http://da.radio.cbssports.com/" target="blank"><img src="https://cbssportsradio.files.wordpress.com/2016/08/da1.png" />
+The DA Show<br /></a>
+<a href="http://da.radio.cbssports.com/" class="blue_text" target="blank">9AM-12PM ET</span></a></li>
+
+
+
+
+<li class="show_photo_widget"><a href="http://tikiandtierney.radio.cbssports.com/" target="blank"><img src="https://cbssportsradio.files.wordpress.com/2015/05/145x80_tbd_rr.png" />
+Tiki And Tierney</a><br />
+<a href="http://tikiandtierney.radio.cbssports.com/" class="blue_text" target="blank">3PM – 6PM  ET</a></li>
+
+
+
+
+
+<li class="show_photo_widget"><a href="http://ferrall.radio.cbssports.com/" target="blank"><img src="https://cbssportsradio.files.wordpress.com/2016/08/ferrall2.png" />
+Ferrall On The Bench</a><br />
+<a href="http://ferrall.radio.cbssports.com/" class="blue_text" target="blank">10PM-2AM ET</a></li>
+
+
+<li class="show_photo_widget"><a href="http://weekend.radio.cbssports.com/audio/" target="blank"><img src="https://cbssportsradio.files.wordpress.com/2016/02/right_rail_weekend_145x80_v2.png" />
+CBS Sports Radio Weekend</a><br />
+<a href="http://weekend.radio.cbssports.com/audio/" class="blue_text" target="blank">Saturday &amp; Sunday</a></li>
+
+
+</ul>
+</div>
+<div>
+<ul><li class="show_photo_widget"><a href="http://radio.cbssports.com/cbs-sports-minute/" target="blank"><img src="https://cbssportsradio.files.wordpress.com/2017/04/raight_rail_promo_270x75.jpg" />
+CBS Sports Minute</a><br />
+<a href="http://radio.cbssports.com/cbs-sports-minute/" class="blue_text" target="blank">Weekdays</a></li></ul>
+</div></div>
+		</div><div id="rss-3" class="block sidebar-widget widget_rss"><h3 class="title"><a class="rsswidget" href="http://sports.cbslocal.com/category/sports/feed/" title="Syndicate this content"><img style="background: orange; color: white; border: none;" width="14" height="14" src="http://s.wordpress.com/wp-includes/images/rss.png?m=1354137473h" alt="RSS" /></a> <a class="rsswidget" href="http://sports.cbslocal.com" title="">CBS Local Sports</a></h3><ul><li><a class='rsswidget' href='http://sports.cbslocal.com/2017/10/10/fantasy-football-waiver-wire-pickups-week-6-2/' title='Injuries and bye weeks are controlling the narrative in fantasy football, so take a look at our waiver wire picks heading into Week 6.'>Top Fantasy Football Waiver Wire Pickups For Week 6</a></li><li><a class='rsswidget' href='http://sports.cbslocal.com/2017/10/10/sec-football-report-lsu-florida-alabama-georgia/' title='LSU snuck past Florida, while Alabama was challenged for the first time in league play.'>SEC Football Report: LSU Bounces Back Before Big Test</a></li><li><a class='rsswidget' href='http://sports.cbslocal.com/2017/10/05/fantasy-football-week-5-starts-sits/' title='Maneuvering through all of last week&#039;s injuries could be tough, so here are the Fantasy Football Week 5 Starts And Sits.'>Fantasy Football Week 5 Starts And Sits</a></li><li><a class='rsswidget' href='http://sports.cbslocal.com/2017/10/05/wwe-smackdown-hell-in-a-cell-2017-picks/' title='WWE&#039;s Hell in a Cell 2017 features SmackDown&#039;s top stars. Pro wrestling experts pick the winners.'>WWE Insiders Pick Hell In A Cell 2017</a></li><li><a class='rsswidget' href='http://sports.cbslocal.com/2017/10/05/college-football-week-6-games-to-watch-acc-thursday-night-clash-florida-lsu/' title='Another chance to watch Lamar Jackson in prime-time and an SEC clash in the Swamp are on the docket for this weekend. '>College Football Week 6 Games To Watch: ACC Thursday Night Clash, Florida-LSU</a></li><li><a class='rsswidget' href='http://sports.cbslocal.com/2017/10/05/showtime-boxing-announces-deontay-wilder-vs-bermane-stiverne-heavyweight-title-bout/' title='The WBC heavyweight champion will defend his belt against Stiverne on November 4th live on Showtime. '>Showtime Boxing Announces Deontay Wilder vs. Bermane Stiverne Heavyweight Title Bout</a></li><li><a class='rsswidget' href='http://sports.cbslocal.com/2017/10/05/lsu-florida-sec-preview-aaron-murray-interview/' title='CBS Sports Network college football analyst discusses the Gators young QB and the match-up against LSU in the Swamp this week. '>Aaron Murray: Franks Is A Great Talent, He Just Needs Game Experience</a></li><li><a class='rsswidget' href='http://sports.cbslocal.com/2017/10/05/mlb-wild-card-yankees-d-backs-advance/' title='In the highest-scoring wild-card round ever, New York and Arizona survived.'>Wild Card Games Five Things You Missed: Yankees, D-backs Advance</a></li><li><a class='rsswidget' href='http://sports.cbslocal.com/2017/10/04/patriots-buccaneers-week-five-preview-phil-simms-interview/' title='The NFL Today analyst Phil Simms gives his input on the Week 5 Thursday Night Football matchup between the New England Patriots and Tampa Bay Buccaneers.'>CBS Sports’ Phil Simms On Week 5 Patriots-Buccaneers TNF Matchup, More</a></li><li><a class='rsswidget' href='http://sports.cbslocal.com/2017/10/04/2017-18-nhl-season-preview/' title='The calendar reaching October means hockey is back. We take a look at each team around the NHL and what to expect in the 2017-2018 season.'>2017-18 NHL Season Preview</a></li></ul></div><div id="text-4" class="block sidebar-widget widget_text">			<div class="textwidget"><p><div class="shortcode shortcode-iframe"><iframe allowtransparency="true" frameBorder="0" src="https://omny.fm/shows/cbs-sports-minute/playlists/podcast/embed?style=artwork&#038;image=1&#038;share=1&#038;download=1&#038;description=1&#038;playlistimages=1&#038;playlistshare=1&#038;foreground=444444&#038;background=ffffff&#038;highlight=0a4ccf" seamless="seamless" scrolling="no" frameborder="0" style="width:100%;height:510px;overflow:hidden;"></iframe></div></p>
+</div>
+		</div><div id="reptile_3_wrapper" class="ad-block-wrapper cbs-ad-unit-wrapper"><span id="ad_3"><div id="reptile_3" class="ad-block" data-ad_size="[[300,250]]" data-ad_location="bottom"><script>cbs_load_ad_by_tile("3");</script></div></span></div></aside>
+
+</section>
+
+		<section class="page-ad-container page-pencil-ad-container-bottom">
+			<div id="reptile_4_wrapper" class="ad-block-wrapper cbs-ad-unit-wrapper"><span id="ad_4"><div id="reptile_4" class="ad-block" data-ad_size="[[728,90]]" data-ad_location="bottom"><script>cbs_load_ad_by_tile("4");</script></div></span></div>		</section>
+		
+
+</div>
+
+
+<footer id="page-footer" class="page-footer-type-menus-horizontal">
+			<section class="top"><div class="wrapper">
+			<a href="http://radio.cbssports.com" class="logo"><img src="https://cbssportsradio.files.wordpress.com/2016/02/logo_footer_132_x_40.png" alt="CBS Sports Radio" /></a>							<div id="component-social" class="footer-component social-follow-items type-blue size-24x24">
+					<div class="social-align-wrapper">
+						<span class="disclosure">Follow Us</span>
+						<a href="https://www.facebook.com/CBSSportsRadio" class="facebook" target="_blank">Facebook</a><a href="https://twitter.com/CBSSportsRadio" class="twitter" target="_blank">Twitter</a><a href="https://www.youtube.com/channel/UCKTDCaYUdR2Wpv9_3a2DlMw" class="youtube" target="_blank">YouTube</a>					</div>
+				</div>
+					</div></section>
+	
+	
+			<section class="bottom"><div class="wrapper">
+			<a href="http://radio.cbssports.com" class="logo"><img src="https://s0.wp.com/wp-content/themes/vip/cbs-local/plugins/modules/theme-manager/images/cbs-local-logo-white.png" alt="CBS Sports Radio" /></a>
+			<div class="copyright-wrapper">
+								<span class="copyright">&copy;2017 CBS Radio Inc. All Rights Reserved.</span>
+
+									<span class="powered-by-wordpress">
+						Powered by <a href="https://vip.wordpress.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=radio.cbssports.com" rel="generator nofollow" class="powered-by-wpcom">WordPress.com VIP</a>					</span>
+							</div>
+
+			<div class="right-wrapper">
+									<div class="terms-of-use">By viewing our video content, you are accepting the terms of our <a href="http://policies.cbslocal.com/privacy-june-2015/current.html#video-services" target="_blank" title="Video Services Policy">Video Services Policy</a></div>
+								<ul id="menu-final-footer-menu" class="nav-final-footer"><li id="menu-item-105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105"><a href="http://policies.cbslocal.com/privacy/current.html">Privacy Policy</a></li>
+<li id="menu-item-104" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-104"><a href="http://policies.cbslocal.com/terms-of-use/">Terms of Use</a></li>
+<li id="menu-item-5453" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5453"><a href="http://policies.cbslocal.com/privacy/current.html#cali-visitors">Your California Privacy Rights</a></li>
+<li id="menu-item-5454" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5454"><a href="http://policies.cbslocal.com/mobile-app-agreement/">Mobile User Agreement</a></li>
+<li id="menu-item-5455" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5455"><a href="http://policies.cbslocal.com/privacy/current.html#onlinead">Ad Choices</a></li>
+</ul>			</div>
+
+						</div></section>
+	</div>
+	</footer>
+
+<!--PARTNER SCRIPTS START-->
+
+<!--PARTNER SCRIPTS END-->
+
+
+</div>
+
+<!-- wpcom_wp_footer -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201741y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<link rel='stylesheet' id='screen-css-0-2' href='https://s1.wp.com/_static/??-eJytzEEOQDAQheELqUFYWIiz1HRCZdqKGVxfJW7A7v1v8cG1GUxRKSroQoEETr8BTmI4oWXwEflw+aYwkRNAeadhL1rmLOCbYdCq5TT/Ys27dw80hqHuqqbvu6Zu1xvM/VQ4' type='text/css' media='screen' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"0","is_single":"0","is_front_page":"1","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJx9jksOwjAMRC9EcFuJzwZxFjexqEOShjhJ4fakLBBi0Z01M+/JsESl55ApZLAChipris+9lR38VL6o6MqNg4DjOwk8ChWaMBhH6X+cJ/JtUjmCHkW5WaNb5VLGgHVDPaiVsR9UYUD3yqxlA0DjOagRE3iUTKldaq6UEpv2wDdrhqu/9IduOJ7709DZN3jaWq8='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="//stats.wp.com/w.js?56" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'47578332','blog_tz':'-4','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'47578332','v':'wpcom','tz':'-4','user_id':'0','post':'7','subd':'cbssportsradio'}]);
+function st_vt() {var x=document.createElement("img");x.src="http://pixel.wp.com/g.gif?blog=47578332&v=wpcomvt&tz=-4&user_id=0&post=7&subd=cbssportsradio&rand="+Math.random();}
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTdocExCODFfQnlZTGxWLFVFPVlVSzZxZ0xDODBzU3dseGF2Z3Aldm83QVtSLzRrWDFfREhXLk5aR1VfPWt+X1B4cWdUTlkldExDQTNFMUlVMWJteUNMZGc3QnAxNXEtcy9tazVNTExDMW9NcjFROD9qb0tEYWpRQT1ydldPNGtMeTVbNERLX1J6UkE4Y2FFWi5JNG1LenRqWXBmUXJRbnlaVlVuSDlfTEI4UFMlb3xTNjk1UVA4blNkMl09ZywrZQ=='}]);
+_stq.push([ 'clickTrackerInit', '47578332', '7' ]);
+	</script>
+<noscript><img src="http://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+
+
+<script type="text/javascript">
+	var cbs_market_root = 'http://radio.cbssports.com';
+	var cbs_template_root = 'https://s0.wp.com/wp-content/themes/vip/cbs-local';
+	var cbs_market_gmt_offset = -14400;
+
+	var site_url = 'http://radio.cbssports.com';
+
+	(function(){function x(){for(var a=[8],b=1;1>=b;b++)a.push(8+b),a.push(8-b);a=a[Math.floor(Math.random()*a.length)];return{b:a,a:0==Math.floor(Math.random()*a)}}function h(a){var b=a=a.replace(":","");try{for(var c=0;100>c&&(a=decodeURIComponent(a),b!=a)&&!a.match(/^http(s)?\:/);c++)b=a}catch(d){}return a.replace(/(^\s+|\s+$)/g,"")}try{if(!location||!location.hostname||!location.pathname)return!1;var c=document.location.hostname.replace(/^www\./,""),q=function(){for(var a,b=document.getElementsByTagName("meta"),c,d=0,e=b.length;d<e;d++)if(c=b[d],"og:title"===c.getAttribute("property")){a=c.getAttribute("content");break}a||(a=document.title||"Untitled");return a}(),b={},b=function(a,b,c){a.l1=b;a.l2=c;a.l3="__page__";a.l4="-";return a}(b,c,q),k=(new Date).getTime(),l=Math.floor(Math.random()*Math.pow(10,12)),m,d;d=x();m=d.a?d.b:0;b.zmoatab_cm=m;b.t=k;b.de=l;b.zMoatAB_SNPT=!0;var n;n=m?m:1;var r;r=d?d.a?!0:!1:!0;var c=[],y=(new Date).getTime().toString(35),t=[h(b.l1),h(b.l2),h(b.l3),h(b.l4)].join(":"),q=/zct[a-z0-9]+/i,e="",f;for(f in b)b.hasOwnProperty(f)&&f.match(q)&&(e+="&"+f+"="+b[f]);var u=document.referrer.match(/^([^:]{2,}:\/\/[^\/]*)/),p=u?u[1]:document.referrer,z="https://2wk08xvxmny5-a.akamaihd.net/"+y+".gif?e=17&d="+encodeURIComponent(t)+"&de="+l+"&t="+k+"&i=CBSLOCALCONTENT1&cm="+n+"&j="+encodeURIComponent(p)+e+"&mp=1&ac=1&pl=1&bq=10&vc=2&cs=0",A="https://px.moatads.com/pixel.gif?e=17&d="+encodeURIComponent(t)+"&de="+l+"&t="+k+"&i=CBSLOCALCONTENT1&cm="+n+"&j="+encodeURIComponent(p)+e+"&mp=0&ac=1&pl=1&bq=10&ad_type=img&vc=2&cs=0",B="https://px.moatads.com/pixel.gif?e=17&d="+encodeURIComponent(t)+"&de="+l+"&t="+k+"&i=CBSLOCALCONTENT1&cm="+n+"&j="+encodeURIComponent(p)+e+"&ku=1&ac=1&pl=1&bq=10&ad_type=img&vc=2&cs=0";r&&((new Image).src=z,(new Image).src=A);for(var v in b)c.push(v+"="+encodeURIComponent(b[v]));var c=c.join("&"),c=c+"&vc=2",g=document.createElement("script");g.type="text/javascript";g.async=!0;r&&(g.onerror=function(){(new Image).src=B});var w=document.getElementsByTagName("script")[0];w.parentNode.insertBefore(g,w);g.src="https://z.moatads.com/cbslocalcontent5715253139/moatcontent.js#"+c}catch(a){try{var C="//pixel.moatads.com/pixel.gif?e=24&d=data%3Adata%3Adata%3Adata&i=MOATCONTENTABSNIPPET1"+e+"&vc=2&ac=1&k="+encodeURIComponent(a)+"&j="+encodeURIComponent(p)+"&cs="+(new Date).getTime();(new Image).src=C}catch(D){}}})();    		
+    var cbs_sso_url_base = "https://my.cbslocal.com";
+
+	jQuery(function($) {
+			});
+
+	jQuery(function($) { jQuery(window).load(function () { setTimeout(function () {
+			}, 500); }); });
+
+	jQuery(function($) { jQuery(window).load(function () { setTimeout(function () {
+			}, 5000); }); });
+
+</script>
+
+	
+			
+		<script type="text/javascript">
+			var use_ga = true;
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+
+		<script type="text/javascript">
+			try {
+				var is_logged_in = false;
+
+				var rollupTracker = _gat._getTracker("UA-2438645-53"); rollupTracker._setCustomVar(1, "User Type", is_logged_in ? "User" : "Guest", 2); rollupTracker._trackPageview();
+				var pageTracker = _gat._getTracker("UA-20550966-22"); pageTracker._setCustomVar(1, "User Type", is_logged_in ? "User" : "Guest", 2);
+				pageTracker._trackPageview("/category/home" + window.location.pathname + "?cat=home;");
+			}
+			catch(err) {}
+		</script>
+
+			
+		<script type="text/javascript">
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "3000023"
+									,options: { url_append: "comscorekw=home" }
+							});
+			(function() {
+				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=3000023&cv=2.0&cj=1" /></noscript>
+
+	
+	
+	<!-- Moat and Cloudfront tracking pixels -->
+	<img src="//dbg52463.moatads.com?a=033f43a2ddba4ba592b52109d2ccf5ed" style="display:none;"> 
+	<img src="//d5i9o0tpq9sa1.cloudfront.net?a=033f43a2ddba4ba592b52109d2ccf5ed" style="display:none;">
+	
+		<script type="text/javascript">
+		(function(d, s, id) { 
+			var js, evjs = d.getElementsByTagName(s)[0]; 
+			if (d.getElementById(id)) return; 
+			js = d.createElement(s); js.id = id; 
+			js.src = "https://d1marr3m5x4iac.cloudfront.net/store/plugins/tracker-ev-sdk.js"; 
+			evjs.parentNode.insertBefore(js, evjs); 
+		}(document, 'script', 'tracker-ev-sdk'));
+	</script>
+
+	<script type="text/javascript">
+		(function(d, s, id) { 
+			var js, evjs = d.getElementsByTagName(s)[0]; 
+			if (d.getElementById(id)) return; 
+			js = d.createElement(s); js.id = id; 
+			js.src = "https://d1marr3m5x4iac.cloudfront.net/store/js/switchboard.js"; 
+			evjs.parentNode.insertBefore(js, evjs); 
+		}(document, 'script', 'switchboard-ev-sdk'));
+	</script>
+
+			<div id="listen-live-wrapper">
+			<div class="listen-live">
+				<div class="header">
+					<h3>Listen Live</h3>
+
+														</div>
+
+				<div class="listen-live-content">
+					<div class="lead-wrapper">
+						
+											
+					</div>
+
+				</div>
+			</div>
+		</div>
+		
+		<div id="reptile_skin_1" class="cbs-ad-unit ad_gpt cbs-ad-skin"><script>cbs_load_skin_by_tile(1);</script></div>
+</body>
+</html>
+<!--
+	generated 288 seconds ago
+	generated in 0.482 seconds
+	served from batcache in 0.002 seconds
+	expires in 12 seconds
+-->

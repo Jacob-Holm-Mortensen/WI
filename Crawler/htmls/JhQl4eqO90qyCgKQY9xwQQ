@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html class="no-touch" lang="en-US" prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://www.connekt.com/xmlrpc.php">
+<title>Connekt - AI-driven Advertising &amp; Commerce</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v5.5.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Connekt is the only in-content advertising and AI-driven data science company with an integrated transaction engine purpose built for the connected world."/>
+<link rel="canonical" href="http://www.connekt.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Connekt - AI-driven Advertising &amp; Commerce" />
+<meta property="og:description" content="Connekt is the only in-content advertising and AI-driven data science company with an integrated transaction engine purpose built for the connected world." />
+<meta property="og:url" content="http://www.connekt.com/" />
+<meta property="og:site_name" content="Connekt Inc." />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Connekt is the only in-content advertising and AI-driven data science company with an integrated transaction engine purpose built for the connected world." />
+<meta name="twitter:title" content="Connekt - AI-driven Advertising &amp; Commerce" />
+<meta name="twitter:site" content="@connektinc" />
+<meta name="twitter:creator" content="@connektinc" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/www.connekt.com\/","name":"Connekt Inc.","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.connekt.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"http:\/\/www.connekt.com\/","sameAs":["https:\/\/www.facebook.com\/pages\/Connekt-Inc\/2203655176526544","https:\/\/www.linkedin.com\/company-beta\/7936292\/?pathWildcard=7936292","https:\/\/twitter.com\/connektinc"],"@id":"#organization","name":"Connekt Inc","logo":"http:\/\/www.connektinc.com\/wp-content\/uploads\/2016\/12\/introconnekt.png"}</script>
+<meta name="google-site-verification" content="I2Q4I2EfPcPTTjv13qh3jAivUPqCzkfUg1_jcfu782c" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Connekt Inc. &raquo; Feed" href="http://www.connekt.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Connekt Inc. &raquo; Comments Feed" href="http://www.connekt.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.connekt.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='layerslider-css'  href='http://www.connekt.com/wp-content/plugins/LayerSlider/static/css/layerslider.css?ver=5.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='ls-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.connekt.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.9' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://www.connekt.com/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.2.6' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='uncode-style-css'  href='http://www.connekt.com/wp-content/themes/uncode/library/css/style.css?ver=2098385464' type='text/css' media='all' />
+<style id='uncode-style-inline-css' type='text/css'>
+
+@media (min-width: 960px) { .limit-width { max-width: 1200px; margin: auto;}}
+.menu-primary ul.menu-smart > li > a, .menu-primary ul.menu-smart li.dropdown > a, .menu-primary ul.menu-smart li.mega-menu > a, .vmenu-container ul.menu-smart > li > a, .vmenu-container ul.menu-smart li.dropdown > a { text-transform: uppercase; }
+.menu-primary ul.menu-smart ul a, .vmenu-container ul.menu-smart ul a { text-transform: uppercase; }
+</style>
+<link rel='stylesheet' id='uncode-custom-style-css'  href='http://www.connekt.com/wp-content/themes/uncode/library/css/style-custom.css?ver=945902692' type='text/css' media='all' />
+<style id='uncode-custom-style-inline-css' type='text/css'>
+@import url('//fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&subset=devanagari%2Clatin-ext%2Clatin%2Ccyrillic%2Cvietnamese%2Cgreek%2Ccyrillic-ext%2Cgreek-ext&ver=1.0.0');.buttons-style, input[type="submit"], input[type="reset"], input[type="button"], button[type="submit"], .btn:not(.btn-custom-typo), .btn-link:not(.btn-custom-typo), .nav-tabs, .panel-title > a span, .search_footer, .wc-forward, .wc-forward a { letter-spacing:.2em; }
+</style>
+<link rel='stylesheet' id='child-style-css'  href='http://www.connekt.com/wp-content/themes/uncode-child/style.css?ver=2098385464' type='text/css' media='all' />
+<link rel='stylesheet' id='uncode-icons-css'  href='http://www.connekt.com/wp-content/themes/uncode/library/css/uncode-icons.css?ver=945902692' type='text/css' media='all' />
+<link rel='stylesheet' id='uncodefont-google-css'  href='//fonts.googleapis.com/css?family=Poppins%3A300%2Cregular%2C500%2C600%2C700%7CHind%3A300%2Cregular%2C500%2C600%2C700%7CDroid+Serif%3Aregular%2Citalic%2C700%2C700italic%7CDosis%3A200%2C300%2Cregular%2C500%2C600%2C700%2C800%7CPlayfair+Display%3Aregular%2Citalic%2C700%2C700italic%2C900%2C900italic%7COswald%3A300%2Cregular%2C700%7CRoboto%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic%7CSource+Sans+Pro%3A200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C900%2C900italic%7CRubik%3A300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic%7CMontserrat%3Aregular%2C700&#038;subset=devanagari%2Clatin-ext%2Clatin%2Ccyrillic%2Cvietnamese%2Cgreek%2Ccyrillic-ext%2Cgreek-ext&#038;ver=1.0.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.connekt.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.connekt.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.connekt.com/wp-content/plugins/LayerSlider/static/js/greensock.js?ver=1.11.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"5.6.10"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.connekt.com/wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js?ver=5.6.10'></script>
+<script type='text/javascript' src='http://www.connekt.com/wp-content/plugins/LayerSlider/static/js/layerslider.transitions.js?ver=5.6.10'></script>
+<script type='text/javascript' src='http://www.connekt.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.2.6'></script>
+<script type='text/javascript' src='http://www.connekt.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.2.6'></script>
+<script type='text/javascript' src='/wp-content/themes/uncode/library/js/min/ai-uncode.min.js' id='uncodeAI' data-home='/' data-path='/' data-breakpoints-images='258,516,720,1032,1440,2064,2880'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var SiteParameters = {"site_url":"http:\/\/www.connekt.com\/","theme_directory":"http:\/\/www.connekt.com\/wp-content\/themes\/uncode","days":"days","hours":"hours","minutes":"minutes","seconds":"seconds","constant_scroll":"on","scroll_speed":"2","parallax_factor":"0.25"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.connekt.com/wp-content/themes/uncode/library/js/init.js?ver=945902692'></script>
+<meta name="generator" content="Powered by LayerSlider 5.6.10 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://kreaturamedia.com/layerslider-responsive-wordpress-slider-plugin/ -->
+<link rel='https://api.w.org/' href='http://www.connekt.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.connekt.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.connekt.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.2" />
+<link rel='shortlink' href='http://www.connekt.com/' />
+<link rel="alternate" type="application/json+oembed" href="http://www.connekt.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.connekt.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.connekt.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.connekt.com%2F&#038;format=xml" />
+<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/uploads/fbrfg/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/wp-content/uploads/fbrfg/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/wp-content/uploads/fbrfg/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/wp-content/uploads/fbrfg/manifest.json">
+<link rel="mask-icon" href="/wp-content/uploads/fbrfg/safari-pinned-tab.svg" color="#00b1e3">
+<link rel="shortcut icon" href="/wp-content/uploads/fbrfg/favicon.ico">
+<meta name="msapplication-config" content="/wp-content/uploads/fbrfg/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://www.connekt.com/wp-content/plugins/uncode-js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://www.connekt.com/wp-content/plugins/uncode-js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.2.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+<body class="home page-template-default page page-id-1178  style-color-lxmt-bg group-blog smooth-scroller hmenu hmenu-position-right header-full-width main-center-align wpb-js-composer js-comp-ver-4.12.1 vc_responsive" data-border="0">
+		<div class="body-borders" data-border="0"><div class="top-border body-border-shadow"></div><div class="right-border body-border-shadow"></div><div class="bottom-border body-border-shadow"></div><div class="left-border body-border-shadow"></div><div class="top-border style-light-bg"></div><div class="right-border style-light-bg"></div><div class="bottom-border style-light-bg"></div><div class="left-border style-light-bg"></div></div>	<div class="box-wrapper">
+		<div class="box-container">
+		<script type="text/javascript">UNCODE.initBox();</script>
+		<div class="menu-wrapper menu-shrink">
+													
+													<header id="masthead" class="navbar menu-primary menu-light submenu-light menu-transparent menu-add-padding style-light-original menu-absolute menu-with-logo">
+														<div class="menu-container style-color-jevc-bg menu-no-borders">
+															<div class="row-menu">
+																<div class="row-menu-inner">
+																	<div id="logo-container-mobile" class="col-lg-0 logo-container middle">
+																		<div id="main-logo" class="navbar-header style-light">
+																			<a href="http://www.connekt.com" class="navbar-brand" data-minheight="20"><div class="logo-image logo-skinnable" data-maxheight="35" style="height: 35px;"><img src="http://www.connekt.com/wp-content/uploads/2016/12/Asset-1@3x-uai-258x65.png" alt="logo" width="258" height="65" class="img-responsive adaptive-async" data-uniqueid="182-206384" data-guid="http://www.connekt.com/wp-content/uploads/2016/12/Asset-1@3x.png" data-path="2016/12/Asset-1@3x.png" data-width="1212" data-height="307" data-singlew="null" data-singleh="null" data-crop="" data-fixed="height" /></div></a>
+																		</div>
+																		<div class="mmb-container"><div class="mobile-menu-button mobile-menu-button-light lines-button x2"><span class="lines"></span></div></div>
+																	</div>
+																	<div class="col-lg-12 main-menu-container middle">
+																		<div class="menu-horizontal">
+																			<div class="menu-horizontal-inner">
+																				<div class="nav navbar-nav navbar-main navbar-nav-last"><ul id="menu-main-nav-fall-2017" class="menu-primary-inner menu-smart sm"><li id="menu-item-1177" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-1177 active menu-item-link"><a title="Home" href="/">Home<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+<li id="menu-item-1170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1170 dropdown menu-item-link"><a title="Technology" href="http://www.connekt.com/technology/" data-toggle="dropdown" class="dropdown-toggle" data-type="title">Technology<i class="fa fa-angle-down fa-dropdown"></i></a>
+<ul role="menu" class="drop-menu">
+	<li id="menu-item-1171" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1171"><a title="CARL" href="/technology/#carl">CARL<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+	<li id="menu-item-1172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1172"><a title="FLX" href="/technology/#flx">FLX<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+	<li id="menu-item-1173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1173"><a title="TRANSAKT" href="/technology/#transakt">TRANSAKT<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+	<li id="menu-item-1174" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1174"><a title="DATASCOPE" href="/technology/#datascope">DATASCOPE<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+</ul>
+</li>
+<li id="menu-item-1169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1169 dropdown menu-item-link"><a title="Formats" href="http://www.connekt.com/formats/" data-toggle="dropdown" class="dropdown-toggle" data-type="title">Formats<i class="fa fa-angle-down fa-dropdown"></i></a>
+<ul role="menu" class="drop-menu">
+	<li id="menu-item-1194" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1194"><a title="IN-CONTENT OVERLAY" href="/formats/#in-content-overlay">IN-CONTENT OVERLAY<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+	<li id="menu-item-1195" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1195"><a title="IN-AD OVERLAY" href="/formats/#in-ad-overlay">IN-AD OVERLAY<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+	<li id="menu-item-1196" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1196"><a title="RE-TARGETING" href="/formats/#re-targeting">RE-TARGETING<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+	<li id="menu-item-1197" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1197"><a title="T-COMMERCE" href="/formats/#t-commerce">T-COMMERCE<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+	<li id="menu-item-1198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1198"><a title="BRAND CHANNELS" href="/formats/#transactional-brand-channels">BRAND CHANNELS<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+	<li id="menu-item-1199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1199"><a title="SHOPTV" href="/formats/#shoptv">SHOPTV<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+</ul>
+</li>
+<li id="menu-item-1168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1168 menu-item-link"><a title="Partners" href="http://www.connekt.com/partners/">Partners<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+<li id="menu-item-1167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1167 dropdown menu-item-link"><a title="About Us" href="http://www.connekt.com/about-us/" data-toggle="dropdown" class="dropdown-toggle" data-type="title">About Us<i class="fa fa-angle-down fa-dropdown"></i></a>
+<ul role="menu" class="drop-menu">
+	<li id="menu-item-1175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1175"><a title="TEAM" href="/about-us/#team">TEAM<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+	<li id="menu-item-54986" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-54986"><a title="CAREERS" href="/about-us/#jobs">CAREERS<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+	<li id="menu-item-1176" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1176"><a title="CONTACT" href="/about-us/#contact">CONTACT<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+</ul>
+</li>
+<li id="menu-item-1166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1166 menu-item-link"><a title="Press" href="http://www.connekt.com/press/">Press<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+</ul></div><div class="desktop-hidden">
+														 							</div></div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</header>
+												</div>			<script type="text/javascript">UNCODE.fixMenuHeight();</script>
+			<div class="main-wrapper">
+				<div class="main-container">
+					<div class="page-wrapper">
+						<div class="sections-container"><div id="page-header"><div class="header-wrapper header-uncode-block">
+									<div data-parent="true" class="homepage-hero-desktop row-container tablet-hidden mobile-hidden boomapps_vcrow"><div class="row no-top-padding no-bottom-padding no-h-padding full-width row-slider row-parent row-header" data-height-ratio="full"><div class="owl-carousel-wrapper"><div class="uncode-slider owl-carousel-container"><div id="uslider_487863627" class="owl-carousel owl-element owl-dots-inside owl-height-forced" data-loop="true" data-autoheight="false" data-nav="true" data-dots="true" data-navspeed="400" data-autoplay="true" data-timeout="5000" data-lg="1" data-md="1" data-sm="1"><div class="row-internal row-container boomapps_vcrow"><div class="row-background background-element">
+											<div class="background-wrapper">
+												<div class="background-inner adaptive-async" style="background-image: url(http://www.connekt.com/wp-content/uploads/2017/09/Transforming-tv-1002-uai-258x140.jpg);background-repeat: no-repeat;background-position: left center;background-attachment: scroll;background-size: cover;" data-uniqueid="54995-189204" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/Transforming-tv-1002.jpg" data-path="2017/09/Transforming-tv-1002.jpg" data-width="5760" data-height="3120" data-singlew="12" data-singleh="null" data-crop=""></div>
+												
+											</div>
+										</div><div class="row single-top-padding single-bottom-padding single-h-padding row-child"><div class="row-inner"><div class="pos-top pos-left align_left column_child col-lg-6 boomapps_vccolumn single-internal-gutter"><div class="uncol style-light font-145207 shift_x_single" ><div class="uncoltable"><div class="uncell  boomapps_vccolumn triple-block-padding"><div class="uncont" style="max-width:85%;"><div class="heading-text el-text" ><h2 class="font-145207 h1 font-weight-700 text-color-xsdn-color" ><span>Transforming TV Advertising for a Connected World</span></h2></div><div class="clear"></div><div class="heading-text el-text" ><h2 class="h5 fontheight-808013 font-weight-300 text-color-xsdn-color" ><span>Connekt’s proprietary ad delivery platform enables in-moment campaigns to be created, optimized and managed from one centralized interface.</span></h2></div><div class="clear"></div><span class="btn-container" ><a href="/formats/" class="custom-link btn btn-accent btn-circle btn-icon-left" title="Formats">Learn More</a></span></div></div></div></div></div><div class="pos-top pos-center align_left column_child col-lg-6 boomapps_vccolumn single-internal-gutter"><div class="uncol style-light" ><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"></div></div></div></div></div></div></div></div><div class="style-color-nhtu-bg row-internal row-container boomapps_vcrow"><div class="row-background background-element">
+											<div class="background-wrapper">
+												<div class="background-inner adaptive-async" style="background-image: url(http://www.connekt.com/wp-content/uploads/2017/09/AI-driven-tv-2064x1117-uai-258x140.jpg);background-repeat: no-repeat;background-position: center center;background-attachment: scroll;background-size: cover;" data-uniqueid="54992-164111" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/AI-driven-tv-2064x1117.jpg" data-path="2017/09/AI-driven-tv-2064x1117.jpg" data-width="2064" data-height="1117" data-singlew="12" data-singleh="null" data-crop=""></div>
+												
+											</div>
+										</div><div class="row single-top-padding single-bottom-padding single-h-padding row-child"><div class="shift_y_neg_single row-inner"><div class="pos-top pos-left align_left column_child col-lg-6 boomapps_vccolumn single-internal-gutter"><div class="uncol style-dark font-145207 shift_x_single" ><div class="uncoltable"><div class="uncell  boomapps_vccolumn triple-block-padding"><div class="uncont" style="max-width:85%;"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 20%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside"><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper">
+									<img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/CARL-uai-258x72.png" width="258" height="72" alt="CARL-White" data-uniqueid="1430-175977" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/CARL.png" data-path="2017/09/CARL.png" data-width="3680" data-height="1020" data-singlew="1.2" data-singleh="" data-crop="" data-fixed=""></div>
+								</div>
+							</div></div>
+					</div></div></div><div class="heading-text el-text" ><h2 class="font-145207 h1 font-weight-700" ><span>Powered by AI and Machine Learning</span></h2></div><div class="clear"></div><div class="heading-text el-text" ><h2 class="font-145207 h5 fontheight-808013 font-weight-300" ><span>Connekt’s artificial intelligence and deep learning engine automatically processes and analyzes millions of unstructured TV viewership, engagement, and commerce data points to provide predictive targeting, ad delivery, and measurement.</span></h2></div><div class="clear"></div><span class="btn-container" ><a href="/technology/#carl" class="custom-link btn btn-accent btn-circle btn-icon-left" title="Technology: CARL">Learn More</a></span></div></div></div></div></div><div class="pos-top pos-center align_left column_child col-lg-6 boomapps_vccolumn single-internal-gutter"><div class="uncol style-light" ><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"></div></div></div></div></div></div></div></div><div class="style-color-nhtu-bg row-internal row-container boomapps_vcrow"><div class="row-background background-element">
+											<div class="background-wrapper">
+												<div class="background-inner adaptive-async" style="background-image: url(http://www.connekt.com/wp-content/uploads/2016/12/Synchronous-T-commerce-Transactions_new_1002-uai-258x140.jpg);background-repeat: no-repeat;background-position: center bottom;background-attachment: scroll;background-size: cover;" data-uniqueid="1483-188023" data-guid="http://www.connekt.com/wp-content/uploads/2016/12/Synchronous-T-commerce-Transactions_new_1002.jpg" data-path="2016/12/Synchronous-T-commerce-Transactions_new_1002.jpg" data-width="5764" data-height="3120" data-singlew="12" data-singleh="null" data-crop=""></div>
+												
+											</div>
+										</div><div class="row single-top-padding single-bottom-padding single-h-padding row-child"><div class="row-inner"><div class="pos-top pos-left align_left column_child col-lg-6 boomapps_vccolumn single-internal-gutter"><div class="uncol style-dark font-145207 shift_x_single" ><div class="uncoltable"><div class="uncell  boomapps_vccolumn triple-block-padding"><div class="uncont" style="max-width:85%;"><div class="heading-text el-text" ><h1 class="font-145207 h1 font-weight-700" ><span>Synchronous</span><span>T-Commerce Transactions</span></h1></div><div class="clear"></div><div class="heading-text el-text" ><h2 class="h5 fontheight-808013 font-weight-300" ><span>Connekt’s patented Transakt technology enables a viewer to engage directly with a TV ad or programming and seamlessly complete a transaction.</span></h2></div><div class="clear"></div><span class="btn-container" ><a href="/technology/#transakt" class="custom-link btn btn-accent btn-circle btn-icon-left" title="Technology: TRANSAKT">Learn More</a></span></div></div></div></div></div><div class="pos-top pos-center align_left column_child col-lg-6 boomapps_vccolumn single-internal-gutter"><div class="uncol style-light" ><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"></div></div></div></div></div></div></div></div><div class="style-color-nhtu-bg row-internal row-container tablet-hidden mobile-hidden boomapps_vcrow"><div class="row-background background-element">
+											<div class="background-wrapper">
+												<div class="background-inner adaptive-async" style="background-image: url(http://www.connekt.com/wp-content/uploads/2017/09/Hero-04_new-uai-258x140.jpg);background-repeat: no-repeat;background-position: center center;background-attachment: scroll;background-size: cover;" data-uniqueid="1229-849586" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/Hero-04_new.jpg" data-path="2017/09/Hero-04_new.jpg" data-width="5760" data-height="3120" data-singlew="12" data-singleh="null" data-crop=""></div>
+												
+											</div>
+										</div><div class="row single-top-padding single-bottom-padding single-h-padding row-child" data-height="100"><div class="row-inner row-inner-force"><div class="pos-top pos-left align_left column_child col-lg-6 boomapps_vccolumn single-internal-gutter"><div class="uncol style-dark font-145207 shift_x_single" ><div class="uncoltable"><div class="uncell  boomapps_vccolumn triple-block-padding"><div class="uncont" style="max-width:85%;"><div class="heading-text el-text" ><h2 class="font-145207 h1 font-weight-700" ><span>Augmented &amp; Personalized Linear TV Ads</span></h2></div><div class="clear"></div><div class="heading-text el-text" ><h2 class="h5 fontheight-808013 font-weight-300" ><span>Connekt’s digital augmentation engine enables National Linear TV ads to be enhanced with localized and personalized offers.</span></h2></div><div class="clear"></div><span class="btn-container" ><a href="/formats/#in-ad-overlay" class="custom-link btn btn-accent btn-circle btn-icon-left" title="Formats: In-ad Overlay">Learn More</a></span></div></div></div></div></div><div class="pos-top pos-center align_left column_child col-lg-6 boomapps_vccolumn single-internal-gutter"><div class="uncol style-light" ><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"></div></div></div></div></div></div></div></div></div></div></div><script id="script-491505" type="text/javascript">UNCODE.initRow(document.getElementById("script-491505"));</script></div></div><div data-parent="true" class="homepage-hero-mobile row-container desktop-hidden boomapps_vcrow"><div class="row no-top-padding no-bottom-padding no-h-padding full-width row-slider row-parent row-header" data-height-ratio="full"><div class="owl-carousel-wrapper"><div class="uncode-slider owl-carousel-container"><div id="uslider_1376473812" class="owl-carousel owl-element owl-dots-inside owl-height-forced" data-loop="true" data-autoheight="false" data-nav="true" data-dots="true" data-navspeed="400" data-autoplay="true" data-timeout="5000" data-lg="1" data-md="1" data-sm="1"><div class="row-internal row-container boomapps_vcrow"><div class="row-background background-element">
+											<div class="background-wrapper">
+												<div class="background-inner adaptive-async" style="background-image: url(http://www.connekt.com/wp-content/uploads/2017/09/Hero-03_mobile-uai-258x516.jpg);background-repeat: no-repeat;background-position: center center;background-attachment: scroll;background-size: cover;" data-uniqueid="1234-179227" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/Hero-03_mobile.jpg" data-path="2017/09/Hero-03_mobile.jpg" data-width="2000" data-height="4000" data-singlew="12" data-singleh="null" data-crop=""></div>
+												
+											</div>
+										</div><div class="row single-top-padding single-bottom-padding single-h-padding row-child"><div class="row-inner"><div class="pos-top pos-center align_center column_child col-lg-12 boomapps_vccolumn single-internal-gutter"><div class="uncol style-dark font-145207" ><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"><div class="heading-text el-text" ><h2 class="h1 font-weight-700" ><span>Transforming TV Advertising for a Connected World</span></h2></div><div class="clear"></div><span class="btn-container" ><a href="/formats/" class="custom-link btn btn-accent btn-circle btn-icon-left" title="Formats">Learn More</a></span></div></div></div></div></div></div></div></div><div class="row-internal row-container boomapps_vcrow"><div class="row-background background-element">
+											<div class="background-wrapper">
+												<div class="background-inner adaptive-async" style="background-image: url(http://www.connekt.com/wp-content/uploads/2017/09/AI-driven-tv-2064x1117-uai-258x140.jpg);background-repeat: no-repeat;background-position: center center;background-attachment: scroll;background-size: cover;" data-uniqueid="54992-690059" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/AI-driven-tv-2064x1117.jpg" data-path="2017/09/AI-driven-tv-2064x1117.jpg" data-width="2064" data-height="1117" data-singlew="12" data-singleh="null" data-crop=""></div>
+												
+											</div>
+										</div><div class="row single-top-padding single-bottom-padding single-h-padding row-child"><div class="row-inner"><div class="pos-middle pos-center align_center column_child col-lg-12 boomapps_vccolumn single-internal-gutter"><div class="uncol style-dark font-145207" ><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"><div class="uncode-single-media  text-center"><div class="single-wrapper" style="max-width: 20%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside"><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper">
+									<img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/CARL-uai-258x72.png" width="258" height="72" alt="CARL-White" data-uniqueid="1430-553330" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/CARL.png" data-path="2017/09/CARL.png" data-width="3680" data-height="1020" data-singlew="2.4" data-singleh="" data-crop="" data-fixed=""></div>
+								</div>
+							</div></div>
+					</div></div></div><div class="heading-text el-text" ><h2 class="h1 font-weight-700" ><span>Powered by AI and Machine Learning</span></h2></div><div class="clear"></div><span class="btn-container" ><a href="/technology/#carl" class="custom-link btn btn-accent btn-circle btn-icon-left" title="Technology: CARL">Learn More</a></span></div></div></div></div></div></div></div></div><div class="row-internal row-container boomapps_vcrow"><div class="row-background background-element">
+											<div class="background-wrapper">
+												<div class="background-inner adaptive-async" style="background-image: url(http://www.connekt.com/wp-content/uploads/2017/09/Hero-04_Mobile-uai-258x470.jpg);background-repeat: no-repeat;background-position: center center;background-attachment: scroll;background-size: cover;" data-uniqueid="1231-730786" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/Hero-04_Mobile.jpg" data-path="2017/09/Hero-04_Mobile.jpg" data-width="2744" data-height="5000" data-singlew="12" data-singleh="null" data-crop=""></div>
+												
+											</div>
+										</div><div class="row single-top-padding single-bottom-padding single-h-padding row-child"><div class="row-inner"><div class="pos-top pos-center align_center column_child col-lg-12 boomapps_vccolumn single-internal-gutter"><div class="uncol style-dark font-145207" ><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont" style="max-width:80%;"><div class="heading-text el-text" ><h2 class="h1 font-weight-700" ><span>Synchronous</span><span>T-Commerce Transactions</span></h2></div><div class="clear"></div><span class="btn-container" ><a href="/technology/#transakt" class="custom-link btn btn-accent btn-circle btn-icon-left" title="Technology: TRANSAKT">Learn More</a></span></div></div></div></div></div></div></div></div><div class="style-color-xsdn-bg row-internal row-container desktop-hidden boomapps_vcrow"><div class="row-background background-element">
+											<div class="background-wrapper">
+												<div class="background-inner adaptive-async" style="background-image: url(http://www.connekt.com/wp-content/uploads/2017/09/Hero-04_new_Mobile-uai-258x516.jpg);background-repeat: no-repeat;background-position: center center;background-attachment: scroll;background-size: cover;" data-uniqueid="1228-927190" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/Hero-04_new_Mobile.jpg" data-path="2017/09/Hero-04_new_Mobile.jpg" data-width="2000" data-height="4000" data-singlew="12" data-singleh="null" data-crop=""></div>
+												
+											</div>
+										</div><div class="row single-top-padding single-bottom-padding single-h-padding row-child" data-height="100"><div class="row-inner"><div class="pos-top pos-center align_center align_center_tablet align_center_mobile column_child col-lg-12 boomapps_vccolumn single-internal-gutter"><div class="uncol style-light font-145207" ><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"><div class="heading-text el-text" ><h2 class="font-101926 h1 font-weight-700 text-color-xsdn-color" ><span>Augmented &amp; Personalized Linear TV Ads</span></h2></div><div class="clear"></div><span class="btn-container" ><a href="/formats/#in-ad-overlay" class="custom-link btn btn-accent btn-circle btn-icon-left" title="Formats: In-ad Overlay">Learn More</a></span></div></div></div></div></div></div></div></div></div></div></div><script id="script-169972" type="text/javascript">UNCODE.initRow(document.getElementById("script-169972"));</script></div></div></div></div><script type="text/javascript">UNCODE.initHeader();</script><article id="post-1178" class="page-body style-light-bg post-1178 page type-page status-publish hentry">
+						<div class="post-wrapper">
+							<div class="post-body"><div class="post-content"><div data-parent="true" class="row-container boomapps_vcrow"><div class="row no-top-padding no-bottom-padding no-h-padding full-width row-parent"><div class="row-inner"><div class="pos-top pos-center align_left column_parent col-lg-12 boomapps_vccolumn single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"><div id="gallery-115133" class="isotope-system">
+          <div class="isotope-wrapper no-gutter">
+        <div class="isotope-container isotope-layout style-metro" data-type="metro" data-layout="packery" data-lg="1000" data-md="600" data-sm="480">
+<div class="tmb tmb-iso-w6 tmb-iso-h4 tmb-dark tmb-text-showed tmb-overlay-showed tmb-overlay-middle tmb-overlay-text-center  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><a tabindex="-1" href="#" class="inactive-link"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-accent-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"><div class="t-entry"><h3 class="t-entry-title h2 font-weight-400">See Us in Action</h3><p class="t-entry-excerpt">The Connekt platform has been deployed to support a wide range of innovative partnerships.</p></div></div></div></div></div><div class="t-background-cover adaptive-async" style="background-image:url('http://www.connekt.com/wp-content/uploads/2017/09/white-box-uai-258x172.jpg')" data-uniqueid="1335-104182" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/white-box.jpg" data-path="2017/09/white-box.jpg" data-width="5760" data-height="3952" data-singlew="6" data-singleh="4" data-crop="1" data-fixed=""></div></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-iso-w6 tmb-iso-h4 tmb-dark tmb-overlay-text-anim tmb-overlay-anim tmb-overlay-middle tmb-overlay-text-center  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><a tabindex="-1" href="/portfolio/scion-franco/"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-accent-bg" style="opacity: 0.9;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"><div class="t-entry"><h3 class="t-entry-title h2 font-weight-400">Scion & Franco</h3></div></div></div></div></div><div class="t-background-cover adaptive-async" style="background-image:url('http://www.connekt.com/wp-content/uploads/2017/09/scion-uai-258x172.jpg')" data-uniqueid="1333-751610" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/scion.jpg" data-path="2017/09/scion.jpg" data-width="2892" data-height="1788" data-singlew="6" data-singleh="4" data-crop="1" data-fixed=""></div></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-iso-w12 tmb-iso-h4 tmb-dark tmb-overlay-text-anim tmb-overlay-anim tmb-overlay-middle tmb-overlay-text-center  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><a tabindex="-1" href="/portfolio/target-cat-jack/"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-accent-bg" style="opacity: 0.9;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"><div class="t-entry"><h3 class="t-entry-title h2 font-weight-400">Target: Cat & Jack</h3></div></div></div></div></div><div class="t-background-cover adaptive-async" style="background-image:url('http://www.connekt.com/wp-content/uploads/2016/12/target-cat-and-jack-uai-258x86.jpg')" data-uniqueid="1508-179075" data-guid="http://www.connekt.com/wp-content/uploads/2016/12/target-cat-and-jack.jpg" data-path="2016/12/target-cat-and-jack.jpg" data-width="5760" data-height="1784" data-singlew="12" data-singleh="4" data-crop="1" data-fixed=""></div></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-iso-w6 tmb-iso-h4 tmb-dark tmb-overlay-text-anim tmb-overlay-anim tmb-overlay-middle tmb-overlay-text-center  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><a tabindex="-1" href="/portfolio/toyota-camry/"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-accent-bg" style="opacity: 0.9;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"><div class="t-entry"><h3 class="t-entry-title h2 font-weight-400">Toyota Camry</h3></div></div></div></div></div><div class="t-background-cover adaptive-async" style="background-image:url('http://www.connekt.com/wp-content/uploads/2017/09/toyota-camry-uai-258x172.jpg')" data-uniqueid="1330-180944" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/toyota-camry.jpg" data-path="2017/09/toyota-camry.jpg" data-width="2880" data-height="1792" data-singlew="6" data-singleh="4" data-crop="1" data-fixed=""></div></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-iso-w3 tmb-iso-h8 tmb-dark tmb-overlay-text-anim tmb-overlay-anim tmb-overlay-middle tmb-overlay-text-center  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><a tabindex="-1" href="http://www.connekt.com/portfolio/hbo/"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-accent-bg" style="opacity: 0.9;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"><div class="t-entry"><h3 class="t-entry-title h2 font-weight-400">HBO</h3></div></div></div></div></div><div class="t-background-cover adaptive-async" style="background-image:url('http://www.connekt.com/wp-content/uploads/2017/09/GOT-uai-96x258.jpg')" data-uniqueid="1329-122152" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/GOT.jpg" data-path="2017/09/GOT.jpg" data-width="1428" data-height="3572" data-singlew="3" data-singleh="8" data-crop="1" data-fixed=""></div></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-iso-w3 tmb-iso-h8 tmb-dark tmb-overlay-text-anim tmb-overlay-anim tmb-overlay-middle tmb-overlay-text-center  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><a tabindex="-1" href="/portfolio/army/"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-accent-bg" style="opacity: 0.9;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"><div class="t-entry"><h3 class="t-entry-title h2 font-weight-400">Army</h3></div></div></div></div></div><div class="t-background-cover adaptive-async" style="background-image:url('http://www.connekt.com/wp-content/uploads/2017/09/army-1-uai-96x258.jpg')" data-uniqueid="1337-136314" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/army-1.jpg" data-path="2017/09/army-1.jpg" data-width="1484" data-height="3568" data-singlew="3" data-singleh="8" data-crop="1" data-fixed=""></div></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-iso-w6 tmb-iso-h4 tmb-dark tmb-overlay-text-anim tmb-overlay-anim tmb-overlay-middle tmb-overlay-text-center  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><a tabindex="-1" href="/portfolio/dunkin-donuts/"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-accent-bg" style="opacity: 0.9;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"><div class="t-entry"><h3 class="t-entry-title h2 font-weight-400">Dunkin' Donuts</h3></div></div></div></div></div><div class="t-background-cover adaptive-async" style="background-image:url('http://www.connekt.com/wp-content/uploads/2016/12/LP-promo-x2-donuts-620x506-uai-258x172.jpg')" data-uniqueid="1470-140102" data-guid="http://www.connekt.com/wp-content/uploads/2016/12/LP-promo-x2-donuts-620x506.jpg" data-path="2016/12/LP-promo-x2-donuts-620x506.jpg" data-width="620" data-height="506" data-singlew="6" data-singleh="4" data-crop="1" data-fixed=""></div></a></div>
+								</div>
+							</div></div>
+					</div>        </div>
+    </div>
+</div></div></div></div></div></div><script id="script-103434" type="text/javascript">UNCODE.initRow(document.getElementById("script-103434"));</script></div></div></div><div data-parent="true" class="row-container boomapps_vcrow"><div class="row-background background-element">
+											<div class="background-wrapper">
+												<div class="background-inner adaptive-async" style="background-image: url(http://www.connekt.com/wp-content/uploads/2017/09/Whos-connected-uai-258x73.jpg);background-repeat: no-repeat;background-position: center center;background-attachment: scroll;background-size: cover;" data-uniqueid="1250-745933" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/Whos-connected.jpg" data-path="2017/09/Whos-connected.jpg" data-width="5764" data-height="1628" data-singlew="12" data-singleh="null" data-crop=""></div>
+												
+											</div>
+										</div><div class="row quad-top-padding exa-bottom-padding single-h-padding limit-width row-parent"><div class="row-inner"><div class="pos-top pos-center align_center column_parent col-lg-12 boomapps_vccolumn single-internal-gutter"><div class="uncol style-dark"  ><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"><div class="heading-text el-text" ><h2 class="h2" ><span>Who's Connekted</span></h2><div><p>CKT offers its solutions to Smart TV and OTT Device OEMs, Content Companies, Brands &amp; Agencies</p>
+</div></div><div class="clear"></div><span class="btn-container" ><a href="/partners/" class="custom-link btn btn-accent btn-circle btn-icon-left" title="Partners">Learn More</a></span><div class="empty-space empty-single"><span class="empty-space-inner"></span></div>
+</div></div></div></div></div><script id="script-912896" type="text/javascript">UNCODE.initRow(document.getElementById("script-912896"));</script></div></div></div><div data-parent="true" class="style-color-lxmt-bg row-container boomapps_vcrow"><div class="row no-top-padding double-bottom-padding single-h-padding full-width row-parent"><div class="row-inner"><div class="pos-top pos-center align_left column_parent col-lg-12 boomapps_vccolumn single-internal-gutter z_index_2"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"><div class="row-internal row-container boomapps_vcrow"><div class="row row-child"><div class="row-inner"><div class="pos-middle pos-center align_left column_child col-lg-12 boomapps_vccolumn single-internal-gutter"><div class="uncol style-light shift_y_neg_triple" ><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont" style="max-width:90%;"><div class="owl-carousel-wrapper">
+    <div class="owl-carousel-container owl-carousel-loading no-gutter">
+        <div id="gallery-154458" class="owl-carousel owl-element owl-height-auto style-color-xsdn-bg owl-dots-outside" data-loop="true" data-dots="true" data-navmobile="false" data-navspeed="400" data-autoplay="true" data-timeout="5000" data-autoheight="true" data-lg="4" data-md="3" data-sm="2">
+<div class="tmb tmb-carousel tmb-iso-h4 tmb-light tmb-overlay-middle tmb-overlay-text-left tmb-bordered  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 100%;"></div><a tabindex="-1" href="#" class="inactive-link pushed"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"></div></div></div></div><img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/Tivo-uai-258x258.png" width="258" height="258" alt="" data-uniqueid="1259-102476" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/Tivo.png" data-path="2017/09/Tivo.png" data-width="4800" data-height="4800" data-singlew="3" data-singleh="4" data-crop="" data-fixed="" /></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-carousel tmb-iso-h4 tmb-light tmb-overlay-middle tmb-overlay-text-left tmb-bordered  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 100%;"></div><a tabindex="-1" href="#" class="inactive-link pushed"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"></div></div></div></div><img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/LG-uai-258x258.png" width="258" height="258" alt="" data-uniqueid="1246-448801" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/LG.png" data-path="2017/09/LG.png" data-width="4800" data-height="4800" data-singlew="3" data-singleh="4" data-crop="" data-fixed="" /></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-carousel tmb-iso-h4 tmb-light tmb-overlay-middle tmb-overlay-text-left tmb-bordered  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 100%;"></div><a tabindex="-1" href="#" class="inactive-link pushed"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"></div></div></div></div><img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/sony-uai-258x258.png" width="258" height="258" alt="" data-uniqueid="1239-628526" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/sony.png" data-path="2017/09/sony.png" data-width="4800" data-height="4800" data-singlew="3" data-singleh="4" data-crop="" data-fixed="" /></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-carousel tmb-iso-h4 tmb-light tmb-overlay-middle tmb-overlay-text-left tmb-bordered  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 100%;"></div><a tabindex="-1" href="#" class="inactive-link pushed"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"></div></div></div></div><img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/hisense-uai-258x258.png" width="258" height="258" alt="" data-uniqueid="1258-156362" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/hisense.png" data-path="2017/09/hisense.png" data-width="4800" data-height="4800" data-singlew="3" data-singleh="4" data-crop="" data-fixed="" /></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-carousel tmb-iso-h4 tmb-light tmb-overlay-middle tmb-overlay-text-left tmb-bordered  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 100%;"></div><a tabindex="-1" href="#" class="inactive-link pushed"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"></div></div></div></div><img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/Roku-uai-258x258.png" width="258" height="258" alt="" data-uniqueid="1261-164055" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/Roku.png" data-path="2017/09/Roku.png" data-width="4800" data-height="4800" data-singlew="3" data-singleh="4" data-crop="" data-fixed="" /></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-carousel tmb-iso-h4 tmb-light tmb-overlay-middle tmb-overlay-text-left tmb-bordered  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 100%;"></div><a tabindex="-1" href="#" class="inactive-link pushed"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"></div></div></div></div><img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/HBO-uai-258x258.png" width="258" height="258" alt="" data-uniqueid="1247-270656" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/HBO.png" data-path="2017/09/HBO.png" data-width="4800" data-height="4800" data-singlew="3" data-singleh="4" data-crop="" data-fixed="" /></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-carousel tmb-iso-h4 tmb-light tmb-overlay-middle tmb-overlay-text-left tmb-bordered  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 100%;"></div><a tabindex="-1" href="#" class="inactive-link pushed"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"></div></div></div></div><img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/cbs-uai-258x258.png" width="258" height="258" alt="" data-uniqueid="1241-978421" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/cbs.png" data-path="2017/09/cbs.png" data-width="4800" data-height="4800" data-singlew="3" data-singleh="4" data-crop="" data-fixed="" /></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-carousel tmb-iso-h4 tmb-light tmb-overlay-middle tmb-overlay-text-left tmb-bordered  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 100%;"></div><a tabindex="-1" href="#" class="inactive-link pushed"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"></div></div></div></div><img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/showtime-uai-258x258.png" width="258" height="258" alt="" data-uniqueid="1260-107851" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/showtime.png" data-path="2017/09/showtime.png" data-width="4800" data-height="4800" data-singlew="3" data-singleh="4" data-crop="" data-fixed="" /></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-carousel tmb-iso-h4 tmb-light tmb-overlay-middle tmb-overlay-text-left tmb-bordered  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 100%;"></div><a tabindex="-1" href="#" class="inactive-link pushed"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"></div></div></div></div><img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/ASO-tv-uai-258x258.png" width="258" height="258" alt="" data-uniqueid="1252-141990" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/ASO-tv.png" data-path="2017/09/ASO-tv.png" data-width="4800" data-height="4800" data-singlew="3" data-singleh="4" data-crop="" data-fixed="" /></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-carousel tmb-iso-h4 tmb-light tmb-overlay-middle tmb-overlay-text-left tmb-bordered  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 100%;"></div><a tabindex="-1" href="#" class="inactive-link pushed"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"></div></div></div></div><img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/nielsen-uai-258x258.png" width="258" height="258" alt="" data-uniqueid="1257-622407" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/nielsen.png" data-path="2017/09/nielsen.png" data-width="4800" data-height="4800" data-singlew="3" data-singleh="4" data-crop="" data-fixed="" /></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-carousel tmb-iso-h4 tmb-light tmb-overlay-middle tmb-overlay-text-left tmb-bordered  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 100%;"></div><a tabindex="-1" href="#" class="inactive-link pushed"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"></div></div></div></div><img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/gracenote-uai-258x258.png" width="258" height="258" alt="" data-uniqueid="1242-459125" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/gracenote.png" data-path="2017/09/gracenote.png" data-width="4800" data-height="4800" data-singlew="3" data-singleh="4" data-crop="" data-fixed="" /></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-carousel tmb-iso-h4 tmb-light tmb-overlay-middle tmb-overlay-text-left tmb-bordered  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 100%;"></div><a tabindex="-1" href="#" class="inactive-link pushed"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"></div></div></div></div><img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/IBM-Watson-uai-258x258.png" width="258" height="258" alt="" data-uniqueid="1254-841181" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/IBM-Watson.png" data-path="2017/09/IBM-Watson.png" data-width="4800" data-height="4800" data-singlew="3" data-singleh="4" data-crop="" data-fixed="" /></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-carousel tmb-iso-h4 tmb-light tmb-overlay-middle tmb-overlay-text-left tmb-bordered  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 100%;"></div><a tabindex="-1" href="#" class="inactive-link pushed"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"></div></div></div></div><img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/SU2C-uai-258x258.png" width="258" height="258" alt="" data-uniqueid="1255-170331" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/SU2C.png" data-path="2017/09/SU2C.png" data-width="4800" data-height="4800" data-singlew="3" data-singleh="4" data-crop="" data-fixed="" /></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-carousel tmb-iso-h4 tmb-light tmb-overlay-middle tmb-overlay-text-left tmb-bordered  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 100%;"></div><a tabindex="-1" href="#" class="inactive-link pushed"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"></div></div></div></div><img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/Startrek-uai-258x258.png" width="258" height="258" alt="" data-uniqueid="1253-633440" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/Startrek.png" data-path="2017/09/Startrek.png" data-width="4800" data-height="4800" data-singlew="3" data-singleh="4" data-crop="" data-fixed="" /></a></div>
+								</div>
+							</div></div>
+					</div><div class="tmb tmb-carousel tmb-iso-h4 tmb-light tmb-overlay-middle tmb-overlay-text-left tmb-bordered  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg">
+						<div class="t-inside" ><div class="t-entry-visual" tabindex="0"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 100%;"></div><a tabindex="-1" href="#" class="inactive-link pushed"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.01;"></div></div>
+									<div class="t-overlay-wrap">
+										<div class="t-overlay-inner">
+											<div class="t-overlay-content">
+												<div class="t-overlay-text single-block-padding"></div></div></div></div><img class="adaptive-async" src="http://www.connekt.com/wp-content/uploads/2017/09/amazon-uai-258x258.png" width="258" height="258" alt="" data-uniqueid="1256-193433" data-guid="http://www.connekt.com/wp-content/uploads/2017/09/amazon.png" data-path="2017/09/amazon.png" data-width="4800" data-height="4800" data-singlew="3" data-singleh="4" data-crop="" data-fixed="" /></a></div>
+								</div>
+							</div></div>
+					</div>        </div>
+    </div>
+</div></div></div></div></div></div></div></div></div></div></div></div></div></div><script id="script-142333" type="text/javascript">UNCODE.initRow(document.getElementById("script-142333"));</script></div></div></div><div data-parent="true" class="row-container onepage-section boomapps_vcrow" data-label="contact" data-name="contact"><div class="row col-double-gutter triple-top-padding triple-bottom-padding triple-h-padding full-width row-parent"><div class="row-inner"><div class="pos-top pos-center align_left column_parent col-lg-6 boomapps_vccolumn one-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont" style="max-width:61%;"><div class="heading-text el-text" ><h2 class="h1" ><span>GET IN TOUCH WITH US</span></h2></div><div class="clear"></div><div class="empty-space empty-single"><span class="empty-space-inner"></span></div>
+<div class="uncode_text_column" ><p>Want to work together? Need some more info? Send us a line and we will hit you back soon.</p>
+</div><div class="empty-space empty-single"><span class="empty-space-inner"></span></div>
+<div class="heading-text el-text" ><h2 class="h6 fontspace-196328 text-color-uydo-color text-uppercase" ><span>San Francisco</span></h2></div><div class="clear"></div><div class="heading-text el-text" ><h2 class="h6 fontheight-196416" ><span>233 Sansome Street, 2nd Floor</span><span>San Francisco, CA 94104</span></h2></div><div class="clear"></div><div class="empty-space empty-single"><span class="empty-space-inner"></span></div>
+<div class="heading-text el-text" ><h2 class="h6 fontspace-196328 text-color-uydo-color text-uppercase" ><span>Denver</span></h2></div><div class="clear"></div><div class="heading-text el-text" ><h2 class="h6 fontheight-196416" ><span>2930 Umatilla St, Suite 400</span><span>Denver, CO 80211</span></h2></div><div class="clear"></div><div class="empty-space empty-single"><span class="empty-space-inner"></span></div>
+<div class="heading-text el-text" ><h2 class="h6 fontspace-196328 text-color-uydo-color text-uppercase" ><span>New York</span></h2></div><div class="clear"></div><div class="heading-text el-text" ><h2 class="h6 fontheight-196416" ><span>1460 Broadway, 8th floor, Suite 10021</span><span>New York, NY 10036</span></h2></div><div class="clear"></div><div class="empty-space empty-single"><span class="empty-space-inner"></span></div>
+<div class="uncode_text_column" ><p>Connect with us on <a href="https://www.linkedin.com/company/connektinc" target="_blank" rel="noopener">LinkedIn</a></p>
+<p>For media inquiries, please email <a href="mailto:connekt@moxiemettle.com">connekt@moxiemettle.com</a></p>
+</div></div></div></div></div></div><div class="pos-top pos-center align_left column_parent col-lg-6 boomapps_vccolumn single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont" style="max-width:80%;"><div role="form" class="wpcf7" id="wpcf7-f9-p1178-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/#wpcf7-f9-p1178-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="9" />
+<input type="hidden" name="_wpcf7_version" value="4.9" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f9-p1178-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="1178" />
+</div>
+<p><label> Your Name (required)<br />
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> </label></p>
+<p><label> Your Email (required)<br />
+    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span> </label></p>
+<p><label> Your Message<br />
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </label></p>
+<p><br></p>
+<p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit" /></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div></div></div></div></div><script id="script-582051" type="text/javascript">UNCODE.initRow(document.getElementById("script-582051"));</script></div></div></div></div></div>
+						</div>
+					</article>
+							</div><!-- sections container -->
+						</div><!-- page wrapper -->
+										<footer id="colophon" class="site-footer">
+						<div class="row-container style-dark-bg footer-last">
+	  					<div class="row row-parent style-dark no-top-padding no-h-padding no-bottom-padding">
+								<div class="site-info uncell col-lg-6 pos-middle text-left">&copy; 2017 Connekt Inc. All rights reserved</div><!-- site info -->
+							</div>
+						</div>					</footer>
+									</div><!-- main container -->
+			</div><!-- main wrapper -->
+		</div><!-- box container -->
+	</div><!-- box wrapper -->
+	<div class="style-light footer-scroll-top footer-scroll-higher"><a href="#" class="scroll-top"><i class="fa fa-angle-up fa-stack fa-rounded btn-default btn-hover-nobg"></i></a></div>	<div class="overlay overlay-sequential style-dark style-dark-bg overlay-search" data-area="search" data-container="box-container">
+		<div class="mmb-container"><div class="menu-close-search mobile-menu-button menu-button-offcanvas mobile-menu-button-dark lines-button x2 overlay-close close" data-area="search" data-container="box-container"><span class="lines"></span></div></div>
+		<div class="search-container"><form action="http://www.connekt.com/" method="get">
+	<div class="search-container-inner">
+		<input type="search" class="search-field form-fluid no-livesearch" placeholder="Search…" value="" name="s" title="Search for:">
+	  <i class="fa fa-search3"></i>
+	</div>
+</form>
+</div>
+	</div>
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90567651-1', 'auto');
+  ga('send', 'pageview');
+
+//Disable category links in press page
+jQuery.noConflict();
+(function($){
+$('.t-entry-category a, .category-info a').click(function(e){e.preventDefault();});
+})(jQuery);
+</script>
+<script type='text/javascript' src='http://www.connekt.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var DavesWordPressLiveSearchConfig = {"resultsDirection":"","showThumbs":"false","showExcerpt":"false","displayPostCategory":"false","showMoreResultsLink":"true","minCharsToSearch":"0","xOffset":"0","yOffset":"0","blogURL":"http:\/\/www.connekt.com","ajaxURL":"http:\/\/www.connekt.com\/wp-admin\/admin-ajax.php","viewMoreText":"View more results","outdatedJQuery":"Dave's WordPress Live Search requires jQuery 1.2.6 or higher. WordPress ships with current jQuery versions. But if you are seeing this message, it's likely that another plugin is including an earlier version.","resultTemplate":"<ul id=\"dwls_search_results\" class=\"search_results dwls_search_results\">\n<input type=\"hidden\" name=\"query\" value=\"<%- resultsSearchTerm %>\" \/>\n<% _.each(searchResults, function(searchResult, index, list) { %>\n        <%\n        \/\/ Thumbnails\n        if(DavesWordPressLiveSearchConfig.showThumbs == \"true\" && searchResult.attachment_thumbnail) {\n                liClass = \"post_with_thumb\";\n        }\n        else {\n                liClass = \"\";\n        }\n        %>\n        <li class=\"post-<%= searchResult.ID %> daves-wordpress-live-search_result <%- liClass %>\">\n\n        <a href=\"<%= searchResult.permalink %>\" class=\"daves-wordpress-live-search_title\">\n        <% if(DavesWordPressLiveSearchConfig.displayPostCategory == \"true\" && searchResult.post_category !== undefined) { %>\n                <span class=\"search-category\"><%= searchResult.post_category %><\/span>\n        <% } %><span class=\"search-title\"><%= searchResult.post_title %><\/span><\/a>\n\n        <% if(searchResult.post_price !== undefined) { %>\n                <p class=\"price\"><%- searchResult.post_price %><\/p>\n        <% } %>\n\n        <% if(DavesWordPressLiveSearchConfig.showExcerpt == \"true\" && searchResult.post_excerpt) { %>\n                <%= searchResult.post_excerpt %>\n        <% } %>\n\n        <% if(e.displayPostMeta) { %>\n                <p class=\"meta clearfix daves-wordpress-live-search_author\" id=\"daves-wordpress-live-search_author\">Posted by <%- searchResult.post_author_nicename %><\/p><p id=\"daves-wordpress-live-search_date\" class=\"meta clearfix daves-wordpress-live-search_date\"><%- searchResult.post_date %><\/p>\n        <% } %>\n        <div class=\"clearfix\"><\/div><\/li>\n<% }); %>\n\n<% if(searchResults[0].show_more !== undefined && searchResults[0].show_more && DavesWordPressLiveSearchConfig.showMoreResultsLink == \"true\") { %>\n        <div class=\"clearfix search_footer\"><a href=\"<%= DavesWordPressLiveSearchConfig.blogURL %>\/?s=<%-  resultsSearchTerm %>\"><%- DavesWordPressLiveSearchConfig.viewMoreText %><\/a><\/div>\n<% } %>\n\n<\/ul>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.connekt.com/wp-content/plugins/uncode-daves-wordpress-live-search/js/daves-wordpress-live-search.js?ver=4.8.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/www.connekt.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.connekt.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.9'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dot_irecommendthis = {"ajaxurl":"http:\/\/www.connekt.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.connekt.com/wp-content/plugins/i-recommend-this/js/dot_irecommendthis.js?ver=2.6.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Download File":"Download File","Download Video":"Download Video","Play":"Play","Pause":"Pause","Captions\/Subtitles":"Captions\/Subtitles","None":"None","Time Slider":"Time Slider","Skip back %1 seconds":"Skip back %1 seconds","Video Player":"Video Player","Audio Player":"Audio Player","Volume Slider":"Volume Slider","Mute Toggle":"Mute Toggle","Unmute":"Unmute","Mute":"Mute","Use Up\/Down Arrow keys to increase or decrease volume.":"Use Up\/Down Arrow keys to increase or decrease volume.","Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds."}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.connekt.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.22.0'></script>
+<script type='text/javascript' src='http://www.connekt.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=4.8.2'></script>
+<script type='text/javascript' src='http://www.connekt.com/wp-content/themes/uncode/library/js/plugins.js?ver=945902692'></script>
+<script type='text/javascript' src='http://www.connekt.com/wp-content/themes/uncode/library/js/app.js?ver=945902692'></script>
+<script type='text/javascript' src='http://www.connekt.com/wp-content/plugins/page-links-to/js/new-tab.min.js?ver=2.9.8'></script>
+<script type='text/javascript' src='http://www.connekt.com/wp-includes/js/wp-embed.min.js?ver=4.8.2'></script>
+</body>
+</html>

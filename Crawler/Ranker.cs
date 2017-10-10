@@ -150,7 +150,7 @@ namespace SearchEngine
                 {
                     matrix[k].Add(0);
                 }
-                i.printOnLine("Initialised pages: " + (k+1));
+                p.printOnLine("Initialised pages: " + (k+1));
             }
 
             // Fill matrix
@@ -164,7 +164,7 @@ namespace SearchEngine
                     {
                         matrix[urls.IndexOf(url)][urls.IndexOf(innerUrl)] = 1.0 / urlsPagePointTo.Count;
                     }
-                    i.printOnLine("pages rows filled: " + (urls.IndexOf(url) + 1));
+                    p.printOnLine("pages rows filled: " + (urls.IndexOf(url) + 1));
                 }
             }
             return matrix;

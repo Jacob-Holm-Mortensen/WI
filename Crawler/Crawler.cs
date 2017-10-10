@@ -21,12 +21,14 @@ namespace SearchEngine
         NearDuplicate near = new NearDuplicate();
         string baseDir = AppDomain.CurrentDomain.BaseDirectory.Replace("bin\\Debug\\", "");
         public HashSet<string> hosts = new HashSet<string>();
-        int threadCount = 8;
+        int threadCount = 128;
+        int loopCount = 0;
         List<Thread> threads = new List<Thread>();
 
         // Runs the crawler process
         public void StartCrawling(string seed)
         {
+            loopCount = 1000 - threadCount;
             if (Directory.Exists(baseDir + "htmls\\"))
                 foreach (var file in new DirectoryInfo(baseDir + "htmls\\").GetFiles()) file.Delete();
             if (Directory.Exists(baseDir + "robotTXT\\"))
@@ -55,7 +57,7 @@ namespace SearchEngine
 
         public void threadContent()
         {
-            while (backQueue.Count < 1000 && frontier.Count != 0)
+            while (backQueue.Count <= loopCount && frontier.Count != 0)
             {
                 string url;
                 lock (frontier)
@@ -67,7 +69,6 @@ namespace SearchEngine
                 // Move to back queue and insert new urls in the end of the frontier
                 MoveWebPageToBackQueue(url);
             }
-            Console.WriteLine("thread stropped");
         }
 
         // Adds urls to the back queue if the url does not exist

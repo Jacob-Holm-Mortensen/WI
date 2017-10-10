@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<!--[if IE 6]> <html id="ie6" lang="en-US"> <![endif]-->
+<!--[if IE 7]> <html id="ie7" lang="en-US"> <![endif]-->
+<!--[if IE 8]> <html id="ie8" lang="en-US"> <![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8) ]> <html lang="en-US"> <!<![endif]-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Careers :: CBS Interactive</title>
+    <meta name="Description" content="Choose a Career">
+    <meta name="Keywords" content="CBS Interactive, Internet">
+    <link rel="shortcut icon" href="/i/favicon.png" />
+    <meta charset="UTF-8" />
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <meta content="en_US" http-equiv="Content-Language">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="/css/style.css?1505740220">
+    <link rel="stylesheet" type="text/css" href="/content/css/pages.css?1505740980">
+
+
+<!--[if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+
+
+</head>
+<body class="careers ">
+              <!-- Main Nav-->
+<div class="header ">
+    <div class="nav-wrapper">
+        <a href="/" class="logo">
+            <img src="/i/CBSi-black.svg">
+        </a>
+        <div class="secondary">
+          <li>
+    <a href="/contact">Contact</a>
+</li>
+<li class="active">
+    <a href="/careers">Careers</a>
+</li>
+<li>
+    <a href="/advertising">Advertise</a>
+</li>
+<li>
+    <a href="/about">About</a>
+</li>
+<li>
+    <a href="/brands"><span>Our</span> Brands</a>
+</li>
+        </div>
+    </div>
+</div>
+<nav>
+    <div class="nav-wrapper">
+        <a href="/" class="logo">
+            <img src="/i/CBSi-white.svg">
+        </a>
+        <div class="primary">
+            <li>
+    <a href="/contact">Contact</a>
+</li>
+<li class="active">
+    <a href="/careers">Careers</a>
+</li>
+<li>
+    <a href="/advertising">Advertise</a>
+</li>
+<li>
+    <a href="/about">About</a>
+</li>
+<li>
+    <a href="/brands"><span>Our</span> Brands</a>
+</li>
+        </div>
+    </div>
+</nav>
+<!-- end Main Nav -->
+
+        
+    <!-- main content -->
+        <!--- hero content --->
+<section id="jobs" class="hero" style="">
+	<div class="wrapper">
+		<div class="caps">
+			<h1><span>Careers</span></h1>
+		</div>
+	</div>
+</section>
+<!--- end hero content --->
+
+<section class="info top">
+	<div class="wrapper">
+		<div class="col-12 center">
+			<h3>Always interesting. Always rewarding.</h3>
+			<p>Whether your dream job is in tech, entertainment, sports or games, build your career here and create the content you love.  Search our open jobs below and apply directly online.</p>
+			<!-- https://cbs.avature.net -->
+			<a class="button-red-center" href="https://cbs.avature.net/cbsinteractivecareers/SearchJobs" target="_blank">Browse all US Jobs</a>
+			<div class="row browse" style="clear: both;margin-top: 50px;">
+				<div style="width: 49%;float: left;text-align: right;padding: 0;">
+					<a href="https://www.linkedin.com/company/982005/">Browse all UK Jobs</a>
+				</div>
+				<div style="width: 2%;float: left;text-align: center;">
+					&middot;
+				</div>
+				<div style="width: 49%;float: left;text-align: left;">
+					<a href="http://www.cbsinteractive.com.au/workforus.html">Browse all AU/SG Jobs</a>
+				</div>
+			</div>
+			<!-- id="view_all" -->
+		</div>
+	</div>
+</section>
+
+<!-- content -->
+<section class="jobs">
+	<div class="wrapper border-top">
+		<!-- https://cbs.avature.net -->
+		<form method="post" action="https://cbs.avature.net/cbsinteractivecareers/SearchJobs" autocomplete="on" class="generalForm autoClearer altForm">
+
+			<div class="col-6">
+
+				<div class="fieldSpec">
+		        <div class="fieldSpecPadder">
+		            <label class="labelText" for="search">Keywords</label>
+		            <div><input type="search" name="search" id="search" autofocus="autofocus" value=""></div>
+		        </div>
+		    </div>
+
+				<div class="fieldSpec">
+	          <div class="fieldSpecPadder">
+	              <label class="labelText">Job Type</label>
+	              <div>
+									<select name="3_18_3" tabindex="0" class="jobCustomField_3_18_3 SelectFormField" id="3_18_3">
+									<option value="0">Select an option</option>
+									<option value="140">Full-Time Staff</option>
+									<option value="142">Part-Time (without benefits)</option>
+									<option value="144">Temporary / Per Diem / Freelance</option>
+									<option value="141">Paid Intern</option>
+									<option value="146">Unpaid Intern</option>
+									</select>
+								</div>
+	          </div>
+	      </div>
+
+			</div>
+
+			<div class="col-6 last">
+
+				<div class="fieldSpec">
+	        <div class="fieldSpecPadder">
+	            <label class="labelText" for="search">Location</label>
+	            <div>
+								<select name="3_102_3" tabindex="0" class="jobCustomField_3_102_3 SelectFormField" id="3_102_3">
+									<option value="0">Select an option</option>
+									<option value="157445">Atlanta, GA, US</option>
+									<option value="238017">Bala Cynwyd, PA, US</option>
+									<option value="157464">Baltimore, MD, US</option>
+									<option value="157456">Baton Rouge, LA, US</option>
+									<option value="157410">Berkeley, CA, US</option>
+									<option value="157470">Birmingham, MI, US</option>
+									<option value="157457">Boston, MA, US</option>
+									<option value="157504">Boyers, PA, US</option>
+									<option value="157509">Brentwood, TN, US</option>
+									<option value="157486">Bridgewater, NJ, US</option>
+									<option value="157458">Brighton, MA, US</option>
+									<option value="157499">Bristol, PA, US</option>
+									<option value="157492">Brooklyn, NY, US</option>
+									<option value="157420">Burbank, CA, US</option>
+									<option value="157408">Cameron Park, CA, US</option>
+									<option value="157400">Carlsbad, CA, US</option>
+									<option value="157419">Carson, CA, US</option>
+									<option value="157514">Cedar Hill, TX, US</option>
+									<option value="157478">Charlotte, NC, US</option>
+									<option value="157517">Charlottesville, VA, US</option>
+									<option value="157448">Chicago, IL, US</option>
+									<option value="157494">Cleveland, OH, US</option>
+									<option value="157463">College Park, MD, US</option>
+									<option value="157401">Colton, CA, US</option>
+									<option value="157505">Columbia, SC, US</option>
+									<option value="157446">Columbus, GA, US</option>
+									<option value="157495">Columbus, OH, US</option>
+									<option value="157459">Concord, MA, US</option>
+									<option value="157515">Dallas, TX, US</option>
+									<option value="157426">Denver, CO, US</option>
+									<option value="157467">Detroit, MI, US</option>
+									<option value="157402">El Segundo, CA, US</option>
+									<option value="157496">Eugene, OR, US</option>
+									<option value="157484">Fairfield, NJ, US</option>
+									<option value="157428">Farmington, CT, US</option>
+									<option value="157466">Ferndale, MI, US</option>
+									<option value="157468">Flint, MI, US</option>
+									<option value="157423">Fort Collins, CO, US</option>
+									<option value="157442">Fort Lauderdale, FL, US</option>
+									<option value="157451">Fort Wayne, IN, US</option>
+									<option value="157511">Fort Worth, TX, US</option>
+									<option value="157411">Fresno, CA, US</option>
+									<option value="157424">Frisco, CO, US</option>
+									<option value="157427">Golden, CO, US</option>
+									<option value="157469">Grand Rapids, MI, US</option>
+									<option value="157425">Greenwood Village, CO, US</option>
+									<option value="157491">Hauppauge, NY, US</option>
+									<option value="157414">Hesperia, CA, US</option>
+									<option value="157447">Honolulu, HI, US</option>
+									<option value="157479">Hooksett, NH, US</option>
+									<option value="157512">Houston, TX, US</option>
+									<option value="157452">Indianapolis, IN, US</option>
+									<option value="157416">Irvine, CA, US</option>
+									<option value="157510">Irving, TX, US</option>
+									<option value="157487">Iselin, NJ, US</option>
+									<option value="157438">Jacksonville, FL, US</option>
+									<option value="157476">Kansas City, MO, US</option>
+									<option value="157485">Lakewood, NJ, US</option>
+									<option value="157462">Lanham, MD, US</option>
+									<option value="157489">Las Vegas, NV, US</option>
+									<option value="157449">Lemont, IL, US</option>
+									<option value="157422">Los Angeles, CA, US</option>
+									<option value="157454">Louisville, KY, US</option>
+									<option value="157417">Manhattan Beach, CA, US</option>
+									<option value="157490">Maspeth, NY, US</option>
+									<option value="157519">Mclean, VA, US</option>
+									<option value="157493">Melville, NY, US</option>
+									<option value="157507">Memphis, TN, US</option>
+									<option value="157436">Miami Beach, FL, US</option>
+									<option value="157435">Miami, FL, US</option>
+									<option value="157472">Minneapolis, MN, US</option>
+									<option value="157473">Minnetonka, MN, US</option>
+									<option value="157503">Monroeville, PA, US</option>
+									<option value="157483">Morristown, NJ, US</option>
+									<option value="157506">Mount Pleasant, SC, US</option>
+									<option value="157413">Mount Wilson, CA, US</option>
+									<option value="157508">Nashville, TN, US</option>
+									<option value="157455">New Orleans, LA, US</option>
+									<option value="157432">New York, NY, US</option>
+									<option value="157518">Norfolk, VA, US</option>
+									<option value="157430">North Haven, CT, US</option>
+									<option value="157460">Norwell, MA, US</option>
+									<option value="157434">Orlando, FL, US</option>
+									<option value="157403">Palm Desert, CA, US</option>
+									<option value="157480">Parsippany, NJ, US</option>
+									<option value="157502">Philadelphia, PA, US</option>
+									<option value="157399">Phoenix, AZ, US</option>
+									<option value="157488">Piscataway, NJ, US</option>
+									<option value="157501">Pittsburgh, PA, US</option>
+									<option value="157474">Plymouth, MN, US</option>
+									<option value="157441">Pompano Beach, FL, US</option>
+									<option value="157497">Portland, OR, US</option>
+									<option value="157481">Riverside, NJ, US</option>
+									<option value="157406">Sacramento, CA, US</option>
+									<option value="157475">Saint Louis, MO, US</option>
+									<option value="157444">Saint Petersburg, FL, US</option>
+									<option value="157516">Salt Lake City, UT, US</option>
+									<option value="157513">San Antonio, TX, US</option>
+									<option value="157421">San Diego, CA, US</option>
+									<option value="157415">San Francisco, CA, US</option>
+									<option value="157439">Sanford, FL, US</option>
+									<option value="157418">Santa Monica, CA, US</option>
+									<option value="157520">Seattle, WA, US</option>
+									<option value="157482">Secaucus, NJ, US</option>
+									<option value="157429">Shelton, CT, US</option>
+									<option value="157461">Somerville, MA, US</option>
+									<option value="157471">Southfield, MI, US</option>
+									<option value="157522">Spokane Valley, WA, US</option>
+									<option value="157477">St. Louis, MO, US</option>
+									<option value="157431">Stamford, CT, US</option>
+									<option value="157412">Stockton, CA, US</option>
+									<option value="157404">Studio City, CA, US</option>
+									<option value="157440">Tampa, FL, US</option>
+									<option value="157409">Temecula, CA, US</option>
+									<option value="157465">Towson, MD, US</option>
+									<option value="157407">Van Nuys, CA, US</option>
+									<option value="157450">Warrenville, IL, US</option>
+									<option value="157433">Washington, DC, US</option>
+									<option value="157498">West Linn, OR, US</option>
+									<option value="157437">West Palm Beach, FL, US</option>
+									<option value="157405">West Sacramento, CA, US</option>
+									<option value="157453">Wichita, KS, US</option>
+									<option value="157443">Winter Park, FL, US</option>
+									<option value="157521">Woodinville, WA, US</option>
+								</select>
+							</div>
+	        </div>
+				</div>
+
+				<div class="fieldSpec">
+	          <div class="fieldSpecPadder">
+	              <label class="labelText">Brands</label>
+	              <div>
+									<select name="3_56_3" tabindex="0" class="jobCustomField_3_56_3 SelectFormField" id="3_56_3">
+									<option value="0">Select an option</option>
+									<option value="252">CBS College Sports</option>
+									<option value="253">CBS.com</option>
+									<option value="254">CBSNews.com</option>
+									<option value="255">CBSSports.com</option>
+									<option value="256">CHOW</option>
+									<option value="257">CNET</option>
+									<option value="258">CNET Content Solutions</option>
+									<option value="259">Download.com</option>
+									<option value="260">Gamespot/ CBSi Games</option>
+									<option value="261">Last.fm</option>
+									<option value="262">MaxPreps</option>
+									<option value="263">MetroLyrics</option>
+									<option value="264">Not Brand Specific</option>
+									<option value="265">TV Guide</option>
+									<option value="266">TV.com/ Metacritic</option>
+									<option value="267">ZDNet/ TechRepublic</option>
+									</select>
+								</div>
+	          </div>
+	      </div>
+
+			</div>
+
+		  <div class="col-12"><!-- https://cbs.avature.net -->
+					<a href="#" onclick="$(this).closest('form').submit()" class="button-black">Search</a>
+          <a href="https://cbs.avature.net/cbsinteractivecareers/SearchJobs" class="button-red">Reset</a>
+      </div>
+			<p>We continually post new jobs. To keep up with the latest career opportunities follow us on <a href="http://www.linkedin.com/company/cbs-interactive" target="_blank">LinkedIn</a>.</p>
+    </form>
+
+	</div>
+</section>
+
+<section class="content benefits">
+	<div class="wrapper">
+		<div class="col-12 border-top">
+			<h2>Benefits</h2>
+			<h3>We've Got You Covered</h3>
+			<p>Making sure our employees and their families have the coverage they need is top of mind for CBS Interactive.  We offer comprehensive benefits as well as great perks from a weeklong winter break and paid time off to tuition assistance,wellness programs, and more.  If you are interested learning more about benefits offered by CBS Interactive, go <a href="/careers/benefits">here</a>.</p>
+			<a class="button-black" href="/careers/benefits">More Info</a>
+		</div>
+	</div>
+</section>
+
+									
+			
+<section id="interns" class="full_bkg_img" style="background-image: url('/content/i/about/interns.jpg');">
+	<div class="wrapper">
+		<div class="col-12">
+			<h2>Our Intern Program</h2>
+			<h3>Join some of the <span>biggest online brands</span> across news, sports, entertainment, technology, business and gaming.</h3>
+			<a class="button-white" href="/careers/internships">Learn More</a>
+		</div>
+	</div>
+</section>
+
+
+					
+		
+												
+
+
+															    <!-- end content -->
+
+          <section id="footer">
+    <div class="wrapper">
+        <ul class="col-7">
+            <li class="col-4"><a href="http://investors.cbscorporation.com/phoenix.zhtml?c=99462&p=irol-irhome">Investors</a></li>
+            <li class="col-4"><a href="http://legalterms.cbsinteractive.com/adchoice">Ad Choice</a></li>
+            <li class="col-4"><a href="http://www.cbscorporation.com">CBS Corporation</a></li>
+            <li class="col-4"><a href="/legal/cbsi/patents">Patents</a></li>
+            <li class="col-4"><a href="http://legalterms.cbsinteractive.com/privacy">Privacy Policy</a></li>
+            <li class="col-4"><a href="http://legalterms.cbsinteractive.com/terms-of-use">Terms of Use</a></li>
+            <li class="col-4"><a href="http://legalterms.cbsinteractive.com/copyrightcomplaint">Copyright</a></li>
+            <li class="col-4"><a href="http://legalterms.cbsinteractive.com/eula">Mobile Terms</a></li>
+            <li class="col-4"><a href="http://legalterms.cbsinteractive.com/cookies">Cookies</a></li>
+        </ul>
+        <div class="col-5 last">
+
+            <a href="https://www.instagram.com/cbsinteractive/" class="social" target="_blank">
+                <svg version="1.1" id="instagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="36px" viewBox="8 0 48 48" enable-background="new 8 0 48 48" xml:space="preserve"><path fill="#797979" d="M41.8,21.2h-3.1C38.9,22.1,39,23,39,24C39,30.1,34.1,35,28,35c-6.1,0-11.1-5-11.1-11.1c0-1,0.1-1.9,0.4-2.8 h-3.1v15.2c0,0.8,0.6,1.4,1.4,1.4h24.9c0.8,0,1.4-0.6,1.4-1.4L41.8,21.2L41.8,21.2z M41.8,11.5c0-0.8-0.6-1.4-1.4-1.4h-4.1 c-0.8,0-1.4,0.6-1.4,1.4v4.1c0,0.8,0.6,1.4,1.4,1.4h4.1c0.8,0,1.4-0.6,1.4-1.4V11.5z M28,17.1c-3.8,0-6.9,3.1-6.9,6.9 c0,3.8,3.1,6.9,6.9,6.9c3.8,0,6.9-3.1,6.9-6.9C34.9,20.2,31.8,17.1,28,17.1 M41.8,41.9H14.1c-2.3,0-4.1-1.9-4.1-4.1V10.1 C10,7.9,11.9,6,14.1,6h27.6c2.3,0,4.1,1.9,4.1,4.1v27.6C45.9,40.1,44.1,41.9,41.8,41.9"/></svg>
+            </a>
+
+
+            <a href="http://www.linkedin.com/company/cbs-interactive" class="social" target="_blank">
+                <svg version="1.1" id="linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="36px" viewBox="8 0 48 48" enable-background="new 8 0 48 48" xml:space="preserve"><path fill="#797979" d="M15.258,6.902v34.197h33.485V6.902H15.258z M24.464,35.4h-5V19.428h5V35.4z M21.836,17.428H21.8c-1.809,0-2.982-1.22-2.982-2.766c0-1.579,1.208-2.774,3.054-2.774c1.844,0,2.978,1.193,3.014,2.769C24.886,16.205,23.715,17.428,21.836,17.428z M44.464,35.4h-5.669v-8.266c0-2.164-0.886-3.64-2.836-3.64c-1.492,0-2.32,0.995-2.707,1.956c-0.145,0.344-0.123,0.824-0.123,1.305V35.4h-5.615c0,0,0.073-14.643,0-15.973h5.615v2.507c0.332-1.096,2.126-2.661,4.991-2.661c3.552,0,6.343,2.298,6.343,7.245L44.464,35.4L44.464,35.4z"/></svg>
+            </a>
+            <a href="http://www.twitter.com/cbsi" class="social" target="_blank">
+                <svg version="1.1" id="twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="36px" viewBox="8 0 48 48" enable-background="new 8 0 48 48" xml:space="preserve"><path fill="#797979" d="M50,12.762c-1.323,0.592-2.748,0.99-4.242,1.171c1.526-0.92,2.697-2.378,3.247-4.111c-1.427,0.851-3.007,1.468-4.691,1.8c-1.344-1.443-3.265-2.347-5.391-2.347c-4.077,0-7.383,3.331-7.383,7.434c0,0.584,0.063,1.149,0.19,1.692c-6.138-0.311-11.578-3.266-15.223-7.769c-0.635,1.103-1,2.38-1,3.742c0,2.575,1.304,4.853,3.286,6.186c-1.21-0.037-2.35-0.374-3.347-0.928v0.092c0,3.603,2.545,6.608,5.926,7.289c-0.6,0.175-1.272,0.262-1.947,0.262c-0.476,0-0.94-0.044-1.389-0.131c0.939,2.951,3.666,5.102,6.898,5.161c-2.528,1.994-5.713,3.181-9.172,3.181c-0.596,0-1.185-0.033-1.762-0.101c3.268,2.107,7.151,3.339,11.321,3.339c13.587,0,21.013-11.326,21.013-21.153c0-0.322-0.007-0.643-0.02-0.961C47.76,15.562,49.013,14.253,50,12.762"/></svg>
+            </a>
+            <a href="https://www.facebook.com/CBS-Interactive-352860607270/timeline/" class="social" target="_blank">
+                <svg version="1.1" id="facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="36px" viewBox="8 0 48 48" enable-background="new 8 0 48 48" xml:space="preserve"><path fill="#797979" d="M36.228,14.001h5.64V7.164h-5.64c-4.664,0-8.458,4.027-8.458,8.973v3.448h-5.638v6.857h5.638v14.394h7.048V26.442h7.05v-6.857h-7.05V16.07C34.818,14.885,35.564,14.001,36.228,14.001z"/></svg>
+            </a>
+            <a href="https://www.glassdoor.com/Overview/Working-at-CBS-Interactive-EI_IE40687.11,26.htm" class="social" target="_blank">
+                <svg version="1.1" id="glassdoor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="36px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                    <g>
+                        <circle fill="#797979" class="st0" cx="20.1" cy="20.1" r="20.1"/>
+                        <path fill="#FFFFFF" class="st1" d="M13.2,20.2c0-2.8,0-5.6,0-8.3c0-1.9,0.7-3.1,2.7-2.8c3.2,0.5,6.5,1.2,9.7,1.8c0.5,0.1,1.1,0.2,1,0.9
+		c-0.1,0.7-0.7,0.6-1.2,0.5c-1.7-0.2-3.5-0.2-5.2-0.6c-2-0.4-2.9,0.3-2.9,2.3c0,3.8,0.1,7.6,0,11.4c0,1.9,0.7,1.9,2.2,1.4
+		c4.9-1.7,5-1.6,5-6.8c0-1.8,0-3.7,0-5.6c0-0.7,0.2-1.2,1-1.2c0.8,0,1.3,0.3,1.3,1.2c0,3.5,0,7-0.1,10.5c0,1.1-0.8,1.9-1.9,2.3
+		c-2.8,1.2-5.7,2.4-8.5,3.5c-2.2,0.9-3.1-0.2-3.1-2.3C13.2,25.7,13.2,22.9,13.2,20.2z"/>
+                    </g>
+                </svg>
+            </a>
+        </div>
+        <div class="col-12 disclaimer">
+            <p>By viewing our video content, you are accepting the terms of our <a href="http://legalterms.cbsinteractive.com/video-services">Video Services Policy</a></p>
+        </div>
+        <div class="col-12">
+            <div class="copyright">
+                &copy;2017 CBS Interactive inc. All rights reserved.
+            </div>
+        </div>
+    </div>
+</section>
+
+<a class="logo-mobile" href="/">
+    <img src="/i/CBSi-white.svg">
+</a>
+<div class="mobile-nav">
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for="nav-trigger"><span></span></label>
+    <ul class="navigation">
+        <li class="nav-item"><a href="/brands">Our Brands</a></li>
+        <li class="nav-item"><a href="/about">About</a></li>
+        <li class="nav-item"><a href="/careers">Careers</a></li>
+        <li class="nav-item"><a href="/advertising">Advertise with Us</a></li>
+        <li class="nav-item"><a href="/contact">Contact</a></li>
+    </ul>
+</div>
+      <div id="modal">
+    <div id="content" class="window">
+      <div class="close">[ <span class="x">x</span> ] <span>Close</span></div>
+      <div class="spinner"><img src="/i/ring-alt.svg"></div>
+      <div class="body"></div>
+    </div>
+     <div id="mask"></div>
+</div>
+    
+
+            <script src="/js/scripts.min.js?1505740220"></script>
+<script src="/content/js/pages.js?1478882799"></script>
+
+
+<script>
+$(document).ready(function() {
+  $("body.careers").ready(function() {
+    displayJobs('all');
+  });
+});
+</script>
+
+
+
+
+<script>
+    new WOW().init();
+</script>
+    
+            <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-32029723-1']);
+    _gaq.push(['_setDomainName', 'cbsinteractive.com']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>    
+
+      
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0803f0cca8","applicationID":"12002807","transactionName":"blxbN0RTWBJXVkFcClcWbBFfHV8PUlBNGxVRSQ==","queueTime":0,"applicationTime":84,"ttGuid":"","agentToken":"","atts":"QhtYQQxJSxw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

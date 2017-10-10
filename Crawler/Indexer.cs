@@ -15,6 +15,7 @@ namespace SearchEngine
     {
         string baseDir = AppDomain.CurrentDomain.BaseDirectory.Replace("bin\\Debug\\", "htmls\\");
         Crawler c;
+        Program p = new Program();
         public List<string> pageNames = new List<string>();
         List<List<string>> pageTermlist = new List<List<string>>();
         string[] stopwords;
@@ -34,7 +35,7 @@ namespace SearchEngine
                     List<string> temp = RemoveStopWords(GetTerms(GetTextContent(File.ReadAllText(fileName))));
                     pageNames.Add(fileName);
                     pageTermlist.Add(temp);
-                    printOnLine("processed pages: " + ++count + ", term count for current page: " + temp.Count);
+                    p.printOnLine("processed pages: " + ++count + ", term count for current page: " + temp.Count);
                 }
             }
             return IndexPages(pageTermlist);
@@ -97,15 +98,9 @@ namespace SearchEngine
                     }
                     else index.Add(term, new Dictionary<int, double>() { { pageTermList.IndexOf(page), 1 } });
                 }
-                printOnLine("Indexed pages: " + (pageTermList.IndexOf(page) + 1));
+                p.printOnLine("Indexed pages: " + (pageTermList.IndexOf(page) + 1));
             }
             return index;
-        }
-        
-        public void printOnLine(string output)
-        {
-            Console.Write("\r");
-            Console.Write(output + "     ");
         }
     }
 }

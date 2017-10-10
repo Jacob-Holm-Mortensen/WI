@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" itemscope itemtype="http://schema.org/" >
+<head>
+    <link rel="SHORTCUT ICON" href="https://sports.cbsimg.net/favicon.ico">
+
+    <title>NHL Transactions - CBSSports.com </title>
+
+    <link href="https://sports.cbsimg.net/css/font/iconmoon/20170927/style.css?0009" rel="stylesheet" type="text/css" />
+            <link href="https://sports.cbsimg.net/css/phase4-min-v548.css" rel="stylesheet" type="text/css" />
+            <!--[if IE]>
+            <link href="https://sports.cbsimg.net/css/phase2-ie-min-v058.css" rel="stylesheet" type="text/css" />
+            <![endif]-->
+            <!-- no arena css -->
+<link href="https://sports.cbsimg.net/css/jquery/ui-tools-min-v030.css" rel="stylesheet" type="text/css"/>
+
+    <!--[if lt IE 9]><script>var e = ("abbr,article,aside,audio,canvas,datalist,details,figure,figcaption,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video").split(',');for (var i = 0; i < e.length; i++) {document.createElement(e[i]);}</script><![endif]-->
+<script type="text/javascript">
+if(typeof CBSi=="undefined"||!CBSi){var CBSi={}}CBSi.namespace=function(){var b=arguments,g=null,e,c,f;for(e=0;e<b.length;e=e+1){f=b[e].split(".");g=CBSi;for(c=(f[0]=="CBSi")?1:0;c<f.length;c=c+1){g[f[c]]=g[f[c]]||{};g=g[f[c]]}}return g};CBSi.extend=function(d,e,c){if(!e||!d){throw new Error("extend failed, please check that all dependencies are included.")}var b=function(){};b.prototype=e.prototype;d.prototype=new b();d.prototype.constructor=d;d.superclass=e.prototype;if(e.prototype.constructor==Object.prototype.constructor){e.prototype.constructor=e}if(c){for(var a in c){if(c.hasOwnProperty(a)){d.prototype[a]=c[a]}}}};CBSi.panel={overlayManager:undefined,create:function(c,b){if(!this.overlayManager){this.overlayManager=new YAHOO.widget.OverlayManager()}if(!b.strings){b.strings={}}if(!b.strings.close){b.strings.close=""}var a=new YAHOO.widget.Panel(c,b);this.overlayManager.register(a);return a}};CBSi.fireEvent=function(b,c){if(document.createEvent){var a=document.createEvent("HTMLEvents");a.initEvent(c,true,true);return !b.dispatchEvent(a)}else{var a=document.createEventObject();return b.fireEvent("on"+c,a)}};CBSi.log=function(){};if(window.console&&window.console.log){CBSi.log=function(){if(CBSi.debugmode===""){return}var a=[];for(var b=0;b<arguments.length;b++){a.push(arguments[b])}console.log(a)}}else{if(window&&window.console){window.console.log=function(){}}else{window.console={};window.console.log=function(){}}if(console){console.log=function(){}}else{console={};console.log=function(){}}}CBSi.jsRenvInit=function(a){for(var b in a){CBSi[b]=a[b]}return};
+if (!CBSi.debugmode) CBSi.debugmode = ''; // For normandy--manually set if js only
+</script>
+<script id="jsRenv_script" type="text/javascript">CBSi.jsRenvInit({"takeoverIsBlank":0,"httpHost":"http://www.cbssports.com","project":"media","mediaHttpServer":"https://www.cbssports.com","pref":{"timezoneOffset":"4","timezoneAbbrev":"ET"},"feature":"transactions","league_abbr":"nhl","arena":"nhl","imageServer":"https://sports.cbsimg.net","requestUri":"/nhl/transactions"});</script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/yui/latest/yahoo-dom-event-connection-datasource-get-imageloader-animation-json-min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/jquery/jquery.1.8.2.min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/jquery/ui/jquery.1.9.2.custom.min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/global-min-v0086.js'></script>
+
+<script>
+//Dumping cookies that have been made browser/host only
+(function($){
+    //return;//Comment out to run code
+    //List of domains to check and see if the cookie has with it
+    var domains = ['.cbssports.com','.www.cbssports.com','www.cbssports.com','*.cbssports.com','cbssports.com', '.cbssports.com'];
+    //List of the names of cookies to match
+    var matches = ['CirclePoll','2013NCAAB','2013NFL','2013NCAAF'];
+    //Loop throught the cookies and find the matches
+    $.each(document.cookie.split(/; */), function()  {
+        var splitCookie = this.split('=');
+        for(m in matches){
+            if(splitCookie[0].match(RegExp(matches[m]))){
+                for(d in domains){
+                    console.log(splitCookie[0], 'cookie removed');
+                    //Try to delete the cookie with a domain and path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;domain=" + domains[d] + ";path=/";
+                    //Try to delete the cookie without a domain and path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;";
+                    //Try to delete the cookie without a path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;domain=" + domains[d] + ";";
+                    //Try to delete the cookie without a domain
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;path=/";
+                }
+            }
+        }
+
+    });
+})($);
+</script>
+
+
+
+
+
+    <script type="text/javascript">
+var surround=new Object();
+surround.cat = ['a','b','c','d','e','f'];
+surround.cookie = readCookie('surround');
+
+if (surround.cookie == false || surround.cookie == undefined) {
+    surround.pick = Math.floor(Math.random() * surround.cat.length);
+    surround.subsession = Math.floor(Math.random() * 4) + 1; /*subsessions 1-4*/
+    document.cookie=("surround="+surround.cat[surround.pick]+"|"+surround.subsession+";domain=.cbssports.com;path=/" );
+    surround.cookie = readCookie('surround');
+}
+if (surround.cookie) {surround.sessions=surround.cookie.split("|");}
+surround.vguid = v1();
+
+function blankAdCallback(width, height, position) {
+    // Skybox Ad - 5x5 top.
+    if (height == 5 && width == 5 && position == 'top') {
+        $('.ad-top-strip').removeAttr("data-skyboxminheight")
+            .removeAttr("data-skyboxmaxheight")
+            .removeAttr("data-skyboxheight");
+        $('body').removeClass('skybox-loaded')
+            .removeClass('skybox-loaded-dfp')
+            .removeClass('skybox-expanded')
+            .removeClass('skybox-collapsed');
+        window.scrollTo(window.pageXOffset, window.pageYOffset + 1);
+    }
+}
+</script>
+    <script>window.logged_in = "no";</script><script src="//cdn.optimizely.com/js/2788500260.js"></script>
+<script type="text/javascript">
+var cbsiadGlobal = { };
+if ( typeof(surround) == 'undefined' ) { surround = {}; }
+var dwTag = "&PGUID="+surround.vguid +"&cookiesOn=" +cbsiadGlobal.cookiesOn;
+</script>
+<script type="text/javascript" src="https://native.sharethrough.com/assets/tag.js" async></script><script type="text/javascript" src="https://js-sec.indexww.com/ht/ls-cbssports.js" async></script><script type="text/javascript" src="https://mtrx.go.sonobi.com/morpheus.cbssports.4073.js" async></script>
+<script type="text/javascript">
+if (!random) {var abc=Math.random() + ""; var random=abc.substring(2,abc.length);}
+var switchXFP="on";
+var adLookup="media/spln/nhl/reg/free/transactions";
+var adNetwork="8264";
+var xfpObj='vguid='+surround.vguid+'~user=anon~env=prod~arena=nhl';
+</script>
+    
+   <script type="text/javascript">
+      xfpDomain='.cbssports.com';
+      xfpSlot='/8264/aw-cbssports/nhl/media/transactions';
+      // tracks if this is the first page the user has visited in this session
+      function xfpFirstPageCookie() {
+         if (xfpFirstPage) {return xfpFirstPage;}           // only run once per page, if already set, just return value
+         var xfpFirstPage = readCookie('XFP_FIRSTPAGE');    // get firstPage cookie
+         if (!xfpFirstPage) {                               // if cookie doesn't exist, this is the first page, so firstPage = 1
+            xfpFirstPage = 1;
+         } else if (xfpFirstPage == 1) {                    // else, this is the second page, set firstPage = 0
+            xfpFirstPage = 0;
+         }
+         var exp = new Date();
+         exp.setTime(exp.getTime() + xfpGetTimeToExpiration(.75)); // get number of milliseconds until 12:45am ET
+         document.cookie=('XFP_FIRSTPAGE ='+xfpFirstPage+";expires="+exp.toUTCString()+";domain="+xfpDomain+";path=/;");
+         return xfpFirstPage;                                // set and return the parameter DVAR_FIRSTPAGE = firstPage
+      }
+      // given the expiration hour in ET, return the number of milliseconds to
+      //   expiration from the given Date Object (defaults to current date)
+      function xfpGetTimeToExpiration(etExpireHour,dt) {
+         dt = dt || new Date();
+         var etUtcOffset = 5; // hours
+         if (isEDT(dt)) etUtcOffset = 4; // if in daylight savings time
+         var utcExpire = (etExpireHour+etUtcOffset)%24; // UTC expire time in hours
+         var utcTime = 60*dt.getUTCHours() + dt.getUTCMinutes(); // UTC time in mins
+         var minsToExpiration = 60*utcExpire - utcTime; // time to expiration
+         if (minsToExpiration < 0) minsToExpiration = 24*60 + minsToExpiration;
+         return 60000*minsToExpiration; // in milliseconds
+      }
+      // determine if Daylight Savings Time is being observed in the ET timezone
+      //   at the date/time of the given Date Object (defaults to current time)
+      function isEDT(dt) {
+         dt = dt || new Date(); // default to current date
+         var month = dt.getUTCMonth(); // get month in UTC
+         if (month > 2 && month < 10) return true; // in EDT if Apr to Oct
+         if (month < 2 || month > 10) return false; // not in EDT if Jan,Feb,Dec
+         var date = dt.getUTCDate(); // get day of month in UTC
+         var day = dt.getUTCDay(); // get day of week in UTC
+         if (month == 10) {  // November
+             if (date > 7) return false;  // after first week, not in EDT
+             if (day == 0) {  // Sunday of first week, check time
+               if (dt.getUTCHours() < 6) return true; //before 6am UTC, in EDT
+               return false;  // 6am UTC or later, not in EDT
+            }
+            if (date > day) return false; // Sunday has passed, not in EDT
+            return true;  // Sunday has not passed, in EDT
+         }
+         // March
+         if (date < 8) return false; // still first week, not in EDT
+         if (date > 14) return true; // after second week, in EDT
+         if (day == 0) { // Sunday of second week, check time
+             if (dt.getUTCHours() > 6) return true; // 7am UTC or later, in EDT
+             return false; // before 7am UTC, not in EDT
+         }
+         if (date - day > 7) return true;  // Sunday has passed, in EDT
+         return false; // Sunday has not passed, not in EDT
+      }
+      //sharethrough
+
+      var xfpFirstPage =  xfpFirstPageCookie();
+      var xfpSession    = (surround.cookie) ? surround.sessions[0] : 'off';
+      var xfpSubsession = (surround.cookie) ? surround.sessions[1] : 'off';
+
+      function xfpGetArgs(){
+         var args = new Object();
+         var query = location.search.substring(1); // get query string
+         var pairs = query.split("&");
+         for (var i=0; i < pairs.length; i++) {
+            var pos = pairs[i].indexOf('=');                         // Look for name "name=value"
+            if (pos == -1) continue;                                 // If not found, skip
+            var argname = pairs[i].substring(0,pos);                 // Extract the name
+            var value   = pairs[i].substring(pos+1);                 // Extract the value
+            value = decodeURIComponent(value);                       // Decode it, if needed
+            var adTarg = argname.match(/adTargeting_/);              // Do we have a match on adTargeting_<key>
+
+            // Set Targeting for spec'd out query parms
+            if (argname == 'env' || argname == 'session' || argname == 'subses' || argname == 'adRegion' || argname == 'ftag' || argname == 'ttag' || (adTarg)) {
+               // args[argname] = value;
+               if (adTarg) {argname = argname.substring(12);} // strip off adTargeting_ from the name if present
+               googletag.pubads().setTargeting(argname, value);      // Set Targeting
+               if (argname == 'ftag' || argname == 'ttag') {
+                  document.cookie=("xfpFtag="+value+";domain="+xfpDomain+";path=/" );
+                  newFtag = 1;
+               }
+               xfpObj += '~' +argname +'=' +value;
+            }
+         }
+
+         var xfpFtagVal = readCookie("xfpFtag");                  // check if we have an ftag cookie
+         var newFtag = 0;
+         if ((newFtag==0) && xfpFtagVal) {                        // If no new setting for ftag but we had an old one then
+            googletag.pubads().setTargeting('ftag', xfpFtagVal);  // Set Targeting
+            xfpObj += '~ftag=' +xfpFtagVal;
+         }
+      }
+      
+      function getTaboolaPlacements() {
+         var taboolaList = '';
+         $("div[data-taboola-placement]").each(function() {
+            $this = $(this);
+            if ($this.data('taboola-placement')) {
+              if (taboolaList != '') {taboolaList+='|';}
+              taboolaList += $this.data('taboola-placement');
+            }
+         });
+         surround.taboola=taboolaList;
+      }
+    </script>
+   <script type="text/javascript">
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+         var gads = document.createElement('script');
+         gads.async = true;
+         gads.type = 'text/javascript';
+         var useSSL = 'https:' == document.location.protocol;
+         gads.src = (useSSL ? 'https:' : 'http:') +'//www.googletagservices.com/tag/js/gpt.js';
+         var node = document.getElementsByTagName('script')[0];
+         node.parentNode.insertBefore(gads, node);
+      })();
+
+      var adSlots = {}; //var to hold ad slots.
+
+      googletag.cmd.push(function() {
+
+         adSlots["XFP_top_strip"] = googletag.defineSlot("/8264/aw-cbssports/nhl/media/transactions", [5,5], "top_strip").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_leader_top"] = googletag.defineSlot("/8264/aw-cbssports/nhl/media/transactions", [[728,90],[970,66],[970,90]], "leader_top").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_skin_ad_call"] = googletag.defineSlot("/8264/aw-cbssports/nhl/media/transactions", [1600,1000], "skin_ad_call").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_sky_top"] = googletag.defineSlot("/8264/aw-cbssports/nhl/media/transactions", [160,600], "sky_top").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_leader_plus2_bottom"] = googletag.defineSlot("/8264/aw-cbssports/nhl/media/transactions", [[728,90],[970,66]], "leader_plus2_bottom").addService(googletag.pubads()).setTargeting("pos", "bottom"); 
+         googletag.pubads().addEventListener("slotRenderEnded", function(event) {
+            var slotName = event.slot.getSlotElementId();
+            
+            if (slotName == 'leader_plus_top' || slotName == 'leader_top') {
+               // CBSi.log("ENTER Collapse empty leaderboard.");
+               var slotID = '#' + slotName;
+               // CBSi.log("Slot ID is " + slotName);
+               if ($(slotID).css('display') == 'none') {
+                   CBSi.log("Collapse empty leaderboard.");
+                   $('#leaderboard-wrap').css({ "display": "none" });
+               }
+            }
+         }); 
+         googletag.defineOutOfPageSlot("/8264/aw-cbssports/nhl/media/transactions","interstitial").addService(googletag.pubads());
+         googletag.pubads().setTargeting("ptype", "transactions");
+         googletag.pubads().setTargeting("firstpg", ""+xfpFirstPage);
+         googletag.pubads().setTargeting("session", xfpSession);
+         googletag.pubads().setTargeting("subses", ""+xfpSubsession);
+         googletag.pubads().setTargeting("vguid", surround.vguid); 
+         googletag.pubads().setTargeting("user", "anon"); 
+         googletag.pubads().setTargeting("env", "prod"); 
+
+         xfpGetArgs(); // to set/override targeting for env, session, subses, adRegion, ftag, ttag, and adTargeting_<key> if set by query string
+         googletag.pubads().enableAsyncRendering();
+         googletag.pubads().enableSingleRequest();
+         googletag.pubads().collapseEmptyDivs();
+         googletag.enableServices();
+         // googletag.display();  // Ad display is triggered via Sonobi.
+      });
+      var PR_UACT=0;
+      xfpObj += '~ptype=transactions~firstpg=' +xfpFirstPage +'~session='+xfpSession +'~subses='+xfpSubsession+'';
+      function getVideoAdSessionValues(videoId){return  "session="+xfpSession+";subses="+xfpSubsession+"";}
+   </script>
+   
+         <script type="text/javascript">
+         window._taboola = window._taboola || [];
+         _taboola.push({other : 'auto'});
+         !function (e, f, u) {
+             e.async = 1;
+             e.src = u;
+             f.parentNode.insertBefore(e, f);
+         }(document.createElement('script'), 
+         document.getElementsByTagName('script')[0], '//cdn.taboola.com/libtrc/cbsinteractive-cbssports/loader.js');
+         </script>
+      
+   
+    
+    <!-- no ClickTale -->
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /><meta name="description" content="NHL transactions and daily transaction breakdowns at CBSSports.com. Free agent signings, player movement and coaching changes at CBSSports.com"><meta property="og:title" content="NHL Daily Transactions" /><meta property="og:type" content="article"/><meta property="og:description" content=""/><meta property="og:image" content="http://sports.cbsimg.net/images/cbss/ui5/cbssportsv2_200x200.png"/><meta property="og:url" content="https://www.cbssports.com/nhl/transactions"/><meta property="og:site_name" content="CBSSports.com"/><meta property="fb:app_id" content="297742330311988"/><meta itemprop="name" content="NHL Daily Transactions"/><meta itemprop="description" content=""/><meta name="vr:type" content="article"/><meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@cbssports" /><meta name="twitter:creator" content="@EyeOnHockey" /><meta name="twitter:url" content="https://www.cbssports.com/nhl/transactions" /><meta name="twitter:title" content="NHL Daily Transactions" /><meta name="twitter:description" content="" /><meta name="twitter:image" content="http://sports.cbsimg.net/images/cbss/ui5/cbssportsv2_200x200.png" /><meta name="keywords" content="nhl transactions, free agents, free agent signings, trades, coaching changes">
+<meta name="googlebot" content="NOODP">
+<meta property="fb:pages" content="25902406772" />
+
+<link rel="canonical" href="https://www.cbssports.com/nhl/transactions">
+<link rel="alternate" title="CBSSports.com: NHL Headlines" href="http://www.cbssports.com/partners/feeds/rss/nhl_news" type="application/rss+xml">
+    <link rel="apple-touch-icon" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-ipad-retina.png">
+</head><body id="standardBody">
+<div id="tooltip" name="tooltip"></div> 
+
+<script type="text/javascript">if(top.location != self.location && (document.referrer.indexOf("cbssports.com") == -1)) {window.open(location.href, '_top');}</script>
+<div id="interstitial" style="position:absolute;top:-5000px;left:-5000px;">
+      <script type="text/javascript">
+         googletag.cmd.push(function() {
+             if (typeof index_headertag_lightspeed !== 'undefined') {
+                 var cb = (function () {
+                     return function () {
+                         var slots = googletag.pubads().getSlots();
+                         index_headertag_lightspeed.set_slot_targeting(slots);
+                          googletag.display("interstitial");
+                       };
+                 })();
+                 index_headertag_lightspeed.add_session_end_hook(cb, true);
+                 index_headertag_lightspeed.refresh();
+             } else {
+                 googletag.display("interstitial");
+             }
+         });
+      </script>
+   </div>
+<!--googleoff: snippet-->
+<div id="skybox-above">
+    <div id="top_strip" class="ad-top-strip">
+    <script type="text/javascript">
+    if (switchXFP != 'off') {
+        googletag.cmd.push(function() {
+            if (typeof index_headertag_lightspeed !== 'undefined') {
+                      var cb = (function () {
+                          return function () {
+                              var slots = googletag.pubads().getSlots();
+                              index_headertag_lightspeed.set_slot_targeting(slots);
+                               googletag.display("top_strip");
+                            };
+                      })();
+                      index_headertag_lightspeed.add_session_end_hook(cb, true);
+                      index_headertag_lightspeed.refresh();
+                  } else {
+                      googletag.display("top_strip");
+                  }
+        });
+        if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="top_strip" style="width:100%"><br>').insertBefore('#top-strip');
+    }
+    </script>
+    </div>
+</div>
+<script>
+var skyBoxScroll = function() {
+    if ($(window).scrollTop() != 0) {
+        window.scrollTo(window.pageXOffset, window.pageYOffset - 1);
+        window.scrollTo(window.pageXOffset, window.pageYOffset + 1);
+    }
+}
+</script><header id="site-header" class="site-header" data-component="nav" data-role="header" data-position="fixed" data-fullscreen="true">
+	<div id="nav-network-bar" class="nav-network-bar">
+	  <ul class="nav-networks">
+		<li class="nav-networks-item is-selected"> <a href="http://www.cbssports.com/" om-event="Brand Bar|CBSSports">CBSSports.com</a> </li>
+		<li class="nav-networks-item "> <a href="http://247sports.com" target="_blank" om-event="Brand Bar|247Sports"> 247Sports </a> </li>
+		<li class="nav-networks-item "> <a href="http://www.maxpreps.com" target="_blank" om-event="Brand Bar|MaxPreps"> MaxPreps </a> </li>
+		<li class="nav-networks-item "> <a href="http://www.sportsline.com" target="_blank" om-event="Brand Bar|SportsLine"> SportsLine </a> </li>
+		<li class="nav-networks-item "> <a href="http://shop.cbssports.com/?utm_source=cbssportscom_hp&utm_medium=bm_referral&utm_term=kw--CBS_Sports" target="_blank" om-event="Brand Bar|Shop"> Shop </a> </li>
+	  </ul>
+	  
+	  <ul class="nav-follow-us">
+		<li class="nav-follow-us-item nav-follow-us-item-label"> Follow CBS Sports </li>
+		<li class="nav-follow-us-item"> <a href="https://www.facebook.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Facebook"><span class="btn share icon-moon-facebook"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://twitter.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Twitter"><span class="btn share icon-moon-twitter"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://www.instagram.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Instagram"><span class="btn share icon-moon-instagram"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" target="_blank" rel="nofollow" om-event="Brand Bar|Flipboard"><span class="btn share icon-moon-flipboard"></span></a> </li>
+	  </ul>
+	</div>
+	<div id="cbs-site-nav" class="cbs-site-nav">
+		<div class="site-nav-inner">
+			<div class="site-nav-logo">
+				<div class="cbs-logo-lockup">
+					
+        
+        <div class="cbs-logo">
+            <a href="/" om-event="Arena Nav|Logo"> <span class="cbs-logo-icon icon-moon-cbs-icon"></span> </a>
+        </div>
+        
+            <div class="cbs-logo-section has-icon"><div class="cbs-logo-pos" data-arena="logo">
+                <span class="logo-sport icon-moon-arena-text-nhl"></span>
+                <span class="logo-icon icon-moon-caret-down"></span>
+            </div> <div class="cbs-logo-dropdown"><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-cbs-icon"></span> <a href="/" om-event="Arena Nav|NHL|CBS Sports Home">CBS Sports Home</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-fantasy"></span> <a href="https://www.cbssports.com/fantasy/" om-event="Arena Nav|NHL|Fantasy">Fantasy</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-nfl"></span> <a href="https://www.cbssports.com/nfl/" om-event="Arena Nav|NHL|NFL">NFL</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-mlb"></span> <a href="https://www.cbssports.com/mlb/" om-event="Arena Nav|NHL|MLB">MLB</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-ncaafb"></span> <a href="https://www.cbssports.com/college-football/" om-event="Arena Nav|NHL|NCAA FB">NCAA FB</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-golf"></span> <a href="https://www.cbssports.com/golf/" om-event="Arena Nav|NHL|Golf">Golf</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-basketball"></span> <a href="https://www.cbssports.com/nba/" om-event="Arena Nav|NHL|NBA">NBA</a> </li><li class="nav-dropdown-item is-selected"> <span class="icon-sport icon-moon-arena-nhl"></span> <a href="https://www.cbssports.com/nhl/" om-event="Arena Nav|NHL|NHL">NHL</a> </li></ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/college-basketball/" om-event="Arena Nav|NHL|NCAA BB">NCAA BB</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/boxing" om-event="Arena Nav|NHL|Boxing">Boxing</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/wwe/" om-event="Arena Nav|NHL|WWE">WWE</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/soccer/" om-event="Arena Nav|NHL|Soccer">Soccer</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/mma/" om-event="Arena Nav|NHL|MMA">MMA</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/tennis/" om-event="Arena Nav|NHL|Tennis">Tennis</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/olympics/" om-event="Arena Nav|NHL|Olympics">Olympics</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.maxpreps.com/national/national.htm" om-event="Arena Nav|NHL|High School" target="_blank" class="external-link" rel="nofollow">High School</a> </li></ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class=""></span> <a href="http://sports.cbslocal.com/" om-event="Arena Nav|NHL|CBS Local Sites" target="_blank" class="external-link" rel="nofollow">CBS Local Sites</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.nascar.com/en_us/sprint-cup-series.html?cid=syn_cbs_referrers_navlinks_01112013&synid=syn_cbs_referrers_navlinks_01112013" om-event="Arena Nav|NHL|NASCAR" target="_blank" class="external-link" rel="nofollow">NASCAR</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.americasbestracing.net/" om-event="Arena Nav|NHL|Horse Racing" target="_blank" class="external-link" rel="nofollow">Horse Racing</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.pbr.com/" om-event="Arena Nav|NHL|PBR" target="_blank" class="external-link" rel="nofollow">PBR</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://toughmudder.com/" om-event="Arena Nav|NHL|Tough Mudder" target="_blank" class="external-link" rel="nofollow">Tough Mudder</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.bowl.com/" om-event="Arena Nav|NHL|Bowling" target="_blank" class="external-link" rel="nofollow">Bowling</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.stubhub.com/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHomepagemodule-_-partCBSSports" om-event="Arena Nav|NHL|Tickets" target="_blank" class="external-link" rel="nofollow">Tickets</a> </li></ul></div> </div></div></div>
+        
+        <nav class="site-nav-list">
+            <ul><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/nhl/"  om-event="Arena Nav|NHL|Home">Home</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/nhl/scoreboard/"  om-event="Arena Nav|NHL|Scores">Scores</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/nhl/standings"  om-event="Arena Nav|NHL|Standings">Standings</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/nhl/schedules"  om-event="Arena Nav|NHL|Schedule">Schedule</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/fantasy/hockey/"  om-event="Arena Nav|NHL|Fantasy">Fantasy</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/nhl/teams"  om-event="Arena Nav|NHL|Teams">Teams</a></li>
+                        <li class="nav-list-item hoverable the-dots" data-arena="extras">
+                            <span class="icon-more icon-moon-nav-more"></span>
+                            <div class="site-nav-dropdown ">
+                                <ul class="nav-dropdown-inner"><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/nhl/stats"  om-event="Arena Nav|NHL|More|Stats">Stats</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="http://www.sportsline.com/nhl/odds/"  om-event="Arena Nav|NHL|More|Odds">Odds</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/nhl/players"  om-event="Arena Nav|NHL|More|Players">Players</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/nhl/injuries"  om-event="Arena Nav|NHL|More|Injuries">Injuries</a></li><li class="nav-dropdown-item nav-dropdown-overflow is-selected"> <a href="https://www.cbssports.com/nhl/transactions"  om-event="Arena Nav|NHL|More|Transactions">Transactions</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.stubhub.com/nhl-tickets/grouping/144/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHpdropdown-_-partCBSSports" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|NHL|More|Tickets">Tickets</a></li></ul></div></li></ul>
+        </nav>
+			<div class="site-nav-side not-logged-in">
+				<ul class="site-nav-side-inner">
+					<li class="nav-side-item games-item hoverable" data-arena="play"> <span class="narrow-text">Play</span> <span class="narrow-icon icon-item icon-moon-nav-games"></span>
+					    <div class="site-nav-dropdown is-dropdown-games align-right">
+							<div class="nav-dropdown-inner">
+								
+        <div class="nav-dropdown-game">
+            <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/football/?ttag=FFB16_os_drpdwn_feat_lk" om-event="Global Nav|Home|Play|Games|Text">Games</a></h6>
+            <div class="nav-game-wrap">
+                <div class="nav-game game-left">
+                    <div class="nav-game-image">
+                        <a href="https://www.cbssports.com/fantasy/games/basketball/?ftag=SPM-10-10abh6c" om-event="Global Nav|Home|Play|FANTASY BASKETBALL|Feature 1"><img src="https://sportshub.cbsistatic.com/i/2017/09/18/1b7c71c4-dc55-4636-a4b3-1dc245e2ea93/fantasybasketball-180x100.jpg" alt="fantasybasketball-180x100.jpg"></a>
+                        <p class="nav-game-text">Play Now</p>
+                    </div>
+                    <p class="nav-game-title"><a href="https://www.cbssports.com/fantasy/games/basketball/?ftag=SPM-10-10abh6c" om-event="Global Nav|Home|Play|FANTASY BASKETBALL|Feature 1">FANTASY BASKETBALL</a></p>
+                </div>
+                <div class="nav-game game-right">
+                    <div class="nav-game-image">
+                        <a href="https://www.cbssports.com/fantasy/games/hockey/?ftag=SPM-16-10abg0g" om-event="Global Nav|Home|Play|FANTASY HOCKEY|Feature 2"><img src="https://sportshub.cbsistatic.com/i/2017/09/18/7423042f-ba35-4a00-a58f-4334c8ae7b8f/180x100.jpg" alt="180x100.jpg"></a>
+                        <p class="nav-game-text">Play Now</p>
+                    </div>
+                    <p class="nav-game-title"><a href="https://www.cbssports.com/fantasy/games/hockey/?ftag=SPM-16-10abg0g" om-event="Global Nav|Home|Play|FANTASY HOCKEY|Feature 2">FANTASY HOCKEY</a></p>
+                </div>
+            </div>
+            <div class="nav-game-dropdown-text" style="clear:both;">
+                <a href="https://www.cbssports.com/fantasy/games/my-teams/" om-event="Global Nav|Home|Play|View your Leagues|Text">View your Leagues</a>
+            </div>
+        </div>
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/football?ttag=FF16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Football|Text">Fantasy Football</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/baseball/?ttag=FBB16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Baseball|Text">Fantasy Baseball</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/basketball/?ttag=FBK16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Basketball|Text">Fantasy Basketball</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/hockey/?ttag=FHK16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Hockey|Text">Fantasy Hockey</a></h6>
+            </div>
+        
+    </div>
+    <div class="nav-dropdown-bottom">
+        <div class="nav-dropdown-button">
+            <a href="/fantasy/games/" om-event="Global Nav|Home|Play|See All">See All Sports Games</a>
+        </div>
+    </div>
+    
+							</div>
+						</div>
+					</li>
+					<li class="nav-side-item watch-item hoverable" data-arena="watch"> <span class="narrow-text">Watch</span> <span class="narrow-icon icon-item icon-moon-nav-watch"></span>
+						<div class="site-nav-dropdown align-right">
+							<div class="nav-dropdown-inner">
+								
+               <h6 class="nav-dropdown-title"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/" om-event="Global Nav|NHL|Watch|Featured Video|Text">Latest from CBS Sports Network </a></h6>
+               <div class="nav-dropdown-top">
+                    <a href="https://www.cbssports.com/watch/cbssportsnetwork/">
+                        <div class="image-icon-overlay-wrap">
+                            <figure class="img"><img src="https://sportshub.cbsistatic.com/i/2017/03/27/4a8a0cfb-8794-4c57-8cfd-53cc0ba8c2cd/sizzle-graphic.jpg" alt="sizzle_graphic" height="152" width="270"></figure>
+                        </div>
+                        <a href="https://www.cbssports.com/watch/cbssportsnetwork/" class="vidPlayLg" alt="sizzle_graphic" om-event="Global Nav|NHL|Watch|Featured Video|Image"></a>
+                    </a>
+               </div>
+           <ul><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/"  om-event="Global Nav|NHL|Watch|Latest from CBS Sports Network">Latest from CBS Sports Network</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/"  om-event="Global Nav|NHL|Watch|Watch CBS Sports Network">Watch CBS Sports Network</a> </li><li class="nav-dropdown-item"> <a href="http://www.cbssportsnetwork.com/" rel="nofollow" class="external-link" target="_blank"  om-event="Global Nav|NHL|Watch|CBSSN Channel Finder">CBSSN Channel Finder</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/cbssports"  om-event="Global Nav|NHL|Watch|TV Shows & Listings">TV Shows & Listings</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbs.com/all-access/live-tv/?ftag=AAM-00-10ade5c"  om-event="Global Nav|NHL|Watch|NFL on All Access">NFL on All Access</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/fantasy/football/show/fantasy-football-today/"  om-event="Global Nav|NHL|Watch|Fantasy Football Today">Fantasy Football Today</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/college-football/sec-live/"  om-event="Global Nav|NHL|Watch|SEC Live">SEC Live</a> </li><li class="nav-dropdown-item"> <a href="http://www.collegesportslive.com/start/?ftag=CSL-01-10aaa6f"  om-event="Global Nav|NHL|Watch|College Sports Live">College Sports Live</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/video/show/the-score/"  om-event="Global Nav|NHL|Watch|The Score">The Score</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/video/player/247-sports-live"  om-event="Global Nav|NHL|Watch|247Sports Live">247Sports Live</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/show/reiters-block/"  om-event="Global Nav|NHL|Watch|Reiter's Block">Reiter's Block</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/video/show/minute-update/"  om-event="Global Nav|NHL|Watch|Sports Minute">Sports Minute</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/videos/"  om-event="Global Nav|NHL|Watch|All Videos">All Videos</a> </li></ul>
+							</div>
+						</div>
+					</li>
+					<li class="nav-side-item hoverable" data-arena="listen"> <span class="narrow-text">Listen</span> <span class="narrow-icon icon-item icon-moon-nav-listen"></span>
+						<div class="site-nav-dropdown align-right">
+							<div class="nav-dropdown-inner">
+								
+                <h6 class="nav-dropdown-title"> CBS Sports Radio </h6>
+                <div class="nav-dropdown-top">
+                  <div class="nav-dropdown-image"> <a href="http://radio.cbssports.com/" rel="nofollow" target="_blank" om-event="Global Nav|NHL|Listen|Featured Podcast|Image"><img src="https://sportshub.cbsistatic.com/i/2016/02/24/fb0619ed-f59a-47ac-ac37-d7f670af79f3/cbssports-radio.png" alt="CBSSPORTS-radio"></a> </div>
+                  <div class="nav-dropdown-top-side">
+                    <p class="nav-dropdown-top-title"> <a href="http://radio.cbssports.com/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|NHL|Listen|Featured Podcast|Text"> Listen Live </a> </p>
+                    <time class="nav-dropdown-top-date">  </time>
+                  </div>
+                </div>
+            
+                <h6 class="nav-dropdown-title"> Fantasy Football Today </h6>
+                <div class="nav-dropdown-top">
+                  <div class="nav-dropdown-image"> <a href="https://soundcloud.com/cbssportspodcasts/waiver-wire-4" rel="nofollow" target="_blank" om-event="Global Nav|NHL|Listen|Featured Podcast|Image"><img src="https://sportshub.cbsistatic.com/i/2017/06/20/bea1c43d-f08f-480e-8ad9-e93ad015bcc1/podcast-fantasyfootball-logo.jpg" alt="Podcast: Fantasy Football Today logo"></a> </div>
+                  <div class="nav-dropdown-top-side">
+                    <p class="nav-dropdown-top-title"> <a href="https://soundcloud.com/cbssportspodcasts/waiver-wire-4"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|NHL|Listen|Featured Podcast|Text"> Waiver Wire </a> </p>
+                    <time class="nav-dropdown-top-date"> 3h ago </time>
+                  </div>
+                </div>
+            <ul><li class="nav-dropdown-item"> <a href="http://sports.cbslocal.com/cbs-sports-radio-roundup/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|NHL|Listen|CBS Sports Radio Roundup">CBS Sports Radio Roundup</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/podcasts/jonah-keri/" om-event="Global Nav|NHL|Listen|The Jonah Keri Podcast">The Jonah Keri Podcast</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/podcast" om-event="Global Nav|NHL|Listen|Podcasts">Podcasts</a> </li><li class="nav-dropdown-item"> <a href="http://jimrome.com/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|NHL|Listen|The Jim Rome Show">The Jim Rome Show</a> </li></ul>
+							</div>
+						</div>
+					</li>
+					
+            <li class="nav-side-item log-in-item"> 
+                <span class="log-in-buttons"> 
+                    <a href="https://www.cbssports.com/login?master_product=150&xurl=https%3A%2F%2Fwww.cbssports.com%2Fnhl%2Ftransactions" class="log-in-button" om-event="Global Nav|NHL|Log In"> <span class="the-button">Log In</span> </a> 
+                </span> 
+            </li>        
+        
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+<script type="text/javascript">
+ $(document).ready(function() {
+	var touchedNow;  			// Track which was just tapped now
+	var touchedLast  = 'none'; // Track which was last opened
+	var navItems 	 = $('.nav-list-item.hoverable, .nav-side-item.hoverable, .cbs-logo-section');
+	var navButtons   = $('.nav-list-item.hoverable > a, .nav-list-item.hoverable .icon-more, .nav-side-item.hoverable  span, .logo-sport');
+
+	navButtons.on("touchstart", function (e) {
+		var ua = navigator.userAgent.toLowerCase();
+		var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+		if (isAndroid) {
+			myWebview.zoomIn();
+			myWebview.zoomOut();
+		}
+		e.preventDefault();
+
+		$('body').addClass('touch-enabled');
+		var touchedParent = $(this).parent();
+		touchedNow = touchedParent.data( "arena" ); // record which nav link was clicked.
+		navItems.removeClass('is-tapped'); // remove 'is-tapped' from all links
+		if (touchedNow === touchedLast) {
+			// console.log('THE SAME ', touchedNow, touchedLast);
+			$('body').addClass('touch-enabled');
+			touchedLast = 'none';
+		} else {
+			// console.log('DIFFERENT ', touchedNow, touchedLast);
+			$('body').removeClass('touch-enabled');
+			touchedLast = touchedParent.data( "arena" );
+		}
+	});
+});
+
+</script>
+
+
+<!--googleon: snippet-->
+<div id="mantle_skin">
+    <span id="adSkinLeft"></span>
+    <span id="adSkinRight"></span>
+    
+    <div id="skin_ad_call" style="max-height:1px !important">
+        <script type="text/javascript">
+        if (switchXFP != 'off') {
+            googletag.cmd.push(function() {
+                if (typeof index_headertag_lightspeed !== 'undefined') {
+                          var cb = (function () {
+                              return function () {
+                                  var slots = googletag.pubads().getSlots();
+                                  index_headertag_lightspeed.set_slot_targeting(slots);
+                                   googletag.display("skin_ad_call");
+                                };
+                          })();
+                          index_headertag_lightspeed.add_session_end_hook(cb, true);
+                          index_headertag_lightspeed.refresh();
+                      } else {
+                          googletag.display("skin_ad_call");
+                      }
+            });
+            if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="skin_ad_call" style="width:960px"><br>').insertBefore('#skin_ad_call');
+        }
+        </script>
+    </div>
+    
+    
+            <div id="leaderboard-wrap" align="center" style="min-height:66px; height: auto;">
+                <div id="leader_top" style="padding-top: 10px;">
+                    <script type="text/javascript">
+                    if (switchXFP != 'off') {
+                        googletag.cmd.push(function() {
+                            if (typeof index_headertag_lightspeed !== 'undefined') {
+                                      var cb = (function () {
+                                          return function () {
+                                              var slots = googletag.pubads().getSlots();
+                                              index_headertag_lightspeed.set_slot_targeting(slots);
+                                               googletag.display("leader_top");
+                                            };
+                                      })();
+                                      index_headertag_lightspeed.add_session_end_hook(cb, true);
+                                      index_headertag_lightspeed.refresh();
+                                  } else {
+                                      googletag.display("leader_top");
+                                  }
+                        });
+                        if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="leader_top" style="width:980px"><br>').insertBefore('#leader_top');
+                    }
+                    </script>
+                </div>
+            </div>
+            
+
+
+    
+    <div id="pageRow">
+    
+    <div id="pageContainer" section="layout;railRight">
+    <h1 class="pageTitle feature nhl">NHL Daily Transactions</h1>
+    <ul class="optPrimary options tab"><li class="optsel"><a    class="optsel  " href="/nhl/transactions" >Transactions</a></li><li class="tabSep"></li><li><a    class="opt  " href="http://www.cbssports.com/nhl/eye-on-hockey/25230139/nhl-free-agency-tracker-all-of-the-signings-and-player-movement" >Free Agents</a></li></ul>
+        <div id="layoutRailRight">
+            <div class="column1">
+            <table class="data" width="100%" ><tr class="title"><td colspan="3"><b>Last updated: Tue, October 10, 2017, 12:05 EDT</b></td></tr><tr class="subtitle"><td colspan="3">Tuesday, October 10, 2017</td></tr><tr class="label"  ><td align="left">Team</td><td align="left">Player</td><td align="left">Transaction</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left"><a href="/nhl/players/playerpage/2269092/danton-heinen" >Danton Heinen</a></td><td  align="left">Called up from minors, from Providence-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left"><a href="/nhl/players/playerpage/1282461/ryan-white" >Ryan White</a></td><td  align="left">Signed as Free Agent, Professional try-out contract</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DAL/dallas-stars>Dallas Stars</a></td><td  align="left"><a href="/nhl/players/playerpage/2147142/remi-elie" >Remi Elie</a></td><td  align="left">Called up from minors, from Texas-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NYR/new-york-rangers>New York Rangers</a></td><td  align="left"><a href="/nhl/players/playerpage/1707933/andrew-desjardins" >Andrew Desjardins</a></td><td  align="left">Released</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NYR/new-york-rangers>New York Rangers</a></td><td  align="left"><a href="/nhl/players/playerpage/2845320/filip-chytil" >Filip Chytil</a></td><td  align="left">Sent to minors, Hartford-AHL</td></tr><tr class="subtitle"><td colspan="3">Monday, October 9, 2017</td></tr><tr class="label"  ><td align="left">Team</td><td align="left">Player</td><td align="left">Transaction</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ARI/arizona-coyotes>Arizona Coyotes</a></td><td  align="left"><a href="/nhl/players/playerpage/2178635/dylan-strome" >Dylan Strome</a></td><td  align="left">Sent to minors, Tucson-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ARI/arizona-coyotes>Arizona Coyotes</a></td><td  align="left"><a href="/nhl/players/playerpage/1280576/mario-kempe" >Mario Kempe</a></td><td  align="left">Called up from minors, from Tucson-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left">Matt Grzelcyk</td><td  align="left">Sent to minors, Providence-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NYR/new-york-rangers>New York Rangers</a></td><td  align="left"><a href="/nhl/players/playerpage/1133587/adam-cracknell" >Adam Cracknell</a></td><td  align="left">Claimed off waivers</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/PHI/philadelphia-flyers>Philadelphia Flyers</a></td><td  align="left"><a href="/nhl/players/playerpage/1707462/dustin-tokarski" >Dustin Tokarski</a></td><td  align="left">Traded from Ducks, for future considerations</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/STL/st-louis-blues>St. Louis Blues</a></td><td  align="left"><a href="/nhl/players/playerpage/1707556/jordan-caron" >Jordan Caron</a></td><td  align="left">Signed with European team, Krefeld (DEL-Germany)</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TB/tampa-bay-lightning>Tampa Bay Lightning</a></td><td  align="left"><a href="/nhl/players/playerpage/1769707/michael-bournival" >Michael Bournival</a></td><td  align="left">Sent to minors, Syracuse-AHL</td></tr><tr class="subtitle"><td colspan="3">Sunday, October 8, 2017</td></tr><tr class="label"  ><td align="left">Team</td><td align="left">Player</td><td align="left">Transaction</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left"><a href="/nhl/players/playerpage/2197804/noel-acciari" >Noel Acciari</a></td><td  align="left">Placed on IR, Fractured finger</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CLB/columbus-blue-jackets>Columbus Blue Jackets</a></td><td  align="left"><a href="/nhl/players/playerpage/2093842/josh-anderson" >Josh Anderson</a></td><td  align="left">Called up from minors, from Cleveland-AHL (conditioning)</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DAL/dallas-stars>Dallas Stars</a></td><td  align="left"><a href="/nhl/players/playerpage/1133587/adam-cracknell" >Adam Cracknell</a></td><td  align="left">Waived</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/FLA/florida-panthers>Florida Panthers</a></td><td  align="left"><a href="/nhl/players/playerpage/2000667/michael-matheson" >Michael Matheson</a></td><td  align="left">Contract extended, Eight-year contract extension</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/OTT/ottawa-senators>Ottawa Senators</a></td><td  align="left"><a href="/nhl/players/playerpage/2198288/thomas-chabot" >Thomas Chabot</a></td><td  align="left">Called up from minors, from Belleville-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/OTT/ottawa-senators>Ottawa Senators</a></td><td  align="left"><a href="/nhl/players/playerpage/2879859/christian-jaros" >Christian Jaros</a></td><td  align="left">Called up from minors, from Belleville-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/PIT/pittsburgh-penguins>Pittsburgh Penguins</a></td><td  align="left"><a href="/nhl/players/playerpage/1770890/ian-cole" >Ian Cole</a></td><td  align="left">Placed on IR, Mouth</td></tr><tr class="subtitle"><td colspan="3">Saturday, October 7, 2017</td></tr><tr class="label"  ><td align="left">Team</td><td align="left">Player</td><td align="left">Transaction</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CHI/chicago-blackhawks>Chicago Blackhawks</a></td><td  align="left">Mac Carruth</td><td  align="left">Signed with European team, Fehervar AV19 (Austria)</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/EDM/edmonton-oilers>Edmonton Oilers</a></td><td  align="left"><a href="/nhl/players/playerpage/2197879/anton-slepyshev" >Anton Slepyshev</a></td><td  align="left">Called up from minors, from Bakersfield-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NYR/new-york-rangers>New York Rangers</a></td><td  align="left">Robin Kovacs</td><td  align="left">Signed with European team, Lulea HF (Sweden)</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/OTT/ottawa-senators>Ottawa Senators</a></td><td  align="left"><a href="/nhl/players/playerpage/2094785/ben-harpur" >Ben Harpur</a></td><td  align="left">Placed on IR, Shoulder</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/OTT/ottawa-senators>Ottawa Senators</a></td><td  align="left"><a href="/nhl/players/playerpage/2094785/ben-harpur" >Ben Harpur</a></td><td  align="left">Called up from minors, from Belleville-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/VAN/vancouver-canucks>Vancouver Canucks</a></td><td  align="left"><a href="/nhl/players/playerpage/1771082/adam-polasek" >Adam Polasek</a></td><td  align="left">Signed with European team, HC Sochi (KHL-Russia)</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/VAN/vancouver-canucks>Vancouver Canucks</a></td><td  align="left"><a href="/nhl/players/playerpage/1282461/ryan-white" >Ryan White</a></td><td  align="left">Released</td></tr><tr class="subtitle"><td colspan="3">Friday, October 6, 2017</td></tr><tr class="label"  ><td align="left">Team</td><td align="left">Player</td><td align="left">Transaction</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left">Oskar Steen</td><td  align="left">Signed with European team, HKm Zvolen (Slovakia)</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/COL/colorado-avalanche>Colorado Avalanche</a></td><td  align="left"><a href="/nhl/players/playerpage/2197845/anton-lindholm" >Anton Lindholm</a></td><td  align="left">Called up from minors, from San Antonio-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left"><a href="/nhl/players/playerpage/2094035/andreas-athanasiou" >Andreas Athanasiou</a></td><td  align="left">Signed with European team, HC Lugano (Switzerland)</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LA/los-angeles-kings>Los Angeles Kings</a></td><td  align="left">Alexander Dergachyov</td><td  align="left">Signed with European team, Spartak Moscow (KHL-Russia)</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left"><a href="/nhl/players/playerpage/2879866/calle-rosen" >Calle Rosen</a></td><td  align="left">Called up from minors, from Toronto-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left"><a href="/nhl/players/playerpage/1770947/martin-marincin" >Martin Marincin</a></td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left"><a href="/nhl/players/playerpage/1769722/calvin-pickard" >Calvin Pickard</a></td><td  align="left">Traded from Golden Knights, for Tobias Lindberg, 2018 6th-rd pick</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LV/vegas-golden-knights>Vegas Golden Knights</a></td><td  align="left">Tobias Lindberg</td><td  align="left">Traded from Maple Leafs, w/ 2018 6th-rd pick for Calvin Pickard</td></tr><tr class="subtitle"><td colspan="3">Thursday, October 5, 2017</td></tr><tr class="label"  ><td align="left">Team</td><td align="left">Player</td><td align="left">Transaction</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ANA/anaheim-ducks>Anaheim Ducks</a></td><td  align="left"><a href="/nhl/players/playerpage/2879922/giovanni-fiore" >Giovanni Fiore</a></td><td  align="left">Called up from minors, from San Diego-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left"><a href="/nhl/players/playerpage/1134106/david-backes" >David Backes</a></td><td  align="left">Placed on IR, Diverticulitis</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left"><a href="/nhl/players/playerpage/2879746/emil-johansson" >Emil Johansson</a></td><td  align="left">Sent to minors, Providence-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CGY/calgary-flames>Calgary Flames</a></td><td  align="left"><a href="/nhl/players/playerpage/2147165/garnet-hathaway" >Garnet Hathaway</a></td><td  align="left">Sent to minors, Stockton-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CLB/columbus-blue-jackets>Columbus Blue Jackets</a></td><td  align="left"><a href="/nhl/players/playerpage/2267066/markus-nutivaara" >Markus Nutivaara</a></td><td  align="left">Sent to minors, Cleveland-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CLB/columbus-blue-jackets>Columbus Blue Jackets</a></td><td  align="left"><a href="/nhl/players/playerpage/2093842/josh-anderson" >Josh Anderson</a></td><td  align="left">Sent to minors, Cleveland-AHL (conditioning)</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left"><a href="/nhl/players/playerpage/1283871/eric-tangradi" >Eric Tangradi</a></td><td  align="left">Sent to minors, Grand Rapids-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LA/los-angeles-kings>Los Angeles Kings</a></td><td  align="left"><a href="/nhl/players/playerpage/2269096/paul-ladue" >Paul LaDue</a></td><td  align="left">Called up from minors, from Ontario-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LA/los-angeles-kings>Los Angeles Kings</a></td><td  align="left"><a href="/nhl/players/playerpage/1639440/alec-martinez" >Alec Martinez</a></td><td  align="left">Placed on IR, Lower-body injury</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/OTT/ottawa-senators>Ottawa Senators</a></td><td  align="left"><a href="/nhl/players/playerpage/1897610/mark-borowiecki" >Mark Borowiecki</a></td><td  align="left">Contract extended, Two-year contract extension</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LV/vegas-golden-knights>Vegas Golden Knights</a></td><td  align="left"><a href="/nhl/players/playerpage/1770972/brandon-pirri" >Brandon Pirri</a></td><td  align="left">Sent to minors, Chicago-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LV/vegas-golden-knights>Vegas Golden Knights</a></td><td  align="left"><a href="/nhl/players/playerpage/1769722/calvin-pickard" >Calvin Pickard</a></td><td  align="left">Waived</td></tr><tr class="subtitle"><td colspan="3">Wednesday, October 4, 2017</td></tr><tr class="label"  ><td align="left">Team</td><td align="left">Player</td><td align="left">Transaction</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ANA/anaheim-ducks>Anaheim Ducks</a></td><td  align="left"><a href="/nhl/players/playerpage/2147300/josh-manson" >Josh Manson</a></td><td  align="left">Contract extended, Four-year contract extension</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ANA/anaheim-ducks>Anaheim Ducks</a></td><td  align="left"><a href="/nhl/players/playerpage/151728/ryan-miller" >Ryan Miller</a></td><td  align="left">Placed on IR, Upper-body injury</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ANA/anaheim-ducks>Anaheim Ducks</a></td><td  align="left"><a href="/nhl/players/playerpage/2039465/sami-vatanen" >Sami Vatanen</a></td><td  align="left">Placed on IR, Shoulder</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ANA/anaheim-ducks>Anaheim Ducks</a></td><td  align="left"><a href="/nhl/players/playerpage/2000665/hampus-lindholm" >Hampus Lindholm</a></td><td  align="left">Placed on IR, Shoulder</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ANA/anaheim-ducks>Anaheim Ducks</a></td><td  align="left"><a href="/nhl/players/playerpage/563440/patrick-eaves" >Patrick Eaves</a></td><td  align="left">Placed on IR, Lower-body injury</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ANA/anaheim-ducks>Anaheim Ducks</a></td><td  align="left"><a href="/nhl/players/playerpage/433666/ryan-kesler" >Ryan Kesler</a></td><td  align="left">Placed on IR, Hip surgery</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left"><a href="/nhl/players/playerpage/1960399/torey-krug" >Torey Krug</a></td><td  align="left">Placed on IR, Jaw</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left"><a href="/nhl/players/playerpage/2197814/austin-czarnik" >Austin Czarnik</a></td><td  align="left">Placed on IR, Illness</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BUF/buffalo-sabres>Buffalo Sabres</a></td><td  align="left"><a href="/nhl/players/playerpage/1897767/zach-redmond" >Zach Redmond</a></td><td  align="left">Traded from Canadiens, for Nicolas Deslauriers</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BUF/buffalo-sabres>Buffalo Sabres</a></td><td  align="left"><a href="/nhl/players/playerpage/2197870/evan-rodrigues" >Evan Rodrigues</a></td><td  align="left">Placed on IR, Hand</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BUF/buffalo-sabres>Buffalo Sabres</a></td><td  align="left"><a href="/nhl/players/playerpage/1280565/justin-falk" >Justin Falk</a></td><td  align="left">Placed on IR, Undisclosed injury</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CGY/calgary-flames>Calgary Flames</a></td><td  align="left"><a href="/nhl/players/playerpage/2094581/marek-hrivik" >Marek Hrivik</a></td><td  align="left">Placed on IR, Undisclosed injury</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CHI/chicago-blackhawks>Chicago Blackhawks</a></td><td  align="left"><a href="/nhl/players/playerpage/565818/cody-franson" >Cody Franson</a></td><td  align="left">Signed, One-year contract</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CHI/chicago-blackhawks>Chicago Blackhawks</a></td><td  align="left"><a href="/nhl/players/playerpage/565358/bryan-bickell" >Bryan Bickell</a></td><td  align="left">Signed as Free Agent, One-day contract</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CHI/chicago-blackhawks>Chicago Blackhawks</a></td><td  align="left"><a href="/nhl/players/playerpage/19668/marian-hossa" >Marian Hossa</a></td><td  align="left">Placed on IR, Skin infection</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CHI/chicago-blackhawks>Chicago Blackhawks</a></td><td  align="left"><a href="/nhl/players/playerpage/273354/jordin-tootoo" >Jordin Tootoo</a></td><td  align="left">Placed on IR, Upper-body injury</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CHI/chicago-blackhawks>Chicago Blackhawks</a></td><td  align="left"><a href="/nhl/players/playerpage/565358/bryan-bickell" >Bryan Bickell</a></td><td  align="left">Retired</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CHI/chicago-blackhawks>Chicago Blackhawks</a></td><td  align="left"><a href="/nhl/players/playerpage/20109/michal-rozsival" >Michal Rozsival</a></td><td  align="left">Placed on IR, Upper-body injury</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CHI/chicago-blackhawks>Chicago Blackhawks</a></td><td  align="left"><a href="/nhl/players/playerpage/2245476/alex-debrincat" >Alex DeBrincat</a></td><td  align="left">Called up from minors, from Rockford-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CHI/chicago-blackhawks>Chicago Blackhawks</a></td><td  align="left"><a href="/nhl/players/playerpage/2197848/andreas-martinsen" >Andreas Martinsen</a></td><td  align="left">Traded from Canadiens, for Kyle Baun</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CHI/chicago-blackhawks>Chicago Blackhawks</a></td><td  align="left"><a href="/nhl/players/playerpage/2265487/gustav-forsling" >Gustav Forsling</a></td><td  align="left">Called up from minors, from Rockford-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left"><a href="/nhl/players/playerpage/559657/johan-franzen" >Johan Franzen</a></td><td  align="left">Placed on IR, Concussion-like symptoms</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/EDM/edmonton-oilers>Edmonton Oilers</a></td><td  align="left"><a href="/nhl/players/playerpage/1899141/ryan-stanton" >Ryan Stanton</a></td><td  align="left">Placed on IR, Foot</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/EDM/edmonton-oilers>Edmonton Oilers</a></td><td  align="left">Brian Ferlin</td><td  align="left">Placed on IR, Undisclosed injury</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/EDM/edmonton-oilers>Edmonton Oilers</a></td><td  align="left"><a href="/nhl/players/playerpage/565421/andrej-sekera" >Andrej Sekera</a></td><td  align="left">Placed on IR, Knee</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LA/los-angeles-kings>Los Angeles Kings</a></td><td  align="left"><a href="/nhl/players/playerpage/205109/marian-gaborik" >Marian Gaborik</a></td><td  align="left">Placed on IR, Knee</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/MIN/minnesota-wild>Minnesota Wild</a></td><td  align="left"><a href="/nhl/players/playerpage/1134160/daniel-winnik" >Daniel Winnik</a></td><td  align="left">Signed, One-year contract</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/MON/montreal-canadiens>Montreal Canadiens</a></td><td  align="left"><a href="/nhl/players/playerpage/2171360/kyle-baun" >Kyle Baun</a></td><td  align="left">Traded from Blackhawks, for Andreas Martinsen</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/MON/montreal-canadiens>Montreal Canadiens</a></td><td  align="left"><a href="/nhl/players/playerpage/1707397/nicolas-deslauriers" >Nicolas Deslauriers</a></td><td  align="left">Traded from Sabres, for Zach Redmond</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NSH/nashville-predators>Nashville Predators</a></td><td  align="left"><a href="/nhl/players/playerpage/1743550/nick-bonino" >Nick Bonino</a></td><td  align="left">Placed on IR, Broken tibia</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NSH/nashville-predators>Nashville Predators</a></td><td  align="left"><a href="/nhl/players/playerpage/1707401/ryan-ellis" >Ryan Ellis</a></td><td  align="left">Placed on IR, Knee</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NYR/new-york-rangers>New York Rangers</a></td><td  align="left"><a href="/nhl/players/playerpage/2094564/jesper-fast" >Jesper Fast</a></td><td  align="left">Placed on IR, Hip</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/OTT/ottawa-senators>Ottawa Senators</a></td><td  align="left">Colin White</td><td  align="left">Placed on IR, Wrist</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/OTT/ottawa-senators>Ottawa Senators</a></td><td  align="left"><a href="/nhl/players/playerpage/434880/clarke-macarthur" >Clarke MacArthur</a></td><td  align="left">Placed on IR, Undisclosed injury</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/PHI/philadelphia-flyers>Philadelphia Flyers</a></td><td  align="left"><a href="/nhl/players/playerpage/1639444/colin-mcdonald" >Colin McDonald</a></td><td  align="left">Placed on IR, Lower-body injury</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/PHI/philadelphia-flyers>Philadelphia Flyers</a></td><td  align="left"><a href="/nhl/players/playerpage/2093868/anthony-stolarz" >Anthony Stolarz</a></td><td  align="left">Placed on IR, Knee</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/PIT/pittsburgh-penguins>Pittsburgh Penguins</a></td><td  align="left"><a href="/nhl/players/playerpage/1280574/patric-hornqvist" >Patric Hornqvist</a></td><td  align="left">Placed on IR, Hand</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left"><a href="/nhl/players/playerpage/2147327/rourke-chartier" >Rourke Chartier</a></td><td  align="left">Placed on IR, Concussion</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/VAN/vancouver-canucks>Vancouver Canucks</a></td><td  align="left"><a href="/nhl/players/playerpage/2094549/cole-cassels" >Cole Cassels</a></td><td  align="left">Placed on IR, Arm</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/VAN/vancouver-canucks>Vancouver Canucks</a></td><td  align="left"><a href="/nhl/players/playerpage/2000658/brendan-gaunce" >Brendan Gaunce</a></td><td  align="left">Placed on IR, Shoulder</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LV/vegas-golden-knights>Vegas Golden Knights</a></td><td  align="left"><a href="/nhl/players/playerpage/566097/david-clarkson" >David Clarkson</a></td><td  align="left">Placed on IR, Back</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LV/vegas-golden-knights>Vegas Golden Knights</a></td><td  align="left"><a href="/nhl/players/playerpage/2147334/reid-duke" >Reid Duke</a></td><td  align="left">Placed on IR, Shoulder surgery</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LV/vegas-golden-knights>Vegas Golden Knights</a></td><td  align="left"><a href="/nhl/players/playerpage/1770972/brandon-pirri" >Brandon Pirri</a></td><td  align="left">Signed as Free Agent, One-year contract</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LV/vegas-golden-knights>Vegas Golden Knights</a></td><td  align="left"><a href="/nhl/players/playerpage/565402/james-neal" >James Neal</a></td><td  align="left">Placed on IR, Hand</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LV/vegas-golden-knights>Vegas Golden Knights</a></td><td  align="left"><a href="/nhl/players/playerpage/1134118/mikhail-grabovski" >Mikhail Grabovski</a></td><td  align="left">Placed on IR, Post-concussion syndrome</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/WAS/washington-capitals>Washington Capitals</a></td><td  align="left"><a href="/nhl/players/playerpage/2050261/alex-chiasson" >Alex Chiasson</a></td><td  align="left">Signed, One-year contract</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/WPG/winnipeg-jets>Winnipeg Jets</a></td><td  align="left"><a href="/nhl/players/playerpage/2147336/nikolaj-ehlers" >Nikolaj Ehlers</a></td><td  align="left">Contract extended, Seven-year contract extension</td></tr><tr class="subtitle"><td colspan="3">Tuesday, October 3, 2017</td></tr><tr class="label"  ><td align="left">Team</td><td align="left">Player</td><td align="left">Transaction</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ARI/arizona-coyotes>Arizona Coyotes</a></td><td  align="left"><a href="/nhl/players/playerpage/2245473/jakob-chychrun" >Jakob Chychrun</a></td><td  align="left">Placed on IR, Knee</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ARI/arizona-coyotes>Arizona Coyotes</a></td><td  align="left"><a href="/nhl/players/playerpage/2094046/marek-langhamer" >Marek Langhamer</a></td><td  align="left">Sent to minors, Tucson-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ARI/arizona-coyotes>Arizona Coyotes</a></td><td  align="left">Mario Kempe</td><td  align="left">Sent to minors, Tucson-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ARI/arizona-coyotes>Arizona Coyotes</a></td><td  align="left"><a href="/nhl/players/playerpage/1639471/zac-rinaldo" >Zac Rinaldo</a></td><td  align="left">Suspended, Five games by NHL for 2016 illegal check</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left">Rob O&apos;Gara</td><td  align="left">Sent to minors, Providence-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left">Joona Koppanen</td><td  align="left">Assigned to European Team, Ilves Tampere (Finland)</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left"><a href="/nhl/players/playerpage/1639434/ville-leino" >Ville Leino</a></td><td  align="left">Retired</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BUF/buffalo-sabres>Buffalo Sabres</a></td><td  align="left"><a href="/nhl/players/playerpage/2251043/alexander-nylander" >Alexander Nylander</a></td><td  align="left">Sent to minors, Rochester-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BUF/buffalo-sabres>Buffalo Sabres</a></td><td  align="left">Sean Malone</td><td  align="left">Sent to minors, Rochester-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BUF/buffalo-sabres>Buffalo Sabres</a></td><td  align="left"><a href="/nhl/players/playerpage/2178632/jack-eichel" >Jack Eichel</a></td><td  align="left">Contract extended, Eight-year contract extension</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CGY/calgary-flames>Calgary Flames</a></td><td  align="left"><a href="/nhl/players/playerpage/1284627/tanner-glass" >Tanner Glass</a></td><td  align="left">Signed, One-year contract</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CGY/calgary-flames>Calgary Flames</a></td><td  align="left">Mark Jankowski</td><td  align="left">Sent to minors, Stockton-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CAR/carolina-hurricanes>Carolina Hurricanes</a></td><td  align="left">Jake Bean</td><td  align="left">Assigned to Junior Club, Calgary-WHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CAR/carolina-hurricanes>Carolina Hurricanes</a></td><td  align="left"><a href="/nhl/players/playerpage/566058/lee-stempniak" >Lee Stempniak</a></td><td  align="left">Placed on IR, Hip</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CHI/chicago-blackhawks>Chicago Blackhawks</a></td><td  align="left"><a href="/nhl/players/playerpage/2265487/gustav-forsling" >Gustav Forsling</a></td><td  align="left">Sent to minors, Rockford-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CHI/chicago-blackhawks>Chicago Blackhawks</a></td><td  align="left"><a href="/nhl/players/playerpage/1707384/jeanfrancois-berube" >Jean-Francois Berube</a></td><td  align="left">Sent to minors, Rockford-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CHI/chicago-blackhawks>Chicago Blackhawks</a></td><td  align="left"><a href="/nhl/players/playerpage/1897693/tomas-jurco" >Tomas Jurco</a></td><td  align="left">Sent to minors, Rockford-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CHI/chicago-blackhawks>Chicago Blackhawks</a></td><td  align="left"><a href="/nhl/players/playerpage/2245476/alex-debrincat" >Alex DeBrincat</a></td><td  align="left">Sent to minors, Rockford-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/COL/colorado-avalanche>Colorado Avalanche</a></td><td  align="left"><a href="/nhl/players/playerpage/1897812/david-warsofsky" >David Warsofsky</a></td><td  align="left">Sent to minors, San Jose-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/COL/colorado-avalanche>Colorado Avalanche</a></td><td  align="left"><a href="/nhl/players/playerpage/2197845/anton-lindholm" >Anton Lindholm</a></td><td  align="left">Sent to minors, San Antonio-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/COL/colorado-avalanche>Colorado Avalanche</a></td><td  align="left"><a href="/nhl/players/playerpage/1897789/duncan-siemens" >Duncan Siemens</a></td><td  align="left">Sent to minors, San Antonio-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/COL/colorado-avalanche>Colorado Avalanche</a></td><td  align="left"><a href="/nhl/players/playerpage/2094411/patrik-nemeth" >Patrik Nemeth</a></td><td  align="left">Claimed off waivers</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/COL/colorado-avalanche>Colorado Avalanche</a></td><td  align="left">Ty Lewis</td><td  align="left">Signed, Three-year, entry-level contract</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/COL/colorado-avalanche>Colorado Avalanche</a></td><td  align="left"><a href="/nhl/players/playerpage/1707388/gabriel-bourque" >Gabriel Bourque</a></td><td  align="left">Sent to minors, San Antonio-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CLB/columbus-blue-jackets>Columbus Blue Jackets</a></td><td  align="left">Kole Sherwood</td><td  align="left">Sent to minors, Cleveland-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CLB/columbus-blue-jackets>Columbus Blue Jackets</a></td><td  align="left"><a href="/nhl/players/playerpage/1771085/jordan-schroeder" >Jordan Schroeder</a></td><td  align="left">Placed on IR, Undisclosed injury</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CLB/columbus-blue-jackets>Columbus Blue Jackets</a></td><td  align="left">John Ramage</td><td  align="left">Sent to minors, Cleveland-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CLB/columbus-blue-jackets>Columbus Blue Jackets</a></td><td  align="left"><a href="/nhl/players/playerpage/2265497/tyler-motte" >Tyler Motte</a></td><td  align="left">Sent to minors, Cleveland-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DAL/dallas-stars>Dallas Stars</a></td><td  align="left"><a href="/nhl/players/playerpage/2094409/curtis-mckenzie" >Curtis McKenzie</a></td><td  align="left">Sent to minors, Texas-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left">Kaden Fulcher</td><td  align="left">Signed, Three-year, entry-level contract</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left"><a href="/nhl/players/playerpage/2094645/ryan-sproul" >Ryan Sproul</a></td><td  align="left">Sent to minors, Grand Rapids-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/EDM/edmonton-oilers>Edmonton Oilers</a></td><td  align="left"><a href="/nhl/players/playerpage/2197879/anton-slepyshev" >Anton Slepyshev</a></td><td  align="left">Sent to minors, Bakersfield-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LA/los-angeles-kings>Los Angeles Kings</a></td><td  align="left"><a href="/nhl/players/playerpage/1897677/shane-harper" >Shane Harper</a></td><td  align="left">Signed with European team, Lada Togliatti (KHL-Russia)</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/MIN/minnesota-wild>Minnesota Wild</a></td><td  align="left"><a href="/nhl/players/playerpage/1897735/ryan-murphy" >Ryan Murphy</a></td><td  align="left">Sent to minors, Iowa-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/MON/montreal-canadiens>Montreal Canadiens</a></td><td  align="left"><a href="/nhl/players/playerpage/1661360/david-schlemko" >David Schlemko</a></td><td  align="left">Placed on IR, Hand</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/MON/montreal-canadiens>Montreal Canadiens</a></td><td  align="left"><a href="/nhl/players/playerpage/1707408/byron-froese" >Byron Froese</a></td><td  align="left">Sent to minors, Laval-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/MON/montreal-canadiens>Montreal Canadiens</a></td><td  align="left"><a href="/nhl/players/playerpage/2197848/andreas-martinsen" >Andreas Martinsen</a></td><td  align="left">Sent to minors, Laval-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NSH/nashville-predators>Nashville Predators</a></td><td  align="left"><a href="/nhl/players/playerpage/1897822/harry-zolnierczyk" >Harry Zolnierczyk</a></td><td  align="left">Waived</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NSH/nashville-predators>Nashville Predators</a></td><td  align="left"><a href="/nhl/players/playerpage/2147153/frederick-gaudreau" >Frederick Gaudreau</a></td><td  align="left">Sent to minors, Milwaukee-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NSH/nashville-predators>Nashville Predators</a></td><td  align="left"><a href="/nhl/players/playerpage/1897822/harry-zolnierczyk" >Harry Zolnierczyk</a></td><td  align="left">Signed as Free Agent, One-year contract</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NJ/new-jersey-devils>New Jersey Devils</a></td><td  align="left"><a href="/nhl/players/playerpage/2269097/nick-lappin" >Nick Lappin</a></td><td  align="left">Sent to minors, Binghamton-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NJ/new-jersey-devils>New Jersey Devils</a></td><td  align="left"><a href="/nhl/players/playerpage/2093845/joseph-blandisi" >Joseph Blandisi</a></td><td  align="left">Sent to minors, Binghamton-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NJ/new-jersey-devils>New Jersey Devils</a></td><td  align="left"><a href="/nhl/players/playerpage/2147491/john-quenneville" >John Quenneville</a></td><td  align="left">Sent to minors, Binghamton-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NJ/new-jersey-devils>New Jersey Devils</a></td><td  align="left"><a href="/nhl/players/playerpage/1707528/brian-strait" >Brian Strait</a></td><td  align="left">Sent to minors, Binghamton-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NYI/new-york-islanders>New York Islanders</a></td><td  align="left"><a href="/nhl/players/playerpage/433203/steve-bernier" >Steve Bernier</a></td><td  align="left">Sent to minors, Bridgeport-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NYI/new-york-islanders>New York Islanders</a></td><td  align="left"><a href="/nhl/players/playerpage/1133593/stephen-gionta" >Stephen Gionta</a></td><td  align="left">Sent to minors, Bridgeport-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/OTT/ottawa-senators>Ottawa Senators</a></td><td  align="left">Drake Batherson</td><td  align="left">Signed, Three-year, entry-level contract</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/PHI/philadelphia-flyers>Philadelphia Flyers</a></td><td  align="left"><a href="/nhl/players/playerpage/1897766/matt-read" >Matt Read</a></td><td  align="left">Sent to minors, Lehigh Valley-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/PIT/pittsburgh-penguins>Pittsburgh Penguins</a></td><td  align="left">Andrey Pedan</td><td  align="left">Traded from Canucks, w/ 2018 4th-rd pick for Derrick Pouliot</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left">Filip Sandberg</td><td  align="left">Sent to minors, San Jose-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left">Daniel O&apos;Regan</td><td  align="left">Sent to minors, San Jose-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left"><a href="/nhl/players/playerpage/1707430/john-mccarthy" >John McCarthy</a></td><td  align="left">Sent to minors, San Jose-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left"><a href="/nhl/players/playerpage/1707936/brandon-mashinter" >Brandon Mashinter</a></td><td  align="left">Sent to minors, San Jose-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left"><a href="/nhl/players/playerpage/1776606/brandon-bollig" >Brandon Bollig</a></td><td  align="left">Sent to minors, San Jose-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left">Adam Helewka</td><td  align="left">Sent to minors, San Jose-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left">Joakim Ryan</td><td  align="left">Sent to minors, San Jose-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left">Nick DeSimone</td><td  align="left">Sent to minors, San Jose-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left">Cavan Fitzgerald</td><td  align="left">Sent to minors, San Jose-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left">Radim Simek</td><td  align="left">Sent to minors, San Jose-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left"><a href="/nhl/players/playerpage/2266804/marcus-sorensen" >Marcus Sorensen</a></td><td  align="left">Sent to minors, San Jose-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left">Troy Grosenick</td><td  align="left">Sent to minors, San Jose-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left">Timothy Liljegren</td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left">Calle Rosen</td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left"><a href="/nhl/players/playerpage/1134147/roman-polak" >Roman Polak</a></td><td  align="left">Released</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/VAN/vancouver-canucks>Vancouver Canucks</a></td><td  align="left">Olli Juolevi</td><td  align="left">Assigned to European Team, TPS Turku (Finland)</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/VAN/vancouver-canucks>Vancouver Canucks</a></td><td  align="left"><a href="/nhl/players/playerpage/2000671/derrick-pouliot" >Derrick Pouliot</a></td><td  align="left">Traded from Penguins, for Andrey Pedan and 2018 4th-rd pick</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/VAN/vancouver-canucks>Vancouver Canucks</a></td><td  align="left"><a href="/nhl/players/playerpage/1771014/patrick-wiercioch" >Patrick Wiercioch</a></td><td  align="left">Sent to minors, Utica-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/VAN/vancouver-canucks>Vancouver Canucks</a></td><td  align="left"><a href="/nhl/players/playerpage/1899070/darren-archibald" >Darren Archibald</a></td><td  align="left">Released</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LV/vegas-golden-knights>Vegas Golden Knights</a></td><td  align="left">Vadim Shipachyov</td><td  align="left">Sent to minors, Chicago-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LV/vegas-golden-knights>Vegas Golden Knights</a></td><td  align="left"><a href="/nhl/players/playerpage/566159/clayton-stoner" >Clayton Stoner</a></td><td  align="left">Placed on IR, Abdomen</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LV/vegas-golden-knights>Vegas Golden Knights</a></td><td  align="left"><a href="/nhl/players/playerpage/2076041/shea-theodore" >Shea Theodore</a></td><td  align="left">Sent to minors, Chicago-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LV/vegas-golden-knights>Vegas Golden Knights</a></td><td  align="left">Alex Tuch</td><td  align="left">Sent to minors, Chicago-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LV/vegas-golden-knights>Vegas Golden Knights</a></td><td  align="left"><a href="/nhl/players/playerpage/2000677/malcolm-subban" >Malcolm Subban</a></td><td  align="left">Claimed off waivers</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LV/vegas-golden-knights>Vegas Golden Knights</a></td><td  align="left"><a href="/nhl/players/playerpage/1897688/tomas-hyka" >Tomas Hyka</a></td><td  align="left">Sent to minors, Chicago-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/WAS/washington-capitals>Washington Capitals</a></td><td  align="left"><a href="/nhl/players/playerpage/2000681/tom-wilson" >Tom Wilson</a></td><td  align="left">Suspended, Four games by NHL for boarding</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/WAS/washington-capitals>Washington Capitals</a></td><td  align="left">Madison Bowey</td><td  align="left">Sent to minors, Hershey-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/WPG/winnipeg-jets>Winnipeg Jets</a></td><td  align="left"><a href="/nhl/players/playerpage/2275413/kyle-connor" >Kyle Connor</a></td><td  align="left">Sent to minors, Manitoba-AHL</td></tr><tr class="subtitle"><td colspan="3">Monday, October 2, 2017</td></tr><tr class="label"  ><td align="left">Team</td><td align="left">Player</td><td align="left">Transaction</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ANA/anaheim-ducks>Anaheim Ducks</a></td><td  align="left">Jacob Larsson</td><td  align="left">Sent to minors, San Diego-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ANA/anaheim-ducks>Anaheim Ducks</a></td><td  align="left">Scott Sabourin</td><td  align="left">Sent to minors, San Diego-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ANA/anaheim-ducks>Anaheim Ducks</a></td><td  align="left">Kalle Kossila</td><td  align="left">Sent to minors, San Diego-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ANA/anaheim-ducks>Anaheim Ducks</a></td><td  align="left"><a href="/nhl/players/playerpage/2879922/giovanni-fiore" >Giovanni Fiore</a></td><td  align="left">Sent to minors, San Diego-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left"><a href="/nhl/players/playerpage/2269083/peter-cehlarik" >Peter Cehlarik</a></td><td  align="left">Sent to minors, Providence-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left"><a href="/nhl/players/playerpage/2000677/malcolm-subban" >Malcolm Subban</a></td><td  align="left">Waived</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left">Jakob Forsbacka Karlsson</td><td  align="left">Sent to minors, Providence-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left"><a href="/nhl/players/playerpage/2269092/danton-heinen" >Danton Heinen</a></td><td  align="left">Sent to minors, Providence-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left">Jakub Zboril</td><td  align="left">Sent to minors, Providence-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left"><a href="/nhl/players/playerpage/1707569/jordan-szwarz" >Jordan Szwarz</a></td><td  align="left">Sent to minors, Providence-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left">Tommy Cross</td><td  align="left">Sent to minors, Providence-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/BOS/boston-bruins>Boston Bruins</a></td><td  align="left"><a href="/nhl/players/playerpage/1283869/teddy-purcell" >Teddy Purcell</a></td><td  align="left">Released</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CGY/calgary-flames>Calgary Flames</a></td><td  align="left"><a href="/nhl/players/playerpage/1639396/luke-gazdic" >Luke Gazdic</a></td><td  align="left">Waived</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CGY/calgary-flames>Calgary Flames</a></td><td  align="left"><a href="/nhl/players/playerpage/19278/jaromir-jagr" >Jaromir Jagr</a></td><td  align="left">Signed as Free Agent, One-year contract</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CGY/calgary-flames>Calgary Flames</a></td><td  align="left"><a href="/nhl/players/playerpage/2198144/jon-gillies" >Jon Gillies</a></td><td  align="left">Sent to minors, Stockton-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CGY/calgary-flames>Calgary Flames</a></td><td  align="left">Rasmus Andersson</td><td  align="left">Sent to minors, Stockton-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CAR/carolina-hurricanes>Carolina Hurricanes</a></td><td  align="left"><a href="/nhl/players/playerpage/2197888/lucas-wallmark" >Lucas Wallmark</a></td><td  align="left">Sent to minors, Charlotte-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CAR/carolina-hurricanes>Carolina Hurricanes</a></td><td  align="left">Phillip Di Giuseppe</td><td  align="left">Sent to minors, Charlotte-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CHI/chicago-blackhawks>Chicago Blackhawks</a></td><td  align="left"><a href="/nhl/players/playerpage/2197828/vinnie-hinostroza" >Vinnie Hinostroza</a></td><td  align="left">Sent to minors, Rockford-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/CLB/columbus-blue-jackets>Columbus Blue Jackets</a></td><td  align="left"><a href="/nhl/players/playerpage/2093842/josh-anderson" >Josh Anderson</a></td><td  align="left">Re-Signed, Three-year contract</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DAL/dallas-stars>Dallas Stars</a></td><td  align="left"><a href="/nhl/players/playerpage/2076017/jason-dickinson" >Jason Dickinson</a></td><td  align="left">Sent to minors, Texas-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DAL/dallas-stars>Dallas Stars</a></td><td  align="left">Roope Hintz</td><td  align="left">Sent to minors, Texas-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DAL/dallas-stars>Dallas Stars</a></td><td  align="left"><a href="/nhl/players/playerpage/2147142/remi-elie" >Remi Elie</a></td><td  align="left">Sent to minors, Texas-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DAL/dallas-stars>Dallas Stars</a></td><td  align="left"><a href="/nhl/players/playerpage/2094411/patrik-nemeth" >Patrik Nemeth</a></td><td  align="left">Waived</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left"><a href="/nhl/players/playerpage/2198227/matt-lorito" >Matt Lorito</a></td><td  align="left">Sent to minors, Grand Rapids-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left"><a href="/nhl/players/playerpage/2054342/jared-coreau" >Jared Coreau</a></td><td  align="left">Sent to minors, Grand Rapids-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left">Libor Sulak</td><td  align="left">Assigned to European Team, Lahti (Finland)</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left"><a href="/nhl/players/playerpage/1897725/dylan-mcilrath" >Dylan McIlrath</a></td><td  align="left">Sent to minors, Grand Rapids-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left"><a href="/nhl/players/playerpage/1134109/david-booth" >David Booth</a></td><td  align="left">Signed, One-year contract</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LA/los-angeles-kings>Los Angeles Kings</a></td><td  align="left"><a href="/nhl/players/playerpage/368994/brooks-laich" >Brooks Laich</a></td><td  align="left">Released</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/MIN/minnesota-wild>Minnesota Wild</a></td><td  align="left">Luke Kunin</td><td  align="left">Sent to minors, Iowa-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/MON/montreal-canadiens>Montreal Canadiens</a></td><td  align="left"><a href="/nhl/players/playerpage/2228489/charlie-lindgren" >Charlie Lindgren</a></td><td  align="left">Sent to minors, Laval-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NYI/new-york-islanders>New York Islanders</a></td><td  align="left">Devon Toews</td><td  align="left">Sent to minors, Bridgeport-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NYR/new-york-rangers>New York Rangers</a></td><td  align="left">Brandon Crawley</td><td  align="left">Signed, Entry-level contract</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/OTT/ottawa-senators>Ottawa Senators</a></td><td  align="left"><a href="/nhl/players/playerpage/2858565/alex-formenton" >Alex Formenton</a></td><td  align="left">Signed, Three-year, entry-level contract</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/PHI/philadelphia-flyers>Philadelphia Flyers</a></td><td  align="left">Oskar Lindblom</td><td  align="left">Sent to minors, Lehigh Valley-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/STL/st-louis-blues>St. Louis Blues</a></td><td  align="left"><a href="/nhl/players/playerpage/347842/jay-bouwmeester" >Jay Bouwmeester</a></td><td  align="left">Placed on IR, Fractured left ankle</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/STL/st-louis-blues>St. Louis Blues</a></td><td  align="left"><a href="/nhl/players/playerpage/367818/alexander-steen" >Alexander Steen</a></td><td  align="left">Placed on IR, Broken hand</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/STL/st-louis-blues>St. Louis Blues</a></td><td  align="left"><a href="/nhl/players/playerpage/2269476/zach-sanford" >Zach Sanford</a></td><td  align="left">Placed on IR, Dislocated left shoulder</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/STL/st-louis-blues>St. Louis Blues</a></td><td  align="left"><a href="/nhl/players/playerpage/2147285/robby-fabbri" >Robby Fabbri</a></td><td  align="left">Placed on IR, Torn ACL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/STL/st-louis-blues>St. Louis Blues</a></td><td  align="left">Samuel Blais</td><td  align="left">Sent to minors, San Antonio-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/STL/st-louis-blues>St. Louis Blues</a></td><td  align="left">Jake Walman</td><td  align="left">Sent to minors, Chicago-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/STL/st-louis-blues>St. Louis Blues</a></td><td  align="left">Tanner Kaspick</td><td  align="left">Signed, Three-year, entry-level contract</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/STL/st-louis-blues>St. Louis Blues</a></td><td  align="left"><a href="/nhl/players/playerpage/1897608/jordan-binnington" >Jordan Binnington</a></td><td  align="left">Waived</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TB/tampa-bay-lightning>Tampa Bay Lightning</a></td><td  align="left"><a href="/nhl/players/playerpage/1903254/cory-conacher" >Cory Conacher</a></td><td  align="left">Sent to minors, Syracuse-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left"><a href="/nhl/players/playerpage/1897794/garret-sparks" >Garret Sparks</a></td><td  align="left">Waived</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left"><a href="/nhl/players/playerpage/1770917/colin-greening" >Colin Greening</a></td><td  align="left">Waived</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left"><a href="/nhl/players/playerpage/1770991/ben-smith" >Ben Smith</a></td><td  align="left">Waived</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left"><a href="/nhl/players/playerpage/2076039/kerby-rychel" >Kerby Rychel</a></td><td  align="left">Waived</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left"><a href="/nhl/players/playerpage/1789968/chris-mueller" >Chris Mueller</a></td><td  align="left">Waived</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left">Vincent LoVerde</td><td  align="left">Waived</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left">Carl Grundstrom</td><td  align="left">Assigned to European Team, Frolunda HC (Sweden)</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left"><a href="/nhl/players/playerpage/2076020/frederik-gauthier" >Frederik Gauthier</a></td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left">Justin Holl</td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left">Andreas Johnsson</td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left"><a href="/nhl/players/playerpage/2147087/kasperi-kapanen" >Kasperi Kapanen</a></td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left">Kasimir Kaskisuo</td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left">Tobias Lindberg</td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left">Mason Marchment</td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left">Trevor Moore</td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left">Andrew Nielsen</td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left">Michael Paliotta</td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left"><a href="/nhl/players/playerpage/2197880/nikita-soshnikov" >Nikita Soshnikov</a></td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left">Dmytro Timashov</td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left"><a href="/nhl/players/playerpage/2197886/rinat-valiev" >Rinat Valiev</a></td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left">Miro Aaltonen</td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TOR/toronto-maple-leafs>Toronto Maple Leafs</a></td><td  align="left">Travis Dermott</td><td  align="left">Sent to minors, Toronto-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/VAN/vancouver-canucks>Vancouver Canucks</a></td><td  align="left">Andrey Pedan</td><td  align="left">Waived</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/VAN/vancouver-canucks>Vancouver Canucks</a></td><td  align="left"><a href="/nhl/players/playerpage/1770885/michael-chaput" >Michael Chaput</a></td><td  align="left">Sent to minors, Utica-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/VAN/vancouver-canucks>Vancouver Canucks</a></td><td  align="left"><a href="/nhl/players/playerpage/1899134/anton-rodin" >Anton Rodin</a></td><td  align="left">Sent to minors, Utica-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/VAN/vancouver-canucks>Vancouver Canucks</a></td><td  align="left"><a href="/nhl/players/playerpage/2038301/jayson-megna" >Jayson Megna</a></td><td  align="left">Sent to minors, Utica-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/VAN/vancouver-canucks>Vancouver Canucks</a></td><td  align="left"><a href="/nhl/players/playerpage/1707379/richard-bachman" >Richard Bachman</a></td><td  align="left">Sent to minors, Utica-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LV/vegas-golden-knights>Vegas Golden Knights</a></td><td  align="left"><a href="/nhl/players/playerpage/2094631/teemu-pulkkinen" >Teemu Pulkkinen</a></td><td  align="left">Sent to minors, Chicago-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/WAS/washington-capitals>Washington Capitals</a></td><td  align="left"><a href="/nhl/players/playerpage/2094405/jyrki-jokipakka" >Jyrki Jokipakka</a></td><td  align="left">Signed with European team, HC Sochi (KHL-Russia)</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/WAS/washington-capitals>Washington Capitals</a></td><td  align="left"><a href="/nhl/players/playerpage/1707524/anthony-peluso" >Anthony Peluso</a></td><td  align="left">Waived</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/WPG/winnipeg-jets>Winnipeg Jets</a></td><td  align="left">Michael Spacek</td><td  align="left">Sent to minors, Manitoba-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/WPG/winnipeg-jets>Winnipeg Jets</a></td><td  align="left"><a href="/nhl/players/playerpage/2269473/jack-roslovic" >Jack Roslovic</a></td><td  align="left">Sent to minors, Manitoba-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/WPG/winnipeg-jets>Winnipeg Jets</a></td><td  align="left">Brendan Lemieux</td><td  align="left">Sent to minors, Manitoba-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/WPG/winnipeg-jets>Winnipeg Jets</a></td><td  align="left">J.C. Lipon</td><td  align="left">Waived</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/WPG/winnipeg-jets>Winnipeg Jets</a></td><td  align="left"><a href="/nhl/players/playerpage/1286082/matt-hendricks" >Matt Hendricks</a></td><td  align="left">Placed on IR, Undisclosed injury</td></tr><tr class="subtitle"><td colspan="3">Sunday, October 1, 2017</td></tr><tr class="label"  ><td align="left">Team</td><td align="left">Player</td><td align="left">Transaction</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/ARI/arizona-coyotes>Arizona Coyotes</a></td><td  align="left">Dakota Mermis</td><td  align="left">Sent to minors, Tucson-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left">Dominik Shine</td><td  align="left">Released</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left">Colin Campbell</td><td  align="left">Released</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left"><a href="/nhl/players/playerpage/1707517/matthew-ford" >Matthew Ford</a></td><td  align="left">Released</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left">Axel Holmstrom</td><td  align="left">Sent to minors, Grand Rapids-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left">Dylan Sadowy</td><td  align="left">Sent to minors, Grand Rapids-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left">Dominic Turgeon</td><td  align="left">Sent to minors, Grand Rapids-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left">Joe Hicketts</td><td  align="left">Sent to minors, Grand Rapids-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left">Vili Saarijarvi</td><td  align="left">Sent to minors, Grand Rapids-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left"><a href="/nhl/players/playerpage/1639442/tom-mccollum" >Tom McCollum</a></td><td  align="left">Sent to minors, Grand Rapids-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left">Dan Renouf</td><td  align="left">Sent to minors, Grand Rapids-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left"><a href="/nhl/players/playerpage/1771124/brian-lashoff" >Brian Lashoff</a></td><td  align="left">Waived</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left"><a href="/nhl/players/playerpage/2038253/ben-street" >Ben Street</a></td><td  align="left">Waived</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left">Michael Rasmussen</td><td  align="left">Assigned to Junior Club, Tri-City-WHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/DET/detroit-red-wings>Detroit Red Wings</a></td><td  align="left"><a href="/nhl/players/playerpage/273227/pa-parenteau" >P.A. Parenteau</a></td><td  align="left">Released</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/EDM/edmonton-oilers>Edmonton Oilers</a></td><td  align="left"><a href="/nhl/players/playerpage/1770902/mark-fayne" >Mark Fayne</a></td><td  align="left">Waived</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/EDM/edmonton-oilers>Edmonton Oilers</a></td><td  align="left"><a href="/nhl/players/playerpage/2245512/jesse-puljujarvi" >Jesse Puljujarvi</a></td><td  align="left">Sent to minors, Bakersfield-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/FLA/florida-panthers>Florida Panthers</a></td><td  align="left"><a href="/nhl/players/playerpage/1897822/harry-zolnierczyk" >Harry Zolnierczyk</a></td><td  align="left">Released</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/FLA/florida-panthers>Florida Panthers</a></td><td  align="left">Joshua Brown</td><td  align="left">Sent to minors, Springfield-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/FLA/florida-panthers>Florida Panthers</a></td><td  align="left"><a href="/nhl/players/playerpage/1770972/brandon-pirri" >Brandon Pirri</a></td><td  align="left">Released</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LA/los-angeles-kings>Los Angeles Kings</a></td><td  align="left"><a href="/nhl/players/playerpage/2269096/paul-ladue" >Paul LaDue</a></td><td  align="left">Sent to minors, Ontario-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LA/los-angeles-kings>Los Angeles Kings</a></td><td  align="left">Justin Auger</td><td  align="left">Sent to minors, Ontario-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/LA/los-angeles-kings>Los Angeles Kings</a></td><td  align="left"><a href="/nhl/players/playerpage/1769708/jack-campbell" >Jack Campbell</a></td><td  align="left">Waived</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/MON/montreal-canadiens>Montreal Canadiens</a></td><td  align="left"><a href="/nhl/players/playerpage/2147277/daniel-carr" >Daniel Carr</a></td><td  align="left">Sent to minors, Laval-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/MON/montreal-canadiens>Montreal Canadiens</a></td><td  align="left"><a href="/nhl/players/playerpage/1707560/peter-holland" >Peter Holland</a></td><td  align="left">Sent to minors, Laval-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/MON/montreal-canadiens>Montreal Canadiens</a></td><td  align="left"><a href="/nhl/players/playerpage/1707669/eric-gelinas" >Eric Gelinas</a></td><td  align="left">Released</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/NJ/new-jersey-devils>New Jersey Devils</a></td><td  align="left"><a href="/nhl/players/playerpage/1899100/jimmy-hayes" >Jimmy Hayes</a></td><td  align="left">Signed, One-year contract</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/OTT/ottawa-senators>Ottawa Senators</a></td><td  align="left"><a href="/nhl/players/playerpage/2094785/ben-harpur" >Ben Harpur</a></td><td  align="left">Sent to minors, Belleville-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/OTT/ottawa-senators>Ottawa Senators</a></td><td  align="left"><a href="/nhl/players/playerpage/2147357/max-mccormick" >Max McCormick</a></td><td  align="left">Waived</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/OTT/ottawa-senators>Ottawa Senators</a></td><td  align="left">Thomas Chabot</td><td  align="left">Sent to minors, Belleville-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left">Nick DeSimone</td><td  align="left">Called up from minors, from San Jose-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left">Cavan Fitzgerald</td><td  align="left">Called up from minors, from San Jose-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left">Adam Helewka</td><td  align="left">Called up from minors, from San Jose-AHL</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/SJ/san-jose-sharks>San Jose Sharks</a></td><td  align="left"><a href="/nhl/players/playerpage/1707430/john-mccarthy" >John McCarthy</a></td><td  align="left">Called up from minors, from San Jose-AHL</td></tr><tr class="row1"  align="right"><td  align="left"><a href=/nhl/teams/transactions/STL/st-louis-blues>St. Louis Blues</a></td><td  align="left"><a href="/nhl/players/playerpage/347857/scottie-upshall" >Scottie Upshall</a></td><td  align="left">Signed, One-year contract</td></tr><tr class="row2"  align="right"><td  align="left"><a href=/nhl/teams/transactions/TB/tampa-bay-lightning>Tampa Bay Lightning</a></td><td  align="left">Nicola Riopel</td><td  align="left">Sent to minors, Adirondack-ECHL</td></tr></table>    
+                    <div class="spacer20">&nbsp;</div>
+                
+        <div id="taboola-bottom-of-the-page-thumbnails" data-taboola-placement="aw-cbssports/nhl/media/transactions desktop-2x4-bottom" om-event="aw-cbssports/nhl/media/transactions desktop-2x4-bottom"></div>
+        <script type="text/javascript">
+          window._taboola = window._taboola || [];
+          _taboola.push({
+            mode: 'alternating-thumbnails-z',
+            container: 'taboola-bottom-of-the-page-thumbnails',
+            placement: 'aw-cbssports/nhl/media/transactions desktop-2x4-bottom',
+            target_type: 'mix'
+          });
+        </script>
+            </div><!-- END layoutRailRight::column1-->
+            <div class="column2">
+                
+                
+                <div id="sky_top" class="mBottomStd">
+<script type="text/javascript">
+if (switchXFP != 'off') {
+    googletag.cmd.push(function() {
+        if (typeof index_headertag_lightspeed !== 'undefined') {
+                  var cb = (function () {
+                      return function () {
+                          var slots = googletag.pubads().getSlots();
+                          index_headertag_lightspeed.set_slot_targeting(slots);
+                           googletag.display("sky_top");
+                        };
+                  })();
+                  index_headertag_lightspeed.add_session_end_hook(cb, true);
+                  index_headertag_lightspeed.refresh();
+              } else {
+                  googletag.display("sky_top");
+              }
+    });
+    if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="sky_top" style="width:160px"><br>').insertBefore('#sky_top');
+}
+</script>
+</div>
+                
+                <div class="spacer10">&nbsp;</div>
+                <!-- AD for NHL : NHL DEF Not found --><div class="shoppingBox">
+
+ 
+
+ 
+
+<!-- include file generated Thu Jul 21 17:20:09 EDT 2016 --> 
+<!-- $Id: sbox_arena.jsp,v 1.18 2008-06-11 19:49:38 gorman Exp $ -->
+
+
+<h3 class="featureTitle"><span><strong>CBSSports</strong> Shop</span></h3>
+<div class="featureComponent">
+    <a href="http://shop.cbssports.com/NHL_Draft_Gear?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_NHLDraftGear|cpn--no_coupon|offer--no_offer"><img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productImages/_2382000/ff_2382733_full.jpg&w=600" width="120" height="120" alt="Men's Reebok Red/Black Chicago Blackhawks 2016 NHL Draft Structured Flex Hat" class="border product"></a>
+    <p>NHL Draft Gear<br/>Get your favorite team <a href="http://shop.cbssports.com/NHL_Draft_Gear?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_NHLDraftGear|cpn--no_coupon|offer--no_offer"><br>Shop Now</a></p>
+    <ul class="multiLine flush">
+    
+        
+           <li><a href="http://shop.cbssports.com/CBS_Pittsburgh_Penguins?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_StanleyCupChamps|cpn--no_coupon|offer--no_offer">Penguins 2016 Stanley Cup Champs Locker Room Gear</a></li>
+        
+           <li><a href="http://shop.cbssports.com/NHL_Jerseys?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_NHLJerseys|cpn--no_coupon|offer--no_offer">NHL Jerseys</a></li>
+        
+           <li><a href="http://shop.cbssports.com/NHL_Ladies?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_NHLLadies|cpn--no_coupon|offer--no_offer">NHL Ladies Gear</a></li>
+        
+    
+    </ul>
+</div>
+<div class="featureFooter"><a href="http://shop.cbssports.com/CBS_NHL?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_MoreNHL|cpn--no_coupon|offer--no_offer">Shop NHL Fan Gear</a></div>
+
+
+</div>
+                
+<script type="text/javascript">netseer_tag_id = "19500";netseer_ad_width = "160";netseer_ad_height = "600";netseer_task = "ad";netseer_imp_type = "1";netseer_imp_src = "2";</script>
+<script src="https://ps.ns-cdn.com/dsatserving2/scripts/netseerads.js" type="text/javascript"></script>
+    
+            </div><!-- END layoutRailRight::column2-->
+            <div class="clearBoth"><!-- explicit clear --></div>
+        </div><!-- END layoutRailRight-->
+        <br clear="all">
+    </div><!-- END pageContainer-->
+</div><!-- END pageRow-->
+    <style>.footerAd {width: 970px;margin: 0 auto;padding: 10px 5px; background-color: #fff;overflow: hidden;text-align:center;position:relative;}</style>
+    
+    <div id="leader_plus2_bottom" class="footerAd">
+<script type="text/javascript">
+if (switchXFP != 'off') {
+    googletag.cmd.push(function() {
+        if (typeof index_headertag_lightspeed !== 'undefined') {
+                  var cb = (function () {
+                      return function () {
+                          var slots = googletag.pubads().getSlots();
+                          index_headertag_lightspeed.set_slot_targeting(slots);
+                           googletag.display("leader_plus2_bottom");
+                        };
+                  })();
+                  index_headertag_lightspeed.add_session_end_hook(cb, true);
+                  index_headertag_lightspeed.refresh();
+              } else {
+                  googletag.display("leader_plus2_bottom");
+              }
+    });
+    if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="leader_plus2_bottom" style="width:728px"><br>').insertBefore('#leader_plus2_bottom');
+}
+</script>
+</div>
+    <footer id="site-footer" class="site-footer">
+    <div class="site-footer-row">
+        <div class="site-footer-branding">
+            <span class="site-footer-logo"></span>
+        </div>
+    </div>
+    <div class="site-footer-row">
+        
+        <ul class="site-footer-follow">
+            <li><a href="https://www.facebook.com/CBSSports" target="_blank" rel="nofollow" om-event="Global Footer|Facebook"><span class="btn social icon-moon-facebook"></span></a></li>
+            <li><a href="https://twitter.com/cbssports" target="_blank" rel="nofollow" om-event="Global Footer|Twitter"><span class="btn social icon-moon-twitter"></span></a></li>
+            <li><a href="https://plus.google.com/+CBSSportscom/posts" target="_blank" rel="nofollow" om-event="Global Footer|Googleplus"><span class="btn social icon-moon-google-plus2"></span></a></li>
+            <li><a href="https://www.youtube.com/user/cbssports" target="_blank" rel="nofollow" om-event="Global Footer|Youtube-play"><span class="btn social icon-moon-youtube-play"></span></a></li>
+            <li><a href="https://instagram.com/cbssports/" target="_blank" rel="nofollow" om-event="Global Footer|Instagram"><span class="btn social icon-moon-instagram"></span></a></li>
+            <li><a href="https://www.pinterest.com/cbssports/" target="_blank" rel="nofollow" om-event="Global Footer|Pinterest"><span class="btn social icon-moon-pinterest"></span></a></li>
+            <li><a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" target="_blank" rel="nofollow" om-event="Global Footer|Flipboard"><span class="btn social icon-moon-flipboard"></span></a></li>
+            
+            
+            
+        </ul>
+    
+    </div>
+    <div class="site-footer-row">
+        <ul class="site-footer-links">
+            <li><a href="https://www.cbssports.com/help" target="_blank" om-event="Global Footer|Help ">Help </a></li><li><a href="https://www.cbssports.com/info/aboutus" target="_blank" om-event="Global Footer|About Us ">About Us </a></li><li><a href="http://www.cbsinteractive.com/careers" target="_blank" om-event="Global Footer|Careers ">Careers </a></li><li><a href="http://www.cbsinteractive.com/advertise/" target="_blank" om-event="Global Footer|Advertise ">Advertise </a></li><li><a href="https://www.cbssports.com/sitemap" target="_blank" om-event="Global Footer|Site Map ">Site Map </a></li><li><a href="https://www.cbssports.com/settings/newsletters" target="_blank" om-event="Global Footer|Newsletters ">Newsletters </a></li><li><a href="https://www.cbssports.com/mobile" target="_blank" om-event="Global Footer|Mobile Apps ">Mobile Apps </a></li><li><a href="http://collegenetwork.cbssports.com/" target="_blank" om-event="Global Footer|College Network ">College Network </a></li><li><a href="http://legalterms.cbsinteractive.com/adchoice" target="_blank" om-event="Global Footer|Ad Choice ">Ad Choice </a></li><li><a href="https://www.cbssports.com/info/closed-caption" target="_blank" om-event="Global Footer|Closed Captioning ">Closed Captioning </a></li><li><a href="http://legalterms.cbsinteractive.com/privacy" target="_blank" om-event="Global Footer|Privacy ">Privacy </a></li><li><a href="http://legalterms.cbsinteractive.com/terms-of-use" target="_blank" om-event="Global Footer|Terms ">Terms </a></li><li><a href="http://legalterms.cbsinteractive.com/eula" target="_blank" om-event="Global Footer|Mobile User Agreement ">Mobile User Agreement </a></li>
+        </ul>
+    </div>
+    
+
+    <div class="site-footer-row">
+        <div class="site-footer-partners">
+            
+        </div>
+    </div>
+    <div class="site-footer-copyright">
+        <p class="site-footer-dates">&copy; 2005-2017 CBS INTERACTIVE. ALL RIGHTS RESERVED.</p>
+        <p>CBS Sports is a registered trademark of CBS Broadcasting Inc.  </p>
+       
+    </div>
+</footer>
+</div><!--mantle_skin-->
+    
+    <script type="text/javascript" src="https://sports.cbsimg.net/js/global-footer-min-v00101.js"></script>
+<span id="footerScripts">
+    <span id="footerScriptsExternal">
+        
+    </span>
+    <script id="footerScriptsRegistered" type="text/javascript">
+    
+    </script>
+    <script id="footerScriptsReady" type="text/javascript">
+    $(document).ready(function() {
+        
+        if ($('.updateTime, .gmtTime').length) {CBSi.widget.Time.update('body span');}
+        if ($('.tooltip').length) {CBSi.widget.ToolTip.init(CBSi.widget.ToolTip.cfg);}
+        if ($('.actionMenu').length) {
+            var actionMenuLeft = $(".actionMenu").position().left;
+            var userInfoLeft = (actionMenuLeft + 2) +"px";
+            $("#userInfo").css({"left":userInfoLeft});
+        }
+        $('body').delegate("[om-event]", "click", function(e) {
+            om.trackClick( {'item':$(this).attr("om-event")} );
+        });
+        
+            var adSkinLeft       = $('#adSkinLeft');
+            var adSkinRight      = $('#adSkinRight');
+            var adSkin           = $(adSkinLeft).add(adSkinRight);
+            var bodyNavClass 	 = 'is-sticky-nav';
+            var bodyTag          = $('body');
+            var mantle           = $('#mantle_skin');
+            var headerCont       = $('#site-header');
+            var navBar           = $('#cbs-site-nav');
+            var navBarHeight     = navBar.outerHeight();
+            var networkBar       = $('#nav-network-bar');
+            var networkBarHeight = networkBar.outerHeight();
+            var networkBarPadding = 8;
+            var promoBarHeight   = $('#fantasy_promo_bar_row').outerHeight();
+            var saagHeight       = $('#saagWrapper').outerHeight() || 0 ;
+            var skyBoxHeight     = $('#skybox-above').height();
+            var skyboxSpacerId   = 'skybox-nav-spacer';
+    
+            // Calculate when to make the nav bar sticky.
+            if (networkBar.length) {
+                // Create an empty spacer for behind the sticky nav.
+                // CBSi.log('_toggleStickyNav: There is a Network Bar on this page.');
+                headerCont.before('<div id="' + skyboxSpacerId + '" class="' + skyboxSpacerId + '" style="height: 0"></div>');
+            }
+        
+            var skyboxSpacer = $('#skybox-nav-spacer');
+        
+            $(window).on("scroll resize",function(e) {
+            
+                var windowScrollTop = parseInt($(this).scrollTop());
+                
+                // BEGIN Scroll code for Prestitial:
+                //check if scroll_prestitial is visible
+                var prestitialVisible = $('#scroll_prestitial:visible').length;
+                //CBSi.log('prestitialVisible ', prestitialVisible);
+
+                //get height of presitial element
+                var prestitialHeight = $('#scroll_prestitial iframe').height();
+                //CBSi.log('prestitialHeight ', prestitialHeight);
+
+                //Determine via tricky conditional states of DOM element if the
+                //  prestitial is still there
+                var hasPrestitial = 0;
+                if (prestitialHeight != null) {
+                    hasPrestitial = 1;
+                } else if (prestitialHeight > 0) {
+                    hasPrestitial = 1;
+                }
+                //finally check visibility but no height
+                if (prestitialVisible == 0) {
+                    hasPrestitial = 0;
+                } else if (prestitialVisible == 1 && prestitialHeight == 0) {
+                    hasPrestitial = 0;
+                }
+                // CBSi.log('hasPrestitial', hasPrestitial);
+                
+                var skyboxMaxHeight = parseInt($('.ad-top-strip').attr('data-skyboxmaxheight')) || 0;
+                var skyboxMinHeight = parseInt($('.ad-top-strip').attr('data-skyboxminheight')) || 0;
+                var skyboxHeight = ( (skyboxMaxHeight - windowScrollTop) < skyboxMinHeight  )
+                    ? skyboxMinHeight
+                    : skyboxMaxHeight - windowScrollTop;
+        
+                var skyboxDiv = $('.ad-top-strip div');
+                var skyboxIframe = $('.ad-top-strip div iframe');
+        
+                if ( windowScrollTop > 0 && hasPrestitial == 0) {
+                    /*
+                     * The page is now scrolling...
+                     */
+                    if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                        skyboxDiv.css({ 'position' : 'fixed' , 'height' : skyboxHeight + 'px' });
+                        skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                    }
+                                
+                    if (skyboxHeight <= skyboxMinHeight) {
+                     
+                        /*
+                         * The skybox ad is collapsed to its minumum height and it has added the class skybox-collapsed to the body tag.
+                         * Alternately, there is no skybox ad on the page.
+                         */
+                     
+                        if (windowScrollTop > skyboxMaxHeight - skyboxHeight + networkBarHeight) {
+                        
+                            /*
+                             * Tests to determine if the Navigation should pin.
+                             * Note that the navigation does not pin until after the network row has scrolled out of view.
+                             */
+
+                            /*
+                             * The skybox ad is minimized and the navigation should pin.
+                             */
+                             
+                            // CBSi.log('_toggleStickyNav: The Skybox is at minHeight or absent. The nav should pin.');
+        
+                            skyboxSpacer.css({ 'height' : skyboxMaxHeight + navBarHeight + 'px' });
+                            navBar.css({ 'position': 'fixed', 'top' : skyboxHeight + 'px' });
+        
+                            mantle.css({ 'margin-top': 0 });
+                            
+                            if (windowScrollTop > networkBarHeight + saagHeight ) {
+                                /*
+                                 * Even if the nav is pinned, the Scores At a Glance (SAAG) might still be scrolling so we do not pin the
+                                 * adSkinLeft and adSkinRight until the SAAG has scrolled out of view.
+                                 */
+                                adSkin.css({'position' : 'fixed', 'top': navBarHeight + skyboxMinHeight + 'px' });
+                            } else {
+                                adSkin.css({ 'position' : 'absolute', 'top': 0 });
+                            }
+        
+                            if (!bodyTag.hasClass(bodyNavClass)) {
+                                bodyTag.addClass(bodyNavClass);
+                            }
+        
+                        } else {
+
+                            /*
+                             * The skybox ad is minimized but the navigation is not yet pinned
+                             * because the network row is still partially visible.
+                             */
+
+                            // CBSi.log('_toggleStickyNav: The Skybox is at minHeight or absent. Network bar is scrolling so nav is not pinned.');
+        
+                            skyboxSpacer.css({ 'height' : skyboxMaxHeight + 'px' });
+                            navBar.css({ 'position': 'relative', 'top': 0 });
+
+                            mantle.css({ 'margin-top' : 0 });
+                            
+                            if (bodyTag.hasClass(bodyNavClass)) {
+                                bodyTag.removeClass(bodyNavClass);
+                            }
+                        }
+                    } else if (skyboxHeight > skyboxMinHeight) {
+                        /* The ad is in an expanded state so we need to address the height of the spacer
+                         * and the position of the navigation rows below the ad.
+                         */
+                        // CBSi.log('_toggleStickyNav: The Skybox is expanded.');
+
+                        skyboxSpacer.css({ 'height' : skyboxMaxHeight + 'px' });
+                        navBar.css({ 'position': 'relative', 'top': 0 });
+
+                        mantle.css({ 'margin-top' : 0 });
+                        adSkin.css({'position' : 'absolute', 'top': 0 });
+                        
+                        if (bodyTag.hasClass(bodyNavClass)) {
+                            bodyTag.removeClass(bodyNavClass);
+                        }
+
+                        if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                            skyboxDiv.css({ 'height' : skyboxHeight + 'px' });
+                            skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                        }        
+                    }
+                } else {
+                    /*
+                     * The page is not scrolled at all so we want to set the spacer to a height of 0.
+                     */
+                    
+                    // CBSi.log('_toggleStickyNav: The page is not scrolled.');
+                    
+                    skyboxSpacer.css({ 'height' : 0 });
+                    navBar.css({ 'position': 'relative', 'top': 0 });
+
+                    mantle.css({ 'margin-top' : 0 });
+                    adSkin.css({'position' : 'absolute', 'top': 0 });
+                    
+                    if (bodyTag.hasClass(bodyNavClass)) {
+                        bodyTag.removeClass(bodyNavClass);
+                    }
+
+                    if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                        skyboxDiv.css({ 'position' : 'relative' , 'height' : skyboxHeight + 'px' });
+                        skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                    }
+                }
+            });
+        
+        if ($('.cbsGifAnimation').length) {CBSi.app.cbsGifAnimation.prototype.init();}
+        //setTimeout('CBSi.app.cbsGifAnimation.prototype.init();',3000);
+    });
+    </script>
+</span>
+<!-- no ClickTale -->
+     
+
+        
+<!-- Begin Tealium -->
+<script type="text/javascript">
+
+getTaboolaPlacements();
+var utag_data={
+
+    siteHier         : 'media|nhl|transactions|home',
+    siteSection      : 'media|nhl|||transactions|home',
+    siteType         : 'desktop web',
+    userType         : 'anon',
+    userState        : 'not authenticated',
+    pageType         : 'transactions',
+    pageName         : '/nhl/transactions',
+    pageTypeId       : '6958',
+    pageOntologyId   : '23278',
+    pageViewGuid     : surround.vguid,
+    contentWidget    : surround.taboola,
+    country          : 'DK'
+}
+</script>
+<script type="text/javascript">
+(function(a,b,c,d){
+  a='https://tags.tiqcdn.com/utag/cbsi/cbssportssite/prod/utag.js';
+	b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+  a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+})();
+</script>
+
+<!-- End Tealium -->
+<!-- no refresh -->
+<!-- no dl recruit -->
+
+         <script type="text/javascript">
+           window._taboola = window._taboola || [];
+           _taboola.push({flush: true});
+         </script>
+      
+
+    
+</body>
+</html><!-- Page build info: Wd0U1QoZUZ4AACoNbzQ 'ws5203.tm.cbsig.net' 10765 20171010 14:43:33 /spln/local/media/cache/full/spln/51/%2Fnhl%2Ftransactions -->

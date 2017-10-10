@@ -1,0 +1,1284 @@
+
+      
+
+        
+
+
+
+				
+  
+
+
+	
+
+
+
+
+<!doctype html>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--[if lt IE 7]>      <html lang="en-US" class="no-js lt-ie9 lt-ie8 lt-ie7" xmlns:fb="http://ogp.me/ns/fb#"
+> <![endif]-->
+<!--[if IE 7]>         <html lang="en-US" class="no-js lt-ie9 lt-ie8" xmlns:fb="http://ogp.me/ns/fb#"
+> <![endif]-->
+<!--[if IE 8]>         <html lang="en-US" class="no-js lt-ie9" xmlns:fb="http://ogp.me/ns/fb#"
+> <![endif]-->
+<!--[if lte IE 9]>         <html lang="en-US" class="no-js lte-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US" class="no-js" xmlns:fb="http://ogp.me/ns/fb#"
+> <!--<![endif]-->
+
+<head> 
+
+<meta charset="iso-8859-1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><title>Cart | CBS Store</title><meta name="description" content=""><meta name="viewport" content="width=device-width, maximum-scale=1"><meta name="google-site-verification" content="O4--ElelG_0QxYAqrjn4ja7K2mmygPvIQ_zBdXB1XNU"/><meta name="msvalidate.01" content="D887E1AF38643065ED91A45273F1FD0A"/><meta name="robots" content="noindex,nofollow"><link rel="shortcut icon" href="/cbs/images/favicon.ico" type="image/x-icon"><link rel="apple-touch-icon" size="152x152" href="/cbs/images/apple-touch-icon-152x152.png"  /><link rel="stylesheet" href="/js/plugins/flexSlider/flexslider.css?v=56"><link rel="stylesheet" href="/genericplus/js/plugins/magnific-popup/magnific-popup.css?ver=56"><link rel="stylesheet" href="/genericplus/css/reset.css?ver=56"><link rel="stylesheet" href="/genericplus/css/cart.css?ver=56"><link rel="stylesheet" href="/genericplus/css/sansome.css?ver=56"><link rel="stylesheet" href="/cbs/css/overrides.css?ver=56"><!--// Custom CSS --><style type="text/css">#topNavListItem-cbs-shows .topNavDropDownContent{height:700px;}
+.device-mobile #index-cbs-gift-finder #listing .listingItem a span{display:none;}
+
+.holidayTreatment #storeLogo{background-image:none;}.holidayTreatment #storeLogo a img{display:block;}
+.holidayTreatment #storeLogo a {display:inline; width:auto; height:auto;}</style><style type="text/css">#userNav .userNavList .userNavItem {  } #userNav .userNavList .userNavItem .userNavLink {  }#shoppingCart .shoppingCartInfo {  }#shoppingCart .medBtnCenter {  }#topNav .topnav_off .mainNavLink {  }#topNav .topnav_on .mainNavLink {  }#topNav .topNavDropDown .dropDownListItem .dropDownLink {  }#topNav .topNavDropDown .dropDownListItem .dropDownLink:hover {  } #tabContent .tabs .tab_item .on {  }#tabContent .tabs .tab_item .off {  } #contextualNav .ctxNavLink {  }#contextualNav .viewAll {  }footer .footerLinks {  }footer .footerLinks .footerLinkTitle {  }footer .footerLinks .footerLinkItem {  }footer .footerLinks .footerLinkItem:hover {  }footer #footerCopy .dacopyright {  }footer #footerCopy .dacopyright .dacopysection2  {  }footer #footerCopy #daPower {  }</style><script src="/js/plugins/modernizr-2.6.2.min.js"></script>  
+
+<script type="text/javascript">
+<!-- 
+function ValidateForm(form) {
+	if (IsBlank(form)) form=document.forms[0];
+	else if ( !form.submit && form.length )
+		form=eval("document."+form);
+if (form==document.forms['promomain'])
+	if (IsBlank(form.email.value))
+		AddError("You must enter your email address.", "email");
+if (form==document.forms['promomain'])
+	if (!IsValidEmail(form.email.value))
+		AddError("You must enter your valid email address.", "email");
+if (form==document.forms['promomain2'])
+	if (!IsValidEmail(form.email.value))
+		AddError("You must enter a valid e-mail address.", "email");
+if (form==document.forms['promo'])
+	if (IsBlank(form.fname.value))
+		AddError("Please enter your first name.", "fname");
+if (form==document.forms['promo'])
+	if (IsBlank(form.lname.value))
+		AddError("Please enter your last name.", "lname");
+	if (!IsBlank(errstring)){
+		alert(errstring);
+		if ( !IsBlank(errselect) ) {
+			eval( "form." + errselect + ".focus()" );
+			eval( "form." + errselect + ".select()" );
+		}
+		errstring="";
+		errselect="";
+		return false;
+	}
+	return true;
+}
+
+ 
+-->
+</script>
+<script src="/js/plugins/jwplayer/jwplayer.js"></script><script>jwplayer.key="xV6yTUNLVNdsp8BDLG04SRdZAr2Nd56QHUrX+Lbk3EU="</script><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+    
+<script type="text/javascript">
+    
+    function visaCheckoutJqueryAjaxCall(ajaxUrl, redirecturl, visaParams){
+        
+        jQuery(function($) {
+            
+            ajaxUrl+= '&ts=' + Math.floor(+new Date() / 1000);        
+            $.ajax({
+                type: 'POST',
+                data: visaParams,
+                url: ajaxUrl,
+                dataType: "json",
+                beforeSend: function(){
+                    if(redirecturl){
+                        showLoader();
+                    }       
+                },
+                success: function(response){
+                    if (!response['error']){
+                        if(redirecturl){
+                            window.location = redirecturl;        
+                        } else {
+                            hideLoader();
+                            //todo : this seems to be some mobiles stores stuff, check /www/da.store/templates/store_default/mobile/modules/checkout/checkout.tpl
+                            //where we use 'call_id_store' elements. hiding it for now
+                            $("#visa_call_id_store").val(visaParams['visaCallId']);
+                            jqueryShowVisa();
+                        }
+                    } else {
+                        //todo: display lightbox instead
+                        //hide loader - hideLoader() doesn't seem to be working
+                        alert(response['error']);
+                        hideLoader();
+                        
+                        
+                    }
+                }     
+            });
+        
+        }); 
+        
+    }
+    
+    
+    //todo: do we need these functions here when we have them in ajaxAllInOneCart-1.2.js?
+    function displayVme(){ 
+       if ($('vButton') && !$('vButtonCart')) {
+        document.getElementById('vButton').style.display="block";
+        }
+       if ($('checkoutRightContents')) {
+        document.getElementById('checkoutRightContents').style.visibility="hidden";
+        }
+    }
+    
+    function hideVme(){
+        if ($('vButton')) {
+        document.getElementById('vButton').style.display="none";
+        }
+        if ($('checkoutRightContents')) {
+            $('checkoutRightContents').style.visibility="visible";
+        }
+    }
+    function showLoader(){
+    if ($('#overlay')){$('#overlay').css("display", "block");}
+}
+
+</script>
+      
+<script type="text/javascript">
+
+
+  function onVmeReady(){
+        V.init( {
+            apikey: "KS2N134ITCU7BT6V50K814YO7wFAZrK6R6QwygVPa8jdiqzTI",
+            externalProfileId: "cbs",
+            settings:{
+                logoUrl: "https://secure.cbsstore.com/cbs/visaCheckoutLogo.png",
+				displayName: "CBS Store",
+                shipping: {
+                    collectShipping: "true"
+                },
+                dataLevel: "FULL"    
+            },
+            paymentRequest:{
+                currencyCode: "USD",
+                total: "0.00"
+            }
+        });
+      
+        V.on("payment.success", function(payment) {
+            ajaxUrl = 'checkout.php?visa_checkout&visa_shipping=true';
+							redirecturl = 'https://secure.cbsstore.com/checkout.php?stage=review&f=visa_checkout_catch';
+			            var visaParams = {visaData:payment.encPaymentData, visaKey:payment.encKey, visaCallId:payment.callid}; 
+            visaCheckoutJqueryAjaxCall(ajaxUrl, redirecturl, visaParams);
+        });  
+        
+        V.on("payment.error", function(payment, error){
+            alert('There was a problem with your Visa Checkout payment. Please try again or select a different payment method.');
+        });
+  }
+</script> <script type="text/javascript">
+	var showRewards = "";
+	var requestToken = "";
+	var callbackUrl = "";
+	var merchantCheckoutId = "";
+	var allowedCardTypes = "";
+	var cancelCallback = "";
+	var suppressShippingAddressEnable = "";
+	var loyaltyEnabled = "";
+	var requestBasicCheckout = "";
+	var version = "v6";
+</script>
+    
+<script type="text/javascript">
+	/**
+	 * prepares the checkout json payload and invokes the MasterPass lightbox with
+	 * said payload(checkout data)
+	 * @todo - add failureCallback key(function to be called when the flow ends in failure
+	 * @todo - find out more about merchantCheckoutId (the checkout identifier used to identify the merchant and their checkout branding
+	 * @todo - add successCallback key(defines the function to be called when the flow ends in success.)
+	 */
+	function handleBuyWithMasterPass(){
+		
+		if ( showRewards ) {
+			//deliberately leaving this blank as I'm not sure if DA cares about MP's rewards??
+		}else{
+			var _checkout = {
+							"requestToken": requestToken,
+							"callbackUrl": callbackUrl,
+							"merchantCheckoutId": merchantCheckoutId,
+							"allowedCardTypes": allowedCardTypes,
+							"cancelCallback": cancelCallback,
+							"suppressShippingAddressEnable": false,
+							"loyaltyEnabled": loyaltyEnabled,
+							"requestBasicCheckout": false
+							};
+	/*	console.log(_checkout); */							
+			MasterPass.client.checkout(_checkout);
+		}
+		return false;
+	}	
+</script>
+
+<style id="antiClickjack">body{display:none;}</style><script type="text/javascript">
+        if (self === top) {
+            var antiClickjack = document.getElementById("antiClickjack");
+            antiClickjack.parentNode.removeChild(antiClickjack);
+        } 
+        else {
+            top.location = self.location;
+        }
+    </script><!-- Adobe DTM --><script src="//assets.adobedtm.com/acf4fc818357d9e20cf038350a69714b00ae2a44/satelliteLib-1af53d57402476e51191c3769b04b63017440a84.js"></script><script type="text/javascript">var digitalData={"version":"1.0","page":{"pageInfo":{"pageName":"cart","destinationURL":"\/cart.php","breadCrumbs":[]},"category":{},"attributes":{"serverScriptName":"cart","storeId":"96","storeName":"CBS Store","hostName":"cbs","hostStore":"www.cbsstore.com","pageEnv":"PROD"}},"user":[{"segment":{},"profile":[{"profileInfo":{},"address":{},"social":{},"attributes":{}}]}],"config":{"legacy":{},"template":{"meta_tags":{"css_version":"56","site_verification_google":"O4--ElelG_0QxYAqrjn4ja7K2mmygPvIQ_zBdXB1XNU","site_verification_msn":"D887E1AF38643065ED91A45273F1FD0A","cs_link_faq":"http:\/\/cbs.shop.musictoday.com\/Help.aspx?band_id=3825&view_in=Television","cs_link_safe_guarantee":"http:\/\/cbs.shop.musictoday.com\/Help.aspx?band_id=3825&view_in=Television","cs_link_return_policy":"http:\/\/cbs.shop.musictoday.com\/Help.aspx?band_id=3825&view_in=Television","cs_link_privacy_policy":"http:\/\/cbs.shop.musictoday.com\/Help.aspx?band_id=3825&view_in=Television","cs_link_contact":"http:\/\/cbs.shop.musictoday.com\/Help.aspx?band_id=3825&view_in=Television","cs_link_shipping_policy":"http:\/\/cbs.shop.musictoday.com\/Help.aspx?band_id=3825&view_in=Television","cs_link_legal":"http:\/\/cbs.shop.musictoday.com\/Help.aspx?band_id=3825&view_in=Television","cs_link_tech_help":"http:\/\/cbs.shop.musictoday.com\/Help.aspx?band_id=3825&view_in=Television","cs_phone_number":"Call Us Toll-Free! 866-336-9455","newsletter_title":"Newsletter Sign-up","newsletter_content":"Save 10% when you sign up for our store newsletter!","newsletter_link":"Privacy Policy","share_links_in_footer":"YES","googleplus1_link":"https:\/\/plus.google.com\/100273750218451633419\/","search_value_text":"Search the Store","footer_link_affiliate":"YES","footer_link_affiliate_link":"https:\/\/signup.cj.com\/member\/brandedPublisherSignUp.do?air_refmerchantid=4124370","newsletter_in_footer":"YES","store_mobile_browser":"YES","mybuys_display":"YES","suppress_giftcard":"NO","power_reviews_site_id":"15","address_validation":"YES","bizrate_id":"178197","sku_limit":"99","register_page_content":"The CBS Store would like to thank you for joining our mailing list. CBS Store offers the widest selection of officially licensed products anywhere and we are happy to get you started shopping with the discount below.\r\n<br>\r\n<br>\r\n<b>Register with the CBS Store Newsletter email to receive:\r\n<ul>\r\n<li>10% Off Your Next Order<\/li>\r\n<li>Special Discounts<\/li>\r\n<li>Exclusive Promotional Offers<\/li>\r\n<li>Priority Alerting On New Product<\/li>\r\n<li>Much More<\/li>\r\n<\/ul><\/b>\r\n","display_shipping_info":"NO","sli_search_suggest":"YES","commission_junction_enterprise_id":"1528869","commission_junction_action_id":"365066","holiday_skin_start_time":"201511010100","holiday_skin_end_time":"201512312359","custom_css":"#topNavListItem-cbs-shows .topNavDropDownContent{height:700px;}\r\n.device-mobile #index-cbs-gift-finder #listing .listingItem a span{display:none;}\r\n\r\n.holidayTreatment #storeLogo{background-image:none;}.holidayTreatment #storeLogo a img{display:block;}\r\n.holidayTreatment #storeLogo a {display:inline; width:auto; height:auto;}","commission_junction_container_tag":"6327","enable_responsive_web_design":"YES","display_holiday_shipping_cutoff_on_pdp":"YES","triggit_id":"cbs","display_register_popup":"YES","account_creation_in_checkout":"YES","sli_client_id":"754","gift_card_label":"Gift Card","site_verification_pinterest":"8a22d36f5fbc3c76f1436bdf2735cc2e","gift_cards_view_link":"?v=cbs-giftcards","site_map_link":"?sitemap","adobe_dtm_javascript_id":"9d302098ecf58abfc77f3d0455bae6533d6406b9","google_tag_manager_id":"GTM-TT6N5P","home_page_builder_center":"|cbs_featured|cbs-survivor|cbs-ncis|cbs-sale|cbs-bestsellers-seen-on-cbs|cbs-static-promo","home_page_builder_top":"cbs-desktop-slider","featured_category_title":"Featured Shows","featured_category_view":"cbs-shows","inhouse_search":"YES","mybuys_display_related_products":"NO","header_builder_top":"cbs-desktop-text-promo","mobile_header_builder_top":"cbs-desktop-text-promo","mobile_home_page_builder_center":"cbs-mobile-father-sale|cbs_featured|cbs-survivor|cbs-ncis|cbs-sale|cbs-bestsellers-seen-on-cbs|cbs_mobile-promo_static2","payment_logo_theme":"LIGHT","template_type":"SANSOME","store_logo_source":"\/cbs\/images\/cbs-store-logo.jpg","footer_logo_theme":"LIGHT","mybuys_pdp_ymal_zone":"4","mybuys_cart_ymal_zone":"4","fb_custom_audience_id":"846042865511122","default_network_id":"85","enable_minifier":"YES","messagegears_campaign_id":"28077724","messagegears_account_id":"12250381","messagegears_api_key":"0c5aa157d0a94361bb6c5e9f6017df1d"},"store_name":"CBS Store","hbx_account_id":"delagentcbs","display_mobile_template":false,"user_currency":"USD","is_live":true,"cart":{"itemtotal":"0.00","money_itemtotal":{"amount":0,"currency":"USD"},"vitemtotal":"0.00","count":0,"shipping":"0.00","money_shipping":{"amount":0,"currency":"USD"},"money_shipping_surcharge":{"amount":0,"currency":"USD"},"money_shipping_tax":{"amount":0,"currency":"USD"},"money_product_tax":{"amount":0,"currency":"USD"},"vshipping":"0","tax":"0.00","money_tax":{"amount":0,"currency":"USD"},"vtax":"0.00","subtotal":"0.00","money_subtotal":{"amount":0,"currency":"USD"},"vsubtotal":"0.00","subtotalPlusTax":0,"money_subtotalPlusTax":{"amount":0,"currency":"USD"},"vsubtotalPlusTax":"0","discount":"0.00","money_discount":{"amount":0,"currency":"USD"},"vdiscount":"0","discount_value":0,"money_discount_value":{"amount":0,"currency":"USD"},"is_available_to_ship":true,"contains_recurring_billing":false,"subtotalb":"0.00","money_subtotalb":{"amount":0,"currency":"USD"},"vsubtotalb":"0.00","total":"0.00","money_total":{"amount":0,"currency":"USD"},"vtotal":"0.00","serviceResultObject":{}},"cart_list":[]}}};var s = digitalData.config.legacy;</script>
+
+</head>
+
+      
+
+<body class="device- template-sansome view-default-home grid-style-">
+
+	
+				
+		<script type="text/javascript">dataLayer = [];</script>
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TT6N5P" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TT6N5P');</script>
+	
+	
+	
+
+	
+
+<div id="cart-" class="pageCart">
+  
+
+
+  <div id="fb-root"></div>
+<script>
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+</script>
+
+  
+
+
+
+
+
+
+  
+  <a name="top" id="top"></a>
+  
+  <div id="mainContainer" style="">  
+
+    <header><div id="header">  <div id="headerContainer">
+	  		<div id="headerCustomTop" class="headerCustom"><div class="contentTop">			 									
+<div id="headerstaticContentModuleContainer1" class="module contentModule staticContentModule staticContentModuleDivCount1 staticContentModuleImgCount0">
+	<div class="bun top"></div><div class="meat">
+				<div class="staticContentModuleElement staticContentModuleCustom staticContentModuleCustomBefore">
+		<a href="http://www.cbsstore.com/?v=cbs-sale"><b>Shop Clearance up to 70% Off!  >></b></div>											<p class="clear"></p>
+		
+		</div><div class="bun btm"></div>
+</div>
+
+			<div class="clear"></div>
+</div></div>	  	  	<div id="headerMiddle">
+		<div id="headerMainElements">
+			<div id="storeLogo"><a href="http://www.cbsstore.com" title=""><img src="/cbs/images/cbs-store-logo.jpg" alt="CBS Store" /></a></div>  
+										<div id="navContent"><nav>
+  <ul id="topNav">
+		  	
+			
+	<li id="topNavListItem-cbs-shows" class="topNavListItem topNavListItemSublisting topnav_off withDropdown">
+      <a href="http://www.cbsstore.com/shows/index.php?v=cbs-shows&nvbar=Shows" class="mainNavLink mainNavLinkIcon"><span>Shows </span></a>					<div class="topNavDropDown"><div class="topNavDropDownContent"><div class="topnavDropDownListingSection topnavDropDownListingSectionFirst topnavDropDownListingSectionSpan1" style="width:19%;"><div class="topNavDropDownLabel">Primetime</div><ul class="topNavDropDownColumn topNavDropDownSuperColumnFirst" style="width:100%"><li id="dropDownListItem-cbs-2brokegirls" class="dropDownListItem"><a href="http://www.cbsstore.com/2-broke-girls/index.php?v=cbs-2brokegirls&amp;nvbar=Shows:Primetime:2+Broke+Girls" class="dropDownLink" title="2 Broke Girls">2 Broke Girls</a></li><li id="dropDownListItem-cbs-bigbrother" class="dropDownListItem"><a href="http://www.cbsstore.com/big-brother/index.php?v=cbs-bigbrother&amp;nvbar=Shows:Primetime:Big+Brother" class="dropDownLink" title="Big Brother">Big Brother</a></li><li id="dropDownListItem-cbs-blue-bloods" class="dropDownListItem"><a href="http://www.cbsstore.com/blue-bloods/index.php?v=cbs-blue-bloods&amp;nvbar=Shows:Primetime:Blue+Bloods" class="dropDownLink" title="Blue Bloods">Blue Bloods</a></li><li id="dropDownListItem-cbs-cbsgeneralstore" class="dropDownListItem"><a href="http://www.cbsstore.com/cbs-general-store/index.php?v=cbs-cbsgeneralstore&amp;nvbar=Shows:Primetime:CBS+General+Store" class="dropDownLink" title="CBS General Store">CBS General Store</a></li><li id="dropDownListItem-cbs-criminalminds" class="dropDownListItem"><a href="http://www.cbsstore.com/criminal-minds/index.php?v=cbs-criminalminds&amp;nvbar=Shows:Primetime:Criminal+Minds" class="dropDownLink" title="Criminal Minds">Criminal Minds</a></li><li id="dropDownListItem-cbs-elementary" class="dropDownListItem"><a href="http://www.cbsstore.com/elementary/index.php?v=cbs-elementary&amp;nvbar=Shows:Primetime:Elementary" class="dropDownLink" title="Elementary">Elementary</a></li><li id="dropDownListItem-cbs-hawaiifiveo" class="dropDownListItem"><a href="http://www.cbsstore.com/hawaii-five-o/index.php?v=cbs-hawaiifiveo&amp;nvbar=Shows:Primetime:Hawaii+Five-O" class="dropDownLink" title="Hawaii Five-O">Hawaii Five-O</a></li><li id="dropDownListItem-macgyver" class="dropDownListItem"><a href="http://www.cbsstore.com/macgyver/index.php?v=macgyver&amp;nvbar=Shows:Primetime:MacGyver" class="dropDownLink" title="MacGyver">MacGyver</a></li><li id="dropDownListItem-cbs-mom" class="dropDownListItem"><a href="http://www.cbsstore.com/mom/index.php?v=cbs-mom&amp;nvbar=Shows:Primetime:Mom" class="dropDownLink" title="Mom">Mom</a></li><li id="dropDownListItem-cbs-ncis" class="dropDownListItem"><a href="http://www.cbsstore.com/ncis/index.php?v=cbs-ncis&amp;nvbar=Shows:Primetime:NCIS" class="dropDownLink" title="NCIS">NCIS</a></li><li id="dropDownListItem-cbs-ncisla" class="dropDownListItem"><a href="http://www.cbsstore.com/ncis-los-angeles/index.php?v=cbs-ncisla&amp;nvbar=Shows:Primetime:NCIS:+Los+Angeles" class="dropDownLink" title="NCIS: Los Angeles">NCIS: Los Angeles</a></li><li id="dropDownListItem-cbs-ncisno" class="dropDownListItem"><a href="http://www.cbsstore.com/ncis-new-orleans/index.php?v=cbs-ncisno&amp;nvbar=Shows:Primetime:NCIS:+New+Orleans" class="dropDownLink" title="NCIS: New Orleans">NCIS: New Orleans</a></li><li id="dropDownListItem-cbs-scorpion" class="dropDownListItem"><a href="http://www.cbsstore.com/scorpion/index.php?v=cbs-scorpion&amp;nvbar=Shows:Primetime:Scorpion" class="dropDownLink" title="Scorpion">Scorpion</a></li><li id="dropDownListItem-cbs_startrekdiscovery" class="dropDownListItem"><a href="http://www.cbsstore.com/star-trek-discovery/index.php?v=cbs_startrekdiscovery&amp;nvbar=Shows:Primetime:Star+Trek:+Discovery" class="dropDownLink" title="Star Trek: Discovery ">Star Trek: Discovery </a></li><li id="dropDownListItem-cbs-supergirl" class="dropDownListItem"><a href="http://www.cbsstore.com/supergirl/index.php?v=cbs-supergirl&amp;nvbar=Shows:Primetime:Supergirl" class="dropDownLink" title="Supergirl">Supergirl</a></li><li id="dropDownListItem-cbs-survivor" class="dropDownListItem"><a href="http://www.cbsstore.com/survivor/index.php?v=cbs-survivor&amp;nvbar=Shows:Primetime:Survivor" class="dropDownLink" title="Survivor">Survivor</a></li><li id="dropDownListItem-cbs-amazingrace" class="dropDownListItem"><a href="http://www.cbsstore.com/the-amazing-race/index.php?v=cbs-amazingrace&amp;nvbar=Shows:Primetime:The+Amazing+Race" class="dropDownLink" title="The Amazing Race">The Amazing Race</a></li><li id="dropDownListItem-cbs-thebigbangtheory" class="dropDownListItem"><a href="http://www.cbsstore.com/the-big-bang-theory/index.php?v=cbs-thebigbangtheory&amp;nvbar=Shows:Primetime:The+Big+Bang+Theory" class="dropDownLink" title="The Big Bang Theory">The Big Bang Theory</a></li><li id="dropDownListItem-cbs-the-great-indoors" class="dropDownListItem"><a href="http://www.cbsstore.com/the-great-indoors/index.php?v=cbs-the-great-indoors&amp;nvbar=Shows:Primetime:The+Great+Indoors" class="dropDownLink" title="The Great Indoors">The Great Indoors</a></li><li id="dropDownListItem-cbs-theoddcouple" class="dropDownListItem"><a href="http://www.cbsstore.com/the-odd-couple-2015/index.php?v=cbs-theoddcouple&amp;nvbar=Shows:Primetime:The+Odd+Couple+(2015)" class="dropDownLink" title="The Odd Couple (2015)">The Odd Couple (2015)</a></li><li id="dropDownListItem-cbs-undercover-boss" class="dropDownListItem"><a href="http://www.cbsstore.com/undercover-boss/index.php?v=cbs-undercover-boss&amp;nvbar=Shows:Primetime:Undercover+Boss" class="dropDownLink" title="Undercover Boss">Undercover Boss</a></li><li id="dropDownListItem-cbs-zoo" class="dropDownListItem"><a href="http://www.cbsstore.com/zoo/index.php?v=cbs-zoo&amp;nvbar=Shows:Primetime:Zoo" class="dropDownLink" title="Zoo">Zoo</a></li></ul><div class="clear"></div></div><div class="topnavDropDownListingSection topnavDropDownListingSectionSpan1"><div class="topNavDropDownLabel">Late Night</div><ul class="topNavDropDownColumn topNavDropDownSuperColumnFirst" style="width:100%"><li id="dropDownListItem-cbs-thelatelateshow" class="dropDownListItem"><a href="http://www.cbsstore.com/the-late-late-show-with-james-corden/index.php?v=cbs-thelatelateshow&amp;nvbar=Shows:Late+Night:The+Late+Late+Show+with+James+Corden" class="dropDownLink" title="The Late Late Show with James Corden">The Late Late Show with James Corden</a></li><li id="dropDownListItem-cbs-thelatelateshow_carpool-karaoke" class="dropDownListItem"><a href="http://www.cbsstore.com/carpool-karaoke/index.php?v=cbs-thelatelateshow_carpool-karaoke&amp;nvbar=Shows:Late+Night:Carpool+Karaoke" class="dropDownLink" title="Carpool Karaoke">Carpool Karaoke</a></li><li id="dropDownListItem-cbs-the-late-show-with-stephen-colbert" class="dropDownListItem"><a href="http://www.cbsstore.com/the-late-show-with-stephen-colbert/index.php?v=cbs-the-late-show-with-stephen-colbert&amp;nvbar=Shows:Late+Night:The+Late+Show+with+Stephen+Colbert" class="dropDownLink" title="The Late Show with Stephen Colbert">The Late Show with Stephen Colbert</a></li></ul><div class="clear"></div></div><div class="topnavDropDownListingSection topnavDropDownListingSectionSpan1"><div class="topNavDropDownLabel">Daytime / Specials</div><ul class="topNavDropDownColumn topNavDropDownSuperColumnFirst" style="width:100%"><li id="dropDownListItem-cbs-acm" class="dropDownListItem"><a href="http://www.cbsstore.com/academy-of-country-music-awards/index.php?v=cbs-acm&amp;nvbar=Shows:Daytime+/+Specials:Academy+of+Country+Music+Awards" class="dropDownLink" title="Academy of Country Music Awards">Academy of Country Music Awards</a></li><li id="dropDownListItem-cbs-sports" class="dropDownListItem"><a href="http://www.cbsstore.com/cbs-sports/index.php?v=cbs-sports&amp;nvbar=Shows:Daytime+/+Specials:CBS+Sports" class="dropDownLink" title="CBS Sports">CBS Sports</a></li><li id="dropDownListItem-super-bowl-50-2016" class="dropDownListItem"><a href="http://www.cbsstore.com/super-bowl-50/index.php?v=super-bowl-50-2016&amp;nvbar=Shows:Daytime+/+Specials:Super+Bowl+50" class="dropDownLink" title="Super Bowl 50">Super Bowl 50</a></li><li id="dropDownListItem-cbs-the-talk" class="dropDownListItem"><a href="http://www.cbsstore.com/the-talk/index.php?v=cbs-the-talk&amp;nvbar=Shows:Daytime+/+Specials:The+Talk" class="dropDownLink" title="The Talk">The Talk</a></li><li id="dropDownListItem-cbs-theyoungandtherestless" class="dropDownListItem"><a href="http://www.cbsstore.com/the-young-and-the-restless/index.php?v=cbs-theyoungandtherestless&amp;nvbar=Shows:Daytime+/+Specials:The+Young+and+the+Restless" class="dropDownLink" title="The Young and the Restless">The Young and the Restless</a></li></ul><div class="clear"></div></div><div class="topnavDropDownListingSection topnavDropDownListingSectionSpan1"><div class="topNavDropDownLabel">CBS News</div><ul class="topNavDropDownColumn topNavDropDownSuperColumnFirst" style="width:100%"><li id="dropDownListItem-cbs-news" class="dropDownListItem"><a href="http://www.cbsstore.com/cbs-news-store-home/index.php?v=cbs-news&amp;nvbar=Shows:CBS+News:CBS+News+Store+Home" class="dropDownLink" title="CBS News Store Home">CBS News Store Home</a></li></ul><div class="clear"></div></div><div class="topnavDropDownListingSection topnavDropDownListingSectionLast topnavDropDownListingSectionSpan1"><div class="topNavDropDownLabel">TV Classics</div><ul class="topNavDropDownColumn topNavDropDownSuperColumnFirst" style="width:100%"><li id="dropDownListItem-cbs-7thheaven" class="dropDownListItem"><a href="http://www.cbsstore.com/7th-heaven/index.php?v=cbs-7thheaven&amp;nvbar=Shows:TV+Classics:7th+Heaven" class="dropDownLink" title="7th Heaven">7th Heaven</a></li><li id="dropDownListItem-cbs-beautyandthebeast" class="dropDownListItem"><a href="http://www.cbsstore.com/beauty-the-beast/index.php?v=cbs-beautyandthebeast&amp;nvbar=Shows:TV+Classics:Beauty+&+The+Beast" class="dropDownLink" title="Beauty & The Beast">Beauty & The Beast</a></li><li id="dropDownListItem-cbs-beverlyhills90210" class="dropDownListItem"><a href="http://www.cbsstore.com/beverly-hills-90210/index.php?v=cbs-beverlyhills90210&amp;nvbar=Shows:TV+Classics:Beverly+Hills,+90210" class="dropDownLink" title="Beverly Hills, 90210">Beverly Hills, 90210</a></li><li id="dropDownListItem-cbs-cheers" class="dropDownListItem"><a href="http://www.cbsstore.com/cheers/index.php?v=cbs-cheers&amp;nvbar=Shows:TV+Classics:Cheers" class="dropDownLink" title="Cheers">Cheers</a></li><li id="dropDownListItem-cbs-csi" class="dropDownListItem"><a href="http://www.cbsstore.com/csi/index.php?v=cbs-csi&amp;nvbar=Shows:TV+Classics:CSI" class="dropDownLink" title="CSI">CSI</a></li><li id="dropDownListItem-cbs-csicyber" class="dropDownListItem"><a href="http://www.cbsstore.com/csi-cyber/index.php?v=cbs-csicyber&amp;nvbar=Shows:TV+Classics:CSI+Cyber" class="dropDownLink" title="CSI Cyber">CSI Cyber</a></li><li id="dropDownListItem-cbs-csimiami" class="dropDownListItem"><a href="http://www.cbsstore.com/csi-miami/index.php?v=cbs-csimiami&amp;nvbar=Shows:TV+Classics:CSI+Miami" class="dropDownLink" title="CSI Miami">CSI Miami</a></li><li id="dropDownListItem-cbs-csiny" class="dropDownListItem"><a href="http://www.cbsstore.com/csi-ny/index.php?v=cbs-csiny&amp;nvbar=Shows:TV+Classics:CSI+NY" class="dropDownLink" title="CSI NY">CSI NY</a></li><li id="dropDownListItem-cbs-dynasty" class="dropDownListItem"><a href="http://www.cbsstore.com/dynasty/index.php?v=cbs-dynasty&amp;nvbar=Shows:TV+Classics:Dynasty" class="dropDownLink" title="Dynasty">Dynasty</a></li><li id="dropDownListItem-cbs-extant" class="dropDownListItem"><a href="http://www.cbsstore.com/extant/index.php?v=cbs-extant&amp;nvbar=Shows:TV+Classics:Extant" class="dropDownLink" title="Extant">Extant</a></li><li id="dropDownListItem-cbs-frasier" class="dropDownListItem"><a href="http://www.cbsstore.com/frasier/index.php?v=cbs-frasier&amp;nvbar=Shows:TV+Classics:Frasier" class="dropDownLink" title="Frasier">Frasier</a></li><li id="dropDownListItem-cbs-gunsmoke" class="dropDownListItem"><a href="http://www.cbsstore.com/gunsmoke/index.php?v=cbs-gunsmoke&amp;nvbar=Shows:TV+Classics:Gunsmoke" class="dropDownLink" title="Gunsmoke">Gunsmoke</a></li><li id="dropDownListItem-cbs-happydays" class="dropDownListItem"><a href="http://www.cbsstore.com/happy-days/index.php?v=cbs-happydays&amp;nvbar=Shows:TV+Classics:Happy+Days" class="dropDownLink" title="Happy Days">Happy Days</a></li><li id="dropDownListItem-cbs-hogansheroes" class="dropDownListItem"><a href="http://www.cbsstore.com/hogans-heroes/index.php?v=cbs-hogansheroes&amp;nvbar=Shows:TV+Classics:Hogan's+Heroes" class="dropDownLink" title="Hogan's Heroes">Hogan's Heroes</a></li><li id="dropDownListItem-cbs-howimetyourmother" class="dropDownListItem"><a href="http://www.cbsstore.com/how-i-met-your-mother/index.php?v=cbs-howimetyourmother&amp;nvbar=Shows:TV+Classics:How+I+Met+Your+Mother" class="dropDownLink" title="How I Met Your Mother">How I Met Your Mother</a></li><li id="dropDownListItem-cbs-ilovelucy" class="dropDownListItem"><a href="http://www.cbsstore.com/i-love-lucy/index.php?v=cbs-ilovelucy&amp;nvbar=Shows:TV+Classics:I+Love+Lucy" class="dropDownLink" title="I Love Lucy">I Love Lucy</a></li><li id="dropDownListItem-cbs-jag" class="dropDownListItem"><a href="http://www.cbsstore.com/jag/index.php?v=cbs-jag&amp;nvbar=Shows:TV+Classics:JAG" class="dropDownLink" title="JAG">JAG</a></li><li id="dropDownListItem-cbs-laverneandshirley" class="dropDownListItem"><a href="http://www.cbsstore.com/laverne-and-shirley/index.php?v=cbs-laverneandshirley&amp;nvbar=Shows:TV+Classics:Laverne+and+Shirley" class="dropDownLink" title="Laverne and Shirley">Laverne and Shirley</a></li><li id="dropDownListItem-cbs-melroseplace-classic" class="dropDownListItem"><a href="http://www.cbsstore.com/melrose-place/index.php?v=cbs-melroseplace-classic&amp;nvbar=Shows:TV+Classics:Melrose+Place" class="dropDownLink" title="Melrose Place">Melrose Place</a></li><li id="dropDownListItem-cbs-mike-molly" class="dropDownListItem"><a href="http://www.cbsstore.com/mike-molly/index.php?v=cbs-mike-molly&amp;nvbar=Shows:TV+Classics:Mike+&+Molly" class="dropDownLink" title="Mike & Molly">Mike & Molly</a></li><li id="dropDownListItem-cbs-perrymason" class="dropDownListItem"><a href="http://www.cbsstore.com/perry-mason/index.php?v=cbs-perrymason&amp;nvbar=Shows:TV+Classics:Perry+Mason" class="dropDownLink" title="Perry Mason">Perry Mason</a></li><li id="dropDownListItem-cbs-person-of-interest" class="dropDownListItem"><a href="http://www.cbsstore.com/person-of-interest/index.php?v=cbs-person-of-interest&amp;nvbar=Shows:TV+Classics:Person+of+Interest" class="dropDownLink" title="Person of Interest">Person of Interest</a></li><li id="dropDownListItem-cbs-theandygriffithshow" class="dropDownListItem"><a href="http://www.cbsstore.com/the-andy-griffith-show/index.php?v=cbs-theandygriffithshow&amp;nvbar=Shows:TV+Classics:The+Andy+Griffith+Show" class="dropDownLink" title="The Andy Griffith Show">The Andy Griffith Show</a></li><li id="dropDownListItem-cbs-shows-beatles" class="dropDownListItem"><a href="http://www.cbsstore.com/the-beatles-salute/index.php?v=cbs-shows-beatles&amp;nvbar=Shows:TV+Classics:The+Beatles+Salute" class="dropDownLink" title="The Beatles Salute">The Beatles Salute</a></li><li id="dropDownListItem-cbs-thebeverlyhillbillies" class="dropDownListItem"><a href="http://www.cbsstore.com/the-beverly-hillbillies/index.php?v=cbs-thebeverlyhillbillies&amp;nvbar=Shows:TV+Classics:The+Beverly+Hillbillies" class="dropDownLink" title="The Beverly Hillbillies">The Beverly Hillbillies</a></li><li id="dropDownListItem-cbs-thegoodwife" class="dropDownListItem"><a href="http://www.cbsstore.com/the-good-wife/index.php?v=cbs-thegoodwife&amp;nvbar=Shows:TV+Classics:The+Good+Wife" class="dropDownLink" title="The Good Wife">The Good Wife</a></li><li id="dropDownListItem-cbs-thementalist" class="dropDownListItem"><a href="http://www.cbsstore.com/the-mentalist/index.php?v=cbs-thementalist&amp;nvbar=Shows:TV+Classics:The+Mentalist" class="dropDownLink" title="The Mentalist">The Mentalist</a></li><li id="dropDownListItem-cbs-thetwilightzone" class="dropDownListItem"><a href="http://www.cbsstore.com/the-twilight-zone/index.php?v=cbs-thetwilightzone&amp;nvbar=Shows:TV+Classics:The+Twilight+Zone" class="dropDownLink" title="The Twilight Zone">The Twilight Zone</a></li><li id="dropDownListItem-cbs-touchedbyanangel" class="dropDownListItem"><a href="http://www.cbsstore.com/touched-by-an-angel/index.php?v=cbs-touchedbyanangel&amp;nvbar=Shows:TV+Classics:Touched+by+an+Angel" class="dropDownLink" title="Touched by an Angel">Touched by an Angel</a></li><li id="dropDownListItem-cbs-twoandahalfmen" class="dropDownListItem"><a href="http://www.cbsstore.com/two-and-a-half-men/index.php?v=cbs-twoandahalfmen&amp;nvbar=Shows:TV+Classics:Two+and+a+Half+Men" class="dropDownLink" title="Two and a Half Men">Two and a Half Men</a></li><li id="dropDownListItem-cbs-under-the-dome" class="dropDownListItem"><a href="http://www.cbsstore.com/under-the-dome/index.php?v=cbs-under-the-dome&amp;nvbar=Shows:TV+Classics:Under+the+Dome" class="dropDownLink" title="Under the Dome">Under the Dome</a></li></ul><div class="clear"></div></div><div class="clear"></div></div><div class="topNavDropDownBottom"></div></div>
+			</li>
+	      	
+		  	      <li id="topNavListItem-cbs-apparel" class="topNavListItem topnav_off">
+      <a href="http://www.cbsstore.com/apparel/index.php?v=cbs-apparel&nvbar=Apparel" class="mainNavLink"><span>Apparel</span></a>          </li>
+	      	
+		  	      <li id="topNavListItem-cbs-dvds-cat" class="topNavListItem topnav_off">
+      <a href="http://www.cbsstore.com/dvds/index.php?v=cbs-dvds-cat&nvbar=DVDs" class="mainNavLink"><span>DVDs</span></a>          </li>
+	      	
+		  	      <li id="topNavListItem-cbs-new-arrivals" class="topNavListItem topnav_off">
+      <a href="http://www.cbsstore.com/new-arrivals/index.php?v=cbs-new-arrivals&nvbar=New+Arrivals" class="mainNavLink"><span>New Arrivals</span></a>          </li>
+	      	
+		  	      <li id="topNavListItem-cbs-bestsellers" class="topNavListItem topnav_off">
+      <a href="http://www.cbsstore.com/best-sellers/index.php?v=cbs-bestsellers&nvbar=Best+Sellers" class="mainNavLink"><span>Best Sellers</span></a>          </li>
+	      	
+		  	      <li id="topNavListItem-cbs-sale" class="topNavListItem topnav_off topnav_last">
+      <a href="http://www.cbsstore.com/sale/index.php?v=cbs-sale&nvbar=Sale" class="mainNavLink"><span>Sale</span></a>          </li>
+	    	  </ul>
+</nav>
+	</div>
+
+<div id="respNavContent">
+	<ul id="respTopNav" class="respNavContentList">
+	<li id="respTopNavListItem-Featured"><span>Categories</span></li>
+	            
+	
+	    							  
+							  							       
+	<li id="respTopNavListItem-cbs-sale"><a href="http://www.cbsstore.com/sale/index.php?v=cbs-sale&nvbar=Sale" class="mainNavLink"><span>Sale</span></a></li>
+		        
+	
+	    							  
+							  							       
+	<li id="respTopNavListItem-cbs-sale"><a href="http://www.cbsstore.com/sale/index.php?v=cbs-sale&nvbar=Sale" class="mainNavLink"><span>Sale</span></a></li>
+		        
+	
+	    							  
+							  							       
+	<li id="respTopNavListItem-cbs-sale"><a href="http://www.cbsstore.com/sale/index.php?v=cbs-sale&nvbar=Sale" class="mainNavLink"><span>Sale</span></a></li>
+		        
+	
+	    							  
+							  							       
+	<li id="respTopNavListItem-cbs-sale"><a href="http://www.cbsstore.com/sale/index.php?v=cbs-sale&nvbar=Sale" class="mainNavLink"><span>Sale</span></a></li>
+		        
+	
+	    							  
+							  							       
+	<li id="respTopNavListItem-cbs-sale"><a href="http://www.cbsstore.com/sale/index.php?v=cbs-sale&nvbar=Sale" class="mainNavLink"><span>Sale</span></a></li>
+		        
+	
+	    							  
+							  							       
+	<li id="respTopNavListItem-cbs-sale"><a href="http://www.cbsstore.com/sale/index.php?v=cbs-sale&nvbar=Sale" class="mainNavLink"><span>Sale</span></a></li>
+				</ul>
+												<ul id="respTopNavFeatured" class="respNavContentList">
+		<li id="respTopNavListItem-Featured"><span>Featured Shows</span></li>
+		
+													
+									  
+					  					  					 
+	<li id="respTopNavListItem-"><a href="http://www.cbsstore.com//index.php?v=&nvbar=" class="mainNavLink mainNavLinkIcon" title=""><span></span></a></li>
+															
+									  
+					  					  					 
+	<li id="respTopNavListItem-"><a href="http://www.cbsstore.com//index.php?v=&nvbar=" class="mainNavLink mainNavLinkIcon" title=""><span></span></a></li>
+															
+									  
+					  					  					 
+	<li id="respTopNavListItem-"><a href="http://www.cbsstore.com//index.php?v=&nvbar=" class="mainNavLink mainNavLinkIcon" title=""><span></span></a></li>
+															
+									  
+					  					  					 
+	<li id="respTopNavListItem-"><a href="http://www.cbsstore.com//index.php?v=&nvbar=" class="mainNavLink mainNavLinkIcon" title=""><span></span></a></li>
+															
+									  
+					  					  					 
+	<li id="respTopNavListItem-"><a href="http://www.cbsstore.com//index.php?v=&nvbar=" class="mainNavLink mainNavLinkIcon" title=""><span></span></a></li>
+										</ul>
+			<ul id="respTopNavOther" class="respNavContentList">
+	<li class="navCustomerService"><a href="http://www.cbsstore.com/info.php"><span>Customer Service</span></a></li>
+	<li class="navAccount"><a href="https://secure.cbsstore.com/account.php"><span>Account</span></a></li>	</ul>
+</div>
+
+			<div id="secondaryNav">
+							
+				<ul style="display:none">
+				  											<li id="userNavNewsletter" class="userNavItem"><a href="javascript:void(0)" id="userNavNews" class="userNavLink newsPopupAction">Newsletter Sign Up - Get 10% off</a></li>
+									  				  </ul>
+			  			  				<div id="userNav">
+																				<div id="button-account" class="header-button header-button-account"><a id="account-button" href="https://secure.cbsstore.com/account.php" title="Your Account">Your Account</a></div>				</div>
+				<div id="button-search" class="header-button header-button-search"><a id="search-button" href="javascript:void(0);" title="Search"></a></div>				<div id="shoppingCart" class="header-button header-button-cart"><a href="https://secure.cbsstore.com/cart.php" class="cartIcon"></a>
+
+<a href="https://secure.cbsstore.com/cart.php" class="shoppingCartInfo" title="Shopping Cart"><span class="cartText">Shopping Cart</span>  <span class="cartTotal">$0.00</span></a>
+
+
+<div class="genLrgBtn">
+<div class="genLrgBtnLeft"></div>
+<a class="genLrgBtnCenter" href="https://secure.cbsstore.com/cart.php">Checkout<div class="buttonIcon"></div></a>
+<div class="genLrgBtnRight"></div>
+</div>
+</div>
+			 			</div>
+				</div>
+	<div class="clear"></div>
+					<div id="search"><form onsubmit="return checkSearch('Search the Store');" action="http://www.cbsstore.com/search_sli.php" method="get" name="search"><input type="hidden" name="asug" /><input type="text" id="sli_search_1" autocomplete="off" class="searchbox" name="w" placeholder="Search the Store" onblur="if (document.search.w.value == '') document.search.w.value = 'Search the Store';" onfocus="if (document.search.w.value == 'Search the Store') document.search.w.value = '';"><button type="submit" class="searchBtn"><span>Go</span></button><div class="header-button-search searchClose"><span>&#10005;</span></div><div class="clear"></div></form></div>
+				</div>
+    				<div class="clear"></div>
+	</div>
+<div class="clear"></div></div></header>
+	<div id="wrapper" >
+							        
+<section id="mainContent" class=""> 
+  <div id="contentContainer">
+	
+          <div id="contentBox" class="content cart">
+<div class="module contentModule">
+	<div class="bun top"></div><div class="meat">
+	
+ <div id="cartInner">
+    <div class="contentTitleWrapper">
+	<h1 id="cartHeader" class="moduleTitle contentTitle">Shopping Cart</h1>
+  </div>
+    <div id="promoError"></div>
+  
+  
+          
+                         
+    
+        
+      <p id="cart1_empty">Your shopping cart is currently empty. <a href="http://www.cbsstore.com/">Click here</a> to continue shopping.</p>
+        
+    
+    
+  
+    
+  
+  
+ </div>
+	</div><div class="bun btm"></div>
+</div>
+    </div>
+
+    
+    
+	  </div>
+</section>
+
+	</div>
+    <footer><div id="footer">
+  
+  <div id="footerLinksSection">
+  <div id="footerLinksContainer">
+		<div id="footerLinksContent" class="module footerModule">
+		<div class="bun top"></div><div class="meat">
+	<div id="worryFreeShipping" class="moduleTitle">Worry-free Shipping</div>
+          <div id="newsletter" class="footerLinks footerLinksFirst">
+<div class="newsletterHead moduleTitle">Newsletter Sign-up</div>
+<p class="newsletterInfo">Save 10% when you sign up for our store newsletter! <a href="javascript:void(0)" onclick="openCS('http://cbs.shop.musictoday.com/Help.aspx?band_id=3825&view_in=Television');return false">Privacy Policy</a></p>
+<form id="signupForm" name="promomain" action="https://secure.cbsstore.com/register.php" method="post">
+  <input type="text" id="email" class="text" name="email" maxlength="48" value="Enter your email address" onblur="if (document.promomain.email.value == '') document.promomain.email.value = 'Enter your email address';" onfocus="if (document.promomain.email.value == 'Enter your email address') document.promomain.email.value = '';" >
+  
+  <div class="genSmlBtn">
+  <div class="genSmlBtnLeft"></div>
+  <a class="genSmlBtnCenter" href="javascript:FormSubmit('','promomain')" onclick="return ValidateForm('promomain')">Submit</a>
+  <div class="genSmlBtnRight"></div>
+  </div>
+  
+  <div class="clear"></div>
+</form>
+
+</div>
+
+            <!--// Custom Column //-->
+    <div id="footerCS" class="footerLinks">
+      <div class="footerLinkTitle">Customer Service</div>
+      <ul>
+		<li><a class="footerLinkItem" href="javascript:void(0)" onclick="openCS('http://cbs.shop.musictoday.com/Help.aspx?band_id=3825&view_in=Television');return false">Contact Us</a></li>       
+		<li><a class="footerLinkItem" href="javascript:void(0)" onclick="openCS('http://cbs.shop.musictoday.com/Help.aspx?band_id=3825&view_in=Television');return false">FAQ</a></li>
+                <li><a class="footerLinkItem" href="javascript:void(0)" onclick="openCS('http://cbs.shop.musictoday.com/Help.aspx?band_id=3825&view_in=Television');return false">Return Policy</a></li>
+        <li><a class="footerLinkItem" href="javascript:void(0)" onclick="openCS('http://cbs.shop.musictoday.com/Help.aspx?band_id=3825&view_in=Television');return false">Privacy Policy</a></li>
+					  </ul>
+    </div>
+    <div id="footerAccount" class="footerLinks">
+      <div class="footerLinkTitle">My Account</div>
+      <ul> 
+		            <li><a class="footerLinkItem" href="https://secure.cbsstore.com/account.php">Sign In</a></li>
+
+                <li><a class="footerLinkItem" href="http://www.cbsstore.com/orderlookup.php">Track My Orders</a></li>
+		                		      </ul>
+    </div>
+    <div id="footerAbout" class="footerLinks">
+      <div class="footerLinkTitle">About Us</div>
+      <ul>
+                <li><a class="footerLinkItem" href="https://signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=4124370">Affiliate Program</a></li>         <li><a class="footerLinkItem" href="https://secure.cbsstore.com/productfinder.php">Product Suggestions</a></li>        <li><a class="footerLinkItem" href="https://secure.cbsstore.com/register.php">Email Sign-Up</a></li>
+								          <li><a class="footerLinkItem" href="http://www.cbsstore.com/?sitemap" title="Site Map">Site Map</a></li>
+				      </ul>  
+    </div>
+    <div id="footerOrdering" class="footerLinks footerLinksLast">
+      <div class="footerLinkTitle">Ordering</div>
+      <ul>
+        <li><a class="footerLinkItem" href="?v=cbs-giftcards">Gift Cards</a></li>        <li><a class="footerLinkItem" href="https://secure.cbsstore.com/cart.php">Shopping Cart</a></li>
+        <li><a class="footerLinkItem" href="javascript:void(0)" onclick="openCS('http://cbs.shop.musictoday.com/Help.aspx?band_id=3825&view_in=Television');return false">Privacy &amp; Security</a></li>		<li><a class="footerLinkItem" href="javascript:void(0)" onclick="openCS('http://cbs.shop.musictoday.com/Help.aspx?band_id=3825&view_in=Television');return false">Safe Shopping Guarantee</a></li>				</ul>
+    </div>
+			<div class="clear"></div>
+		</div><div class="bun btm"></div>
+	</div>
+  </div>
+  </div>
+  
+  
+  
+  <div id="footerSecureSection" class="light">
+    <div id="footerSecureContainer">
+	<div id="footerSecureContent" class="module footerModule light"> 
+		<div class="bun top"></div><div class="meat">
+              <div class="socialLinks">
+  <div class="socialLinksTitle">Connect with:</div>
+    
+	
+	  	  
+	  	  
+	  	  
+	  	  
+	  	    <a href="https://plus.google.com/100273750218451633419/" rel="publisher"  target="_blank" class="userNavLinkSocial googlePlusOne">Google+</a>
+	  	  	    <div class="clear"></div>
+</div>
+
+          <div id="paymentSection" class="light">
+      <div class="securePayTitle">We Accept:</div>
+      <div id="visa" class="securePayImage"></div>
+      <div id="mastercard" class="securePayImage"></div>
+      <div id="discover" class="securePayImage"></div>
+      <div id="amex" class="securePayImage"></div>
+              <div id="paypal" class="securePayImage"></div>
+                    <div id="vmelogo" class="securePayImage"></div>
+      	          <div id="MPlogo" class="securePayImage"></div>
+            <div class="clear"></div>
+    </div>
+	  	<div class="clear"></div>
+		</div><div class="bun btm"></div>
+	</div>
+    </div>
+  </div>
+  
+  
+  
+  <div id="footerBottomSection">
+  <div id="footerBottomContainer">
+	<div id="footerBottomContent" class="module footerModule"> 
+		<div class="bun top"></div><div class="meat">
+	    <div id="footerToOrder">
+    Call Us Toll-Free! 866-336-9455
+    </div>
+	
+    <div id="footerCopy">
+      <p class="dacopyright"></p>
+      <p id="daPower">Powered by <a href="http://www.connektinc.com/" target="_blank">Connekt</a>, Inc. <span class="copyright">&copy;2017 All Rights Reserved</span></p>
+      <p class="dacopyright">Connekt Returns, 5400 Three Notched Road, Crozet, VA 22932. Connekt, Inc. is the seller of all CBS Store merchandise <span class="dacopysection2">and is solely responsible for all aspects of your purchase.</span></p>
+	      </div>
+      
+		<div class="clear"></div>
+		</div><div class="bun btm"></div>
+  </div>
+  </div>
+  </div>
+  
+  
+  		
+						<div id="left-menu" style="display:none;">
+			<ul>
+			<li><a href="https://secure.cbsstore.com/info.php" title="Customer Service">Customer Service</a></li>
+			<li><a href="https://secure.cbsstore.com/account.php" title="Account">Account</a></li>
+			</ul>
+		</div>
+		</div></footer>
+  
+  </div>  
+  
+
+
+
+
+
+
+  
+
+
+      
+	<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	    <script type="text/javascript" src="/js/plugins/flexSlider/jquery.flexslider.js?ver=56"></script>    <script src="/genericplus/js/ajax/quickView.js?ver=56"></script>    	<script>
+    	jQuery.noConflict();
+    	(function($) {
+						if($("#headerCustomTop").length == 0) {
+				var mH = $( "#mobileHeader" ).height();
+				$( "#respNavContent" ).css('margin-top',mH+'px');
+				$(window).resize(function(){
+					if ( $(window).width() > 768 ){ 
+						$( "#respNavContent" ).hide(); $( "#catNav" ).show();
+						$( "#sideContent" ).show();
+						$( "#sli_facets" ).show();
+					};
+				});
+			}
+						$( "#mobile-button-menu" ).click(function() {
+				$('html, body').animate({scrollTop : 0},800);
+				$( "#respNavContent" ).toggleClass('show').slideToggle('fast').animate({ scrollTop: $('#header').offset().top }, 1000);
+			});
+			
+			$( ".header-button-search" ).click(function() {
+				$( "#search" ).toggleClass('show');
+				if ($("#sli_search_1".length)) {$("#sli_search_1").focus();}
+			});
+			$( ".button-menu" ).click(function() {
+				$( this ).toggleClass('show');
+				$( this ).siblings('.button-menu-content').slideToggle('fast');
+			});
+			$( "#done-button-menu" ).click(function() {
+				$( "#cat-button-menu" ).toggleClass('show');
+				$( "#cat-button-menu" ).siblings('.button-menu-content').slideToggle('fast');
+			});
+			
+			    	})(jQuery);
+    	</script>
+
+
+     
+        <script src="/js/mootools-1.2.6-core-jm.js"></script>
+        <script src="/js/mootools-1.2.5.1-more.js"></script>
+    
+    
+	<script src="/js/ajax/ajaxOverlay-1.2.js?ver=56" type="text/javascript"></script>    <script src="/js/ajax/ajaxPopup-1.2.js?" type="text/javascript"></script>	
+    
+    
+
+<script src="/genericplus/js/plugins/loading-overlay.min.js"></script><script src="/genericplus/js/quickcart.js"></script><script src="/js/formvalidate.js?ver=56" type="text/javascript"></script><script src="/genericplus/js/global.js?ver=56"></script><script type="text/javascript">
+   var _email = "";
+   var is_masterpass = false;
+   
+
+  
+  function openCS(url, network){
+	if (url.indexOf("musictoday") !=-1) {
+        var url = escape( url );
+        var urlString = 'http://www.cbsstore.com/info.php?cs='+url;
+	    if( network ) { 
+	        urlString += '&net='+network;
+	    }
+	} else {
+	    var urlString = url;
+	}
+	window.open(urlString, 'cswin','height=700,width=980,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,directories=no,status=no');
+  }
+
+  function popUpWindow(URL, w, h) {
+    radiopage = window.open(URL, 'radiopage', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width='+w+',height='+h+',left = 312,top = 184');
+    radiopage.focus();
+  }
+   
+   
+  function SetAllCheckBoxes(FormName, FieldName, CheckValue) {
+    if(!document.forms[FormName])
+      return;
+    var objCheckBoxes = document.forms[FormName].elements[FieldName];
+    if(!objCheckBoxes)
+      return;
+    var countCheckBoxes = objCheckBoxes.length;
+    if(!countCheckBoxes)
+      objCheckBoxes.checked = CheckValue;
+    else
+      // set the check value for all check boxes
+      for(var i = 0; i < countCheckBoxes; i++)
+          objCheckBoxes[i].checked = CheckValue;
+  }
+  
+ //if click dropdown arrow
+ jQuery.noConflict();
+	(function($){
+        $(window).ready(function(){
+            if ( is_masterpass == true) {
+               $("#guestEmail").val(_email);
+            }
+           });
+	
+        $('.dropdownTrigger').on('click', function(e){
+			e.preventDefault();
+			if ($(this).parent().parent('#socialBtns').length > 0) {
+				$('.open').not($('.socialLinks')).removeClass('open');
+				$('.active').not($('.socialLinks')).removeClass('active');
+				$(this).parent().parent().parent().toggleClass('open');
+			}
+			else {
+				$('.open').not(this).removeClass('open');
+				$('.active').not($(this).siblings()).removeClass('active');
+				$(this).siblings('.dropdown').toggleClass('active');
+				$(this).toggleClass('open');
+			}
+            e.stopPropagation();
+        });
+        //if html is clicked turn off drop down
+        $('html').on('click', function(e){
+            if ($('.dropdown').hasClass('active')) {
+                $('.dropdown').removeClass('active');
+                stopPropEvents();
+            }
+			$('.socialLinks').removeClass('open');
+			if ($('.dropdownTrigger').hasClass('open')) {
+			   $('.dropdownTrigger').removeClass('open');
+			}
+        });
+        //if ESC is press close drop down
+        $('html').on({
+            'keydown': function(e){
+                if (e.keyCode == 27 && $('.dropdown').hasClass('active')) {
+                   $('.dropdown').removeClass('active');
+				   $('.socialLinks').removeClass('open');
+                    stopPropEvents();
+                }
+            }
+        });
+		
+        $('.closeBtn').on('click', function(e){
+            hideOverlay('bodyOverlay');
+            hideEmailPopup();
+        });
+        $('#optinCheck').on('click', function(e){
+			if ($(this).is(':checked')) {
+				if($('#cableProvider').is(":hidden")) {
+					$('#cableProvider').show();
+					if ($('#cableProvider select').attr('disabled')) {
+						$('#cableProvider select').removeAttr('disabled')
+					}
+				}
+			}
+			else {
+				if($('#cableProvider').is(":visible")) {
+					$('#cableProvider').hide();
+				    $('#cableProvider select').attr({'disabled': 'disabled'});
+				}
+			}
+		
+		});
+        //prevent body event from closing the dropdown when dropdown is clicked
+        stopPropEvents();
+        enterEvent();
+        function toggleNav(navTriggerId,navContentId) {
+		$(navContentId).toggleClass('on');
+		if (!$(navContentId).is(":visible")) {
+			$(navContentId).show();
+		}
+		else {	   
+			$(navContentId).hide();
+		}};
+        function stopPropEvents(){
+            $('#socialBtns').on('click', function(e){
+                e.stopPropagation();
+            });
+        }
+		 function enterEvent(){
+    
+            $('#emailSignup').on({
+                
+                'submit': function(){
+                    if(ValidateForm('promo')){
+                        newsletterRegister();
+                        
+                    }
+                    return false;
+                }
+            });    
+
+        }
+		// collapsible left navigation for TCM facets 
+		if ($('.view-tcm #sliNav').length || $('.device-mobile').length) {
+			$("#sliNav li > span").click(function(){
+						$(this).next().toggle();
+			return false;
+			});
+			$("#sliNavFacet_studio span").next().hide();
+		};
+		
+		// ASOTV Dropdown to accomodate second row of navigation (alphabet index) 
+		  })(jQuery);
+  
+</script>
+
+    
+	
+				 									
+
+			<div class="clear"></div>
+
+
+
+
+<script src="/genericplus/js/plugins/magnific-popup/jquery.magnific-popup.min.js?ver=56"></script><script type="text/javascript">
+	jQuery.noConflict();
+	(function($) {
+		$(document).ready(function() {
+		  $('.popup-youtube').magnificPopup({
+			disableOn: 700,
+			type: 'iframe',
+			mainClass: 'mfp-fade',
+			removalDelay: 160,
+			preloader: false,
+			fixedContentPos: false
+		  });
+		});
+	})(jQuery);
+</script>
+
+  
+    <script src="/genericplus/js/main_cart.js?ver=56"></script>    <script src="/js/ajax/ajaxEditInCart-1.2.js?ver=56" type="text/javascript"></script>    
+<script type="text/javascript" src="https://masterpass.com/lightbox/Switch/integration/MasterPass.client.js"></script>
+<script type="text/javascript">
+
+            
+
+function couponPost(){
+	$.post( "ajax/test.html", function( data ) {
+	$( ".result" ).html( data );
+	});
+}
+
+function expressProcess(action, expressId) {
+	if (document.getElementById('expressProcess') !== null) {
+		showLoader();
+		if (action == "add"){
+				location.href="/cart.php?p=" + expressId;
+			}
+		else {location.href="/cart.php?f=remove&sku=" + expressId;
+		};
+	}
+}
+function ajaxCall(form, values){ 
+    var payload = (form) ? $(form) : values;
+     
+    var ajaxOptions = {
+        url: 'checkout.php?ajax_call=1&data_only=true',
+		onRequest : function(){
+			showLoader();
+		},
+        onComplete: function(results){
+            if(results.error != ""){
+                var ie6 = Browser.Engine.trident4;       
+                if(ie6){
+                    var el = $('shipping_option');
+                    el.style.visibility = el.lbBackupStyle;
+                }
+                
+                $$('.error_message').each(function(error){
+                    error.destroy();
+                });
+                $each(results.error,function( msg, field ){
+                    var error = new Element('div', {'class': 'error_message'}).set('html', msg).injectAfter($('promoError'));
+                });
+                if(form == 'cartcoup'){
+                    $('couponcode').value = '';
+                }
+				document.getElementById("loadingOverlay").remove();
+            } else {
+                document.location = "cart.php";
+            }
+        }
+    }        
+    ajaxRequest = new Request.JSON(ajaxOptions).post(payload);     
+}
+
+function invokeMasterPassLightBox(){
+		jQuery.ajax({
+			type: "POST",
+			url: "/cart.php",
+			data: {masterpass_button_clicked: '1'},
+			dataType: "json",
+			beforeSend : function(){
+				showLoader();
+			},
+			success: function(data){
+				MasterPass.client.checkout(data);
+				document.getElements('div[id=loadingOverlay]').each(function(overlay){
+				overlay.destroy();
+				});
+			},
+			error: function(){
+				alert("error...");
+			}			
+		});
+
+return false;
+}
+function showLoader(){
+    var ie6 = Browser.Engine.trident4;       
+    if(ie6){
+        var el = $('shipping_option');
+        el.lbBackupStyle = el.style.visibility;
+        el.style.visibility = "hidden";
+    }
+    holder = $('cartInner');
+	if (holder == null && document.getElementById('cart-totals') !== null)holder=$('cart-totals');
+	size = holder.getSize();
+    loadOverlay = new Element("div", {id: "loadingOverlay"}).inject(holder, 'top').setStyles({ width: size.x, height: size.y, opacity: 0 });
+    var openOverlay = new Fx.Morph(loadOverlay,{duration: 500});
+    
+    loadOverlay.style.opacity = 0;
+    
+    openOverlay.start({
+        'opacity': [0,OVERLAY_OPACITY]            
+    });
+    
+}
+
+function removeCoupon( couponField, couponForm ) {
+    ajaxCall(null, {'couponcode': ''});
+}
+
+//submit promo code on keydown
+if (document.getElementById('couponcode') !== null) {
+document.getElementById('couponcode').onkeydown=function(event){if (event.keyCode == '13') { ajaxCall('cartcoup');return false;}};
+};
+
+</script> 
+  
+		
+	<script type="text/javascript">
+	var sliSparkJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+	document.write(unescape("%3Cscript src='" + sliSparkJsHost + "b.sli-spark.com/sli-spark.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+		<script type="text/javascript">
+
+	(function($) {
+		$.widget( "ui.autocomplete", $.ui.autocomplete, {
+			   options: {
+				  renderMenu: null
+			   },
+			   _renderMenu: function( ul, items ) {
+				  if ( $.isFunction( this.options.renderMenu ) ) {
+					 this.options.renderMenu( ul, items );
+				  }
+				  this._super( ul, items );
+			   },
+			});
+		 
+	    $( "#sli_search_1" ).autocomplete({
+      minLength: 0,
+      source: function( request, response ) { jQuery.ajax({
+                   type: "GET",
+                   url: '/auto_sli.php/?cnt=5',
+                   dataType:"json",
+                   data:{term: request.term},
+                   beforeSend: function(){
+                       $( "#sli_search_1" ).addClass('loadinggif');
+                   },
+                   success: function(data)
+                   {
+					 $( "#sli_search_1" ).removeClass('loadinggif');
+					 response(data);
+                   }
+           }); },
+      autoFocus: false,
+      delay: 0,
+      select: function( event, ui ) {
+		$( "#sli_search_1" ).val( ui.item.label );
+		location.href = ui.item.url;
+		return false;
+		},
+      focus: function( event, ui ) {
+        $( "#sli_search_1" ).val( ui.item.label );
+        return false;
+      },
+      open: function(){
+        $('.ui-autocomplete').css('width', '1046px');
+        }
+    })
+    .autocomplete( "instance" )._renderItem = function( ul, item ) {
+      return $( "<li>" )
+        .append(   "<img src=" + item.icon + ">" + "<span class='ui-product-name'>" + item.label + 
+        "</span>"  + "<span class='ui-product-desc'>" + item.desc + 
+        "</span><span class='ui-product-price ui-product-price-" + item.price.replace(".","") + " productAddLink'>$" + item.price + "</span><div style='clear:both'>" )
+        .appendTo( ul );
+    };
+    $(document).click(function(event) { 
+    if(!$(event.target).closest('.ui-autocomplete').length) {
+        if($('.ui-autocomplete').is(":visible")) {
+            $('.ui-autocomplete').autocomplete( "close" );
+        }
+    }        
+})
+  })(jQuery);
+  
+  
+</script>
+
+
+
+
+
+
+
+          
+       
+  
+      				   	  	
+	        
+
+
+
+
+
+<!-- Omniture tracking template - generic -->
+<script language="javascript" type="text/javascript">
+  var s = digitalData.config.legacy;
+  var s_account="delagentcbs,delagentglobalrollup"
+  var s_internal_filters="javascript:,http://www.cbsstore.com,https://secure.cbsstore.com/,seenon.com,shopthefilm.com,resultspage.com,resultsdemo.com"
+  s.account = s_account;
+  s.internal_filters = s_internal_filters;
+</script>
+
+<script language="javascript" type="text/javascript" src="/default/behavior/s_code_supplement1.js"></script>
+
+
+
+<script language="javascript" type="text/javascript">
+  var s = digitalData.config.legacy;
+  <!-- 
+  /* Copyright 1997-2004 Omniture, Inc. */
+  s.pageName="CBS Store:Cart:Shopping Cart";
+  s.channel="";
+  s.prop1="CBS Store:Cart";
+  s.prop2="CBS Store:Cart:Shopping Cart";
+  s.prop3="CBS Store:Cart:Shopping Cart";
+  s.prop4="CBS Store:Cart:Shopping Cart";
+  s.prop5="Cart";
+  s.prop6="CBS Store";
+
+  /* E-commerce Variables */
+  s.campaign="";
+  s.state="";
+  s.zip="";
+  s.events="scView";
+  s.products=";";
+  s.purchaseID="";
+    s.eVar2="";
+  s.eVar3="";
+  s.eVar4="";
+  s.eVar5="";
+  s.eVar6="";
+  s.eVar7="";
+  s.eVar8="CBS Store";
+  s.eVar14="";
+  s.eVar15="";
+  s.eVar19="";
+  s.eVar67="";
+
+  /* Non Mobile Variables */ 
+  s.eVar20 ="Web";
+  s.prop8 ="Web";
+
+  /** Store-specific JS overrides **/
+
+-->
+</script>
+
+<!-- Adobe DTM -->
+<script>_satellite.pageBottom();</script>
+
+
+
+ 
+
+
+<script type="text/javascript">
+  var _user_id = '';
+  var _session_id = 'be352e0d9d776954c5b68693bb99bf7a';
+
+  var _sift = _sift || [];
+  _sift.push(['_setAccount', '27f7378ac7']);
+  _sift.push(['_setUserId', _user_id]);
+  _sift.push(['_setSessionId', _session_id]);
+  _sift.push(['_trackPageview']);
+  
+  (function() {
+    function ls() {
+      var e = document.createElement('script');
+      e.type = 'text/javascript';
+      e.async = true;
+      e.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.siftscience.com/s.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(e, s);
+    }
+    if (window.attachEvent) {
+      window.attachEvent('onload', ls);
+    } else {
+      window.addEventListener('load', ls, false);
+    }
+  
+  })();
+  
+</script>
+
+
+  <script type="text/javascript">  
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+
+</script>
+ 
+  <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+  <!-- Include ONCE for ALL buttons in the page -->
+<script type="text/javascript">
+
+(function() {
+    window.PinIt = window.PinIt || { loaded:false };
+    if (window.PinIt.loaded) return;
+    window.PinIt.loaded = true;
+    function async_load(){
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        if (window.location.protocol == "https:")
+            s.src = "https://assets.pinterest.com/js/pinit.js";
+        else
+            s.src = "http://assets.pinterest.com/js/pinit.js";
+        var x = document.getElementsByTagName("script")[0];
+        x.parentNode.insertBefore(s, x);
+    }
+    if (window.attachEvent)
+        window.attachEvent("onload", async_load);
+    else
+        window.addEventListener("load", async_load, false);
+})();
+
+</script>
+
+</div>
+
+ 
+ 
+	
+			
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+																	
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+    <div id="newsletterPopupEmail" class="newsletterPopup" style="display:none;">
+        <div id="newsletterPopup">
+            <a href="javascript:void(0)" class="newsCloseBtn"><span>Close</span></a>
+            <div class="newsEmailHeader"><img src="/img/view/view1/000/117/914/newsletter-popup.jpg" alt="Enjoy new releases, offers & exclusives. 10%* off your purchase now" /></div>			            <form id="signupFormPopup" class="signupFormPopup" name="promomain2">
+                <div class="form-item"><label class="item-name" for="email-popup-email">Email Address<span class="required">*</span></label><input type="text" id="email-popup-email" class="input-box required" name="email" maxlength="48" value="" placeholder="Enter Email Address" /></div>
+				<div class="form-item email-popup-submit">
+					<div class="genLrgBtn">
+					<div class="genLrgBtnLeft"></div>
+					<a class="genLrgBtnCenter newsEmailBtn" href="javascript:void(0)" onclick="newsletterPopupSubmissionTracking('delagentcbs,delagentglobalrollup',this,'event45');">Sign Up for Emails</a>
+					<div class="genLrgBtnRight"></div>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<p class="newsEmailInfo"><a href="javascript:void(0)" class="newsCloseBtn newsCloseBtnClearStyle">No Thanks</a></p>
+				<p class="newsEmailInfo">*Subscribers will be eligible to receive future promotional emails.</p>
+				<p class="newsEmailInfo"><a class="footerLinkItem" href="javascript:void(0)" onclick="openCS('http://cbs.shop.musictoday.com/Help.aspx?band_id=3825&view_in=Television');return false" target="_blank">Privacy Policy</a></p>			</form>
+		</div>
+	</div>
+    <div id="newsletterPopupInfo" class="newsletterPopup" style="display:none;">
+        <div id="newsletterPopup">
+            <a href="javascript:void(0)" class="newsCloseBtn"><span>Close</span></a>
+		            <div class="newsEmailHeader"><img src="/img/view/view2/000/117/914/newsletter-popup.png" alt="Thank you for joining our list! We want to know more about you!" /></div>			            <div class="registerComplete"></div>
+			<form action="/register.php?f=register" id="newsregister" class="signupFormPopup" name="promo" method="post">
+				<input type="hidden" name="email" value="" />
+				<div class="form-item form-item-fname"><label class="item-name" for="email-popup-fname">First Name</label><input type="text" class="input-box" name="fname" placeholder="First Name" id="email-popup-fname" /></div>
+				<div class="form-item form-item-lname"><label class="item-name" for="email-popup-lname">Last Name</label><input type="text" class="input-box" name="lname" placeholder="Last Name" id="email-popup-lname" /></div>
+				<div class="form-item"><label class="item-name" for="email-popup-zipcode">Zip Code</label><input type="text" id="email-popup-zipcode" class="input-box" name="zip" maxlength="9" placeholder="Zip Code" /></div>
+				<div class="form-item form-item-birthdate"><label class="item-name">Birthdate</label>
+                    <input type="hidden" name="birthday" value="true" />
+					<div id="bdmonth">
+						<select name="bMonth" id="birthdaymonth">
+							<option value="">Month</option>
+							<option value="01">1 - January</option>
+							<option value="02">2 - February</option>
+							<option value="03">3 - March</option>
+							<option value="04">4 - April</option>
+							<option value="05">5 - May</option>
+							<option value="06">6 - June</option>
+							<option value="07">7 - July</option>
+							<option value="08">8 - August</option>
+							<option value="09">9 - September</option>
+							<option value="10">10 - October</option>
+							<option value="11">11 - November</option>
+							<option value="12">12 - December</option>
+						</select>
+					</div>
+					<div id="bdday">
+                        <select name="bDate" id="birthdayday">
+                            <option value="">Day</option>
+                            <option value="01">1</option>
+                            <option value="02">2</option>
+                            <option value="03">3</option>
+                            <option value="04">4</option>
+                            <option value="05">5</option>
+                            <option value="06">6</option>
+                            <option value="07">7</option>
+                            <option value="08">8</option>
+                            <option value="09">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+					</div>
+					<input type="hidden" name="bYear" value="2000" />
+					<div class="clear"></div>
+				</div>
+				<div class="form-item form-item-gender"><label class="item-name">Gender</label>
+					<div class="form-item-radio-input form-item-radio-input-male"><input type="radio" name="gender" value="M" id="email-popup-gender-male" /><span for="email-popup-gender-male">Male</span></div>
+					<div class="form-item-radio-input form-item-radio-input-female"><input type="radio" name="gender" value="F" id="email-popup-gender-female" /><span for="email-popup-gender-female">Female</span></div>
+				</div>
+				
+												<div class="form-item email-popup-submit">
+					<div class="genLrgBtn">
+					<div class="genLrgBtnLeft"></div>
+					<a class="genLrgBtnCenter newsUpdateBtn" href="javascript:void(0)" onclick="newsletterPopupSubmissionTracking('delagentcbs,delagentglobalrollup',this,'event46');">Submit</a>
+					<div class="genLrgBtnRight"></div>
+					</div>
+				</div>
+				<p class="newsEmailInfo">*Subscribers will be eligible to receive future promotional emails.</p>
+				<p class="newsEmailInfo"><a href="javascript:void(0)" class="newsCloseBtn newsCloseBtnClearStyle">No Thanks</a></p>
+				<p class="newsEmailInfo"><a class="footerLinkItem" href="javascript:void(0)" onclick="openCS('http://cbs.shop.musictoday.com/Help.aspx?band_id=3825&view_in=Television');return false">Privacy Policy</a></p>			</form>
+				</div>
+    </div>
+	
+ 
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"04d5b32296","applicationID":"35352472,35352473","transactionName":"ZgBQNkNVChUDBkcIWV9KZxBYGxMRFUpWD1FYC1dNVVVKFRYKQQQZWRFWDVJHSwUDF0dPRlkV","queueTime":0,"applicationTime":281,"atts":"SkdTQAtPGRs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
+
+<!-- Nagios Check: cbs --><!-- 0.27300715446472 s -->

@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en"><head prefix="og: http://ogp.me/ns#"><!-- Fly Version: RELEASE_10102017 824b038616f99215f329d6c7f12981130387c2c7 (cbsnews prod_alt) --><title>Princess Di - "Remembering Diana: A Life in Photographs" - Pictures - CBS News</title><meta charset="UTF-8"><meta name="robots" content="index, follow"><meta name="description" content="On the twentieth anniversary of the British royal&amp;#039;s tragic death, a new book illustrates the remarkable life of the princess whose marriage, motherhood, divorce and social activism captivated the world"><meta name="keywords" content="Princess Diana, tina brown,  ,pictures, photos, cbs news photos, cbs news, cbsnews.com"><link rel="next" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/2/"><meta name="viewport" content="width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UQIHWFZbGwsEUFhQBgQ="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script><link rel="apple-touch-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/apple-touch-icon.png?v=824b038616f99215f329d6c7f12981130387c2c7"><meta property="al:web:url" content="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/"><meta property="al:ios:app_name" content="CBS News"><meta property="al:ios:app_store_id" content="334256223"><meta property="al:ios:url" content="cbsnewsapp://pictures/remembering-diana-a-life-in-photographs/"><meta property="al:android:app_name" content="CBS News"><meta property="al:android:package" content="com.treemolabs.apps.cbsnews"><meta property="og:type" content="article"><meta property="og:url" content="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/"><meta property="og:title" content='"Remembering Diana: A Life in Photographs"'><meta property="og:description" content="On the twentieth anniversary of the British royal's tragic death, a new book illustrates the remarkable life of the princess whose marriage, motherhood, divorce and social activism captivated the world"><meta property="og:image" content="https://cbsnews1.cbsistatic.com/hub/i/2017/08/07/7c962539-aebc-4646-9fe1-0c6ff3a4f39d/remembering-diana-p73-promo.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="fb:app_id" content="1536620209892267"><meta property="fb:pages" content="264972983556381"><meta name="twitter:app:country" content="US"><meta name="twitter:app:name:iphone" content="CBS News"><meta name="twitter:app:id:iphone" content="334256223"><meta name="twitter:app:url:iphone" content="cbsnewsapp://pictures/remembering-diana-a-life-in-photographs/"><meta name="twitter:app:name:ipad" content="CBS News"><meta name="twitter:app:id:ipad" content="334256223"><meta name="twitter:app:url:ipad" content="cbsnewsapp://pictures/remembering-diana-a-life-in-photographs/"><meta name="twitter:app:name:googleplay" content="CBS News"><meta name="twitter:app:id:googleplay" content="com.treemolabs.apps.cbsnews"><meta name="twitter:app:url:googleplay" content="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@cbsthismorning"><meta name="twitter:title" content='"Remembering Diana: A Life in Photographs"'><meta name="twitter:description" content="On the twentieth anniversary of the British royal's tragic death, a new book illustrates the remarkable life of the princess whose marriage, motherhood, divorce and social activism captivated the world"><meta name="twitter:image" content="https://cbsnews1.cbsistatic.com/hub/i/2017/08/07/7c962539-aebc-4646-9fe1-0c6ff3a4f39d/remembering-diana-p73-promo.jpg"><script type="application/ld+json">
+      {"@context":"https:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.cbsnews.com\/pictures\/remembering-diana-a-life-in-photographs\/"},"headline":"\"Remembering Diana: A Life in Photographs\"","description":"On the twentieth anniversary of the British royal\u0027s tragic death, a new book illustrates the remarkable life of the princess whose marriage, motherhood, divorce and social activism captivated the world","articleSection":null,"image":{"@context":"https:\/\/schema.org","@type":"ImageObject","height":630,"width":1200,"url":"https:\/\/cbsnews2.cbsistatic.com\/hub\/i\/r\/2017\/08\/07\/7c962539-aebc-4646-9fe1-0c6ff3a4f39d\/thumbnail\/1200x630\/756b9becaf4daa0c4c0794eea708b384\/remembering-diana-p73-promo.jpg"},"keywords":["tina brown","Princess Diana"],"datePublished":"2017-08-07T10:37:51-0400","dateModified":"2017-08-07T10:37:51-0400","author":{"@context":"https:\/\/schema.org","@type":"Organization","name":"CBS News","url":"https:\/\/www.cbsnews.com\/","logo":{"@type":"ImageObject","url":"https:\/\/cbsnews4.cbsistatic.com\/fly\/bundles\/cbsnewscore\/images\/standalone\/cbsnews-logo-600x60.png","width":600,"height":60}},"publisher":{"@context":"https:\/\/schema.org","@type":"Organization","name":"CBS News","url":"https:\/\/www.cbsnews.com\/","logo":{"@type":"ImageObject","url":"https:\/\/cbsnews4.cbsistatic.com\/fly\/bundles\/cbsnewscore\/images\/standalone\/cbsnews-logo-600x60.png","width":600,"height":60}},"articleBody":{"@context":"https:\/\/schema.org","@type":"Text","@id":"#article-entry"},"alternativeHeadline":null}
+    </script><script type="application/ld+json">
+      {"@context":"http:\/\/schema.org\/","@type":"WebPage","name":"\"Remembering Diana: A Life in Photographs\"","url":"https:\/\/www.cbsnews.com\/pictures\/remembering-diana-a-life-in-photographs\/","speakable":{"@type":"SpeakableSpecification","cssSelector":[".meta.selected .hed"],"xpath":["\/\/meta[@name=\"description\"]\/@content"]}}
+    </script><script type="application/ld+json">
+      {"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https:\/\/www.cbsnews.com\/cbs-this-morning\/","name":"CBS This Morning"}}]}
+    </script><meta property="article:author" content=""><meta property="article:publisher" content="https://www.facebook.com/CBSThisMorning"><meta property="article:published_time" content="2017-08-07T14:37:51Z"><link rel="alternate" href="android-app://com.treemolabs.apps.cbsnews/http/www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/"><link rel="preconnect dns-prefetch" href="//cbsnews1.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews2.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews3.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews4.cbsistatic.com"><link rel="canonical" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-16x16.png?v=824b038616f99215f329d6c7f12981130387c2c7" sizes="16x16"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-32x32.png?v=824b038616f99215f329d6c7f12981130387c2c7" sizes="32x32"><link rel="shortcut icon" type="image/x-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico?v=824b038616f99215f329d6c7f12981130387c2c7"><link rel="apple-touch-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/apple-touch-icon.png?v=824b038616f99215f329d6c7f12981130387c2c7"><svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;" class="site-header__icon-definitions"><defs><symbol id="icon-social-email" viewbox="0 0 32 32"><path d="M29.844 24c1.371-2.355 2.156-5.078 2.156-8 0-8.836-7.164-16-16-16s-16 7.164-16 16 7.164 16 16 16c4.418 0 8.418-1.789 11.312-4.688l-2.832-2.832c-2.171 2.176-5.171 3.52-8.48 3.52-6.617 0-12-5.383-12-12s5.383-12 12-12 12 5.383 12 12c0 1.422-0.273 2.781-0.73 4.047l-0.032-0.047h-3.238v-11.957h-8c-4.418 0-8 3.582-8 8s3.582 8 8 8c1.836 0 3.508-0.645 4.859-1.684 0.727 0.969 1.836 1.641 3.141 1.641h5.844zM20 14.008v2.035c0 2.207-1.797 4-4 4s-4-1.793-4-4 1.797-4 4-4h4v1.965z"></path></symbol><symbol id="icon-social-youtube" viewbox="0 0 32 32"><path d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z"></path></symbol><symbol id="icon-social-instagram" viewbox="0 0 32 32"><path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path><path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path><path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path></symbol><symbol id="icon-social-twitter" viewbox="0 0 32 32"><path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path></symbol><symbol id="icon-social-facebook" viewbox="0 0 32 32"><path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path></symbol></defs></svg><style>
+      
+@font-face{font-family:'museo-sans';src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot");src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.svg#svgFontName") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'museo-sans-500';src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.eot");src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.svg#svgFontName") format("svg");font-weight:bold;font-style:normal}
+
+
+    </style><link rel="stylesheet" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/css/main.cbs-this-morning.desktop.css?v=824b038616f99215f329d6c7f12981130387c2c7"><!--[if lt IE 9]>
+    <script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js/libs/html5shiv-printshiv.js?v=824b038616f99215f329d6c7f12981130387c2c7"></script>
+    <![endif]--></head><body data-cms-edit='{"url":"https:\/\/cms.cbsnews.com\/content\/gallery\/remembering-diana-a-life-in-photographs"}' class="desktop
+ gallery">
+        
+    <!-- src/CbsNews/CoreBundle/Resources/views/Layout/default.desktop.html.twig -->
+
+                <!-- comscorekw=cbsthismorning -->
+    
+
+    
+    <div id="fb-root"></div>
+                    <div id="intromercial-59dd1ad448e17" class="ad-intromercial" data-ad="intromercial" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-59dd1ad448e17 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-59dd1ad448e17");
+    </script></div>
+
+    	<div class="body-container">
+
+         <!-- src/CbsNews/CoreBundle/Resources/views/Theme/cbs-this-morning/header.desktop.html.twig -->
+
+<header class="site-header nocontent"><div id="breakingNewsBanner" data-component="ticker">
+        <include src="/feedfiles/breakingnews.desktop.html" onerror="continue"></include></div>
+
+    <div class="supplemental">
+    <div class="container">
+        <div class="col-9">
+            
+        <nav class="site-shows"><ul class="items"><li><a class="module-click-tracking" href="/" data-tracking="site header-show-nav|CBS News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/pictures/remembering-diana-a-life-in-photographs/ Show-nav|CBS News"}' aria-label="">CBS News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/evening-news/" data-tracking="site header-show-nav|CBS Evening News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/pictures/remembering-diana-a-life-in-photographs/ Show-nav|CBS Evening News"}' aria-label="">CBS Evening News</a></li>
+                                                                        <li><a class="selected module-click-tracking" href="/cbs-this-morning/" data-tracking="site header-show-nav|CBS This Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/pictures/remembering-diana-a-life-in-photographs/ Show-nav|CBS This Morning"}' aria-label="selected">CBS This Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/48-hours/" data-tracking="site header-show-nav|48 Hours" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/pictures/remembering-diana-a-life-in-photographs/ Show-nav|48 Hours"}' aria-label="">48 Hours</a></li>
+                                                                        <li><a class="module-click-tracking" href="/60-minutes/" data-tracking="site header-show-nav|60 Minutes" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/pictures/remembering-diana-a-life-in-photographs/ Show-nav|60 Minutes"}' aria-label="">60 Minutes</a></li>
+                                                                        <li><a class="module-click-tracking" href="/sunday-morning/" data-tracking="site header-show-nav|Sunday Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/pictures/remembering-diana-a-life-in-photographs/ Show-nav|Sunday Morning"}' aria-label="">Sunday Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/face-the-nation/" data-tracking="site header-show-nav|Face The Nation" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/pictures/remembering-diana-a-life-in-photographs/ Show-nav|Face The Nation"}' aria-label="">Face The Nation</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbsn-originals/" data-tracking="site header-show-nav|CBSN Originals" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/pictures/remembering-diana-a-life-in-photographs/ Show-nav|CBSN Originals"}' aria-label="">CBSN Originals</a></li>
+            </ul></nav></div>
+        
+        <div class="col-3">
+            
+<form class="site-search" method="get" action="/search/">
+    <div class="search-wrapper" data-component="placeholder">
+        <input class="query" type="search" name="q" maxlength="255" placeholder="Search"></div>
+    <button class="submit core-search-header" type="submit">GO</button>
+</form>
+<ul class="login-wrapper logged-in"><li>
+        <!--<li class="site-section-tab"><a href="//secure-fly.cbsnews.com/user/registration/" data-user-show="register"><span>Join</span></a></li>-->
+                     <a class="site-login" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Channel Button"}'><span class="text">Log In</span></a>
+                <div class="menu-wrapper sign-in">
+            <span class="hover-padding"></span>
+            <span class="arrow"></span>
+            <ul class="login"><li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/login/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Login"}'>Log In</a>
+                    </li>
+                    <li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/registration/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Join CBSNews"}'>Join CBSNews.com</a>
+                    </li>
+                                                </ul></div>
+    </li>
+</ul></div>
+    </div>
+</div>    <div class="primary">
+        <div class="container">
+            <div class="arrow-down"></div>
+            <div class="logo-bg"></div>
+            <div class="logo">
+                                    <a href="/cbs-this-morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS This Morning-nav|Home"}'>CBS This Morning</a>
+                            </div>
+
+            <nav class="site-sections"><ul class="items"><li class="site-section-tab cbstm-tab-today's-rundown flyout  " data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/cbstm-rundown\/cbsthismorning"}'><a href="#" data-click-tracking="genericClickCbsNews" data-omniture-track-data="{&quot;clickProperty&quot;: &quot;Show Header|CBS This Morning-nav|Today's Rundown&quot;}"><span>Today's Rundown</span>
+                                                            <span class="cbstm-arrow"></span>
+                                                    </a>
+                                                    </li>
+                                                                                                                                            <li class="site-section-tab cbstm-tab-politics-&amp;-power   "><a href="/cbs-this-morning/politics-and-power/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS This Morning-nav|Politics &amp; Power"}'><span>Politics &amp; Power</span>
+                                                    </a>
+                                                    </li>
+                                                                                                                                            <li class="site-section-tab cbstm-tab-features   "><a href="/cbs-this-morning/features/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS This Morning-nav|Features"}'><span>Features</span>
+                                                    </a>
+                                                    </li>
+                                                                                                                                            <li class="site-section-tab cbstm-tab-pop-culture   "><a href="/cbs-this-morning/pop-culture/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS This Morning-nav|Pop Culture"}'><span>Pop Culture</span>
+                                                    </a>
+                                                    </li>
+                                                                                                                                            <li class="site-section-tab cbstm-tab-ctm-saturday   "><a href="/cbs-this-morning/saturday/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS This Morning-nav|CTM Saturday"}'><span>CTM Saturday</span>
+                                                    </a>
+                                                    </li>
+                                                                                                                                            <li class="site-section-tab cbstm-tab-more  dropdown " data-component="dropdown" data-dropdown-options='{"event":"hover","selectorTrigger":"a","classSelected":"selected"}'><a href="#" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS This Morning-nav|More"}'><span>More</span>
+                                                            <span class="cbstm-arrow"></span>
+                                                    </a>
+                                                            <div class="dropdown-content dropdown-menu">
+                                    <div class="listing-basic">
+                                        <ul class="items"><li class=""><a href="/cbs-this-morning/morning-rounds/" class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS This Morning-nav|Morning Rounds"}'><span>Morning Rounds</span></a></li>
+                                                                                                                                            <li class=""><a href="/cbs-this-morning/books/" class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS This Morning-nav|Bookmark"}'><span>Bookmark</span></a></li>
+                                                                                                                                            <li class=""><a href="/cbs-this-morning/note-to-self/" class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS This Morning-nav|Note to Self"}'><span>Note to Self</span></a></li>
+                                                                                                                                            <li class=""><a href="/cbs-this-morning/the-green-room/" class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS This Morning-nav|Green Room"}'><span>Green Room</span></a></li>
+                                                                                                                                            <li class=""><a href="/news/cbs-this-morning-podcast-download-how-to-listen/" class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS This Morning-nav|Podcast"}'><span>Podcast</span></a></li>
+                                                                                                                                            <li class=""><a href="/news/cbs-this-morning-resident-cartoonist-liza-donnelly/" class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS This Morning-nav|CTM Cartoons"}'><span>CTM Cartoons</span></a></li>
+                                                                                                                                            <li class=""><a href="/cbs-this-morning/eye-opener/" class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS This Morning-nav|Eye Opener"}' data-vanity-rewritten="true"><span>Eye Opener</span></a></li>
+                                                                                                                                            <li class=""><a href="/feature/eye-on-money/" class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|CBS This Morning-nav|Eye on Money"}' data-vanity-rewritten="true"><span>Eye on Money</span></a></li>
+                                                                                    </ul></div>
+                                </div>
+                                                    </li>
+                                    </ul></nav></div>
+    </div>
+
+</header><div id="mantle_skin" class="content-primary content-primary-inverse pictures-page">
+                                    <div id="leader-top-59dd1ad448e17" class="ad-leader-top" data-ad="leader-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-top-59dd1ad448e17 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-top-59dd1ad448e17");
+    </script></div>
+
+                <div class="container">
+    <div class="row">
+                    <div class="row">
+    
+            
+                                
+    <div class="col-12 ">
+                                    
+                                    
+                                            
+    
+
+                        <div class="image-gallery content-primary-inverse" data-component="imageGallery" data-image-gallery-options='{"count":27,"index":1,"gridSize":24,"countTemplate":"&lt;span class=\u0022index\u0022&gt;{index}&lt;\/span&gt;&lt;span class=\u0022slash no-padding\u0022&gt;\/&lt;\/span&gt;&lt;span class=\u0022count\u0022&gt;{count}&lt;\/span&gt;"}'>
+                                    <header class="row"><div class="col-8 title-container">
+                            <h1 class="title">"Remembering Diana: A Life in Photographs"</h1>
+                            
+
+
+<div data-component="sharebar" class="social sharebar_condensed
+            theme-dark
+    
+    ">
+    <div class="social-icons social-button-group">
+    
+        <ul><li class="icon">
+                <a data-button="popup" data-popup="facebook" href="https://www.facebook.com/sharer/sharer.php?app_id=79439656165&amp;u=https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs&amp;display=popup&amp;ref=plugin&amp;src=share_button" title="Share on Facebook" target="_blank">
+                    <span class="facebook">Facebook</span>
+                </a>
+            </li>
+            <li class="icon">
+                              <a data-button="popup" data-popup="twitter" data-height="450" href="https://twitter.com/intent/tweet?text=%20%22Remembering%20Diana:%20A%20Life%20in%20Photographs%22%20&amp;url=https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs&amp;via=cbsnews&amp;related=cnet%2Czdnet" title="Share on Twitter" target="_blank">
+                    <span class="twitter">Twitter</span>
+                </a>
+            </li>
+        </ul></div>
+
+</div>
+
+                        </div>
+                        <div class="col-4 tools">
+                                                            <div class="count pagination" data-item="image-count"><span class="index">1</span><span class="slash ">/</span><span class="count">28</span></div>                                                                                        <div class="thumb-control">
+                                    <div class="thumb-icon-wrapper"><div class="thumb-icon" tabindex="0" aria-label="View Thumbnails" role="button" data-to="thumbs"></div></div>
+                                    <div class="controls">
+                                                                                    <a class="prev disabled" tabindex="2" role="button" aria-label="Previous Image" data-to-nav="previous" data-omniture-track="trackView">Back</a>
+                                                                                <a class="next" tabindex="3" aria-label="Next Image" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/2/" data-to-nav="next" data-omniture-track="trackView" data-invalid-url-rewritten-http="">Next</a>
+                                    </div>
+                                                                            <div class="thumbs" data-item="thumb-viewport">
+    <ul class="thumb-grid" data-item="thumb-grid" data-grid-index="1"><li>
+            <a class="selected" aria-label="Princess Di" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Princess Di" data-to-image="1" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-1"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/dc2e48b5-61d3-4c79-8824-bc659e8b75ba/thumbnail/60x60/e63e5f33d95328e6e238d91b0449785a/remembering-diana-046.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/dc2e48b5-61d3-4c79-8824-bc659e8b75ba/thumbnail/60x60/e63e5f33d95328e6e238d91b0449785a/remembering-diana-046.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/dc2e48b5-61d3-4c79-8824-bc659e8b75ba/thumbnail/120x120/ca426687baba48a3b9ec9a61c8092121/remembering-diana-046.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Lady Diana" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/2/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Lady Diana" data-to-image="2" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-2"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/3c1229f7-dea1-46fa-9c35-93f7f6dedc7f/thumbnail/60x60/62b032f25bc1991cc6be1622d504ca03/remembering-diana-p36.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/3c1229f7-dea1-46fa-9c35-93f7f6dedc7f/thumbnail/60x60/62b032f25bc1991cc6be1622d504ca03/remembering-diana-p36.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/3c1229f7-dea1-46fa-9c35-93f7f6dedc7f/thumbnail/120x120/c3936c4e218fdd520074492a5983312d/remembering-diana-p36.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Lady Diana" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/3/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Lady Diana" data-to-image="3" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-3"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/29add7d0-6e30-4f48-a5f2-383bb6e6cb02/thumbnail/60x60/2ee50f16023ca252dd07ec2256dfcf38/remembering-diana-p31.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/29add7d0-6e30-4f48-a5f2-383bb6e6cb02/thumbnail/60x60/2ee50f16023ca252dd07ec2256dfcf38/remembering-diana-p31.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/29add7d0-6e30-4f48-a5f2-383bb6e6cb02/thumbnail/120x120/ffda76b35a11284d3503dca9561221f6/remembering-diana-p31.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Lady Diana" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/4/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Lady Diana" data-to-image="4" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-4"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/c3379791-853c-4307-8315-720dfb24f959/thumbnail/60x60/7595d82e0c7cced51de5232c62e37042/remembering-diana-p35.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/c3379791-853c-4307-8315-720dfb24f959/thumbnail/60x60/7595d82e0c7cced51de5232c62e37042/remembering-diana-p35.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/c3379791-853c-4307-8315-720dfb24f959/thumbnail/120x120/d26f66b7bf89640ba2186574605f8a7f/remembering-diana-p35.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Lady Diana" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/5/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Lady Diana" data-to-image="5" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-5"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/e62fa456-895b-4bd0-8c09-4b5eef1f6618/thumbnail/60x60/bd0fe7cf2e983be4d88cc3ebe7ff78bf/remembering-diana-p34.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/e62fa456-895b-4bd0-8c09-4b5eef1f6618/thumbnail/60x60/bd0fe7cf2e983be4d88cc3ebe7ff78bf/remembering-diana-p34.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/e62fa456-895b-4bd0-8c09-4b5eef1f6618/thumbnail/120x120/6d71c6d829aeac54364a260dda22a720/remembering-diana-p34.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Lady Diana" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/6/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Lady Diana" data-to-image="6" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-6"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/e458fcd2-4875-46f1-bd27-c7e63168420e/thumbnail/60x60/9f106b4337918f3cd1d0c4b0b911bde7/remembering-diana-p38.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/e458fcd2-4875-46f1-bd27-c7e63168420e/thumbnail/60x60/9f106b4337918f3cd1d0c4b0b911bde7/remembering-diana-p38.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/e458fcd2-4875-46f1-bd27-c7e63168420e/thumbnail/120x120/48a162efdefaedc3108dabf769e47bac/remembering-diana-p38.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Engagement" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/7/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Engagement" data-to-image="7" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-7"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/dfec0a88-08eb-4877-8193-7989da76a974/thumbnail/60x60/298d36eb82291b1a5a13e6d2826b1f98/remembering-diana-p48-49.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/dfec0a88-08eb-4877-8193-7989da76a974/thumbnail/60x60/298d36eb82291b1a5a13e6d2826b1f98/remembering-diana-p48-49.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/dfec0a88-08eb-4877-8193-7989da76a974/thumbnail/120x120/ea6cd509c298c9816050f5e425bc190c/remembering-diana-p48-49.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Engagement" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/8/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Engagement" data-to-image="8" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-8"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/a9710c04-bff6-4940-beef-dc896c0a1089/thumbnail/60x60/340ea4dab3dda48ab500c45ac7b1ca29/remembering-diana-p46.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/a9710c04-bff6-4940-beef-dc896c0a1089/thumbnail/60x60/340ea4dab3dda48ab500c45ac7b1ca29/remembering-diana-p46.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/a9710c04-bff6-4940-beef-dc896c0a1089/thumbnail/120x120/1cf6fabcf1d76e137b08701f203e7c27/remembering-diana-p46.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Royal Wedding" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/9/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Royal Wedding" data-to-image="9" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-9"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/ff8b3aed-1aee-416e-95cb-7b1df038c989/thumbnail/60x60/b53d7887e98f080888d96bbd4b8f2258/remembering-diana-p54-55.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/ff8b3aed-1aee-416e-95cb-7b1df038c989/thumbnail/60x60/b53d7887e98f080888d96bbd4b8f2258/remembering-diana-p54-55.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/ff8b3aed-1aee-416e-95cb-7b1df038c989/thumbnail/120x120/8c2fa18f73f71d05193dff4899746c0b/remembering-diana-p54-55.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Princess of Wales" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/10/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Princess of Wales" data-to-image="10" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-10"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/ed9a3841-3a97-4110-a615-aa1104977a6b/thumbnail/60x60/a8664574fe8cb7dabf423dd995507482/remembering-diana-p73.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/ed9a3841-3a97-4110-a615-aa1104977a6b/thumbnail/60x60/a8664574fe8cb7dabf423dd995507482/remembering-diana-p73.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/ed9a3841-3a97-4110-a615-aa1104977a6b/thumbnail/120x120/6ba11121114a1eb72cc379f598e91b2f/remembering-diana-p73.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Mother and Son" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/11/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Mother and Son" data-to-image="11" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-11"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/f9c85f82-874f-4b57-9a56-3a65deb8ba26/thumbnail/60x60/29d8a4ba74a5669d5ee1edd14d2a5e65/remembering-diana-p66.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/f9c85f82-874f-4b57-9a56-3a65deb8ba26/thumbnail/60x60/29d8a4ba74a5669d5ee1edd14d2a5e65/remembering-diana-p66.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/f9c85f82-874f-4b57-9a56-3a65deb8ba26/thumbnail/120x120/62f104d92bd165fb91c00dea7d05f7b8/remembering-diana-p66.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Royal Couple" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/12/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Royal Couple" data-to-image="12" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-12"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/e105684e-0cc9-40c0-97e3-53a66ae63f45/thumbnail/60x60/665bdbde8c99065a0065a072d6d358b9/remembering-diana-p75.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/e105684e-0cc9-40c0-97e3-53a66ae63f45/thumbnail/60x60/665bdbde8c99065a0065a072d6d358b9/remembering-diana-p75.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/e105684e-0cc9-40c0-97e3-53a66ae63f45/thumbnail/120x120/b32638a313cbd820e4cec1dc6cbcef86/remembering-diana-p75.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="The Young Princes" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/13/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="The Young Princes" data-to-image="13" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-13"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/89d2a63a-64d1-4e53-ab05-762792f26355/thumbnail/60x60/73af291a72082ba3294c7cb82bd6ee13/remembering-diana-p82-83.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/89d2a63a-64d1-4e53-ab05-762792f26355/thumbnail/60x60/73af291a72082ba3294c7cb82bd6ee13/remembering-diana-p82-83.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/89d2a63a-64d1-4e53-ab05-762792f26355/thumbnail/120x120/e1d64ee43f15f2b465a656cb327c659c/remembering-diana-p82-83.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Royal Family" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/14/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Royal Family" data-to-image="14" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-14"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/7fd5e1d8-8a68-4745-a99a-30ab1417d989/thumbnail/60x60/8906323f8bb4bb3c821eef9f03234fad/remembering-diana-p87.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/7fd5e1d8-8a68-4745-a99a-30ab1417d989/thumbnail/60x60/8906323f8bb4bb3c821eef9f03234fad/remembering-diana-p87.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/7fd5e1d8-8a68-4745-a99a-30ab1417d989/thumbnail/120x120/5c89ca4f3d84b1a4bd9eeaab95e76361/remembering-diana-p87.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Princess of Wales" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/15/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Princess of Wales" data-to-image="15" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-15"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/d56a5494-a187-4eac-a380-4aec2492e276/thumbnail/60x60g2/aeeee70dd2f8f2f731230cb4da751280/remembering-diana-p88-89.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/d56a5494-a187-4eac-a380-4aec2492e276/thumbnail/60x60g2/aeeee70dd2f8f2f731230cb4da751280/remembering-diana-p88-89.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/d56a5494-a187-4eac-a380-4aec2492e276/thumbnail/120x120g2/5eeab9a799b823e2fa8d2dc688f24159/remembering-diana-p88-89.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Princess of Wales" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/16/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Princess of Wales" data-to-image="16" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-16"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/3f0780d0-11e7-4eee-855b-fceb14637873/thumbnail/60x60/21a458d216e0bf1dcc19ac76d93f2f74/remembering-diana-p186.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/3f0780d0-11e7-4eee-855b-fceb14637873/thumbnail/60x60/21a458d216e0bf1dcc19ac76d93f2f74/remembering-diana-p186.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/3f0780d0-11e7-4eee-855b-fceb14637873/thumbnail/120x120/5e755292fd40f47790ea39ef0fc2aa47/remembering-diana-p186.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Child's Play" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/17/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Child's Play" data-to-image="17" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-17"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/fcda8af8-0e4a-49fd-a4d6-36357413ce36/thumbnail/60x60/bc944e039cb962f726b0480fa6574182/remembering-diana-p93.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/fcda8af8-0e4a-49fd-a4d6-36357413ce36/thumbnail/60x60/bc944e039cb962f726b0480fa6574182/remembering-diana-p93.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/fcda8af8-0e4a-49fd-a4d6-36357413ce36/thumbnail/120x120/ada2fc6c5c6b9a87f49d33bf31201f84/remembering-diana-p93.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Princess of Wales" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/18/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Princess of Wales" data-to-image="18" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-18"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/8be08c2c-086c-4d50-a20b-b8918b10371a/thumbnail/60x60/031159d9100f64d5258bef241608651d/remembering-diana-p196-197.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/8be08c2c-086c-4d50-a20b-b8918b10371a/thumbnail/60x60/031159d9100f64d5258bef241608651d/remembering-diana-p196-197.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/8be08c2c-086c-4d50-a20b-b8918b10371a/thumbnail/120x120/d18197146cc2c40ca210e2052f405ca8/remembering-diana-p196-197.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Vacation" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/19/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Vacation" data-to-image="19" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-19"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/588d2ca0-cf87-4293-86cf-632728ba466b/thumbnail/60x60/6a041a9805071876f9b3d5cb7b9c11c8/remembering-diana-p92.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/588d2ca0-cf87-4293-86cf-632728ba466b/thumbnail/60x60/6a041a9805071876f9b3d5cb7b9c11c8/remembering-diana-p92.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/588d2ca0-cf87-4293-86cf-632728ba466b/thumbnail/120x120/10466f79e98fc4234fbf8eac562db8bc/remembering-diana-p92.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Mother and Son" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/20/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Mother and Son" data-to-image="20" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-20"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/999affd3-363e-4182-a156-e06d68af3423/thumbnail/60x60/4d672e68590c24aa97fad7fc3e5778ce/remembering-diana-p101.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/999affd3-363e-4182-a156-e06d68af3423/thumbnail/60x60/4d672e68590c24aa97fad7fc3e5778ce/remembering-diana-p101.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/999affd3-363e-4182-a156-e06d68af3423/thumbnail/120x120/408d4aeabca2761ae1110e8d4e558b40/remembering-diana-p101.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Princess of Wales" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/21/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Princess of Wales" data-to-image="21" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-21"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/a71e8bb5-f427-4007-9335-8a328c29a499/thumbnail/60x60/58b94291d6cd619556e7a1f236078512/remembering-diana-p106.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/a71e8bb5-f427-4007-9335-8a328c29a499/thumbnail/60x60/58b94291d6cd619556e7a1f236078512/remembering-diana-p106.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/a71e8bb5-f427-4007-9335-8a328c29a499/thumbnail/120x120/78ec87ed9dfaf20184c3399d704394a6/remembering-diana-p106.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Princess of Wales" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/22/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Princess of Wales" data-to-image="22" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-22"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/8b85d935-ebdc-4014-82ea-50dab8ef47d3/thumbnail/60x60/a5d14cffc3e250964b57706fb0a2012f/remembering-diana-p148.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/8b85d935-ebdc-4014-82ea-50dab8ef47d3/thumbnail/60x60/a5d14cffc3e250964b57706fb0a2012f/remembering-diana-p148.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/8b85d935-ebdc-4014-82ea-50dab8ef47d3/thumbnail/120x120/5a216ade571298fdb03f68aa3c6a8ba5/remembering-diana-p148.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Amusement Park" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/23/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Amusement Park" data-to-image="23" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-23"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/c79639c4-75c8-489f-801a-7a11ffb255f3/thumbnail/60x60/ce0ee11f3896093c222fdda29c91789a/remembering-diana-p118-119.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/c79639c4-75c8-489f-801a-7a11ffb255f3/thumbnail/60x60/ce0ee11f3896093c222fdda29c91789a/remembering-diana-p118-119.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/c79639c4-75c8-489f-801a-7a11ffb255f3/thumbnail/120x120/17a77df6eb324c2df580f76b872a1e58/remembering-diana-p118-119.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Princess Di and Mother Theresa" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/24/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Princess Di and Mother Theresa" data-to-image="24" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-24"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/34ba988d-e1c5-4e1c-aa09-ed28a282704b/thumbnail/60x60/dbe2d7a9ea74dfa972aacf91777621db/remembering-diana-p142-43.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/34ba988d-e1c5-4e1c-aa09-ed28a282704b/thumbnail/60x60/dbe2d7a9ea74dfa972aacf91777621db/remembering-diana-p142-43.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/34ba988d-e1c5-4e1c-aa09-ed28a282704b/thumbnail/120x120/b08ed95ad5a4a3fb9f8b4f9dbca61ff2/remembering-diana-p142-43.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Grief" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/25/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Grief" data-to-image="25" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-25"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/64ba33f4-4f62-423c-9031-0d9d7f29bee2/thumbnail/60x60/bd23c6969e789681774b648de335a670/remembering-diana-p156-57.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/64ba33f4-4f62-423c-9031-0d9d7f29bee2/thumbnail/60x60/bd23c6969e789681774b648de335a670/remembering-diana-p156-57.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/64ba33f4-4f62-423c-9031-0d9d7f29bee2/thumbnail/120x120/0bc8d03230b1220f4fdc481f13dde8d8/remembering-diana-p156-57.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Skywriting" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/26/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Skywriting" data-to-image="26" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-26"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/fecbbe83-fd84-4ad1-9c55-82c022359576/thumbnail/60x60/e15f7a8b8693dd426e29c54e27061c91/remembering-diana-p180-181.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/fecbbe83-fd84-4ad1-9c55-82c022359576/thumbnail/60x60/e15f7a8b8693dd426e29c54e27061c91/remembering-diana-p180-181.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/fecbbe83-fd84-4ad1-9c55-82c022359576/thumbnail/120x120/7bdcfa15e0ebc9b4569fe0e57b6db622/remembering-diana-p180-181.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    <li>
+            <a class="" aria-label="Princess Di" href="https://www.cbsnews.com/pictures/remembering-diana-a-life-in-photographs/27/" data-gallery-title='"Remembering Diana: A Life in Photographs"' data-image-title="Princess Di" data-to-image="27" data-omniture-track="trackView" data-omniture-track-data='{"moduleInfo": "Gallery-Gallery Area|Top Slide Nav-Thumbnail Grid-Thumbnail-27"}' data-invalid-url-rewritten-http="">
+            <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/4fface62-dc45-4750-b30c-5f1479435727/thumbnail/60x60/811b54ce3b8669a9104729a05cf0912d/remembering-diana-cover-465.jpg#" alt=" " height="60" width="60" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/4fface62-dc45-4750-b30c-5f1479435727/thumbnail/60x60/811b54ce3b8669a9104729a05cf0912d/remembering-diana-cover-465.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/4fface62-dc45-4750-b30c-5f1479435727/thumbnail/120x120/5c81db33a399c1364667f4ce6a3a026e/remembering-diana-cover-465.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </a>
+        </li>
+    
+			    
+            </ul><div class="controls" data-item="grid-control">
+        <span class="prev disabled" data-to-grid="previous">Back</span>
+
+        <ul class="dots" data-item="thumb-grid-dots"></ul><span class="next" data-to-grid="next">Next</span>
+    </div>
+</div>
+
+                                                                    </div>
+                                                    </div>
+                    </header><div class="row viewport">
+                        <div class="col-8">
+                            
+
+<ul class="images"><li class="image selected" data-item="image" data-image-index="1">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/dc2e48b5-61d3-4c79-8824-bc659e8b75ba/resize/620x465/9d6e07f29c9c81523835e8f5a3cc7e4b/remembering-diana-046.jpg#" alt='"Remembering Diana: A Life in Photographs" ' srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/dc2e48b5-61d3-4c79-8824-bc659e8b75ba/resize/620x465/9d6e07f29c9c81523835e8f5a3cc7e4b/remembering-diana-046.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/dc2e48b5-61d3-4c79-8824-bc659e8b75ba/resize/1240x930/2bcdc482773482f350f66fbf7bcb871c/remembering-diana-046.jpg 2x"></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="2">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/3c1229f7-dea1-46fa-9c35-93f7f6dedc7f/resize/620x465/b74d56583d6ea3e4b10f55fa4c59a6ea/remembering-diana-p36.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/3c1229f7-dea1-46fa-9c35-93f7f6dedc7f/resize/620x465/b74d56583d6ea3e4b10f55fa4c59a6ea/remembering-diana-p36.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/3c1229f7-dea1-46fa-9c35-93f7f6dedc7f/resize/1240x930/ebba37f9c15a4d6c1ccd71e5ef805462/remembering-diana-p36.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="3">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/29add7d0-6e30-4f48-a5f2-383bb6e6cb02/resize/620x465/5b3853495a393468e4f4140c76d2b728/remembering-diana-p31.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/29add7d0-6e30-4f48-a5f2-383bb6e6cb02/resize/620x465/5b3853495a393468e4f4140c76d2b728/remembering-diana-p31.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/29add7d0-6e30-4f48-a5f2-383bb6e6cb02/resize/1240x930/d5da0e5b03313de2c95f1931a6715faa/remembering-diana-p31.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="4">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/c3379791-853c-4307-8315-720dfb24f959/resize/620x465/772fb45d8b6aba51222c917cf152c004/remembering-diana-p35.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/c3379791-853c-4307-8315-720dfb24f959/resize/620x465/772fb45d8b6aba51222c917cf152c004/remembering-diana-p35.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/c3379791-853c-4307-8315-720dfb24f959/resize/1240x930/6fed410e62dce0bd0707d972de51b23d/remembering-diana-p35.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="5">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/e62fa456-895b-4bd0-8c09-4b5eef1f6618/resize/620x465/0c0f8fe6218200b7f5aec70c2efc0966/remembering-diana-p34.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/e62fa456-895b-4bd0-8c09-4b5eef1f6618/resize/620x465/0c0f8fe6218200b7f5aec70c2efc0966/remembering-diana-p34.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/e62fa456-895b-4bd0-8c09-4b5eef1f6618/resize/1240x930/2fdefc708ac733bb71eb146b1a80ea80/remembering-diana-p34.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="6">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/e458fcd2-4875-46f1-bd27-c7e63168420e/resize/620x465/b8da2cdd023a149efff3e16ac6e7c875/remembering-diana-p38.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/e458fcd2-4875-46f1-bd27-c7e63168420e/resize/620x465/b8da2cdd023a149efff3e16ac6e7c875/remembering-diana-p38.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/e458fcd2-4875-46f1-bd27-c7e63168420e/resize/1240x930/8871ded6bd10a190ad33877170b8387a/remembering-diana-p38.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="7">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/dfec0a88-08eb-4877-8193-7989da76a974/resize/620x465/9d7af7cc77b3f7e044b4d687a67a33fc/remembering-diana-p48-49.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/dfec0a88-08eb-4877-8193-7989da76a974/resize/620x465/9d7af7cc77b3f7e044b4d687a67a33fc/remembering-diana-p48-49.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/dfec0a88-08eb-4877-8193-7989da76a974/resize/1240x930/3ebff193c23d26b8efa4303b92c10239/remembering-diana-p48-49.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="8">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/a9710c04-bff6-4940-beef-dc896c0a1089/resize/620x465/d228dadd89e8084aec5db228d4b35093/remembering-diana-p46.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/a9710c04-bff6-4940-beef-dc896c0a1089/resize/620x465/d228dadd89e8084aec5db228d4b35093/remembering-diana-p46.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/a9710c04-bff6-4940-beef-dc896c0a1089/resize/1240x930/28f84ec2ac538b95bdb42f08bfa3c24f/remembering-diana-p46.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="9">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/ff8b3aed-1aee-416e-95cb-7b1df038c989/resize/620x465/27a3c216621d756840bff66ed99eb2bb/remembering-diana-p54-55.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/ff8b3aed-1aee-416e-95cb-7b1df038c989/resize/620x465/27a3c216621d756840bff66ed99eb2bb/remembering-diana-p54-55.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/ff8b3aed-1aee-416e-95cb-7b1df038c989/resize/1240x930/f7b022681a5e14d0341f7a939325737e/remembering-diana-p54-55.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="10">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/ed9a3841-3a97-4110-a615-aa1104977a6b/resize/620x465/d84a047880ef087a5b15efd9773512ef/remembering-diana-p73.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/ed9a3841-3a97-4110-a615-aa1104977a6b/resize/620x465/d84a047880ef087a5b15efd9773512ef/remembering-diana-p73.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/ed9a3841-3a97-4110-a615-aa1104977a6b/resize/1240x930/46342747453b9da65d4493cc0e28d8db/remembering-diana-p73.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="11">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/f9c85f82-874f-4b57-9a56-3a65deb8ba26/resize/620x465/969c9a91fc98d87a4cab7ac4a0810393/remembering-diana-p66.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/f9c85f82-874f-4b57-9a56-3a65deb8ba26/resize/620x465/969c9a91fc98d87a4cab7ac4a0810393/remembering-diana-p66.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/f9c85f82-874f-4b57-9a56-3a65deb8ba26/resize/1240x930/d9a94a350e458e34a11a2268990eb08c/remembering-diana-p66.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="12">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/e105684e-0cc9-40c0-97e3-53a66ae63f45/resize/620x465/930006995bf033c71397f5668718ef24/remembering-diana-p75.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/e105684e-0cc9-40c0-97e3-53a66ae63f45/resize/620x465/930006995bf033c71397f5668718ef24/remembering-diana-p75.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/e105684e-0cc9-40c0-97e3-53a66ae63f45/resize/1240x930/654e5bcf57f8dcc108a7da10bdf6a1c3/remembering-diana-p75.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="13">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/89d2a63a-64d1-4e53-ab05-762792f26355/resize/620x465/cb1e6aa4c69064e0217d78cce69ed594/remembering-diana-p82-83.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/89d2a63a-64d1-4e53-ab05-762792f26355/resize/620x465/cb1e6aa4c69064e0217d78cce69ed594/remembering-diana-p82-83.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/89d2a63a-64d1-4e53-ab05-762792f26355/resize/1240x930/1e4937e52e49f5be0dca1cc22b704358/remembering-diana-p82-83.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="14">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/7fd5e1d8-8a68-4745-a99a-30ab1417d989/resize/620x465/18f16ee8f66422f567ffa798236298ae/remembering-diana-p87.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/7fd5e1d8-8a68-4745-a99a-30ab1417d989/resize/620x465/18f16ee8f66422f567ffa798236298ae/remembering-diana-p87.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/7fd5e1d8-8a68-4745-a99a-30ab1417d989/resize/1240x930/67522ae7eb7ddd37420d1b0fc0765c1e/remembering-diana-p87.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="15">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/d56a5494-a187-4eac-a380-4aec2492e276/resize/620x465g2/9887f37949f9c2513dc3829cfbae8ac6/remembering-diana-p88-89.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/d56a5494-a187-4eac-a380-4aec2492e276/resize/620x465g2/9887f37949f9c2513dc3829cfbae8ac6/remembering-diana-p88-89.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/d56a5494-a187-4eac-a380-4aec2492e276/resize/1240x930g2/40f5931314b35b21de88fce712dc07ce/remembering-diana-p88-89.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="16">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/3f0780d0-11e7-4eee-855b-fceb14637873/resize/620x465/7cfc3c15afb7d2b5a6fd326533c0a17c/remembering-diana-p186.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/3f0780d0-11e7-4eee-855b-fceb14637873/resize/620x465/7cfc3c15afb7d2b5a6fd326533c0a17c/remembering-diana-p186.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/3f0780d0-11e7-4eee-855b-fceb14637873/resize/1240x930/3e7cffea702fb74fc30d4d6853615beb/remembering-diana-p186.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="17">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/fcda8af8-0e4a-49fd-a4d6-36357413ce36/resize/620x465/0c6b1c683570d52d08977a8c1b0503fb/remembering-diana-p93.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/fcda8af8-0e4a-49fd-a4d6-36357413ce36/resize/620x465/0c6b1c683570d52d08977a8c1b0503fb/remembering-diana-p93.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/fcda8af8-0e4a-49fd-a4d6-36357413ce36/resize/1240x930/cb55664d346725e7877c73e290b5525a/remembering-diana-p93.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="18">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/8be08c2c-086c-4d50-a20b-b8918b10371a/resize/620x465/bd69bc8e7b2245c822f658b4ee2a24f4/remembering-diana-p196-197.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/8be08c2c-086c-4d50-a20b-b8918b10371a/resize/620x465/bd69bc8e7b2245c822f658b4ee2a24f4/remembering-diana-p196-197.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/8be08c2c-086c-4d50-a20b-b8918b10371a/resize/1240x930/6711ab5190c82d165fe48cd69a59ef4f/remembering-diana-p196-197.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="19">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/588d2ca0-cf87-4293-86cf-632728ba466b/resize/620x465/c8cf39215ded88ebea74376415a43be6/remembering-diana-p92.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/588d2ca0-cf87-4293-86cf-632728ba466b/resize/620x465/c8cf39215ded88ebea74376415a43be6/remembering-diana-p92.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/588d2ca0-cf87-4293-86cf-632728ba466b/resize/1240x930/625031b65573ab1b786539fde4f89de9/remembering-diana-p92.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="20">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/999affd3-363e-4182-a156-e06d68af3423/resize/620x465/1de6f630481ed992ec8337c5d2b56727/remembering-diana-p101.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/999affd3-363e-4182-a156-e06d68af3423/resize/620x465/1de6f630481ed992ec8337c5d2b56727/remembering-diana-p101.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/999affd3-363e-4182-a156-e06d68af3423/resize/1240x930/6f10d9d3def8cb0a5f49ca163139c331/remembering-diana-p101.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="21">
+                            
+                <span class="img "><img src="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/a71e8bb5-f427-4007-9335-8a328c29a499/resize/620x465/70ed568bf5aec2f8c414df5d5c6cafc1/remembering-diana-p106.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews3.cbsistatic.com/hub/i/r/2017/08/07/a71e8bb5-f427-4007-9335-8a328c29a499/resize/620x465/70ed568bf5aec2f8c414df5d5c6cafc1/remembering-diana-p106.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/a71e8bb5-f427-4007-9335-8a328c29a499/resize/1240x930/70d4a3ad7c2c952422ef14edb5c2b7cd/remembering-diana-p106.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="22">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/8b85d935-ebdc-4014-82ea-50dab8ef47d3/resize/620x465/2edd7ca40498ea629a50924a49c12514/remembering-diana-p148.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/8b85d935-ebdc-4014-82ea-50dab8ef47d3/resize/620x465/2edd7ca40498ea629a50924a49c12514/remembering-diana-p148.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/8b85d935-ebdc-4014-82ea-50dab8ef47d3/resize/1240x930/c978d88621426e8f575c53ac58153326/remembering-diana-p148.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="23">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/c79639c4-75c8-489f-801a-7a11ffb255f3/resize/620x465/41b72d18a499d2639c21ccde63c16862/remembering-diana-p118-119.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/c79639c4-75c8-489f-801a-7a11ffb255f3/resize/620x465/41b72d18a499d2639c21ccde63c16862/remembering-diana-p118-119.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/c79639c4-75c8-489f-801a-7a11ffb255f3/resize/1240x930/5e2dcae69bc765232e22ac18f1564d3b/remembering-diana-p118-119.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="24">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/34ba988d-e1c5-4e1c-aa09-ed28a282704b/resize/620x465/1dbd12ce55646a2f1861ace5ba4ba00a/remembering-diana-p142-43.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/34ba988d-e1c5-4e1c-aa09-ed28a282704b/resize/620x465/1dbd12ce55646a2f1861ace5ba4ba00a/remembering-diana-p142-43.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/34ba988d-e1c5-4e1c-aa09-ed28a282704b/resize/1240x930/9048c83bb43a905315a3763b70aa0925/remembering-diana-p142-43.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="25">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/64ba33f4-4f62-423c-9031-0d9d7f29bee2/resize/620x465/25be9166c89108c14d7f12e027c72860/remembering-diana-p156-57.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/64ba33f4-4f62-423c-9031-0d9d7f29bee2/resize/620x465/25be9166c89108c14d7f12e027c72860/remembering-diana-p156-57.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/64ba33f4-4f62-423c-9031-0d9d7f29bee2/resize/1240x930/e2f8746016801940075f58ffd340ac32/remembering-diana-p156-57.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="26">
+                            
+                <span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/fecbbe83-fd84-4ad1-9c55-82c022359576/resize/620x465/08874eebfbdf6b895a005158ef7ac1db/remembering-diana-p180-181.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/08/07/fecbbe83-fd84-4ad1-9c55-82c022359576/resize/620x465/08874eebfbdf6b895a005158ef7ac1db/remembering-diana-p180-181.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/fecbbe83-fd84-4ad1-9c55-82c022359576/resize/1240x930/0cb2e85de645181d8cf2e43b323ec026/remembering-diana-p180-181.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    
+                          <li class="image" data-item="image" data-image-index="27">
+                            
+                <span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/4fface62-dc45-4750-b30c-5f1479435727/resize/620x465/158ae3c6f15e4a92d279a35e0cd1761c/remembering-diana-cover-465.jpg#" alt='"Remembering Diana: A Life in Photographs" ' class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/4fface62-dc45-4750-b30c-5f1479435727/resize/620x465/158ae3c6f15e4a92d279a35e0cd1761c/remembering-diana-cover-465.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/08/07/4fface62-dc45-4750-b30c-5f1479435727/resize/1240x930/d9550fe5f2e43ed1f0380751abb95fe8/remembering-diana-cover-465.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+                                    </li>
+    </ul><div class="controls">
+                                <a class="prev" data-to-nav="previous" tabindex="4" role="button" aria-label="Previous Image" data-omniture-track="trackView">
+                                    <div class="arrow">
+                                        <div>Back</div>
+                                    </div>
+                                </a>
+                                <a class="next" data-to-nav="next" tabindex="5" role="button" aria-label="Next Image" data-omniture-track="trackView">
+                                    <div class="arrow">
+                                        <div>Next</div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <div class="row popular-recommended">
+                                <div class="ad-recirc" data-taboola='{"mode":"alternating-thumbnails-a","placement":"Below Gallery Thumbnails"}'></div>
+                            </div>
+                        </div>
+                        <div class="col-4 right-rail-modal">
+                            
+<ul class="image-meta"><li class="meta selected" data-item="meta" data-image-index="1" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Princess Di" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Princess Di</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>A photo of Princess Diana from 1980.</p><p>On the twentieth anniversary of the British royal's tragic death in Paris, a new book, <strong>"Remembering Diana: A Life in Photographs"</strong> (National Geographic), illustrates the remarkable life of the princess whose marriage, motherhood, divorce and social activism captivated the world.</p></div>                <p class="credits"><span class="label">Credit:</span> Alamy Stock Photo</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="2" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Lady Diana" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Lady Diana</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>A picture of the young Lady Diana Frances Spencer, who was later to become Britain's HRH The Princess of Wales, from her private family photo album dated 1969-1972.</p></div>                <p class="credits"><span class="label">Credit:</span> Spen/AL/Camera Press/Redux</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="3" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Lady Diana" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Lady Diana</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Diana won first and second prizes for her pet guinea pig in two different pet shows at Sandringham in the late 1960s.</p></div>                <p class="credits"><span class="label">Credit:</span> Spen/AL/Camera Press/Redux</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="4" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Lady Diana" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Lady Diana</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The young Lady Diana Frances Spencer.</p></div>                <p class="credits"><span class="label">Credit:</span> Spen/AL/Camera Press/Redux</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="5" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Lady Diana" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Lady Diana</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>A picture of the young Lady Diana Frances Spencer.</p></div>                <p class="credits"><span class="label">Credit:</span> Spen/AL/Camera Press/Redux</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="6" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Lady Diana" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Lady Diana</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Diana sports a black felt hat during a summer holiday in Itchenor, West Sussex in 1971.</p></div>                <p class="credits"><span class="label">Credit:</span> Central Press/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="7" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Engagement" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Engagement</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Prince Charles and his fiance, Lady Diana, stand with Queen Elizabeth II after her Majesty's private council approved the crown prince's wedding, March 30, 1981 at Buckingham Palace in London. Announcing the royal engagement, the Queen said, "We are all delighted."</p></div>                <p class="credits"><span class="label">Credit:</span> Keystone-France/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="8" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Engagement" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Engagement</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Diana wears a Jasper Conran suit as she visits Tetbury with Prince Charles on May 22, 1981, shortly after their engagement. Two aspects of her new life were already apparent at that time: an ease with the press, and rapt public attention.</p></div>                <p class="credits"><span class="label">Credit:</span> Serge Lemoine/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="9" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Royal Wedding" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Royal Wedding</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Prince Charles kisses the hand of wife, Princess Diana, on a balcony of Buckingham Palace following their wedding ceremony, July 29, 1981.</p></div>                <p class="credits"><span class="label">Credit:</span> &copy; Wally McNamee/Corbis via Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="10" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Princess of Wales" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Princess of Wales</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Princess Diana, Princess of Wales, at the Braemar Highland Games on September 1982 in Scotland.</p></div>                <p class="credits"><span class="label">Credit:</span> Anwar Hussein/WireImage</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="11" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Mother and Son" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Mother and Son</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Princess Diana holds her eight-month-old son, Prince William, at London's Kensington Palace in February 1983.</p></div>                <p class="credits"><span class="label">Credit:</span> Tim Graham/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="12" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Royal Couple" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Royal Couple</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Prince Charles and Princess Diana kiss after a charity polo match, June 29, 1985.</p></div>                <p class="credits"><span class="label">Credit:</span> Tim Graham/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="13" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="The Young Princes" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">The Young Princes</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Diana kneels with three-year-old Prince William and Prince Harry, who had just turned one the month before, at the piano in Kensington Palace in October 1985.</p></div>                <p class="credits"><span class="label">Credit:</span> Tim Graham/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="14" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Royal Family" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Royal Family</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Prince Charles, Prince of Wales and Diana, Princess of Wales are pictured with their sons, Prince William and Prince Harry, in the wildflower meadow in front of Highgrove House in Gloucestershire, July 1986.</p></div>                <p class="credits"><span class="label">Credit:</span> Tim Graham/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="15" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Princess of Wales" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Princess of Wales</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Princess Diana is photographed at Highgrove House in Gloucestershire, July 18, 1986.</p></div>                <p class="credits"><span class="label">Credit:</span> Tim Graham/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="16" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Princess of Wales" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Princess of Wales</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Diana, Princess of Wales wears a Viv Knowlands veiled hat during an armistice commemoration on November 11, 1988 in Paris, France.</p></div>                <p class="credits"><span class="label">Credit:</span> Anwar Hussein/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="17" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Child's Play" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Child's Play</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>William and Harry, along with their cousins, cover Diana in the sand of Necker Island in the British Virgin Islands, April 11, 1990. The retreat, owned by Richard Branson, was a welcome respite for the princess.</p></div>                <p class="credits"><span class="label">Credit:</span> Tim Graham/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="18" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Princess of Wales" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Princess of Wales</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The Princess of Wales walks among crowds of children waving Union Jacks during her visit to Cullompton in Devon in September 1990.</p></div>                <p class="credits"><span class="label">Credit:</span> Princess Diana Archive/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="19" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Vacation" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Vacation</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Princess Diana with Prince William and Prince Harry during a ski vacation in Lech, Austria, April 10, 1991.</p></div>                <p class="credits"><span class="label">Credit:</span> Tim Graham/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="20" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Mother and Son" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Mother and Son</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>HRH Princess Diana of Wales and her son, Prince William, attend the 1991 Wimbledon Lawn Tennis Championships in London.</p></div>                <p class="credits"><span class="label">Credit:</span> Bob Thomas/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="21" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Princess of Wales" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Princess of Wales</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>The Princess of Wales attends a gala in aid of cancer research, at Bridgewater House, London, November 20, 1995.</p></div>                <p class="credits"><span class="label">Credit:</span> Tim Graham/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="22" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Princess of Wales" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Princess of Wales</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Wearing protective body armor and a visor, Diana, Princess of Wales, visits a minefield being cleared by the charity Halo in Huambo, Angola, January 15, 1997.</p></div>                <p class="credits"><span class="label">Credit:</span> Tim Graham Picture Library/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="23" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Amusement Park" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Amusement Park</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Diana and the young princes ride the Logger's Leap at Thorpe Park in Surrey, April 13, 1993.</p></div>                <p class="credits"><span class="label">Credit:</span> Julian Parker/UK Press via Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="24" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Princess Di and Mother Theresa" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Princess Di and Mother Theresa</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Diana meets Mother Teresa at the home of Mother Teresa's Missionaries of Charity's residence, in the Bronx, New York, June 18, 1997.</p></div>                <p class="credits"><span class="label">Credit:</span> &copy; Mike Segar/Reuters</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="25" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Grief" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Grief</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>In an overwhelming outpouring of grief and sympathy, over one million bouquets of flowers were left at Kensington Palace, Buckingham Palace, and St. James's Palace after the tragic automobile accident on August 31, 1997 in which Diana, Princess of Wales, was killed. The flowers, stuffed animals, and bottles of champagne were collected and distributed to children and to the sick and elderly in hospitals and homes.</p></div>                <p class="credits"><span class="label">Credit:</span> Peter Turnley/Corbis/VCG via Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="26" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Skywriting" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Skywriting</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>Pilot Greg Stinis draws with his plane a heart with the name "Di" in the skies over Hollywood, Calif., September 5, 1997.</p></div>                <p class="credits"><span class="label">Credit:</span> Hector Mata/AFP/Getty Images</p>                    </li>
+            <li class="meta" data-item="meta" data-image-index="27" data-image-location="/pictures/remembering-diana-a-life-in-photographs/" data-image-title="Princess Di" data-gallery-title='"Remembering Diana: A Life in Photographs"'>
+            	            <h1 class="hed">Princess Di</h1>                                                                    <div class="caption" data-use-autolinker="true"><p>"Remembering Diana: A Life in Photographs," with a foreword by Tina Brown, is published by National Geographic.</p><p>For more information visit the <a href="https://shop.nationalgeographic.com/product/books/books/photography/remembering-diana" target="_blank">National Geographic website</a>.</p></div>                <p class="credits"><span class="label">Credit:</span> National Geographic</p>                    </li>
+    </ul><div class="ad-unit">
+                                <div id="desktop-native-top-59dd1ad448e17" class="ad-desktop-native-top" data-ad="desktop-native-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing desktop-native-top-59dd1ad448e17 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("desktop-native-top-59dd1ad448e17");
+    </script></div>
+
+                            </div>
+                            <div class="ad-unit">
+                                <div id="mpu-top-59dd1ad448e17" class="ad-mpu-top" data-ad="mpu-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-top-59dd1ad448e17 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-top-59dd1ad448e17");
+    </script></div>
+
+                            </div>
+                            <div class="ad-unit">
+                                <div id="mpu-bottom-59dd1ad448e17" class="ad-mpu-bottom" data-ad="mpu-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-bottom-59dd1ad448e17 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-bottom-59dd1ad448e17");
+    </script></div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ad-unit"><div id="leader-bottom-59dd1ad448e17" class="ad-leader-bottom" data-ad="leader-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-bottom-59dd1ad448e17 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-bottom-59dd1ad448e17");
+    </script></div>
+</div>
+                            </div>
+            
+
+                                                                    </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                
+                
+    <div class="col-8 ">
+                                        </div>
+        
+            
+            
+    <div class="col-4 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-emergency-component">
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <script>var searchNav = document.querySelector('.site-nav__item--sports .site-nav__item-anchor'); searchNav&&searchNav.addEventListener('click', function () {window.location = this.href}, true);</script><style>.site-footer{ z-index:0; } .site-header{ z-index:2; } .content-primary{ z-index:1; } [tabindex]:focus {outline: 0; } .desktop .site-nav__item--shows:hover .site-nav__item-content-icon {top: 113px;right: auto;}.desktop .site-nav__item--shows:hover .site-nav__item-hed {font-size: 16px;max-height: none;float: none;margin: 0px;} .front-door .disqus-comment-count { display: none; } .topic-door .disqus-comment-count { display: none; } .listing-mini-sub .disqus-comment-count { display: none; } .desktop #mantle_skin[class*=cbs-this-morning] .hero-text .title a {color: #e4a21b;font-family: "museo-sans", Helvetica, Roboto, sans-serif;font-size: 30px;font-weight: 700;line-height: 1.1;letter-spacing: -0.05em;}</style></li>
+                </ul></div>                                                        </div>
+
+                                                                    </div>
+                                </div>
+                        </div>
+            </div>
+        </div>
+</div>
+
+    </div>
+
+    
+                    
+<footer class="site-footer content-inverse nocontent"><div class="container">
+                        <div class="row">
+            <div class="col-2 link-block">
+                <h5 class="title">CBSNews.com</h5>
+
+                <ul class="items"><li><a href="https://www.cbsnews.com/sitemap/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Site Map"}' data-invalid-url-rewritten-http="">Site Map</a></li>
+                    <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome2?categories=CBS_Interactive:CBSNews&amp;referer=cbsnews.com/main" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Help"}'>Help</a></li>
+                    <li><a href="http://audienceservices.cbs.com/feedback/feedback.htm" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Contact Us"}'>Contact Us</a></li>
+
+                    <li><a href="https://www.cbsnews.com/team/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|CBS Bios"}' data-invalid-url-rewritten-http="" data-vanity-rewritten="true">CBS Bios</a></li>
+                    <li><a href="https://cbs.avature.net/cbsnewscareers" data-omniture-track-data='{"clickProperty": "Site Footer|Careers"}'>Careers</a></li>
+                    <li><a href="http://www.cbsinteractive.com/careers" data-omniture-track-data='{"clickProperty": "Site Footer|CBSi Careers"}'>CBSi Careers</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-internship-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Internships"}' data-invalid-url-rewritten-http="">Internships</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-associates-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Development Programs"}' data-invalid-url-rewritten-http="">Development Programs</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">CBS Interactive</h5>
+
+                <ul class="items"><li><a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Privacy Policy"}'>Privacy Policy</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/adchoice" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Ad Choice"}'>Ad Choice</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Terms of Use"}'>Terms of Use</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/eula" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Mobile User Agreement"}'>Mobile User Agreement</a></li>
+                    <li><a href="http://www.cbscorporation.com/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|About CBS"}'>About CBS</a></li>
+                    <li><a href="http://www.cbsinteractive.com/advertise/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Advertise"}'>Advertise</a></li>
+                    <li><a href="http://cbsimedia.cbs.com/captioning/info.html" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Closed Captioning"}'>Closed Captioning</a></li>
+                    <li><a href="http://www.cbsstore.com/cbs-news-store-home/index.php?v=cbs-news&amp;ecid=PRF-CBS-300538&amp;pa=PRF-CBS-300538" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|CBS News Store"}'>CBS News Store</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">Follow Us</h5>
+
+                <ul class="items"><li><a href="https://www.facebook.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Facebook"}'>Facebook</a></li>
+                    <li><a href="https://twitter.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Twitter"}'>Twitter</a></li>
+                    <li><a href="/rss/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|RSS"}'>RSS</a></li>
+                    <li><a href="https://www.cbsnews.com/newsletters/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Email Newsletters"}' data-invalid-url-rewritten-http="">Email Newsletters</a></li>
+                    <li><a href="http://www.youtube.com/user/CBSNewsOnline" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|YouTube"}'>YouTube</a></li>
+                    <li><a href="https://www.cbsnews.com/radio/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Radio News"}' data-invalid-url-rewritten-http="">CBS News Radio</a></li>
+                    <li><a href="https://www.cbsnews.com/local/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Local"}' data-invalid-url-rewritten-http="">CBS Local</a></li>
+                </ul></div>
+
+            <div class="col-4 push-2">
+                <div class="site-brand">
+                    <div class="logo core-logo"><a href="/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer-Branding"}'>CBS News</a></div>
+                </div>
+
+                <form class="site-search" action="/search/" method="get" data-component="search" data-search-options='{"path":"https:\/\/www.cbsnews.com\/search\/","param":"q"}'>
+                    <input type="search" class="query" maxlength="255" name="q" placeholder="Search..."><button type="submit" class="submit core-search-footer">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="site-brand">
+                <p class="copyright">Copyright &copy; 2017 CBS Interactive Inc.<br>All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer></div> 
+
+                    
+
+    
+
+<script>
+    var CBSNEWS = CBSNEWS || {};
+        CBSNEWS.ad        = {"gpt":{"targeting":{"collection":"the-royals","device":"desktop","ptype":"image_gallery","cid":"remembering-diana-a-life-in-photographs","env":"prod_alt"},"adConfig":{"network":{"dev":8264,"qa":8264,"prod":8264},"method":"async-inline","regions":[{"region":"uk","countries":["gb","fr","ie","za","bh","kw","om","qa","sa","ae","iq","eg","ye"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","ph","th","id","vn","hk","in"]}],"adUnits":{"intromercial":{"outOfPage":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"skin"}},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250],[300,1050]],"position":"top"},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"buttonTop":{"sizes":[[88,31]],"position":"top"},"scrollPrestitial":{"sizes":[[980,45]],"position":"top"},"marqueeBottom":{"sizes":[[234,60]],"position":"bottom"},"marquee300Top":{"sizes":[[300,60]],"position":"top"},"marquee300Middle":{"sizes":[[300,60]],"position":"middle"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"leaderBottom":{"sizes":[[728,90],[970,66]],"position":"bottom"},"desktopNativeTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"a832eb3c"}},"nativeShowTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"bf587c26"}},"desktopNativeMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"e0c5ba47"}},"desktopNativeBottom":{"sizes":[[11,11]],"position":"bottom"},"buttonMiddle":{"sizes":[[88,31]],"position":"middle"},"buttonBottom":{"sizes":[[88,31]],"position":"bottom"},"sponsorContentMiddle":{"sizes":[[381,211],[11,11]],"position":"middle","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentMiddle2":{"sizes":[[381,211],[11,11]],"position":"middle2","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentBottom":{"sizes":[[381,211],[11,11]],"position":"bottom","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentTop":{"sizes":[[381,211],[11,11]],"position":"top","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentSmallTop":{"sizes":[[301,151],[11,11]],"position":"top","customTargeting":{"strnativekey":"a2ac4296"}},"sponsorContentTextTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"a6c0ce8b"}},"sponsorBar980Top":{"sizes":[[980,36]],"position":"top"},"sponsorBar620Top":{"sizes":[[620,36]],"position":"top"}},"mobile":{"adUnits":{"intromercial":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileBanner1":{"sizes":[[320,50]],"position":1},"mobileBanner2":{"sizes":[[320,50]],"position":2},"mobileBanner3":{"sizes":[[320,50]],"position":3},"mobileMarquee320Top":{"sizes":[[320,60]],"position":"top"},"mobileSponsorContentTextTop":{"sizes":[[300,250],[11,11],"fluid"],"position":"top","customTargeting":{"strnativekey":"454fd857"}},"mobileSponsorcontentTextMiddle":{"sizes":[[300,250],[320,50],[11,11],"fluid"],"position":"middle","customTargeting":{"strnativekey":"454fd857"}},"mobileInlineFlexPos2":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":2,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexPos3":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":3,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexInc":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":"inc","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileNativeTop":{"sizes":[[11,11]],"position":"top"},"mobileNativeGalleryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"289740d4"}},"mobileSponsorcontentCdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"3c5782bf"}},"mobileSponsorcontentVdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"eba075cc"}}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"amp":{"adUnits":{"ampFlexTop":{"sizes":[[320,50],[300,250]],"position":"top"},"ampFlexBottom":{"sizes":[[320,50],[300,250]],"position":"bottom"},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"ampFlexPos2":{"sizes":[[320,50],[300,250]],"position":2},"ampFlexPos3":{"sizes":[[320,50],[300,250]],"position":3},"ampFlexInc":{"sizes":[[320,50],[300,250]],"position":"inc"},"ampSticky":{"sizes":[[320,50]],"position":"sticky"}}},"siteName":"cbsnews","collapseEmptyDiv":true,"setRefreshUnfilledSlots":false,"setClearUnfilledSlots":true,"disableInitialLoad":false,"disableInitialLoadCompanions":true,"enableHeaderBidding":true,"disableClearTargetingOnInit":true,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["intromercial","leader_top","leader_plus_top","skin","mpu_top","mpu_plus_top","marquee_top","marquee300_top","button_top","sponsor_content_top","sponsor_content_small_top","sponsor_content_text_top","sponsor_bar980_top","sponsor_bar620_top","desktop_native_top","native_show_top","mpu_middle","marquee300_middle","button_middle","desktop_native_middle","sponsor_content_middle","sponsor_content_middle2","desktop_native_bottom","button_bottom","mpu_bottom","leader_bottom","sponsor_content_bottom"],"disableInitialLoadRefresh":"false","disableAdIncrement":false,"enableRepeatedAds":false},"containerId":"59dd1ad448e17","slotVars":{"network":"8264","siteName":"cbsnews","collapseEmptyDiv":"1","topics":"cbs-this-morning","platform":"desktop"},"adType":"gpt","adDivIds":["desktop-native-top-59dd1ad448e17","mpu-top-59dd1ad448e17","mpu-bottom-59dd1ad448e17","leader-bottom-59dd1ad448e17","intromercial-59dd1ad448e17","leader-top-59dd1ad448e17"]},"cookieName":"cbsnews_ad","cookieServicePath":"/ad/ad-cookie/","session":4,"subSession":4,"useFirstPageTargeting":true};
+        CBSNEWS.bsFreq    = 100;
+        CBSNEWS.device    = 'desktop';
+        CBSNEWS.features  = CBSNEWS.features || {};
+        CBSNEWS.tracking  = {"isEnabled":true,"articleAuthorId":["694c7696-6a8a-11e2-9d12-0018fe8a00b0"],"articleAuthorName":["david morgan"],"articlePubDate":"2017-08-07 14:37:51","articleType":"content_gallery","collectionId":["d3412b90-8ba2-11e2-9400-029118418759"],"collectionName":["the royals"],"deviceType":"desktop","isDev":"2","pageType":"image_gallery","photoGalleryId":"426320a5-9f47-450e-98df-bd44387953d0","photoGalleryTitle":"\"remembering diana: a life in photographs\"","siteHier":["cbs this morning"],"siteSection":"cbs this morning","siteType":"responsive web","topicId":"46046528-758d-11e2-9d12-0018fe8a00b0","topicName":"cbs this morning","bkSiteId":3330,"limit":4,"siteName":"cbsnews","demographicKeys":["jobFunction","jobCategory","industry","computerProficiency","companySize","gender","ageGroup","country"],"tealium":{"profile":"cbsnewssite","env":"prod"}};
+        CBSNEWS.tracking._adData      = CBSNEWS.ad;
+        CBSNEWS.tracking.pageViewGuid = null; // Set in managers/tealium
+        CBSNEWS.user      = {
+            appId:          '1501',
+            environment:    'LIVE',
+            platform:       '',
+            publicHost:     'www.cbsnews.com',
+            secureHost:     'secure-fly.cbsnews.com',
+            ursVersion:     'v2.2',
+            ursClientToken: '9b0514bf29ca49e1',
+        };
+        CBSNEWS.disqus =  {
+            shortname: 'cbsnews-prod',
+            publicKey: '60EUVoZHyaBJqXJUxAKYfJgUh8NhuUyO88gGQ7aIw8HsbFOwAl9hLtoCyvyld2A8',
+            sso: {
+                name: 'CBSNews',
+                authLoginUrl: 'https://www.cbsnews.com/disqus/sso/login/',
+                authLogoutUrl: 'https://www.cbsnews.com/disqus/sso/logout/',
+                button: 'https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/images/core/logo.png?v=824b038616f99215f329d6c7f12981130387c2c7',
+                icon: 'https://cbsnews4.cbsistatic.com/fly/favicon.ico?v=824b038616f99215f329d6c7f12981130387c2c7',
+                loginUrl: 'https://secure-fly.cbsnews.com/user/registration/?redirectUrl=%2Fdisqus%2Flogin%2F ',
+                logoutUrl: 'https://www.cbsnews.com/user/logout/'
+            }
+        };
+
+
+    var features = ['beanstockSonobi', 'disqus', 'urs'];
+    features.forEach(function(feature) {
+        if (!CBSNEWS.features.hasOwnProperty(feature)) {
+            CBSNEWS.features[feature] = true;
+        }
+    });
+
+    var utag_data = CBSNEWS.tracking;
+
+    var require = {"baseUrl":"https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build","urlArgs":"v=824b038616f99215f329d6c7f12981130387c2c7","config":{"version":{"fly/libs/base64":"0.3.0","fly/libs/easy-xdm-cbsi":"2.4.19.3","fly/libs/jquery.widget":"1.9.2","fly/libs/jquery.cookie":"1.2","fly/libs/jquery.mobile":"1.3.2","fly/libs/jquery.throttle-debounce":"1.1","fly/libs/lazysizes":"1.4.0","fly/libs/omniture.s-code":"1.0","fly/libs/urs":"1.0","fly/utils/data-prefix":"1.0","fly/utils/data-selector":"1.0","fly/utils/function-natives":"1.0","fly/utils/guid":"1.0","fly/utils/log":"1.0","fly/utils/object-helper":"1.0","fly/utils/string-helper":"1.0","fly/utils/string-vars":"1.0","fly/utils/url-helper":"1.0","fly/managers/components":"1.0","fly/managers/cookie":"1.0","fly/managers/debug":"1.0","fly/managers/ad":"2.0","fly/managers/gpt":"4.2","fly/managers/geo":"1.0","fly/managers/image-resolution":"1.0","fly/managers/recurly":"1.0","fly/managers/recurly-billing":"1.0","fly/managers/social-authentication":"1.0","fly/managers/tracking":"1.0","fly/managers/user":"1.0","fly/components/accordion":"1.0","fly/components/alert":"1.0","fly/components/base":"1.0","fly/components/carousel":"1.0","fly/components/credspark":"1.0","fly/components/dependent-field":"1.0","fly/components/dropdown":"1.0","fly/components/form-validate":"1.0","fly/components/iframe-messenger":"1.1","fly/components/image-gallery":"1.0","fly/components/disqus-count":"1.0","fly/managers/disqus":"1.0","fly/components/disqus":"1.0","fly/components/loading":"1.0","fly/components/load-more":"1.0","fly/components/nrelate":"1.0","fly/components/modal":"1.0","fly/components/modal-async":"1.0","fly/components/modal-iframe":"1.0","fly/components/scrollbar":"1.0","fly/components/social-button":"1.0","fly/components/social-counts":"1.1","fly/components/social-links":"1.0","fly/components/tabs":"1.0","fly/managers/clicktale":"1.0","fly/components/poll":"1.0","fly/managers/history":"1.0","libs/fontfaceobserver":"2.0.7","libs/riot":"2.6.2","mpx/libs/uvp":"2.6.1","mpx/libs/hls":"0.7.10.min","fly/components/fixate":"1.0","fly/components/image-gallery-thumb":"1.0"}},"shim":{"tealium":["jquery"]},"map":{"*":{"ima":"//imasdk.googleapis.com/js/sdkloader/ima3.js","gpt":"//www.googletagservices.com/tag/js/gpt.js","anvato":"https://w3.cdn.anvato.net/player/prod/scripts/anvload.js","nrelate":"//c7.static.nrcdn.com/common_js/0.52.1/nr_loader.min.js","urs":"//urs.cbsnews.com/sdk/urs.js","recirc":"//ddlmj2furo6f2.cloudfront.net/addontrain/recommendations/53f6c74c1344a01ee2000139.js","tealium":"//tags.tiqcdn.com/utag/cbsi/cbsnewssite/prod/utag.js","twitter":"https://platform.twitter.com/widgets.js","credspark":"//www.credspark.com/embed.js","yad":"https://s.yimg.com/uq/syndication/yad.js","newsgator":"//nmp.newsgator.com/ngbuzz/load.ashx/buzz","recurly":"https://js.recurly.com/v4/recurly.js","taboola":"//cdn.taboola.com/libtrc/cbsinteractive-cbsnews/loader.js","sharethrough":"//native.sharethrough.com/assets/tag.js","uvp":"//vidtech.cbsinteractive.com/uvpjs/2.5.3/CBSI-PLAYER.js","index_exchange":"//js-sec.indexww.com/ht/ls-cbsnews.js","sonobi":"//mtrx.go.sonobi.com/morpheus.cbsnews.9251.js"}}};
+</script><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=824b038616f99215f329d6c7f12981130387c2c7" as="script"><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.desktop.js?v=824b038616f99215f329d6c7f12981130387c2c7" as="script"><script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=824b038616f99215f329d6c7f12981130387c2c7" data-main="main.desktop" async defer></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8178a7f262","applicationID":"8449215","transactionName":"ZAZXNkNRCkEHBxAMX11MdAFFWQtcSQ0JBFdWPFIDXVwBQB87FwxeVA9Q","queueTime":0,"applicationTime":1477,"atts":"SEFUQAtLGU8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

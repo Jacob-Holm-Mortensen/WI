@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -55,6 +56,12 @@ namespace SearchEngine
                 return null;
             }
 
+        }
+
+        public void printOnLine(string output)
+        {
+            Console.Write("\r");
+            Console.Write(output + "     ");
         }
     }
 }

@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="no-js ie iem7" lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="no-js ie lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="no-js ie lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9" lang="en" dir="ltr" prefix="fb: http://ogp.me/ns/fb# og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product#"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" lang="en" dir="ltr" prefix="fb: http://ogp.me/ns/fb# og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product#"><![endif]-->
+<!--[if !IE]><!--><html class="no-js" lang="en" dir="ltr" prefix="fb: http://ogp.me/ns/fb# og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product#"><!--<![endif]-->
+<head>
+<title>Mud Run | Obstacle Races | Tough Mudder</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<script data-cfasync="false" type='text/javascript'>
+  var _vis_opt_account_id = 153866;
+  var _vis_opt_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+  document.write('<s' + 'cript src="' + _vis_opt_protocol +
+  'dev.visualwebsiteoptimizer.com/deploy/js_visitor_settings.php?v=1&a='+_vis_opt_account_id+'&url='
+  +encodeURIComponent(document.URL)+'&random='+Math.random()+'" type="text/javascript">' + '<\/s' + 'cript>');
+  </script>
+<script data-cfasync="false" type='text/javascript'>
+  if(typeof(_vis_opt_settings_loaded) == "boolean") { document.write('<s' + 'cript src="' + _vis_opt_protocol +
+  'd5phz18u4wuww.cloudfront.net/vis_opt.js" type="text/javascript">' + '<\/s' + 'cript>'); }
+  // if your site already has jQuery 1.4.2, replace vis_opt.js with vis_opt_no_jquery.js above
+  </script>
+<script data-cfasync="false" type='text/javascript'>
+  if(typeof(_vis_opt_settings_loaded) == "boolean" && typeof(_vis_opt_top_initialize) == "function") {
+          _vis_opt_top_initialize(); vwo_$(document).ready(function() { _vis_opt_bottom_initialize(); });
+  }
+  </script>
+
+<!--[if IE]><![endif]-->
+<meta charset="utf-8" />
+<link rel="apple-touch-icon-precomposed" href="https://toughmudder.com/sites/all/themes/omega/omega/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" href="https://toughmudder.com/sites/all/themes/omega/omega/apple-touch-icon-precomposed-114x114.png" sizes="114x114" />
+<link rel="apple-touch-icon-precomposed" href="https://toughmudder.com/sites/all/themes/omega/omega/apple-touch-icon-precomposed-144x144.png" sizes="144x144" />
+<meta name="MobileOptimized" content="width" />
+<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+<meta name="HandheldFriendly" content="true" />
+<link rel="apple-touch-icon-precomposed" href="https://toughmudder.com/sites/all/themes/omega/omega/apple-touch-icon-precomposed-72x72.png" sizes="72x72" />
+<meta http-equiv="cleartype" content="on" />
+<meta itemprop="acquia_lift:content_title" content="Mud Run | Obstacle Races | Tough Mudder" />
+<meta itemprop="acquia_lift:site_id" content="tough_mudder" />
+<meta itemprop="acquia_lift:account_id" content="TOUGHMUDDER" />
+<meta itemprop="acquia_lift:liftAssetsURL" content="https://lift3assets.lift.acquia.com/stable" />
+<meta itemprop="acquia_lift:liftDecisionAPIURL" content="https://us-east-1-decisionapi.lift.acquia.com" />
+<meta itemprop="acquia_lift:contentOrigin" content="" />
+<meta itemprop="acquia_lift:contentReplacementMode" content="trusted" />
+<meta itemprop="acquia_lift:authEndpoint" content="https://us-east-1-oauth2.lift.acquia.com/authorize" />
+<link rel="shortcut icon" href="https://toughmudder.com/sites/all/themes/tough_mudder/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="Tough Mudder is a series of hardcore 10-12 mile obstacle race - mud run events designed by British Special Forces to challenge the toughest of the tough." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://toughmudder.com/" />
+<link rel="shortlink" href="https://toughmudder.com/" />
+<meta property="fb:pages" content="121520047789" />
+<meta property="og:site_name" content="Tough Mudder" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://toughmudder.com/" />
+<meta property="og:title" content="Tough Mudder" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@toughmudder" />
+<meta name="twitter:url" content="https://toughmudder.com/new-frontpage" />
+<meta name="twitter:title" content="Mud Run | Obstacle Races | Tough Mudder" />
+<meta name="dcterms.title" content="Tough Mudder" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.format" content="text/html" />
+<meta name="dcterms.identifier" content="https://toughmudder.com/" />
+<link type="text/css" rel="stylesheet" href="https://toughmudder.com/sites/default/files/css/css_gy0yihZHSUIfXWOK_LZfo-XyGAavHQqdpUdn97Tv33Q.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://toughmudder.com/sites/default/files/css/css_9lumo0SP1Si_8U8QUBiPcdvzux-7dtA5fpvHsdWj6Fs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://toughmudder.com/sites/default/files/css/css_xWSp3GddNI7mhNVeDg0LDPD41JF5kc2RROeqAw7mK3Y.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://toughmudder.com/sites/default/files/css/css_IOV-P528DQF6dQjwLO6RaUQyZo0Mi3n1soYMUWYZO9U.css" media="all" />
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="https://toughmudder.com/sites/all/themes/tough_mudder/css/ie91.css?oxevgd" media="all" />
+<![endif]-->
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="https://toughmudder.com/sites/all/themes/tough_mudder/css/ie94.css?oxevgd" media="all" />
+<![endif]-->
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="https://toughmudder.com/sites/all/themes/tough_mudder/css/ie95.css?oxevgd" media="all" />
+<![endif]-->
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="https://toughmudder.com/sites/all/themes/tough_mudder/css/ie93.css?oxevgd" media="all" />
+<![endif]-->
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="https://toughmudder.com/sites/all/themes/tough_mudder/css/ie92.css?oxevgd" media="all" />
+<![endif]-->
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://toughmudder.com/sites/default/files/css/css_vQ-6iA2FcpEuh9i_O_TY8zLob5dox4elWqQYMbP7QZE.css" media="all" />
+<![endif]-->
+<script src="https://toughmudder.com/sites/default/files/js/js_ri60QNjcazMKdlAmWmDsmRb0iKaVkkXUQxH2MsgpmVo.js"></script>
+<script src="https://toughmudder.com/sites/default/files/js/js_IfMCH1o4K_O4ro0fwYHrd8Ci49uja6uXyqZ6ejkc3gs.js"></script>
+<script>jQuery.fn.attachBehaviors = function(){Drupal.attachBehaviors();}</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"tough_mudder","theme_token":"uHiisyvG3ReeVz1P4SvliChL9IpuyxFG3NXXxRI3K9w","jquery_version":"1.8","js":{"sites\/all\/themes\/omega\/omega\/js\/no-js.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/contrib\/hashcash\/js\/hashcash.js":1,"sites\/all\/modules\/custom\/tm_track_click\/js\/tm-track-click.js":1,"sites\/all\/libraries\/html5shiv\/html5shiv.min.js":1,"sites\/all\/libraries\/html5shiv\/html5shiv-printshiv.min.js":1,"sites\/all\/modules\/contrib\/behavior_weights\/behavior_weights.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/features\/tribe\/tribe.js":1,"0":1,"https:\/\/ws.sharethis.com\/button\/buttons.js":1,"1":1,"misc\/progress.js":1,"file":1,"https:\/\/lift3assets.lift.acquia.com\/stable\/lift.js":1,"sites\/all\/modules\/contrib\/colorbox_node\/colorbox_node.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/jquery-ui-1.10.3.custom.min.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/jquery.kinetic.min.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/jquery.selectbox-0.2.min.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/jquery.selectBox.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/icheck.min.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/jquery.simplemodal.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/jquery.fitvids.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/jquery.bxslider.min.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/jquery.mousewheel.min.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/jquery.sidr.min.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/jquery.autoshare.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/jquery.validate.min.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/jquery-scrolltofixed-min.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/uikit.min.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/instafeed.min.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/countdown.js":1,"sites\/all\/themes\/tough_mudder\/js\/lib\/latlon-spherical.js":1,"sites\/all\/themes\/tough_mudder\/js\/tough-mudder-main.js":1,"sites\/all\/themes\/tough_mudder\/js\/jquery.slimmenu.js":1,"sites\/all\/themes\/tough_mudder\/js\/tough-mudder.behaviors.js":1,"sites\/all\/themes\/tough_mudder\/js\/common.js":1,"sites\/all\/modules\/custom\/tm_geo_events\/js\/tm-geo-events.js":1,"sites\/all\/modules\/custom\/tm_homepage_countdown\/js\/tm-countdown.js":1,"sites\/all\/modules\/custom\/tm_page_tracking_variables\/js\/tm-page-tracking-variables.js":1,"sites\/all\/modules\/custom\/tm_geo_events\/js\/tm-geo-events-list-block.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ajax.js":1,"2":1},"css":{"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.base.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.menus.theme.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.messages.theme.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/colorbox_node\/colorbox_node.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/comment\/comment.theme.css":1,"sites\/all\/modules\/contrib\/freepager\/freepager.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/field\/field.theme.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/search\/search.theme.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/user\/user.base.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/forum\/forum.theme.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/user\/user.theme.css":1,"sites\/all\/libraries\/colorbox\/example3\/colorbox.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"public:\/\/ctools\/css\/ad57ff1546b4e3e493a0d16eb09e3ad9.css":1,"sites\/all\/modules\/contrib\/acquia_lift\/css\/acquia_lift.css":1,"sites\/all\/themes\/tough_mudder\/css\/tough-mudder.normalize.css":1,"sites\/all\/themes\/tough_mudder\/css\/tough-mudder.hacks.css":1,"sites\/all\/themes\/tough_mudder\/css\/tough-mudder.styles.css":1,"sites\/all\/themes\/tough_mudder\/css\/common.css":1,"sites\/all\/themes\/tough_mudder\/css\/slimmenu.min.css":1,"all:0":1,"sites\/all\/modules\/features\/tribe\/tribe.css":1,"sites\/all\/themes\/tough_mudder\/css\/ie91.css":1,"sites\/all\/themes\/tough_mudder\/css\/ie94.css":1,"sites\/all\/themes\/tough_mudder\/css\/ie95.css":1,"sites\/all\/themes\/tough_mudder\/css\/ie93.css":1,"sites\/all\/themes\/tough_mudder\/css\/ie92.css":1,"all:1":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":false,"mobiledevicewidth":"480px"},"hashcash":{"url":"https:\/\/toughmudder.com\/hashcash"},"heartbeat_language":"en","heartbeat_poll_url":"https:\/\/toughmudder.com\/heartbeat\/js\/poll","statuses":{"autofocus":false,"noautoclear":false,"maxlength":140,"hideLength":"0","refreshLink":false},"tm_fb_script":{"currentlang":"en"},"tm_geo_events":{"currentUrl":"new-frontpage"},"datalayer":{"user":{"visitorId":"","visitorGender":"","visitorLoginState":"logged out","visitorIsCustomer":"","visitorDOB":"","visitorAge":"","averagePurchase":0,"amountTotal":0,"visitorEmail":"","visitorHashedEmail":"","name":"","user_name":"","user_first_name":"","user_last_name":""},"page":{"region":"US","siteName":"Tough Mudder US","pageCategory":"Home Page","pageCategory2":"","pageCategory3":"","pageName":"Tough Mudder US:Home Page","pageNamePrevious":"Tough Mudder US:Home Page","environment":"prod","productPriceWarning":"","list_lists":{"listID":1,"listName":"Tough Mudder Events","listCategory":"Tough Mudder","listSize":"","items":[]},"language":"en"},"product":{"productID":"","productName":"","primaryCategory":"","secondaryCategory":"","thirdCategory":"","fourthCategory":"","customerGender":"","customerAge":"","customerDOB":"","productCode":"","eventDate":"","daysBeforeEvent":"","basePrice":"","priceWithTax":""},"transaction":{"transactionID":"","basePrice":"","voucherCode":"","voucherDiscount":"","currency":"","taxRate":"","price":"","transactionTotal":"","quantityTotal":"","payment_method":"","items":[]}},"better_exposed_filters":{"views":{"new_2016":{"displays":{"panel_pane_1":{"filters":[]}}},"most_popular_stories":{"displays":{"panel_pane_1":{"filters":[]}}},"homepage_news_carousel":{"displays":{"home_page_news":{"filters":[]}}},"homepage_call_out_module":{"displays":{"panel_pane_3":{"filters":[]}}},"sponsors":{"displays":{"footer_sponsors":{"filters":[]}}},"event_listings":{"displays":{"json_event_list":{"filters":[]}}}}},"colorbox_node":{"width":"600px","height":"600px"},"password":{"strengthTitle":"Password compliance:"},"type":"setting"});</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TWMGT5');</script>
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-8706303202027762",
+      enable_page_level_ads: true
+    });
+  </script>
+
+
+</head>
+<body class="html front not-logged-in page-new-frontpage homepage new-homepage  i18n-en">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWMGT5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+<div id="page" class="l-page">
+<header class="l-header" role="banner">
+<div class="l-header-row-1-bg">
+<div class="l-header-row-1 l-header-row">
+ <div class="l-region l-region--header">
+<div class="panel-pane pane-panels-mini pane-header">
+<div class="panel-pane pane-custom pane-4 head-timer">
+<div class="status-bar-wrapper">
+<div id="gm-header-homepage-timer"></div>
+</div> </div>
+<div class="panel-pane pane-block pane-block-136 head-status">
+<div class="desktop-message"><p style="color:#FF6700;"><a href="https://toughmudder.com/toughest-mudder" style="color:#FF6700;">Just Launched - 2018 Competitive Series & Toughest Mudder</a></p></div>
+<div class="mobile-message"><p style="color:#FF6700;"><a href="https://toughmudder.com/toughest-mudder" style="color:#FF6700;">Just Launched - 2018 Competitive Series & Toughest Mudder</a></p></div> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="l-header-row-2-bg">
+<div class="l-header-row-2 l-header-row">
+<div class="l-branding">
+<div class="l-region l-region--branding">
+<div class="panel-pane pane-page-logo">
+<a href="https://toughmudder.com/" rel="home" id="logo" title="Home"><img src="https://toughmudder.com/sites/all/themes/tough_mudder/logo.png" alt="Home" /></a> </div>
+</div>
+</div>
+<div class="l-region l-region--navigation">
+<div class="pane-menu-menu-tm-main-menu "><ul class="menu"><li class="first leaf" data-title="Find an Event"><a href="https://toughmudder.com/events/find-an-event">Find an Event</a></li>
+<li class="expanded" data-title="Event Types"><a href="https://toughmudder.com/events/all-event-types">Event Types</a><div class="dropdown"><ul class="menu"><li class="first leaf" data-title="Mini Mudder"><a href="https://toughmudder.com/mini-mudder">Mini Mudder</a></li>
+<li class="leaf" data-title="Tough Mudder 5K"><a href="https://toughmudder.com/events/what-is-tough-mudder-5k">Tough Mudder 5K</a></li>
+<li class="leaf" data-title="Tough Mudder Half"><a href="https://toughmudder.com/events/what-is-tough-mudder-half">Tough Mudder Half</a></li>
+<li class="leaf" data-title="Tough Mudder"><a href="https://toughmudder.com/events/what-is-tough-mudder">Tough Mudder</a></li>
+<li class="leaf" data-title="Tougher Mudder"><a href="https://toughmudder.com/events/what-is-tougher-mudder">Tougher Mudder</a></li>
+<li class="leaf" data-title="Toughest Mudder"><a href="https://toughmudder.com/toughest-mudder">Toughest Mudder</a></li>
+<li class="leaf" data-title="World&#039;s Toughest Mudder"><a href="https://toughmudder.com/wtm2017">World&#039;s Toughest Mudder</a></li>
+<li class="leaf" data-title="Competitive Series"><a href="https://toughmudder.com/competitive-series">Competitive Series</a></li>
+<li class="last leaf" data-title="TMX"><a href="https://toughmudder.com/events/what-is-tmx">TMX</a></li>
+</ul></div></li>
+<li class="expanded" data-title="Training"><a href="https://toughmudder.com/physical-training">Training</a><div class="dropdown"><ul class="menu"><li class="first leaf" data-title="How To Train"><a href="https://toughmudder.com/physical-training">How To Train</a></li>
+<li class="leaf" data-title="Obstacles"><a href="https://toughmudder.com/obstacles">Obstacles</a></li>
+<li class="leaf" data-title="What to Wear"><a href="https://toughmudder.com/what-to-wear">What to Wear</a></li>
+<li class="leaf" data-title="Bootcamp"><a href="http://bootcamp.toughmudder.com">Bootcamp</a></li>
+<li class="last leaf" data-title="Build Your Team"><a href="https://toughmudder.com/assemble-your-team">Build Your Team</a></li>
+</ul></div></li>
+<li class="expanded" data-title="Content"><a href="https://toughmudder.com/mudder-nation/blog">Content</a><div class="dropdown"><ul class="menu"><li class="first leaf" data-title="Blog"><a href="https://toughmudder.com/mudder-nation/blog">Blog</a></li>
+<li class="leaf" data-title="Videos"><a href="https://toughmudder.com/mudder-nation/videos">Videos</a></li>
+<li class="leaf" data-title="Photos"><a href="https://toughmudder.com/mudder-nation/photos">Photos</a></li>
+<li class="leaf" data-title="TV"><a href="https://toughmudder.com/videos/tv">TV</a></li>
+<li class="leaf" data-title="Past Events"><a href="https://toughmudder.com/events/past-events">Past Events</a></li>
+<li class="leaf" data-title="Forum"><a href="https://toughmudder.com/mudder-nation/forum">Forum</a></li>
+<li class="last leaf" data-title="Book"><a href="https://toughmudder.com/book">Book</a></li>
+</ul></div></li>
+<li class="expanded" data-title="Gear"><a href="http://gear.toughmudder.com/">Gear</a><div class="dropdown"><ul class="menu"><li class="first leaf" data-title="Tough Mudder Gear"><a href="https://gear.toughmudder.com/">Tough Mudder Gear</a></li>
+<li class="leaf" data-title="Design Your Gear"><a href="https://gear.toughmudder.com/pages/custom-team-gear">Design Your Gear</a></li>
+<li class="last leaf" data-title="WTM Gear"><a href="https://gear.toughmudder.com/collections/worlds-toughest-mudder-2017">WTM Gear</a></li>
+</ul></div></li>
+<li class="expanded" data-title="Charity"><a href="https://toughmudder.com/fundraise-now">Charity</a><div class="dropdown"><ul class="menu"><li class="first leaf" data-title="Team Rubicon"><a href="https://toughmudder.com/charity">Team Rubicon</a></li>
+<li class="last leaf" data-title="Run For Free"><a href="http://toughmudder.us.realbuzz.com/?utm_source=ToughMudder&amp;utm_medium=referral&amp;utm_campaign=MainNavSub">Run For Free</a></li>
+</ul></div></li>
+<li class="last expanded" data-title="More"><a href="https://toughmudder.com/corporate-team-packages">More</a><div class="dropdown"><ul class="menu"><li class="first leaf" data-title="Corporate"><a href="https://toughmudder.com/corporate-team-packages">Corporate</a></li>
+<li class="leaf" data-title="Tough Mudder Legion"><a href="https://toughmudder.com/tough-mudder-legion">Tough Mudder Legion</a></li>
+<li class="leaf" data-title="Ambassadors"><a href="https://toughmudder.com/ambassador">Ambassadors</a></li>
+<li class="leaf" data-title="Volunteers"><a href="https://toughmudder.com/events/volunteer-information">Volunteers</a></li>
+<li class="leaf" data-title="Deals"><a href="https://toughmudder.com/events/tough-mudder-discounts">Deals</a></li>
+<li class="leaf" data-title="Sponsors"><a href="https://toughmudder.com/content/sponsorship-opportunities">Sponsors</a></li>
+<li class="leaf" data-title="Own a TM Bootcamp"><a href="http://bootcamp.toughmudder.com/own-a-tmb">Own a TM Bootcamp</a></li>
+<li class="last leaf" data-title="Race Results"><a href="https://conquest.sweatworks.net/toughmudder">Race Results</a></li>
+</ul></div></li>
+</ul></div>
+<div class="panel-pane pane-block pane-menu-menu-tm-mobile-menu pane-menu">
+<div class="mobile-logo">
+<a class="" href="/">
+<img src="/sites/all/themes/tough_mudder/images/mobile-logo.png" />
+</a>
+</div>
+<div id="mobile-nav-button"></div><ul id="sidr" class="menu"><li class="first leaf" data-title="Find an Event"><a href="https://toughmudder.com/events/find-an-event">Find an Event</a></li>
+<li class="expanded" data-title="Event Types"><a href="https://toughmudder.com/events/all-event-types">Event Types</a><div class="dropdown"><ul class="menu"><li class="back" data-title="&lt;&lt; Event Types"><a href="#" title="">&lt;&lt; Event Types</a></li>
+<li class="first leaf" data-title="Mini Mudder"><a href="https://toughmudder.com/mini-mudder">Mini Mudder</a></li>
+<li class="leaf" data-title="Tough Mudder 5K"><a href="https://toughmudder.com/events/what-is-tough-mudder-5k">Tough Mudder 5K</a></li>
+<li class="leaf" data-title="Tough Mudder Half"><a href="https://toughmudder.com/events/what-is-tough-mudder-half">Tough Mudder Half</a></li>
+<li class="leaf" data-title="Tough Mudder"><a href="https://toughmudder.com/events/what-is-tough-mudder">Tough Mudder</a></li>
+<li class="leaf" data-title="Tougher Mudder"><a href="https://toughmudder.com/events/what-is-tougher-mudder">Tougher Mudder</a></li>
+<li class="leaf" data-title="Toughest Mudder"><a href="https://toughmudder.com/toughest-mudder">Toughest Mudder</a></li>
+<li class="leaf" data-title="World&#039;s Toughest Mudder"><a href="https://toughmudder.com/wtm2017">World&#039;s Toughest Mudder</a></li>
+<li class="leaf" data-title="Competitive Series"><a href="https://toughmudder.com/competitive-series">Competitive Series</a></li>
+<li class="last leaf" data-title="TMX"><a href="https://toughmudder.com/events/what-is-tmx">TMX</a></li>
+</ul></div></li>
+<li class="expanded" data-title="Training"><a href="https://toughmudder.com/physical-training">Training</a><div class="dropdown"><ul class="menu"><li class="back" data-title="&lt;&lt; Training"><a href="#" title="">&lt;&lt; Training</a></li>
+<li class="first leaf" data-title="How To Train"><a href="https://toughmudder.com/physical-training">How To Train</a></li>
+<li class="leaf" data-title="Obstacles"><a href="https://toughmudder.com/obstacles">Obstacles</a></li>
+<li class="leaf" data-title="What to Wear"><a href="https://toughmudder.com/what-to-wear">What to Wear</a></li>
+<li class="leaf" data-title="Bootcamp"><a href="http://bootcamp.toughmudder.com">Bootcamp</a></li>
+<li class="last leaf" data-title="Build Your Team"><a href="https://toughmudder.com/assemble-your-team">Build Your Team</a></li>
+</ul></div></li>
+<li class="expanded" data-title="Content"><a href="https://toughmudder.com/mudder-nation/blog">Content</a><div class="dropdown"><ul class="menu"><li class="back" data-title="&lt;&lt; Content"><a href="#" title="">&lt;&lt; Content</a></li>
+<li class="first leaf" data-title="Blog"><a href="https://toughmudder.com/mudder-nation/blog">Blog</a></li>
+<li class="leaf" data-title="Videos"><a href="https://toughmudder.com/mudder-nation/videos">Videos</a></li>
+<li class="leaf" data-title="Photos"><a href="https://toughmudder.com/mudder-nation/photos">Photos</a></li>
+<li class="leaf" data-title="TV"><a href="https://toughmudder.com/videos/tv">TV</a></li>
+<li class="leaf" data-title="Past Events"><a href="https://toughmudder.com/events/past-events">Past Events</a></li>
+<li class="leaf" data-title="Forum"><a href="https://toughmudder.com/mudder-nation/forum">Forum</a></li>
+<li class="last leaf" data-title="Book"><a href="https://toughmudder.com/book">Book</a></li>
+</ul></div></li>
+<li class="expanded" data-title="Charity"><a href="https://toughmudder.com/fundraise-now">Charity</a><div class="dropdown"><ul class="menu"><li class="back" data-title="&lt;&lt; Charity"><a href="#" title="">&lt;&lt; Charity</a></li>
+<li class="first leaf" data-title="Team Rubicon"><a href="https://toughmudder.com/charity">Team Rubicon</a></li>
+<li class="last leaf" data-title="Run For Free"><a href="http://toughmudder.us.realbuzz.com/?utm_source=ToughMudder&amp;utm_medium=referral&amp;utm_campaign=MainNavSub">Run For Free</a></li>
+</ul></div></li>
+<li class="expanded" data-title="Gear"><a href="http://gear.toughmudder.com/">Gear</a><div class="dropdown"><ul class="menu"><li class="back" data-title="&lt;&lt; Gear"><a href="#" title="">&lt;&lt; Gear</a></li>
+<li class="first leaf" data-title="Tough Mudder Gear"><a href="https://gear.toughmudder.com/">Tough Mudder Gear</a></li>
+<li class="leaf" data-title="WTM Gear"><a href="https://gear.toughmudder.com/collections/worlds-toughest-mudder-2017">WTM Gear</a></li>
+<li class="last leaf" data-title="Design Your Gear"><a href="https://gear.toughmudder.com/pages/custom-team-gear">Design Your Gear</a></li>
+</ul></div></li>
+<li class="expanded" data-title="More"><a href="https://toughmudder.com/corporate-team-packages">More</a><div class="dropdown"><ul class="menu"><li class="back" data-title="&lt;&lt; More"><a href="#" title="">&lt;&lt; More</a></li>
+<li class="first leaf" data-title="Corporate Packages"><a href="https://toughmudder.com/corporate-team-packages">Corporate Packages</a></li>
+<li class="leaf" data-title="Tough Mudder Legion"><a href="https://toughmudder.com/tough-mudder-legion">Tough Mudder Legion</a></li>
+<li class="leaf" data-title="Ambassadors"><a href="https://toughmudder.com/ambassador">Ambassadors</a></li>
+<li class="leaf" data-title="Volunteers"><a href="https://toughmudder.com/events/volunteer-information">Volunteers</a></li>
+<li class="leaf" data-title="Deals"><a href="https://toughmudder.com/events/tough-mudder-discounts">Deals</a></li>
+<li class="leaf" data-title="Sponsors"><a href="https://toughmudder.com/content/sponsorship-opportunities">Sponsors</a></li>
+<li class="leaf" data-title="Own a TM Bootcamp"><a href="http://bootcamp.toughmudder.com/own-a-tmb">Own a TM Bootcamp</a></li>
+<li class="last leaf" data-title="Race Results"><a href="https://conquest.sweatworks.net/toughmudder">Race Results</a></li>
+</ul></div></li>
+<li class="last leaf" data-title="Login"><a href="https://toughmudder.com/user/login" class="black profile-icon">Login</a></li>
+</ul> </div>
+<div class="panel-pane pane-block pane-menu-menu-tm-toolbar-menu pane-menu">
+<ul class="menu"><li class="first leaf" data-title="Login"><a href="https://toughmudder.com/mudder-nation/sign-in">Login</a></li>
+<li class="expanded" data-title="Regions"><span class="regions nolink">Regions</span><ul class="menu"><li class="first leaf" data-title="US &amp; Canada"><a href="http://toughmudder.com/">US &amp; Canada</a></li>
+<li class="leaf" data-title="Australia"><a href="https://toughmudder.com.au/">Australia</a></li>
+<li class="leaf" data-title="United Kingdom"><a href="https://toughmudder.co.uk/">United Kingdom</a></li>
+<li class="leaf" data-title="Ireland"><a href="http://toughmudder.ie">Ireland</a></li>
+<li class="leaf" data-title="Germany"><a href="https://toughmudder.de">Germany</a></li>
+<li class="leaf" data-title="Indonesia"><a href="https://toughmudder.id">Indonesia</a></li>
+<li class="leaf" data-title="China"><a href="http://toughmudderchina.cn/">China</a></li>
+<li class="leaf" data-title="United Arab Emirates"><a href="http://toughmudder.ae">United Arab Emirates</a></li>
+<li class="leaf" data-title="New Zealand"><a href="http://toughmudder.co.nz/">New Zealand</a></li>
+<li class="last leaf" data-title="International Licensing"><a href="https://toughmudder.com/content/international-licensing">International Licensing</a></li>
+</ul></li>
+<li class="last expanded" data-title="Get Support"><a href="http://mycusthelp.net/TMHQ/_rs/Findanswers.aspx?coid=68F60A553B6BCF66" target="_blank">Get Support</a><ul class="menu"><li class="first leaf" data-title="FAQs"><a href="http://mycusthelp.net/TMHQ/_rs/Findanswers.aspx?coid=68F60A553B6BCF66" target="_blank">FAQs</a></li>
+<li class="leaf" data-title="Find Start Time"><a href="https://toughmudder.com/events/start-time-lookup">Find Start Time</a></li>
+<li class="leaf" data-title="Manage Your Event"><a href="https://toughmudder.com/events/my-events">Manage Your Event</a></li>
+<li class="leaf" data-title="Create a Team"><a href="http://mycusthelp.net/TMHQ/_rs/AnswerDetail.aspx?inc=51028&amp;coid=68F60A553B6BCF66">Create a Team</a></li>
+<li class="last leaf" data-title="Event Safety"><a href="https://toughmudder.com/content/event-safety">Event Safety</a></li>
+</ul></li>
+</ul> </div>
+</div>
+</div>
+</div>
+</header>
+<div class="l-main">
+<div class="l-content" role="main">
+<a id="main-content"></a>
+<div class="panel-pane pane-page-content">
+<div class="hero-img-wrapper" "><div class="div-hide"></div>
+<div class="panel-pane pane-block pane-block-126 hero-banner">
+<style>.new-homepage .video-holder:after{background:rgba(0,0,0,0.2);} 
+@media only screen and (max-width: 890px){h2{font-size:2em;}}
+.hero-image-div {
+    background-image: url(http://web.toughmudder.com/Landing%20Pages/Homepage-Hero_mobile_980x516.jpg);
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+</style>
+<div class="vcell">
+<div class="hero-image-div"><img src="https://upload.wikimedia.org/wikipedia/en/d/d0/Clear.gif" /></div>
+<div id="video-holder" class="video-holder"></div>
+<div class="btn-cell"><div class="homevidbtn">&nbsp;</div></div>
+<div class="hero-text">
+<h2 style="color:#FFFFFF;">We've got an event for Everyone</h2>
+
+<a class="sbtn" href="https://toughmudder.com/events/find-an-event">FInd Your Event</a>
+</div>
+</div> </div>
+<div class="panel-pane pane-block pane-tm-geo-events-geo-event-list view-homepage-upcoming-event pane-tm-geo-events event-near-you">
+<div id="geo-event-list" class="view-upcoming-event"><div id="ajax-loader-image"><img src="/sites/all/themes/tough_mudder/images/loader-orange.gif" alt="Loading..." /></div></div> </div>
+<div class="div-hide"></div>
+</div>
+<div class="panel-pane pane-views-panes pane-new-2016-panel-pane-1 new-section">
+<div class="view view-new-2016 view-id-new_2016 view-display-id-panel_pane_1 view-dom-id-aa0fbdb8e62cc877ad6171d3a604da5e">
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-field-image"> <div class="field-content"><img src="https://toughmudder.com/sites/default/files/styles/new_2016_cover_image/public/1000px-x-600px-October-Homepage-Module-SEASON-PASS.jpg?itok=m76_e5vF" width="1000" height="600" /></div> </div>
+<div class="views-field views-field-title"> <span class="field-content">Run 2018 for Less than $15</span> </div>
+<div> <div class="overlay-text"><div class="text-content">
+<div class="valign"><h3>Season Pass</h3>
+<p><strong>Access to every Tough Mudder and Tough Mudder Half for 2018 in North America, including sold out events. </strong></p>
+<div class="nMore"><a href="https://toughmudder.com/2018-north-america-season-pass">Buy Now</a></div>
+</div>
+</div>
+</div> </div> </div>
+<div class="views-row views-row-2 views-row-even">
+<div class="views-field views-field-field-image"> <div class="field-content"><img src="https://toughmudder.com/sites/default/files/styles/new_2016_cover_image/public/Tougher%20Mudder%20Championship-Homepage-1000x600-1.jpg?itok=ogYcIImD" width="1000" height="600" /></div> </div>
+<div class="views-field views-field-title"> <span class="field-content">Tougher Mudder Championships</span> </div>
+<div> <div class="overlay-text"><div class="text-content">
+<div class="valign"><h3>Live on Facebook</h3>
+<p><strong>Watch the action live and Follow our new series on Facebook Live from the Tough Mudder South Regionals at Tough Mudder Carolinas on 10/21.</strong></p>
+<div class="nMore"><a href="https://toughmudder.com/mudder-nation/blog/tough-mudder-live-facebook">How To Watch</a></div>
+</div>
+</div>
+</div> </div> </div>
+<div class="views-row views-row-3 views-row-odd">
+<div class="views-field views-field-field-image"> <div class="field-content"><img src="https://toughmudder.com/sites/default/files/styles/new_2016_cover_image/public/1000px-x-600px-Amazon-Thumbnail-02.jpg?itok=t65nkUGR" width="1000" height="600" /></div> </div>
+<div class="views-field views-field-title"> <span class="field-content">MEET SUPERMAN</span> </div>
+<div> <div class="overlay-text"><div class="text-content">
+<div class="valign"><h3>Road to World’s Toughest Mudder 2017</h3>
+<p><strong> Follow 5 elite athletes in a 4-part video series through their journey to prepare for The Toughest Event on the Planet.</strong></p>
+<div class="nMore"><a href="https://toughmudder.com/mudder-nation/blog/watch-road-world%E2%80%99s-toughest-mudder-video-series-exclusively-amazon">EXCLUSIVELY ON AMAZON</a></div>
+</div>
+</div>
+</div> </div> </div>
+<div class="views-row views-row-4 views-row-even views-row-last">
+<div class="views-field views-field-field-image"> <div class="field-content"><img src="https://toughmudder.com/sites/default/files/styles/new_2016_cover_image/public/1000px-x-600px-Competitive-Series-Homepage-Module.jpg?itok=FgpAtJxp" width="1000" height="600" /></div> </div>
+<div class="views-field views-field-title"> <span class="field-content">The 2018 Competitive Series is Here</span> </div>
+<div> <div class="overlay-text"><div class="text-content">
+<div class="valign"><h3>Tougher, Toughest &amp; World's Toughest</h3>
+<p><strong>With events like these, Mudders a change to show themselves (and the world) what they are made of. </strong></p>
+<div class="nMore"><a href="https://toughmudder.com/competitive-series">Get Competitive</a></div>
+</div>
+</div>
+</div> </div> </div>
+</div>
+</div> </div>
+<div class="panel-pane pane-block pane-block-131 tm-intro">
+<div class="col1">
+<h2>2018 Competitive Series - Just Launched</h2>
+<p> <p>Tough Mudder has always been about pushing yourself to be the best that you can be. The Tough Mudder Competitive Series gives Mudder Nation a chance to compete for global recognition, win prize money and to better their best.</p>
+<br>
+<p>While each of these events is a race, it’s a race against the clock, against the lap counter and against yourself. The core Tough Mudder values of teamwork, camaraderie and personal accomplishment will continue to be the driving force on Tougher and Toughest Mudder courses around the globe.</p>
+<a class="orange-btn" href="https://toughmudder.com/competitive-series" style="text-align:center;">Lock it in</a></span>
+
+<br>
+
+</div>
+<div class="col2">
+<iframe width="960" height="483" src="https://www.youtube.com/embed/M8-fbRtkJ3I" frameborder="0" allowfullscreen></iframe>
+</div> </div>
+<div class="panel-pane pane-views-panes pane-most-popular-stories-panel-pane-1">
+<div class="view view-most-popular-stories view-id-most_popular_stories view-display-id-panel_pane_1 cat-blog-list view-dom-id-d815b6318774a22f595807a48915a148">
+<div class="view-header">
+<h2 class="blog-section-title">featured stories</h2> </div>
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="post">
+<div class="post-image">
+<div class="blog-post-image">
+<div class="field-content"><img src="https://toughmudder.com/sites/default/files/styles/blog_post_image_600x325/public/blog/2017/10/Copy%20of%20LA-29.jpg?itok=G8CwVd6q" width="600" height="325" /></div> </div>
+<div class="overlay-text">
+<a target="_blank" href="https://toughmudder.com/mudder-nation/blog/tune-tough-mudder-bootcamp-workouts-x-facebook-watch">
+<div class="text-content">
+<div class="valign">
+<span>Read more >></span>
+</div>
+</div>
+</a>
+</div>
+
+</div>
+<div class="post-info">
+<div class="topic">
+<div class="field-content"><img src="https://toughmudder.com/sites/default/files/train-black.png" width="77" height="39" /></div> <div class="field-content">Train</div> </div>
+<h3 class="blog-post-title"><span class="field-content"><a href="https://toughmudder.com/mudder-nation/blog/tune-tough-mudder-bootcamp-workouts-x-facebook-watch">Tune In: Tough Mudder Bootcamp Workouts x...</a></span></h3>
+<div class="collapse-content expand">
+<div class="collapse-content-wrapper">
+<span class="field-content"> Next Livestream: Week 2Follow Show PageNot sure how you and your Tough Mudder team are going to...</span> <div class="author-info">
+<span>By</span> <a target="_blank" href="/mudder-nation/mudder/tough-mudder"><div class="field-content">TMHQ</div></a> | <span class="field-content">October 10, 2017</span>  <div class="share-img" style="display: none;"><div class="field-content"><img src="https://toughmudder.com/sites/default/files/styles/blog_post_image_600x325/public/blog/2017/10/Copy%20of%20LA-29.jpg?itok=G8CwVd6q" width="600" height="325" /></div></div>
+<div class="custom-sharethis"><h5>Share this:</h5> <div class="sharethis-wrapper"><span st_url="https://toughmudder.com/mudder-nation/blog/tune-tough-mudder-bootcamp-workouts-x-facebook-watch" st_title="Tune In: Tough Mudder Bootcamp Workouts x Facebook Watch" class="st_facebook"></span>
+<span st_url="https://toughmudder.com/mudder-nation/blog/tune-tough-mudder-bootcamp-workouts-x-facebook-watch" st_title="Tune In: Tough Mudder Bootcamp Workouts x Facebook Watch" class="st_twitter"></span>
+<span st_url="https://toughmudder.com/mudder-nation/blog/tune-tough-mudder-bootcamp-workouts-x-facebook-watch" st_title="Tune In: Tough Mudder Bootcamp Workouts x Facebook Watch" class="st_email"></span>
+</div></div> </div>
+</div>
+</div>
+</div>
+</div> </div>
+<div class="views-row views-row-2 views-row-even">
+<div class="post">
+<div class="post-image">
+<div class="blog-post-image">
+<div class="field-content"><img src="https://toughmudder.com/sites/default/files/styles/blog_post_image_600x325/public/blog/2017/10/PitTips_withJasonAntin.00_00_37_14.Still001.jpg?itok=BQ-DzFPM" width="600" height="325" /></div> </div>
+<div class="overlay-text">
+<a target="_blank" href="https://toughmudder.com/mudder-nation/blog/worlds-toughest-mudder-pit-tips-jason-antin-coachified">
+<div class="text-content">
+<div class="valign">
+<span>Read more >></span>
+</div>
+</div>
+</a>
+</div>
+
+</div>
+<div class="post-info">
+<div class="topic">
+<div class="field-content"><img src="https://toughmudder.com/sites/default/files/train-black.png" width="77" height="39" /></div> <div class="field-content">Train</div> </div>
+<h3 class="blog-post-title"><span class="field-content"><a href="https://toughmudder.com/mudder-nation/blog/worlds-toughest-mudder-pit-tips-jason-antin-coachified">World&#039;s Toughest Mudder Pit Tips with...</a></span></h3>
+<div class="collapse-content expand">
+<div class="collapse-content-wrapper">
+<span class="field-content"> The Pit is the key to success at World's Toughest Mudder. Both athletes and pit crew members need...</span> <div class="author-info">
+<span>By</span> <a target="_blank" href="/mudder-nation/mudder/tough-mudder"><div class="field-content">TMHQ</div></a> | <span class="field-content">October 4, 2017</span> <div class="share-img" style="display: none;"><div class="field-content"><img src="https://toughmudder.com/sites/default/files/styles/blog_post_image_600x325/public/blog/2017/10/PitTips_withJasonAntin.00_00_37_14.Still001.jpg?itok=BQ-DzFPM" width="600" height="325" /></div></div>
+<div class="custom-sharethis"><h5>Share this:</h5> <div class="sharethis-wrapper"><span st_url="https://toughmudder.com/mudder-nation/blog/worlds-toughest-mudder-pit-tips-jason-antin-coachified" st_title="World&#039;s Toughest Mudder Pit Tips with Jason Antin: Coachified" class="st_facebook"></span>
+<span st_url="https://toughmudder.com/mudder-nation/blog/worlds-toughest-mudder-pit-tips-jason-antin-coachified" st_title="World&#039;s Toughest Mudder Pit Tips with Jason Antin: Coachified" class="st_twitter"></span>
+<span st_url="https://toughmudder.com/mudder-nation/blog/worlds-toughest-mudder-pit-tips-jason-antin-coachified" st_title="World&#039;s Toughest Mudder Pit Tips with Jason Antin: Coachified" class="st_email"></span>
+</div></div> </div>
+</div>
+</div>
+</div>
+</div> </div>
+<div class="views-row views-row-3 views-row-odd views-row-last">
+<div class="post">
+<div class="post-image">
+<div class="blog-post-image">
+<div class="field-content"><img src="https://toughmudder.com/sites/default/files/styles/blog_post_image_600x325/public/blog/2017/09/CoverImage.jpg?itok=jilQYCTY" width="600" height="325" /></div> </div>
+<div class="overlay-text">
+<a target="_blank" href="https://toughmudder.com/mudder-nation/blog/introducing-tough-mudder-pro-team">
+<div class="text-content">
+<div class="valign">
+<span>Read more >></span>
+</div>
+</div>
+</a>
+</div>
+
+</div>
+<div class="post-info">
+<div class="topic">
+<div class="field-content"><img src="https://toughmudder.com/sites/default/files/news-black.png" width="73" height="52" /></div> <div class="field-content">News</div> </div>
+<h3 class="blog-post-title"><span class="field-content"><a href="https://toughmudder.com/mudder-nation/blog/introducing-tough-mudder-pro-team">Introducing the Tough Mudder Pro Team</a></span></h3>
+<div class="collapse-content expand">
+<div class="collapse-content-wrapper">
+<span class="field-content"> Mudder Nation, meet The Tough Mudder Pro Team starring Ryan Atkins, Lindsey Webster, Stefanie...</span> <div class="author-info">
+<span>By</span> <a target="_blank" href="/mudder-nation/mudder/tough-mudder"><div class="field-content">TMHQ</div></a> | <span class="field-content">September 28, 2017</span> <div class="share-img" style="display: none;"><div class="field-content"><img src="https://toughmudder.com/sites/default/files/styles/blog_post_image_600x325/public/blog/2017/09/CoverImage.jpg?itok=jilQYCTY" width="600" height="325" /></div></div>
+<div class="custom-sharethis"><h5>Share this:</h5> <div class="sharethis-wrapper"><span st_url="https://toughmudder.com/mudder-nation/blog/introducing-tough-mudder-pro-team" st_title="Introducing the Tough Mudder Pro Team" class="st_facebook"></span>
+<span st_url="https://toughmudder.com/mudder-nation/blog/introducing-tough-mudder-pro-team" st_title="Introducing the Tough Mudder Pro Team" class="st_twitter"></span>
+<span st_url="https://toughmudder.com/mudder-nation/blog/introducing-tough-mudder-pro-team" st_title="Introducing the Tough Mudder Pro Team" class="st_email"></span>
+</div></div> </div>
+</div>
+</div>
+</div>
+</div> </div>
+</div>
+<div class="view-footer">
+<a href="/mudder-nation/blog" target="_blank">View more &gt;&gt;</a> </div>
+</div> </div>
+<div class="panel-pane pane-views-panes pane-homepage-news-carousel-home-page-news news-section">
+<div class="view view-homepage-news-carousel view-id-homepage_news_carousel view-display-id-home_page_news view-dom-id-1921e6c634072752316311aefb31ef8e">
+<div class="view-content">
+<div class="col-header">
+<h3>NEWS</h3>
+</div>
+<ul class="news-bxslider">
+<li>
+<div class="front-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_logo/public/2-cheddar.jpg?itok=zNHNPo73" width="215" height="111" />               </div>
+<div class="back-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_thumb/public/news/2017/08/2-cheddar.jpg?itok=j-WBM6QK" width="500" height="250" />               </div>
+<h4>Cheddar Was Live at the NYSE</h4>
+<a class="rd-more" href="https://www.facebook.com/cheddar/videos/1913674738953255/" target="_blank">READ MORE >></a>
+</li>
+<li>
+<div class="front-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_logo/public/1-fast-co.jpg?itok=IMzCh9Rg" width="215" height="111" />               </div>
+<div class="back-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_thumb/public/news/2017/08/1-fast-co.jpg?itok=1JrhWPqv" width="500" height="250" />               </div>
+<h4>It's a Mud Mud Mud Mud World</h4>
+<a class="rd-more" href="https://www.fastcompany.com/40427201/its-a-mud-mud-mud-mud-world" target="_blank">READ MORE >></a>
+</li>
+<li>
+<div class="front-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_logo/public/2-mud-run-guide.jpg?itok=oaCL7yzt" width="215" height="111" />               </div>
+<div class="back-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_thumb/public/news/2017/08/2-mud-run-guide.jpg?itok=dU0JA-6c" width="500" height="250" />               </div>
+<h4>It Takes A Tribe: Will Dean’s...</h4>
+<a class="rd-more" href="http://www.mudrunguide.com/2017/05/takes-tribe-will-deans-book-tough-mudder-coming-september" target="_blank">READ MORE >></a>
+</li>
+<li>
+<div class="front-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_logo/public/3-ocm.jpg?itok=dz71vVpM" width="215" height="111" />               </div>
+<div class="back-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_thumb/public/news/2017/08/3-ocm.jpg?itok=pEkIXN5X" width="500" height="250" />               </div>
+<h4>Tough Mudder Rolls Out its...</h4>
+<a class="rd-more" href="http://obstacleracingmedia.com/training/tough-mudder-rolls-out-its-studio-fitness-concept-tough-mudder-bootcamp/" target="_blank">READ MORE >></a>
+</li>
+<li>
+<div class="front-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_logo/public/download%20%282%29_0.jpg?itok=hPMRwuP-" width="183" height="82" />               </div>
+<div class="back-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_thumb/public/news/2016/08/ladders-success-tough-mudder_0.jpg?itok=sKMYtPSC" width="500" height="250" />               </div>
+<h4>10 Insane Obstacles from...</h4>
+<a class="rd-more" href="http://www.outsideonline.com/2102666/10-insane-obstacles-tough-mudders-design-challenge" target="_blank">READ MORE >></a>
+</li>
+<li>
+<div class="front-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_logo/public/download_9.jpg?itok=mBz4corN" width="215" height="185" />               </div>
+<div class="back-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_thumb/public/news/2016/08/download%20%281%29.jpg?itok=EQUtnis-" width="500" height="250" />               </div>
+<h4>Tough Mudder, Team Rubicon...</h4>
+<a class="rd-more" href="http://www.today.com/video/how-tough-mudder-team-rubicon-build-bonds-among-vets-and-first-responders-736615491784" target="_blank">READ MORE >></a>
+</li>
+<li>
+<div class="front-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_logo/public/download_8.png?itok=5WJGfRY6" width="140" height="88" />               </div>
+<div class="back-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_thumb/public/news/2016/08/images.jpg?itok=x4MLLFBg" width="500" height="250" />               </div>
+<h4>Tough Mudder season-ending...</h4>
+<a class="rd-more" href="http://www.usatoday.com/story/sports/2016/08/02/tough-mudder-cbs-sports-tv-deal/87944740/" target="_blank">READ MORE >></a>
+</li>
+<li>
+<div class="front-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_logo/public/download_7.png?itok=zVPGgQls" width="182" height="182" />               </div>
+<div class="back-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_news_carousel_thumb/public/news/2016/07/93287_Bonnie-Lee.jpg?itok=FV2KWROI" width="500" height="250" />               </div>
+<h4>How Was Your Day...Tough...</h4>
+<a class="rd-more" href="http://www.ozy.com/true-story/how-was-your-day-tough-mudder-obstacle-director/70174" target="_blank">READ MORE >></a>
+</li>
+</ul>
+<div class="more">
+<a href="press-room/in-the-news">SEE ALL NEWS >></a>
+</div> </div>
+</div> </div>
+<div class="panel-pane pane-views-panes pane-homepage-call-out-module-panel-pane-3 home-callout">
+<div class="view view-homepage-call-out-module view-id-homepage_call_out_module view-display-id-panel_pane_3 view-dom-id-bfd51a22f38b8253c221383c0fbe8b61">
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-nothing"> <div class="field-content"><div class="left-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_call_out_module/public/Desktop_Gear_400x400.jpg?itok=3DSaok8B" width="400" height="400" /> </div>
+<div class="right-text">
+<h3>Train Tough</h3>
+<p>Get prepared to take on Probably the Toughest Event on the Planet. Shop our tough training gear.</p>
+<div class="link-more"><a href="http://gear.toughmudder.com" target="_blank">Shop More</a></div>
+</div></div> </div> </div>
+<div class="views-row views-row-2 views-row-even views-row-last">
+<div class="views-field views-field-nothing"> <div class="field-content"><div class="left-img"><img src="https://toughmudder.com/sites/default/files/styles/homepage_call_out_module/public/Desktop_Charity_400x400.jpg?itok=3FQQE3y-" width="400" height="400" /> </div>
+<div class="right-text">
+<h3>RUN FOR A CAUSE</h3>
+<p>Become a real hero -- use your run to fundraise for an important cause. Support our official charity partners, Team Rubicon and Wounded Warriors Canada, or run for free by raising money for a nonprofit in our charity family.</p>
+<div class="link-more"><a href="https://toughmudder.com/fundraise-now" target="_blank">Give More</a></div>
+</div></div> </div> </div>
+</div>
+</div> </div>
+</div>
+</div>
+</div>
+<footer class="l-footer" role="contentinfo">
+<div class="l-region l-region--footer">
+<div class="panel-pane pane-panels-mini pane-footer">
+<div class="panel-pane pane-panels-mini pane-footer-sponsor-carousel">
+<div class="panel-pane pane-views-panes pane-sponsors-footer-sponsors">
+<div class="view view-sponsors view-id-sponsors view-display-id-footer_sponsors sponsor-carousel-container view-dom-id-8c50d9e41da5146002da1d73e88d073d">
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="sponsor-width Merrell">
+<a class="sponsor Merrell" href="http://www.merrell.com/US/en/tough-mudder/" rel="nofollow" target="_blank" style="background-image: url('https://toughmudder.com/sites/default/files/sponsor-merrell-375x200.png');"></a>
+</div>
+</div>
+<div class="views-row views-row-2 views-row-even">
+<div class="sponsor-width CBS Sports">
+<a class="sponsor CBS Sports" href="http://www.cbssports.com/" rel="nofollow" target="_blank" style="background-image: url('https://toughmudder.com/sites/default/files/footer_sprite_cbs-sports-200x200.png');"></a>
+</div>
+</div>
+<div class="views-row views-row-3 views-row-odd">
+<div class="sponsor-width US - CW">
+<a class="sponsor US - CW" href="http://cwseed.com" rel="nofollow" target="_blank" style="background-image: url('https://toughmudder.com/sites/default/files/footer_sprite_CW_200x200.png');"></a>
+</div>
+</div>
+<div class="views-row views-row-4 views-row-even">
+<div class="sponsor-width Team Rubicon">
+<a class="sponsor Team Rubicon" href="/charity" rel="nofollow" target="_blank" style="background-image: url('https://toughmudder.com/sites/default/files/footer_sprite_team-rubicon-200x200.png');"></a>
+</div>
+</div>
+<div class="views-row views-row-5 views-row-odd">
+<div class="sponsor-width US - Vega">
+<a class="sponsor US - Vega" href="https://myvega.com/" rel="nofollow" target="_blank" style="background-image: url('https://toughmudder.com/sites/default/files/footer_sprite_vega200x200.png');"></a>
+</div>
+</div>
+<div class="views-row views-row-6 views-row-even">
+<div class="sponsor-width Aflac">
+<a class="sponsor Aflac" href="https://www.aflac.com/individuals/default.aspx?utm_source=toughmudder&utm_medium=sponsorship&utm_campaign=b2c_2017_tm&utm_term=homepage_takeover&utm_content=toughmudder_homepage_b2c" rel="nofollow" target="_blank" style="background-image: url('https://toughmudder.com/sites/default/files/footer_sprite_aflac_us_200x200%20%282%29.png');"></a>
+</div>
+</div>
+<div class="views-row views-row-7 views-row-odd">
+<div class="sponsor-width US - Nexcare">
+<a class="sponsor US - Nexcare" href="http://www.nexcare.com/3M/en_US/nexcare/?WT.tsrc=OLAP&WT.mc_id=BRND-NEXC_TSRC-OLAP_CMPN-TLPC_CSRC-TUFM_CTHM-INSP_CTPL-TUFL_CCAT-PRMO_CTYP-BNNR3_MTYP-BANR" rel="nofollow" target="_blank" style="background-image: url('https://toughmudder.com/sites/default/files/footer_sprite_nexcare_us_ca_200x200.png');"></a>
+</div>
+</div>
+<div class="views-row views-row-8 views-row-even">
+<div class="sponsor-width US - Amazon">
+<a class="sponsor US - Amazon" href="//www.amazon.com/gp/adlp/toughmudder?utm_source=toughmudder&utm_medium=web&utm_campaign=amazontm&utm_term=webpagefooter&utm_content=logo" rel="nofollow" target="_blank" style="background-image: url('https://toughmudder.com/sites/default/files/footer_sprite_us_amazon_200x200.png');"></a>
+</div>
+</div>
+<div class="views-row views-row-9 views-row-odd views-row-last">
+<div class="sponsor-width Guinness">
+<a class="sponsor Guinness" href="https://www.guinness.com/en-us/our-beers/guinness-blonde-american-lager/" rel="nofollow" target="_blank" style="background-image: url('https://toughmudder.com/sites/default/files/footer_sprite_guinness_us_200x200-%282%29.png');"></a>
+</div>
+</div>
+</div>
+</div> </div>
+</div>
+<div class="panel-pane pane-panels-mini pane-footer-navigation">
+<div class="footer">
+<div class="footer-content"><div class="panel-pane pane-custom pane-3">
+<a class="logo" href="/"><img src="/sites/all/themes/tough_mudder/images/logo-2.png" alt="Home" title="Home" /></a> </div>
+<div class="panel-pane pane-block pane-menu-menu-tm-footer-menu pane-menu">
+<ul class="menu"><li class="first leaf" data-title="FAQS"><a href="http://mycusthelp.net/TMHQ/_rs/Findanswers.aspx?coid=68F60A553B6BCF66" target="_blank">FAQS</a></li>
+<li class="leaf" data-title="Contact"><a href="https://toughmudder.com/content/contact">Contact</a></li>
+<li class="leaf" data-title="Careers"><a href="http://tmhq.com/careers">Careers</a></li>
+<li class="leaf" data-title="Sponsorship Opportunities"><a href="https://toughmudder.com/content/sponsorship-opportunities">Sponsorship Opportunities</a></li>
+<li class="leaf" data-title="International Licensing"><a href="https://toughmudder.com/content/international-licensing">International Licensing</a></li>
+<li class="leaf" data-title="Legal Policies &amp; Terms"><a href="https://toughmudder.com/legal-policies-and-terms">Legal Policies &amp; Terms</a></li>
+<li class="leaf" data-title="Corporate Packages"><a href="https://toughmudder.com/corporate-team-packages">Corporate Packages</a></li>
+<li class="leaf" data-title="Press"><a href="https://toughmudder.com/press-room">Press</a></li>
+<li class="leaf" data-title="Website Feedback"><a href="http://tmweb.questionpro.com" target="_blank">Website Feedback</a></li>
+<li class="leaf" data-title="Host An Event"><a href="https://toughmudder.com/content/host-tough-mudder-events">Host An Event</a></li>
+<li class="leaf" data-title="Hotels"><a href="https://toughmudder.com/content/2017-accommodations">Hotels</a></li>
+<li class="last leaf" data-title="TM Headquarters"><a href="http://tmhq.com">TM Headquarters</a></li>
+</ul> </div>
+<div class="panel-pane pane-block pane-block-7">
+<div class="social-links">
+<h4>Mudders Unite</h4>
+<ul>
+<li><a class="facebook" href="https://www.facebook.com/toughmudder" target="_blank">Facebook</a></li>
+<li><a class="twitter" href="https://twitter.com/toughmudder" target="_blank">Twitter</a></li>
+<li><a class="youtube" href="http://www.youtube.com/user/ToughMudder" target="_blank">You Tube</a></li>
+<li><a class="instagram" href="http://instagram.com/tough_mudder" target="_blank">Instagram</a></li>
+<li><a class="google" href="http://google.com/+ToughMudder" target="_blank">Google +</a></li>
+</ul>
+</div>
+
+<p>Built by Rain<br /><a title="Tough Mudder Original Branding" href=" 
+http://condensed.io/case-studies/tough-mudder-identity-web-design/ " target="_blank">Original Branding by Condensed</a></p> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script src="https://toughmudder.com/sites/default/files/js/js_CHUw2TxoHrBvGktYJLnseHfwmXlQ2ol4V4YP6zVKYVE.js"></script>
+<script src="https://toughmudder.com/sites/default/files/js/js_Vu_KGSymXJOQMRef08RjtkFdVw-uKENEHSNuEz5XR-I.js"></script>
+<script src="https://toughmudder.com/sites/default/files/js/js_1mePW6HJnIKH8sLb6nX7XxGMm34Tu9uL5TqGSyKPXWI.js"></script>
+<script src="https://toughmudder.com/sites/default/files/js/js_ALVdAmctTHJLBNAqPw4NGPFIkBimXfuCK5LlHk_pxUo.js"></script>
+<script defer="defer">var switchTo5x = true;</script>
+<script defer="defer" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script defer="defer">if (stLight !== undefined) { stLight.options({"publisher":"dr-6ddb234-479f-3a47-828d-50f081acba","version":"5x"}); }</script>
+<script src="https://toughmudder.com/sites/default/files/js/js_-mSzQ951UK8AEMeABho0L_AhRtpltXl8JdVuKHpx754.js"></script>
+<script src="https://toughmudder.com/sites/default/files/js/js_Yl7c5QjTsF38UFv07pmWKg2bVtFjhG6kEgBENw6T4M0.js"></script>
+<script defer="defer" src="https://toughmudder.com/sites/all/themes/tough_mudder/js/common.js?1507662304"></script>
+<script src="https://toughmudder.com/sites/default/files/js/js_1rEP3Es1ZBobp8cRHQn11xZfj61DXkF9VebWd-z5g_w.js"></script>
+<div class="dimmer"></div>
+</body>
+</html>

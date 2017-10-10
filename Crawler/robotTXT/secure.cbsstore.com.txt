@@ -1,0 +1,10 @@
+/account.php
+/cart.php
+/checkout.php
+/info.php.php?*t=store_info_popup
+/orderlookup.php
+/popup.php
+/productfinder.php
+/register.php
+/shippingAdditionalInfo.php
+/wishlist.php

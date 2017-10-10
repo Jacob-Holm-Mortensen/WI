@@ -1,0 +1,568 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<head>
+<script src="/CBSi/static/111213/js/perf/stub.js" type="text/javascript"></script><script src="/faces/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript" type="text/javascript"></script><script src="/CBSi/jslibrary/1501092696000/ui-sfdc-javascript-impl/SfdcCore.js" type="text/javascript"></script><script src="/CBSi/EXT/ext-3.3.3/ext.js" type="text/javascript"></script><script src="/CBSi/static/111213/js/picklist4.js" type="text/javascript"></script><script src="/CBSi/jslibrary/1500591790000/sfdc/VFState.js" type="text/javascript"></script><script src="/CBSi/static/111213/js/scriptaculous-1.9/prototype.js" type="text/javascript"></script><script src="/CBSi/static/111213/js/scriptaculous-1.9/effects.js" type="text/javascript"></script><script src="/CBSi/jslibrary/1500591790000/sfdc/KnowledgeDlg.js" type="text/javascript"></script><link class="user" href="/CBSi/EXT/ext-3.3.3/resources/css/ext-all-notheme.css" rel="stylesheet" type="text/css" /><link class="user" href="/CBSi/sCSS/41.0/1507243750000/PortalDefault/default/gc/ExtCSS-SFDC.css" rel="stylesheet" type="text/css" /><link class="user" href="/CBSi/sCSS/41.0/1507243750000/PortalDefault/default/gc/knowledge.css" rel="stylesheet" type="text/css" /><link class="user" href="/CBSi/sCSS/41.0/1507243750000/PortalDefault/default/gc/knowledgeHome.css" rel="stylesheet" type="text/css" /><link class="user" href="/CBSi/static/100908/css/vote.css" rel="stylesheet" type="text/css" /><meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<meta HTTP-EQUIV="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT" />
+
+<script src="https://c.la1c1.salesforceliveagent.com/content/g/js/34.0/deployment.js" type="text/javascript"></script>
+<script type="text/javascript">liveagent.init('https://d.la1c1.salesforceliveagent.com/chat', '572E0000000CnsH', '00DE0000000ZiAl');</script>
+</head><html lang="#rn:language_code#" xml:lang="#rn:language_code#" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<meta HTTP-EQUIV="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT" />
+
+
+<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+<meta content="text/css" http-equiv="Content-Style-Type" />
+<meta content="text/javascript" http-equiv="Content-Script-Type" />
+<meta content="chrome=1" http-equiv="X-UA-Compatible" />
+
+<meta content=".00001 ; url=https://cbsi.secure.force.com/CBSi/articles/FAQ/CBS-Interactive--Terms-of-Use?retURL=%2FCBSi%2Fapex%2Fknowledgehome%3Freferer%3DmobileTerms.com&amp;popup=false&amp;categories=CBS_Interactive%3AmTOU&amp;template=template_mobileTerms&amp;referer=mobileTerms.com" http-equiv="refresh" />
+<script type="text/javascript">
+        window.location.href = "https://cbsi.secure.force.com/CBSi/articles/FAQ/CBS-Interactive--Terms-of-Use?retURL=%2FCBSi%2Fapex%2Fknowledgehome%3Freferer%3DmobileTerms.com&popup=false&categories=CBS_Interactive%3AmTOU&template=template_mobileTerms&referer=mobileTerms.com"
+</script>
+
+<title>CBSi Terms of Use</title>
+
+<link href="/CBSi/resource/1424049638000/assets_cbsi/assets_cbsi/shared/css/base.css" rel="stylesheet" type="text/css" />
+<link href="/CBSi/resource/1424049638000/assets_cbs/assets_cbs/privacy2/upgrade_privacy2.css" rel="stylesheet" type="text/css" />
+
+<link href="http://www.cbsinteractive.com/wp-content/themes/cbsi/favicon.png" rel="shortcut icon" />
+<style>
+.First_Name__c {
+    width: 200px;
+}
+
+.Last_Name__c {
+    width: 200px;
+}
+
+.SuppliedEmail {
+    width: 200px;
+}
+
+.Subject {
+    width: 200px;
+}
+
+.Description {
+    width: 250px;
+    height: 100px;
+}
+</style>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+   '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(
+  ['_setAccount', 'UA-44370819-3'],
+  ['_trackPageview'],
+  ['b._setAccount', 'UA-44370819-1'],
+  ['b._trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+<body>
+
+<script language="JavaScript" type="text/javascript">
+var omdata = {
+  is_dev:false,
+  context:{
+    section:"tou.com",
+    page_type:"template_mobileTerms",
+    content_title:"Terms of Use Help and Support",
+  }
+}
+</script>
+
+    <div id="container">
+
+        
+
+        <div id="header">
+            <div id="navcontainer">
+                <div id="brand-logo">
+                    <a href="/CBSi/knowledgehome?referer=" target="_self"><img src="/CBSi/resource/1424049638000/assets_cbsi/assets_cbsi/shared/images/CBSiLogo.jpg" />
+                    </a>
+                </div>
+                <div id="nav-bar">
+                    <div id="CBSi-top-nav" style="FONT-FAMILY: 'Open Sans', sans-serif; FONT-SIZE: 11px; FONT-WEIGHT: 100">
+                        <ul>
+                            <li class=""><a href="/CBSi/knowledgehome?referer=">Search
+                                    Terms of Use</a>
+                            </li>
+                            <li class=""><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSi-Terms-of-Use?template=template_tougl&amp;referer=tougl.com&amp;data=&amp;cfs=SFS_TOU_PP">Terms
+                                    of Use</a>
+                            </li>
+                            <li class=""><a href="/CBSi/submitcase?template=template_tougl&amp;referer=&amp;cfs=SFS_TOU_PP">Submit
+                                    a Question Online</a>
+                            </li>
+                            <li class=""><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSi-Contact-Us?template=template_tougl&amp;referer=tougl.com">Contact
+                                    Information</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div id="leftsidebar" style="display: none">
+            <div id="left-side-menu">
+            <span style="color: #00124B;"><a href="http://www.cbs.com" style="color: #00124B; text-decoration: none">ENTERTAINMENT</a><br /><br /></span>
+            <span style="color: #F9891B;"><a href="http://www.gamespot.com/?tag=brands_list;brand_gamespot" style="color: #F9891B; text-decoration: none">GAMES</a><br /><br /></span>
+            <span style="color: #648D02;"><a href="http://www.lastfm.com" style="color: #648D02; text-decoration: none">MUSIC</a><br /><br /></span>
+            <span style="color: #4F227F;"><a href="http://www.cbsnews.com" style="color: #4F227F; text-decoration: none">NEWS</a><br /><br /></span>
+            <span style="color: #2031A9;"><a href="http://www.cbssports.com" style="color: #2031A9; text-decoration: none">SPORTS</a><br /><br /> </span>
+            <span style="color: #950002;"><a href="http://www.zdnet.com" style="color: #950002; text-decoration: none">TECHNOLOGY</a><br /><br /></span>
+            <span style="color: #404040;"><a href="http://www.cbsinteractive.com/onesheets/europe/?tag=brands_list;brand_cbsi-international" style="color: #404040; text-decoration: none">INTERNATIONAL</a><br /><br /></span>
+            <span style="color: #E85E22;"><a href="http://www.cbsinteractive.com/our_brands.php?tag=main_wrap;mainnav" style="color: #E85E22; text-decoration: none">ALL US BRANDS</a></span>
+
+            </div>
+        </div>
+
+        
+
+        <div id="rightsidebar" style="display: none">
+            <div id="right-side-menu">
+            </div>
+        </div>
+
+        
+
+        <div id="contentcontainer">
+            <div id="faq-container" style="font-family: arial, helvetica, sans-serif;">
+                <div id="faq-title"></div>
+                <div id="faq-body"><span id="j_id0:j_id2:j_id10"><span id="j_id0:j_id2:j_id10:j_id11:j_id12"></span><div id="j_id0:j_id2:j_id10:j_id11:toolbar" style="display: none;"></div><div id="j_id0:j_id2:j_id10:j_id11:votingComponent" style="display: none;">
+<form id="j_id0:j_id2:j_id10:j_id11:voteForm" name="j_id0:j_id2:j_id10:j_id11:voteForm" method="post" action="/CBSi/ViewArticle?id=kA0E0000000PamP" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id0:j_id2:j_id10:j_id11:voteForm" value="j_id0:j_id2:j_id10:j_id11:voteForm" />
+<script id="j_id0:j_id2:j_id10:j_id11:voteForm:j_id22" type="text/javascript">attachArticleToCase=function(){A4J.AJAX.Submit('j_id0:j_id2:j_id10:j_id11:voteForm',null,{'similarityGroupingId':'j_id0:j_id2:j_id10:j_id11:voteForm:j_id22','parameters':{'j_id0:j_id2:j_id10:j_id11:voteForm:j_id22':'j_id0:j_id2:j_id10:j_id11:voteForm:j_id22'} } )};
+</script><script id="j_id0:j_id2:j_id10:j_id11:voteForm:j_id23" type="text/javascript">detachArticleToCase=function(){A4J.AJAX.Submit('j_id0:j_id2:j_id10:j_id11:voteForm',null,{'similarityGroupingId':'j_id0:j_id2:j_id10:j_id11:voteForm:j_id23','parameters':{'j_id0:j_id2:j_id10:j_id11:voteForm:j_id23':'j_id0:j_id2:j_id10:j_id11:voteForm:j_id23'} } )};
+</script><script id="j_id0:j_id2:j_id10:j_id11:voteForm:j_id24" type="text/javascript">attachArticleAndGoBackToCase=function(){A4J.AJAX.Submit('j_id0:j_id2:j_id10:j_id11:voteForm',null,{'similarityGroupingId':'j_id0:j_id2:j_id10:j_id11:voteForm:j_id24','oncomplete':function(request,event,data){goBackToCaseUrl();},'parameters':{'j_id0:j_id2:j_id10:j_id11:voteForm:j_id24':'j_id0:j_id2:j_id10:j_id11:voteForm:j_id24'} } )};
+</script><script id="j_id0:j_id2:j_id10:j_id11:voteForm:j_id25" type="text/javascript">detachArticleAndGoBackToCase=function(){A4J.AJAX.Submit('j_id0:j_id2:j_id10:j_id11:voteForm',null,{'similarityGroupingId':'j_id0:j_id2:j_id10:j_id11:voteForm:j_id25','oncomplete':function(request,event,data){goBackToCaseUrl();},'parameters':{'j_id0:j_id2:j_id10:j_id11:voteForm:j_id25':'j_id0:j_id2:j_id10:j_id11:voteForm:j_id25'} } )};
+</script><table class="voteFormPanel">
+<tbody>
+<tr>
+<td><input id="j_id0:j_id2:j_id10:j_id11:voteForm:viewCountNoIncrease" type="hidden" name="j_id0:j_id2:j_id10:j_id11:voteForm:viewCountNoIncrease" /></td>
+<td><div id="j_id0:j_id2:j_id10:j_id11:voteForm:j_id42"><table class="articleRendererBorderRight">
+<tbody>
+<tr>
+<td><span class="averageRatingPanel">Rate This Article</span></td>
+<td><span id="j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote"><script src="/CBSi/jslibrary/1500591790000/sfdc/Vote.js"></script><span id="j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline"><div id="j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:voteRankRenderer" class="starRatingPanel"><span id="j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:currentUserVote" style="display: none;">|vote=None|</span><div id="j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus"><div id="j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus.start" style="display: none"></div><script type="text/javascript">
+window.document.getElementById('j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus.start').onstart=function(){document.getElementById('j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingProcessing').style.visibility='visible';;};
+</script><div id="j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus.stop"></div><script type="text/javascript">
+window.document.getElementById('j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus.stop').onstop=function(){document.getElementById('j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingProcessing').style.visibility='hidden';;};
+</script></div><div id="j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingProcessing" style="position: absolute; visibility:hidden;">
+                Processing...</div><script id="j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:j_id89" type="text/javascript">starVote=function(starNumber){A4J.AJAX.Submit('j_id0:j_id2:j_id10:j_id11:voteForm',null,{'similarityGroupingId':'j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:j_id89','parameters':{'j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:j_id89':'j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:j_id89','starNumber':(typeof starNumber!='undefined'&&starNumber!=null)?starNumber:''} ,'status':'j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus'} )};
+</script><table class="stars mouseOut" onmouseout="mouseoutStarsPanel(this)" onmouseover="mouseoverStarsPanel(this)">
+<tbody>
+<tr>
+<td><div id="j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:votingStar1" onclick="starVote(1)" onmouseout="mouseoutStar(this)" onmouseover="mouseoverStar(this)" class="idleStar"></div></td>
+<td><div id="j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:votingStar2" onclick="starVote(2)" onmouseout="mouseoutStar(this)" onmouseover="mouseoverStar(this)" class="idleStar"></div></td>
+<td><div id="j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:votingStar3" onclick="starVote(3)" onmouseout="mouseoutStar(this)" onmouseover="mouseoverStar(this)" class="idleStar"></div></td>
+<td><div id="j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:votingStar4" onclick="starVote(4)" onmouseout="mouseoutStar(this)" onmouseover="mouseoverStar(this)" class="idleStar"></div></td>
+<td><div id="j_id0:j_id2:j_id10:j_id11:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:votingStar5" onclick="starVote(5)" onmouseout="mouseoutStar(this)" onmouseover="mouseoverStar(this)" class="idleStar"></div></td>
+</tr>
+</tbody>
+</table>
+</div></span></span></td>
+<td><span class="averageRatingPanel">(Average Rating: No Rating)</span></td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+</tbody>
+</table>
+<div id="j_id0:j_id2:j_id10:j_id11:voteForm:j_id223"></div>
+</form><span id="ajax-view-state-page-container" style="display: none"><span id="ajax-view-state" style="display: none"><input type="hidden"  id="com.salesforce.visualforce.ViewState" name="com.salesforce.visualforce.ViewState" value="i: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" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateVersion" name="com.salesforce.visualforce.ViewStateVersion" value="201710081949290549" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateMAC" name="com.salesforce.visualforce.ViewStateMAC" value="AGV5SnViMjVqWlNJNklrSkpSRjlrWTBkNFdHcHBXUzFmVUhSNE5HNHpZM1l3TkdsTGJpMDBaVjlIVTNGeldXRkVSRzlXUkRSY2RUQXdNMlFpTENKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUlzSW10cFpDSTZJbnRjSW5SY0lqcGNJakF3UkVVd01EQXdNREF3V21sQmJGd2lMRndpZGx3aU9sd2lNREF3TURBd01EQXdNREF3TURBd1hDSXNYQ0poWENJNlhDSjJabk5wWjI1cGJtZHJaWGxjSWl4Y0luVmNJanBjSWpBd05VVXdNREF3TURBeGNVZzFORndpZlNJc0ltTnlhWFFpT2xzaWFXRjBJbDBzSW1saGRDSTZNVFV3TnpZMk1UQXlNVGM1TUN3aVpYaHdJam93ZlE9PS4uV3Y5SDhtM1VVTkx1RVltQ3JDdzZGNTZUUUo4clAzMWh4akd1Um1tZjN3az0=" /></span></span></div><span id="j_id0:j_id2:j_id10:j_id11:articleVersionsHistoryRefresh"><span id="j_id0:j_id2:j_id10:j_id11:articleVersionListDlg"><script>window.sfdcPage = new GenericSfdcPage();
+UserContext.initialize({"ampm":["AM","PM"],"isAccessibleMode":false,"uiSkin":"PortalDefault","salesforceURL":"https://cbsi.secure.force.com?refURL=http%3A%2F%2Fcbsi.secure.force.com%2FCBSi%2Farticles%2FFAQ%2FCBSi-Terms-of-Use","dateFormat":"M/d/yyyy","language":"en_US","locale":"en_US","userName":"cbsi@cbsi.force.com","userId":"005E0000001qH54","isCurrentlySysAdminSU":false,"renderMode":"RETRO","startOfWeek":"1","vfDomainPattern":"(?:[^.]+).na39.visual.force.com","auraDomain":"na39.lightning.force.com","dateTimeFormat":"M/d/yyyy h:mm a","orgPreferences":[{"index":257,"name":"TabOrganizer","value":true},{"index":113,"name":"GroupTasks","value":true}],"siteUrlPrefix":"/CBSi","isDefaultNetwork":true,"labelLastModified":"1507493178000","today":"10/10/2017 6:43 PM","timeFormat":"h:mm a","userPreferences":[{"index":112,"name":"HideInlineEditSplash","value":false},{"index":114,"name":"OverrideTaskSendNotification","value":false},{"index":115,"name":"DefaultTaskSendNotification","value":false},{"index":119,"name":"HideUserLayoutStdFieldInfo","value":false},{"index":116,"name":"HideRPPWarning","value":false},{"index":87,"name":"HideInlineSchedulingSplash","value":false},{"index":88,"name":"HideCRUCNotification","value":false},{"index":89,"name":"HideNewPLESplash","value":false},{"index":90,"name":"HideNewPLEWarnIE6","value":false},{"index":122,"name":"HideOverrideSharingMessage","value":false},{"index":91,"name":"HideProfileILEWarn","value":false},{"index":93,"name":"HideProfileElvVideo","value":false},{"index":97,"name":"ShowPicklistEditSplash","value":false},{"index":92,"name":"HideDataCategorySplash","value":false},{"index":128,"name":"ShowDealView","value":false},{"index":129,"name":"HideDealViewGuidedTour","value":false},{"index":132,"name":"HideKnowledgeFirstTimeSetupMsg","value":false},{"index":104,"name":"DefaultOffEntityPermsMsg","value":false},{"index":135,"name":"HideNewCsnSplash","value":false},{"index":101,"name":"HideBrowserWarning","value":false},{"index":139,"name":"HideDashboardBuilderGuidedTour","value":false},{"index":140,"name":"HideSchedulingGuidedTour","value":false},{"index":180,"name":"HideReportBuilderGuidedTour","value":false},{"index":183,"name":"HideAssociationQueueCallout","value":false},{"index":194,"name":"HideQTEBanner","value":false},{"index":193,"name":"HideChatterOnboardingSplash","value":false},{"index":195,"name":"HideSecondChatterOnboardingSplash","value":false},{"index":270,"name":"HideIDEGuidedTour","value":false},{"index":282,"name":"HideQueryToolGuidedTour","value":false},{"index":196,"name":"HideCSIGuidedTour","value":false},{"index":271,"name":"HideFewmetGuidedTour","value":false},{"index":272,"name":"HideEditorGuidedTour","value":false},{"index":205,"name":"HideApexTestGuidedTour","value":false},{"index":206,"name":"HideSetupProfileHeaderTour","value":false},{"index":207,"name":"HideSetupProfileObjectsAndTabsTour","value":false},{"index":213,"name":"DefaultOffArticleTypeEntityPermMsg","value":false},{"index":214,"name":"HideSelfInfluenceGetStarted","value":false},{"index":215,"name":"HideOtherInfluenceGetStarted","value":false},{"index":216,"name":"HideFeedToggleGuidedTour","value":false},{"index":268,"name":"ShowChatterTab178GuidedTour","value":false},{"index":275,"name":"HidePeopleTabDeprecationMsg","value":false},{"index":276,"name":"HideGroupTabDeprecationMsg","value":false},{"index":224,"name":"HideUnifiedSearchGuidedTour","value":false},{"index":226,"name":"ShowDevContextMenu","value":false},{"index":227,"name":"HideWhatRecommenderForActivityQueues","value":false},{"index":228,"name":"HideLiveAgentFirstTimeSetupMsg","value":false},{"index":232,"name":"HideGroupAllowsGuestsMsgOnMemberWidget","value":false},{"index":233,"name":"HideGroupAllowsGuestsMsg","value":false},{"index":234,"name":"HideWhatAreGuestsMsg","value":false},{"index":235,"name":"HideNowAllowGuestsMsg","value":false},{"index":236,"name":"HideSocialAccountsAndContactsGuidedTour","value":false},{"index":237,"name":"HideAnalyticsHomeGuidedTour","value":false},{"index":238,"name":"ShowQuickCreateGuidedTour","value":false},{"index":245,"name":"HideFilePageGuidedTour","value":false},{"index":250,"name":"HideForecastingGuidedTour","value":false},{"index":251,"name":"HideBucketFieldGuide","value":false},{"index":263,"name":"HideSmartSearchCallOut","value":false},{"index":265,"name":"HideSocialProfilesKloutSplashScreen","value":false},{"index":273,"name":"ShowForecastingQuotaAttainment","value":false},{"index":280,"name":"HideForecastingQuotaColumn","value":false},{"index":301,"name":"HideManyWhoGuidedTour","value":false},{"index":298,"name":"HideFileSyncBannerMsg","value":false},{"index":299,"name":"HideTestConsoleGuidedTour","value":false},{"index":302,"name":"HideManyWhoInlineEditTip","value":false},{"index":303,"name":"HideSetupV2WelcomeMessage","value":false},{"index":312,"name":"ForecastingShowQuantity","value":false},{"index":313,"name":"HideDataImporterIntroMsg","value":false},{"index":314,"name":"HideEnvironmentHubLightbox","value":false},{"index":316,"name":"HideSetupV2GuidedTour","value":false},{"index":317,"name":"HideFileSyncMobileDownloadDialog","value":false},{"index":322,"name":"HideEnhancedProfileHelpBubble","value":false},{"index":328,"name":"ForecastingHideZeroRows","value":false},{"index":330,"name":"HideEmbeddedComponentsFeatureCallout","value":false},{"index":341,"name":"HideDedupeMatchResultCallout","value":false},{"index":340,"name":"HideS1BrowserUI","value":false},{"index":346,"name":"HideS1Banner","value":false},{"index":358,"name":"HideEmailVerificationAlert","value":false},{"index":354,"name":"HideLearningPathModal","value":false},{"index":359,"name":"HideAtMentionsHelpBubble","value":false},{"index":368,"name":"LightningExperiencePreferred","value":false}],"networkId":""});
+</script>
+<form id="j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id102" name="j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id102" method="post" action="/CBSi/ViewArticle?id=kA0E0000000PamP" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id102" value="j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id102" />
+<script id="j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id102:j_id103" type="text/javascript">articleVersionsHistory=function(articleId,versionNumber,languageId){A4J.AJAX.Submit('j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id102',null,{'similarityGroupingId':'j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id102:j_id103','oncomplete':function(request,event,data){showVersionsHistoryDlg();},'parameters':{'articleId':(typeof articleId!='undefined'&&articleId!=null)?articleId:'','languageId':(typeof languageId!='undefined'&&languageId!=null)?languageId:'','j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id102:j_id103':'j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id102:j_id103','versionNumber':(typeof versionNumber!='undefined'&&versionNumber!=null)?versionNumber:''} } )};
+</script><input id="j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id102:viewCountNoIncrease" type="hidden" name="j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id102:viewCountNoIncrease" /><div id="j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id102:j_id224"></div>
+</form><span id="j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id107">
+    <div id="j_id107_dialogScript">
+        <script type="text/javascript">
+            showVersionsHistoryDlg = function() {
+                var dialog = Knowledge.Dialog.getInstance({
+                    id: 'articleVersionListDlg_KnowledgeDialog',
+                    accessibleMode: false,
+                    componentId: 'articleVersionListDlg',
+                    title: 'Version History',
+                    width: 600,
+                    height: 400,
+                    initializerName: null,
+                    validatorName: null,
+                    encoderName: null
+                });
+                if(dialog.show) {
+                    dialog.show();
+                } else {
+                    alert("Error: Implementation error. Show() function not implemented");
+                }
+            }
+             //workaround for pages without header (when showheader="false")
+            if ((window.sfdcPage) && (sfdcPage.executeOnloadQueue)) sfdcPage.executeOnloadQueue();
+        </script>
+    </div></span>
+
+    <div id="articleVersionListDlg_dialogHolder" style="display: none;">
+        <div id="articleVersionListDlg_dialogContent">
+            <div class="versionListOverlayPanel">
+                <div class="versionListOverlay">
+                    <table cellpadding="0" cellspacing="0" class="overlayListHeader">
+                        <tr>
+                            <td class="secondVersionColumn" colspan="2">Version</td>
+                            <td class="thirdVersionColumn">Published on</td>
+                        </tr>
+                    </table><div id="j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id129" class="overlayList"><table cellspacing="1" cellpadding="0" class="overlayListTable versionOverlayList"></table></div>
+                </div>
+            </div>
+        </div><span id="j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id132">
+  <div id="j_id132_dialogActions"><span id="j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id132:j_id133:j_id136"><div id="j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id132:j_id133:j_id136:j_id137:j_id138" class="dialogAction">
+        <input class="dialogAction-name" type="hidden" value="articleVersionListDlg_close" />
+        <input class="dialogAction-label" type="hidden" value="Close" />
+        <input class="dialogAction-type" type="hidden" value="close" />
+        <input class="dialogAction-handler" type="hidden" value="" /></div></span>
+  </div></span>
+    </div></span></span><span id="j_id0:j_id2:j_id10:j_id11:propertiesPanelLabel" style="display: none;">
+            <span id="showProperties"><a href="#" onclick="togglePanel(Ext.get('j_id0:j_id2:j_id10:j_id11:propertiesPanel'),'showProperties','hideProperties');" title="Show Properties" target="_self" class="propertiesLink"><span id="j_id0:j_id2:j_id10:j_id11:j_id147" class="linkText">Show Properties</span></a>
+            </span>
+            <span id="hideProperties" style="display:none"><a href="#" onclick="togglePanel(Ext.get('j_id0:j_id2:j_id10:j_id11:propertiesPanel'),'showProperties','hideProperties');" title="Hide Properties" target="_self" class="propertiesLink"><span id="j_id0:j_id2:j_id10:j_id11:j_id151" class="linkText">Hide Properties</span></a>
+            </span></span><div id="j_id0:j_id2:j_id10:j_id11:propertiesPanel" style="display: none;"><div id="j_id0:j_id2:j_id10:j_id11:j_id154" class="propertiesPanel"><table class="propertiesTable">
+<tbody>
+<tr>
+<td class="propertiesTableColumn propertiesTableColumn1"><table>
+<tbody>
+<tr>
+<td class="labelColumn"><label for="j_id0:j_id2:j_id10:j_id11:firstPublicationDate">
+First Published</label></td>
+<td class="dataColumn"><span id="j_id0:j_id2:j_id10:j_id11:firstPublicationDate">11/14/2012 5:57 AM</span></td>
+</tr>
+<tr>
+<td class="labelColumn"><label for="j_id0:j_id2:j_id10:j_id11:lastModifiedDate">
+Last Modified</label></td>
+<td class="dataColumn"><span id="j_id0:j_id2:j_id10:j_id11:lastModifiedDate">2/20/2013 9:50 PM</span></td>
+</tr>
+<tr>
+<td class="labelColumn"><label for="j_id0:j_id2:j_id10:j_id11:publicationDate">
+Last Published</label></td>
+<td class="dataColumn"><span id="j_id0:j_id2:j_id10:j_id11:publicationDate">11/14/2012 5:57 AM</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="propertiesTableColumn propertiesTableColumn1"><table>
+<tbody>
+<tr>
+<td><table class="articleAudiencePanel">
+<tbody>
+<tr>
+<td><span class="articleAudience">Article Audience</span></td>
+</tr>
+<tr>
+<td><table>
+<tbody>
+<tr>
+<td>
+                    <tr>
+                        <td class="labelColumn"><span class="categoryGroupLabel">CBS Interactive</span></td>
+                        <td class="dataColumn"><span title="All &gt; GLTOU">GLTOU</span>
+                        </td>
+                    </tr></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class=" propertiesTableColumn"><table>
+<tbody>
+<tr>
+<td class="labelColumn"><label for="j_id0:j_id2:j_id10:j_id11:articleNumber">
+Article Number</label></td>
+<td class="dataColumn"><span id="j_id0:j_id2:j_id10:j_id11:articleNumber">000011422</span></td>
+</tr>
+<tr>
+<td class="labelColumn"><label for="j_id0:j_id2:j_id10:j_id11:summary">
+Summary</label></td>
+<td class="dataColumn"><span id="j_id0:j_id2:j_id10:j_id11:summary"></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div></div><div id="j_id0:j_id2:j_id10:j_id11:chatterPanel"></div>
+
+    <script>
+
+
+        function togglePanel(object,showLabel,hideLabel) {
+
+            var hiding = (object.dom.style.display != "none");
+
+            var animationCallback = function() {
+                if (hiding) {
+                    document.getElementById(showLabel).style.display = "block";
+                    document.getElementById(hideLabel).style.display = "none";
+                } else {
+                    document.getElementById(showLabel).style.display = "none";
+                    document.getElementById(hideLabel).style.display = "block";
+                }
+             };
+
+            var animationSettings = {useDisplay:true, duration:0.5, easing:"easeBoth", callback:animationCallback};
+
+            if(hiding) {
+                object.slideOut('t', animationSettings);
+            } else {
+                object.slideIn('t', animationSettings);
+            }
+        }         
+
+        function attachDetachArticleToCaseBackToCaseStart(b) {
+            if (b.isAttach) {
+                attachArticleAndGoBackToCase();
+            } else {
+                detachArticleAndGoBackToCase();
+            }
+        }
+
+        function goBackToCaseUrl() {
+            if (false) {
+                window.opener.location.reload(false);
+                window.close();
+            } else {
+                window.location = '';
+            }
+        }
+
+        function attachDetachArticleToCaseStart(b) {
+            if (b.isAttach) {
+                attachArticleToCase();
+                b.isAttach = false;
+                b.setText("Detach from case");
+                if(true) {
+                    b.backToCaseButton.isAttach = false;
+                    b.backToCaseButton.setText("Detach and Return to case");
+                }
+            } else {
+                detachArticleToCase();
+                b.isAttach = true;
+                b.setText("Attach to case");
+                if(true) {
+                    b.backToCaseButton.isAttach = true;
+                    b.backToCaseButton.setText("Attach and Return to case");
+                }
+            }
+        }
+
+        Ext.onReady(function() {
+            //the toolbar
+            var theTopicCP;
+            var toolbar = new Ext.Toolbar({
+                renderTo: 'j_id0:j_id2:j_id10:j_id11:toolbar',
+                cls: 'articleRendererToolbar'
+            });
+            
+            if(false) {
+                if(true) {
+                    if(false) {
+                        var attachButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id10:j_id11:toolbar:attachButton',
+                            handler: attachDetachArticleToCaseStart,
+                            text: 'Attach to case',
+                            isAttach: true
+                        });
+                        toolbar.addButton(attachButton);
+                    } else {
+                        var attachBackToCaseButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id10:j_id11:toolbar:attachBackToCaseButton',
+                            handler: attachDetachArticleToCaseBackToCaseStart,
+                            text: 'Attach and Return to case',
+                            isAttach: true
+                        });
+                        var attachButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id10:j_id11:toolbar:attachButton',
+                            handler: attachDetachArticleToCaseStart,
+                            text: 'Attach to case',
+                            isAttach: true,
+                            backToCaseButton: attachBackToCaseButton
+                        });
+                        toolbar.addButton(attachButton);
+                        toolbar.addButton(attachBackToCaseButton);
+                    }
+                } else {
+                    if(false) {
+                        var detachButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id10:j_id11:toolbar:detachButton',
+                            handler: attachDetachArticleToCaseStart,
+                            text: 'Detach from case',
+                            isAttach: false
+                        });
+                        toolbar.addButton(detachButton);
+                    } else {
+                        var detachBackToCaseButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id10:j_id11:toolbar:detachBackToCaseButton',
+                            handler: attachDetachArticleToCaseBackToCaseStart,
+                            text: 'Detach and Return to case',
+                            isAttach: false
+                        });
+                        var detachButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id10:j_id11:toolbar:detachButton',
+                            handler: attachDetachArticleToCaseStart,
+                            text: 'Detach from case',
+                            isAttach: false,
+                            backToCaseButton: detachBackToCaseButton
+                        });
+                        toolbar.addButton(detachButton);
+                        toolbar.addButton(detachBackToCaseButton);
+                    }
+                }
+            }
+
+            if(false && true && false) {
+             if(false) {
+              toolbar.add('<div class="toolbarPlaceHolder"><p>&#160;</p></div>');
+             } else {
+              return;
+             }
+            }
+                toolbar.add(Ext.fly('j_id0:j_id2:j_id10:j_id11:votingComponent').dom.innerHTML);
+
+            if(false) {
+             theTopicCP = toolbar.add('');
+            }
+           
+            toolbar.addFill();
+
+            if(true){
+             toolbar.add(Ext.fly('j_id0:j_id2:j_id10:j_id11:propertiesPanelLabel').dom.innerHTML);
+            }
+            toolbar.doLayout();
+            
+           if(false) {
+             var topicInToolBar = document.getElementById(theTopicCP.id);
+             topicInToolBar.appendChild(document.getElementById('knowledgeTopic'));
+      }
+        });
+
+    </script></span>
+            <table class="articletable">
+                <tr class="articlerow">
+                    <td class="articlecell"><h1 class="articletitle">CBSi Terms of Use</h1><hr /></td>
+                </tr>
+                <tr class="articlerow"><td class="articlecell"><h2></h2></td>
+                </tr>
+                <tr class="articlerow">
+                    <td class="articlecell"><p><span style="margin-left: 25px; font-size: 20px; font-family: arial,helvetica,sans-serif; color: #ff6600;"><em>Effective Date: July 2, 2012</em></span><br><br><span style="margin-left: 25px; font-family: arial,helvetica,sans-serif; font-size: 16px;">Note: The CBS Interactive Terms of Use have been updated. Click <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSi-Terms-of-Use-FAQ?template=template_tougl&amp;referer=tougl.com&amp;data=&amp;cfs=default" target="_new">here</a> for more information about the updates.</span><br><br><table border="1" style="text-align: top; font-size: 14px; font-family: arial,helvetica,sans-serif;" width="885"><tbody><tr></tr><tr style="font-size: 14px; font-family: arial,helvetica,sans-serif;"><td colspan="1" rowspan="1" style="font-family: arial; width: 151px; height: 25px; background-color: #CCC;">
+				<u style="font-family: arial; color: #ff6600;">Terms of Use Sections</u><br>				<br>				<a href="#Changes">Changes</a><br>				<br>				<a href="#AdditionalPolicies">Privacy Policy; Additional Terms</a><br>				<br>				<a href="#Registration">Registration and Access Controls</a><br>				<br>				<a href="#Intellectual">Intellectual Property; License</a><br>				<a href="#Viral Distribution" style="margin-left: 40px;">Viral Distribution</a><br>				<a href="#Commercial Licenses" style="margin-left: 40px;">Commercial Licenses</a><br>				<br>				<a href="#Complaints">Legal Complaints</a><br>				<br>				<a href="#Submissions">User Submissions</a><br>				<br>				<a href="#ThirdParty">Third-Party Content</a><br>				<br>				<a href="#FeeBased">Fee-Based Services</a><br>				<br>				<a href="#AcceptableUse">Acceptable Use</a><br>				<br>				<a href="#Remedies">Site Access; Account Deletion</a><br>				<br>				<a href="#Indemnification">Indemnification</a><br>				<br>				<a href="#Disclaimers">Disclaimers; Limitation of Liability</a><br>				<br>				<a href="#Jurisdiction">Governing Law, Venue, and Jurisdiction</a><br>				<br>				<a href="#Arbitration">Arbitration</a><br>				<br>				<a href="#Misc">Miscellaneous</a><br>				<br>				<br>				<br>				<u style="font-family: arial; color: #ff6600;">Additional Topics</u><br>				<br>				<a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSi-Mash-Ups?template=template_tougl&amp;referer=tougl.com" target="_new">Mash-Ups</a><br>				<br>				<a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSi-Mobile-Features?template=template_tougl&amp;referer=tougl.com" target="_new">Mobile Features</a><br>				<br>				<a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSi-Copyright-Complaints?template=template_tougl&amp;referer=tougl.com&amp;data=&amp;cfs=default" target="_new">Copyright Complaints</a><br>				<br>				<a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSi-Other-Legal-Complaints?template=template_tougl&amp;referer=tougl.com" target="_new">Other Legal Complaints</a><br>				<br>				<a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSi-Terms-of-Use-FAQ?template=template_tougl&amp;referer=tougl.com&amp;data=&amp;cfs=default" target="_new">Terms of Use FAQ</a><br><br>				<a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/Eye-lert-Wireless-Terms-and-Conditions?template=template_cbseyelerts&amp;referer=cbs.com/eye-lerts&amp;data=&amp;cfs=SFS_1" target="_new">CBS Eye-lert Wireless Terms and Conditions</a><br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				<br>				 </td><td colspan="1" rowspan="1" style="width: 541px; height: 25px;">
+				Welcome to the network of interactive services owned, operated, or provided by CBS Interactive Inc. (“CBS Interactive,” “us,” or “we”). These Terms of Use (“Terms”) govern your use of any CBS Interactive website or service (collectively, the “Services”) that includes an authorized link to these Terms.<br>				<br>				<b>Please review these Terms carefully before using the Services. By using any of the Services, you accept and acknowledge that the Services are hosted in the United States and that your use of the Services is subject to these Terms and the <a href="#Jurisdiction">laws of the State of California</a>.</b><br>				<br>				<a name="Changes" style="font-family: arial; color: #ff6600;"><b>1. Changes</b></a><br>				<br>				We may occasionally change these Terms, so we encourage you to review the Terms periodically. The most current version of the Terms (along with their effective date) will be linked from each of the Services. If you continue to use the Services after we change the Terms, you accept all changes.<br>				<br>				<a name="AdditionalPolicies" style="font-family: arial; color: #ff6600;"><b>2. Privacy Policy; Additional Terms</b></a><br>				<br>				Our <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSInteractive-Privacy-Policy?template=template_privacygl&amp;referer=privacygl.com&amp;data=&amp;cfs=default" target="_new">Privacy Policy</a> describes our practices concerning data that you provide or that we may collect about you through the Services, and you consent to our use of data in compliance with the Privacy Policy.<br>				<br>				Additional terms may apply to your use of the Services. We will provide these terms to you or post them on the Services to which they apply; they are incorporated by reference into these Terms. If there is a conflict between these Terms and any additional terms that apply to a particular Service, the additional terms will control.<br>				<br>				Sweepstakes, contests, and promotions on the Services may also have additional rules and eligibility requirements, such as certain age or geographic area restrictions, and you are responsible for complying with these rules and requirements.<br>				<br>				<a name="Registration" style="font-family: arial; color: #ff6600;"><b>3. Registration and Access Controls</b></a><br>				<br>				You are responsible for maintaining the confidentiality of your login names and passwords and you accept responsibility for all activities, charges, and damages that occur under your account. If you have reason to believe that someone is using your account without your permission, you should <a href="https://cbsi.secure.force.com/CBSi/submitcase?template=template_tougl&amp;referer=tougl.com&amp;cfs=default" target="_self">contact us</a> immediately. We will not be responsible for any loss or damage resulting from your failure to notify us of unauthorized use.<br>				<br>				If we request registration information from you, you must provide us with accurate and complete information and must update the information when it changes. You may not access any age-restricted Services unless you are above the required age.<br>				<br>				<a name="Intellectual" style="font-family: arial; color: #ff6600;" target="_blank"><b>4. Intellectual Property; License</b></a><br>				<br>				The content, information, data, designs, code, and materials associated with the Services (“Content”) are protected by intellectual property and other laws. You must comply with all such laws and applicable copyright, trademark or other legal notices or restrictions.<br>				<br>				Subject to these Terms, you may access and use the Services only for your own personal, non-commercial use. We reserve all other rights to the Services and Content, and you may not otherwise copy, reproduce, distribute, publish, display, perform, or create derivative works of the Services or Content without our permission. You also may not transfer or sublicense this limited right to use the Services or resell the Services.<br>				<br>				<a name="Viral Distribution">a. Viral Distribution</a><br>				<br>				We may expressly authorize you to redistribute certain Content for personal, non-commercial use. We will identify the Content that you are authorized to redistribute and describe ways you may redistribute it (such as via email, blogs, or embedded players, or by producing <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSi-Mash-Ups?template=template_tougl&amp;referer=tougl.com" target="_new">Mash-Ups</a>). We may revoke this authorization at any time. If you redistribute Content, you must be able to edit or delete such publicly posted Content and you must edit or delete it promptly upon our request.<br>				<br>				<a name="Commercial Licenses">b. Commercial Licenses</a><br>				<br>				You must obtain our written permission for commercial use of the Content or the Services. If you wish to license Content from the Services, please <a href="https://cbsi.secure.force.com/CBSi/submitcase?template=template_tougl&amp;referer=tougl.com&amp;cfs=default" target="_self">contact us</a>.<br>				<br>				<a name="Complaints" style="font-family: arial; color: #ff6600;"><b>5. Legal Complaints</b></a><br>				<br>				CBS Interactive respects intellectual property rights. If you believe that Content on the Services infringes your copyright, please follow our procedures for making a <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSi-Copyright-Complaints?template=template_tougl&amp;referer=tougl.com" target="_new">copyright infringement claim</a>. If you have a legal complaint other than a copyright claim, please follow our procedure for making <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSi-Other-Legal-Complaints?template=template_tougl&amp;referer=tougl.com" target="_new">other legal complaints</a>.<br>				<br>				<a name="Submissions" style="font-family: arial; color: #ff6600;"><b>6. User Submissions</b></a><br>				<br>				Some of the Services may allow you to submit or transmit audio, video, text, or other materials (collectively, “User Submissions”) to or through the Services. When you provide User Submissions, you grant to CBS Interactive, its parent, subsidiaries, affiliates, and partners a non-exclusive, worldwide, royalty-free, fully sublicenseable license to use, distribute, edit, display, archive, publish, sublicense, perform, reproduce, make available, transmit, broadcast, sell, translate, and create derivative works of those User Submissions, and your name, voice, likeness and other identifying information where part of a User Submission, in any form, media, software, or technology of any kind now known or developed in the future, including, without limitation, for developing, manufacturing, and marketing products. You hereby waive any moral rights you may have in your User Submissions.<br>				<br>				We respect your ownership of User Submissions. If you owned a User Submission before providing it to us, you will continue owning it after providing it to us, subject to any rights granted in the Terms and any access granted to others. If you delete a User Submission from the Services, our general license to that User Submission will end after a reasonable period of time required for the deletion to take full effect. However, the User Submission may still exist in our backup copies, which are not publicly available. If your User Submission is shared with third parties, those third parties may have retained copies of your User Submissions. In addition, if we made use of your User Submission before you deleted it, we will continue to have the right to make, duplicate, redistribute, and sublicense those pre-existing uses, even after you delete the User Submission. Terminating your account on a Service will not automatically delete your User Submissions.<br>				<br>				We may refuse or remove a User Submission without notice to you. However, we have no obligation to monitor User Submissions, and you agree that neither we nor our parent, subsidiaries, affiliates, employees, or agents will be liable for User Submissions or any loss or damage resulting from User Submissions.<br>				<br>				Except as provided in the <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSInteractive-Privacy-Policy?template=template_privacygl&amp;referer=privacygl.com&amp;data=&amp;cfs=default" target="_new">Privacy Policy</a>, we do not guarantee that User Submissions will be private, even if the User Submission is in a password-protected area. Accordingly, you should not provide User Submissions that you want protected from others.<br>				<br>				You represent and warrant that you have all rights necessary to grant to CBS Interactive the license above and that none of your User Submissions are defamatory, violate any rights of third parties (including intellectual property rights or rights of publicity or privacy), or violate applicable law.<br>				<br>				<a name="ThirdParty" style="font-family: arial; color: #ff6600;"><b>7. Third-Party Content</b></a><br>				<br>				We occasionally provide third party content or link to third party websites on the Services. We do not necessarily endorse or evaluate third party content and websites, and we do not assume responsibility for third parties’ actions or omissions. You should review third parties’ terms of use and privacy policies before you use their services.<br>				<br>				<a name="FeeBased" style="font-family: arial; color: #ff6600;"><b>8. Fee-Based Services</b></a><br>				<br>				If you accept fee-based products or features, you agree to the terms and conditions governing all such purchases, including all requirements to pay applicable fees and charges. We will notify you of any changes to fees and charges. Billing for all mobile subscription services will be governed by the <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSi-Mobile-Features?template=template_tougl&amp;referer=tougl.com" target="_new">Mobile Features</a> section of these Terms unless the terms of the subscription say otherwise.<br>				<br>				We may offer trial subscriptions to paid services for free or at special discounted prices. Unless otherwise stated, these trial subscriptions and any other subscription services we provide will be automatically renewed at the current subscription rate if you do not cancel before the end of the trial or subscription period. You may need to cancel your subscription at least 10 days prior to its renewal date in order to avoid further charges.<br>				<br>				Unless otherwise stated, all fees and charges are non-refundable, including for unused portions of cancelled subscriptions. We do not provide price protection or refunds in the event of a price drop or promotional offering.<br>				<br>				<a name="AcceptableUse" style="font-family: arial; color: #ff6600;"><b>9. Acceptable Use</b></a><br>				<br>				The Services have been designed to present Content in a unique format and appearance. Unless we give you permission, you agree not to access the Services using any interface other than ours. We may deny permission to link to the Services for any reason in our sole discretion, and you must be able to edit or delete promptly links that you create, upon our request.<br>				<br>				Without limiting any other provision in these Terms, you may not use the Services to do the following or assist others to do the following:<br>				<br>				• Threaten, defame, stalk, abuse, or harass other persons or engage in illegal activities;<br>				<br>				• Link to the Services from a site or transmit any material that is inappropriate, profane, vulgar, offensive, false, disparaging, defamatory, obscene, illegal, sexually explicit, racist, that promotes violence, racial hatred, or terrorism, or that we deem, in our sole discretion, to be otherwise objectionable;<br>				<br>				• Frame the Services, display the Services in connection with an unauthorized logo or mark, or do anything that could falsely suggest a relationship between the CBS Interactive Parties and any third party or potentially deprive us of revenue (including, without limitation, revenue from advertising, branding, or promotional activities);<br>				<br>				• Violate any person&#39;s or entity&#39;s legal rights (including, without limitation, intellectual property, privacy, and publicity rights), transmit material that violates or circumvents such rights, or remove or alter intellectual property or other legal notices;<br>				<br>				• Transmit files that contain viruses, spyware, adware, or other harmful code;<br>				<br>				• Advertise or promote goods or services without our permission (including, without limitation, by sending spam);<br>				<br>				• Interfere with others using the Services or otherwise disrupt the Services;<br>				<br>				• Transmit, collect, or access personally identifiable information about other users without the consent of those users and CBS Interactive;<br>				<br>				• Engage in unauthorized spidering, “scraping,” or harvesting Content, contact or other personal information, or use any other unauthorized automated means to compile information;<br>				<br>				• Impersonate any person or entity or otherwise misrepresent your affiliation or the origin of materials you transmit; or<br>				<br>				• Defeat any access controls, access any portion of the Services that we have not authorized you to access (including password-protected areas), link to password-protected areas, attempt to access or use another user’s account or information, or allow anyone else to use your account or access credentials.<br>				<br>				<a name="Remedies" style="font-family: arial; color: #ff6600;" target="_blank"><b>10. Site Access; Account Deletion</b></a><br>				<br>				We may take any of the following actions in our sole discretion at any time and for any reason without giving you prior notice:<br>				<br>				• Restrict or terminate your access to the Services;<br>				<br>				• Change or discontinue the Services;<br>				<br>				• Deactivate your accounts and delete all related information and files in your accounts;<br>				<br>				• Provide information concerning you and your activities to comply with applicable laws or respond to court order, subpoenas, or other lawful requests, or if we believe doing so would protect your safety or that of another person or protect the security of the Services, or as otherwise described in the <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSInteractive-Privacy-Policy?template=template_privacygl&amp;referer=privacygl.com&amp;data=&amp;cfs=default" target="_blank">Privacy Policy</a>.<br>				<br>				We will not be liable to you or any third party for taking any of these actions and we will not be limited to the remedies above if you violate these Terms.<br>				<br>				<strong>If you do not agree to these Terms, you should immediately stop using the Services</strong>. If you want to delete your account on a Service, please use contact instructions posted on the Service at which you obtained the account. Any User Submissions you made while using the Services will continue to be governed by Section 6 of these Terms.<br>				<br>				Sections 6 and 11-15 of these Terms will survive any termination of your access to the Services, whether we terminate your access or you voluntarily discontinue your use.<br>				<br>				<a name="Indemnification" style="font-family: arial; color: #ff6600;"><b>11. Indemnification</b></a><br>				<br>				You will defend, indemnify, and hold harmless CBS Interactive, its parent, subsidiaries, affiliates, and the directors, officers, employees, shareholders, vendors, partners, contractors, agents, licensors or other representatives of each of them and all of their successors and assigns (collectively, the “CBS Interactive Parties”) with respect to all claims, costs (including attorney’s fees and costs), damages, liabilities, and expenses or obligations of any kind, arising out of or in connection with your use or misuse of the Services (including, without limitation use of your account, whether or not authorized by you, and claims arising from User Submissions). CBS Interactive retains the right to assume the exclusive defense and control of any claim subject to indemnification, and in such cases you agree to cooperate with us to defend such claim. You may not settle any claim covered by this Section 11 without CBS Interactive’s prior written approval.<br>				<br>				<a name="Disclaimers" style="font-family: arial; color: #ff6600;" target="_blank"><b>12. Disclaimers; Limitation of Liability</b></a><br>				<br>				THE CBS INTERACTIVE PARTIES DO NOT WARRANT: (1) THAT THE SERVICES, ANY OF THE SERVICES’ FUNCTIONS OR ANY CONTENT OR SOFTWARE CONTAINED THEREIN WILL BE UNINTERRUPTED OR ERROR-FREE; (2) THAT DEFECTS WILL BE CORRECTED; (3) THAT THE SERVICES OR THE SERVERS HOSTING THEM ARE FREE OF VIRUSES OR OTHER HARMFUL CODE; OR (4) THAT THE SERVICES OR INFORMATION AVAILABLE THROUGH THE SERVICES WILL CONTINUE TO BE AVAILABLE. THE CBS INTERACTIVE PARTIES DISCLAIM ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, NONINFRINGEMENT, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND TITLE. THE SERVICES, INCLUDING, WITHOUT LIMITATION, ALL CONTENT, SOFTWARE, AND FUNCTIONS MADE AVAILABLE ON OR ACCESSED THROUGH OR SENT FROM THE SERVICES, ARE PROVIDED “AS IS,” “AS AVAILABLE,” AND “WITH ALL FAULTS.”<br>				<br>				THE CBS INTERACTIVE PARTIES WILL NOT BE LIABLE TO YOU OR ANYONE ELSE FOR ANY LOSS OR DAMAGES OF ANY KIND (INCLUDING, WITHOUT LIMITATION, FOR ANY SPECIAL, DIRECT, INDIRECT, INCIDENTAL, EXEMPLARY, ECONOMIC, PUNITIVE, OR CONSEQUENTIAL DAMAGES) IN CONNECTION WITH THE SERVICES OR YOUR USER SUBMISSIONS, EVEN IF FORESEEABLE OR EVEN IF ONE OR MORE OF THE CBS INTERACTIVE PARTIES HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES (INCLUDING, WITHOUT LIMITATION, WHETHER CAUSED IN WHOLE OR IN PART BY NEGLIGENCE, GROSS NEGLIGENCE, OR OTHERWISE, BUT EXCLUDING WILLFUL MISCONDUCT) UNLESS SPECIFIED IN WRITING. THE CBS INTERACTIVE PARTIES’ LIABILITY IN CONNECTION WITH THE SERVICES OR YOUR USER SUBMISSIONS FOR WILLFUL MISCONDUCT WILL NOT EXCEED THE AMOUNT PAID BY YOU TO CBS INTERACTIVE IN THE THREE MONTHS PRECEEDING THE CLAIM.<br>				<br>				YOUR ACCESS TO AND USE OF THE SERVICES IS AT YOUR RISK. IF YOU ARE DISSATISFIED WITH THE SERVICES OR ANY OF THE CONTENT, YOUR SOLE AND EXCLUSIVE REMEDY IS TO DISCONTINUE ACCESSING AND USING THE SERVICES.<br>				<br>				YOU ACKNOWLEDGE AND AGREE THAT IF YOU INCUR ANY DAMAGES THAT ARISE OUT OF THE CBS INTERACTIVE PARTIES’ ACTS OR OMISSIONS, THE DAMAGES, IF ANY, ARE NOT IRREPARABLE AND ARE NOT SUFFICIENT TO ENTITLE YOU TO AN INJUNCTION OR OTHER EQUITABLE RELIEF RESTRICTING EXPLOITATION OF ANY WEBSITE, PROPERTY, PRODUCT, PROGRAM, TELEVISION SHOW, MOTION PICTURE, OR OTHER AUDIO/VISUAL CONTENT OWNED OR CONTROLLED BY THE CBS INTERACTIVE PARTIES, INCLUDING WITHOUT LIMITATION THE SERVICES (INCLUDING THOSE INCORPORATING USER SUBMISSIONS).<br>				<br>				YOU ACKNOWLEDGE THAT YOU MAY BE WAIVING RIGHTS WITH RESPECT TO CLAIMS THAT ARE UNKNOWN OR ARE UNSUSPECTED. ACCORDINGLY, YOU AGREE TO WAIVE THE BENEFIT OF ANY LAW, INCLUDING, TO THE EXTENT APPLICABLE, CALIFORNIA CIVIL CODE § 1542, THAT OTHERWISE MIGHT LIMIT YOUR WAIVER OF SUCH CLAIMS.<br>				<br>				SOME JURISDICTIONS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES, SO SOME OF THE ABOVE LIMITATIONS AND EXCLUSIONS MAY NOT APPLY TO YOU.<br>				<br>				<a name="Jurisdiction" style="font-family: arial; color: #ff6600;" target="_blank"><b>13. Governing Law, Venue, and Jurisdiction</b></a><br>				<br>				These Terms and all claims arising from or related to your use of the Services will be governed by and construed in accordance with the laws of the State of California, except California&#39;s conflict of law rules. These Terms will not be governed by the United Nations Convention on Contracts for the International Sale of Goods, if applicable.<br>				<br>				With respect to any disputes or claims not subject to arbitration (as set forth below), you agree to exclusive jurisdiction in the state and federal courts in San Francisco, California. Notwithstanding any other provision of these Terms, we may seek injunctive or other equitable relief from any court of competent jurisdiction.<br>				<br>				Regardless of any statute or law to the contrary, you must file any claim or action related to use of the Services or these Terms within one year after such claim or action accrued. Otherwise, you will waive the claim or action.<br>				<br>				<a name="Arbitration" style="font-family: arial; color: #ff6600;"><b>14. Arbitration</b></a><br>				<br>				We may elect to resolve any controversy or claim arising out of or relating to these Terms or the Services by binding arbitration in accordance with the commercial arbitration rules of the American Arbitration Association. Unless we establish a different location, arbitration hearings will be held in San Francisco, California. The arbitrator’s award will be binding and may be entered as a judgment in any court of competent jurisdiction.<br>				<br>				<a name="Misc" style="font-family: arial; color: #ff6600;"><b>15. Miscellaneous</b></a><br>				<br>				We may be required by state or federal law to notify you of certain events. You hereby acknowledge and agree that such notices will be effective upon our posting them on our sites or delivering them to you via email. You may update your email address by visiting the Services where you have provided contact information. If you do not provide us with accurate information, we will not be responsible for failure to notify you. Our failure to exercise or enforce any right or provision in these Terms will not constitute a waiver of such right or provision. These Terms, including all additional terms, conditions, and policies on the Services, constitute the entire agreement between you and us and supersede all prior agreements with respect to the subject matter hereof. If any part of these Terms is determined to be invalid or unenforceable under applicable law, that provision will be removed, and the remainder of the Terms will continue to be valid and enforceable.<br>				<br>				 </td></tr></tbody></table></p></td>
+                </tr>
+            </table>
+              <hr />
+            <br /><span id="j_id0:j_id2:j_id207"><span id="j_id0:j_id2:j_id207:j_id208:j_id209:1:j_id213">              
+                    <table id="articlelisttable" width="99%">
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" style="font-weight: bold;" width="20%">Related Article:</td>
+                            <td class="articlelistcell" width="80%"><a id="j_id0:j_id2:j_id207:j_id208:j_id209:1:articlelink" name="j_id0:j_id2:j_id207:j_id208:j_id209:1:articlelink" href="/CBSi/articles/FAQ/CBS-Interactive-Mobile-App-End-User-License-Agreement?retURL=%2FCBSi%2Farticles%2FFAQ%2FCBSi-Terms-of-Use%3Ftemplate%3Dtemplate_tougl%26amp%253Breferer%3Dtougl.com%26amp%253Bdata%3D%26amp%253Bcfs%3Ddefault&popup=false&categories=&template=template_tougl&referer=&data=&cfs=" target="_self">CBS Interactive Mobile App End User License Agreement</a></td>
+                        </tr>                        
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" width="20%"></td>
+                            <td class="articlelistcell" width="80%"><span id="j_id0:j_id2:j_id207:j_id208:j_id209:1:articlelistabstract"></span></td>
+                        </tr>
+                    </table></span><span id="j_id0:j_id2:j_id207:j_id208:j_id209:2:j_id213">              
+                    <table id="articlelisttable" width="99%">
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" style="font-weight: bold;" width="20%">Related Article:</td>
+                            <td class="articlelistcell" width="80%"><a id="j_id0:j_id2:j_id207:j_id208:j_id209:2:articlelink" name="j_id0:j_id2:j_id207:j_id208:j_id209:2:articlelink" href="/CBSi/articles/FAQ/2014-CBSSports-com-Bracket-Manager-Terms-of-Use?retURL=%2FCBSi%2Farticles%2FFAQ%2FCBSi-Terms-of-Use%3Ftemplate%3Dtemplate_tougl%26amp%253Breferer%3Dtougl.com%26amp%253Bdata%3D%26amp%253Bcfs%3Ddefault&popup=false&categories=&template=template_tougl&referer=&data=&cfs=" target="_self">2014 CBSSports.com Bracket Manager Terms of Use</a></td>
+                        </tr>                        
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" width="20%"></td>
+                            <td class="articlelistcell" width="80%"><span id="j_id0:j_id2:j_id207:j_id208:j_id209:2:articlelistabstract"></span></td>
+                        </tr>
+                    </table></span><span id="j_id0:j_id2:j_id207:j_id208:j_id209:3:j_id213">              
+                    <table id="articlelisttable" width="99%">
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" style="font-weight: bold;" width="20%">Related Article:</td>
+                            <td class="articlelistcell" width="80%"><a id="j_id0:j_id2:j_id207:j_id208:j_id209:3:articlelink" name="j_id0:j_id2:j_id207:j_id208:j_id209:3:articlelink" href="/CBSi/articles/FAQ/CBSi-Video-Terms-of-Use?retURL=%2FCBSi%2Farticles%2FFAQ%2FCBSi-Terms-of-Use%3Ftemplate%3Dtemplate_tougl%26amp%253Breferer%3Dtougl.com%26amp%253Bdata%3D%26amp%253Bcfs%3Ddefault&popup=false&categories=&template=template_tougl&referer=&data=&cfs=" target="_self">CBSi Video Terms of Use</a></td>
+                        </tr>                        
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" width="20%"></td>
+                            <td class="articlelistcell" width="80%"><span id="j_id0:j_id2:j_id207:j_id208:j_id209:3:articlelistabstract"></span></td>
+                        </tr>
+                    </table></span></span>
+                </div>
+                <br />
+                <br /> <span style="left: 25px;">&nbsp;&nbsp;&nbsp;&nbsp;<input onClick="window.location.href='/CBSi/knowledgehome?referer='" type="button" value="Answer Main" />
+                </span>
+            </div>
+            
+        </div>
+        
+
+        <br />
+
+
+<script type="text/javascript">//<![CDATA[
+var amc=amc||{};if(!amc.on){amc.on=amc.call=function(){}};
+document.write("<scr"+"ipt type=\"text/javascript\" src=\"//www.adobetag.com/d2/v2/ZDItY2JzaW50ZXJhY3RpdmUtNDgxNC0xNzE2/amc.js\"></sc"+"ript>");
+//]]></script>
+
+
+        <div id="footer">
+            <div id="cbs-footer">
+                <div class="clear"></div>
+                <div id="cbs-footer-wrapper" style="FONT-FAMILY: 'Open Sans', sans-serif; FONT-SIZE: 13px;">
+                    <div class="footer-links">
+                        <a href="http://www.cbscorporation.com/">About CBS</a> <span>|</span>
+                        <a href="http://legalterms.cbsinteractive.com/privacy">Privacy
+                            Policy</a> <span>|</span> <a href="http://legalterms.cbsinteractive.com/tou">Terms of Use</a>
+                        <span>|</span> <a href="/CBSi/sitefeedback?template=template_tougl&amp;referer=&amp;cfs=SFS_TOU_PP&amp;data=">Feedback</a>
+                        <br />
+                        <br />
+                        <div class="footer-copyright">&copy;2012 CBS Interactive.
+                            All rights reserved.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+<br />
+<br />
+    </html>
+    <br />
+    <br />
+    <br />
+    <br /><script type="text/javascript">Sfdc.onReady(function(){
+	SfdcApp && SfdcApp.Visualforce && SfdcApp.Visualforce.VSManager && SfdcApp.Visualforce.VSManager.vfPrepareForms(["j_id0:j_id2:j_id10:j_id11:articleVersionListDlg:j_id101:j_id102","j_id0:j_id2:j_id10:j_id11:voteForm","j_id0:j_id2:j_id10:j_id11:langForm","j_id0:j_id2:j_id10:j_id11:j_id100"]);
+
+});</script>

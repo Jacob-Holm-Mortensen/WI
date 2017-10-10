@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+<title>The TV Parental Guidelines</title>
+
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+body {
+	background-color: #cdcdcd;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width="800" border="0" cellspacing="0" cellpadding="1" vspace="0" hspace="0" align="center" bgcolor="#000000">
+        <tr align="center" valign="top"> 
+          <td>
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td><a name="top" id="top"></a><img src="images/headers/ratings.jpg" alt="THE TV PARENTAL GUIDELINES" width="800" height="271" border="0" usemap="#Map" /></td>
+  </tr>
+  <tr>
+    <td><script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+    </script>
+      <table width="800" border="0" cellpadding="0" cellspacing="0" bgcolor="#000000">
+        <tr align="left" valign="top">
+          <td><img src="images/spacer.gif" width="54" height="1" /></td>
+          <td><a href="index.htm"><img src="images/nav/home.gif" alt="Home" width="81" height="34" border="0" /></a></td>
+          <td><img src="images/nav/ratings_f2.gif" alt="The Ratings" width="120" height="34" /></td>
+          <td><a href="parentalcontrols.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('parentalcontrols','','images/nav/parentalcontrols_f2.gif',0)"><img src="images/nav/parentalcontrols.gif" alt="Parental Controls" name="parentalcontrols" width="180" height="34" border="0" id="parentalcontrols" /></a></td>
+          <td><a href="resources.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('resources','','images/nav/resources_f2.gif',0)"><img src="images/nav/resources.gif" alt="Resources" name="resources" width="113" height="34" border="0" id="resources" /></a></td>
+          <td><a href="faqs.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('faqs','','images/nav/faqs_f2.gif',0)"><img src="images/nav/faqs.gif" alt="FAQS" name="faqs" width="86" height="34" border="0" id="faqs" /></a></td>
+          <td><a href="contact.htm"><img src="images/nav/contact.gif" alt="Contact Us" width="112" height="34" border="0" /></a></td>
+          <td><img src="images/spacer.gif" width="54" height="1" /></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td><table width="800" border="0" cellspacing="0" cellpadding="0">
+      <tr align="left" valign="top">
+        <td><img src="images/spacer.gif" width="1" height="30" /></td>
+      </tr>
+      <tr align="left" valign="top">
+        <td><table width="800" border="0" cellspacing="0" cellpadding="0">
+          <tr align="left" valign="top">
+            <td>
+              <p class="header2">UNDERSTANDING THE TV RATINGS</p>
+              <table width="540" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#D1D2D4">
+              
+                <tr>
+                  <td><div align="center"><img src="images/rating_table.gif" width="540" height="215" /></div></td>
+                </tr>
+             
+              </table>
+              <p class="header2">&nbsp;</p>
+              <table width="800" border="0" cellspacing="0" cellpadding="0">
+                <tr align="left" valign="top">
+                  <td width="70" align="center" valign="top"><img src="images/tvy.jpg" alt="TV Y" width="36" height="34" /></td>
+                    <td width="562"><span class="subhead">All Children</span><br />
+                      This program is designed to be appropriate for all children. Whether animated or live-action, the themes and elements in this program are specifically designed for a very young audience, including children from ages 2-6. This program is not expected to frighten younger children.</td>
+                    <td width="168" rowspan="26"><p><img src="images/spacer.gif" width="20
+				  " height="1" /><a href="resources/TheRatings.pdf"><img src="images/ratings_downloadPDF.gif" alt="Download Ratings Guide" width="132" height="21" border="0" /></a></p>
+                      <p>&nbsp;</p>
+                      <p><img src="images/ratings_photoBar.jpg" alt="Photo Collage" width="121" height="464" /></p></td>
+                  </tr>
+                <tr align="left" valign="top">
+                  <td align="center" valign="top">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    </tr>
+                <tr align="left" valign="top">
+                  <td width="70" align="center" valign="top"><img src="images/tvy7.jpg" alt="TV-Y7" width="36" height="35" /></td>
+                    <td><span class="subhead">Directed to Older Children</span><br />
+                      This program is designed for children age 7 and above. It may be more appropriate for children who have acquired the developmental skills needed to distinguish between make-believe and reality. Themes and elements in this program may include mild fantasy violence or comedic violence, or may frighten children under the age of 7. Therefore, parents may wish to consider the suitability of this program for their very young children.</td>
+                    </tr>
+                <tr align="left" valign="top">
+                  <td align="center" valign="top">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    </tr>
+                <tr align="left" valign="top">
+                  <td width="70" align="center" valign="top"><img src="images/tvy7fv.jpg" alt="TV-Y7-FV" width="36" height="35" /></td>
+                    <td><span class="subhead">Directed to Older Children - Fantasy Violence</span><br />
+                      For those programs where fantasy violence may be more intense or more combative than other programs in this category, such programs will be designated TV-Y7-FV.</td>
+                    </tr>
+                <tr align="left" valign="top">
+                  <td align="center" valign="top">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    </tr>
+                <tr align="left" valign="top">
+                  <td width="70" align="center" valign="top"><img src="images/tvg.jpg" alt="TV-G" width="36" height="35" /></td>
+                    <td><span class="subhead">General Audience</span><br />
+                      Most parents would find this program suitable for all ages. Although this rating does not signify a program designed specifically for children, most parents may let younger children watch this program unattended. It contains little or no violence, no strong language and little or no sexual dialogue or situations.</td>
+                    </tr>
+                <tr align="left" valign="top">
+                  <td align="center" valign="top">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    </tr>
+                <tr align="left" valign="top">
+                  <td width="70" align="center" valign="top"><img src="images/tvpg.jpg" alt="TV-PG" width="37" height="35" /></td>
+                    <td><span class="subhead">Parental Guidance Suggested</span><br />
+                      This program contains material that parents may find unsuitable for younger children. Many parents may want to watch it with their younger children. The theme itself may call for parental guidance and/or the program may contain one or more of the following: some suggestive dialogue (D), infrequent coarse language (L), some sexual situations (S), or moderate  violence (V). </td>
+                    </tr>
+                <tr align="left" valign="top">
+                  <td align="center" valign="top">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    </tr>
+                <tr align="left" valign="top">
+                  <td width="70" align="center" valign="top"><img src="images/tv14.jpg" alt="TV-14" width="36" height="35" /></td>
+                    <td><span class="subhead">Parents Strongly Cautioned</span><br />
+                      This program contains some material that many parents would find unsuitable for children under 14 years of age. Parents are strongly urged to exercise greater care in monitoring this program and are cautioned against letting children under the age of 14 watch unattended. This program may contain one or more of the following: intensely suggestive dialogue (D), strong coarse language (L), intense sexual situations (S), or intense violence (V).</td>
+                    </tr>
+                <tr align="left" valign="top">
+                  <td align="center" valign="top">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    </tr>
+                <tr align="left" valign="top">
+                  <td align="center"><img src="images/tvma.gif" alt="TV-MA" width="36" height="35" /></td>
+                  <td><span class="subhead">Mature Audience Only</span><br />
+                    This program is specifically designed to be viewed by adults and therefore may be unsuitable for children under 17. This program may contain one or more of the following: crude indecent language (L), explicit sexual activity (S), or graphic violence (V).</td>
+                  </tr>
+              </table>
+              <p class="header2">&nbsp; </p>
+              <p>&nbsp;</p></td>
+          </tr>
+        </table></td>
+        </tr>
+    </table>    </td>
+  </tr>
+  <tr>
+    <td><img src="images/spacer.gif" width="1" height="15" /></td>
+  </tr>
+  <tr>
+    <td bgcolor="#003399"><div align="center" class="address">TV Parental Guidelines  |  Post Office Box 14097  |  Washington, DC 20004  |  202-879-9364  |  <a href="mailto:tvomb@usa.net" class="whitelink">tvomb@usa.net</a></div></td>
+  </tr>
+</table></td>
+</tr>
+</table>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="714,5,763,22" href="sitemap.htm" />
+  <area shape="rect" coords="649,6,711,21" href="espanol/index.htm" alt="En Espa&ntilde;ol" />
+</map>
+</body>
+</html>

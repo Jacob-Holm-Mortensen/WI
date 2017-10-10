@@ -1,0 +1,553 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<head>
+<script src="/CBSi/static/111213/js/perf/stub.js" type="text/javascript"></script><script src="/faces/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript" type="text/javascript"></script><script src="/CBSi/jslibrary/1501092696000/ui-sfdc-javascript-impl/SfdcCore.js" type="text/javascript"></script><script src="/CBSi/EXT/ext-3.3.3/ext.js" type="text/javascript"></script><script src="/CBSi/static/111213/js/picklist4.js" type="text/javascript"></script><script src="/CBSi/jslibrary/1500591790000/sfdc/VFState.js" type="text/javascript"></script><script src="/CBSi/static/111213/js/scriptaculous-1.9/prototype.js" type="text/javascript"></script><script src="/CBSi/static/111213/js/scriptaculous-1.9/effects.js" type="text/javascript"></script><script src="/CBSi/jslibrary/1500591790000/sfdc/KnowledgeDlg.js" type="text/javascript"></script><link class="user" href="/CBSi/EXT/ext-3.3.3/resources/css/ext-all-notheme.css" rel="stylesheet" type="text/css" /><link class="user" href="/CBSi/sCSS/41.0/1507243750000/PortalDefault/default/gc/ExtCSS-SFDC.css" rel="stylesheet" type="text/css" /><link class="user" href="/CBSi/sCSS/41.0/1507243750000/PortalDefault/default/gc/knowledge.css" rel="stylesheet" type="text/css" /><link class="user" href="/CBSi/sCSS/41.0/1507243750000/PortalDefault/default/gc/knowledgeHome.css" rel="stylesheet" type="text/css" /><link class="user" href="/CBSi/static/100908/css/vote.css" rel="stylesheet" type="text/css" /><meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<meta HTTP-EQUIV="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT" />
+
+<script src="https://c.la1c1.salesforceliveagent.com/content/g/js/34.0/deployment.js" type="text/javascript"></script>
+<script type="text/javascript">liveagent.init('https://d.la1c1.salesforceliveagent.com/chat', '572E0000000CnsH', '00DE0000000ZiAl');</script>
+</head>
+    <html lang="en">
+<head>
+<meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<meta HTTP-EQUIV="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT" />
+
+<meta charset="utf-8" />
+<title>CBSi Privacy Policy</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta content="CBSi Customer Portal Development" name="description" />
+<meta content="sdmurphy@cbs.com" name="author" />
+<link href="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+<link href="/CBSi/resource/1361006810000/assets_mobilePrivacy/assets_mobilePrivacy/css/mobileprivacy_upgrade.css" rel="stylesheet" type="text/css" />
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<link href="http://www.cbsinteractive.com/wp-content/themes/cbsi/favicon.png" rel="shortcut icon" />
+
+<style>
+#tableMain(
+    border: 1px solid #D4D4D4;
+    width: 90%;
+)
+</style>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+   '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(
+  ['_setAccount', 'UA-44370819-2'],
+  ['_trackPageview'],
+  ['b._setAccount', 'UA-44370819-1'],
+  ['b._trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+</head>
+
+<body id="top">
+
+<script language="JavaScript" type="text/javascript">
+var omdata = {
+  is_dev:false,
+  context:{
+    section:"privacy.com",
+    page_type:"template_mobilePrivacy",
+    content_title:"Privacy Policy Help and Support",
+  }
+}
+</script>
+
+    <div class="container-fluid">
+        <div class="masthead">
+            
+            <a class="brand" href="/CBSi/knowledgehome?referer=" target="_self"><img src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/img/CBSiLogo.jpg" />
+            </a> <br />
+            <br />
+            
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <ul class="nav">
+                            <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/Privacy-Policy?template=template_mobilePrivacy&amp;referer=mobileprivacy.com">Privacy Policy</a>
+                            </li>
+                            <li class=""><a href="/CBSi/knowledgehome?referer=&amp;data=">Search Privacy</a>
+                            </li>
+                            <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/Privacy-Policy-Highlights?template=template_mobilepp&amp;referer=mobilepp.com">Privacy Highlights</a>
+                            </li>
+                            <li class=""><a href="https://cbsi.secure.force.com/CBSi/submitcase?template=template_mobilepp&amp;referer=mobilepp.com&amp;cfs=SFS_TOU_PP&amp;data=">Submit Question</a>
+                            </li>
+                            <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mContact-Information?template=template_mobilepp&amp;referer=mobilepp.com">Contact Info</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row-fluid">
+            <div class="span3">
+                <div class="well sidebar-nav">
+                    <ul class="nav nav-list">
+                        <li class="nav-header" style="color: #ff6600;">Privacy Policy Topics</li>
+                        <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/Privacy-Policy-Highlights?template=template_mobilepp&amp;referer=mobilepp.com" target="_self">Privacy Policy Highlights</a>
+                        </li>
+                        <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mPrivacy-Principles?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Privacy Principles</a>
+                        </li>
+                        <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mPrivacy-Policy-FAQ?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">CBS Interactive Privacy Policy FAQ</a>
+                        </li>
+                        <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mCookies-Web-Beacons-and-Other-Similar-Technologies?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Cookies, Web Beacons, and Other Technologies</a>
+                        </li>
+                        <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mManaging-Cookies?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Managing Cookies</a>
+                        </li>
+                        <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mOnline-Advertising?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">CBS Interactive Online Advertising</a>
+                        </li>
+                        <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBS-Interactive-Business-Partner-Advertising-Opt-Out?retURL=%2FCBSi%2Fapex%2Fknowledgehome%3Freferer%3Dmobilepp.com%26data%3D&amp;popup=false&amp;categories=CBS_Interactive%3AmPrivacy&amp;template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=SFS_TOU_PP" target="_self">CBS Interactive Business Partner Advertising Opt-Out</a>
+                        </li>
+                        <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mThird-Party-Online-Advertising?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Third-Party Online Advertising</a>
+                        </li>
+                        <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mThird-Party-Social-Networking-Services?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Video Services and Social Networking Policy</a>
+                        </li>
+                        <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mRadio-and-FCC-Requirements?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">CBS Radio and FCC Requirements</a>
+                        </li>
+                        <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/CBS-Interactive-Information-for-Visitors-from-California?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=SFS_TOU_PP" target="_self">Information for Visitors from California</a>
+                        </li>                       
+                        <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mInformation-for-Visitors-from-Australia?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Information for Visitors from Australia</a>
+                        </li>
+                        <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mInformation-for-Visitors-from-Canada?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Information for Visitors from Canada</a>
+                        </li>
+                        <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mInformation-for-Visitors-from-the-United-Kingdom?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Information for Visitors from the United Kingdom</a>
+                        </li>
+                        <li><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mChildrens-Privacy-Policy?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_self">Childrens Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="span9">
+                <div class="hero-unit" id="top">
+                    <article style="line-height: 20px; font-size: 15px;"><span id="j_id0:j_id2:j_id5"><span id="j_id0:j_id2:j_id5:j_id6:j_id7"></span><div id="j_id0:j_id2:j_id5:j_id6:toolbar" style="display: none;"></div><div id="j_id0:j_id2:j_id5:j_id6:votingComponent" style="display: none;">
+<form id="j_id0:j_id2:j_id5:j_id6:voteForm" name="j_id0:j_id2:j_id5:j_id6:voteForm" method="post" action="/CBSi/ViewArticle?id=kA0E0000000PduE" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id0:j_id2:j_id5:j_id6:voteForm" value="j_id0:j_id2:j_id5:j_id6:voteForm" />
+<script id="j_id0:j_id2:j_id5:j_id6:voteForm:j_id17" type="text/javascript">attachArticleToCase=function(){A4J.AJAX.Submit('j_id0:j_id2:j_id5:j_id6:voteForm',null,{'similarityGroupingId':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id17','parameters':{'j_id0:j_id2:j_id5:j_id6:voteForm:j_id17':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id17'} } )};
+</script><script id="j_id0:j_id2:j_id5:j_id6:voteForm:j_id18" type="text/javascript">detachArticleToCase=function(){A4J.AJAX.Submit('j_id0:j_id2:j_id5:j_id6:voteForm',null,{'similarityGroupingId':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id18','parameters':{'j_id0:j_id2:j_id5:j_id6:voteForm:j_id18':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id18'} } )};
+</script><script id="j_id0:j_id2:j_id5:j_id6:voteForm:j_id19" type="text/javascript">attachArticleAndGoBackToCase=function(){A4J.AJAX.Submit('j_id0:j_id2:j_id5:j_id6:voteForm',null,{'similarityGroupingId':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id19','oncomplete':function(request,event,data){goBackToCaseUrl();},'parameters':{'j_id0:j_id2:j_id5:j_id6:voteForm:j_id19':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id19'} } )};
+</script><script id="j_id0:j_id2:j_id5:j_id6:voteForm:j_id20" type="text/javascript">detachArticleAndGoBackToCase=function(){A4J.AJAX.Submit('j_id0:j_id2:j_id5:j_id6:voteForm',null,{'similarityGroupingId':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id20','oncomplete':function(request,event,data){goBackToCaseUrl();},'parameters':{'j_id0:j_id2:j_id5:j_id6:voteForm:j_id20':'j_id0:j_id2:j_id5:j_id6:voteForm:j_id20'} } )};
+</script><table class="voteFormPanel">
+<tbody>
+<tr>
+<td><input id="j_id0:j_id2:j_id5:j_id6:voteForm:viewCountNoIncrease" type="hidden" name="j_id0:j_id2:j_id5:j_id6:voteForm:viewCountNoIncrease" /></td>
+<td><div id="j_id0:j_id2:j_id5:j_id6:voteForm:j_id37"><table class="articleRendererBorderRight">
+<tbody>
+<tr>
+<td><span class="averageRatingPanel">Rate This Article</span></td>
+<td><span id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote"><script src="/CBSi/jslibrary/1500591790000/sfdc/Vote.js"></script><span id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline"><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:voteRankRenderer" class="starRatingPanel"><span id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:currentUserVote" style="display: none;">|vote=None|</span><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus"><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus.start" style="display: none"></div><script type="text/javascript">
+window.document.getElementById('j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus.start').onstart=function(){document.getElementById('j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingProcessing').style.visibility='visible';;};
+</script><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus.stop"></div><script type="text/javascript">
+window.document.getElementById('j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus.stop').onstop=function(){document.getElementById('j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingProcessing').style.visibility='hidden';;};
+</script></div><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingProcessing" style="position: absolute; visibility:hidden;">
+                Processing...</div><script id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:j_id84" type="text/javascript">starVote=function(starNumber){A4J.AJAX.Submit('j_id0:j_id2:j_id5:j_id6:voteForm',null,{'similarityGroupingId':'j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:j_id84','parameters':{'j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:j_id84':'j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:j_id84','starNumber':(typeof starNumber!='undefined'&&starNumber!=null)?starNumber:''} ,'status':'j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:starVotingStatus'} )};
+</script><table class="stars mouseOut" onmouseout="mouseoutStarsPanel(this)" onmouseover="mouseoverStarsPanel(this)">
+<tbody>
+<tr>
+<td><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:votingStar1" onclick="starVote(1)" onmouseout="mouseoutStar(this)" onmouseover="mouseoverStar(this)" class="idleStar"></div></td>
+<td><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:votingStar2" onclick="starVote(2)" onmouseout="mouseoutStar(this)" onmouseover="mouseoverStar(this)" class="idleStar"></div></td>
+<td><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:votingStar3" onclick="starVote(3)" onmouseout="mouseoutStar(this)" onmouseover="mouseoverStar(this)" class="idleStar"></div></td>
+<td><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:votingStar4" onclick="starVote(4)" onmouseout="mouseoutStar(this)" onmouseover="mouseoverStar(this)" class="idleStar"></div></td>
+<td><div id="j_id0:j_id2:j_id5:j_id6:voteForm:buttonVote:vote:voteStarInline:componentVoteStarInline:votingStar5" onclick="starVote(5)" onmouseout="mouseoutStar(this)" onmouseover="mouseoverStar(this)" class="idleStar"></div></td>
+</tr>
+</tbody>
+</table>
+</div></span></span></td>
+<td><span class="averageRatingPanel">(Average Rating: No Rating)</span></td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+</tbody>
+</table>
+<div id="j_id0:j_id2:j_id5:j_id6:voteForm:j_id218"></div>
+</form><span id="ajax-view-state-page-container" style="display: none"><span id="ajax-view-state" style="display: none"><input type="hidden"  id="com.salesforce.visualforce.ViewState" name="com.salesforce.visualforce.ViewState" value="i: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" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateVersion" name="com.salesforce.visualforce.ViewStateVersion" value="201710081949290549" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateMAC" name="com.salesforce.visualforce.ViewStateMAC" value="AGV5SnViMjVqWlNJNklsVnJjVU5RZG0xUlZXbHFNa1JpUzBaMVdWcE9SbWhqUlVjMU4yWkxSRVpqY21STlowWnlPRk5zYWpSY2RUQXdNMlFpTENKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUlzSW10cFpDSTZJbnRjSW5SY0lqcGNJakF3UkVVd01EQXdNREF3V21sQmJGd2lMRndpZGx3aU9sd2lNREF3TURBd01EQXdNREF3TURBd1hDSXNYQ0poWENJNlhDSjJabk5wWjI1cGJtZHJaWGxjSWl4Y0luVmNJanBjSWpBd05VVXdNREF3TURBeGNVZzFORndpZlNJc0ltTnlhWFFpT2xzaWFXRjBJbDBzSW1saGRDSTZNVFV3TnpZMk1UQXlNelk0T0N3aVpYaHdJam93ZlE9PS4uQmZ2VjZTTjdqZGxWaEplT1JxekFmY0xlQWphc3B3UEVDdE9uVnY2R0FWOD0=" /></span></span></div><span id="j_id0:j_id2:j_id5:j_id6:articleVersionsHistoryRefresh"><span id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg"><script>window.sfdcPage = new GenericSfdcPage();
+UserContext.initialize({"ampm":["AM","PM"],"isAccessibleMode":false,"uiSkin":"PortalDefault","salesforceURL":"https://cbsi.secure.force.com?refURL=http%3A%2F%2Fcbsi.secure.force.com%2FCBSi%2Farticles%2FFAQ%2FmThird-Party-Social-Networking-Services","dateFormat":"M/d/yyyy","language":"en_US","locale":"en_US","userName":"cbsi@cbsi.force.com","userId":"005E0000001qH54","isCurrentlySysAdminSU":false,"renderMode":"RETRO","startOfWeek":"1","vfDomainPattern":"(?:[^.]+).na39.visual.force.com","auraDomain":"na39.lightning.force.com","dateTimeFormat":"M/d/yyyy h:mm a","orgPreferences":[{"index":257,"name":"TabOrganizer","value":true},{"index":113,"name":"GroupTasks","value":true}],"siteUrlPrefix":"/CBSi","isDefaultNetwork":true,"labelLastModified":"1507493178000","today":"10/10/2017 6:43 PM","timeFormat":"h:mm a","userPreferences":[{"index":112,"name":"HideInlineEditSplash","value":false},{"index":114,"name":"OverrideTaskSendNotification","value":false},{"index":115,"name":"DefaultTaskSendNotification","value":false},{"index":119,"name":"HideUserLayoutStdFieldInfo","value":false},{"index":116,"name":"HideRPPWarning","value":false},{"index":87,"name":"HideInlineSchedulingSplash","value":false},{"index":88,"name":"HideCRUCNotification","value":false},{"index":89,"name":"HideNewPLESplash","value":false},{"index":90,"name":"HideNewPLEWarnIE6","value":false},{"index":122,"name":"HideOverrideSharingMessage","value":false},{"index":91,"name":"HideProfileILEWarn","value":false},{"index":93,"name":"HideProfileElvVideo","value":false},{"index":97,"name":"ShowPicklistEditSplash","value":false},{"index":92,"name":"HideDataCategorySplash","value":false},{"index":128,"name":"ShowDealView","value":false},{"index":129,"name":"HideDealViewGuidedTour","value":false},{"index":132,"name":"HideKnowledgeFirstTimeSetupMsg","value":false},{"index":104,"name":"DefaultOffEntityPermsMsg","value":false},{"index":135,"name":"HideNewCsnSplash","value":false},{"index":101,"name":"HideBrowserWarning","value":false},{"index":139,"name":"HideDashboardBuilderGuidedTour","value":false},{"index":140,"name":"HideSchedulingGuidedTour","value":false},{"index":180,"name":"HideReportBuilderGuidedTour","value":false},{"index":183,"name":"HideAssociationQueueCallout","value":false},{"index":194,"name":"HideQTEBanner","value":false},{"index":193,"name":"HideChatterOnboardingSplash","value":false},{"index":195,"name":"HideSecondChatterOnboardingSplash","value":false},{"index":270,"name":"HideIDEGuidedTour","value":false},{"index":282,"name":"HideQueryToolGuidedTour","value":false},{"index":196,"name":"HideCSIGuidedTour","value":false},{"index":271,"name":"HideFewmetGuidedTour","value":false},{"index":272,"name":"HideEditorGuidedTour","value":false},{"index":205,"name":"HideApexTestGuidedTour","value":false},{"index":206,"name":"HideSetupProfileHeaderTour","value":false},{"index":207,"name":"HideSetupProfileObjectsAndTabsTour","value":false},{"index":213,"name":"DefaultOffArticleTypeEntityPermMsg","value":false},{"index":214,"name":"HideSelfInfluenceGetStarted","value":false},{"index":215,"name":"HideOtherInfluenceGetStarted","value":false},{"index":216,"name":"HideFeedToggleGuidedTour","value":false},{"index":268,"name":"ShowChatterTab178GuidedTour","value":false},{"index":275,"name":"HidePeopleTabDeprecationMsg","value":false},{"index":276,"name":"HideGroupTabDeprecationMsg","value":false},{"index":224,"name":"HideUnifiedSearchGuidedTour","value":false},{"index":226,"name":"ShowDevContextMenu","value":false},{"index":227,"name":"HideWhatRecommenderForActivityQueues","value":false},{"index":228,"name":"HideLiveAgentFirstTimeSetupMsg","value":false},{"index":232,"name":"HideGroupAllowsGuestsMsgOnMemberWidget","value":false},{"index":233,"name":"HideGroupAllowsGuestsMsg","value":false},{"index":234,"name":"HideWhatAreGuestsMsg","value":false},{"index":235,"name":"HideNowAllowGuestsMsg","value":false},{"index":236,"name":"HideSocialAccountsAndContactsGuidedTour","value":false},{"index":237,"name":"HideAnalyticsHomeGuidedTour","value":false},{"index":238,"name":"ShowQuickCreateGuidedTour","value":false},{"index":245,"name":"HideFilePageGuidedTour","value":false},{"index":250,"name":"HideForecastingGuidedTour","value":false},{"index":251,"name":"HideBucketFieldGuide","value":false},{"index":263,"name":"HideSmartSearchCallOut","value":false},{"index":265,"name":"HideSocialProfilesKloutSplashScreen","value":false},{"index":273,"name":"ShowForecastingQuotaAttainment","value":false},{"index":280,"name":"HideForecastingQuotaColumn","value":false},{"index":301,"name":"HideManyWhoGuidedTour","value":false},{"index":298,"name":"HideFileSyncBannerMsg","value":false},{"index":299,"name":"HideTestConsoleGuidedTour","value":false},{"index":302,"name":"HideManyWhoInlineEditTip","value":false},{"index":303,"name":"HideSetupV2WelcomeMessage","value":false},{"index":312,"name":"ForecastingShowQuantity","value":false},{"index":313,"name":"HideDataImporterIntroMsg","value":false},{"index":314,"name":"HideEnvironmentHubLightbox","value":false},{"index":316,"name":"HideSetupV2GuidedTour","value":false},{"index":317,"name":"HideFileSyncMobileDownloadDialog","value":false},{"index":322,"name":"HideEnhancedProfileHelpBubble","value":false},{"index":328,"name":"ForecastingHideZeroRows","value":false},{"index":330,"name":"HideEmbeddedComponentsFeatureCallout","value":false},{"index":341,"name":"HideDedupeMatchResultCallout","value":false},{"index":340,"name":"HideS1BrowserUI","value":false},{"index":346,"name":"HideS1Banner","value":false},{"index":358,"name":"HideEmailVerificationAlert","value":false},{"index":354,"name":"HideLearningPathModal","value":false},{"index":359,"name":"HideAtMentionsHelpBubble","value":false},{"index":368,"name":"LightningExperiencePreferred","value":false}],"networkId":""});
+</script>
+<form id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97" name="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97" method="post" action="/CBSi/ViewArticle?id=kA0E0000000PduE" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97" value="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97" />
+<script id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97:j_id98" type="text/javascript">articleVersionsHistory=function(articleId,versionNumber,languageId){A4J.AJAX.Submit('j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97',null,{'similarityGroupingId':'j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97:j_id98','oncomplete':function(request,event,data){showVersionsHistoryDlg();},'parameters':{'articleId':(typeof articleId!='undefined'&&articleId!=null)?articleId:'','languageId':(typeof languageId!='undefined'&&languageId!=null)?languageId:'','j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97:j_id98':'j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97:j_id98','versionNumber':(typeof versionNumber!='undefined'&&versionNumber!=null)?versionNumber:''} } )};
+</script><input id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97:viewCountNoIncrease" type="hidden" name="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97:viewCountNoIncrease" /><div id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97:j_id219"></div>
+</form><span id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id102">
+    <div id="j_id102_dialogScript">
+        <script type="text/javascript">
+            showVersionsHistoryDlg = function() {
+                var dialog = Knowledge.Dialog.getInstance({
+                    id: 'articleVersionListDlg_KnowledgeDialog',
+                    accessibleMode: false,
+                    componentId: 'articleVersionListDlg',
+                    title: 'Version History',
+                    width: 600,
+                    height: 400,
+                    initializerName: null,
+                    validatorName: null,
+                    encoderName: null
+                });
+                if(dialog.show) {
+                    dialog.show();
+                } else {
+                    alert("Error: Implementation error. Show() function not implemented");
+                }
+            }
+             //workaround for pages without header (when showheader="false")
+            if ((window.sfdcPage) && (sfdcPage.executeOnloadQueue)) sfdcPage.executeOnloadQueue();
+        </script>
+    </div></span>
+
+    <div id="articleVersionListDlg_dialogHolder" style="display: none;">
+        <div id="articleVersionListDlg_dialogContent">
+            <div class="versionListOverlayPanel">
+                <div class="versionListOverlay">
+                    <table cellpadding="0" cellspacing="0" class="overlayListHeader">
+                        <tr>
+                            <td class="secondVersionColumn" colspan="2">Version</td>
+                            <td class="thirdVersionColumn">Published on</td>
+                        </tr>
+                    </table><div id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id124" class="overlayList"><table cellspacing="1" cellpadding="0" class="overlayListTable versionOverlayList"></table></div>
+                </div>
+            </div>
+        </div><span id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id127">
+  <div id="j_id127_dialogActions"><span id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id127:j_id128:j_id131"><div id="j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id127:j_id128:j_id131:j_id132:j_id133" class="dialogAction">
+        <input class="dialogAction-name" type="hidden" value="articleVersionListDlg_close" />
+        <input class="dialogAction-label" type="hidden" value="Close" />
+        <input class="dialogAction-type" type="hidden" value="close" />
+        <input class="dialogAction-handler" type="hidden" value="" /></div></span>
+  </div></span>
+    </div></span></span><span id="j_id0:j_id2:j_id5:j_id6:propertiesPanelLabel" style="display: none;">
+            <span id="showProperties"><a href="#" onclick="togglePanel(Ext.get('j_id0:j_id2:j_id5:j_id6:propertiesPanel'),'showProperties','hideProperties');" title="Show Properties" target="_self" class="propertiesLink"><span id="j_id0:j_id2:j_id5:j_id6:j_id142" class="linkText">Show Properties</span></a>
+            </span>
+            <span id="hideProperties" style="display:none"><a href="#" onclick="togglePanel(Ext.get('j_id0:j_id2:j_id5:j_id6:propertiesPanel'),'showProperties','hideProperties');" title="Hide Properties" target="_self" class="propertiesLink"><span id="j_id0:j_id2:j_id5:j_id6:j_id146" class="linkText">Hide Properties</span></a>
+            </span></span><div id="j_id0:j_id2:j_id5:j_id6:propertiesPanel" style="display: none;"><div id="j_id0:j_id2:j_id5:j_id6:j_id149" class="propertiesPanel"><table class="propertiesTable">
+<tbody>
+<tr>
+<td class="propertiesTableColumn propertiesTableColumn1"><table>
+<tbody>
+<tr>
+<td class="labelColumn"><label for="j_id0:j_id2:j_id5:j_id6:firstPublicationDate">
+First Published</label></td>
+<td class="dataColumn"><span id="j_id0:j_id2:j_id5:j_id6:firstPublicationDate">2/16/2013 10:13 AM</span></td>
+</tr>
+<tr>
+<td class="labelColumn"><label for="j_id0:j_id2:j_id5:j_id6:lastModifiedDate">
+Last Modified</label></td>
+<td class="dataColumn"><span id="j_id0:j_id2:j_id5:j_id6:lastModifiedDate">5/28/2015 3:23 PM</span></td>
+</tr>
+<tr>
+<td class="labelColumn"><label for="j_id0:j_id2:j_id5:j_id6:publicationDate">
+Last Published</label></td>
+<td class="dataColumn"><span id="j_id0:j_id2:j_id5:j_id6:publicationDate">8/12/2014 5:13 PM</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="propertiesTableColumn propertiesTableColumn1"><table>
+<tbody>
+<tr>
+<td><table class="articleAudiencePanel">
+<tbody>
+<tr>
+<td><span class="articleAudience">Article Audience</span></td>
+</tr>
+<tr>
+<td><table>
+<tbody>
+<tr>
+<td>
+                    <tr>
+                        <td class="labelColumn"><span class="categoryGroupLabel">CBS Interactive</span></td>
+                        <td class="dataColumn"><span title="All &gt; mPrivacy">mPrivacy</span>
+                        </td>
+                    </tr></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class=" propertiesTableColumn"><table>
+<tbody>
+<tr>
+<td class="labelColumn"><label for="j_id0:j_id2:j_id5:j_id6:articleNumber">
+Article Number</label></td>
+<td class="dataColumn"><span id="j_id0:j_id2:j_id5:j_id6:articleNumber">000011595</span></td>
+</tr>
+<tr>
+<td class="labelColumn"><label for="j_id0:j_id2:j_id5:j_id6:summary">
+Summary</label></td>
+<td class="dataColumn"><span id="j_id0:j_id2:j_id5:j_id6:summary"></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div></div><div id="j_id0:j_id2:j_id5:j_id6:chatterPanel"></div>
+
+    <script>
+
+
+        function togglePanel(object,showLabel,hideLabel) {
+
+            var hiding = (object.dom.style.display != "none");
+
+            var animationCallback = function() {
+                if (hiding) {
+                    document.getElementById(showLabel).style.display = "block";
+                    document.getElementById(hideLabel).style.display = "none";
+                } else {
+                    document.getElementById(showLabel).style.display = "none";
+                    document.getElementById(hideLabel).style.display = "block";
+                }
+             };
+
+            var animationSettings = {useDisplay:true, duration:0.5, easing:"easeBoth", callback:animationCallback};
+
+            if(hiding) {
+                object.slideOut('t', animationSettings);
+            } else {
+                object.slideIn('t', animationSettings);
+            }
+        }         
+
+        function attachDetachArticleToCaseBackToCaseStart(b) {
+            if (b.isAttach) {
+                attachArticleAndGoBackToCase();
+            } else {
+                detachArticleAndGoBackToCase();
+            }
+        }
+
+        function goBackToCaseUrl() {
+            if (false) {
+                window.opener.location.reload(false);
+                window.close();
+            } else {
+                window.location = '';
+            }
+        }
+
+        function attachDetachArticleToCaseStart(b) {
+            if (b.isAttach) {
+                attachArticleToCase();
+                b.isAttach = false;
+                b.setText("Detach from case");
+                if(true) {
+                    b.backToCaseButton.isAttach = false;
+                    b.backToCaseButton.setText("Detach and Return to case");
+                }
+            } else {
+                detachArticleToCase();
+                b.isAttach = true;
+                b.setText("Attach to case");
+                if(true) {
+                    b.backToCaseButton.isAttach = true;
+                    b.backToCaseButton.setText("Attach and Return to case");
+                }
+            }
+        }
+
+        Ext.onReady(function() {
+            //the toolbar
+            var theTopicCP;
+            var toolbar = new Ext.Toolbar({
+                renderTo: 'j_id0:j_id2:j_id5:j_id6:toolbar',
+                cls: 'articleRendererToolbar'
+            });
+            
+            if(false) {
+                if(true) {
+                    if(false) {
+                        var attachButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id5:j_id6:toolbar:attachButton',
+                            handler: attachDetachArticleToCaseStart,
+                            text: 'Attach to case',
+                            isAttach: true
+                        });
+                        toolbar.addButton(attachButton);
+                    } else {
+                        var attachBackToCaseButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id5:j_id6:toolbar:attachBackToCaseButton',
+                            handler: attachDetachArticleToCaseBackToCaseStart,
+                            text: 'Attach and Return to case',
+                            isAttach: true
+                        });
+                        var attachButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id5:j_id6:toolbar:attachButton',
+                            handler: attachDetachArticleToCaseStart,
+                            text: 'Attach to case',
+                            isAttach: true,
+                            backToCaseButton: attachBackToCaseButton
+                        });
+                        toolbar.addButton(attachButton);
+                        toolbar.addButton(attachBackToCaseButton);
+                    }
+                } else {
+                    if(false) {
+                        var detachButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id5:j_id6:toolbar:detachButton',
+                            handler: attachDetachArticleToCaseStart,
+                            text: 'Detach from case',
+                            isAttach: false
+                        });
+                        toolbar.addButton(detachButton);
+                    } else {
+                        var detachBackToCaseButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id5:j_id6:toolbar:detachBackToCaseButton',
+                            handler: attachDetachArticleToCaseBackToCaseStart,
+                            text: 'Detach and Return to case',
+                            isAttach: false
+                        });
+                        var detachButton = new Ext.Button({
+                            id: 'j_id0:j_id2:j_id5:j_id6:toolbar:detachButton',
+                            handler: attachDetachArticleToCaseStart,
+                            text: 'Detach from case',
+                            isAttach: false,
+                            backToCaseButton: detachBackToCaseButton
+                        });
+                        toolbar.addButton(detachButton);
+                        toolbar.addButton(detachBackToCaseButton);
+                    }
+                }
+            }
+
+            if(false && true && false) {
+             if(false) {
+              toolbar.add('<div class="toolbarPlaceHolder"><p>&#160;</p></div>');
+             } else {
+              return;
+             }
+            }
+                toolbar.add(Ext.fly('j_id0:j_id2:j_id5:j_id6:votingComponent').dom.innerHTML);
+
+            if(false) {
+             theTopicCP = toolbar.add('');
+            }
+           
+            toolbar.addFill();
+
+            if(true){
+             toolbar.add(Ext.fly('j_id0:j_id2:j_id5:j_id6:propertiesPanelLabel').dom.innerHTML);
+            }
+            toolbar.doLayout();
+            
+           if(false) {
+             var topicInToolBar = document.getElementById(theTopicCP.id);
+             topicInToolBar.appendChild(document.getElementById('knowledgeTopic'));
+      }
+        });
+
+    </script></span>
+            <table class="articletable">
+                <tr class="articlerow">
+                    <td class="articlecell"><h1 class="articletitle">Video Services and Social Networking Policy</h1><hr /></td>
+                </tr>
+                <tr class="articlerow"><td class="articlecell"><h2></h2></td>
+                </tr>
+                <tr class="articlerow">
+                    <td class="articlecell"><p><div class="container-fluid" style="">
+<div class="row">
+<div class="span12">
+<table border="0" cellpadding="5" width="100%"><tbody><tr><td colspan="1" rowspan="1"><span style="font-size: 14px;">Your video content viewing activities may be collected through your use of the Services. By viewing our video content, you are consenting to share your video activities with others, including what videos you have watched on the Services. Sharing this information will allow you to take advantage of social networking and other features on the Services.</span><br>			<br>			<br>			<span style="font-size: 14px; color: #ff6600;">Social Networking Services</span><br>			<br>			<span style="font-size: 14px;">CBS Interactive has partnered with certain third party social networking companies to offer you their services through certain CBS Interactive Services. For example, you can use third party social networking services, such as <a href="http://www.facebook.com/policy.php" target="_blank">Facebook</a>, <a href="http://www.google.com/policies/privacy/" target="_blank">Google</a> or <a href="https://twitter.com/privacy?lang=en" target="_blank">Twitter</a>, to share information about your experience on CBS Interactive Services with your friends and followers on those services. These social networking services may be able to collect information about you, including about your activities on CBS Interactive Services, and they also may notify your friends, both on CBS Interactive Services and on their services, that you are a CBS Interactive user or about your use of the CBS Interactive Services, in accordance with applicable law and their own privacy policies.</span><br>			<br>			<span style="font-size: 14px;">By using your CBS Interactive Services account with a third party social networking service, you consent to share information about you, including video content that you have watched on CBS Interactive Services, with your friends and followers on those services. You can limit how third party social networking services share your information by visiting your social networking services&#39; websites and updating your privacy settings.</span><br>			<br>			<span style="font-size: 14px;">In addition, CBS Interactive Services may request your permission to a) access and collect information available from your social networking account; and b) post information to your friends on your behalf. When you connect your social networking service with your CBS Interactive Services account, you authorize CBS Interactive Services to access certain information about you from your social networking service to provide content and services, including to help us tailor our communications to you and to develop rich online content and services across the CBS Interactive Services. The information CBS Interactive may access from your social networking services is governed by the privacy policies and settings of those third party services.</span><br>			<br>			<span style="font-size: 14px; color: #ff6600;">Video Measurement Services</span><br>			<br>			<span style="font-size: 14px;">Some of the CBS Interactive Services may use <a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/mCookies-Web-Beacons-and-Other-Similar-Technologies?template=template_mobilepp&amp;referer=mobilepp.com&amp;data=&amp;cfs=default" target="_blank">cookies, web beacons, and other similar technologies</a> that allow market research companies, such as Nielsen TV Ratings or Comscore, to collect information about you, including video content that you have watched on CBS Interactive Services. By watching video content on CBS Interactive Services, you consent to allow us to share information about you with these video measurement services. For more information about Nielsen TV Ratings, please click <a href="http://www.nielsen.com/digitalprivacy" target="_blank">here</a>. If you do not wish to participate in Nielsen&#39;s digital measurement research on mobile platforms, please click <a href="http://www.nielsen.com/digitalprivacy#choice" target="_blank">here</a> to opt-out. If you choose to opt out, CBS will not share with Nielsen video content viewing information about you. For more information about Comscore, please click <a href="http://www.comscore.com" target="_blank">here</a>. Please note that we do not share contact information with video measurement services.</span><br>			<br>			<span style="font-size: 14px;">In addition, third party market research services, such as Nielsen, may access information about you through your social networking services. You can limit the information that such companies may access by visiting your social networking service and updating your privacy settings. Please click <a href="https://www.facebook.com/help/211774365532736?sr=1&amp;sid=0U3IgVgLaT89shpT3" target="_blank">here</a> to read about Facebook’s participation in Nielsen’s measurement services, and <a href="http://www.nielsen-online.com/corp.jsp?section=leg_prs&amp;nav=1#Optoutchoices" target="_blank">here</a> to learn how to opt out of Nielsen measurement services on web browsers.</span><br>			 
+			<div style="text-align: right;"><a href="http://xfinity.comcast.net/privacy/2014-05/" target="_blank"><span style="font-size: 14px; color: #ff6600;">Return to </span></a><a href="https://cbsi.secure.force.com/CBSi/articles/FAQ/Privacy-Policy?template=template_mobilePrivacy&amp;referer=mobileprivacy.com&amp;data=&amp;cfs=default" target="_self">Privacy Policy</a></div>
+			</td></tr></tbody></table>
+</div>
+</div>
+</div></p></td>
+                </tr>
+            </table>
+              <hr />
+            <br /><span id="j_id0:j_id2:j_id202"><span id="j_id0:j_id2:j_id202:j_id203:j_id204:1:j_id208">              
+                    <table id="articlelisttable" width="99%">
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" style="font-weight: bold;" width="20%">Related Article:</td>
+                            <td class="articlelistcell" width="80%"><a id="j_id0:j_id2:j_id202:j_id203:j_id204:1:articlelink" name="j_id0:j_id2:j_id202:j_id203:j_id204:1:articlelink" href="/CBSi/articles/FAQ/Privacy-Policy?retURL=%2FCBSi%2Farticles%2FFAQ%2FmThird-Party-Social-Networking-Services%3Ftemplate%3Dtemplate_mobilepp%26amp%253Breferer%3Dmobilepp.com%26amp%253Bdata%3D%26amp%253Bcfs%3Ddefault&popup=false&categories=&template=template_mobilepp&referer=&data=&cfs=" target="_self">CBS Interactive Privacy Policy</a></td>
+                        </tr>                        
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" width="20%"></td>
+                            <td class="articlelistcell" width="80%"><span id="j_id0:j_id2:j_id202:j_id203:j_id204:1:articlelistabstract"></span></td>
+                        </tr>
+                    </table></span><span id="j_id0:j_id2:j_id202:j_id203:j_id204:2:j_id208">              
+                    <table id="articlelisttable" width="99%">
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" style="font-weight: bold;" width="20%">Related Article:</td>
+                            <td class="articlelistcell" width="80%"><a id="j_id0:j_id2:j_id202:j_id203:j_id204:2:articlelink" name="j_id0:j_id2:j_id202:j_id203:j_id204:2:articlelink" href="/CBSi/articles/FAQ/CBS-Interactive--Terms-of-Use?retURL=%2FCBSi%2Farticles%2FFAQ%2FmThird-Party-Social-Networking-Services%3Ftemplate%3Dtemplate_mobilepp%26amp%253Breferer%3Dmobilepp.com%26amp%253Bdata%3D%26amp%253Bcfs%3Ddefault&popup=false&categories=&template=template_mobilepp&referer=&data=&cfs=" target="_self">CBS Interactive Terms of Use</a></td>
+                        </tr>                        
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" width="20%"></td>
+                            <td class="articlelistcell" width="80%"><span id="j_id0:j_id2:j_id202:j_id203:j_id204:2:articlelistabstract"></span></td>
+                        </tr>
+                    </table></span><span id="j_id0:j_id2:j_id202:j_id203:j_id204:3:j_id208">              
+                    <table id="articlelisttable" width="99%">
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" style="font-weight: bold;" width="20%">Related Article:</td>
+                            <td class="articlelistcell" width="80%"><a id="j_id0:j_id2:j_id202:j_id203:j_id204:3:articlelink" name="j_id0:j_id2:j_id202:j_id203:j_id204:3:articlelink" href="/CBSi/articles/FAQ/CBS-Interactive-Terms-of-Use?retURL=%2FCBSi%2Farticles%2FFAQ%2FmThird-Party-Social-Networking-Services%3Ftemplate%3Dtemplate_mobilepp%26amp%253Breferer%3Dmobilepp.com%26amp%253Bdata%3D%26amp%253Bcfs%3Ddefault&popup=false&categories=&template=template_mobilepp&referer=&data=&cfs=" target="_self">CBS Interactive Terms of Use</a></td>
+                        </tr>                        
+                        <tr class="articlelistrow">
+                            <td class="articlelistcell" width="20%"></td>
+                            <td class="articlelistcell" width="80%"><span id="j_id0:j_id2:j_id202:j_id203:j_id204:3:articlelistabstract"></span></td>
+                        </tr>
+                    </table></span></span> </article>
+                </div>
+                <div class="row-fluid"></div>
+                <a href="#top"><span style="color: rgb(255, 102, 0);">&laquo;</span> Back To Top <span style="color: rgb(255, 102, 0);">&raquo;</span></a>
+                <hr />
+
+
+<script type="text/javascript">//<![CDATA[
+var amc=amc||{};if(!amc.on){amc.on=amc.call=function(){}};
+document.write("<scr"+"ipt type=\"text/javascript\" src=\"//www.adobetag.com/d2/v2/ZDItY2JzaW50ZXJhY3RpdmUtNDgxNC0xNzE2/amc.js\"></sc"+"ript>");
+//]]></script>
+
+
+                <footer> 
+                    <a href="http://www.cbscorporation.com/">About CBS</a> <span>|</span> <a href="http://cbsi.force.com/CBSi/privacy">Privacy Policy</a> <span>|</span> <a href="http://cbsi.force.com/CBSi/tou">Terms of Use</a> <span>|</span> <a href="https://cbsi.secure.force.com/CBSi/sitefeedback?template=template_mobilepp&amp;referer=mobilepp.com&amp;cfs=default">Feedback</a>
+                    <br />
+                    <br />
+                    <div class="footer-copyright">&copy; 2014 CBS Interactive. All rights reserved.</div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/jquery.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-transition.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-alert.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-modal.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-dropdown.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-tab.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-tooltip.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-popover.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-button.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-collapse.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-carousel.js"></script>
+    <script src="/CBSi/resource/1424049638000/assets_mobile/assets_mobile/assets/js/bootstrap-typeahead.js"></script>
+
+    </body>
+</html><script type="text/javascript">Sfdc.onReady(function(){
+	SfdcApp && SfdcApp.Visualforce && SfdcApp.Visualforce.VSManager && SfdcApp.Visualforce.VSManager.vfPrepareForms(["j_id0:j_id2:j_id5:j_id6:j_id95","j_id0:j_id2:j_id5:j_id6:voteForm","j_id0:j_id2:j_id5:j_id6:articleVersionListDlg:j_id96:j_id97","j_id0:j_id2:j_id5:j_id6:langForm"]);
+
+});</script>

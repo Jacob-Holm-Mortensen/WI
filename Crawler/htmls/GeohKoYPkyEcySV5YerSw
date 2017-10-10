@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" itemscope itemtype="http://schema.org/" >
+<head>
+    <link rel="SHORTCUT ICON" href="https://sports.cbsimg.net/favicon.ico">
+
+    <title>NCAA College Football Stats - CBSSports.com </title>
+
+    <link href="https://sports.cbsimg.net/css/font/iconmoon/20170927/style.css?0009" rel="stylesheet" type="text/css" />
+            <link href="https://sports.cbsimg.net/css/phase4-min-v548.css" rel="stylesheet" type="text/css" />
+            <!--[if IE]>
+            <link href="https://sports.cbsimg.net/css/phase2-ie-min-v058.css" rel="stylesheet" type="text/css" />
+            <![endif]-->
+            <!-- no arena css -->
+<link href="https://sports.cbsimg.net/css/jquery/ui-tools-min-v030.css" rel="stylesheet" type="text/css"/>
+
+    <!--[if lt IE 9]><script>var e = ("abbr,article,aside,audio,canvas,datalist,details,figure,figcaption,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video").split(',');for (var i = 0; i < e.length; i++) {document.createElement(e[i]);}</script><![endif]-->
+<script type="text/javascript">
+if(typeof CBSi=="undefined"||!CBSi){var CBSi={}}CBSi.namespace=function(){var b=arguments,g=null,e,c,f;for(e=0;e<b.length;e=e+1){f=b[e].split(".");g=CBSi;for(c=(f[0]=="CBSi")?1:0;c<f.length;c=c+1){g[f[c]]=g[f[c]]||{};g=g[f[c]]}}return g};CBSi.extend=function(d,e,c){if(!e||!d){throw new Error("extend failed, please check that all dependencies are included.")}var b=function(){};b.prototype=e.prototype;d.prototype=new b();d.prototype.constructor=d;d.superclass=e.prototype;if(e.prototype.constructor==Object.prototype.constructor){e.prototype.constructor=e}if(c){for(var a in c){if(c.hasOwnProperty(a)){d.prototype[a]=c[a]}}}};CBSi.panel={overlayManager:undefined,create:function(c,b){if(!this.overlayManager){this.overlayManager=new YAHOO.widget.OverlayManager()}if(!b.strings){b.strings={}}if(!b.strings.close){b.strings.close=""}var a=new YAHOO.widget.Panel(c,b);this.overlayManager.register(a);return a}};CBSi.fireEvent=function(b,c){if(document.createEvent){var a=document.createEvent("HTMLEvents");a.initEvent(c,true,true);return !b.dispatchEvent(a)}else{var a=document.createEventObject();return b.fireEvent("on"+c,a)}};CBSi.log=function(){};if(window.console&&window.console.log){CBSi.log=function(){if(CBSi.debugmode===""){return}var a=[];for(var b=0;b<arguments.length;b++){a.push(arguments[b])}console.log(a)}}else{if(window&&window.console){window.console.log=function(){}}else{window.console={};window.console.log=function(){}}if(console){console.log=function(){}}else{console={};console.log=function(){}}}CBSi.jsRenvInit=function(a){for(var b in a){CBSi[b]=a[b]}return};
+if (!CBSi.debugmode) CBSi.debugmode = ''; // For normandy--manually set if js only
+</script>
+<script id="jsRenv_script" type="text/javascript">CBSi.jsRenvInit({"takeoverIsBlank":0,"httpHost":"http://www.cbssports.com","project":"media","mediaHttpServer":"https://www.cbssports.com","pref":{"timezoneOffset":"4","timezoneAbbrev":"ET"},"feature":"stats","league_abbr":"ncaaf","arena":"collegefootball","imageServer":"https://sports.cbsimg.net","requestUri":"/collegefootball/stats"});</script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/yui/latest/yahoo-dom-event-connection-datasource-get-imageloader-animation-json-min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/jquery/jquery.1.8.2.min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/jquery/ui/jquery.1.9.2.custom.min.js'></script>
+<script type='text/javascript' src='https://sports.cbsimg.net/js/global-min-v0086.js'></script>
+
+<script>
+//Dumping cookies that have been made browser/host only
+(function($){
+    //return;//Comment out to run code
+    //List of domains to check and see if the cookie has with it
+    var domains = ['.cbssports.com','.www.cbssports.com','www.cbssports.com','*.cbssports.com','cbssports.com', '.cbssports.com'];
+    //List of the names of cookies to match
+    var matches = ['CirclePoll','2013NCAAB','2013NFL','2013NCAAF'];
+    //Loop throught the cookies and find the matches
+    $.each(document.cookie.split(/; */), function()  {
+        var splitCookie = this.split('=');
+        for(m in matches){
+            if(splitCookie[0].match(RegExp(matches[m]))){
+                for(d in domains){
+                    console.log(splitCookie[0], 'cookie removed');
+                    //Try to delete the cookie with a domain and path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;domain=" + domains[d] + ";path=/";
+                    //Try to delete the cookie without a domain and path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;";
+                    //Try to delete the cookie without a path
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;domain=" + domains[d] + ";";
+                    //Try to delete the cookie without a domain
+                    document.cookie= splitCookie[0] + "=; expires=Monday, 19 Aug 1996 05:00:00 GMT;path=/";
+                }
+            }
+        }
+
+    });
+})($);
+</script>
+
+
+
+
+
+    <script type="text/javascript">
+var surround=new Object();
+surround.cat = ['a','b','c','d','e','f'];
+surround.cookie = readCookie('surround');
+
+if (surround.cookie == false || surround.cookie == undefined) {
+    surround.pick = Math.floor(Math.random() * surround.cat.length);
+    surround.subsession = Math.floor(Math.random() * 4) + 1; /*subsessions 1-4*/
+    document.cookie=("surround="+surround.cat[surround.pick]+"|"+surround.subsession+";domain=.cbssports.com;path=/" );
+    surround.cookie = readCookie('surround');
+}
+if (surround.cookie) {surround.sessions=surround.cookie.split("|");}
+surround.vguid = v1();
+
+function blankAdCallback(width, height, position) {
+    // Skybox Ad - 5x5 top.
+    if (height == 5 && width == 5 && position == 'top') {
+        $('.ad-top-strip').removeAttr("data-skyboxminheight")
+            .removeAttr("data-skyboxmaxheight")
+            .removeAttr("data-skyboxheight");
+        $('body').removeClass('skybox-loaded')
+            .removeClass('skybox-loaded-dfp')
+            .removeClass('skybox-expanded')
+            .removeClass('skybox-collapsed');
+        window.scrollTo(window.pageXOffset, window.pageYOffset + 1);
+    }
+}
+</script>
+    <script>window.logged_in = "no";</script><script src="//cdn.optimizely.com/js/2788500260.js"></script>
+<script type="text/javascript">
+var cbsiadGlobal = { };
+if ( typeof(surround) == 'undefined' ) { surround = {}; }
+var dwTag = "&PGUID="+surround.vguid +"&cookiesOn=" +cbsiadGlobal.cookiesOn;
+</script>
+<script type="text/javascript" src="https://native.sharethrough.com/assets/tag.js" async></script><script type="text/javascript" src="https://js-sec.indexww.com/ht/ls-cbssports.js" async></script><script type="text/javascript" src="https://mtrx.go.sonobi.com/morpheus.cbssports.4073.js" async></script>
+<script type="text/javascript">
+if (!random) {var abc=Math.random() + ""; var random=abc.substring(2,abc.length);}
+var switchXFP="on";
+var adLookup="media/spln/collegefootball/reg/free/stats";
+var adNetwork="8264";
+var xfpObj='vguid='+surround.vguid+'~user=anon~env=prod~arena=collegefootball';
+</script>
+    
+   <script type="text/javascript">
+      xfpDomain='.cbssports.com';
+      xfpSlot='/8264/aw-cbssports/collegefootball/media/statistics/stats';
+      // tracks if this is the first page the user has visited in this session
+      function xfpFirstPageCookie() {
+         if (xfpFirstPage) {return xfpFirstPage;}           // only run once per page, if already set, just return value
+         var xfpFirstPage = readCookie('XFP_FIRSTPAGE');    // get firstPage cookie
+         if (!xfpFirstPage) {                               // if cookie doesn't exist, this is the first page, so firstPage = 1
+            xfpFirstPage = 1;
+         } else if (xfpFirstPage == 1) {                    // else, this is the second page, set firstPage = 0
+            xfpFirstPage = 0;
+         }
+         var exp = new Date();
+         exp.setTime(exp.getTime() + xfpGetTimeToExpiration(.75)); // get number of milliseconds until 12:45am ET
+         document.cookie=('XFP_FIRSTPAGE ='+xfpFirstPage+";expires="+exp.toUTCString()+";domain="+xfpDomain+";path=/;");
+         return xfpFirstPage;                                // set and return the parameter DVAR_FIRSTPAGE = firstPage
+      }
+      // given the expiration hour in ET, return the number of milliseconds to
+      //   expiration from the given Date Object (defaults to current date)
+      function xfpGetTimeToExpiration(etExpireHour,dt) {
+         dt = dt || new Date();
+         var etUtcOffset = 5; // hours
+         if (isEDT(dt)) etUtcOffset = 4; // if in daylight savings time
+         var utcExpire = (etExpireHour+etUtcOffset)%24; // UTC expire time in hours
+         var utcTime = 60*dt.getUTCHours() + dt.getUTCMinutes(); // UTC time in mins
+         var minsToExpiration = 60*utcExpire - utcTime; // time to expiration
+         if (minsToExpiration < 0) minsToExpiration = 24*60 + minsToExpiration;
+         return 60000*minsToExpiration; // in milliseconds
+      }
+      // determine if Daylight Savings Time is being observed in the ET timezone
+      //   at the date/time of the given Date Object (defaults to current time)
+      function isEDT(dt) {
+         dt = dt || new Date(); // default to current date
+         var month = dt.getUTCMonth(); // get month in UTC
+         if (month > 2 && month < 10) return true; // in EDT if Apr to Oct
+         if (month < 2 || month > 10) return false; // not in EDT if Jan,Feb,Dec
+         var date = dt.getUTCDate(); // get day of month in UTC
+         var day = dt.getUTCDay(); // get day of week in UTC
+         if (month == 10) {  // November
+             if (date > 7) return false;  // after first week, not in EDT
+             if (day == 0) {  // Sunday of first week, check time
+               if (dt.getUTCHours() < 6) return true; //before 6am UTC, in EDT
+               return false;  // 6am UTC or later, not in EDT
+            }
+            if (date > day) return false; // Sunday has passed, not in EDT
+            return true;  // Sunday has not passed, in EDT
+         }
+         // March
+         if (date < 8) return false; // still first week, not in EDT
+         if (date > 14) return true; // after second week, in EDT
+         if (day == 0) { // Sunday of second week, check time
+             if (dt.getUTCHours() > 6) return true; // 7am UTC or later, in EDT
+             return false; // before 7am UTC, not in EDT
+         }
+         if (date - day > 7) return true;  // Sunday has passed, in EDT
+         return false; // Sunday has not passed, not in EDT
+      }
+      //sharethrough
+
+      var xfpFirstPage =  xfpFirstPageCookie();
+      var xfpSession    = (surround.cookie) ? surround.sessions[0] : 'off';
+      var xfpSubsession = (surround.cookie) ? surround.sessions[1] : 'off';
+
+      function xfpGetArgs(){
+         var args = new Object();
+         var query = location.search.substring(1); // get query string
+         var pairs = query.split("&");
+         for (var i=0; i < pairs.length; i++) {
+            var pos = pairs[i].indexOf('=');                         // Look for name "name=value"
+            if (pos == -1) continue;                                 // If not found, skip
+            var argname = pairs[i].substring(0,pos);                 // Extract the name
+            var value   = pairs[i].substring(pos+1);                 // Extract the value
+            value = decodeURIComponent(value);                       // Decode it, if needed
+            var adTarg = argname.match(/adTargeting_/);              // Do we have a match on adTargeting_<key>
+
+            // Set Targeting for spec'd out query parms
+            if (argname == 'env' || argname == 'session' || argname == 'subses' || argname == 'adRegion' || argname == 'ftag' || argname == 'ttag' || (adTarg)) {
+               // args[argname] = value;
+               if (adTarg) {argname = argname.substring(12);} // strip off adTargeting_ from the name if present
+               googletag.pubads().setTargeting(argname, value);      // Set Targeting
+               if (argname == 'ftag' || argname == 'ttag') {
+                  document.cookie=("xfpFtag="+value+";domain="+xfpDomain+";path=/" );
+                  newFtag = 1;
+               }
+               xfpObj += '~' +argname +'=' +value;
+            }
+         }
+
+         var xfpFtagVal = readCookie("xfpFtag");                  // check if we have an ftag cookie
+         var newFtag = 0;
+         if ((newFtag==0) && xfpFtagVal) {                        // If no new setting for ftag but we had an old one then
+            googletag.pubads().setTargeting('ftag', xfpFtagVal);  // Set Targeting
+            xfpObj += '~ftag=' +xfpFtagVal;
+         }
+      }
+      
+      function getTaboolaPlacements() {
+         var taboolaList = '';
+         $("div[data-taboola-placement]").each(function() {
+            $this = $(this);
+            if ($this.data('taboola-placement')) {
+              if (taboolaList != '') {taboolaList+='|';}
+              taboolaList += $this.data('taboola-placement');
+            }
+         });
+         surround.taboola=taboolaList;
+      }
+    </script>
+   <script type="text/javascript">
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+         var gads = document.createElement('script');
+         gads.async = true;
+         gads.type = 'text/javascript';
+         var useSSL = 'https:' == document.location.protocol;
+         gads.src = (useSSL ? 'https:' : 'http:') +'//www.googletagservices.com/tag/js/gpt.js';
+         var node = document.getElementsByTagName('script')[0];
+         node.parentNode.insertBefore(gads, node);
+      })();
+
+      var adSlots = {}; //var to hold ad slots.
+
+      googletag.cmd.push(function() {
+
+         adSlots["XFP_top_strip"] = googletag.defineSlot("/8264/aw-cbssports/collegefootball/media/statistics/stats", [5,5], "top_strip").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_leader_top"] = googletag.defineSlot("/8264/aw-cbssports/collegefootball/media/statistics/stats", [[728,90],[970,66],[970,90]], "leader_top").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_skin_ad_call"] = googletag.defineSlot("/8264/aw-cbssports/collegefootball/media/statistics/stats", [1600,1000], "skin_ad_call").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_sky_top"] = googletag.defineSlot("/8264/aw-cbssports/collegefootball/media/statistics/stats", [160,600], "sky_top").addService(googletag.pubads()).setTargeting("pos", "top"); 
+         adSlots["XFP_leader_plus2_bottom"] = googletag.defineSlot("/8264/aw-cbssports/collegefootball/media/statistics/stats", [[728,90],[970,66]], "leader_plus2_bottom").addService(googletag.pubads()).setTargeting("pos", "bottom"); 
+         googletag.pubads().addEventListener("slotRenderEnded", function(event) {
+            var slotName = event.slot.getSlotElementId();
+            
+            if (slotName == 'leader_plus_top' || slotName == 'leader_top') {
+               // CBSi.log("ENTER Collapse empty leaderboard.");
+               var slotID = '#' + slotName;
+               // CBSi.log("Slot ID is " + slotName);
+               if ($(slotID).css('display') == 'none') {
+                   CBSi.log("Collapse empty leaderboard.");
+                   $('#leaderboard-wrap').css({ "display": "none" });
+               }
+            }
+         }); 
+         googletag.defineOutOfPageSlot("/8264/aw-cbssports/collegefootball/media/statistics/stats","interstitial").addService(googletag.pubads());
+         googletag.pubads().setTargeting("ptype", "statistics");
+         googletag.pubads().setTargeting("firstpg", ""+xfpFirstPage);
+         googletag.pubads().setTargeting("session", xfpSession);
+         googletag.pubads().setTargeting("subses", ""+xfpSubsession);
+         googletag.pubads().setTargeting("vguid", surround.vguid); 
+         googletag.pubads().setTargeting("user", "anon"); 
+         googletag.pubads().setTargeting("env", "prod"); 
+
+         xfpGetArgs(); // to set/override targeting for env, session, subses, adRegion, ftag, ttag, and adTargeting_<key> if set by query string
+         googletag.pubads().enableAsyncRendering();
+         googletag.pubads().enableSingleRequest();
+         googletag.pubads().collapseEmptyDivs();
+         googletag.enableServices();
+         // googletag.display();  // Ad display is triggered via Sonobi.
+      });
+      var PR_UACT=0;
+      xfpObj += '~ptype=statistics~firstpg=' +xfpFirstPage +'~session='+xfpSession +'~subses='+xfpSubsession+'';
+      function getVideoAdSessionValues(videoId){return  "session="+xfpSession+";subses="+xfpSubsession+"";}
+   </script>
+   
+         <script type="text/javascript">
+         window._taboola = window._taboola || [];
+         _taboola.push({other : 'auto'});
+         !function (e, f, u) {
+             e.async = 1;
+             e.src = u;
+             f.parentNode.insertBefore(e, f);
+         }(document.createElement('script'), 
+         document.getElementsByTagName('script')[0], '//cdn.taboola.com/libtrc/cbsinteractive-cbssports/loader.js');
+         </script>
+      
+   
+    
+    <!-- no ClickTale -->
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /><meta name="description" content="College football stats including Division I-A player and team stats at CBSSports.com. College football stats are also available by conference."><meta property="og:title" content="College Football Stats" /><meta property="og:type" content="article"/><meta property="og:description" content=""/><meta property="og:image" content="http://sports.cbsimg.net/images/cbss/ui5/cbssportsv2_200x200.png"/><meta property="og:url" content="https://www.cbssports.com/collegefootball/stats"/><meta property="og:site_name" content="CBSSports.com"/><meta property="fb:app_id" content="297742330311988"/><meta itemprop="name" content="College Football Stats"/><meta itemprop="description" content=""/><meta name="vr:type" content="article"/><meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@cbssports" /><meta name="twitter:creator" content="@EyeOnCFB" /><meta name="twitter:url" content="https://www.cbssports.com/collegefootball/stats" /><meta name="twitter:title" content="College Football Stats" /><meta name="twitter:description" content="" /><meta name="twitter:image" content="http://sports.cbsimg.net/images/cbss/ui5/cbssportsv2_200x200.png" /><meta name="keywords" content="Division 1-A NCAA college football stats statistics, college football player team stats passing rushing receiving stats, CBS Sports SportsLine">
+<meta name="googlebot" content="NOODP">
+<meta property="fb:pages" content="25902406772" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.cbssports.com/s/36901/PlayerStatsLeader?platform=webapp" /><link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.cbssports.com/s/36901/PlayerStatsLeader?platform=webapp" /><link rel="alternate" href="android-app://com.handmark.sportcaster/cbssportsapp/www.cbssports.com/nhl/stats" />
+<link rel="canonical" href="https://www.cbssports.com/collegefootball/stats">
+<link rel="alternate" title="CBSSports.com: NCAA Football Headlines" href="http://www.cbssports.com/partners/feeds/rss/cfb_news" type="application/rss+xml">
+    <link rel="apple-touch-icon" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://sports.cbsimg.net/images/icons/touch/touch-icon-ipad-retina.png">
+</head><body id="standardBody">
+<div id="tooltip" name="tooltip"></div> 
+
+<script type="text/javascript">if(top.location != self.location && (document.referrer.indexOf("cbssports.com") == -1)) {window.open(location.href, '_top');}</script>
+<div id="interstitial" style="position:absolute;top:-5000px;left:-5000px;">
+      <script type="text/javascript">
+         googletag.cmd.push(function() {
+             if (typeof index_headertag_lightspeed !== 'undefined') {
+                 var cb = (function () {
+                     return function () {
+                         var slots = googletag.pubads().getSlots();
+                         index_headertag_lightspeed.set_slot_targeting(slots);
+                          googletag.display("interstitial");
+                       };
+                 })();
+                 index_headertag_lightspeed.add_session_end_hook(cb, true);
+                 index_headertag_lightspeed.refresh();
+             } else {
+                 googletag.display("interstitial");
+             }
+         });
+      </script>
+   </div>
+<!--googleoff: snippet-->
+<div id="skybox-above">
+    <div id="top_strip" class="ad-top-strip">
+    <script type="text/javascript">
+    if (switchXFP != 'off') {
+        googletag.cmd.push(function() {
+            if (typeof index_headertag_lightspeed !== 'undefined') {
+                      var cb = (function () {
+                          return function () {
+                              var slots = googletag.pubads().getSlots();
+                              index_headertag_lightspeed.set_slot_targeting(slots);
+                               googletag.display("top_strip");
+                            };
+                      })();
+                      index_headertag_lightspeed.add_session_end_hook(cb, true);
+                      index_headertag_lightspeed.refresh();
+                  } else {
+                      googletag.display("top_strip");
+                  }
+        });
+        if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="top_strip" style="width:100%"><br>').insertBefore('#top-strip');
+    }
+    </script>
+    </div>
+</div>
+<script>
+var skyBoxScroll = function() {
+    if ($(window).scrollTop() != 0) {
+        window.scrollTo(window.pageXOffset, window.pageYOffset - 1);
+        window.scrollTo(window.pageXOffset, window.pageYOffset + 1);
+    }
+}
+</script><header id="site-header" class="site-header" data-component="nav" data-role="header" data-position="fixed" data-fullscreen="true">
+	<div id="nav-network-bar" class="nav-network-bar">
+	  <ul class="nav-networks">
+		<li class="nav-networks-item is-selected"> <a href="http://www.cbssports.com/" om-event="Brand Bar|CBSSports">CBSSports.com</a> </li>
+		<li class="nav-networks-item "> <a href="http://247sports.com" target="_blank" om-event="Brand Bar|247Sports"> 247Sports </a> </li>
+		<li class="nav-networks-item "> <a href="http://www.maxpreps.com" target="_blank" om-event="Brand Bar|MaxPreps"> MaxPreps </a> </li>
+		<li class="nav-networks-item "> <a href="http://www.sportsline.com" target="_blank" om-event="Brand Bar|SportsLine"> SportsLine </a> </li>
+		<li class="nav-networks-item "> <a href="http://shop.cbssports.com/?utm_source=cbssportscom_hp&utm_medium=bm_referral&utm_term=kw--CBS_Sports" target="_blank" om-event="Brand Bar|Shop"> Shop </a> </li>
+	  </ul>
+	  
+	  <ul class="nav-follow-us">
+		<li class="nav-follow-us-item nav-follow-us-item-label"> Follow CBS Sports </li>
+		<li class="nav-follow-us-item"> <a href="https://www.facebook.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Facebook"><span class="btn share icon-moon-facebook"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://twitter.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Twitter"><span class="btn share icon-moon-twitter"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://www.instagram.com/cbssports" target="_blank" rel="nofollow" om-event="Brand Bar|Instagram"><span class="btn share icon-moon-instagram"></span></a> </li>
+		<li class="nav-follow-us-item"> <a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" target="_blank" rel="nofollow" om-event="Brand Bar|Flipboard"><span class="btn share icon-moon-flipboard"></span></a> </li>
+	  </ul>
+	</div>
+	<div id="cbs-site-nav" class="cbs-site-nav">
+		<div class="site-nav-inner">
+			<div class="site-nav-logo">
+				<div class="cbs-logo-lockup">
+					
+        
+        <div class="cbs-logo">
+            <a href="/" om-event="Arena Nav|Logo"> <span class="cbs-logo-icon icon-moon-cbs-icon"></span> </a>
+        </div>
+        
+            <div class="cbs-logo-section has-icon"><div class="cbs-logo-pos" data-arena="logo">
+                <span class="logo-sport icon-moon-arena-text-ncaafb"></span>
+                <span class="logo-icon icon-moon-caret-down"></span>
+            </div> <div class="cbs-logo-dropdown"><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-cbs-icon"></span> <a href="/" om-event="Arena Nav|NCAA FB|CBS Sports Home">CBS Sports Home</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-fantasy"></span> <a href="https://www.cbssports.com/fantasy/" om-event="Arena Nav|NCAA FB|Fantasy">Fantasy</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-nfl"></span> <a href="https://www.cbssports.com/nfl/" om-event="Arena Nav|NCAA FB|NFL">NFL</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-mlb"></span> <a href="https://www.cbssports.com/mlb/" om-event="Arena Nav|NCAA FB|MLB">MLB</a> </li><li class="nav-dropdown-item is-selected"> <span class="icon-sport icon-moon-arena-ncaafb"></span> <a href="https://www.cbssports.com/college-football/" om-event="Arena Nav|NCAA FB|NCAA FB">NCAA FB</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-golf"></span> <a href="https://www.cbssports.com/golf/" om-event="Arena Nav|NCAA FB|Golf">Golf</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-basketball"></span> <a href="https://www.cbssports.com/nba/" om-event="Arena Nav|NCAA FB|NBA">NBA</a> </li><li class="nav-dropdown-item"> <span class="icon-sport icon-moon-arena-nhl"></span> <a href="https://www.cbssports.com/nhl/" om-event="Arena Nav|NCAA FB|NHL">NHL</a> </li></ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/college-basketball/" om-event="Arena Nav|NCAA FB|NCAA BB">NCAA BB</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/boxing" om-event="Arena Nav|NCAA FB|Boxing">Boxing</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/wwe/" om-event="Arena Nav|NCAA FB|WWE">WWE</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/soccer/" om-event="Arena Nav|NCAA FB|Soccer">Soccer</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/mma/" om-event="Arena Nav|NCAA FB|MMA">MMA</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/tennis/" om-event="Arena Nav|NCAA FB|Tennis">Tennis</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.cbssports.com/olympics/" om-event="Arena Nav|NCAA FB|Olympics">Olympics</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.maxpreps.com/national/national.htm" om-event="Arena Nav|NCAA FB|High School" target="_blank" class="external-link" rel="nofollow">High School</a> </li></ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item"> <span class=""></span> <a href="http://sports.cbslocal.com/" om-event="Arena Nav|NCAA FB|CBS Local Sites" target="_blank" class="external-link" rel="nofollow">CBS Local Sites</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.nascar.com/en_us/sprint-cup-series.html?cid=syn_cbs_referrers_navlinks_01112013&synid=syn_cbs_referrers_navlinks_01112013" om-event="Arena Nav|NCAA FB|NASCAR" target="_blank" class="external-link" rel="nofollow">NASCAR</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.americasbestracing.net/" om-event="Arena Nav|NCAA FB|Horse Racing" target="_blank" class="external-link" rel="nofollow">Horse Racing</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.pbr.com/" om-event="Arena Nav|NCAA FB|PBR" target="_blank" class="external-link" rel="nofollow">PBR</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://toughmudder.com/" om-event="Arena Nav|NCAA FB|Tough Mudder" target="_blank" class="external-link" rel="nofollow">Tough Mudder</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="http://www.bowl.com/" om-event="Arena Nav|NCAA FB|Bowling" target="_blank" class="external-link" rel="nofollow">Bowling</a> </li><li class="nav-dropdown-item"> <span class=""></span> <a href="https://www.stubhub.com/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHomepagemodule-_-partCBSSports" om-event="Arena Nav|NCAA FB|Tickets" target="_blank" class="external-link" rel="nofollow">Tickets</a> </li></ul></div> </div></div></div>
+        
+        <nav class="site-nav-list">
+            <ul><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/college-football/"  om-event="Arena Nav|NCAA FB|Home">Home</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/college-football/scoreboard/"  om-event="Arena Nav|NCAA FB|Scores">Scores</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/collegefootball/rankings"  om-event="Arena Nav|NCAA FB|Rankings">Rankings</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/collegefootball/standings"  om-event="Arena Nav|NCAA FB|Standings">Standings</a></li><li class="nav-list-item nav-list-item-flow"> <a href="https://www.cbssports.com/collegefootball/teams"  om-event="Arena Nav|NCAA FB|Teams">Teams</a></li>
+                        <li class="nav-list-item hoverable the-dots" data-arena="extras">
+                            <span class="icon-more icon-moon-nav-more"></span>
+                            <div class="site-nav-dropdown is-wide">
+                                <ul class="nav-dropdown-col"><li class="nav-dropdown-item nav-dropdown-overflow is-selected"> <a href="https://www.cbssports.com/collegefootball/stats"  om-event="Arena Nav|NCAA FB|More|Stats">Stats</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/collegefootball/schedules"  om-event="Arena Nav|NCAA FB|More|Schedule">Schedule</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/collegefootball/features/writers/expert/picks"  om-event="Arena Nav|NCAA FB|More|Expert Picks">Expert Picks</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="http://www.sportsline.com/college-football/odds/"  om-event="Arena Nav|NCAA FB|More|Odds">Odds</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/collegefootball/bowls/predictions"  om-event="Arena Nav|NCAA FB|More|Bowl Projections">Bowl Projections</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/college-football/sec-live/"  om-event="Arena Nav|NCAA FB|More|SEC Live">SEC Live</a></li></ul><ul class="nav-dropdown-col"><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/collegefootball/conferences/"  om-event="Arena Nav|NCAA FB|More|Conferences">Conferences</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="http://247sports.com/Season/2018-Football/CompositeRecruitRankings?InstitutionGroup=HighSchool" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|NCAA FB|More|Top Recruits">Top Recruits</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="http://247sports.com/Season/2018-Football/CompositeTeamRankings" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|NCAA FB|More|Top Classes">Top Classes</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.cbssports.com/podcasts/247sports-college-football/"  om-event="Arena Nav|NCAA FB|More|247Sports Podcast">247Sports Podcast</a></li><li class="nav-dropdown-item nav-dropdown-overflow"> <a href="https://www.stubhub.com/ncaa-football-tickets/grouping/122/?gcid=chAFF-_-geoUS-_-genAllTix-_-dt170502-_-cmpHpdropdown-_-partCBSSports" target="_blank" rel="nofollow" class="external-link" om-event="Arena Nav|NCAA FB|More|Tickets">Tickets</a></li></ul></div></li></ul>
+        </nav>
+			<div class="site-nav-side not-logged-in">
+				<ul class="site-nav-side-inner">
+					<li class="nav-side-item games-item hoverable" data-arena="play"> <span class="narrow-text">Play</span> <span class="narrow-icon icon-item icon-moon-nav-games"></span>
+					    <div class="site-nav-dropdown is-dropdown-games align-right">
+							<div class="nav-dropdown-inner">
+								
+        <div class="nav-dropdown-game">
+            <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/football/?ttag=FFB16_os_drpdwn_feat_lk" om-event="Global Nav|Home|Play|Games|Text">Games</a></h6>
+            <div class="nav-game-wrap">
+                <div class="nav-game game-left">
+                    <div class="nav-game-image">
+                        <a href="https://www.cbssports.com/fantasy/games/basketball/?ftag=SPM-10-10abh6c" om-event="Global Nav|Home|Play|FANTASY BASKETBALL|Feature 1"><img src="https://sportshub.cbsistatic.com/i/2017/09/18/1b7c71c4-dc55-4636-a4b3-1dc245e2ea93/fantasybasketball-180x100.jpg" alt="fantasybasketball-180x100.jpg"></a>
+                        <p class="nav-game-text">Play Now</p>
+                    </div>
+                    <p class="nav-game-title"><a href="https://www.cbssports.com/fantasy/games/basketball/?ftag=SPM-10-10abh6c" om-event="Global Nav|Home|Play|FANTASY BASKETBALL|Feature 1">FANTASY BASKETBALL</a></p>
+                </div>
+                <div class="nav-game game-right">
+                    <div class="nav-game-image">
+                        <a href="https://www.cbssports.com/fantasy/games/hockey/?ftag=SPM-16-10abg0g" om-event="Global Nav|Home|Play|FANTASY HOCKEY|Feature 2"><img src="https://sportshub.cbsistatic.com/i/2017/09/18/7423042f-ba35-4a00-a58f-4334c8ae7b8f/180x100.jpg" alt="180x100.jpg"></a>
+                        <p class="nav-game-text">Play Now</p>
+                    </div>
+                    <p class="nav-game-title"><a href="https://www.cbssports.com/fantasy/games/hockey/?ftag=SPM-16-10abg0g" om-event="Global Nav|Home|Play|FANTASY HOCKEY|Feature 2">FANTASY HOCKEY</a></p>
+                </div>
+            </div>
+            <div class="nav-game-dropdown-text" style="clear:both;">
+                <a href="https://www.cbssports.com/fantasy/games/my-teams/" om-event="Global Nav|Home|Play|View your Leagues|Text">View your Leagues</a>
+            </div>
+        </div>
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/football?ttag=FF16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Football|Text">Fantasy Football</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/baseball/?ttag=FBB16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Baseball|Text">Fantasy Baseball</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/basketball/?ttag=FBK16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Basketball|Text">Fantasy Basketball</a></h6>
+            </div>
+        
+            <div class="nav-dropdown-game">
+                <h6 class="nav-dropdown-title"><a href="https://www.cbssports.com/fantasy/games/hockey/?ttag=FHK16_os_drpdwn_lk" om-event="Global Nav|Home|Play|Fantasy Hockey|Text">Fantasy Hockey</a></h6>
+            </div>
+        
+    </div>
+    <div class="nav-dropdown-bottom">
+        <div class="nav-dropdown-button">
+            <a href="/fantasy/games/" om-event="Global Nav|Home|Play|See All">See All Sports Games</a>
+        </div>
+    </div>
+    
+							</div>
+						</div>
+					</li>
+					<li class="nav-side-item watch-item hoverable" data-arena="watch"> <span class="narrow-text">Watch</span> <span class="narrow-icon icon-item icon-moon-nav-watch"></span>
+						<div class="site-nav-dropdown align-right">
+							<div class="nav-dropdown-inner">
+								
+               <h6 class="nav-dropdown-title"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/" om-event="Global Nav|CollegeFootball|Watch|Featured Video|Text">Latest from CBS Sports Network </a></h6>
+               <div class="nav-dropdown-top">
+                    <a href="https://www.cbssports.com/watch/cbssportsnetwork/">
+                        <div class="image-icon-overlay-wrap">
+                            <figure class="img"><img src="https://sportshub.cbsistatic.com/i/2017/03/27/4a8a0cfb-8794-4c57-8cfd-53cc0ba8c2cd/sizzle-graphic.jpg" alt="sizzle_graphic" height="152" width="270"></figure>
+                        </div>
+                        <a href="https://www.cbssports.com/watch/cbssportsnetwork/" class="vidPlayLg" alt="sizzle_graphic" om-event="Global Nav|CollegeFootball|Watch|Featured Video|Image"></a>
+                    </a>
+               </div>
+           <ul><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/"  om-event="Global Nav|CollegeFootball|Watch|Latest from CBS Sports Network">Latest from CBS Sports Network</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/watch/cbssportsnetwork/"  om-event="Global Nav|CollegeFootball|Watch|Watch CBS Sports Network">Watch CBS Sports Network</a> </li><li class="nav-dropdown-item"> <a href="http://www.cbssportsnetwork.com/" rel="nofollow" class="external-link" target="_blank"  om-event="Global Nav|CollegeFootball|Watch|CBSSN Channel Finder">CBSSN Channel Finder</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/cbssports"  om-event="Global Nav|CollegeFootball|Watch|TV Shows & Listings">TV Shows & Listings</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbs.com/all-access/live-tv/?ftag=AAM-00-10ade5c"  om-event="Global Nav|CollegeFootball|Watch|NFL on All Access">NFL on All Access</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/fantasy/football/show/fantasy-football-today/"  om-event="Global Nav|CollegeFootball|Watch|Fantasy Football Today">Fantasy Football Today</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/college-football/sec-live/"  om-event="Global Nav|CollegeFootball|Watch|SEC Live">SEC Live</a> </li><li class="nav-dropdown-item"> <a href="http://www.collegesportslive.com/start/?ftag=CSL-01-10aaa6f"  om-event="Global Nav|CollegeFootball|Watch|College Sports Live">College Sports Live</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/video/show/the-score/"  om-event="Global Nav|CollegeFootball|Watch|The Score">The Score</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/video/player/247-sports-live"  om-event="Global Nav|CollegeFootball|Watch|247Sports Live">247Sports Live</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/show/reiters-block/"  om-event="Global Nav|CollegeFootball|Watch|Reiter's Block">Reiter's Block</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/general/video/show/minute-update/"  om-event="Global Nav|CollegeFootball|Watch|Sports Minute">Sports Minute</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/videos/"  om-event="Global Nav|CollegeFootball|Watch|All Videos">All Videos</a> </li></ul>
+							</div>
+						</div>
+					</li>
+					<li class="nav-side-item hoverable" data-arena="listen"> <span class="narrow-text">Listen</span> <span class="narrow-icon icon-item icon-moon-nav-listen"></span>
+						<div class="site-nav-dropdown align-right">
+							<div class="nav-dropdown-inner">
+								
+                <h6 class="nav-dropdown-title"> CBS Sports Radio </h6>
+                <div class="nav-dropdown-top">
+                  <div class="nav-dropdown-image"> <a href="http://radio.cbssports.com/" rel="nofollow" target="_blank" om-event="Global Nav|CollegeFootball|Listen|Featured Podcast|Image"><img src="https://sportshub.cbsistatic.com/i/2016/02/24/fb0619ed-f59a-47ac-ac37-d7f670af79f3/cbssports-radio.png" alt="CBSSPORTS-radio"></a> </div>
+                  <div class="nav-dropdown-top-side">
+                    <p class="nav-dropdown-top-title"> <a href="http://radio.cbssports.com/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|CollegeFootball|Listen|Featured Podcast|Text"> Listen Live </a> </p>
+                    <time class="nav-dropdown-top-date">  </time>
+                  </div>
+                </div>
+            
+                <h6 class="nav-dropdown-title"> Fantasy Football Today </h6>
+                <div class="nav-dropdown-top">
+                  <div class="nav-dropdown-image"> <a href="https://soundcloud.com/cbssportspodcasts/waiver-wire-4" rel="nofollow" target="_blank" om-event="Global Nav|CollegeFootball|Listen|Featured Podcast|Image"><img src="https://sportshub.cbsistatic.com/i/2017/06/20/bea1c43d-f08f-480e-8ad9-e93ad015bcc1/podcast-fantasyfootball-logo.jpg" alt="Podcast: Fantasy Football Today logo"></a> </div>
+                  <div class="nav-dropdown-top-side">
+                    <p class="nav-dropdown-top-title"> <a href="https://soundcloud.com/cbssportspodcasts/waiver-wire-4"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|CollegeFootball|Listen|Featured Podcast|Text"> Waiver Wire </a> </p>
+                    <time class="nav-dropdown-top-date"> 3h ago </time>
+                  </div>
+                </div>
+            <ul><li class="nav-dropdown-item"> <a href="http://sports.cbslocal.com/cbs-sports-radio-roundup/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|CollegeFootball|Listen|CBS Sports Radio Roundup">CBS Sports Radio Roundup</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/podcasts/jonah-keri/" om-event="Global Nav|CollegeFootball|Listen|The Jonah Keri Podcast">The Jonah Keri Podcast</a> </li><li class="nav-dropdown-item"> <a href="https://www.cbssports.com/podcast" om-event="Global Nav|CollegeFootball|Listen|Podcasts">Podcasts</a> </li><li class="nav-dropdown-item"> <a href="http://jimrome.com/"  class="external-link" rel="nofollow" target="_blank" om-event="Global Nav|CollegeFootball|Listen|The Jim Rome Show">The Jim Rome Show</a> </li></ul>
+							</div>
+						</div>
+					</li>
+					
+            <li class="nav-side-item log-in-item"> 
+                <span class="log-in-buttons"> 
+                    <a href="https://www.cbssports.com/login?master_product=150&xurl=https%3A%2F%2Fwww.cbssports.com%2Fcollegefootball%2Fstats" class="log-in-button" om-event="Global Nav|CollegeFootball|Log In"> <span class="the-button">Log In</span> </a> 
+                </span> 
+            </li>        
+        
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+<script type="text/javascript">
+ $(document).ready(function() {
+	var touchedNow;  			// Track which was just tapped now
+	var touchedLast  = 'none'; // Track which was last opened
+	var navItems 	 = $('.nav-list-item.hoverable, .nav-side-item.hoverable, .cbs-logo-section');
+	var navButtons   = $('.nav-list-item.hoverable > a, .nav-list-item.hoverable .icon-more, .nav-side-item.hoverable  span, .logo-sport');
+
+	navButtons.on("touchstart", function (e) {
+		var ua = navigator.userAgent.toLowerCase();
+		var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+		if (isAndroid) {
+			myWebview.zoomIn();
+			myWebview.zoomOut();
+		}
+		e.preventDefault();
+
+		$('body').addClass('touch-enabled');
+		var touchedParent = $(this).parent();
+		touchedNow = touchedParent.data( "arena" ); // record which nav link was clicked.
+		navItems.removeClass('is-tapped'); // remove 'is-tapped' from all links
+		if (touchedNow === touchedLast) {
+			// console.log('THE SAME ', touchedNow, touchedLast);
+			$('body').addClass('touch-enabled');
+			touchedLast = 'none';
+		} else {
+			// console.log('DIFFERENT ', touchedNow, touchedLast);
+			$('body').removeClass('touch-enabled');
+			touchedLast = touchedParent.data( "arena" );
+		}
+	});
+});
+
+</script>
+
+
+<!--googleon: snippet-->
+<div id="mantle_skin">
+    <span id="adSkinLeft"></span>
+    <span id="adSkinRight"></span>
+    
+    <div id="skin_ad_call" style="max-height:1px !important">
+        <script type="text/javascript">
+        if (switchXFP != 'off') {
+            googletag.cmd.push(function() {
+                if (typeof index_headertag_lightspeed !== 'undefined') {
+                          var cb = (function () {
+                              return function () {
+                                  var slots = googletag.pubads().getSlots();
+                                  index_headertag_lightspeed.set_slot_targeting(slots);
+                                   googletag.display("skin_ad_call");
+                                };
+                          })();
+                          index_headertag_lightspeed.add_session_end_hook(cb, true);
+                          index_headertag_lightspeed.refresh();
+                      } else {
+                          googletag.display("skin_ad_call");
+                      }
+            });
+            if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="skin_ad_call" style="width:960px"><br>').insertBefore('#skin_ad_call');
+        }
+        </script>
+    </div>
+    
+    
+            <div id="leaderboard-wrap" align="center" style="min-height:66px; height: auto;">
+                <div id="leader_top" style="padding-top: 10px;">
+                    <script type="text/javascript">
+                    if (switchXFP != 'off') {
+                        googletag.cmd.push(function() {
+                            if (typeof index_headertag_lightspeed !== 'undefined') {
+                                      var cb = (function () {
+                                          return function () {
+                                              var slots = googletag.pubads().getSlots();
+                                              index_headertag_lightspeed.set_slot_targeting(slots);
+                                               googletag.display("leader_top");
+                                            };
+                                      })();
+                                      index_headertag_lightspeed.add_session_end_hook(cb, true);
+                                      index_headertag_lightspeed.refresh();
+                                  } else {
+                                      googletag.display("leader_top");
+                                  }
+                        });
+                        if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="leader_top" style="width:980px"><br>').insertBefore('#leader_top');
+                    }
+                    </script>
+                </div>
+            </div>
+            
+
+
+    
+    <div id="pageRow">
+    
+    <div id="pageContainer" section="layout;railRight">
+    <h1 class="pageTitle feature collegefootball">College Football Stats</h1>
+    
+        <div id="layoutRailRight">
+            <div class="column1">
+            <!-- Begin Content -->
+<div class="spacer10">&nbsp;</div>
+
+<!-- League Leaders -->
+<script type="text/javascript" language="JavaScript1.1">	
+function goToPage(f) {
+var fileName = '';
+var category = '';
+var league_type = '';
+for (var i = 0; i < f.elements.length; i++) { 
+    if (f.elements[i].checked && f.elements[i].value.indexOf(' Find ')<0) {
+        if (f.elements[i].name == 'category') {
+            category = f.elements[i].value;
+        }
+    } 
+}
+
+var league_type = f.league_type.value;
+fileName = league_type + "/" + category + "/regularseason";
+var url = "/collegefootball/stats/" + f.component.value  +"/" + fileName ;
+window.location = url;
+return false;
+} 
+//-->
+</script>
+
+<div class="tableTitle">FBS Yardage Leaders</div>
+<table class="multiColumn" width="100%"><tbody><tr valign="top">
+<td width="32%"><table class="data" width="100%" ><tr class="label"><td colspan="2">Passing yards</td></tr><tr class="row1"  align="right"><td  align="left" width="80%"><a href="/collegefootball/players/playerpage/2180347/josh-rosen"><img src="https://sports.cbsimg.net//images/collegefootball/players/60x80/2180347.jpg" height=80 width=60 border=0 style="float:left;" class="mRight10"></a><a href="/collegefootball/players/playerpage/2180347/josh-rosen">Josh Rosen</a><br><a href="/collegefootball/teams/stats/UCLA/ucla-bruins">UCLA</a><div class="mTop10">Passing yards:<b>2135</b></div></td><td  align="right"> </td></tr><tr class="row2"  align="right"><td  align="left" width="80%">2. <a href="/collegefootball/players/playerpage/2136610/tyler-rogers">Tyler Rogers</a>, <a href="/collegefootball/teams/stats/NMEXST/new-mexico-state-aggies">NMEXST</a></td><td  align="right">2113</td></tr><tr class="row1"  align="right"><td  align="left" width="80%">3. <a href="/collegefootball/players/playerpage/2079725/luke-falk">Luke Falk</a>, <a href="/collegefootball/teams/stats/WASHST/washington-state-cougars">WASHST</a></td><td  align="right">2000</td></tr><tr class="row2"  align="right"><td  align="left" width="80%">4. <a href="/collegefootball/players/playerpage/2181169/lamar-jackson">Lamar Jackson</a>, <a href="/collegefootball/teams/stats/LVILLE/louisville-cardinals">LVILLE</a></td><td  align="right">1990</td></tr><tr class="row1"  align="right"><td  align="left" width="80%">5. <a href="/collegefootball/players/playerpage/2131167/mason-rudolph">Mason Rudolph</a>, <a href="/collegefootball/teams/stats/OKLAST/oklahoma-state-cowboys">OKLAST</a></td><td  align="right">1909</td></tr><tr class="footer"><td colspan="2"><a href="/collegefootball/stats/leaders/NCAAF/PYDS/regularseason">Complete Leaders</a></td></tr></table><div class="spacer10">&nbsp;</div></td>
+<td width="2%">&nbsp;</td>
+<td width="32%"><table class="data" width="100%" ><tr class="label"><td colspan="2">Receiving yards</td></tr><tr class="row1"  align="right"><td  align="left" width="80%"><a href="/collegefootball/players/playerpage/2139146/steve-ishmael"><img src="https://sports.cbsimg.net/images/players/unknown_player.gif" height=80 width=60 border=0 style="float:left;" class="mRight10"></a><a href="/collegefootball/players/playerpage/2139146/steve-ishmael">Steve Ishmael</a><br><a href="/collegefootball/teams/stats/CUSE/syracuse-orange">CUSE</a><div class="mTop10">Receiving yards:<b>729</b></div></td><td  align="right"> </td></tr><tr class="row2"  align="right"><td  align="left" width="80%">2. <a href="/collegefootball/players/playerpage/2240415/michael-gallup">Michael Gallup</a>, <a href="/collegefootball/teams/stats/COLOST/colorado-state-rams">COLOST</a></td><td  align="right">685</td></tr><tr class="row1"  align="right"><td  align="left" width="80%">3. <a href="/collegefootball/players/playerpage/2189188/john-ursua">John Ursua</a>, <a href="/collegefootball/teams/stats/HAWAII/hawaii-rainbow-warriors">HAWAII</a></td><td  align="right">653</td></tr><tr class="row2"  align="right"><td  align="left" width="80%">4. <a href="/collegefootball/players/playerpage/2146188/james-washington">James Washington</a>, <a href="/collegefootball/teams/stats/OKLAST/oklahoma-state-cowboys">OKLAST</a></td><td  align="right">647</td></tr><tr class="row1"  align="right"><td  align="left" width="80%">5. <a href="/collegefootball/players/playerpage/2258536/anthony-johnson">Anthony Johnson</a>, <a href="/collegefootball/teams/stats/BUFF/buffalo-bulls">BUFF</a></td><td  align="right">631</td></tr><tr class="footer"><td colspan="2"><a href="/collegefootball/stats/leaders/NCAAF/RECYDS/regularseason">Complete Leaders</a></td></tr></table><div class="spacer10">&nbsp;</div></td>
+<td width="2%">&nbsp;</td>
+<td width="32%"><table class="data" width="100%" ><tr class="label"><td colspan="2">Rushing yards</td></tr><tr class="row1"  align="right"><td  align="left" width="80%"><a href="/collegefootball/players/playerpage/2186835/bryce-love"><img src="https://sports.cbsimg.net//images/collegefootball/players/60x80/2186835.jpg" height=80 width=60 border=0 style="float:left;" class="mRight10"></a><a href="/collegefootball/players/playerpage/2186835/bryce-love">Bryce Love</a><br><a href="/collegefootball/teams/stats/STNFRD/stanford-cardinal">STNFRD</a><div class="mTop10">Rushing yards:<b>1240</b></div></td><td  align="right"> </td></tr><tr class="row2"  align="right"><td  align="left" width="80%">2. <a href="/collegefootball/players/playerpage/2144893/rashaad-penny">Rashaad Penny</a>, <a href="/collegefootball/teams/stats/SDGST/san-diego-state-aztecs">SDGST</a></td><td  align="right">993</td></tr><tr class="row1"  align="right"><td  align="left" width="80%">3. <a href="/collegefootball/players/playerpage/2080108/diocemy-saint-juste">Diocemy Saint Juste</a>, <a href="/collegefootball/teams/stats/HAWAII/hawaii-rainbow-warriors">HAWAII</a></td><td  align="right">892</td></tr><tr class="row2"  align="right"><td  align="left" width="80%">4. <a href="/collegefootball/players/playerpage/2185748/zach-abey">Zach Abey</a>, <a href="/collegefootball/teams/stats/NAVY/navy-midshipmen">NAVY</a></td><td  align="right">870</td></tr><tr class="row1"  align="right"><td  align="left" width="80%">5. <a href="/collegefootball/players/playerpage/2079084/phillip-lindsay">Phillip Lindsay</a>, <a href="/collegefootball/teams/stats/COLO/colorado-buffaloes">COLO</a></td><td  align="right">810</td></tr><tr class="footer"><td colspan="2"><a href="/collegefootball/stats/leaders/NCAAF/RYDS/regularseason">Complete Leaders</a></td></tr></table><div class="spacer10">&nbsp;</div></td>
+</tr></tbody></table>
+
+<div class="spacer10">&nbsp;</div>
+<div class="tableTitle">FBS Touchdown Leaders</div>
+<table class="multiColumn" width="100%"><tbody><tr valign="top">
+<td width="32%"><table class="data" width="100%" ><tr class="label"><td colspan="2">Passing touchdowns</td></tr><tr class="row1"  align="right"><td  align="left" width="80%"><a href="/collegefootball/players/playerpage/2079725/luke-falk"><img src="https://sports.cbsimg.net//images/collegefootball/players/60x80/2079725.jpg" height=80 width=60 border=0 style="float:left;" class="mRight10"></a><a href="/collegefootball/players/playerpage/2079725/luke-falk">Luke Falk</a><br><a href="/collegefootball/teams/stats/WASHST/washington-state-cougars">WASHST</a><div class="mTop10">Passing touchdowns:<b>19</b></div></td><td  align="right"> </td></tr><tr class="row2"  align="right"><td  align="left" width="80%">2. <a href="/collegefootball/players/playerpage/2180347/josh-rosen">Josh Rosen</a>, <a href="/collegefootball/teams/stats/UCLA/ucla-bruins">UCLA</a></td><td  align="right">17</td></tr><tr class="row1"  align="right"><td  align="left" width="80%">3. <a href="/collegefootball/players/playerpage/2136610/tyler-rogers">Tyler Rogers</a>, <a href="/collegefootball/teams/stats/NMEXST/new-mexico-state-aggies">NMEXST</a></td><td  align="right">16</td></tr><tr class="row2"  align="right"><td  align="left" width="80%">4. <a href="/collegefootball/players/playerpage/2131167/mason-rudolph">Mason Rudolph</a>, <a href="/collegefootball/teams/stats/OKLAST/oklahoma-state-cowboys">OKLAST</a></td><td  align="right">16</td></tr><tr class="row1"  align="right"><td  align="left" width="80%">5. <a href="/collegefootball/players/playerpage/2131571/will-grier">Will Grier</a>, <a href="/collegefootball/teams/stats/WVU/west-virginia-mountaineers">WVU</a></td><td  align="right">16</td></tr><tr class="footer"><td colspan="2"><a href="/collegefootball/stats/leaders/NCAAF/PTDS/regularseason">Complete Leaders</a></td></tr></table><div class="spacer10">&nbsp;</div></td>
+<td width="2%">&nbsp;</td>
+<td width="32%"><table class="data" width="100%" ><tr class="label"><td colspan="2">Receiving touchdowns</td></tr><tr class="row1"  align="right"><td  align="left" width="80%"><a href="/collegefootball/players/playerpage/2179491/david-sills-v"><img src="https://sports.cbsimg.net//images/collegefootball/players/60x80/2179491.jpg" height=80 width=60 border=0 style="float:left;" class="mRight10"></a><a href="/collegefootball/players/playerpage/2179491/david-sills-v">David Sills V</a><br><a href="/collegefootball/teams/stats/WVU/west-virginia-mountaineers">WVU</a><div class="mTop10">Receiving touchdowns:<b>9</b></div></td><td  align="right"> </td></tr><tr class="row2"  align="right"><td  align="left" width="80%">2. <a href="/collegefootball/players/playerpage/2079664/darren-andrews">Darren Andrews</a>, <a href="/collegefootball/teams/stats/UCLA/ucla-bruins">UCLA</a></td><td  align="right">7</td></tr><tr class="row1"  align="right"><td  align="left" width="80%">3. <a href="/collegefootball/players/playerpage/2253076/denzel-mims">Denzel Mims</a>, <a href="/collegefootball/teams/stats/BAYLOR/baylor-bears">BAYLOR</a></td><td  align="right">7</td></tr><tr class="row2"  align="right"><td  align="left" width="80%">4. <a href="/collegefootball/players/playerpage/2082810/anthony-miller">Anthony Miller</a>, <a href="/collegefootball/teams/stats/MEMP/memphis-tigers">MEMP</a></td><td  align="right">7</td></tr><tr class="row1"  align="right"><td  align="left" width="80%">5. <a href="/collegefootball/players/playerpage/2218461/courtland-sutton">Courtland Sutton</a>, <a href="/collegefootball/teams/stats/SMU/southern-methodist-mustangs">SMU</a></td><td  align="right">7</td></tr><tr class="footer"><td colspan="2"><a href="/collegefootball/stats/leaders/NCAAF/RECTDS/regularseason">Complete Leaders</a></td></tr></table><div class="spacer10">&nbsp;</div></td>
+<td width="2%">&nbsp;</td>
+<td width="32%"><table class="data" width="100%" ><tr class="label"><td colspan="2">Rushing touchdowns</td></tr><tr class="row1"  align="right"><td  align="left" width="80%"><a href="/collegefootball/players/playerpage/2183973/kerryon-johnson"><img src="https://sports.cbsimg.net//images/collegefootball/players/60x80/2183973.jpg" height=80 width=60 border=0 style="float:left;" class="mRight10"></a><a href="/collegefootball/players/playerpage/2183973/kerryon-johnson">Kerryon Johnson</a><br><a href="/collegefootball/teams/stats/AUBURN/auburn-tigers">AUBURN</a><div class="mTop10">Rushing touchdowns:<b>12</b></div></td><td  align="right"> </td></tr><tr class="row2"  align="right"><td  align="left" width="80%">2. <a href="/collegefootball/players/playerpage/2241251/devin-singletary">Devin Singletary</a>, <a href="/collegefootball/teams/stats/FAU/florida-atlantic-owls">FAU</a></td><td  align="right">11</td></tr><tr class="row1"  align="right"><td  align="left" width="80%">3. <a href="/collegefootball/players/playerpage/2139588/royce-freeman">Royce Freeman</a>, <a href="/collegefootball/teams/stats/OREG/oregon-ducks">OREG</a></td><td  align="right">10</td></tr><tr class="row2"  align="right"><td  align="left" width="80%">4. <a href="/collegefootball/players/playerpage/2186835/bryce-love">Bryce Love</a>, <a href="/collegefootball/teams/stats/STNFRD/stanford-cardinal">STNFRD</a></td><td  align="right">9</td></tr><tr class="row1"  align="right"><td  align="left" width="80%">5. <a href="/collegefootball/players/playerpage/2144893/rashaad-penny">Rashaad Penny</a>, <a href="/collegefootball/teams/stats/SDGST/san-diego-state-aztecs">SDGST</a></td><td  align="right">9</td></tr><tr class="footer"><td colspan="2"><a href="/collegefootball/stats/leaders/NCAAF/RTDS/regularseason">Complete Leaders</a></td></tr></table><div class="spacer10">&nbsp;</div></td>
+</tr></tbody></table>
+
+<div class="spacer10">&nbsp;</div>
+<table class="data" width="100%">
+<tr class="title"><td colspan="3">Other Leaders</td></tr>
+<tr class="row1"><td><a href="/collegefootball/stats/leaders/NCAAF/FGMADE">Field Goals Made</a></td><td><a href="/collegefootball/stats/leaders/NCAAF/FGPCT">Field Goals %</a></td><td><a href="/collegefootball/stats/leaders/NCAAF/INT">Interceptions</a></td></tr>
+<tr class="row1"><td><a href="/collegefootball/stats/leaders/NCAAF/KICKRETAVG">Kick Return Average</a></td><td><a href="/collegefootball/stats/leaders/NCAAF/KICKRETYDS">Kick Return Yards</a></td><td><a href="/collegefootball/stats/leaders/NCAAF/PCMP">Pass Completions</a></td></tr>
+<tr class="row1"><td><a href="/collegefootball/stats/leaders/NCAAF/PTS">Points</a></td><td><a href="/collegefootball/stats/leaders/NCAAF/PUNTRETAVG">Punt Return Average</a></td><td><a href="/collegefootball/stats/leaders/NCAAF/PUNTRETYDS">Punt Return Yards</a></td></tr>
+<tr class="row1"><td><a href="/collegefootball/stats/leaders/NCAAF/PUNTAVG">Punt Average</a></td><td><a href="/collegefootball/stats/leaders/NCAAF/RAVG">Rushing Average</a></td><td><a href="/collegefootball/stats/leaders/NCAAF/TTDS">Total Touchdowns</a></td></tr>
+</table>
+
+<table class="data" width="100%">
+<tr class="title"><td colspan="3">Sortable Team Stats</td></tr>
+<tr class="subtitle"><td colspan="3">Passing</td></tr>
+<tr class="row1"><td><a href="/collegefootball/stats/teamsort/NCAAF/PASSING?_1:col_1=4">Attempts</a></td><td><a href="/collegefootball/stats/teamsort/NCAAF/PASSING?_1:col_1=5">Attempts Per Game</a></td><td><a href="/collegefootball/stats/teamsort/NCAAF/PASSING?_1:col_1=6">Completions</a></td></tr>
+<tr class="row1"><td><a href="/collegefootball/stats/teamsort/NCAAF/PASSING?_1:col_1=7">Completion Percentage</a></td><td><a href="/collegefootball/stats/teamsort/NCAAF/PASSING?_1:col_1=8">Yards</a></td><td><a href="/collegefootball/stats/teamsort/NCAAF/PASSING?_1:col_1=9">Yards Per Game</a></td></tr>
+<tr class="row1"><td><a href="/collegefootball/stats/teamsort/NCAAF/PASSING?_1:col_1=10">Yards Per Attempt</a></td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="subtitle"><td colspan="3">Rushing</td></tr>
+<tr class="row1"><td><a href="/collegefootball/stats/teamsort/NCAAF/RUSHING?_1:col_1=4">Attempts</a></td><td><a href="/collegefootball/stats/teamsort/NCAAF/RUSHING?_1:col_1=5">Yards</a></td><td><a href="/collegefootball/stats/teamsort/NCAAF/RUSHING?_1:col_1=6">Attempts Per Game</a></td></tr>
+<tr class="row1"><td><a href="/collegefootball/stats/teamsort/NCAAF/RUSHING?_1:col_1=7">Yards Average</a></td><td><a href="/collegefootball/stats/teamsort/NCAAF/RUSHING?_1:col_1=8">Yards Per Game</a></td><td>&nbsp;</td></tr>
+<tr class="subtitle"><td colspan="3">Other Stats</td></tr>
+<tr class="row1"><td><a href="/collegefootball/stats/teamsort/NCAAF/SCORING?_1:col_1=4">Total Points</a></td><td><a href="/collegefootball/stats/teamsort/NCAAF/SCORING?_1:col_1=5">Points Per Game</a></td><td><a href="/collegefootball/stats/teamsort/NCAAF/SCORING?_1:col_1=6">Total Yards Game</a></td></tr>
+<tr class="row1"><td><a href="/collegefootball/stats/teamsort/NCAAF/SCORING?_1:col_1=7">Yards Per Game</a></td><td><a href="/collegefootball/stats/teamsort/NCAAF/SCORING?_1:col_1=8">Total Plays</a></td><td><a href="/collegefootball/stats/teamsort/NCAAF/SCORING?_1:col_1=9">Yards Per Play</a></td></tr>
+<tr class="row1"><td><a href="/collegefootball/stats/teamsort/NCAAF/SCORING?_1:col_1=10">First Downs</a></td><td><a href="/collegefootball/stats/teamsort/NCAAF/SCORING?_1:col_1=11">First Downs Per Game</a></td><td>&nbsp;</td></tr>
+</table>
+
+<table class="data" width="100%">
+<tr class="title"><td colspan="3">Sortable Player Stats</td></tr>
+<tr class="row1"><td><a href="/collegefootball/stats/playersort/NCAAF/DEF">Defense</a></td><td><a href="/collegefootball/stats/playersort/NCAAF/K">Kickers</a></td><td><a href="/collegefootball/stats/playersort/NCAAF/P">Punting</a></td></tr>
+<tr class="row1"><td><a href="/collegefootball/stats/playersort/NCAAF/QB">Quarterbacks</a></td><td><a href="/collegefootball/stats/playersort/NCAAF/RB">Running Backs</a></td><td><a href="/collegefootball/stats/playersort/NCAAF/TE">Tight Ends</a></td></tr>
+<tr class="row1"><td><a href="/collegefootball/stats/playersort/NCAAF/WR">Wide Receivers</a></td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+
+<style type="text/css">
+	
+	table#teamSelect td {
+		vertical-align: top;
+	}
+	
+	table#teamSelect td#conference {
+		width: 25%;
+		padding-right: 0;
+	}
+	
+	table#teamSelect td ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		vertical-align: top;
+	}
+	
+	table#teamSelect td ul li a {
+		display: block;
+		padding: 2px;
+	}
+	
+	table#teamSelect td#team ul li a {
+		padding-left: 0;
+	}
+	
+	table#teamSelect td#conference ul li a {
+		background-image: url(https://sports.cbsimg.net/images/football/college/heir2.gif);
+		background-position: 95% center;
+		background-repeat: no-repeat;
+	}
+	
+	table#teamSelect td#conference ul li a:hover {
+		text-decoration: none;
+	}
+	
+	table#teamSelect td ul li a img {
+		float: right;
+	}
+	
+	table#teamSelect td#team {
+		padding-left: 0;
+	}
+	
+	table#teamSelect td#team div#teamWrapper {
+		position: relative;
+	}
+	
+	table#teamSelect td#team div#teamWrapper div {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: #F0F0F0;
+		min-height: 100%;
+		width: 100%;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+	
+	table#teamSelect td#team div#teamWrapper div ul li.division {
+		font-weight: 600;
+	}
+	
+	table#teamSelect td#team div#teamWrapper div ul {
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+		margin: 2px 10px 2px 5px;
+	}
+	
+</style>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#conference a').click(function(e) {
+		e.preventDefault();
+	});
+	
+	var tdHeight = $('#teamWrapper').closest('td').height();
+	$('#teamWrapper').height(tdHeight);
+	
+	$('#conference a').mouseover(function() {
+		$('#conference a').css('background-color', '');
+		$(this).css('background-color', '#F0F0F0');
+		$('#teamWrapper div').css('display', 'none');			
+		var idx = $('#conference a').index(this);
+		$('#teamWrapper div').eq(idx).show();
+	});
+	
+	$('#conference a').first().trigger('mouseover');
+});
+</script>
+    
+<table width="100%" class="data title" id="teamSelect">
+<tr class="title"><td colspan="2">Team Stats</td></tr>
+<tr class="row1"><td id="conference">
+    <ul><li><a href="#" conf="americanathletic">American Athletic</a></li><li><a href="#" conf="atlanticcoast">Atlantic Coast</a></li><li><a href="#" conf="bigten">Big Ten</a></li><li><a href="#" conf="big12">Big 12</a></li><li><a href="#" conf="conferenceusa">Conference USA</a></li><li><a href="#" conf="fbsindependents">FBS Independents</a></li><li><a href="#" conf="midamerican">Mid American</a></li><li><a href="#" conf="mountainwest">Mountain West</a></li><li><a href="#" conf="pacific12">Pacific 12</a></li><li><a href="#" conf="southeastern">Southeastern</a></li><li><a href="#" conf="sunbelt">Sun Belt</a></li></ul>
+</td>
+
+<td id="team">
+    <div id="teamWrapper">
+        <div><ul><li class="division">East</li><li><a href="/collegefootball/teams/stats/CINCY/cincinnati-bearcats">Cincinnati</a></li><li><a href="/collegefootball/teams/stats/UCONN/connecticut-huskies">Connecticut</a></li><li><a href="/collegefootball/teams/stats/ECU/east-carolina-pirates">East Carolina</a></li><li><a href="/collegefootball/teams/stats/SFLA/south-florida-bulls">South Florida</a></li><li><a href="/collegefootball/teams/stats/TEMPLE/temple-owls">Temple</a></li><li><a href="/collegefootball/teams/stats/UCF/ucf-knights">UCF</a></li></ul><ul><li class="division">West</li><li><a href="/collegefootball/teams/stats/HOU/houston-cougars">Houston</a></li><li><a href="/collegefootball/teams/stats/MEMP/memphis-tigers">Memphis</a></li><li><a href="/collegefootball/teams/stats/NAVY/navy-midshipmen">Navy</a></li><li><a href="/collegefootball/teams/stats/SMU/southern-methodist-mustangs">Southern Methodist</a></li><li><a href="/collegefootball/teams/stats/TULANE/tulane-green-wave">Tulane</a></li><li><a href="/collegefootball/teams/stats/TULSA/tulsa-golden-hurricane">Tulsa</a></li></ul></div><div><ul><li class="division">Atlantic</li><li><a href="/collegefootball/teams/stats/BC/boston-college-eagles">Boston College</a></li><li><a href="/collegefootball/teams/stats/CLEM/clemson-tigers">Clemson</a></li><li><a href="/collegefootball/teams/stats/FSU/florida-state-seminoles">Florida State</a></li><li><a href="/collegefootball/teams/stats/LVILLE/louisville-cardinals">Louisville</a></li><li><a href="/collegefootball/teams/stats/NCST/nc-state-wolfpack">NC State</a></li><li><a href="/collegefootball/teams/stats/CUSE/syracuse-orange">Syracuse</a></li><li><a href="/collegefootball/teams/stats/WAKE/wake-forest-demon-deacons">Wake Forest</a></li></ul><ul><li class="division">Coastal</li><li><a href="/collegefootball/teams/stats/DUKE/duke-blue-devils">Duke</a></li><li><a href="/collegefootball/teams/stats/GATECH/georgia-tech-yellow-jackets">Georgia Tech</a></li><li><a href="/collegefootball/teams/stats/MIAMI/miami-fla-hurricanes">Miami (Fla.)</a></li><li><a href="/collegefootball/teams/stats/UNC/north-carolina-tar-heels">North Carolina</a></li><li><a href="/collegefootball/teams/stats/PITT/pittsburgh-panthers">Pittsburgh</a></li><li><a href="/collegefootball/teams/stats/UVA/virginia-cavaliers">Virginia</a></li><li><a href="/collegefootball/teams/stats/VATECH/virginia-tech-hokies">Virginia Tech</a></li></ul></div><div><ul><li class="division">East</li><li><a href="/collegefootball/teams/stats/IND/indiana-hoosiers">Indiana</a></li><li><a href="/collegefootball/teams/stats/MD/maryland-terrapins">Maryland</a></li><li><a href="/collegefootball/teams/stats/MICH/michigan-wolverines">Michigan</a></li><li><a href="/collegefootball/teams/stats/MICHST/michigan-state-spartans">Michigan State</a></li><li><a href="/collegefootball/teams/stats/OHIOST/ohio-state-buckeyes">Ohio State</a></li><li><a href="/collegefootball/teams/stats/PSU/penn-state-nittany-lions">Penn State</a></li><li><a href="/collegefootball/teams/stats/RUT/rutgers-scarlet-knights">Rutgers</a></li></ul><ul><li class="division">West</li><li><a href="/collegefootball/teams/stats/ILL/illinois-fighting-illini">Illinois</a></li><li><a href="/collegefootball/teams/stats/IOWA/iowa-hawkeyes">Iowa</a></li><li><a href="/collegefootball/teams/stats/MINN/minnesota-golden-gophers">Minnesota</a></li><li><a href="/collegefootball/teams/stats/NEB/nebraska-cornhuskers">Nebraska</a></li><li><a href="/collegefootball/teams/stats/NWEST/northwestern-wildcats">Northwestern</a></li><li><a href="/collegefootball/teams/stats/PURDUE/purdue-boilermakers">Purdue</a></li><li><a href="/collegefootball/teams/stats/WISC/wisconsin-badgers">Wisconsin</a></li></ul></div><div><ul><li><a href="/collegefootball/teams/stats/BAYLOR/baylor-bears">Baylor</a></li><li><a href="/collegefootball/teams/stats/IOWAST/iowa-state-cyclones">Iowa State</a></li><li><a href="/collegefootball/teams/stats/KANSAS/kansas-jayhawks">Kansas</a></li><li><a href="/collegefootball/teams/stats/KSTATE/kansas-state-wildcats">Kansas State</a></li><li><a href="/collegefootball/teams/stats/OKLA/oklahoma-sooners">Oklahoma</a></li><li><a href="/collegefootball/teams/stats/OKLAST/oklahoma-state-cowboys">Oklahoma State</a></li><li><a href="/collegefootball/teams/stats/TCU/tcu-horned-frogs">TCU</a></li><li><a href="/collegefootball/teams/stats/TEXAS/texas-longhorns">Texas</a></li><li><a href="/collegefootball/teams/stats/TXTECH/texas-tech-red-raiders">Texas Tech</a></li><li><a href="/collegefootball/teams/stats/WVU/west-virginia-mountaineers">West Virginia</a></li></ul></div><div><ul><li class="division">East</li><li><a href="/collegefootball/teams/stats/CHARLO/charlotte-49ers">Charlotte</a></li><li><a href="/collegefootball/teams/stats/FAU/florida-atlantic-owls">Florida Atlantic</a></li><li><a href="/collegefootball/teams/stats/FIU/florida-international-golden-panthers">Florida International</a></li><li><a href="/collegefootball/teams/stats/MRSHL/marshall-thundering-herd">Marshall</a></li><li><a href="/collegefootball/teams/stats/MTSU/middle-tennessee-blue-raiders">Middle Tennessee</a></li><li><a href="/collegefootball/teams/stats/ODU/old-dominion-monarchs">Old Dominion</a></li><li><a href="/collegefootball/teams/stats/WKY/western-kentucky-hilltoppers">Western Kentucky</a></li></ul><ul><li class="division">West</li><li><a href="/collegefootball/teams/stats/LATECH/louisiana-tech-bulldogs">Louisiana Tech</a></li><li><a href="/collegefootball/teams/stats/NTEXAS/north-texas-mean-green">North Texas</a></li><li><a href="/collegefootball/teams/stats/RICE/rice-owls">Rice</a></li><li><a href="/collegefootball/teams/stats/TXSA/utsa-roadrunners">UTSA</a></li><li><a href="/collegefootball/teams/stats/UAB/uab-blazers">UAB</a></li><li><a href="/collegefootball/teams/stats/USM/southern-mississippi-golden-eagles">Southern Mississippi</a></li><li><a href="/collegefootball/teams/stats/UTEP/texas-el-paso-miners">Texas-El Paso</a></li></ul></div><div><ul><li><a href="/collegefootball/teams/stats/ARMY/army-west-point-black-knights">Army West Point</a></li><li><a href="/collegefootball/teams/stats/BYU/brigham-young-cougars">Brigham Young</a></li><li><a href="/collegefootball/teams/stats/MA/massachusetts-minutemen">Massachusetts</a></li><li><a href="/collegefootball/teams/stats/ND/notre-dame-fighting-irish">Notre Dame</a></li></ul></div><div><ul><li class="division">East</li><li><a href="/collegefootball/teams/stats/AKRON/akron-zips">Akron</a></li><li><a href="/collegefootball/teams/stats/BGREEN/bowling-green-falcons">Bowling Green</a></li><li><a href="/collegefootball/teams/stats/BUFF/buffalo-bulls">Buffalo</a></li><li><a href="/collegefootball/teams/stats/KENTST/kent-state-golden-flashes">Kent State</a></li><li><a href="/collegefootball/teams/stats/MIAOH/miami-ohio-redhawks">Miami (Ohio)</a></li><li><a href="/collegefootball/teams/stats/OHIO/ohio-bobcats">Ohio</a></li></ul><ul><li class="division">West</li><li><a href="/collegefootball/teams/stats/BALLST/ball-state-cardinals">Ball State</a></li><li><a href="/collegefootball/teams/stats/CMICH/central-michigan-chippewas">Central Michigan</a></li><li><a href="/collegefootball/teams/stats/EMICH/eastern-michigan-eagles">Eastern Michigan</a></li><li><a href="/collegefootball/teams/stats/NILL/northern-illinois-huskies">Northern Illinois</a></li><li><a href="/collegefootball/teams/stats/TOLEDO/toledo-rockets">Toledo</a></li><li><a href="/collegefootball/teams/stats/WMICH/western-michigan-broncos">Western Michigan</a></li></ul></div><div><ul><li class="division">Mountain</li><li><a href="/collegefootball/teams/stats/AF/air-force-falcons">Air Force</a></li><li><a href="/collegefootball/teams/stats/BOISE/boise-state-broncos">Boise State</a></li><li><a href="/collegefootball/teams/stats/COLOST/colorado-state-rams">Colorado State</a></li><li><a href="/collegefootball/teams/stats/NMEX/new-mexico-lobos">New Mexico</a></li><li><a href="/collegefootball/teams/stats/UTAHST/utah-state-aggies">Utah State</a></li><li><a href="/collegefootball/teams/stats/WYO/wyoming-cowboys">Wyoming</a></li></ul><ul><li class="division">West</li><li><a href="/collegefootball/teams/stats/FRESNO/fresno-state-bulldogs">Fresno State</a></li><li><a href="/collegefootball/teams/stats/HAWAII/hawaii-rainbow-warriors">Hawaii</a></li><li><a href="/collegefootball/teams/stats/NEVADA/nevada-wolf-pack">Nevada</a></li><li><a href="/collegefootball/teams/stats/SDGST/san-diego-state-aztecs">San Diego State</a></li><li><a href="/collegefootball/teams/stats/SJST/san-jose-state-spartans">San Jose State</a></li><li><a href="/collegefootball/teams/stats/UNLV/unlv-rebels">UNLV</a></li></ul></div><div><ul><li class="division">North</li><li><a href="/collegefootball/teams/stats/CAL/california-golden-bears">California</a></li><li><a href="/collegefootball/teams/stats/OREG/oregon-ducks">Oregon</a></li><li><a href="/collegefootball/teams/stats/OREGST/oregon-state-beavers">Oregon State</a></li><li><a href="/collegefootball/teams/stats/STNFRD/stanford-cardinal">Stanford</a></li><li><a href="/collegefootball/teams/stats/WASH/washington-huskies">Washington</a></li><li><a href="/collegefootball/teams/stats/WASHST/washington-state-cougars">Washington State</a></li></ul><ul><li class="division">South</li><li><a href="/collegefootball/teams/stats/ARIZ/arizona-wildcats">Arizona</a></li><li><a href="/collegefootball/teams/stats/ARIZST/arizona-state-sun-devils">Arizona State</a></li><li><a href="/collegefootball/teams/stats/COLO/colorado-buffaloes">Colorado</a></li><li><a href="/collegefootball/teams/stats/USC/southern-california-trojans">Southern California</a></li><li><a href="/collegefootball/teams/stats/UCLA/ucla-bruins">UCLA</a></li><li><a href="/collegefootball/teams/stats/UTAH/utah-utes">Utah</a></li></ul></div><div><ul><li class="division">East</li><li><a href="/collegefootball/teams/stats/FLA/florida-gators">Florida</a></li><li><a href="/collegefootball/teams/stats/UGA/georgia-bulldogs">Georgia</a></li><li><a href="/collegefootball/teams/stats/UK/kentucky-wildcats">Kentucky</a></li><li><a href="/collegefootball/teams/stats/MIZZOU/missouri-tigers">Missouri</a></li><li><a href="/collegefootball/teams/stats/SC/south-carolina-gamecocks">South Carolina</a></li><li><a href="/collegefootball/teams/stats/TENN/tennessee-volunteers">Tennessee</a></li><li><a href="/collegefootball/teams/stats/VANDY/vanderbilt-commodores">Vanderbilt</a></li></ul><ul><li class="division">West</li><li><a href="/collegefootball/teams/stats/BAMA/alabama-crimson-tide">Alabama</a></li><li><a href="/collegefootball/teams/stats/ARK/arkansas-razorbacks">Arkansas</a></li><li><a href="/collegefootball/teams/stats/AUBURN/auburn-tigers">Auburn</a></li><li><a href="/collegefootball/teams/stats/LSU/lsu-tigers">LSU</a></li><li><a href="/collegefootball/teams/stats/MISSST/mississippi-state-bulldogs">Mississippi State</a></li><li><a href="/collegefootball/teams/stats/MISS/ole-miss-rebels">Ole Miss</a></li><li><a href="/collegefootball/teams/stats/TXAM/texas-am-aggies">Texas A&M</a></li></ul></div><div><ul><li><a href="/collegefootball/teams/stats/APLST/appalachian-state-mountaineers">Appalachian State</a></li><li><a href="/collegefootball/teams/stats/ARKST/arkansas-state-red-wolves">Arkansas State</a></li><li><a href="/collegefootball/teams/stats/CSTCAR/coastal-carolina-chanticleers">Coastal Carolina</a></li><li><a href="/collegefootball/teams/stats/GAS/georgia-southern-eagles">Georgia Southern</a></li><li><a href="/collegefootball/teams/stats/GAST/georgia-state-panthers">Georgia State</a></li><li><a href="/collegefootball/teams/stats/IDAHO/idaho-vandals">Idaho</a></li><li><a href="/collegefootball/teams/stats/LALAF/ul-lafayette-ragin-cajuns">UL Lafayette</a></li><li><a href="/collegefootball/teams/stats/LAMON/louisiana-monroe-warhawks">Louisiana-Monroe</a></li><li><a href="/collegefootball/teams/stats/NMEXST/new-mexico-state-aggies">New Mexico State</a></li><li><a href="/collegefootball/teams/stats/SALA/south-alabama-jaguars">South Alabama</a></li><li><a href="/collegefootball/teams/stats/TXSTSM/texas-state-bobcats">Texas State</a></li><li><a href="/collegefootball/teams/stats/TROY/troy-trojans">Troy</a></li></ul></div>
+    </div>
+</td></tr>
+</table>    
+                    <div class="spacer20">&nbsp;</div>
+                
+        <div id="taboola-bottom-of-the-page-thumbnails" data-taboola-placement="aw-cbssports/collegefootball/media/statistics/stats desktop-2x4-bottom" om-event="aw-cbssports/collegefootball/media/statistics/stats desktop-2x4-bottom"></div>
+        <script type="text/javascript">
+          window._taboola = window._taboola || [];
+          _taboola.push({
+            mode: 'alternating-thumbnails-z',
+            container: 'taboola-bottom-of-the-page-thumbnails',
+            placement: 'aw-cbssports/collegefootball/media/statistics/stats desktop-2x4-bottom',
+            target_type: 'mix'
+          });
+        </script>
+            </div><!-- END layoutRailRight::column1-->
+            <div class="column2">
+                
+                
+                <div id="sky_top" class="mBottomStd">
+<script type="text/javascript">
+if (switchXFP != 'off') {
+    googletag.cmd.push(function() {
+        if (typeof index_headertag_lightspeed !== 'undefined') {
+                  var cb = (function () {
+                      return function () {
+                          var slots = googletag.pubads().getSlots();
+                          index_headertag_lightspeed.set_slot_targeting(slots);
+                           googletag.display("sky_top");
+                        };
+                  })();
+                  index_headertag_lightspeed.add_session_end_hook(cb, true);
+                  index_headertag_lightspeed.refresh();
+              } else {
+                  googletag.display("sky_top");
+              }
+    });
+    if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="sky_top" style="width:160px"><br>').insertBefore('#sky_top');
+}
+</script>
+</div>
+                
+                <div class="spacer10">&nbsp;</div>
+                <!-- AD for NCAAF : NCAAF DEF Not found --><div class="shoppingBox">
+
+ 
+
+ 
+
+<!-- include file generated Fri Aug 05 17:06:23 EDT 2016 --> 
+<!-- $Id: sbox_arena.jsp,v 1.18 2008-06-11 19:49:38 gorman Exp $ -->
+
+
+<h3 class="featureTitle"><span><strong>CBSSports</strong> Shop</span></h3>
+<div class="featureComponent">
+    <a href="http://shop.cbssports.com/CBS_Coaches_Polo?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_CBKCoachesPolos|cpn--no_coupon|offer--no_offer"><img src="https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productImages/_2375000/ff_2375804_full.jpg&w=600" width="120" height="120" alt="Men's Brand Jordan White Michigan Wolverines 2016 Elite Coaches Sideline Performance Polo" class="border product"></a>
+    <p>College Football Coaches Polos<br/>Get your school today! <a href="http://shop.cbssports.com/CBS_Coaches_Polo?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_CBKCoachesPolos|cpn--no_coupon|offer--no_offer"><br>Shop Now</a></p>
+    <ul class="multiLine flush">
+    
+        
+           <li><a href="http://shop.cbssports.com/College_Football_Jerseys?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_CFBJerseys|cpn--no_coupon|offer--no_offer">College Football Jerseys</a></li>
+        
+           <li><a href="http://shop.cbssports.com/College_Sideline_Gear?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_CFBSideline|cpn--no_coupon|offer--no_offer">College Football Sideline Gear</a></li>
+        
+           <li><a href="http://shop.cbssports.com/College_Football_Schedule_Shirts?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_CBKNationalChamps|cpn--no_coupon|offer--no_offer">2016 Football Schedule Tees</a></li>
+        
+    
+    </ul>
+</div>
+<div class="featureFooter"><a href="http://shop.cbssports.com/CBS_COLLEGE?utm_source=cbssportscom_sbc&utm_medium=bm_referral&utm_term=kw--CBS_MoreCFB|cpn--no_coupon|offer--no_offer">Shop College Gear</a></div>
+
+
+</div>
+                
+<script type="text/javascript">netseer_tag_id = "19500";netseer_ad_width = "160";netseer_ad_height = "600";netseer_task = "ad";netseer_imp_type = "1";netseer_imp_src = "2";</script>
+<script src="https://ps.ns-cdn.com/dsatserving2/scripts/netseerads.js" type="text/javascript"></script>
+    
+            </div><!-- END layoutRailRight::column2-->
+            <div class="clearBoth"><!-- explicit clear --></div>
+        </div><!-- END layoutRailRight-->
+        <br clear="all">
+    </div><!-- END pageContainer-->
+</div><!-- END pageRow-->
+    <style>.footerAd {width: 970px;margin: 0 auto;padding: 10px 5px; background-color: #fff;overflow: hidden;text-align:center;position:relative;}</style>
+    
+    <div id="leader_plus2_bottom" class="footerAd">
+<script type="text/javascript">
+if (switchXFP != 'off') {
+    googletag.cmd.push(function() {
+        if (typeof index_headertag_lightspeed !== 'undefined') {
+                  var cb = (function () {
+                      return function () {
+                          var slots = googletag.pubads().getSlots();
+                          index_headertag_lightspeed.set_slot_targeting(slots);
+                           googletag.display("leader_plus2_bottom");
+                        };
+                  })();
+                  index_headertag_lightspeed.add_session_end_hook(cb, true);
+                  index_headertag_lightspeed.refresh();
+              } else {
+                  googletag.display("leader_plus2_bottom");
+              }
+    });
+    if (location.search.substring(1).indexOf('DCLK')>-1) $('<input type="text" value="leader_plus2_bottom" style="width:728px"><br>').insertBefore('#leader_plus2_bottom');
+}
+</script>
+</div>
+    <footer id="site-footer" class="site-footer">
+    <div class="site-footer-row">
+        <div class="site-footer-branding">
+            <span class="site-footer-logo"></span>
+        </div>
+    </div>
+    <div class="site-footer-row">
+        
+        <ul class="site-footer-follow">
+            <li><a href="https://www.facebook.com/CBSSports" target="_blank" rel="nofollow" om-event="Global Footer|Facebook"><span class="btn social icon-moon-facebook"></span></a></li>
+            <li><a href="https://twitter.com/cbssports" target="_blank" rel="nofollow" om-event="Global Footer|Twitter"><span class="btn social icon-moon-twitter"></span></a></li>
+            <li><a href="https://plus.google.com/+CBSSportscom/posts" target="_blank" rel="nofollow" om-event="Global Footer|Googleplus"><span class="btn social icon-moon-google-plus2"></span></a></li>
+            <li><a href="https://www.youtube.com/user/cbssports" target="_blank" rel="nofollow" om-event="Global Footer|Youtube-play"><span class="btn social icon-moon-youtube-play"></span></a></li>
+            <li><a href="https://instagram.com/cbssports/" target="_blank" rel="nofollow" om-event="Global Footer|Instagram"><span class="btn social icon-moon-instagram"></span></a></li>
+            <li><a href="https://www.pinterest.com/cbssports/" target="_blank" rel="nofollow" om-event="Global Footer|Pinterest"><span class="btn social icon-moon-pinterest"></span></a></li>
+            <li><a href="https://flipboard.com/@cbssports/?utm_source=cbssports&amp;utm_medium=follow&amp;utm_campaign=tools" target="_blank" rel="nofollow" om-event="Global Footer|Flipboard"><span class="btn social icon-moon-flipboard"></span></a></li>
+            
+            
+            
+        </ul>
+    
+    </div>
+    <div class="site-footer-row">
+        <ul class="site-footer-links">
+            <li><a href="https://www.cbssports.com/help" target="_blank" om-event="Global Footer|Help ">Help </a></li><li><a href="https://www.cbssports.com/info/aboutus" target="_blank" om-event="Global Footer|About Us ">About Us </a></li><li><a href="http://www.cbsinteractive.com/careers" target="_blank" om-event="Global Footer|Careers ">Careers </a></li><li><a href="http://www.cbsinteractive.com/advertise/" target="_blank" om-event="Global Footer|Advertise ">Advertise </a></li><li><a href="https://www.cbssports.com/sitemap" target="_blank" om-event="Global Footer|Site Map ">Site Map </a></li><li><a href="https://www.cbssports.com/settings/newsletters" target="_blank" om-event="Global Footer|Newsletters ">Newsletters </a></li><li><a href="https://www.cbssports.com/mobile" target="_blank" om-event="Global Footer|Mobile Apps ">Mobile Apps </a></li><li><a href="http://collegenetwork.cbssports.com/" target="_blank" om-event="Global Footer|College Network ">College Network </a></li><li><a href="http://legalterms.cbsinteractive.com/adchoice" target="_blank" om-event="Global Footer|Ad Choice ">Ad Choice </a></li><li><a href="https://www.cbssports.com/info/closed-caption" target="_blank" om-event="Global Footer|Closed Captioning ">Closed Captioning </a></li><li><a href="http://legalterms.cbsinteractive.com/privacy" target="_blank" om-event="Global Footer|Privacy ">Privacy </a></li><li><a href="http://legalterms.cbsinteractive.com/terms-of-use" target="_blank" om-event="Global Footer|Terms ">Terms </a></li><li><a href="http://legalterms.cbsinteractive.com/eula" target="_blank" om-event="Global Footer|Mobile User Agreement ">Mobile User Agreement </a></li>
+        </ul>
+    </div>
+    
+
+    <div class="site-footer-row">
+        <div class="site-footer-partners">
+            
+        </div>
+    </div>
+    <div class="site-footer-copyright">
+        <p class="site-footer-dates">&copy; 2005-2017 CBS INTERACTIVE. ALL RIGHTS RESERVED.</p>
+        <p>CBS Sports is a registered trademark of CBS Broadcasting Inc.  </p>
+       
+    </div>
+</footer>
+</div><!--mantle_skin-->
+    
+    <script type="text/javascript" src="https://sports.cbsimg.net/js/global-footer-min-v00101.js"></script>
+<span id="footerScripts">
+    <span id="footerScriptsExternal">
+        
+    </span>
+    <script id="footerScriptsRegistered" type="text/javascript">
+    
+    </script>
+    <script id="footerScriptsReady" type="text/javascript">
+    $(document).ready(function() {
+        
+        if ($('.updateTime, .gmtTime').length) {CBSi.widget.Time.update('body span');}
+        if ($('.tooltip').length) {CBSi.widget.ToolTip.init(CBSi.widget.ToolTip.cfg);}
+        if ($('.actionMenu').length) {
+            var actionMenuLeft = $(".actionMenu").position().left;
+            var userInfoLeft = (actionMenuLeft + 2) +"px";
+            $("#userInfo").css({"left":userInfoLeft});
+        }
+        $('body').delegate("[om-event]", "click", function(e) {
+            om.trackClick( {'item':$(this).attr("om-event")} );
+        });
+        
+            var adSkinLeft       = $('#adSkinLeft');
+            var adSkinRight      = $('#adSkinRight');
+            var adSkin           = $(adSkinLeft).add(adSkinRight);
+            var bodyNavClass 	 = 'is-sticky-nav';
+            var bodyTag          = $('body');
+            var mantle           = $('#mantle_skin');
+            var headerCont       = $('#site-header');
+            var navBar           = $('#cbs-site-nav');
+            var navBarHeight     = navBar.outerHeight();
+            var networkBar       = $('#nav-network-bar');
+            var networkBarHeight = networkBar.outerHeight();
+            var networkBarPadding = 8;
+            var promoBarHeight   = $('#fantasy_promo_bar_row').outerHeight();
+            var saagHeight       = $('#saagWrapper').outerHeight() || 0 ;
+            var skyBoxHeight     = $('#skybox-above').height();
+            var skyboxSpacerId   = 'skybox-nav-spacer';
+    
+            // Calculate when to make the nav bar sticky.
+            if (networkBar.length) {
+                // Create an empty spacer for behind the sticky nav.
+                // CBSi.log('_toggleStickyNav: There is a Network Bar on this page.');
+                headerCont.before('<div id="' + skyboxSpacerId + '" class="' + skyboxSpacerId + '" style="height: 0"></div>');
+            }
+        
+            var skyboxSpacer = $('#skybox-nav-spacer');
+        
+            $(window).on("scroll resize",function(e) {
+            
+                var windowScrollTop = parseInt($(this).scrollTop());
+                
+                // BEGIN Scroll code for Prestitial:
+                //check if scroll_prestitial is visible
+                var prestitialVisible = $('#scroll_prestitial:visible').length;
+                //CBSi.log('prestitialVisible ', prestitialVisible);
+
+                //get height of presitial element
+                var prestitialHeight = $('#scroll_prestitial iframe').height();
+                //CBSi.log('prestitialHeight ', prestitialHeight);
+
+                //Determine via tricky conditional states of DOM element if the
+                //  prestitial is still there
+                var hasPrestitial = 0;
+                if (prestitialHeight != null) {
+                    hasPrestitial = 1;
+                } else if (prestitialHeight > 0) {
+                    hasPrestitial = 1;
+                }
+                //finally check visibility but no height
+                if (prestitialVisible == 0) {
+                    hasPrestitial = 0;
+                } else if (prestitialVisible == 1 && prestitialHeight == 0) {
+                    hasPrestitial = 0;
+                }
+                // CBSi.log('hasPrestitial', hasPrestitial);
+                
+                var skyboxMaxHeight = parseInt($('.ad-top-strip').attr('data-skyboxmaxheight')) || 0;
+                var skyboxMinHeight = parseInt($('.ad-top-strip').attr('data-skyboxminheight')) || 0;
+                var skyboxHeight = ( (skyboxMaxHeight - windowScrollTop) < skyboxMinHeight  )
+                    ? skyboxMinHeight
+                    : skyboxMaxHeight - windowScrollTop;
+        
+                var skyboxDiv = $('.ad-top-strip div');
+                var skyboxIframe = $('.ad-top-strip div iframe');
+        
+                if ( windowScrollTop > 0 && hasPrestitial == 0) {
+                    /*
+                     * The page is now scrolling...
+                     */
+                    if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                        skyboxDiv.css({ 'position' : 'fixed' , 'height' : skyboxHeight + 'px' });
+                        skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                    }
+                                
+                    if (skyboxHeight <= skyboxMinHeight) {
+                     
+                        /*
+                         * The skybox ad is collapsed to its minumum height and it has added the class skybox-collapsed to the body tag.
+                         * Alternately, there is no skybox ad on the page.
+                         */
+                     
+                        if (windowScrollTop > skyboxMaxHeight - skyboxHeight + networkBarHeight) {
+                        
+                            /*
+                             * Tests to determine if the Navigation should pin.
+                             * Note that the navigation does not pin until after the network row has scrolled out of view.
+                             */
+
+                            /*
+                             * The skybox ad is minimized and the navigation should pin.
+                             */
+                             
+                            // CBSi.log('_toggleStickyNav: The Skybox is at minHeight or absent. The nav should pin.');
+        
+                            skyboxSpacer.css({ 'height' : skyboxMaxHeight + navBarHeight + 'px' });
+                            navBar.css({ 'position': 'fixed', 'top' : skyboxHeight + 'px' });
+        
+                            mantle.css({ 'margin-top': 0 });
+                            
+                            if (windowScrollTop > networkBarHeight + saagHeight ) {
+                                /*
+                                 * Even if the nav is pinned, the Scores At a Glance (SAAG) might still be scrolling so we do not pin the
+                                 * adSkinLeft and adSkinRight until the SAAG has scrolled out of view.
+                                 */
+                                adSkin.css({'position' : 'fixed', 'top': navBarHeight + skyboxMinHeight + 'px' });
+                            } else {
+                                adSkin.css({ 'position' : 'absolute', 'top': 0 });
+                            }
+        
+                            if (!bodyTag.hasClass(bodyNavClass)) {
+                                bodyTag.addClass(bodyNavClass);
+                            }
+        
+                        } else {
+
+                            /*
+                             * The skybox ad is minimized but the navigation is not yet pinned
+                             * because the network row is still partially visible.
+                             */
+
+                            // CBSi.log('_toggleStickyNav: The Skybox is at minHeight or absent. Network bar is scrolling so nav is not pinned.');
+        
+                            skyboxSpacer.css({ 'height' : skyboxMaxHeight + 'px' });
+                            navBar.css({ 'position': 'relative', 'top': 0 });
+
+                            mantle.css({ 'margin-top' : 0 });
+                            
+                            if (bodyTag.hasClass(bodyNavClass)) {
+                                bodyTag.removeClass(bodyNavClass);
+                            }
+                        }
+                    } else if (skyboxHeight > skyboxMinHeight) {
+                        /* The ad is in an expanded state so we need to address the height of the spacer
+                         * and the position of the navigation rows below the ad.
+                         */
+                        // CBSi.log('_toggleStickyNav: The Skybox is expanded.');
+
+                        skyboxSpacer.css({ 'height' : skyboxMaxHeight + 'px' });
+                        navBar.css({ 'position': 'relative', 'top': 0 });
+
+                        mantle.css({ 'margin-top' : 0 });
+                        adSkin.css({'position' : 'absolute', 'top': 0 });
+                        
+                        if (bodyTag.hasClass(bodyNavClass)) {
+                            bodyTag.removeClass(bodyNavClass);
+                        }
+
+                        if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                            skyboxDiv.css({ 'height' : skyboxHeight + 'px' });
+                            skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                        }        
+                    }
+                } else {
+                    /*
+                     * The page is not scrolled at all so we want to set the spacer to a height of 0.
+                     */
+                    
+                    // CBSi.log('_toggleStickyNav: The page is not scrolled.');
+                    
+                    skyboxSpacer.css({ 'height' : 0 });
+                    navBar.css({ 'position': 'relative', 'top': 0 });
+
+                    mantle.css({ 'margin-top' : 0 });
+                    adSkin.css({'position' : 'absolute', 'top': 0 });
+                    
+                    if (bodyTag.hasClass(bodyNavClass)) {
+                        bodyTag.removeClass(bodyNavClass);
+                    }
+
+                    if (!bodyTag.hasClass('skybox-loaded-dfp')) {
+                        skyboxDiv.css({ 'position' : 'relative' , 'height' : skyboxHeight + 'px' });
+                        skyboxIframe.css({ 'height': skyboxHeight + 'px' });
+                    }
+                }
+            });
+        
+        if ($('.cbsGifAnimation').length) {CBSi.app.cbsGifAnimation.prototype.init();}
+        //setTimeout('CBSi.app.cbsGifAnimation.prototype.init();',3000);
+    });
+    </script>
+</span>
+<!-- no ClickTale -->
+     
+
+        
+<!-- Begin Tealium -->
+<script type="text/javascript">
+
+getTaboolaPlacements();
+var utag_data={
+
+    siteHier         : 'media|collegefootball|statistics',
+    siteSection      : 'media|collegefootball|||statistics|',
+    siteType         : 'desktop web',
+    userType         : 'anon',
+    userState        : 'not authenticated',
+    pageType         : 'statistics',
+    pageName         : '/collegefootball/stats',
+    pageTypeId       : '6952',
+    pageOntologyId   : '22711',
+    pageViewGuid     : surround.vguid,
+    contentWidget    : surround.taboola,
+    country          : 'AU'
+}
+</script>
+<script type="text/javascript">
+(function(a,b,c,d){
+  a='https://tags.tiqcdn.com/utag/cbsi/cbssportssite/prod/utag.js';
+	b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+  a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+})();
+</script>
+
+<!-- End Tealium -->
+<!-- no refresh -->
+<!-- no dl recruit -->
+
+         <script type="text/javascript">
+           window._taboola = window._taboola || [];
+           _taboola.push({flush: true});
+         </script>
+      
+
+    
+</body>
+</html><!-- Page build info: Wd0XagoZUaMAACMzGZk 'ws5208.tm.cbsig.net' 9011 20171010 14:54:34 /spln/local/media/cache/full/spln/244/%2Fcollegefootball%2Fstats -->

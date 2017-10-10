@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html class="logged_out_user" lang="en"><head prefix="og: http://ogp.me/ns#"><!-- Fly Version: RELEASE_10102017 824b038616f99215f329d6c7f12981130387c2c7 (cbsnews prod_alt) --><title>                          Face The Nation - Political News, Analysis, Headlines &amp; Video - CBS News  
+</title><meta charset="UTF-8"><meta name="robots" content="index, follow"><meta name="description" content="Visit Face The Nation with John Dickerson on CBSNews.com. Read political news and watch video analysis, interviews, recaps, and more."><meta name="keywords" content="face the nation, bob schieffer, face the nation video, face the nation cbs, face the nation video, politcs, political news, cbsnews.com, cbs news"><meta name="viewport" content="width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge"><link rel="preconnect dns-prefetch" href="//cbsnews1.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews2.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews3.cbsistatic.com"><link rel="preconnect dns-prefetch" href="//cbsnews4.cbsistatic.com"><link rel="canonical" href="https://www.cbsnews.com/face-the-nation/"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-16x16.png?v=824b038616f99215f329d6c7f12981130387c2c7" sizes="16x16"><link rel="icon" type="image/png" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon-32x32.png?v=824b038616f99215f329d6c7f12981130387c2c7" sizes="32x32"><link rel="shortcut icon" type="image/x-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico?v=824b038616f99215f329d6c7f12981130387c2c7"><link rel="apple-touch-icon" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/apple-touch-icon.png?v=824b038616f99215f329d6c7f12981130387c2c7"><svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;" class="site-header__icon-definitions"><defs><symbol id="icon-social-email" viewbox="0 0 32 32"><path d="M29.844 24c1.371-2.355 2.156-5.078 2.156-8 0-8.836-7.164-16-16-16s-16 7.164-16 16 7.164 16 16 16c4.418 0 8.418-1.789 11.312-4.688l-2.832-2.832c-2.171 2.176-5.171 3.52-8.48 3.52-6.617 0-12-5.383-12-12s5.383-12 12-12 12 5.383 12 12c0 1.422-0.273 2.781-0.73 4.047l-0.032-0.047h-3.238v-11.957h-8c-4.418 0-8 3.582-8 8s3.582 8 8 8c1.836 0 3.508-0.645 4.859-1.684 0.727 0.969 1.836 1.641 3.141 1.641h5.844zM20 14.008v2.035c0 2.207-1.797 4-4 4s-4-1.793-4-4 1.797-4 4-4h4v1.965z"></path></symbol><symbol id="icon-social-youtube" viewbox="0 0 32 32"><path d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z"></path></symbol><symbol id="icon-social-instagram" viewbox="0 0 32 32"><path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path><path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path><path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path></symbol><symbol id="icon-social-twitter" viewbox="0 0 32 32"><path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path></symbol><symbol id="icon-social-facebook" viewbox="0 0 32 32"><path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path></symbol></defs></svg><style>
+      
+@font-face{font-family:'museo-sans';src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot");src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-300.svg#svgFontName") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'museo-sans-500';src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.eot");src:url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.eot?#iefix") format("embedded-opentype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.woff2") format("woff2"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.woff") format("woff"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.ttf") format("truetype"),url("/bundles/cbsnewscore/fonts/museo-sans/MuseoSans-500.svg#svgFontName") format("svg");font-weight:normal;font-style:normal}
+
+
+    </style><link rel="stylesheet" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/css/main.face-the-nation.desktop.css?v=824b038616f99215f329d6c7f12981130387c2c7"><!--[if lt IE 9]>
+    <script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js/libs/html5shiv-printshiv.js?v=824b038616f99215f329d6c7f12981130387c2c7"></script>
+    <![endif]--></head><body data-cms-edit='{"url":"https:\/\/cms.cbsnews.com\/content\/page\/create\/topic?pageId=62082d22-758d-11e2-9d12-0018fe8a00b0"}' class="desktop
+ theme-face-the-nation">
+        
+    <!-- src/CbsNews/CoreBundle/Resources/views/Layout/default.desktop.html.twig -->
+
+                <!-- comscorekw=facethenation -->
+    
+
+    
+    <div id="fb-root"></div>
+                    <div id="intromercial-59dd1a99dbd1c" class="ad-intromercial" data-ad="intromercial" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-59dd1a99dbd1c for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-59dd1a99dbd1c");
+    </script></div>
+
+    	<div class="body-container">
+
+        <!-- src/CbsNews/CoreBundle/Resources/views/Core/header.html.twig -->
+<header class="site-header nocontent"><div id="breakingNewsBanner" data-component="ticker">
+        <include src="/feedfiles/breakingnews.desktop.html" onerror="continue"></include></div>
+
+    <div class="supplemental">
+    <div class="container">
+        <div class="col-9">
+            
+        <nav class="site-shows"><ul class="items"><li><a class="module-click-tracking" href="/" data-tracking="site header-show-nav|CBS News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/face-the-nation/ Show-nav|CBS News"}' aria-label="">CBS News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/evening-news/" data-tracking="site header-show-nav|CBS Evening News" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/face-the-nation/ Show-nav|CBS Evening News"}' aria-label="">CBS Evening News</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbs-this-morning/" data-tracking="site header-show-nav|CBS This Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/face-the-nation/ Show-nav|CBS This Morning"}' aria-label="">CBS This Morning</a></li>
+                                                                        <li><a class="module-click-tracking" href="/48-hours/" data-tracking="site header-show-nav|48 Hours" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/face-the-nation/ Show-nav|48 Hours"}' aria-label="">48 Hours</a></li>
+                                                                        <li><a class="module-click-tracking" href="/60-minutes/" data-tracking="site header-show-nav|60 Minutes" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/face-the-nation/ Show-nav|60 Minutes"}' aria-label="">60 Minutes</a></li>
+                                                                        <li><a class="module-click-tracking" href="/sunday-morning/" data-tracking="site header-show-nav|Sunday Morning" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/face-the-nation/ Show-nav|Sunday Morning"}' aria-label="">Sunday Morning</a></li>
+                                                                        <li><a class="selected module-click-tracking" href="/face-the-nation/" data-tracking="site header-show-nav|Face The Nation" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/face-the-nation/ Show-nav|Face The Nation"}' aria-label="selected">Face The Nation</a></li>
+                                                                        <li><a class="module-click-tracking" href="/cbsn-originals/" data-tracking="site header-show-nav|CBSN Originals" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Header-cbsnews:/face-the-nation/ Show-nav|CBSN Originals"}' aria-label="">CBSN Originals</a></li>
+            </ul></nav></div>
+        
+        <div class="col-3">
+            
+<form class="site-search" method="get" action="/search/">
+    <div class="search-wrapper" data-component="placeholder">
+        <input class="query" type="search" name="q" maxlength="255" placeholder="Search"></div>
+    <button class="submit core-search-header" type="submit">GO</button>
+</form>
+<ul class="login-wrapper logged-in"><li>
+        <!--<li class="site-section-tab"><a href="//secure-fly.cbsnews.com/user/registration/" data-user-show="register"><span>Join</span></a></li>-->
+                     <a class="site-login" href="#" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Channel Button"}'><span class="text">Log In</span></a>
+                <div class="menu-wrapper sign-in">
+            <span class="hover-padding"></span>
+            <span class="arrow"></span>
+            <ul class="login"><li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/login/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Login"}'>Log In</a>
+                    </li>
+                    <li>
+                      <a class="popup-link" data-pop-path="//secure-fly.cbsnews.com/user/registration/?ifmsgr=true" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site Header-Search-Flyout-nav|Log In-Join CBSNews"}'>Join CBSNews.com</a>
+                    </li>
+                                                </ul></div>
+    </li>
+</ul></div>
+    </div>
+</div>    <div class="primary">
+        <div class="container">
+            <div class="arrow-down"></div>
+            <div class="header-bg"></div>
+            <div class="logo">
+                                    <a href="/face-the-nation" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|Face The Nation-nav|Home"}'>Face the Nation</a>
+                            </div>
+
+            <nav class="site-sections"><ul class="items"><li class="site-section-tab ftn-tab-home   selected"><a href="/face-the-nation/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|Face The Nation-nav|Home"}'><span>Home</span>
+                                                    </a>
+                                                    </li>
+                                                                                                                                            <li class="site-section-tab ftn-tab-local-listings   "><a href="/face-the-nation/local-listings/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|Face The Nation-nav|Local Listings"}' data-vanity-rewritten="true"><span>Local Listings</span>
+                                                    </a>
+                                                    </li>
+                                                                                                                                            <li class="site-section-tab ftn-tab-archives   "><a href="/videos/topics/face-the-nation/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|Face The Nation-nav|Archives"}' data-vanity-rewritten="true"><span>Archives</span>
+                                                    </a>
+                                                    </li>
+                                                                                                                                            <li class="site-section-tab ftn-tab-full-episodes   "><a href="/face-the-nation/full-episodes/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|Face The Nation-nav|Full Episodes"}'><span>Full Episodes</span>
+                                                    </a>
+                                                    </li>
+                                                                                                                                            <li class="site-section-tab ftn-tab-about-us   "><a href="/face-the-nation/about-us/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|Face The Nation-nav|About Us"}' data-vanity-rewritten="true"><span>About Us</span>
+                                                    </a>
+                                                    </li>
+                                                                                                                                            <li class="site-section-tab ftn-tab-sunday-line-up flyout  " data-component="flyout" data-flyout-options='{"requestUrl":"\/flyout\/xhr\/ftn-sunday-line-up\/facethenation"}'><a href="#" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Show Header|Face The Nation-nav|Sunday Line-up"}'><span>Sunday Line-up</span>
+                                                            <span class="ftn-arrow"></span>
+                                                    </a>
+                                                    </li>
+                                                       </ul></nav></div>
+    </div>
+
+</header><div id="mantle_skin" class="content-primary show-topic show face-the-nation topic-door ">
+                                        <div id="skin-59dd1a99dbd1c" class="ad-skin" data-ad="skin" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing skin-59dd1a99dbd1c for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("skin-59dd1a99dbd1c");
+    </script></div>
+
+                                                                             <div id="leader-plus-top-59dd1a99dbd1c" class="ad-leader-plus-top" data-ad="leader-plus-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-plus-top-59dd1a99dbd1c for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-plus-top-59dd1a99dbd1c");
+    </script></div>
+
+                    
+                    <div class="container">
+    <div class="row">
+                    <div class="row">
+    
+                
+    <div class="col-12 ">
+                                        </div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-12 ">
+                                            <div class="row">
+                                
+                
+    <div class="col-8 ">
+                                                        <div class="row">
+    
+            
+            
+    <div class="col-8 nocontent">
+                                    
+                                    
+                                            <section class="section section-lead" data-tb-region="Big News Area"><div class="hero-average" data-tb-region-item>
+        <div class="hero-text">
+            <h3 class="title"><a href="/news/trump-iq-test-rex-tillerson-moron-comment/">Trump says if Tillerson's "moron" comment is true, "We'll have to compare IQ tests"</a></h3>
+                          <p class="dek"><a href="/news/trump-iq-test-rex-tillerson-moron-comment/">
+The president is scheduled to have lunch with Tillerson and Defense Secretary James Mattis Tuesday afternoon</a></p>
+                    </div>
+        <a href="/news/trump-iq-test-rex-tillerson-moron-comment/" class="">
+            <figure class="media-figure img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/03/02/5fb660b3-2f02-466d-8143-86f49ee442ee/thumbnail/620x465/edfd01f5eb519aea022238c77b362939/trump-tillerson-diplomacy-2017-3-1.jpg#" alt=" " height="465" width="620" srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/03/02/5fb660b3-2f02-466d-8143-86f49ee442ee/thumbnail/620x465/edfd01f5eb519aea022238c77b362939/trump-tillerson-diplomacy-2017-3-1.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/03/02/5fb660b3-2f02-466d-8143-86f49ee442ee/thumbnail/1240x930/a905156e0d7d595c3af77ba0f1ec6c07/trump-tillerson-diplomacy-2017-3-1.jpg 2x"></span>
+            </figure></a>
+    </div>
+</section></div>
+            </div>
+                <div class="row">
+    
+                
+    <div class="col-8 ">
+                                            <div class="row">
+                                        <div class="row">
+    
+                
+    <div class="col-8 ">
+                                            <div class="row">
+                                
+            
+            
+    <div class="col-4 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    <div class="module module-listing editorial-show-topic-landing" data-tb-region="Editor's Pick Left 2">
+    
+                    
+                                                    <div class="module module-listing listing-full-sub-basic show-full-image-bullets">
+    <ul class="items" data-tb-region-item><li class="label-wrapper"><h2 class="label">Latest Episode</h2></li>
+<li class=" first">
+    <a href="/videos/108-feinstein-lapierre/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/06/bc1e7f8a-fbe6-47b3-aa7a-9c0ad0c619be/thumbnail/300x175/0d797d90a58a19e646be8d9e6f74a322/rts1f643.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/06/bc1e7f8a-fbe6-47b3-aa7a-9c0ad0c619be/thumbnail/300x175/0d797d90a58a19e646be8d9e6f74a322/rts1f643.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/10/06/bc1e7f8a-fbe6-47b3-aa7a-9c0ad0c619be/thumbnail/600x350/d49e501254264a4659ae7c526a2d5f8d/rts1f643.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">10/8: Feinstein, LaPierre</h3>
+
+        <p class="dek">
+    Senator Dianne Feinstein, the National Rifle Association's Chief Executive Officer Wayne LaPierre and others on the Vegas shooting, the potential for new gun control measures and the week in politics</p>
+
+    </a>
+</li>
+
+    </ul></div>
+                            
+                                                    <div class="module module-listing listing-full-sub-basic show-full-image-bullets">
+    <ul class="items" data-tb-region-item><li class=" first">
+    <a href="/news/face-the-nation-october-8-2017-transcript-feinstein-lapierre/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2016/06/19/2ab71d6c-a387-491d-bdc1-998a32a94213/thumbnail/300x175/64d5a9a7f07ed46f445624a1ef2f6e9f/ftnlapierredivertingattention06191081050640x360.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2016/06/19/2ab71d6c-a387-491d-bdc1-998a32a94213/thumbnail/300x175/64d5a9a7f07ed46f445624a1ef2f6e9f/ftnlapierredivertingattention06191081050640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2016/06/19/2ab71d6c-a387-491d-bdc1-998a32a94213/thumbnail/600x350/36476fc16231e5613add85a187f254e5/ftnlapierredivertingattention06191081050640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Face the Nation October 8, 2017 Transcript: Feinstein, LaPierre</h3>
+
+        <p class="dek">
+Guests included Mark Strassman, Dianne Feinstein, Wayne LaPierre, Fran Townsend, Mary Ellen O'Toole, Adam Winkler, Susan Page, Ramesh Ponnuru, David Leonhardt and Jeffrey Goldberg.</p>
+
+    </a>
+</li>
+                     <li><a href="/news/face-the-nation-transcripts-2017/"><h4 class="title">"Face the Nation" transcripts 2017</h4></a></li>
+                     <li><a href="/news/face-the-nation-transcripts-2016/"><h4 class="title">"Face the Nation" transcripts 2016</h4></a></li>
+                     <li class="last"><a href="/news/face-the-nation-transcripts-2015/"><h4 class="title">"Face the Nation" transcripts 2015</h4></a></li>
+    
+    </ul></div>
+                            
+                                                    <div class="module module-listing editorial-show-thumbnail-bullets">
+    <ul class="items media-list" data-tb-region-item><li class=" first">
+        <a href="/videos/ftn-page-2-132/">
+                <figure class="media-block img-inset-thumb media-figure"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/08/9a4418f7-43fd-46b2-aff4-a449028fc9e1/thumbnail/140x90/6133055aa4ec712437d4d2e317b9780b/1008-ftn-page2-1414612-640x360.jpg#" alt=" " height="90" width="140" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/08/9a4418f7-43fd-46b2-aff4-a449028fc9e1/thumbnail/140x90/6133055aa4ec712437d4d2e317b9780b/1008-ftn-page2-1414612-640x360.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/08/9a4418f7-43fd-46b2-aff4-a449028fc9e1/thumbnail/280x180/66d423ed67c21962424ba1808330fcc7/1008-ftn-page2-1414612-640x360.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+                </figure><div class="media-body"><h4 class="title">FTN: Page 2</h4></div>
+        </a>
+</li>
+    </ul></div>
+                            
+                                                    <div id="native-show-top-59dd1a99dbd1c" class="ad-native-show-top" data-ad="native-show-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing native-show-top-59dd1a99dbd1c for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("native-show-top-59dd1a99dbd1c");
+    </script></div>
+
+                            
+                                                            
+
+</div>
+
+                                                                    </div>
+        
+            
+            
+    <div class="col-4 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    <div class="module module-listing editorial-show-topic-landing" data-tb-region="Editor's Pick Right 1">
+    
+                    
+                                                    <div class="module module-listing listing-full-sub-basic show-full-image-bullets">
+    <ul class="items" data-tb-region-item><li class="label-wrapper"><h2 class="label">Latest News &amp; Analysis</h2></li>
+<li class=" first">
+    <a href="/news/iran-donald-trump-nuclear-deal-more-at-stake-us-allies-than-tehran/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/10/4d603a4a-2aca-46b1-86e3-5f736e4eee4b/thumbnail/300x175/f65715723422f2d9a4f8a3539d82f99e/iran-nuclear-deal-480648120.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/10/4d603a4a-2aca-46b1-86e3-5f736e4eee4b/thumbnail/300x175/f65715723422f2d9a4f8a3539d82f99e/iran-nuclear-deal-480648120.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/10/4d603a4a-2aca-46b1-86e3-5f736e4eee4b/thumbnail/600x350/e126c819131855efc1044c9023a88ac1/iran-nuclear-deal-480648120.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Iran: "Much more" at stake for rest of world with nuke deal</h3>
+
+        <p class="dek">
+With Trump threatening to undermine 2015 international agreement, Iran nuke chief warns of impact on "entire international community"</p>
+
+    </a>
+</li>
+
+    </ul></div>
+                            
+                                                    <div class="module module-listing listing-full-sub-basic show-full-image-bullets">
+    <ul class="items" data-tb-region-item><li class=" first">
+    <a href="/news/cuba-attack-victim-we-were-ignored/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/10/8ab8123e-0d15-4bf3-8679-3f0f1e8ed295/thumbnail/300x175/596828928b2675ec414c4e5621d17c73/ap-17276610141692.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/10/8ab8123e-0d15-4bf3-8679-3f0f1e8ed295/thumbnail/300x175/596828928b2675ec414c4e5621d17c73/ap-17276610141692.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/10/8ab8123e-0d15-4bf3-8679-3f0f1e8ed295/thumbnail/600x350/a61d9af913b0cba3fef2598ca5413747/ap-17276610141692.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Cuba health attack victim: We were ignored</h3>
+
+        <p class="dek">
+One of the Americans injured by unexplained attacks in Cuba tells CBS News the U.S. response to embassy personnel was handled "poorly"</p>
+
+    </a>
+</li>
+
+    </ul></div>
+                            
+                                                    <div class="module module-listing listing-full-sub-basic show-full-image-bullets">
+    <ul class="items" data-tb-region-item><li class=" first">
+    <a href="/news/few-gop-senators-are-talking-about-corker-trump-fight/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2016/05/23/6eff952b-1eed-4e04-8400-c6089874bf58/thumbnail/300x175g2/c438c2b87b255f1b8bce4ecd93fdca83/corker-trump.png#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2016/05/23/6eff952b-1eed-4e04-8400-c6089874bf58/thumbnail/300x175g2/c438c2b87b255f1b8bce4ecd93fdca83/corker-trump.png 1x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Few GOP senators are talking about Corker-Trump fight</h3>
+
+        <p class="dek">
+Most GOP senators were silent Monday, a day after Corker charged that the White House was an "adult day care"</p>
+
+    </a>
+</li>
+
+    </ul></div>
+                            
+                                                    <div class="module module-listing listing-full-sub-basic show-full-image-bullets">
+    <ul class="items" data-tb-region-item><li class=" first">
+    <a href="/news/feinstein-russian-facebook-ads-should-be-made-public/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/08/14557b07-cf56-48b9-ad6b-cc7c274e9e5a/thumbnail/300x175/69d1306f1ba4d5c611bb1df57d33137f/ftn-feinstein4-100817.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/08/14557b07-cf56-48b9-ad6b-cc7c274e9e5a/thumbnail/300x175/69d1306f1ba4d5c611bb1df57d33137f/ftn-feinstein4-100817.jpg 1x, https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/08/14557b07-cf56-48b9-ad6b-cc7c274e9e5a/thumbnail/600x350/2a609b816f29168803b224e0f94c6c60/ftn-feinstein4-100817.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">Feinstein: Russian Facebook ads should be made public</h3>
+
+        <p class="dek">
+The senator agreed with Senate Intelligence Vice Chairman Mark Warner about public disclosures of Russia&rsquo;s social-media influence</p>
+
+    </a>
+</li>
+
+    </ul></div>
+                            
+                                                    <div class="module module-listing listing-full-sub-basic show-full-image-bullets">
+    <ul class="items" data-tb-region-item><li class=" first">
+    <a href="/news/dhs-will-let-jones-act-waiver-for-puerto-rico-expire/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/dbbb3695-e5cc-44fd-85ad-855054661e8e/thumbnail/300x175/532d73188b9450ca9d719f4b4fff9b89/rts1dza1.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/09/dbbb3695-e5cc-44fd-85ad-855054661e8e/thumbnail/300x175/532d73188b9450ca9d719f4b4fff9b89/rts1dza1.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/09/dbbb3695-e5cc-44fd-85ad-855054661e8e/thumbnail/600x350/ee6fe7c9a1054729a2359f1a74988d0a/rts1dza1.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">DHS is not extending Jones Act waiver for Puerto Rico</h3>
+
+        <p class="dek">
+The Trump administration granted a 10-day waiver on Sept. 28 for the law requiring that goods shipped between U.S. ports be carried by American-flag ships</p>
+
+    </a>
+</li>
+
+    </ul></div>
+            
+
+</div>
+
+                                                                    </div>
+                                </div>
+                        </div>
+            </div>
+                <div class="row">
+    
+            
+            
+    <div class="col-8 nocontent">
+                                    
+                                    
+                                                
+
+  <a class="load-more idle" href="https://www.cbsnews.com/latest/face-the-nation/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Face The Nation|More Headlines|Link"}' data-invalid-url-rewritten-http=""><span class="load-more-text"> More in Face The Nation <span class="load-more-icon"></span></span></a>
+                                                                    </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+                            </div>
+        
+            
+            
+    <div class="col-4 nocontent">
+                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-">
+      <h2 class="module-heading title">Miss the Show?</h2>
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <span style="font-family:Georgia,Times,serif;color:#666;font-style:italic;">You can catch a rebroadcast of "Face the Nation" every Sunday at 11 a.m. ET &amp; 6 p.m. ET on <a href="http://cbsn.cbsnews.com/?ftag=CNM2d4b42e" style="color:#841c1c !important;">CBSN</a></span></li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-where-to-watch">
+      <h2 class="module-heading title">Where to Watch</h2>
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <span style="font-family:Georgia,Times,serif;color:#666;font-style:italic;">Click <a href="//cbsnews.com/face-the-nation/local-listings/?ftag=CNM2d4b42e" style="color:#841c1c !important;">here</a> to find out what time we broadcast in your area</span></li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+
+
+<div class="module module-follow-us">
+    <h2 class="module-heading title">Follow Us</h2>
+	    <ul class="items"><li class="facebook"> <a href="https://www.facebook.com/FaceTheNation" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail-Follow-us|Facebook"}' target="new">Facebook</a> </li>
+	        							<li class="twitter"> <a href="https://twitter.com/facethenation" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail-Follow-us|Twitter"}' target="new">Twitter</a> </li>
+	        										<li class="youtube"><a href="https://www.youtube.com/user/Cbsfacethenation1" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail-Follow-us|YouTube"}' target="new">YouTube</a></li>
+	        							<li class="rss"><a href="/rss/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail-Follow-us|RSS"}' target="new">RSS</a></li>
+	        										<li class="newsletter last"> <a href="/newsletters/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Right Rail-Follow-us|Newsletters"}' target="new">Newsletters</a> </li>
+				    </ul></div>
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-ftn-podcast">
+      <h2 class="module-heading title">Our Podcast</h2>
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <span style="font-family:Georgia,Times,serif;color:#666;font-style:italic;"><a href="https://itunes.apple.com/us/podcast/face-the-nation-2016-diary/id1076611945" target="_blank"><img src="https://cbsnews1.cbsistatic.com/hub/i/2016/03/07/17890752-e166-4420-bf00-5de1d09ed745/ftnpodcasticon.jpg" align="left" border="0" style="margin-right:10px;"></a>Subscribe for free to our <a href="https://itunes.apple.com/us/podcast/face-the-nation-2016-diary/id1076611945" target="_blank" style="color:#841c1c !important;">Face the Nation Diary</a>, hosted by John Dickerson
+</span><div style="clear: both;"></div></li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+                            <div id="marquee-top-59dd1a99dbd1c" class="ad-marquee-top" data-ad="marquee-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing marquee-top-59dd1a99dbd1c for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("marquee-top-59dd1a99dbd1c");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+
+    
+    <div class="module module-listing editorial-show-topic-landing" data-tb-region="Editor's Pick Left 1">
+    
+                    
+                                                                            
+                                                    <div class="module module-listing listing-full-sub-basic show-full-image-bullets">
+    <ul class="items" data-tb-region-item><li class="label-wrapper"><h2 class="label">From the Host</h2></li>
+<li class=" first">
+    <a href="/news/johns-notebook-humanity-and-bravery-in-the-wake-of-tragedy/">
+        <figure class="media-block img-inset"><span class="img "><img src="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/03/c5507fc3-26a9-42f7-86c6-367b6735e4df/thumbnail/300x175/5fff7045585e65c390d924dd29c75eb2/ap-17276108999280.jpg#" alt=" " height="175" width="300" class=" lazyload" data-srcset="https://cbsnews1.cbsistatic.com/hub/i/r/2017/10/03/c5507fc3-26a9-42f7-86c6-367b6735e4df/thumbnail/300x175/5fff7045585e65c390d924dd29c75eb2/ap-17276108999280.jpg 1x, https://cbsnews2.cbsistatic.com/hub/i/r/2017/10/03/c5507fc3-26a9-42f7-86c6-367b6735e4df/thumbnail/600x350/0522c2e66aa732f11d85f665ba8e1940/ap-17276108999280.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+        </figure><h3 class="title">John's Notebook: Humanity and bravery in the wake of tragedy</h3>
+
+        <p class="dek">
+Remembering the moments of selflessness and generosity in the aftermath of a national tragedy</p>
+
+    </a>
+</li>
+                     <li class="last"><a href="/team/john-dickerson/"><h4 class="title">John's Bio</h4></a></li>
+    
+    </ul></div>
+                            
+                                                                            
+                                                    <div class="show-media-feature">
+
+
+
+
+
+
+    
+<div class="media-feature" data-tb-region-item>
+		<a href="/pictures/ftn-behind-the-scenes/" title="FTN: Behind the scenes">
+        <figure class="media-figure img-inset-thumb" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Thumbnail-4"}'><span class="img "><img src="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/30/2dde8155-2f29-463e-a69e-3a89e9709d7c/thumbnail/300x190/0fd20c379697ee738c41e7384a196c5e/untitled-9050-fixed.jpg#" alt=" " height="190" width="300" class=" lazyload" data-srcset="https://cbsnews2.cbsistatic.com/hub/i/r/2017/04/30/2dde8155-2f29-463e-a69e-3a89e9709d7c/thumbnail/300x190/0fd20c379697ee738c41e7384a196c5e/untitled-9050-fixed.jpg 1x, https://cbsnews3.cbsistatic.com/hub/i/r/2017/04/30/2dde8155-2f29-463e-a69e-3a89e9709d7c/thumbnail/600x380/b6944fda808a754097ed9fc49f4893cc/untitled-9050-fixed.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAI="></span>
+
+            <div class="meta-overlay ">
+                <span class="asset-icon gallery" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Button-4"}'></span>
+                <div class="meta-label">
+                                            <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-4"}'>196</span>
+                        <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Count-4"}'>Photos</span>
+                                    </div>
+
+                <h3 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Gallery Promo|Asset|Headline-4"}'>FTN: Behind the scenes</h3>
+            </div>
+        </figure></a>
+</div>
+</div>            
+
+</div>
+
+                                                                
+                                    
+                                            
+
+                            <div id="mpu-top-59dd1a99dbd1c" class="ad-mpu-top" data-ad="mpu-top" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-top-59dd1a99dbd1c for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-top-59dd1a99dbd1c");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+<div class="module module-listing">
+    <h2 class="module-heading title">Popular on CBS News</h2>
+
+    
+<div class="listing-mini-number ">
+    <ul class="media-list items"><li>
+    <a href="/news/las-vegas-gunman-stephen-paddock-note-hotel-room-details-of-bullet-trajectory/"> 
+        <div class="media-figure">
+            <span class="number" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Rank Indicator-1"}'>01</span>
+        </div>
+    
+        <div class="media-body">
+                            <h4 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Headline-1"}'>New details about note found in Vegas shooter's hotel room</h4>
+            
+                                    <div class="meta-label view-count">
+                <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Pageviews-1"}'>858921</span>
+                <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Pageviews-1"}'>views</span>
+            </div>
+                                </div>
+    </a>
+</li>
+                            
+                                                
+<li>
+    <a href="/news/ivana-trumps-first-lady-comment-causes-stir-with-first-lady-melania-trump/"> 
+        <div class="media-figure">
+            <span class="number" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Rank Indicator-2"}'>02</span>
+        </div>
+    
+        <div class="media-body">
+                            <h4 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Headline-2"}'>Ivana Trump's "first lady" comment causes stir with First Lady Melania Trump</h4>
+            
+                                    <div class="meta-label view-count">
+                <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Pageviews-2"}'>310032</span>
+                <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Pageviews-2"}'>views</span>
+            </div>
+                                </div>
+    </a>
+</li>
+                            
+                                                
+<li>
+    <a href="/news/kenneka-jenkins-case-autopsy-results-freezer-death/"> 
+        <div class="media-figure">
+            <span class="number" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Rank Indicator-3"}'>03</span>
+        </div>
+    
+        <div class="media-body">
+                            <h4 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Headline-3"}'>Autopsy results released in teen's death in freezer</h4>
+            
+                                    <div class="meta-label view-count">
+                <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Pageviews-3"}'>268633</span>
+                <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Pageviews-3"}'>views</span>
+            </div>
+                                </div>
+    </a>
+</li>
+                            
+                                                
+<li>
+    <a href="/news/hurricane-nate-path-track-category-2-latest-update-2017-10-08/"> 
+        <div class="media-figure">
+            <span class="number" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Rank Indicator-4"}'>04</span>
+        </div>
+    
+        <div class="media-body">
+                            <h4 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Headline-4"}'>Nate brings burst of flooding, power outages</h4>
+            
+                                    <div class="meta-label view-count">
+                <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Pageviews-4"}'>138140</span>
+                <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Pageviews-4"}'>views</span>
+            </div>
+                                </div>
+    </a>
+</li>
+                            
+                                                
+<li>
+    <a href="/news/pitt-student-found-dead-pittsburgh-home/"> 
+        <div class="media-figure">
+            <span class="number" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Rank Indicator-5"}'>05</span>
+        </div>
+    
+        <div class="media-body">
+                            <h4 class="title" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Headline-5"}'>College student found dead inside home</h4>
+            
+                                    <div class="meta-label view-count">
+                <span class="feature" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Pageviews-5"}'>135896</span>
+                <span class="sub" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Right Rail|Most Popular|Pageviews-5"}'>views</span>
+            </div>
+                                </div>
+    </a>
+</li>
+                </ul></div></div>                                                                
+                                    
+                                            
+
+                                                                
+                                    
+                                            
+
+                            <div id="mpu-bottom-59dd1a99dbd1c" class="ad-mpu-bottom" data-ad="mpu-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-bottom-59dd1a99dbd1c for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-bottom-59dd1a99dbd1c");
+    </script></div>
+                                                                    
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-right-rail-taboola-recommended-article">
+      <h2 class="module-heading title">Recommended</h2>
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <div data-taboola='{"mode":"alternating-thumbnails-rr","placement":"Right Rail Thumbnails"}'></div></li>
+                </ul></div>                                                        </div>
+
+                                                                
+                                    
+                                            
+
+
+
+    
+    
+
+<div class="module module-listing module-bulk " id="module-emergency-component">
+                                                                                                                             
+    <div class="listing-full-focus-with-label ">
+    <ul class="items"><li>
+
+   <script>var searchNav = document.querySelector('.site-nav__item--sports .site-nav__item-anchor'); searchNav&&searchNav.addEventListener('click', function () {window.location = this.href}, true);</script><style>.site-footer{ z-index:0; } .site-header{ z-index:2; } .content-primary{ z-index:1; } [tabindex]:focus {outline: 0; } .desktop .site-nav__item--shows:hover .site-nav__item-content-icon {top: 113px;right: auto;}.desktop .site-nav__item--shows:hover .site-nav__item-hed {font-size: 16px;max-height: none;float: none;margin: 0px;} .front-door .disqus-comment-count { display: none; } .topic-door .disqus-comment-count { display: none; } .listing-mini-sub .disqus-comment-count { display: none; } .desktop #mantle_skin[class*=cbs-this-morning] .hero-text .title a {color: #e4a21b;font-family: "museo-sans", Helvetica, Roboto, sans-serif;font-size: 30px;font-weight: 700;line-height: 1.1;letter-spacing: -0.05em;}</style></li>
+                </ul></div>                                                        </div>
+
+                                                                    </div>
+                                </div>
+                        </div>
+            </div>
+        </div>
+</div>
+
+            <div id="leader-bottom-59dd1a99dbd1c" class="ad-leader-bottom" data-ad="leader-bottom" style="display:none">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-bottom-59dd1a99dbd1c for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-bottom-59dd1a99dbd1c");
+    </script></div>
+
+        </div>
+
+    
+                    
+<footer class="site-footer content-inverse nocontent"><div class="container">
+                        <div class="row">
+            <div class="col-2 link-block">
+                <h5 class="title">CBSNews.com</h5>
+
+                <ul class="items"><li><a href="https://www.cbsnews.com/sitemap/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Site Map"}' data-invalid-url-rewritten-http="">Site Map</a></li>
+                    <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome2?categories=CBS_Interactive:CBSNews&amp;referer=cbsnews.com/main" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Help"}'>Help</a></li>
+                    <li><a href="http://audienceservices.cbs.com/feedback/feedback.htm" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Contact Us"}'>Contact Us</a></li>
+
+                    <li><a href="https://www.cbsnews.com/team/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|CBS Bios"}' data-invalid-url-rewritten-http="" data-vanity-rewritten="true">CBS Bios</a></li>
+                    <li><a href="https://cbs.avature.net/cbsnewscareers" data-omniture-track-data='{"clickProperty": "Site Footer|Careers"}'>Careers</a></li>
+                    <li><a href="http://www.cbsinteractive.com/careers" data-omniture-track-data='{"clickProperty": "Site Footer|CBSi Careers"}'>CBSi Careers</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-internship-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Internships"}' data-invalid-url-rewritten-http="">Internships</a></li>
+                    <li><a href="https://www.cbsnews.com/news/cbs-news-associates-program/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer|Development Programs"}' data-invalid-url-rewritten-http="">Development Programs</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">CBS Interactive</h5>
+
+                <ul class="items"><li><a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Privacy Policy"}'>Privacy Policy</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/adchoice" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Ad Choice"}'>Ad Choice</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Terms of Use"}'>Terms of Use</a></li>
+                    <li><a href="http://legalterms.cbsinteractive.com/eula" rel="nofollow" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Mobile User Agreement"}'>Mobile User Agreement</a></li>
+                    <li><a href="http://www.cbscorporation.com/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|About CBS"}'>About CBS</a></li>
+                    <li><a href="http://www.cbsinteractive.com/advertise/" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Advertise"}'>Advertise</a></li>
+                    <li><a href="http://cbsimedia.cbs.com/captioning/info.html" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Closed Captioning"}'>Closed Captioning</a></li>
+                    <li><a href="http://www.cbsstore.com/cbs-news-store-home/index.php?v=cbs-news&amp;ecid=PRF-CBS-300538&amp;pa=PRF-CBS-300538" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|CBS News Store"}'>CBS News Store</a></li>
+                </ul></div>
+
+            <div class="col-2 link-block">
+                <h5 class="title">Follow Us</h5>
+
+                <ul class="items"><li><a href="https://www.facebook.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Facebook"}'>Facebook</a></li>
+                    <li><a href="https://twitter.com/CBSNews" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|Twitter"}'>Twitter</a></li>
+                    <li><a href="/rss/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|RSS"}'>RSS</a></li>
+                    <li><a href="https://www.cbsnews.com/newsletters/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|Email Newsletters"}' data-invalid-url-rewritten-http="">Email Newsletters</a></li>
+                    <li><a href="http://www.youtube.com/user/CBSNewsOnline" data-omniture-track="moduleClickCbsNews" data-omniture-track-data='{"moduleInfo": "Site footer|YouTube"}'>YouTube</a></li>
+                    <li><a href="https://www.cbsnews.com/radio/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Radio News"}' data-invalid-url-rewritten-http="">CBS News Radio</a></li>
+                    <li><a href="https://www.cbsnews.com/local/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site footer|CBS Local"}' data-invalid-url-rewritten-http="">CBS Local</a></li>
+                </ul></div>
+
+            <div class="col-4 push-2">
+                <div class="site-brand">
+                    <div class="logo core-logo"><a href="/" data-click-tracking="genericClickCbsNews" data-omniture-track-data='{"clickProperty": "Site Footer-Branding"}'>CBS News</a></div>
+                </div>
+
+                <form class="site-search" action="/search/" method="get" data-component="search" data-search-options='{"path":"https:\/\/www.cbsnews.com\/search\/","param":"q"}'>
+                    <input type="search" class="query" maxlength="255" name="q" placeholder="Search..."><button type="submit" class="submit core-search-footer">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="site-brand">
+                <p class="copyright">Copyright &copy; 2017 CBS Interactive Inc.<br>All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer></div> 
+
+                      
+
+    
+
+<script>
+    var CBSNEWS = CBSNEWS || {};
+        CBSNEWS.ad        = {"gpt":{"targeting":{"device":"desktop","ptype":"category_door","cid":"face-the-nation","env":"prod_alt"},"adConfig":{"network":{"dev":8264,"qa":8264,"prod":8264},"method":"async-inline","regions":[{"region":"uk","countries":["gb","fr","ie","za","bh","kw","om","qa","sa","ae","iq","eg","ye"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","ph","th","id","vn","hk","in"]}],"adUnits":{"intromercial":{"outOfPage":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"skin"}},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250],[300,1050]],"position":"top"},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":false,"eventCallbacks":{"slotRenderEnded":"leaderboardTop"}},"buttonTop":{"sizes":[[88,31]],"position":"top"},"scrollPrestitial":{"sizes":[[980,45]],"position":"top"},"marqueeBottom":{"sizes":[[234,60]],"position":"bottom"},"marquee300Top":{"sizes":[[300,60]],"position":"top"},"marquee300Middle":{"sizes":[[300,60]],"position":"middle"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"leaderBottom":{"sizes":[[728,90],[970,66]],"position":"bottom"},"desktopNativeTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"a832eb3c"}},"nativeShowTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"bf587c26"}},"desktopNativeMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"e0c5ba47"}},"desktopNativeBottom":{"sizes":[[11,11]],"position":"bottom"},"buttonMiddle":{"sizes":[[88,31]],"position":"middle"},"buttonBottom":{"sizes":[[88,31]],"position":"bottom"},"sponsorContentMiddle":{"sizes":[[381,211],[11,11]],"position":"middle","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentMiddle2":{"sizes":[[381,211],[11,11]],"position":"middle2","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentBottom":{"sizes":[[381,211],[11,11]],"position":"bottom","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentTop":{"sizes":[[381,211],[11,11]],"position":"top","customTargeting":{"strnativekey":"9c2290b2"}},"sponsorContentSmallTop":{"sizes":[[301,151],[11,11]],"position":"top","customTargeting":{"strnativekey":"a2ac4296"}},"sponsorContentTextTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"a6c0ce8b"}},"sponsorBar980Top":{"sizes":[[980,36]],"position":"top"},"sponsorBar620Top":{"sizes":[[620,36]],"position":"top"}},"mobile":{"adUnits":{"intromercial":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileBanner1":{"sizes":[[320,50]],"position":1},"mobileBanner2":{"sizes":[[320,50]],"position":2},"mobileBanner3":{"sizes":[[320,50]],"position":3},"mobileMarquee320Top":{"sizes":[[320,60]],"position":"top"},"mobileSponsorContentTextTop":{"sizes":[[300,250],[11,11],"fluid"],"position":"top","customTargeting":{"strnativekey":"454fd857"}},"mobileSponsorcontentTextMiddle":{"sizes":[[300,250],[320,50],[11,11],"fluid"],"position":"middle","customTargeting":{"strnativekey":"454fd857"}},"mobileInlineFlexPos2":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":2,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexPos3":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":3,"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileInlineFlexInc":{"sizes":["fluid",[11,11],[300,250],[320,50]],"position":"inc","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"customTargeting":{"strnativekey":"c0fb202c"}},"mobileNativeTop":{"sizes":[[11,11]],"position":"top"},"mobileNativeGalleryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"289740d4"}},"mobileSponsorcontentCdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"3c5782bf"}},"mobileSponsorcontentVdTop":{"sizes":[[306,77],[11,11]],"position":"top","customTargeting":{"strnativekey":"eba075cc"}}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"amp":{"adUnits":{"ampFlexTop":{"sizes":[[320,50],[300,250]],"position":"top"},"ampFlexBottom":{"sizes":[[320,50],[300,250]],"position":"bottom"},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"ampFlexPos2":{"sizes":[[320,50],[300,250]],"position":2},"ampFlexPos3":{"sizes":[[320,50],[300,250]],"position":3},"ampFlexInc":{"sizes":[[320,50],[300,250]],"position":"inc"},"ampSticky":{"sizes":[[320,50]],"position":"sticky"}}},"siteName":"cbsnews","collapseEmptyDiv":true,"setRefreshUnfilledSlots":false,"setClearUnfilledSlots":true,"disableInitialLoad":false,"disableInitialLoadCompanions":true,"enableHeaderBidding":true,"disableClearTargetingOnInit":true,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["intromercial","leader_top","leader_plus_top","skin","mpu_top","mpu_plus_top","marquee_top","marquee300_top","button_top","sponsor_content_top","sponsor_content_small_top","sponsor_content_text_top","sponsor_bar980_top","sponsor_bar620_top","desktop_native_top","native_show_top","mpu_middle","marquee300_middle","button_middle","desktop_native_middle","sponsor_content_middle","sponsor_content_middle2","desktop_native_bottom","button_bottom","mpu_bottom","leader_bottom","sponsor_content_bottom"],"disableInitialLoadRefresh":"false","disableAdIncrement":false,"enableRepeatedAds":false},"containerId":"59dd1a99dbd1c","slotVars":{"network":"8264","siteName":"cbsnews","collapseEmptyDiv":"1","topics":"face-the-nation/home","platform":"desktop"},"adType":"gpt","adDivIds":["native-show-top-59dd1a99dbd1c","marquee-top-59dd1a99dbd1c","mpu-top-59dd1a99dbd1c","mpu-bottom-59dd1a99dbd1c","intromercial-59dd1a99dbd1c","skin-59dd1a99dbd1c","leader-plus-top-59dd1a99dbd1c","leader-bottom-59dd1a99dbd1c"]},"cookieName":"cbsnews_ad","cookieServicePath":"/ad/ad-cookie/","session":4,"subSession":4,"useFirstPageTargeting":true};
+        CBSNEWS.bsFreq    = 100;
+        CBSNEWS.device    = 'desktop';
+        CBSNEWS.features  = CBSNEWS.features || {};
+        CBSNEWS.tracking  = {"isEnabled":true,"deviceType":"desktop","isDev":"2","pageType":"category_door","siteHier":["face the nation"],"siteSection":"face the nation","siteType":"responsive web","topicId":["62082d22-758d-11e2-9d12-0018fe8a00b0"],"topicName":["face the nation"],"bkSiteId":3330,"limit":4,"siteName":"cbsnews","demographicKeys":["jobFunction","jobCategory","industry","computerProficiency","companySize","gender","ageGroup","country"],"tealium":{"profile":"cbsnewssite","env":"prod"}};
+        CBSNEWS.tracking._adData      = CBSNEWS.ad;
+        CBSNEWS.tracking.pageViewGuid = null; // Set in managers/tealium
+        CBSNEWS.user      = {
+            appId:          '1501',
+            environment:    'LIVE',
+            platform:       '',
+            publicHost:     'www.cbsnews.com',
+            secureHost:     'secure-fly.cbsnews.com',
+            ursVersion:     'v2.2',
+            ursClientToken: '9b0514bf29ca49e1',
+        };
+        CBSNEWS.disqus =  {
+            shortname: 'cbsnews-prod',
+            publicKey: '60EUVoZHyaBJqXJUxAKYfJgUh8NhuUyO88gGQ7aIw8HsbFOwAl9hLtoCyvyld2A8',
+            sso: {
+                name: 'CBSNews',
+                authLoginUrl: 'https://www.cbsnews.com/disqus/sso/login/',
+                authLogoutUrl: 'https://www.cbsnews.com/disqus/sso/logout/',
+                button: 'https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/images/core/logo.png?v=824b038616f99215f329d6c7f12981130387c2c7',
+                icon: 'https://cbsnews4.cbsistatic.com/fly/favicon.ico?v=824b038616f99215f329d6c7f12981130387c2c7',
+                loginUrl: 'https://secure-fly.cbsnews.com/user/registration/?redirectUrl=%2Fdisqus%2Flogin%2F ',
+                logoutUrl: 'https://www.cbsnews.com/user/logout/'
+            }
+        };
+
+
+    var features = ['beanstockSonobi', 'disqus', 'urs'];
+    features.forEach(function(feature) {
+        if (!CBSNEWS.features.hasOwnProperty(feature)) {
+            CBSNEWS.features[feature] = true;
+        }
+    });
+
+    var utag_data = CBSNEWS.tracking;
+
+    var require = {"baseUrl":"https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build","urlArgs":"v=824b038616f99215f329d6c7f12981130387c2c7","config":{"version":{"fly/libs/base64":"0.3.0","fly/libs/easy-xdm-cbsi":"2.4.19.3","fly/libs/jquery.widget":"1.9.2","fly/libs/jquery.cookie":"1.2","fly/libs/jquery.mobile":"1.3.2","fly/libs/jquery.throttle-debounce":"1.1","fly/libs/lazysizes":"1.4.0","fly/libs/omniture.s-code":"1.0","fly/libs/urs":"1.0","fly/utils/data-prefix":"1.0","fly/utils/data-selector":"1.0","fly/utils/function-natives":"1.0","fly/utils/guid":"1.0","fly/utils/log":"1.0","fly/utils/object-helper":"1.0","fly/utils/string-helper":"1.0","fly/utils/string-vars":"1.0","fly/utils/url-helper":"1.0","fly/managers/components":"1.0","fly/managers/cookie":"1.0","fly/managers/debug":"1.0","fly/managers/ad":"2.0","fly/managers/gpt":"4.2","fly/managers/geo":"1.0","fly/managers/image-resolution":"1.0","fly/managers/recurly":"1.0","fly/managers/recurly-billing":"1.0","fly/managers/social-authentication":"1.0","fly/managers/tracking":"1.0","fly/managers/user":"1.0","fly/components/accordion":"1.0","fly/components/alert":"1.0","fly/components/base":"1.0","fly/components/carousel":"1.0","fly/components/credspark":"1.0","fly/components/dependent-field":"1.0","fly/components/dropdown":"1.0","fly/components/form-validate":"1.0","fly/components/iframe-messenger":"1.1","fly/components/image-gallery":"1.0","fly/components/disqus-count":"1.0","fly/managers/disqus":"1.0","fly/components/disqus":"1.0","fly/components/loading":"1.0","fly/components/load-more":"1.0","fly/components/nrelate":"1.0","fly/components/modal":"1.0","fly/components/modal-async":"1.0","fly/components/modal-iframe":"1.0","fly/components/scrollbar":"1.0","fly/components/social-button":"1.0","fly/components/social-counts":"1.1","fly/components/social-links":"1.0","fly/components/tabs":"1.0","fly/managers/clicktale":"1.0","fly/components/poll":"1.0","fly/managers/history":"1.0","libs/fontfaceobserver":"2.0.7","libs/riot":"2.6.2","mpx/libs/uvp":"2.6.1","mpx/libs/hls":"0.7.10.min","fly/components/fixate":"1.0","fly/components/image-gallery-thumb":"1.0"}},"shim":{"tealium":["jquery"]},"map":{"*":{"ima":"//imasdk.googleapis.com/js/sdkloader/ima3.js","gpt":"//www.googletagservices.com/tag/js/gpt.js","anvato":"https://w3.cdn.anvato.net/player/prod/scripts/anvload.js","nrelate":"//c7.static.nrcdn.com/common_js/0.52.1/nr_loader.min.js","urs":"//urs.cbsnews.com/sdk/urs.js","recirc":"//ddlmj2furo6f2.cloudfront.net/addontrain/recommendations/53f6c74c1344a01ee2000139.js","tealium":"//tags.tiqcdn.com/utag/cbsi/cbsnewssite/prod/utag.js","twitter":"https://platform.twitter.com/widgets.js","credspark":"//www.credspark.com/embed.js","yad":"https://s.yimg.com/uq/syndication/yad.js","newsgator":"//nmp.newsgator.com/ngbuzz/load.ashx/buzz","recurly":"https://js.recurly.com/v4/recurly.js","taboola":"//cdn.taboola.com/libtrc/cbsinteractive-cbsnews/loader.js","sharethrough":"//native.sharethrough.com/assets/tag.js","uvp":"//vidtech.cbsinteractive.com/uvpjs/2.5.3/CBSI-PLAYER.js","index_exchange":"//js-sec.indexww.com/ht/ls-cbsnews.js","sonobi":"//mtrx.go.sonobi.com/morpheus.cbsnews.9251.js"}}};
+</script><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=824b038616f99215f329d6c7f12981130387c2c7" as="script"><link rel="preload" href="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.desktop.js?v=824b038616f99215f329d6c7f12981130387c2c7" as="script"><script src="https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/main.js?v=824b038616f99215f329d6c7f12981130387c2c7" data-main="main.desktop" async defer></script></body></html>
